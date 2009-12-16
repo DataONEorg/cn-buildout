@@ -90,6 +90,8 @@ ii  less                              429-2                             pager pr
 ii  libacl1                           2.2.47-2                          Access control list shared library
 ii  libapparmor-perl                  2.3.1+1403-0ubuntu27.2            AppArmor library Perl bindings
 ii  libapparmor1                      2.3.1+1403-0ubuntu27.2            changehat AppArmor library
+ii  libapr1                           1.3.8-1                           The Apache Portable Runtime Library
+ii  libaprutil1                       1.3.9+dfsg-1ubuntu1               The Apache Portable Runtime Utility Library
 ii  libatm1                           2.4.1-17.2                        shared library for ATM (Asynchronous Transfe
 ii  libattr1                          1:2.4.43-3                        Extended attribute shared library
 ii  libbind9-50                       1:9.6.1.dfsg.P1-3ubuntu0.2        BIND9 Shared Library used by BIND
@@ -156,6 +158,7 @@ ii  libmailtools-perl                 2.04-1                            Manipula
 ii  libmpfr1ldbl                      2.4.1-1ubuntu1                    multiple precision floating-point computatio
 ii  libncurses5                       5.7+20090803-2ubuntu2             shared libraries for terminal handling
 ii  libncursesw5                      5.7+20090803-2ubuntu2             shared libraries for terminal handling (wide
+ii  libneon27-gnutls                  0.28.6-1                          An HTTP and WebDAV client library (GnuTLS en
 ii  libnewt0.52                       0.52.10-4ubuntu1                  Not Erik's Windowing Toolkit - text mode win
 ii  libnl1                            1.1-5                             library for dealing with netlink sockets
 ii  libntfs-3g54                      1:2009.4.4-1ubuntu4               ntfs-3g filesystem in userspace (FUSE) libra
@@ -184,6 +187,7 @@ ii  libss2                            1.41.9-1ubuntu3                   command-
 ii  libssl0.9.8                       0.9.8g-16ubuntu3                  SSL shared libraries
 ii  libstdc++6                        4.4.1-4ubuntu8                    The GNU Standard C++ Library v3
 ii  libsub-name-perl                  0.04-1                            Assigns a new name to referenced sub
+ii  libsvn1                           1.6.5dfsg-1ubuntu1                Shared libraries used by Subversion
 ii  libtasn1-3                        2.2-1                             Manage ASN.1 structures (runtime)
 ii  libterm-readkey-perl              2.30-4                            A perl module for simple terminal control
 ii  libtext-charwidth-perl            0.04-5build1                      get display widths of characters on the term
@@ -305,6 +309,7 @@ ii  sed                               4.2.1-1                           The GNU 
 ii  sgml-base                         1.26                              SGML infrastructure and SGML catalog file su
 ii  shared-mime-info                  0.70-0ubuntu1                     FreeDesktop.org shared MIME database and spe
 ii  strace                            4.5.18-1ubuntu2                   A system call tracer
+ii  subversion                        1.6.5dfsg-1ubuntu1                Advanced version control system
 ii  sudo                              1.7.0-1ubuntu2                    Provide limited super user privileges to spe
 ii  sysv-rc                           2.87dsf-4ubuntu12                 System-V-like runlevel change mechanism
 ii  sysvinit-utils                    2.87dsf-4ubuntu12                 System-V-like utilities
