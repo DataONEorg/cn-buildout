@@ -1,11 +1,15 @@
 # Makefile for creating the DataONE CN build
-#
+# Matt Jones, 15 Dec 2009
 
-# You can set these variables from the command line.
+# The list of packages to build
+PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb
+
+# The output directory for debian files
 BUILDDIR      = build
-DPKG_DEB      = dpkg-deb
 
-.PHONY: help clean deb builddir
+# Other settings
+DPKG_DEB      = dpkg-deb
+.SUFFIXES: .deb
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
@@ -13,11 +17,12 @@ help:
 	@echo "  clean     to remove the build directory"
 
 clean:
-	-rm -rf $(BUILDDIR)/*
+	-rm -rf $(BUILDDIR)
 
 builddir:
 	mkdir -p $(BUILDDIR)
 
-deb: builddir
-	$(DPKG_DEB) -b dataone-cn-os-core $(BUILDDIR)
-	@echo "Building deb finished. The packages are in $(BUILDDIR)."
+deb: builddir $(PKGS)
+
+$(PKGS):
+	$(DPKG_DEB) -b $* $(BUILDDIR)
