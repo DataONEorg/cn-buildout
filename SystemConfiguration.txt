@@ -1,0 +1,38 @@
+Coordinating Node System Configuration
+======================================
+This file represents a log of system configuration that needs to be done on
+the CN instances.  Many of these settings will be already done for the CN
+virtual machines, but some settings will need to be changed in order to run
+multiple instances of the CN at different sites.
+
+OS
+--
+Install Ubuntu 9.10.  Plan to use Ubuntu 10.4 LTS release, so building off
+of 9.10 as this is the closest OS to that release.  Install standard server
+install.
+
+HOST AND NETWORK
+----------------
+* Assign IP on local network, configure DHCP, DNS, hostname, etc.
+* Create local sysadmin accounts for brand and jones, enable sudo through
+  group 'admin'
+
+PAM-LDAP
+--------
+* During install of libnss-ldap, configure LDAP to point at ldap.ecoinformatics.org
+* Edit /etc/ldap.conf to configure LDAP to use TLS, etc.
+* To enable LDAP logins:
+    root@cn-dev:/var/log# auth-client-config -t nss -p lac_ldap
+    root@cn-dev:/var/log# pam-auth-update 
+
+
+* To disable LDAP logins:
+    root@cn-dev:/var/log# auth-client-config -r -t nss -p lac_ldap
+    root@cn-dev:/var/log# pam-auth-update 
+
+Still struggling with restricting ldap logins to just a single group.
+
+FIREWALL
+--------
+* To be done
+
