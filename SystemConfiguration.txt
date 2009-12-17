@@ -32,6 +32,10 @@ PAM-LDAP
 
 Still struggling with restricting ldap logins to just a single group.
 
+TODO:: Enable SSL
+TODO:: Fix pam_groupdn
+TODO:: Install ldap certificates
+
 FIREWALL
 --------
 * To be done
