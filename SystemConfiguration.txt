@@ -21,22 +21,25 @@ PAM-LDAP
 --------
 * During install of libnss-ldap, configure LDAP to point at ldap.ecoinformatics.org
 * Edit /etc/ldap.conf to configure LDAP to use TLS, etc.
+    * set pam_groupdn to point at an appropriate group
+    * set pam_member_attribute to "uniqueMember"
+    * Copy the LDAP server certificate to this host in /etc/ssl/certs
+    * set tlscacert to point at this certificate, and turn on starttls
 * To enable LDAP logins:
-    root@cn-dev:/var/log# auth-client-config -t nss -p lac_ldap
-    root@cn-dev:/var/log# pam-auth-update 
-
-
+    * root@cn-dev:/var/log# auth-client-config -t nss -p lac_ldap
+    * root@cn-dev:/var/log# pam-auth-update 
+    * edit /etc/nsswitch.conf and remove 'ldap' from the shadow line 
+	(this interferes with the group filter in pam_groupdn if not removed
 * To disable LDAP logins:
-    root@cn-dev:/var/log# auth-client-config -r -t nss -p lac_ldap
-    root@cn-dev:/var/log# pam-auth-update 
+    * root@cn-dev:/var/log# auth-client-config -r -t nss -p lac_ldap
+    * root@cn-dev:/var/log# pam-auth-update 
 
-Still struggling with restricting ldap logins to just a single group.
-
-TODO:: Enable SSL
-TODO:: Fix pam_groupdn
-TODO:: Install ldap certificates
 
 FIREWALL
 --------
 * To be done
+
+APACHE
+------
+TODO:: install dataone.org wildcard cert
 
