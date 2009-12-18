@@ -37,7 +37,11 @@ PAM-LDAP
 
 FIREWALL
 --------
-* To be done
+* Added 'ufw' package to the dataone-cn-os-core package
+* after deb install, run:
+    * ufw enable
+    * ufw allow ssh
+    * ufw default deny
 
 APACHE
 ------
