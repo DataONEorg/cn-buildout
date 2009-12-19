@@ -45,5 +45,18 @@ FIREWALL
 
 APACHE
 ------
+* Added apache2 to metacat dependency list
 TODO:: install dataone.org wildcard cert
 
+JAVA
+----
+* Added sun-java6-jdk to metacat dependency list
+    * careful to not introduce dependencies on gcj, which is seriously broken
+* Added tomcat6 to metacat dependency list
+TODO:: need solution for installing Ant (maybe), and need to customize the
+        tomcat and apache configurations
+
+POSTGRES
+--------
+* Added postgresql to the metacat dependency list
+TODO:: need to configure postgres for metacat access, create database
