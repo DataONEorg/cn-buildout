@@ -5,11 +5,19 @@ the CN instances.  Many of these settings will be already done for the CN
 virtual machines, but some settings will need to be changed in order to run
 multiple instances of the CN at different sites.
 
+The CN buildout has been automated by creating a series of debian packages that are build and installed using a custom Makefile.  To build a coordinating node from scratch, one should only need to install the base OS, upgrade it to catch security updates, and then run:
+
+    make install
+
+at the root of the CN buildout.
+
+Notes on various components that make up the CN node are included below.
+
 OS
 --
 Install Ubuntu 9.10.  Plan to use Ubuntu 10.4 LTS release, so building off
 of 9.10 as this is the closest OS to that release.  Install standard server
-install.
+install.  The run apt-get update; apt-get dist-upgrade to keep packes in sync.
 
 HOST AND NETWORK
 ----------------
@@ -17,6 +25,11 @@ HOST AND NETWORK
 * Create local sysadmin accounts for brand and jones, enable sudo through
   group 'admin'
 
+OS CORE
+-------
+* Created package dataone-os-core to contain dependencies on packages that we
+  need to configure the OS but which are not part of the standard install
+* 
 PAM-LDAP
 --------
 * During install of libnss-ldap, configure LDAP to point at ldap.ecoinformatics.org
@@ -33,7 +46,7 @@ PAM-LDAP
 * To disable LDAP logins:
     * root@cn-dev:/var/log# auth-client-config -r -t nss -p lac_ldap
     * root@cn-dev:/var/log# pam-auth-update 
-
+TODO:: Add all of these commands to a postinst script for the dataone-os-core package
 
 FIREWALL
 --------
@@ -54,10 +67,28 @@ JAVA
 * Added sun-java6-jdk to metacat dependency list
     * careful to not introduce dependencies on gcj, which is seriously broken
 * Added tomcat6 to metacat dependency list
-TODO:: need solution for installing Ant (maybe), and need to customize the
-        tomcat and apache configurations
+TODO:: need to customize the tomcat and apache configurations
 
 POSTGRES
 --------
 * Added postgresql to the metacat dependency list
-TODO:: need to configure postgres for metacat access, create database
+
+METACAT
+-------
+* Created debian package dataone-cn-metacat to handle the metacat installation
+* Added packages needed for metacat to the control file dependency list
+* Added a postinst script to handle the actual installation and configuration of metacat
+* Tomcat needed to be customized to support metacat, by configuring the KNB app in the postinst script.
+* Tomcat6 by default restricts permissions on logging, so the 51metacat.policy script was added to allow logging operations by metacat and geoserver
+TODO:: Restrict the permissions granted in the 51metacat.policy file to something more reasonable
+TODO:: Install the ssl apache configuration to use the SSL server (may not be needed if all calls are local to metacat -- may only need SSL on the wrapper services)
+TODO:: Eliminate hardcoding in the metacat postinst script -- it is too brittle
+
+MERCURY
+-------
+TODO:: Create a dataone-cn-mercury package to place the mercury files in place
+
+CN SERVICE
+----------
+TODO:: Create the wrapper scripts that expose CN services, and point them at the appropriate Metacat and Mercury functions
+TODO:: Create a dataone-cn-service-api package to install the CN SERVICE layer
