@@ -33,7 +33,8 @@ builddir:
 deb: builddir $(PKGS)
 
 $(PKGS):
-	svn export --force $* $(BUILDDIR)/sources/$*
+	cp -r $* $(BUILDDIR)/sources/$*
+	find $(BUILDDIR)/sources/$* -name .svn | xargs rm -rf
 	cd $(BUILDDIR)/sources && $(DPKG_DEB) -b $* ..
 
 publish: deb
