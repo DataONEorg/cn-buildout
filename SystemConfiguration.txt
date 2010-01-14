@@ -28,8 +28,13 @@ HOST, NETWORK AND ACCOUNTS
 
     cn-dev.dataone.org -> 128.111.220.50
 
-* Accounts are controlled through LDAP, with any valid LDAP account on ldap.ecoinformatics.org that is also in the group dataone-sysadmin eligible for access. 
-    See below for LDAP configuration
+* Accounts are controlled through LDAP. (See below for LDAP system 
+  configuration).  To be able to login, the user must:
+    1) have a valid LDAP account on ldap.ecoinformatics.org
+    2) Be added to the dataone-sysadmin group
+    3) Have valid homedir, shell, and other posix attributes in their ldap
+    entry
+    4) Have a home directory on cn-dev with skel files
 
 * Administrator is: brand
 * Additional accounts with sudo root access: jones, vieglais
