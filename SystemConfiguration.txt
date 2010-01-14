@@ -86,7 +86,9 @@ TODO:: Eliminate hardcoding in the metacat postinst script -- it is too brittle
 
 MERCURY
 -------
-TODO:: Create a dataone-cn-mercury package to place the mercury files in place
+* Created a dataone-cn-mercury package to be used to enumerate mercury
+    dependencies and put mercury software in place on the system
+TODO:: This is just a stub and Mercury needs to be configured and installed still
 
 CN SERVICE
 ----------

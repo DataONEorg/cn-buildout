@@ -2,7 +2,7 @@
 # Matt Jones, 15 Dec 2009
 
 # The list of packages to build
-PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb
+PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb dataone-cn-mercury.deb
 
 # The temporary build output directory
 BUILDDIR      = build
@@ -44,5 +44,5 @@ publish: deb
 install: publish
 	@echo "Let's run apt-get install now."
 	apt-get update
-	apt-get install dataone-cn-metacat
+	apt-get install dataone-cn-metacat dataone-cn-mercury
 
