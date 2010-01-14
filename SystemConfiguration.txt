@@ -19,11 +19,22 @@ Install Ubuntu 9.10.  Plan to use Ubuntu 10.4 LTS release, so building off
 of 9.10 as this is the closest OS to that release.  Install standard server
 install.  The run apt-get update; apt-get dist-upgrade to keep packes in sync.
 
-HOST AND NETWORK
-----------------
+HOST, NETWORK AND ACCOUNTS
+---------------------------
 * Assign IP on local network, configure DHCP, DNS, hostname, etc.
 * Create local sysadmin accounts for brand and jones, enable sudo through
   group 'admin'
+* Host for development server is:
+
+    cn-dev.dataone.org -> 128.111.220.50
+
+* Accounts are controlled through LDAP, with any valid LDAP account on ldap.ecoinformatics.org that is also in the group dataone-sysadmin eligible for access. 
+    See below for LDAP configuration
+
+* Administrator is: brand
+* Additional accounts with sudo root access: jones, vieglais
+* Additional accounts: daigle, dahl, palanisamy
+
 
 OS CORE
 -------
@@ -34,7 +45,7 @@ PAM-LDAP
 --------
 * During install of libnss-ldap, configure LDAP to point at ldap.ecoinformatics.org
 * Edit /etc/ldap.conf to configure LDAP to use TLS, etc.
-    * set pam_groupdn to point at an appropriate group
+    * set pam_groupdn to point at an appropriate group (dataone-sysadmin)
     * set pam_member_attribute to "uniqueMember"
     * Copy the LDAP server certificate to this host in /etc/ssl/certs
     * set tlscacert to point at this certificate, and turn on starttls
@@ -67,7 +78,6 @@ JAVA
 * Added sun-java6-jdk to metacat dependency list
     * careful to not introduce dependencies on gcj, which is seriously broken
 * Added tomcat6 to metacat dependency list
-TODO:: need to customize the tomcat and apache configurations
 
 POSTGRES
 --------
