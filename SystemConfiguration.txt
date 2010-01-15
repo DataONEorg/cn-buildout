@@ -106,7 +106,6 @@ METACAT
 * Tomcat needed to be customized to support metacat, by configuring the KNB app in the postinst script.
 * Tomcat6 by default restricts permissions on logging, so the 51metacat.policy script was added to allow logging operations by metacat and geoserver
 TODO:: Restrict the permissions granted in the 51metacat.policy file to something more reasonable
-TODO:: Install the ssl apache configuration to use the SSL server (may not be needed if all calls are local to metacat -- may only need SSL on the wrapper services)
 TODO:: Eliminate hardcoding in the metacat postinst script -- it is too brittle
 
 MERCURY
