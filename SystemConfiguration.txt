@@ -45,7 +45,7 @@ OS CORE
 -------
 * Created package dataone-os-core to contain dependencies on packages that we
   need to configure the OS but which are not part of the standard install
-* 
+ 
 PAM-LDAP
 --------
 * During install of libnss-ldap, configure LDAP to point at ldap.ecoinformatics.org
@@ -62,7 +62,8 @@ PAM-LDAP
 * To disable LDAP logins:
     * root@cn-dev:/var/log# auth-client-config -r -t nss -p lac_ldap
     * root@cn-dev:/var/log# pam-auth-update 
-TODO:: Add all of these commands to a postinst script for the dataone-os-core package
+* Added all of these files to the dataone-os-core package so they are put in place properly
+TODO:: Check if the ecoinfo-cacert.pem is needed and if so install it
 
 FIREWALL
 --------
@@ -72,6 +73,7 @@ FIREWALL
     * ufw allow ssh
     * ufw allow http
     * ufw default deny
+* Added these commands to thepostinst script in dataone-os-core
 
 APACHE
 ------
