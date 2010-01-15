@@ -85,7 +85,8 @@ APACHE
 * Added certs for dataone.org to the dataone-os-core package
     * however, can't add the private key file here for security reasons -- that
       will need to be distributed securely.
-TODO:: install dataone.org wildcard cert
+* Some of the SSL configuration is in the Metacat package as part of the vhost config
+    * may want to reconsider this, install SSL in the os-core package to avoid setup conflicts between Metacat and Mercury
 
 JAVA
 ----
