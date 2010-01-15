@@ -17,7 +17,11 @@ OS
 --
 Install Ubuntu 9.10.  Plan to use Ubuntu 10.4 LTS release, so building off
 of 9.10 as this is the closest OS to that release.  Install standard server
-install.  The run apt-get update; apt-get dist-upgrade to keep packes in sync.
+install.  The run apt-get update; apt-get dist-upgrade to keep packages in sync.
+Afterwards, need to modify the sources.list to create a new local repository for the packages that we will generate:
+$ sudo mkdir -p /var/dataone/apt
+$ echo "deb file:/var/dataone/apt karmic universe" >> /etc/apt/sources.list
+
 
 HOST, NETWORK AND ACCOUNTS
 ---------------------------
@@ -78,6 +82,9 @@ FIREWALL
 APACHE
 ------
 * Added apache2 to metacat dependency list
+* Added certs for dataone.org to the dataone-os-core package
+    * however, can't add the private key file here for security reasons -- that
+      will need to be distributed securely.
 TODO:: install dataone.org wildcard cert
 
 JAVA
