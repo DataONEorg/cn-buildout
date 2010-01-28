@@ -105,7 +105,7 @@ METACAT
 * Added a postinst script to handle the actual installation and configuration of metacat
 * Tomcat needed to be customized to support metacat, by configuring the KNB app in the postinst script.
 * Tomcat6 by default restricts permissions on logging, so the 51metacat.policy script was added to allow logging operations by metacat and geoserver
-TODO:: Restrict the permissions granted in the 51metacat.policy file to something more reasonable
+* Restricted the permissions granted in the 51metacat.policy file to only apply to the metacat code
 TODO:: Eliminate hardcoding in the metacat postinst script -- it is too brittle
 
 MERCURY
@@ -117,4 +117,4 @@ TODO:: This is just a stub and Mercury needs to be configured and installed stil
 CN SERVICE
 ----------
 TODO:: Create the wrapper scripts that expose CN services, and point them at the appropriate Metacat and Mercury functions
-TODO:: Create a dataone-cn-service-api package to install the CN SERVICE layer
+TODO:: Create a dataone-cn-service package to install the CN SERVICE layer
