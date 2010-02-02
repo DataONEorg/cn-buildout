@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_npwrc_b_bisonbiblio.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Plumb, Glenn. E., Jerrold L.Dodd, and J. Brad Stelfox</origin>
+<pubdate>1992</pubdate>
+<title>A Bibliography on Bison</title>
+<edition>Version 02FEB99</edition>
+<geoform>Bibliography</geoform>
+<pubinfo>
+<pubplace>Laramie, Wyoming</pubplace>
+<publish>University of Wyoming, Agricultural Experiment Station</publish>
+</pubinfo>
+<othercit>Northern Prairie Wildlife Research Center Home Page</othercit>
+<onlink>http://www.npwrc.usgs.gov/resource/1999/bisonbib/bisonbib.htm</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This bibliography lists literature (including selected agency reports and unpublished theses) on North American bison (Bison bison) with selected literature concerning European bison (Bison bonasus) also included.</abstract>
+<purpose>The purpose in compiling this bibliography is to provide a useful reference source for biologists conducting research on bison.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>1992</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>North America and Europe</descgeog>
+<bounding>
+<westbc>-165</westbc>
+<eastbc>60</eastbc>
+<northbc>70</northbc>
+<southbc>30</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>bison</themekey>
+<themekey>bibliography</themekey>
+<themekey>classification and paleoecology</themekey>
+<themekey>social organization and behavior</themekey>
+<themekey>foraging and habitat ecology</themekey>
+<themekey>growth and bioenergentics</themekey>
+<themekey>diseases and parasites</themekey>
+<themekey>census and capture techniques</themekey>
+<themekey>herd status and management</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>North America</placekey>
+<placekey>Europe</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>North American bison</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Subphylum</taxonrn>
+<taxonrv>Vertebrata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Mammalia</taxonrv>
+<taxoncl>
+<taxonrn>Subclass</taxonrn>
+<taxonrv>theria</taxonrv>
+<taxoncl>
+<taxonrn>Infraclass</taxonrn>
+<taxonrv>Eutheria</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Artiodactyla</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Bovidae</taxonrv>
+<taxoncl>
+<taxonrn>Subfamily</taxonrn>
+<taxonrv>Bovinae</taxonrv>
+<common>North American Bison</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Bos</taxonrv>
+<common>bison</common>
+<common>true cattle</common>
+<common>oxen</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Glenn Plumb</cntper>
+<cntorg>Yellowstone National Park</cntorg>
+</cntperp>
+<cntpos>Supervisory Wildlife Biologist</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<city>Yellowstone National Park</city>
+<state>Wyoming</state>
+<postal>82190</postal>
+</cntaddr>
+<cntvoice>307-344-2022</cntvoice>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>Plumb, Glenn. E., Jerrold L. Dodd, and J. Brad Stelfox</origin>
+<pubdate>1992</pubdate>
+<title>A bibliography on bison (Bison bison)</title>
+<geoform>Journal article</geoform>
+<pubinfo>
+<pubplace>Laramie, Wyoming</pubplace>
+<publish>University of Wyoming, Agricultural Experiment Station</publish>
+</pubinfo>
+<othercit>Mp-71, 23 pages</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<logic>not applicable</logic>
+<complete>Since the list is meant for those biologists conducting research on bison, this list does not include popular articles with little scientific merit. We have also omitted the historical and archeological literature except where relevant discussion applies to bison biology or management.</complete>
+<lineage>
+<procstep>
+<procdesc>The authors compiled literature concerning the European bison including selected agency reports and unpublished theses.</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>Based on local reference names.</indspref>
+</spdoinfo>
+<eainfo>
+<overview>
+<eaover>Entity - Bison; Associated attributes - bibliography - classification and paleoecology, social organization and behavior, foraging and habitat ecology, growth and bioenergentics, diseases and parasites, census and capture techniques, herd status and management.</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Tom Sklebar</cntper>
+<cntorg>U.S. Geological Survey, Northern Prairie Wildlife Research Center</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>8711 37th Street, S.E.</address>
+<city>Jamestown</city>
+<state>North Dakota</state>
+<postal>58401</postal>
+</cntaddr>
+<cntvoice>701-253-5500, 701-253-5554</cntvoice>
+<cntfax>701-253-5553</cntfax>
+<cntemail>tom_sklebar@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a U.S. Geological Survey server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20020131</metd>
+<metfrd>20030131</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>19920101</begdate><enddate>19921231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_npwrc_b_bisonbiblio.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

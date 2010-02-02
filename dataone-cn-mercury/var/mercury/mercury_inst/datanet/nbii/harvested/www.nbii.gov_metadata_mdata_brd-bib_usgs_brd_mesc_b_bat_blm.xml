@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_mesc_b_bat_blm.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Thomas J. O'Shea</origin>
+<origin>Midcontinent Ecological Science Center</origin>
+<pubdate>19991019</pubdate>
+<title>
+Bat use of abandoned mines on BLM lands in
+southwestern Montana 1997-1998
+</title>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+This data set provides information on the use by
+bats of abandoned mine workings (77 adits, 96
+"shafts" and pits) at 88 mine sites in
+southwestern Montana that were investigated in
+1997-98.  Locations are recorded in tabular form
+in a final report.  Many of the sites were
+recorded on a differentially correctable Trimble
+Geoexplorer II GPS unit, but not all sites have
+GPS determined locations.  All sites were recorded
+to quarter-quarter Section precision as described
+in tables in the final report.  Data are not in a
+GIS.  Bat use was determined by trapping or
+netting at mine entrances, or remotely recording
+echolocation activity with ultrasonic sensors.
+Presence of guano was also used to ascertain use
+by bats.  Evidence of bat use was obtained at 66
+workings of 49 mine sites, as documented in the
+final report.  Four species of bats were confirmed
+using workings, based on captures of 64
+individuals.  All data in this report have been
+provided to resource managers at the Bureau of
+Land Management, Dillon Resource Area, Dillon, MT.
+</abstract>
+<purpose>
+Abandoned mine openings will be closed by the
+Bureau of Land Management for safety.  Locations
+with evidence of use by bats may be gated rather
+than closed.  This data set documents evidence of
+use by bats at some of these sites to assist in
+decisions to close or gate mine openings.
+</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19970805</begdate>
+<enddate>19981208</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Southwestern Montana</descgeog>
+<bounding>
+<westbc>-112.9203</westbc>
+<eastbc>-111.9392</eastbc>
+<northbc>45.71972</northbc>
+<southbc>45.24556</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+
+</theme><theme>
+<themekt>None</themekt>
+
+<themekey>Bats</themekey>
+<themekey>Abandoned mines</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Beaverhead County</placekey>
+<placekey>Madison County</placekey>
+<placekey>Silver Bow County</placekey>
+<placekey>Dillon Resource Area</placekey>
+<placekey>Montana</placekey>
+<placekey>MT</placekey>
+<placekey>USA</placekey>
+</place>
+<temporal>
+<tempkt>None</tempkt>
+<tempkey>1997 1998</tempkey>
+</temporal>
+</keywords>
+<taxonomy>
+
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>Myotis ciliolabrum</taxonkey>
+<taxonkey>Eptesicus fuscus</taxonkey>
+<taxonkey>Bats</taxonkey>
+<taxonkey>Chiroptera</taxonkey>
+<taxonkey>Corynorhinus townsendii</taxonkey>
+<taxonkey>Myotis evotis</taxonkey>
+</keywtax>
+
+
+
+
+
+
+
+  <taxoncl>
+    <taxonrn>Kingdom</taxonrn>
+    <taxonrv></taxonrv>
+
+    <taxoncl>
+      <taxonrn>Phylum</taxonrn>
+      <taxonrv></taxonrv>
+
+      <taxoncl>
+        <taxonrn>Class</taxonrn>
+        <taxonrv></taxonrv>
+
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv></taxonrv>
+
+          <taxoncl>
+            <taxonrn>Family</taxonrn>
+            <taxonrv></taxonrv>
+
+            <taxoncl>
+              <taxonrn>Genus</taxonrn>
+              <taxonrv></taxonrv>
+
+              <taxoncl>
+                <taxonrn>Species</taxonrn>
+                <taxonrv></taxonrv>
+                <common>bats</common>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxoncl>
+  </taxoncl>
+</taxoncl>
+<taxongen>Chiroptera</taxongen>
+
+  <taxoncl>
+    <taxonrn>Kingdom</taxonrn>
+    <taxonrv></taxonrv>
+
+    <taxoncl>
+      <taxonrn>Phylum</taxonrn>
+      <taxonrv></taxonrv>
+
+      <taxoncl>
+        <taxonrn>Class</taxonrn>
+        <taxonrv></taxonrv>
+
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv></taxonrv>
+
+          <taxoncl>
+            <taxonrn>Family</taxonrn>
+            <taxonrv></taxonrv>
+
+            <taxoncl>
+              <taxonrn>Genus</taxonrn>
+              <taxonrv></taxonrv>
+
+              <taxoncl>
+                <taxonrn>Species</taxonrn>
+                <taxonrv></taxonrv>
+                <common></common>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxoncl>
+  </taxoncl>
+</taxoncl>
+<taxongen>Mammalia; Chiroptera; bats</taxongen>
+</taxonomy>
+<accconst>unknown</accconst>
+<useconst>unknown</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Thomas J. O'Shea</cntper>
+<cntorg>Midcontinent Ecological Science Center (MESC)</cntorg>
+</cntperp>
+<cntpos>Project Officer</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>4512 Mc Murry Ave</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80525-3400</postal>
+</cntaddr>
+<cntvoice>970-226-9397</cntvoice>
+</cntinfo>
+</ptcontac>
+<datacred>
+Paul Hendricks, Michelle Brown, Janelle Corn, Pete
+Feigley, Montana Natural Heritage Program.  David
+Kampwerth, Dillon Resource Area BLM.  Sam
+Martinez, State of Montana.
+</datacred>
+</idinfo>
+<metainfo>
+<metd>19991019</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Thomas J. O'Shea</cntper>
+<cntorg>Midcontinent Ecological Science Center (MESC)</cntorg>
+</cntperp>
+<cntpos>Project Officer</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>4512 Mc Murry Ave</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80525-3400</postal>
+</cntaddr>
+<cntvoice>970-226-9397</cntvoice>
+</cntinfo>
+</metc>
+<metstdn>
+NBII Content Standard for National Biological
+Information Infrastructure Metadata
+</metstdn>
+<metstdv>December 1995</metstdv>
+</metainfo>
+<mercury><begdate>19970805</begdate><enddate>19981208</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_mesc_b_bat_blm.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

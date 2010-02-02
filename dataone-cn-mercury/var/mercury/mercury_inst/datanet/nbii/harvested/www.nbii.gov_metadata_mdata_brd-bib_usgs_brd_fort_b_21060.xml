@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21060.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R.T</origin>
+<pubdate>2002</pubdate>
+<title>Impact of controlled streamflows on the size of stream bed sediment</title>
+<geoform>publication</geoform>
+<othercit>pages 1-13</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>2002</pubdate>
+<title>Fourth International Ecohydraulics Conference, March 4-8, 2002, Capetown, South Africa</title>
+<geoform>Proceedings</geoform>
+<othercit>pages 1-13</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Milhous, R.T. 2002. Impact of controlled streamflows on the size of stream bed sediment. In: . Fourth International Ecohydraulics Conference, March 4-8, 2002, Capetown, South Africa. : . p. 1-13.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>sediment</themekey>
+<themekey>stream bed</themekey>
+<themekey>water management</themekey>
+<themekey>instream flow needs</themekey>
+<themekey>sediment size</themekey>
+<themekey>river reservoirs</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Milhous, R.T.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R.T</origin>
+<pubdate>2003</pubdate>
+<title>Reconnaissance-level application of physical habitat simulation in the evaluation of physical habitat limits in the Animas Basin, Colorado</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>USGS Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>16 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21011/21011.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R.T</origin>
+<pubdate>2006</pubdate>
+<title>Observations on the fate of fine sediment in modified rivers</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Bozeman, MT</pubplace>
+<publish>Whirling Disease Foundation</publish>
+</pubinfo>
+<othercit>pages 62-63</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R.T. and J. Fleming</origin>
+<pubdate>2004</pubdate>
+<title>Suspended and substrate sediment sizes of the lower Rio Puerco, New Mexico</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>Colorado State University</publish>
+</pubinfo>
+<othercit>pages 157-166</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R. T</origin>
+<pubdate>1998</pubdate>
+<title>Streamflows and sediment transport capacity in the Upper Animas Basin, Colorado</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Atherton, CA</pubplace>
+<publish>Hydrology Days Publications</publish>
+</pubinfo>
+<othercit>pages 177-1</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>1998</pubdate>
+<title>Streamflows and sediment transport capacity in the Upper Animas Basin, Colorado</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Atherton, CA</pubplace>
+<publish>Hydrology Days Publications</publish>
+</pubinfo>
+<othercit>pages 177-1</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R.T</origin>
+<pubdate>1998</pubdate>
+<title>Modelling of instream flow needs: the link between sediment and aquatic habitat</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Regulated Rivers: Research &amp; Management (ISSN 0886-9375)</sername>
+<issue>14:79-94</issue>
+</serinfo>
+<othercit>Vol. 14 pages 79-94</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Milhous, R.T.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Impact of controlled streamflows on the size of stream bed sediment.  FORT Library Archive Number: 2002/0077 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21060.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

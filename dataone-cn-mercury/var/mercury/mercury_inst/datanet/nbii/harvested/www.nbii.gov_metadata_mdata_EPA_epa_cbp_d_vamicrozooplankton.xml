@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/EPA/epa_cbp_d_vamicrozooplankton.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>
+Dan Dauer, Kenneth Carpenter, Harold Marshall, Old
+Dominion University.
+</origin>
+<pubdate>1999</pubdate>
+<title>
+Chesapeake Bay Monitoring Program: Lower
+Chesapeake Bay Microzooplankton Study (January
+1993 through December 1999)
+</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Annapolis, Maryland</pubplace>
+<publish>
+U.S. Environmental Protection Agency, Chesapeake
+Bay Program administered by Virginia Department of
+Environmental Quality
+</publish>
+</pubinfo>
+<onlink>www.chesapeakebay.net</onlink>
+<lworkcit>
+<citeinfo>
+<origin>Jacqueline Johnson</origin>
+<pubdate>19981321</pubdate>
+<title>Chesapeake Bay Program Plankton Database</title>
+<edition>Version 2.0</edition>
+<geoform>database</geoform>
+<pubinfo>
+<pubplace>Annapolis, MD</pubplace>
+<publish>US EPA Chesapeake Bay Program</publish>
+</pubinfo>
+<onlink>www.chesapeakebay.net</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+This data set describes the seasonal composition
+and abundance of the microzooplankton in the lower
+Chesapeake Bay and 4 major tributaries.  This
+category includes zooplankters less than 200
+microns in size.  Emphasis is on the temporal and
+spatial distribution and composition patterns of
+the major microzooplankton categories, and their
+relationships to water quality variables and other
+plankton components.  These microzooplankton
+include copepod nauplii, barnacle nauplii,
+rotifers, loricated and non-loricated ciliates,
+polychaete larvae, cladocerans, sarcodinids, and
+others.
+</abstract>
+<purpose>
+The initial objective of this study is to
+determine the seasonal composition and abundance
+of the microzooplankton in the lower Chesapeake
+Bay and 4 major tributaries.
+</purpose>
+<supplinf>
+Information for this metadata was adapted from the
+Environmental Protection Agency Chesapeake Bay
+Program data page web site -
+www.chesapeakebay.net/data/index.htm.  If above
+web sites change go to
+http://www.chesapeakebay.net.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19930104</begdate>
+<enddate>19991216</enddate>
+</rngdates>
+</timeinfo>
+<current>observed</current>
+</timeperd>
+<status>
+<progress>In work</progress>
+<update>Annually</update>
+</status>
+<spdom>
+<descgeog>
+Lower Chesapeake Bay and its Tidal Tributaries in
+the Commonwealth of Virginia
+</descgeog>
+<bounding>
+<westbc>-77.233</westbc>
+<eastbc>-76.0106</eastbc>
+<northbc>38.019</northbc>
+<southbc>36.7697</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+
+</theme><theme>
+<themekt>None</themekt>
+
+<themekey>microzooplankton counts</themekey>
+<themekey>microzooplankton densities</themekey>
+<themekey>microzooplankton monitoring</themekey>
+<themekey>microzooplankton taxon</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Virginia</placekey>
+<placekey>lower Chesapeake Bay and tidal tributaries</placekey>
+<placekey>Main Channel, Mid-Bay</placekey>
+<placekey>Eastern Shore Channel, Southern End</placekey>
+<placekey>Baltimore Channel, Bay Mouth</placekey>
+<placekey>Off Mouth of Rappahannock River</placekey>
+<placekey>Off Mouth of York River</placekey>
+<placekey>Off Mouth of James River</placekey>
+<placekey>South Branch Elizabeth River</placekey>
+<placekey>Rappahannock River</placekey>
+<placekey>Pamunkey River, Off White House</placekey>
+<placekey>York River, Buoy C57</placekey>
+<placekey>James River, Red Buoy 107</placekey>
+<placekey>James River, Off Swann's Point</placekey>
+<placekey>VA</placekey>
+<placekey>USA</placekey>
+</place>
+</keywords>
+<taxonomy>
+
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>copepod nauplii</taxonkey>
+<taxonkey>barnacle nauplii</taxonkey>
+<taxonkey>rotifers</taxonkey>
+<taxonkey>loricated ciliates</taxonkey>
+<taxonkey>non-loricated ciliates</taxonkey>
+<taxonkey>polychaete larvae</taxonkey>
+<taxonkey>cladocerans</taxonkey>
+<taxonkey>sarcodinids</taxonkey>
+</keywtax>
+
+
+
+
+
+
+
+
+</taxonomy>
+<taxonomy>
+
+  <taxoncl>
+    <taxonrn>Kingdom</taxonrn>
+    <taxonrv>Animal</taxonrv>
+
+    <taxoncl>
+      <taxonrn>Phylum</taxonrn>
+      <taxonrv>Arthropoda</taxonrv>
+
+      <taxoncl>
+        <taxonrn>Class</taxonrn>
+        <taxonrv>Maxilopoda</taxonrv>
+
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv></taxonrv>
+
+          <taxoncl>
+            <taxonrn>Family</taxonrn>
+            <taxonrv></taxonrv>
+
+            <taxoncl>
+              <taxonrn>Genus</taxonrn>
+              <taxonrv></taxonrv>
+
+              <taxoncl>
+                <taxonrn>Species</taxonrn>
+                <taxonrv></taxonrv>
+                <common>copepods</common>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxoncl>
+  </taxoncl>
+</taxoncl>
+<taxongen></taxongen>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Interstate Commission on Potomac River Basin</cntorg>
+<cntper>Jacqueline Johnson</cntper>
+</cntorgp>
+<cntpos>
+Chesapeake Bay Program Living Resources Data
+Manager
+</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>410 Severn Avenue, Suite 109</address>
+<city>Annapolis</city>
+<state>Maryland</state>
+<postal>21403</postal>
+</cntaddr>
+<cntvoice>1-800-968-7229</cntvoice>
+<cntvoice>410-267-5729</cntvoice>
+<cntfax>410-267-5777</cntfax>
+<cntemail>jjohnson@chesapeakebay.net</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. Monday Through Friday</hours>
+<cntinst>unavailable</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+Taxon identifications, raw data sheets and other
+stages of the collection and analysis procedures
+are routinely checked by the principal
+investigator and laboratory chief for quality
+assurance.
+</attraccr>
+</attracc>
+<logic>not applicable</logic>
+<complete>
+The first year of the research represented a
+preliminary study limited to 10 stations (Park and
+Marshall, 1994).  After the first year, the
+program was expanded to sample 14 stations.
+</complete>
+<lineage>
+<method>
+
+</method><method>
+<methtype>Field</methtype>
+
+<methdesc>
+The first year of the research represented a
+preliminary study limited to 10 stations (Park and
+Marshall, 1994).  After the first year, the
+program was expanded to sample 14 stations.
+Emphasis is on the temporal and spatial
+distribution and composition patterns of the major
+microzooplankton categories, and their
+relationships to water quality variables and other
+plankton components.
+</methdesc>
+
+</method><method>
+<methtype>Lab</methtype>
+
+<methdesc>
+Chesapeake Bay Program Laboratory Method Code
+MI102. Each 1 l sample was allowed to settle for
+72 hours and carefully siphoned to a 300 ml
+concentrated sample which were then combined. A
+two step settling and  siphoning steps followed to
+produce first a 250 ml concentrate, which was next
+concentrated to 100 ml. This concentrate was
+sieved through 73 micron mesh net to trap
+microzooplankton &gt;73 microns which were washed
+into a beaker, then placed into a settling chamber
+#1 for examination and counts.  The filtrate was
+mixed and 3 5ml aliquots are removed and placed in
+settling chamber #2, with a buffered formalin
+solution (20%) added to bring the total volume to
+25 ml.   After 5 minutes of settling, 15 ml of the
+upper concentrate is removed and placed in
+settling chamber #3. The settling chambers were
+allowed to settle for 24 hours, then counts were
+made.  The entire bottom surface of the settling
+chambers were scanned at 100x for chamber #1 and
+at 200x for chamber #2 and #3 using an inverted
+plankton microscope.  Chamber #1 provides counts
+for the larger microzooplankters (&gt;73 microns),
+Chamber #2 for groups generally between 40 and 73
+microns, and Chamber #3 for small ciliates, etc.,
+which separates the very small species from
+sediment etc.  Counts were made as number of
+organisms per liter.  Additional Preservative:
+Buffered Formalin.
+</methdesc>
+</method>
+<procstep>
+<procdesc>
+The following equation was used to convert raw
+counts to density (#/L) for each taxon identified:
+GROUP 2 OR THREE ARE MULTIPLIED BY 10 IN
+MAINSTEM AND 20 IN TRIBS  SUM OF GROUP 1+(2*
+MULTIPLIER)+(3* MULTIPLIER) DEN_L = DENSITY PER
+VOLUME ((RAWCOUNT/MILLILITERS OF
+SAMPLE)*CONCENTRATION)              /TOTAL VOLUME
+OF COMPOSITE SAMPLE WHERE RAW COUNT= NUMBER OF
+ORGANISMS COUNTED IN A CHAMBER
+CONCENTRATION=CONCENTRATION FACTOR  {283.286}
+</procdesc>
+<procdate>unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>Based on local reference names.</indspref>
+</spdoinfo>
+<eainfo>
+<overview>
+<eaover>
+Microzooplankton (Entity); Attributes species
+composition and abundance.
+</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Interstate Commission on Potomac River Basin</cntorg>
+<cntper>Jacqueline Johnson</cntper>
+</cntorgp>
+<cntpos>
+Chesapeake Bay Program Living Resources Data
+Manager
+</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>410 Severn Avenue, Suite 109</address>
+<city>Annapolis</city>
+<state>Maryland</state>
+<postal>21403</postal>
+</cntaddr>
+<cntvoice>1-800-968-7229</cntvoice>
+<cntvoice>410-267-5729</cntvoice>
+<cntfax>410-267-5777</cntfax>
+<cntemail>jjohnson@chesapeakebay.net</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. Monday Through Friday</hours>
+<cntinst>unavailable</cntinst>
+</cntinfo>
+</distrib>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the
+Chesapeake Bay Program, no warranty expressed or
+implied is made regarding the accuracy or utility
+of the data on any other system or for general or
+scientific purposes, nor shall the act of
+distribution constitute any such warranty. This
+disclaimer applies both to individual use of the
+data and aggregate use with other data. It is
+strongly recommended that careful attention be
+paid to the contents of the metadata file
+associated with these data. The Chesapeake Bay
+Program shall not be held liable for improper or
+incorrect use of the data described and/or
+contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ASCII</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http:/www.chesapeakebay.net/data/index.htm</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>199903</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Raytheon ITSS</cntorg>
+<cntper>Cheryl Solomon</cntper>
+</cntorgp>
+<cntpos>Ecosystem Coordinator</cntpos>
+<cntaddr>
+<addrtype>Mailing and Physical Address</addrtype>
+<address>4500 Forbes Avenue</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301-794-3049</cntvoice>
+<cntfax>301-794-3164</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>
+NBII Content Standard for National Biological
+Information Infrastructure Metadata
+</metstdn>
+<metstdv>December 1995</metstdv>
+<metac>None</metac>
+<metuc>None</metuc>
+</metainfo>
+<mercury><begdate>19930104</begdate><enddate>19991216</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_EPA_epa_cbp_d_vamicrozooplankton.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

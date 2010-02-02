@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_pelagzoop.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Larson, G.L., R.L. Hoffman &amp; C.D. McIntire</origin>
+<pubdate>2002</pubdate>
+<title>Persistence of an unusual pelagic zooplankton assemblage in a clear, mountain lake</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Hydrobiologia</sername>
+<issue>468: 163-170</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Netherlands</pubplace>
+<publish>Kluwer Academic Publishers</publish>
+</pubinfo>
+<othercit>Publication Control #:1108</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>In 1966-1967, the planktonic zooplankton assemblage in Mowich Lake, Mount Rainier National Park, was composed almost entirely of rotifers. Adult pelagic crustacean taxa were rare and this was attributed to predation by kokanee salmon which had been stocked in 1961. In a survey of park lakes in 1988, Mowich Lake was the only one that did not contain at least one planktonic crustacean species. This study documents the taxonomic structure of the zooplankton assemblages in the lake from 1988 through 1999 and attempts to answer what the taxonomic composition of the pelagic crustacean zooplankton assemblage in Mowich Lake was prior to the stocking of kokanee salmon. The assemblages were consistent with those in 1966 and 1967. Populations of various crustacean species could have existed prior to the introduction of kokanee salmon.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>Illustrative material: figures, tables</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Mt Rainier National Park, Washington</descgeog>
+<bounding>
+<westbc>-121.92</westbc>
+<eastbc>-121.44</eastbc>
+<northbc>47</northbc>
+<southbc>46.71</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Biocomplexity Thesaurus</themekt>
+<themekey>zooplankton</themekey>
+<themekey>freshwater organisms</themekey>
+<themekey>aquatic animals</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Mowich Lake</placekey>
+<placekey>Mount Rainier National Park</placekey>
+<placekey>Washington</placekey>
+<placekey>WA</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>rotifers</taxonkey>
+<taxonkey>arthropods</taxonkey>
+<taxonkey>zooplankton</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<common>Animal</common>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Rotifera</taxonrv>
+<common>rotifers</common>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Monogononta</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Flosculariaceae</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Conochilidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Conochilus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Conochilus unicornis</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Ploima</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Brachionidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Kellicottia</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Kellicottia longispina</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Keratella</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Keratella hiemalis</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Keratella taurocephala</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Keratella cochlearis</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Notholca</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Notholca squamula</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Notholca michiganensis</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Lepadella</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Lepadella ovalis</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Euchlanis</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Synchaetidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Polyarthra</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Polyarthra vulgaris</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Synchaeta</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Synchaeta lackowitziana</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Bipalpus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Bipalpus hudsoni</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Notommatidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Encentrum</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Encentrum</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Lecanidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Lecane</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Lecane mira</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Lecane flexilis</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Collothecaceae</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Collothecidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Collotheca</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Collotheca pelagica</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Collotheca libera</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Collotheca mutabilis</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Arthropoda</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Branchiopoda</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Diplostraca</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Daphniidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Daphnia</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Daphnia rosea</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Daphnia ambigua</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Bosminidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Bosmina</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Bosmina coregoni</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Bosmina longispina</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Holopediidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Holopedium</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Holopedium gibberum</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Maxillopoda</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Calanoida</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Diaptomidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Diaptomus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Disptomus signicauda</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Cyclopoida</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Cyclopidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Eucyclops</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Eucyclops agilis</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Cyclops</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Cyclops vernalis</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control # 1108</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20040114</metd>
+<metrd>20040319</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_pelagzoop.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

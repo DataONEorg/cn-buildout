@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21238.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Muths, E., R.E. Jung, L.L. Bailey, M.J. Adams, P.S. Corn, C.K. Dodd, Jr., G.M. Fellers, W.J. Sadinski, C.R.  Schwalbe, S.C. Walls, R.N. Fisher, A.L. Gallant, W.A. Battaglin, and D.E. Green</origin>
+<pubdate>2005</pubdate>
+<title>Amphibian Research and Monitoring Initiative (ARMI): a successful start to a national program in the United States</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>Applied Herpetology</sername>
+<issue>2(4):355-371</issue>
+</serinfo>
+<othercit>Vol. 2(4) pages 355-371</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Muths, E., R.E. Jung, L.L. Bailey, M.J. Adams, P.S. Corn, C.K. Dodd, Jr., G.M. Fellers, W.J. Sadinski, C.R.  Schwalbe, S.C. Walls, R.N. Fisher, A.L. Gallant, W.A. Battaglin, and D.E. Green. 2005. Amphibian Research and Monitoring Initiative (ARMI): a successful start to a national program in the United States. Applied Herpetology 2(4): 355-371.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2005</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Glacier National Park</descgeog>
+<bounding>
+<westbc>-114.4756317</westbc>
+<eastbc>-105.4937363</eastbc>
+<northbc>49.00161742</northbc>
+<southbc>40.15964122</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>national program</themekey>
+<themekey>monitoring</themekey>
+<themekey>research</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Rocky Mountain National Park</placekey>
+<placekey>Glacier National Park</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>amphibians</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Amphibia</taxonrv>
+<common>Amphibian</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Muths, E.L.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Muths, E., A.L. Gallant, E.H. Campbell Grant, W.A. Battaglin, D.E. Green, J.S. Staiger, S.C. Walls, M.S. Gunzburger, and R.F. Kearney</origin>
+<pubdate>2006</pubdate>
+<title>The Amphibian Research and Monitoring Initiative (ARMI): 5-year report</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>77 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21733/21733.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Muths, E</origin>
+<pubdate>2003</pubdate>
+<title>Amphibian Research and Monitoring Initiative: Rocky Mountain Region</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Muths, E.L.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Amphibian Research and Monitoring Initiative (ARMI): a successful start to a national program in the United States.  FORT Library Archive Number: 2005/0120 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20050101</begdate><enddate>20051231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21238.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

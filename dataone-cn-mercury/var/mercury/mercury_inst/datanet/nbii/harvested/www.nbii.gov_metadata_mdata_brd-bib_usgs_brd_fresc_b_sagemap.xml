@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_sagemap.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Knick, S.T. and L. Schueck</origin>
+<pubdate>2002</pubdate>
+<pubtime>Unknown</pubtime>
+<title>SAGEMAP: A web-based spatial dataset for sage grouse and sagebrush steppe management in the Intermountain West</title>
+<geoform>fact sheet</geoform>
+<serinfo>
+<sername>USGS Fact Sheet</sername>
+<issue>124-02</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Boise, ID</pubplace>
+<publish>USGS Forest and Rangeland Ecosystem Science Center, Snake River Field Station</publish>
+</pubinfo>
+<othercit>Publication Control # 1115</othercit>
+<onlink>http://SAGEMAP.wr.usgs.gov</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The Snake River Field Station of the Forest and Rangeland Ecosystem Science Center has developed and now maintains a database of the spatial information needed to address management of sage grouse and sagebrush steppe habitats in the western United States. The SAGEMAP project identifies and collects information for the region encompassing the historial extent of sage grouse distribution. State and federal agencies, the primary entities responsible for managing sage grouse and their habitats, need the information to develop an objective assessment of the current status of sage grouse populations and their habitats, or to provide responses and recommentations for recovery if sage grouse are listed as a Threatened or Endangered Species. The spatial data on the SAGEMAP website are an important component in documenting current habitat and other environmental conditions. In addition, the data can be used to identify areas that have undergone significant changes in land cover and to determine underlying causes. As such, the database permits an analysis for large-scale and range-wide factors that may be causing declines of sage grouse populations. The spatial data contained on this site also will be a critical component guiding the decision processes for restoration of habitats in the Great Basin. Therefore, development of this database and the capability to disseminate the information  carries multiple benefits for land and wildlife management.</abstract>
+<purpose>Reporting research results</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>In Work</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<descgeog>Intermountain west</descgeog>
+<bounding>
+<westbc>-119.2444</westbc>
+<eastbc>-111.4711</eastbc>
+<northbc>44.4283</northbc>
+<southbc>37.3408</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>sagebrush</themekey>
+<themekey>management</themekey>
+<themekey>sage grouse</themekey>
+<themekey>ecosystem</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Intermountain west</placekey>
+<placekey>Great Basin</placekey>
+<placekey>Western United States</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>Integrated Taxonomic Information System</taxonkt>
+<taxonkey>sage grouse</taxonkey>
+<taxonkey>sagebrush</taxonkey>
+<taxonkey>Centrocercus urophasianus</taxonkey>
+<taxonkey>Artemisia</taxonkey>
+</keywtax>
+<taxoncl>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalae</taxonrv>
+<common>animals</common>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Aves</taxonrv>
+<common>birds</common>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Galliformes</taxonrv>
+<common>fowls</common>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Phasianidae</taxonrv>
+<common>grouse</common>
+<common>pheasants</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Centrocercus Swainson</taxonrv>
+<common>sage grouse</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Centrocercus urophasianus</taxonrv>
+<common>sage grouse</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+<common>plants</common>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Magnoliophyta</taxonrv>
+<common>flowering plants</common>
+<common>angiospermes</common>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Magnoliopsida</taxonrv>
+<common>dicots</common>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Asterales</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Asteraceae</taxonrv>
+<common>sunflowers</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Artemisia</taxonrv>
+<common>sagebrush</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control # 1115</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>PDF</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://fresc.usgs.gov/products/fs/fs-124-02.pdf</networkr>
+</networka>
+</computer>
+<accinstr>Download from FRESC Web site</accinstr>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20040630</metd>
+<metrd>20040715</metrd>
+<metfrd>20050630</metfrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_sagemap.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

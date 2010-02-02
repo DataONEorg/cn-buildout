@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_killdeer.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Sanzenbacher, P.M. and S.M. Haig</origin>
+<pubdate>2001</pubdate>
+<title>Killdeer population trends in North America</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Journal of Field Ornithology</sername>
+<issue>72(1):160-169</issue>
+</serinfo>
+<othercit>
+Science Information System Project #:: 70-90
+Publication Control #:: 895
+</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The Willamette Valley of western Oregon constitutes a critical area where expanding human populations collide with the need for improved wetland quality and quantity. Efforts for wetland restoration have been carried out on a local scale, but there has been no systematic approach for evaluating the success of these efforts or how they should proceed in the future. In partnership with the Oregon Department of Fish and Wildlife, U.S. Fish and Wildlife Service, Oregon Wetlands Joint Venture, and the National Shorebird Plan, we propose a joint effort to become more strategic in our Willamette Valley wetland conservation programs across agencies. We will examine the distribution and status of the Valley's wetlands using shorebirds as indicators of wetland connectivity. Our goal is to use this information to contribute to the emerging Willamette Valley Wetland Conservation Plan. The plan will include an overall strategy for acquisition, restoration, and conservation of critical wetlands as well as site-specific recommendations. During plan development, we will solicit advice from the numerous agencies involved in Willamette Valley wetland conservation. By the end of the project, we hope to have a mutually agreed upon, interagency working document for wetland conservation.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>
+Extent of item:: 160-169pp
+Illustrative Matter::  tables
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2000</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Willamette Valley, Oregon, USA</descgeog>
+<bounding>
+<westbc>-123.61</westbc>
+<eastbc>-122.42</eastbc>
+<northbc>45.39</northbc>
+<southbc>43.65</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Science Information System Controlled Vocabulary</themekt>
+<themekey>Populations</themekey>
+<themekey>Birds</themekey>
+<themekey>Wetlands</themekey>
+<themekey>Inventory</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>North  America</placekey>
+<placekey>Willamette Valley</placekey>
+<placekey>Oregon</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>Killdeer</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Sub Phylum</taxonrn>
+<taxonrv>Vertebrata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Aves</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Charadriiformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Charadriidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Charadrius</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Charadrius vociferus</taxonrv>
+<common>killdeer</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Haig, Susan</cntper>
+<cntorg>USGS Forest and Rangeland Ecosystem Science Center</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>3200 SW Jefferson way</address>
+<city>Corvallis</city>
+<state>OR</state>
+<postal>97331</postal>
+</cntaddr>
+<cntvoice>541-750-7482</cntvoice>
+<cntemail>susan_haig@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Forest &amp; Rangeland Ecosystem Science Center (FRESC)</cntorg>
+<cntper>Headquarters</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical Address</addrtype>
+<address>
+U.S. Geological Survey
+Forest and Rangeland Ecosystem Science Center
+3200 SW Jefferson Way
+</address>
+<city>Corvallis</city>
+<state>Oregon</state>
+<postal>97331</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(541) 750-7307</cntvoice>
+<cntemail>FRESC_Outreach@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #:: 895</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20010607</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS FRESC Snake River Field Station Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Library</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>970 Lusk Street</address>
+<city>Boise</city>
+<state>Idaho</state>
+<postal>83706</postal>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>kathy_mccoy@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20000101</begdate><enddate>20001231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_killdeer.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

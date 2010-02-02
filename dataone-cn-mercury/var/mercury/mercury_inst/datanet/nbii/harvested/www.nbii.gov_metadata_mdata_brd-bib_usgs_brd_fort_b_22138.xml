@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_22138.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Ruth, J.M</origin>
+<pubdate>2008</pubdate>
+<title>Distribution of breeding Arizona Grasshopper Sparrow (ammodramus savannarum ammolegus) in the southwestern United States: Past, present, and future</title>
+<geoform>publication</geoform>
+<othercit>Vol. No. 37 pages 113-124</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Ruth, J.M. 2008. Distribution of breeding Arizona Grasshopper Sparrow (ammodramus savannarum ammolegus) in the southwestern United States: Past, present, and future. Studies in Avian Biology No. 37: 113-124.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2008</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>New Mexico</descgeog>
+<bounding>
+<westbc>-114.82097</westbc>
+<eastbc>-102.99692</eastbc>
+<northbc>37.00394</northbc>
+<southbc>31.33554</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>ammodramus savannarum ammolegus</themekey>
+<themekey>distribution</themekey>
+<themekey>semidesert</themekey>
+<themekey>grasslands</themekey>
+<themekey>Southwest</themekey>
+<themekey>status</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Arizona</placekey>
+<placekey>New Mexico</placekey>
+<placekey>AZ;NM</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>Grasshopper Sparrow</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Aves</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Passeriformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Emberizidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Ammodramus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>savannarum</taxonrv>
+<common>Grasshopper sparrow</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Ruth, J.M.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Ruth, J.M</origin>
+<pubdate>2006</pubdate>
+<title>Distribution and abundance of breeding Arizona Grasshopper Sparrow (Ammodramus savannarum ammolegus), and associated priority grassland species, in the southwestern U.S. - 2005</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>35 +  pp.</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Ruth, J.M</origin>
+<pubdate>2005</pubdate>
+<title>Distribution and abundance of breeding Arizona Grasshopper Sparrow (Ammodramus savannarum ammolegus), and associated priority grassland species, in the Southwestern U.S. - 2004</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, Colorado</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>29 +  pp.</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Ruth, J</origin>
+<pubdate>2004</pubdate>
+<title>BRD conservation the USGS way</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>2 pp.</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Ruth, J.M.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Distribution of breeding Arizona Grasshopper Sparrow (ammodramus savannarum ammolegus) in the southwestern United States: Past, present, and future.  FORT Library Archive Number: 2008/0104 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20080101</begdate><enddate>20081231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_22138.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

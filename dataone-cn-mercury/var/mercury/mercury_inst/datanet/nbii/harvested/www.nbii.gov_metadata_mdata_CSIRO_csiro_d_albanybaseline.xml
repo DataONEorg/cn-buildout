@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CSIRO/csiro_d_albanybaseline.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>CSIRO Division of Marine Research</origin>
+<pubdate>Unknown</pubdate>
+<title>Baseline Biological Port Survey - Albany, Feb 1996</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Hobart, Australia</pubplace>
+<publish>CSIRO Division of Marine Research</publish>
+</pubinfo>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This dataset contains the result of a biological baseline survey of the port region of Albany, Western Australia, carried out in February 1996 by CSIRO Marine Research Centre for Research on Introduced Marine Pests (CRIMP). Taxonomic groups surveyed include marine invertebrates, fishes, phytoplankton, macroalgae, and marine vegetation. This metadata record is sourced from 'MarLIN', the CSIRO Marine Laboratories Information Network.</abstract>
+<purpose>The purpose of this dataset is to serve as a baseline biological survey of the port region of Albany, Western Australia.</purpose>
+<supplinf>Information was obtained from: http://www.marine.csiro.au/marine/mcdd/data/CSIRODMR/CSIRODMR_datasets.html. The originating project is the Devonport, Bunbury, Albury, Port Lincoln and Eden Port Surveys 1996-2001.  (previous geoform was 'various')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19960224</begdate>
+<enddate>19960229</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<spdom>
+<descgeog>port region of Albany, Western Australia</descgeog>
+<bounding>
+<westbc>117.5</westbc>
+<eastbc>118</eastbc>
+<northbc>-34.5</northbc>
+<southbc>-35</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>biological baseline survey</themekey>
+<themekey>aquatic biology research programs</themekey>
+<themekey>biodiversity</themekey>
+<themekey>aquatic plants-geographical distribution</themekey>
+<themekey>aquatic pests and controls</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Australia</placekey>
+<placekey>Western Australia Coast South</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>marine invertebrates</taxonkey>
+<taxonkey>fishes</taxonkey>
+<taxonkey>phytoplankton</taxonkey>
+<taxonkey>macroalgae</taxonkey>
+<taxonkey>marine vegetation</taxonkey>
+<taxonkey>flowering plants</taxonkey>
+<taxonkey>seagrasses</taxonkey>
+<taxonkey>crustaceans</taxonkey>
+<taxonkey>echinoderms</taxonkey>
+<taxonkey>fish</taxonkey>
+<taxonkey>invertebrates</taxonkey>
+<taxonkey>molluscs</taxonkey>
+<taxonkey>vertebrates</taxonkey>
+<taxonkey>reptiles</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<common>chordates</common>
+<taxoncl>
+<taxonrn>Subphylum</taxonrn>
+<taxonrv>vertebrata</taxonrv>
+<common>vertebrates</common>
+<taxoncl>
+<taxonrn>Superclass</taxonrn>
+<taxonrv>Osteichthyes</taxonrv>
+<common>bony fishes</common>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Sarcopterygii</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Actinopterygii</taxonrv>
+<common>ray-finned fishes</common>
+<common>spiny rayed fishes</common>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Superclass</taxonrn>
+<taxonrv>Agnatha</taxonrv>
+<common>cyclostomes</common>
+<common>jawless fishes</common>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Pteraspidomorphi</taxonrv>
+<taxoncl>
+<taxonrn>Subclass</taxonrn>
+<taxonrv>Pteraspidomorpha</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Myxiniformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Myxinidae</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Superclass</taxonrn>
+<taxonrv>unknown</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Chondrichthyes</taxonrv>
+<common>cartilaginous fishes</common>
+<common>rays</common>
+<common>sharks</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>Release with the permission of the custodian.</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Tom Jones</cntper>
+<cntorg>CSIRO Division of Marine Research</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>G.P.O. Box 1538</address>
+<city>Hobart</city>
+<state>TAS</state>
+<country>Australia</country>
+</cntaddr>
+<cntvoice>(03) 62325213</cntvoice>
+<cntfax>+61 (0) 362 325000</cntfax>
+<cntemail>tim.jones@csiro.au</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<logic>not applicable</logic>
+<complete>This dataset forms part of a series of Port Surveys conducted by CRIMP over the period 1996 to the present.</complete>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methodid>
+<methkt>none</methkt>
+<methkey>still cameras</methkey>
+<methkey>video cameras</methkey>
+<methkey>corers</methkey>
+<methkey>underwater surveys</methkey>
+<methkey>fish traps</methkey>
+<methkey>hand sampling (specimens and/or tissue samples)</methkey>
+<methkey>plankton nets/drop nets</methkey>
+<methkey>pumps</methkey>
+<methkey>SCUBA (observations and/or sampling)</methkey>
+<methkey>visual counts</methkey>
+<methkey>observations</methkey>
+</methodid>
+<methdesc>Collection Methods employed include pylon scrapings, sediment cores, crab traps, plankton nets, and qualitative visual inspection and photographs (both still and video).  Voucher specimens have been incorporated into collections of the West Australian Museum and CMR, Hobart.</methdesc>
+</method>
+<method>
+<methtype>Lab</methtype>
+<methdesc>Specimen Ids are performed by CRIMP personnel and external taxonomic experts.</methdesc>
+</method>
+<procstep>
+<procdesc>unknown</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Point</direct>
+</spdoinfo>
+<eainfo>
+<overview>
+<eaover>Entity - Biological Baseline Survey; Attributes - taxonomic surveys</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Tony Rees</cntper>
+<cntorg>CSIRO Division of Marine Research-Hobart</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<city>Hobart</city>
+<country>Australia</country>
+</cntaddr>
+<cntvoice>unknown</cntvoice>
+<cntfax>unknown</cntfax>
+<cntemail>Tony.Rees@csiro.au</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>MarLIN record number : 5499</resdesc>
+<distliab>
+You accept all risks and responsibility for losses, damages, costs and other
+consequences resulting directly or indirectly from using this site and andinformation or material available from it. To the maximum permitted by law, CSIRO excludes all liability to any person arising directly or indirectly from using this site and any information or material available from it.
+</distliab>
+<stdorder>
+<nondig>vouchered specimens, biological</nondig>
+<fees>unknown</fees>
+</stdorder>
+<custom>Please contact the distributor.  Digital data available in XLS, MDB, and JPG images</custom>
+</distinfo>
+<metainfo>
+<metd>20001211</metd>
+<metrd>20020930</metrd>
+<metfrd>20030930</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19960224</begdate><enddate>19960229</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CSIRO_csiro_d_albanybaseline.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

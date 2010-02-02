@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FAO/fao_d_batszooplankton.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Deborah Steinberg, Virginia Institute of Marine Sciences</origin>
+<pubdate>2003</pubdate>
+<title>Bermuda Atlantic Time Series (BATS)  Zooplankton Census</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Gloucester Point, Virginia</pubplace>
+<publish>Virginia Institute of Marine Sciences</publish>
+</pubinfo>
+<onlink>http://www.vims.edu/bio/zooplankton/BATS/data.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This study of plankton diversity at the Bermuda Atlantic Time-series Study (BATS) site is part of an initiative to create an online atlas of marine diversity, the Ocean Biogeographic Information System (OBIS), a database of global marine animal and plant distributions. Planktonic communities comprise a wide diversity of organisms that form the basis of marine food webs. The zooplankton and micronekton provide a direct link between primary producers and higher trophic levels such as fishes, seabirds, and some marine mammals. Zooplankton contain representatives of nearly every animal group. There are two important reasons for a census of the diversity and abundance of the plankton. The first is the need to describe and understand patterns of distribution and abundance of organisms and to predict the impact of environmental change on those patterns. Second, to better understand their qualitative and quantitative role in the pelagic food web and the cycling of elements in the sea.  We are developing a multi-species inventory of zooplankton and micronekton at the Bermuda Atlantic Time-Series Study (BATS) station, a 13-year, ongoing oceanographic time series situated in the western North Atlantic subtropical gyre, or Sargasso Sea.  The program will provide high-resolution species data that covers diel, seasonal, annual, and decadal time scales. Detailed accompanying environmental "metadata" data already available from BATS cruises (e.g., water column temperature, oxygen, nutrients, and plant pigment concentration) will be merged with the species data set. A critical research objective is to provide data on species distribution and abundance to  OBIS and to serve as a starting place in which data collected in the future can be placed.</abstract>
+<purpose>The purpose of the data is to provide species lists, and counts of different groups of zooplankton.</purpose>
+<supplinf>Information was obtained from http://www.vims.edu/bio/zooplankton/BATS/.  (previous geoform was 'Database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>1992</begdate>
+<enddate>2000</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>In Work</progress>
+<update>Irregular</update>
+</status>
+<spdom>
+<descgeog>All the data come from a single point in the ocean, 82 km southeast of Bermuda.</descgeog>
+<bounding>
+<westbc>-64.1667</westbc>
+<eastbc>-64.1667</eastbc>
+<northbc>31.6667</northbc>
+<southbc>31.6667</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>zooplankton census</themekey>
+<themekey>water column temperature</themekey>
+<themekey>oxygen</themekey>
+<themekey>nutrients</themekey>
+<themekey>plant pigment concentration</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Sargasso Sea</placekey>
+<placekey>Bermuda</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>zooplankton</taxonkey>
+<taxonkey>copepods</taxonkey>
+<taxonkey>euphausiids</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<common>animals</common>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Arthropoda</taxonrv>
+<common>arthropods</common>
+<taxoncl>
+<taxonrn>Subphylum</taxonrn>
+<taxonrv>Crustacea</taxonrv>
+<common>crustaceans</common>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Maxillipoda</taxonrv>
+<taxoncl>
+<taxonrn>Subclass</taxonrn>
+<taxonrv>Copepoda</taxonrv>
+<common>copepods</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Mollusca</taxonrv>
+<common>molluscs</common>
+<common>mollusks</common>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Bivalvia</taxonrv>
+<common>bivalves</common>
+<common>clams</common>
+<taxoncl>
+<taxonrn>Subclass</taxonrn>
+<taxonrv>Heterodonta</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Veneroida</taxonrv>
+<taxoncl>
+<taxonrn>Superfamiliy</taxonrn>
+<taxonrv>Cyamioidea</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Deborah Steinberg</cntper>
+<cntorg>Virginia Institute of Marine Science</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>P.O. Box 1346</address>
+<city>Gloucester Point</city>
+<state>Virginia</state>
+<postal>23062</postal>
+</cntaddr>
+<cntvoice>(804) 684-7838</cntvoice>
+<cntfax>(804) 684-7293</cntfax>
+<cntemail>debbies@vims.edu</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Bermuda Atlantic Time Series, Bermuda Biological Station for Research</datacred>
+<crossref>
+<citeinfo>
+<origin>Steinberg, D.K., Carlson, C.A., Bates, N.B., Johnson, R.J., Michales, A.F., and A.H. Knap</origin>
+<pubdate>2001</pubdate>
+<title>Overview of the US JGOFS Bermuda Atlantic Time-series Study (BATS): a decade-scale look at ocean biology and biogeochemistry</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Deep-Sea Research II</sername>
+<issue>48(8-9): 1405-1447</issue>
+</serinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Madin, L.P., Horgan, E.F. , D.K. Steinberg.</origin>
+<pubdate>2001</pubdate>
+<title>Zooplankton at the Bermuda Atlantic Time-Series Study (BATS) station: diel, seasonal and interannual  variation in biomass, 1994-1998</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Deep Sea Research II</sername>
+<issue>48(8-9):2063-2082</issue>
+</serinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Steinberg, D.K., C.A. Carlson, N.R. Bates, S.A. Goldthwait, L.P. Madin, and A. Michaels.</origin>
+<pubdate>2000</pubdate>
+<title>Zooplankton vertical migration and the active transport of disorganic and inorganic carbon in the Sargasso Sea</title>
+<geoform>Journal Article</geoform>
+<serinfo>
+<sername>Deep-Sea Research I</sername>
+<issue>47:137-158</issue>
+</serinfo>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Data are put on-line in a reasonable amount of time. Before the data are put on-line various quality control measures are used to evaluate the data. However, there is no guarantee that some future evaluation of the data will not reveal a problem with existing data on-line. Thus we would like you to submit an e-mail address so that we may contact you should the data which you have extracted become subject to change.</attraccr>
+</attracc>
+<logic>unknown</logic>
+<complete>Will have data for most months for the time period of 1994 to 2000.</complete>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methdesc>There are monthly zooplankton tows in the top two hundred meters of the water column with two day and two night tows, four tows per cruise.  The zooplankton species are counted during these tows.</methdesc>
+</method>
+<procstep>
+<procdesc>There are counts with diversity indices, mean abundances.  Time-series analyses will be done.</procdesc>
+<procdate>2002</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Point</direct>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>1</latres>
+<longres>1</longres>
+<geogunit>Decimal seconds</geogunit>
+</geograph>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>Entity - Zooplankton communities; Attributes - water column temperature, oxygen, nutrients, and plant pigment concentration</eaover>
+<eadetcit>none</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Deborah Steinberg</cntper>
+<cntorg>Virginia Institute of Marine Science</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>P.O. Box 1346</address>
+<city>Gloucester Point</city>
+<state>Virginia</state>
+<postal>23062</postal>
+</cntaddr>
+<cntvoice>(804) 684-7838</cntvoice>
+<cntfax>(804) 684-7293</cntfax>
+<cntemail>debbies@vims.edu</cntemail>
+</cntinfo>
+</distrib>
+<distliab>Although these data have been processed successfully on a computer system at the Virginia Institute of Marine Sciences, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a Virginia Institute of Marine Sciences server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The Virginia Institute of Marine Sciences shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+<custom>Please contact the Virginia Institute of Marine Sciences in 2003.</custom>
+</distinfo>
+<metainfo>
+<metd>20020919</metd>
+<metfrd>20030919</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19920101</begdate><enddate>20001231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_FAO_fao_d_batszooplankton.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

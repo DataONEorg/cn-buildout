@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/ECTI/ecti_d_biodiversitydb.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Expert Center for Taxonomic Identification</origin>
+<pubdate>Unknown</pubdate>
+<title>World Biodiversity Database</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Amsterdam, Netherlands</pubplace>
+<publish>ETI</publish>
+</pubinfo>
+<onlink>http://www.eti.uva.nl/Database/WBD.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>ETI's World Biodiversity Database (WBD) is a continuously growing taxonomic database and information system that aims at documenting all presently known species (about 1.7 million) and to make this important biological information worldwide accessible. The WBD contains taxonomic information (hierarchies), species names, synonyms, descriptions, illustrations and literature references when available. A direct link to CMBI provides genetic information on protein sequence (from the PIR database) and nucleic sequence (from the EMBL database) for each taxon. In the future the WBD will be extended with online identification keys and an interactive geographic information system. A section of the WBD is available on CD-ROM. Those parts of ETI's WBD that represent so called Global Species Databases (full worldwide coverage on specific taxa) will be linked to the Species 2000 Index of Species, a virtual basic taxonomic reference system, that is continuously updated by quality taxonomic databases. The Species 2000 Index acts as a basic species name references system that can help you to locate detailed information on species in the member databases. The database, constructed in cooperation with the Stichting Academisch Rekencentrum Amsterdam (SARA), currently contains over 200.000 accessible taxa.</abstract>
+<purpose>The WBD is intended to increase understanding and to support a responsible use and to facilitate the management of the earths biodiversity resources. It is built as a joint effort of specialists worldwide who contribute basic taxonomic, ecological and biodiversity data to ETI to make this available in electronic form, both online in the WBD and in subsections on CD-ROMs.</purpose>
+<supplinf>Information is taken from http://www.eti.uva.nl/Database/WBD.html.  (previous geoform was 'Database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>Unknown</begdate>
+<enddate>Present</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>In Work</progress>
+<update>Continually</update>
+</status>
+<spdom>
+<descgeog>Global</descgeog>
+<bounding>
+<westbc>-180</westbc>
+<eastbc>180</eastbc>
+<northbc>90</northbc>
+<southbc>-90</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>taxonomic identification</themekey>
+<themekey>biodiversity</themekey>
+<themekey>species names</themekey>
+<themekey>synonyms</themekey>
+<themekey>descriptions</themekey>
+<themekey>illustrations</themekey>
+<themekey>literature references</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>world</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>animal</taxonkey>
+<taxonkey>bacteria</taxonkey>
+<taxonkey>fungi</taxonkey>
+<taxonkey>plant</taxonkey>
+<taxonkey>protoctista</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animal</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Bacteria</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Fungi</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plant</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Protoctista</taxonrv>
+</taxoncl>
+</taxonomy>
+<accconst>Access to this online information system is free of charge for noncommercial use: scientific and educational purposes.</accconst>
+<useconst>All data in the WBD are copyright protected by the authors, artists and other contributors and may not copied or reproduced without approval of ETI and the lawful owners.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Expert Center for Taxonomic Identification</cntorg>
+<cntper>Webmaster</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>P.O. Box 94766, Mauritskade 61</address>
+<city>Amsterdam</city>
+<postal>NL-1090 GT</postal>
+<country>Netherlands</country>
+</cntaddr>
+<cntvoice>+31-20-5257239</cntvoice>
+<cntfax>+31-20-5257238</cntfax>
+<cntemail>webmaster@eti.uva.nl</cntemail>
+<cntinst>info@eti.uva.nl - general information about ETI. Phone and fax numbers are for general information.  Email adress webmaster@eti.uva.nl may know the most about the online World Biodiversity database.</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<logic>not applicable</logic>
+<complete>Currently, the World Biodiversity Database contains 206812 taxa in 39 projects.</complete>
+<lineage>
+<procstep>
+<procdesc>unknown</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>World Biodiversity Database</enttypl>
+<enttypd>The World Biodiversity Database is a continuously growing taxonomic database and information system that aims at documenting all presently known species.</enttypd>
+<enttypds>ETI</enttypds>
+</enttyp>
+<attr>
+<attrlabl>description</attrlabl>
+<attrdef>This field shows the description of a taxon, taken from the project indicated at the bottom left. If more than one description is available, you can directly jump to the description from a particular project by selecting the project title from the popup menu. Clicking on the project title will take you to the project info page.</attrdef>
+<attrdefs>ETI</attrdefs>
+<attrdomv>
+<udom>descriptions</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>genetics</attrlabl>
+<attrdef>You can search the molecular databanks of the Centre for Molecular and Biomolecular Informatics (CMBI) for protein sequences, nucleic acid sequences and 3-D structures of the selected taxon. Detailed information about the databanks and instructions on how to perform a query are found on the page itself. If you are looking for a specific taxon, please visit CMBI's Sequence Retrieval System (SRS) to query a large range of genetic databanks.</attrdef>
+<attrdefs>ETI</attrdefs>
+<attrdomv>
+<udom>unrepresentable</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>literature</attrlabl>
+<attrdef>The place to find relevant literature for the selected taxon. It is supposed to include the full references to the literature cited in the description.</attrdef>
+<attrdefs>ETI</attrdefs>
+<attrdomv>
+<udom>unrepresentable</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>synonyms</attrlabl>
+<attrdef>This field shows the synonyms and common names of the selected taxon.</attrdef>
+<attrdefs>ETI</attrdefs>
+<attrdomv>
+<udom>unrepresentable</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>tree</attrlabl>
+<attrdef>The Tree field is center of the World Biodiversity Database. You can start browsing by clicking any of the symbols, each of which opens a branch of the taxonomic tree. If the tree becomes very large, you can a collapse a branch by clicking the symbol. If you want to access the description of a taxon, click its name. A red dot behind the taxon name indicates that no description is available for that taxon yet.  Among the taxa in the tree, you may encounter the occasional "Artificial taxon"(i.e. under kingdom Plantae). If a project does not have a fully defined higher taxonomy, the artificial taxon acts as a "catch-all" for taxa included in that project. If you are looking for a specific taxon, it therefore may be worthwhile to perform a search if you can't locate it by browsing the tree. ETI is aware of the fact that the taxonomic tree still needs some fine-tuning on higher taxonomic levels. I.e. class Insecta occurs directly under phylum Arthropoda, but also under subphylum Uniramia and under superclass Hexapoda. However, the taxonomic tree below the level of class Insecta is identical, regardless of the path you choose.</attrdef>
+<attrdefs>ETI</attrdefs>
+<attrdomv>
+<udom>unrepresentable</udom>
+</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>Entity - Species; Associated attributes - tree, description, synonyms, literature and genetics</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Expert Center for Taxonomic Identification</cntorg>
+<cntper>Webmaster</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>P.O. Box 94766, Mauritskade 61</address>
+<city>Amsterdam</city>
+<postal>NL-1090 GT</postal>
+<country>Netherlands</country>
+</cntaddr>
+<cntvoice>+31-20-5257239</cntvoice>
+<cntfax>+31-20-5257238</cntfax>
+<cntemail>webmaster@eti.uva.nl</cntemail>
+<cntinst>info@eti.uva.nl - general information about ETI. Phone and fax numbers are for general information.  Email adress webmaster@eti.uva.nl may know the most about the online World Biodiversity database.</cntinst>
+</cntinfo>
+</distrib>
+<distliab>Although these data have been processed successfully on a computer system at the Expert Center for Taxonomic Identification, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from an Expert Center for Taxonomic Identification server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The Expert Center for Taxonomic Identification shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>comma delimited ASCII</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.eti.uva.nl/Database/WBD.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20010831</metd>
+<metfrd>20020831</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>Unknown</begdate><enddate>20090328</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_ECTI_ecti_d_biodiversitydb.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

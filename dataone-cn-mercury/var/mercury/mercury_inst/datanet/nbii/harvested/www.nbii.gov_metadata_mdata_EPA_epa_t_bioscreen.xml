@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/EPA/epa_t_bioscreen.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Charles J. Newell and R. Kevin McLeod, Groundwater Services, Inc. James R. Gonzalez, Air Force Center for Environmental Excellence</origin>
+<pubdate>199707</pubdate>
+<title>Natural Attenuation Decision Support System (BIOSCREEN)</title>
+<geoform>tools software</geoform>
+<pubinfo>
+<pubplace>Ada, Oklahoma</pubplace>
+<publish>USEPA, Ground Water and Ecosystems Restoration Division</publish>
+</pubinfo>
+<othercit>http://www.epa.gov/ada/csmos/models.html;</othercit>
+<onlink>http://www.epa.gov/ada/csmos/models/bioscrn.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>BIOSCREEN is a screening model which simulates remediation through natural attenuation of dissolved hydrocarbons at petroleum fuel release sites. The software, programmed in the Microsoft Excel spreadsheet environment and based on the Domenico analytical solute transport model, has the ability to simulate advection, dispersion, adsorption, and aerobic decay as well as anaerobic reactions that have been shown to be the dominant biodegradation processes at many petroleum release sites. Includes three different model types: (1) solute transport without decay, (2) solute transport with biodegradation modeled as a first-order decay process (simple, lumped-parameter approach), and (3) solute transport with biodegradation modeled as an instantaneous biodegradation reaction with multiple soluble electron acceptors including dissolved oxygen, nitrate, and sulfate.</abstract>
+<purpose>The model is designed to simulate biodegradation by both aerobic and unaerobic reaction. Its application is as a three-dimensional contaminant transport for dissolved phase hydrocarbons in saturated zone under the influences of oxygen, nitrate, iron, sulfate, and methane limited biodegredation. It was developed for the Air Force Center Environment Excellence (AFCEE) Technology Transfer Division at Brooks Air Force Base by Groundwater Services, Inc., Houston, Texas.</purpose>
+<supplinf>Information was obtained from Charles J. Newell and from http://eco.wiz.uni-kassel.de/model_db/mdb/bioscreen.html.  (previous geoform was 'model')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>199707</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>terrestrial</themekey>
+<themekey>biogeochemistry</themekey>
+<themekey>ecotoxicology</themekey>
+<themekey>ecosystem</themekey>
+<themekey>decision support</themekey>
+<themekey>expert system</themekey>
+<themekey>solute transport</themekey>
+<themekey>Domenico</themekey>
+<themekey>biodegradation</themekey>
+<themekey>hydrocarbons</themekey>
+<themekey>screening</themekey>
+<themekey>remediation</themekey>
+</theme>
+</keywords>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Charles J. Newell</cntper>
+<cntorg>Groundwater Services, Inc.</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailling and Physical</addrtype>
+<address>2211 Norfolk, Suite 1000</address>
+<city>Houston</city>
+<state>Texas</state>
+<postal>77098</postal>
+</cntaddr>
+<cntvoice>713 522 6300</cntvoice>
+<cntfax>713 522 8010</cntfax>
+<cntemail>cjnewell@gsi-net.com</cntemail>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>Bedient, P.B., Rifai, H.S. and Newell, C.J</origin>
+<pubdate>1994</pubdate>
+<title>Groundwater Contamination:Transport and Remediation</title>
+<geoform>book</geoform>
+<pubinfo>
+<pubplace>unknown</pubplace>
+<publish>Prentice-Hall</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Connor, J.A., Newell, C.J., Nevin, J.P. and Rifai, H.S.</origin>
+<pubdate>199411</pubdate>
+<title>Guidelines for Use of Groundwater Spreadsheet Models in Risk-Based Corrective Action Design</title>
+<geoform>Conference proceedings</geoform>
+<serinfo>
+<sername>
+Proceedings of the Petroleum Hydrocarbons
+and Organic Chemicals in Ground Water Conference
+</sername>
+<issue>November, 1994</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Houston Texas</pubplace>
+<publish>National Ground Water Association</publish>
+</pubinfo>
+<othercit>
+Connor, J.A., Newell, C.J., Nevin, J.P. and Rifai, H.S., 1994."Guidelines 					for Use of Groundwater Spreadsheet Models in Risk-Based Corrective Action Design,"
+National Ground Water Association, Proceedings of the Petroleum Hydrocarbons
+and Organic Chemicals in Ground Water Conference, Houston, Texas, November
+1994, pp. 43-55.
+</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Rifai, H.S., Bedient, P.B., Borden, R.C. and Haasbeek, J.F.</origin>
+<pubdate>1987</pubdate>
+<title>BIOPLUME II - Computer Model of Two-Dimensional Transport under the Influence Oxygen Limited</title>
+<edition>version 1.0</edition>
+<geoform>manual</geoform>
+<pubinfo>
+<pubplace>Houston, Texas</pubplace>
+<publish>Rice University</publish>
+</pubinfo>
+<othercit>
+1987.BIOPLUME II -
+Computer Model of Two-Dimensional Transport under the Influence Oxygen Limited
+Biodegradation in Ground Water, User's Manual, Version 1.0, Rice University,
+Houston, TX.
+</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Wiedemeier, T.H., Miller, R.N., Wilson, J.T. And Kampbell, D.H.</origin>
+<pubdate>1995</pubdate>
+<title>Significance of Anaerobic Processes for the Intrinsic Bioremediation of Fuel Hydrocarbons</title>
+<geoform>proceedings</geoform>
+<serinfo>
+<sername>Proceedings of the Petroleum Hydrocarbons and Organic Chemicals in Ground Water Conference, Houston, Texas</sername>
+<issue>November, 1995</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Houston, Texas</pubplace>
+<publish>National Groundwater Association</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Wilson, J.T., McNabb, J.F., Cochran, J.W., Wang, T.H., Tomson, M.B. And Bedient, P.B.</origin>
+<pubdate>1985</pubdate>
+<title>Influence of Microbial Adaptation on the Fate of Organic Pollutants in Groundwater</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Environmental Toxicology and Chemistry</sername>
+<issue>v. 4</issue>
+</serinfo>
+<othercit>pp. 721-726.</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<logic>not applicable</logic>
+<complete>IOSCREEN includes three different model types: solute transport without decay, solute transport with biodegradation modeled as a first-order decay process, and solute transport with biodegradation modeled as an instantaneous biodegradation reaction with multiple soluble electron acceptors.</complete>
+<lineage>
+<procstep>
+<procdesc>unknown</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Groundwater and Ecosystems Restoration Division</cntorg>
+<cntper>Dan West</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Office of Research and Development
+National Risk Management Research Laboratory
+Ground Water and Ecosystems Restoration Division (GWERD)
+P.O. Box 1198
+</address>
+<city>Ada</city>
+<state>Oklahoma</state>
+<postal>74821</postal>
+</cntaddr>
+<cntvoice>(580) 436-8717, (580) 436-8500</cntvoice>
+<cntemail>west.daniel@epa.gov</cntemail>
+<cntinst>
+Office of Research and Development
+National Risk Management Research Laboratory
+Ground Water and Ecosystems Restoration Division (GWERD)
+P.O. Box 1198
+Ada, Oklahoma 74821
+</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>BIOSCREEN</resdesc>
+<distliab>Although these data have been processed successfully on a computer system at the U.S. Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a U.S. Environmental Protection Agency server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The U.S. Environmental Protectio Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>exe</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.epa.gov/ada/csmos/models/bioscrn.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None, if available online.</fees>
+</stdorder>
+<techpreq>
+Minimum System Requirements
+Any computer system capable of running Microsoft Excel version 5.0 or later will be able to run BIOSCREEN. Because of the intensive floating point calculations used in the model, however, GSI recommends that the following minimum requirements be observed to ensure a minimum standard of performance:
+Hardware Requirements:
+An Intel 486 CPU, operating at 50 MHz or faster
+8MB Random Access Memory (16 MB or more will improve performance)
+1MB free hard drive space (for BIOSCREEN only - Excel will require substantially more)
+Software Requirements:
+BIOSCREEN is designed to be run under Microsoft Excel. Your system must have Excel version 5.0 or later properly installed.
+BIOSCREEN has been tested on Excel version 5.0 for Windows on systems running Windows 3.1, Windows for Workgroups 3.11, Windows 95, and Windows NT Version 3.51, Excel 7.0 on Windows 95 and Windows NT 3.51, and Excel 97 on Windows NT Version 3.51. BIOSCREEN runs equally well under all of these configurations. BIOSCREEN also runs well on Power Macintosh (and compatibles) running Excel version 5.0 for Macintosh.
+Installation and Start-Up
+You will need Adobe Acrobat Reader to view the documentation (PDF) files. The Reader is available free from Adobe at the sites below:
+http://www.adobe.com - Adobe Reader download page
+ftp://ftp.adobe.com - Adobe anonymous ftp home page
+Installing the Program:
+Two files are available for download:
+bioscrn.exe (248 Kb): Installation program, help files, and installation instructions
+bioscrn.pdf (1,261 Kb): User's Manual, includes case study and sample output
+View the BIOSCRN.PDF file for further installation instructions.
+Go to Windows Explorer and create a directory (folder) named BIOSCREEN.
+Download BIOSCRN.PDF, and BIOSCRN.EXE to the new BIOSCREEN directory.
+Run BIOSCRN.EXE either by selecting Run from the File menu in Program Manager or by double-clicking on the file BIOSCRN.EXE in File Manager (or Windows 95/98 Explorer).
+The installation process creates the C:\BIOSCRN directory on your hard drive and copy essential files to that directory.
+To run BIOSCREEN after installation, start Microsoft Excel and open the BIOSCRN.XLS file. Loading from within Excel is preferred to double-clicking the file name in file manager.
+</techpreq>
+</distinfo>
+<metainfo>
+<metd>20030527</metd>
+<metrd>20040711</metrd>
+<metfrd>20040711</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19970701</begdate><enddate>19970731</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_EPA_epa_t_bioscreen.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

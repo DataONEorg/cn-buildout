@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_pub1065.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>May, C.L.</origin>
+<pubdate>2001</pubdate>
+<title>Spatial and temporal dynamics of sediment and wood in headwater streams in the Central Oregon Coast Range</title>
+<geoform>Thesis</geoform>
+<pubinfo>
+<pubplace>Corvallis, OR</pubplace>
+<publish>Oregon State University</publish>
+</pubinfo>
+<othercit>
+Science Information System Project #: none
+Publication Control #: 1065
+</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>In steep mountainous terrain, small headwater streams represent an important linkage between hillslope and fluvial processes, and between terrestrial and aquatic ecosystems. In the Pacific Northwest, relatively infrequent but large scale debris flows are one of the dominant processes that transport sediment and wood from the upland hillslopes and small streams into larger rivers. In the interval between debris flows, small streams with an adequate supply of wood have the potential to store large volumes of sediment that are delivered from the local hillslopes. These small streams are incredibly abundant and can function as one of the dominant storage reservoirs for sediment in mountainous terrain. Unfortunately there has been a lack of information about the structure and function of small, non-fish bearing stream channels. Understanding the patterns of sediment delivery from these small streams to the larger rivers is important for predicting habitat formation and maintenance, and for gaining insight into large-scale patterns of disturbance in aquatic ecosystems. This publication investigates the rate of sediment and wood accumulation in channels that were scoured to bedrock by debris flows. The majority of sediment in steep headwater streams was stored by wood, and (strikethrough: also that) landslides and wind throw were the dominant mechanisms for delivering wood to channels. As a second aspect of the research, the spatial and temporal patterns of debris flow occurrence and deposition in the Oregon Coast Range were investigated. The distribution of debris flow occurrence through time varied with network structure and drainage area of the tributary basin.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>
+Extent of item: 160pp
+Illustrative Matter:  tables, graphs, maps
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2001</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Oregon Coast Range drainage basins: Skate, Bear, Franklin, Harvey, and Wassen Creeks</descgeog>
+<bounding>
+<westbc>-124</westbc>
+<eastbc>-123.73</eastbc>
+<northbc>44</northbc>
+<southbc>43.5</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>NBII Biocomplexity Thesaurus</themekt>
+<themekey>Amphibians</themekey>
+<themekey>Aquatic ecosystems</themekey>
+<themekey>Fires</themekey>
+<themekey>Fish</themekey>
+<themekey>Forests</themekey>
+<themekey>Riparian environments</themekey>
+<themekey>Rivers</themekey>
+</theme>
+<theme>
+<themekt>none</themekt>
+<themekey>sediment</themekey>
+<themekey>erosion</themekey>
+<themekey>geomorphology</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #: 1065</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20050328</metd>
+<metrd>20020513</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20010101</begdate><enddate>20011231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_pub1065.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

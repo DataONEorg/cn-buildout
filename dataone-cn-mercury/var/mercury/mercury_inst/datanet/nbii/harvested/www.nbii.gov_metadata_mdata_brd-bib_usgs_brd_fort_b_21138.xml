@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21138.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Dunham, J.B., B.S. Cade, and J.W. Terrell</origin>
+<pubdate>2002</pubdate>
+<title>Influences of spatial and temporal variation on fish-habitat relationships defined by regression quantiles</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>Transactions of the American Fisheries Society (ISSN 0002-8487)</sername>
+<issue>131:86-98</issue>
+</serinfo>
+<othercit>Vol. 131 pages 86-98</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Dunham, J.B., B.S. Cade, and J.W. Terrell. 2002. Influences of spatial and temporal variation on fish-habitat relationships defined by regression quantiles. Transactions of the American Fisheries Society 131: 86-98.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>regression</themekey>
+<themekey>regression quantiles</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Cade, B.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Cade, B.S., and Q. Guo</origin>
+<pubdate>2000</pubdate>
+<title>Estimating effects of constraints on plant performance with regression quantiles</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Oikos (ISSN 0030-1299)</sername>
+<issue>91(2):245-254</issue>
+</serinfo>
+<othercit>Vol. 91(2) pages 245-254</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Haire, S.L., C.E. Bock, and B.S. Cade</origin>
+<pubdate>2000</pubdate>
+<title>Paradigm shifts in theory and methods: regression quantile analysis enables new insights for ecology</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Boulder, CO</pubplace>
+<publish>University of Colorado, Cooperative Institute for Research in Environmental Sciences</publish>
+</pubinfo>
+<othercit>pages 1-10</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/4082/4082.asp</onlink>
+<lworkcit>
+<citeinfo>
+<origin>Parks, B.O., K.M. Clark, M.P. Crane , ed.</origin>
+<pubdate>2000</pubdate>
+<title>Paradigm shifts in theory and methods: regression quantile analysis enables new insights for ecology</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Boulder, CO</pubplace>
+<publish>University of Colorado, Cooperative Institute for Research in Environmental Sciences</publish>
+</pubinfo>
+<othercit>pages 1-10</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Cade, B.S., J.W. Terrell, and R.L. Schroeder</origin>
+<pubdate>1999</pubdate>
+<title>Estimating effects of limiting factors with regression quantiles</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Ecology (ISSN 0012-9658)</sername>
+<issue>80(1):311-3</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>Ecological Society of America</publish>
+</pubinfo>
+<othercit>Vol. 80(1) pages 311-3</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/3521/3521.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Zoellick, B.W. and B.S. Cade</origin>
+<pubdate>2006</pubdate>
+<title>Evaluating redband trout habitat in sagebrush desert basins in southwestern Idaho</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>North American Journal of Fisheries Management (ISSN 0275-5947)</sername>
+<issue>26(2):268-281</issue>
+</serinfo>
+<othercit>Vol. 26(2) pages 268-281</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Sankaran, M., Niall P. Hanan, R.J. Scholes, J. Ratnam, D.J. Augustine, B.S. Cade, et al</origin>
+<pubdate>2005</pubdate>
+<title>Determinants of woody cover in African savannas</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Nature</sername>
+<issue>438:846-849</issue>
+</serinfo>
+<othercit>Vol. 438 pages 846-849</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Cade, B.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Influences of spatial and temporal variation on fish-habitat relationships defined by regression quantiles.  FORT Library Archive Number: 2002/0038 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21138.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

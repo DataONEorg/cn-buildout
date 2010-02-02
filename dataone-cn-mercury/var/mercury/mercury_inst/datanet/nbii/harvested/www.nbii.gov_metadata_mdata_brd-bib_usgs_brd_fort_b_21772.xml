@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21772.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Wilson, J.T. and A. Farmer</origin>
+<pubdate>2006</pubdate>
+<title>Satellites used to track bird movement and preserve species</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>http://www.usgs.gov/newsroom/article.asp?ID=1521</sername>
+<issue>2 pp.</issue>
+</serinfo>
+<othercit>2 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21772/21772.asp</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Wilson, J.T. and A. Farmer. 2006. Satellites used to track bird movement and preserve species. http://www.usgs.gov/newsroom/article.asp?ID=1521. : 2 p.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2006</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Bear River Migratory Bird Refuge</descgeog>
+<bounding>
+<westbc>-112.45145667</westbc>
+<eastbc>-112.053404645</eastbc>
+<northbc>41.5504855438</northbc>
+<southbc>41.393773414</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>shorebird migration</themekey>
+<themekey>migratory stopover sites</themekey>
+<themekey>satellite tracking</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Bear River Migratory Bird Refuge</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Wilson, D.E.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Wilson, J.T. and A. Farmer</origin>
+<pubdate>2006</pubdate>
+<title>Satellites used to track bird movement and preserve species</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>People, Land and Water</sername>
+<issue>12(5):1</issue>
+</serinfo>
+<othercit>Vol. 12(5) 1 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21825/21825.asp</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Wilson, D.E.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Satellites used to track bird movement and preserve species.  FORT Library Archive Number: 2006/0091 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20060101</begdate><enddate>20061231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21772.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

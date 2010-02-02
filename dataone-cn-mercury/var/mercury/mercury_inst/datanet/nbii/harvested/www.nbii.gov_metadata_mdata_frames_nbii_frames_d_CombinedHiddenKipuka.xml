@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/frames/nbii_frames_d_CombinedHiddenKipuka.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>H.D. Grissino-Mayer (collector and crossdater)</origin>
+<origin>E. Atchley (collector)</origin>
+<origin>M. Armbrister (collector)</origin>
+<origin>D. Lewis (collector and crossdater)</origin>
+<pubdate>1991, 2001</pubdate>
+<title>Combined Hidden Kipuka Fire History_fhx (combined with Grissino-Mayer 1995)</title>
+<geoform>maps data</geoform>
+<othercit>file name: newhk.fhx</othercit>
+<onlink>http://web.utk.edu/~grissino/jfsp013329/data.html</onlink>
+<onlink>http://web.utk.edu/~grissino/jfsp013329/newhk.fhx</onlink>
+<lworkcit>
+<citeinfo>
+<origin>Daniel B. Lewis</origin>
+<pubdate>2003</pubdate>
+<title>Fire regimes of kipuka forests in El Malpais National Monument, New Mexico, USA</title>
+<pubinfo>
+<pubplace>Knoxville, TN</pubplace>
+<publish>The University of Tennessee</publish>
+</pubinfo>
+<othercit>
+This dataset is part of the project with FRAMES resource id {E4211B5D-4B1D-4EEA-8262-BD97E5FE8E95} and part of the thesis cited below:
+Daniel B. Lewis, 2003. Fire regimes of kipuka forests in El Malpais National Monument, New Mexico, USA. M.S. thesis, The University of Tennessee, Knoxville. 145 pp.  -- {8797FC16-90F4-4BFB-AC2B-2D49317316D6}
+</othercit>
+<onlink>http://web.utk.edu/~grissino/jfsp013329/thesis.html</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+Combined Hidden Kipuka Fire History (combined with Grissino-Mayer 1995) dataset as part of the thesis -- Daniel B. Lewis, 2003. Fire regimes of kipuka forests in El Malpais National Monument, New Mexico, USA. M.S. thesis, The University of Tennessee, Knoxville. 145 pp.
+Currently, ecosystem processes that maintain the forests of the American Southwest are operating outside the historical range of variation that existed prior to Euro-American settlement. Areas that have been minimally disturbed by humans should be targeted for research because they contain valuable information about past ecological processes. In El Malpais National Monument, islands of older substrate material are surrounded by younger lava flows. These areas, known as kipukas, likely preserve presettlement forest structure and contain trees old enough to provide information on past ecological processes.
+</abstract>
+<purpose>The purpose of this study is to reconstruct fire history on minimally disturbed kipukas in El Malpais National Monument, New Mexico. Eight sites were sampled and 105 fire-scarred samples were collected. Increment cores were taken from living ponderosa pine (Pinus ponderosa Dougl. ex. Laws) trees on two kipukas to examine the age structure of the kipuka forests and to determine whether fire suppression away from the kipukas may be allowing ponderosa pines to encroach onto areas not in their local distribution in the monument.</purpose>
+<supplinf>
+Hidden Kipuka is located ca. one km northeast of Mesita Blanca. It is ca. 1.1 km long and ca. 350 m wide at its widest point. It has the same northwest/southeast orientation as Mesita Blanca. Elevation on the northern end of the kipuka rises to just over 2295 m asl with a very steep eastern slope. The southern end rises to approximately 2275 m asl with more gentle slopes down to the lava flows. The substrate is Glorieta Sandstone (Lower Permian) which has a very white coloring compared to the darker gray coloring of Mesita Blanca (Maxwell 1986). This kipuka is bordered on its west side by the Hoya de Cibola Lava Flow and on its eastern side by the younger Bandera Flow.
+...It is also unlikely that fires have been actively suppressed here due to its remote location and relative inaccessibility.
+taken from section 3.4.2 of Daniel B. Lewis, 2003. Fire regimes of kipuka forests in El Malpais National Monument, New Mexico, USA. M.S. thesis, The University of Tennessee, Knoxville. 145 pp.
+(previous geoform was 'maps or data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>1991</caldate>
+</sngdate>
+<sngdate>
+<caldate>2001</caldate>
+</sngdate>
+</mdattim>
+</timeinfo>
+<current>as indicated by dataset</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-108.06</westbc>
+<eastbc>-107.8</eastbc>
+<northbc>34.09</northbc>
+<southbc>33.68</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>FRAMES Resource ID</themekt>
+<themekey>{4FF16EF1-9FD6-4E16-98AF-410593C0091C}</themekey>
+</theme>
+<theme>
+<themekt>GACC Regions</themekt>
+<themekey>Southwest</themekey>
+</theme>
+<theme>
+<themekt>FRAMES Subject Categories</themekt>
+<themekey>fire history</themekey>
+</theme>
+<theme>
+<themekt>none</themekt>
+<themekey>pinus ponderosa</themekey>
+<themekey>kipuka</themekey>
+<themekey>pinon-juniper</themekey>
+</theme>
+</keywords>
+<accconst>none</accconst>
+<useconst>Please provide the appropriate citation/credit to the originator(s) or individual/organization(s) that should receive recognition for their contribution to the data set.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Henri D. Grissino-Mayer</cntper>
+<cntorg>Department of Geography, The University of Tennessee</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>Department of Geography, The University of Tennessee</address>
+<city>Knoxville</city>
+<state>Tennessee</state>
+<postal>37996</postal>
+</cntaddr>
+<cntvoice>865.974.6029</cntvoice>
+<cntfax>865.974.6025</cntfax>
+<cntemail>grissino at utk.edu</cntemail>
+</cntinfo>
+</ptcontac>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native>
+<crossref>
+<citeinfo>
+<origin>Henri D. Grissino-Mayer, Department of Geography, The University of Tennessee, Knoxville, TN</origin>
+<origin>Herschel Schulz, El Malpais National Monument, Grants, NM</origin>
+<pubdate>2001</pubdate>
+<title>Assessing Anthropogenic Changes in Fire Regimes Using Relict Areas in El Malpais National Monument, New Mexico -- JFSP 01-3-3-29 {E4211B5D-4B1D-4EEA-8262-BD97E5FE8E95}</title>
+<othercit>This dataset is part of the project with FRAMES resource id {E4211B5D-4B1D-4EEA-8262-BD97E5FE8E95}.</othercit>
+<onlink>http://web.utk.edu/~grissino/jfsp013329/proposal.html</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Daniel B. Lewis</origin>
+<pubdate>2003</pubdate>
+<title>Fire regimes of kipuka forests in El Malpais National Monument, New Mexico, USA -- {8797FC16-90F4-4BFB-AC2B-2D49317316D6}</title>
+<othercit>
+This dataset is part of the thesis cited below:
+Daniel B. Lewis, 2003. Fire regimes of kipuka forests in El Malpais National Monument, New Mexico, USA. M.S. thesis, The University of Tennessee, Knoxville. 145 pp.  -- {8797FC16-90F4-4BFB-AC2B-2D49317316D6}
+</othercit>
+<onlink>http://web.utk.edu/~grissino/jfsp013329/thesis.html</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>none</attraccr>
+</attracc>
+<logic>Unknown</logic>
+<complete>unknown</complete>
+<lineage>
+<procstep>
+<procdesc>UNKNOWN</procdesc>
+<procdate>UNKNOWN</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spref>
+<horizsys>
+<geograph>
+<latres>34.09</latres>
+<longres>108.06</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>More about FHX2 format (standard format for fire history data) can be found at the International Multiproxy Paleofire Database (IMPD) as described under Tree-Ring Fire Event Data Description available at http://www.ncdc.noaa.gov/paleo/impd/tree_event_info.html.</eaover>
+<eadetcit>UNKNOWN</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Henri D. Grissino-Mayer</cntper>
+<cntorg>Dept. of Geography, The University of Tennessee</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>physical address</addrtype>
+<address>Department of Geography, The University of Tennessee</address>
+<city>Knoxville</city>
+<state>Tennessee</state>
+<postal>37996</postal>
+</cntaddr>
+<cntvoice>865.974.6029</cntvoice>
+<cntfax>865.974.6025</cntfax>
+<cntemail>grissino@utk.edu</cntemail>
+</cntinfo>
+</distrib>
+<distliab>UNKNOWN</distliab>
+<custom>Data available in FIRE2 format at http://web.utk.edu/~grissino/jfsp013329/data.html</custom>
+</distinfo>
+<metainfo>
+<metd>20061002</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Christopher C. Szell</cntper>
+<cntorg>National Biological Inventory Infrastructure (NBII) Fire Research and Management Exchange System (FRAMES) The Nature Conservancy (TNC)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>6114 Fayetteville Rd.</address>
+<address>suite 109</address>
+<city>Durham</city>
+<state>NC</state>
+<postal>27713</postal>
+</cntaddr>
+<cntvoice>919.484.7857</cntvoice>
+<cntemail>cszell@tnc.org</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+<mercury><begdate>19910101</begdate><enddate>20011231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/frames/www.nbii.gov_metadata_mdata_frames_nbii_frames_d_CombinedHiddenKipuka.html</htmlurl><LTER-Site>frames</LTER-Site></mercury></metadata>

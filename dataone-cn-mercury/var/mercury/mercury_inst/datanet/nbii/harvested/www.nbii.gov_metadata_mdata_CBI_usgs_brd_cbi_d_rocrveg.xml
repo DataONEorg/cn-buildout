@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_rocrveg.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Air Survey Corporation Sterling, Virginia</origin>
+<pubdate>19961029</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Rock Creek Park</title>
+<edition>Version 1.0</edition>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>1.0</sername>
+<issue>Unknown</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Sterling Virginia</pubplace>
+<publish>Air Survey Corporation</publish>
+</pubinfo>
+<othercit>The aerial photography is CIR 1:6,000 scale.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/rocr/images/rocrveg.jpg</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/rocr/rocr.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/rocr/rocrsdts.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/rocr/rocrbdy.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/rocr/rocrbdysdts.exe</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+The National Park Service (NPS), in conjunction
+with the Biological Resources Division (BRD) of
+the U.S. Geological Survey (USGS), has implemented
+a program to "develop a uniform hierarchical
+vegetation methodology" at a national level.  The
+program will also create a geographic information
+system (GIS) database for the parks under its
+management.  The purpose of the data is to
+document the state of vegetation within the NPS
+service area during the 1990's, thereby providing
+a baseline study for further analysis at the
+Regional or Service-wide level.  Aerial
+Information Systems (AIS) was subcontracted by
+Environmental Systems Research Institute (ESRI),
+the prime contractor, to perform the
+photointerpretation for the program.  ESRI
+subcontracted The Nature Conservancy (TNC) to
+conduct the field sampling effort and to support
+the development of the National Standard
+Classification.
+</abstract>
+<purpose>
+Several parks, representing different regions,
+environmental conditions, and vegetation types,
+were chosen by BRD to be part of the prototype
+phase of the program.  The initial goal of the
+prototype phase is to "develop, test, refine, and
+finalize the standards and protocols" to be used
+during the production phase of the project.  This
+includes the development of a standardized
+vegetation classification system for each park and
+the establishment of photointerpretation, field,
+and accuracy assessment procedures.  Rock Creek
+Park, established in 1890, was designated as one
+of the prototype parks.  The park is located on
+the fall line between the Atlantic coastal plain
+and the piedmont.  The main portion of the park is
+bounded on the north by the Maryland State line
+and on the south by the Virginia State line.  Its
+western edge follows along Oregon Avenue, and it
+is bounded on the east by 16th Street NW.  The
+western outlying portions of the Park extend to
+and slightly beyond Nebraska Avenue NW.  The
+eastern outlying portions extend from 16th Street
+NW to the junction of US Highway 1 and the
+Maryland border.  The park is noted for having
+exceptional resources, including six natural
+resources that maintain its significance within
+the National Park System.  Included in these six
+natural resources, are three that are directly
+related to the vegetation of the park.  They are:
+1) Deciduous forests, 2) Wetlands, and 3) Plant
+species protected in both Virginia and Maryland.
+Based on these and other resources, Rock Creek
+Park is divided up into nine management zones
+pertaining to vegetation, automobile access,
+recreation, administration, and cultural
+resources.
+</purpose>
+<supplinf>
+Rock Creek is one of the largest forested urban
+parks in the United States, with more the &amp;frac34; of the
+park's approximately 2,760 acres covered by mature
+deciduous forest. A significant portion of this
+forest is second growth, with a moderately high
+diversity in canopy and understory species.  Rock
+Creek Park is made up of steep canyons and side
+slopes that bisect several significant east-west
+trending ridgelines.  The park descends along the
+fall line through numerous small rapids along the
+creek.  Rock Creek itself, descends over 150' from
+the state line to its confluence with the Potomac
+River.  Flood plain development is fairly
+restrictive, limited primarily to Rock Creek
+itself.  Broad Branch, the main tributary to Rock
+Creek within the park, flows southeasterly and
+joins Rock Creek towards the southern portion of
+the park. At the confluence, the park boundary
+significantly narrows in its east-west extent.
+All sections are accessible either by automobile
+or by hiking.  Most portions of the park are
+accessible through short hikes, usually under one
+mile.  Gradients above the floodplain are
+surprisingly steep, and make for some moderate
+hiking.  For purposes of vegetation mapping, the
+park was divided into four sections pertaining
+primarily to its location on the fall line between
+the coastal plain and piedmont.  The park was
+further divided into the main portion of the park
+(containing Rock Creek), and the various outliner
+portions of the park to the east and west.
+(previous geoform was 'image')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>19961029</caldate>
+</sngdate>
+</timeinfo>
+<current>Source_Photography_Date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None Planned</update>
+</status>
+<spdom>
+<descgeog>
+The park is located on the fall line between the
+Atlantic coastal plain and the piedmont.  The main
+portion of the park is bounded on the north by the
+Maryland State line and on the south by the
+Virginia State line.  Its western edge follows
+along Oregon Avenue, and it is bounded on the east
+by 16th Street NW.  The western outlying portions
+of the Park extend to and slightly beyond Nebraska
+Avenue NW.  The eastern outlying portions extend
+from 16th Street NW to the junction of US Highway
+1 and the Maryland border.
+</descgeog>
+<bounding>
+<westbc>77.1</westbc>
+<eastbc>77</eastbc>
+<northbc>38.98333</northbc>
+<southbc>38.9</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>National Park Service</themekey>
+<themekey>U.S. Geological Service</themekey>
+<themekey>The Nature Conservancy</themekey>
+<themekey>Aerial Information Systems</themekey>
+<themekey>Center for Biological Informatics</themekey>
+<themekey>land cover</themekey>
+<themekey>vegetation</themekey>
+<themekey>community</themekey>
+<themekey>association</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Rock Creek Park</placekey>
+<placekey>Washington D.C.</placekey>
+<placekey>USA</placekey>
+</place>
+<stratum>
+<stratkt>None</stratkt>
+<stratkey>Glover Archbold Park and Environs</stratkey>
+<stratkey>Fort Totten Park, Barnard Hill Park and Environs</stratkey>
+<stratkey>Land Use Areas of the Park</stratkey>
+<stratkey>Coastal Plain</stratkey>
+<stratkey>Piedmont</stratkey>
+<stratkey>Forest Zone</stratkey>
+</stratum>
+<temporal>
+<tempkt>None</tempkt>
+<tempkey>Data Represents October 1996</tempkey>
+</temporal>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>National Vegetation Classification System</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>
+United States Department of the Interior National
+Biological Survey and National Park Service
+</origin>
+<pubdate>19941101</pubdate>
+<title>
+Standardized National Vegetation Classification
+System
+</title>
+<edition>Version 1</edition>
+<geoform>Classification System</geoform>
+<serinfo>
+<sername>NBS/NPS Vegetation Mapping Program</sername>
+<issue>Final Draft</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Redlands, California</pubplace>
+<publish>ESRI</publish>
+</pubinfo>
+<othercit>Prepared by the Nature Conservancy</othercit>
+</citeinfo>
+</classcit>
+</classsys>
+<idref>
+<citeinfo>
+<origin>
+United States Department of the Interior National
+Biological Survey and National Park Service
+</origin>
+<pubdate>19941101</pubdate>
+<title>
+Standardized National Vegetation Classification
+System
+</title>
+<edition>Version 1</edition>
+<geoform>Classification System</geoform>
+<serinfo>
+<sername>NBS/NPS Vegetation Mapping Program</sername>
+<issue>Final Draft</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Redlands, California</pubplace>
+<publish>ESRI</publish>
+</pubinfo>
+<othercit>Prepared by the Nature Conservancy</othercit>
+</citeinfo>
+</idref>
+<taxonpro>
+See "Photo Interpretation Report, BRD/NPS Vegetation and Inventory and Mapping Program,
+Rock Creek Park," October 1, 1998 &lt;http://biology.usgs.gov/npsveg/rocr/pi_rpt.pdf&gt;
+</taxonpro>
+<taxoncom>Complete</taxoncom>
+</taxonsys>
+<taxongen>
+Vegetation Alliances of the National Vegetation
+Classification System (October 1995)
+</taxongen>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>
+Any person using the information presented here
+should fully understand the data collection and
+compilation procedures, as described in these
+metadata, before beginning analysis.  The burden
+for determining fitness for use lies entirely with
+the user.  For purposes of publication or
+dissemination, citations should be given to the
+U.S. Geological Survey and the National Park
+Service
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>
+USGS Biological Resources Division, Center for Biological
+Informatics
+</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>Building 810, Room 8000</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>PO BOX 25046, DFC, MS302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/rocr/images/rocrveg.jpg</browsen>
+<browsed>121 Kbyte graphic in map composition layout</browsed>
+<browset>JPG</browset>
+</browse>
+<secinfo>
+<secsys>None</secsys>
+<secclass>None</secclass>
+<sechandl>None</sechandl>
+</secinfo>
+<native>UNIX-ARC/INFO</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+Code verification involved running each
+coverage attribute file through a series of ARC/INFO
+commands that checked for invalid codes.  These
+commands produced listings that aided in
+identifying abnormal codes.  The errors were
+checked against the vegetation delineation
+and attribute overlays.  Corrections were made to
+the listings and input into the database.   ESRI
+produced a plot of the converted spatial data and
+sequence numbers (label I.D.s) for the manuscript.
+The plot was checked by AIS for cartographic
+quality of the arcs defining the polygon features
+and the accuracy of the label I.D. assignments.
+The plot was overlaid to the manuscript map to
+verify that the scanned data was not distorted
+beyond .02 map inches.  Other problems were noted
+on the plots, such as overshoots and undershoots,
+missing lines, premature convergence of polygon
+boundary lines that intersected arcs at acute
+angles, and incorrect sequence number assignments.
+ESRI produced code verification plots of the
+community association codes, height and density
+codes, and land use code attributes.  The plots
+were checked for coding errors that may have
+occurred during the polygon attribute encoding
+step.  The plots were overlaid on the manuscript
+map with attached corresponding code attribute
+overlay created in the manual rectification step.
+Code changes were noted on the plot.  The edited
+plots were delivered back to ESRI for correction
+of the attribute files.   Processors conducted
+interactive ARCEDIT sessions to make the necessary
+corrections to the coverages.
+</attraccr>
+</attracc>
+<logic>
+All polygon features are checked for topology
+using the ARC/INFO software.  Each polygon begins
+and ends at the same point with the node feature.
+All nodes are checked for error so that there are
+no dangling features.  There are no duplicate
+lines or polygons.  All nodes will snap together
+and close polygons based on a specific tolerance.
+If the node is not within the tolerance, it is
+adjusted manually.  The test for logical
+consistency are performed in ARC/INFO.
+</logic>
+<complete>
+All data that can be photointerpreted is also
+digitized.  This includes alliance/association
+classes, surface water, and unvegetated/landuse.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+Unknown.  The positional accuracy of the base
+digital ortho image is not known.  It is assumed
+the map meets National Map Accuracy Standards.
+</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>
+Unknown.  The positional accuracy of the base
+digital ortho image is not known.  It is assumed
+the map meets National Map Accuracy Standards.
+</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>AIS</methkey>
+</methodid>
+<methdesc>
+The normal process in vegetation mapping is to
+conduct an initial field reconnaissance, map the
+vegetation units through photointerpretation, then
+conduct a field verification. The field reconnaissance
+visit serves two major functions. First, the
+photointerpreter keys the signature on the aerial
+photos to the vegetation on the ground at each
+signature site. Second, the photointerpreter becomes
+familiar with the flora, vegetation communities and local
+ecology that occur in the study area. Park and /or
+TNC field biologists that are familiar with the local
+vegetation and ecology of the park are present to help
+the photointerpreter understand these elements and their
+relationship with the geography of the park.
+Upon completion of the field reconnaissance, photo
+interpreters delineate vegetation units on mylar that overlay
+the 9x9 aerial photos. This effort is conducted in
+accordance with the TNC vegetation classification and
+criteria for defining each community or alliance. The initial
+mapping is then followed by a field verification session,
+whose purpose is to verify that the vegetation units were
+mapped correctly. Any PI related questions are also
+addressed during the visit.
+The vegetation mapping at Rock Creek Park in general
+followed the normal mapping procedure as described above.
+However, a TNC vegetation classification did not exist for
+Rock Creek Park at the time the initial delineations commenced.
+The TNC ecologist and AIS photo interpreters worked together
+to develop a temporary signature key which addressed what
+was known at the time. Unlike most parks, no existing plot
+data was available to create an interim classification.
+</methdesc>
+<methcite>
+<citeinfo>
+<origin>Aerial Information Systems (AIS)</origin>
+<pubdate>Unpublished Material</pubdate>
+<pubtime>Unknown</pubtime>
+<title>
+Photo Interpretation Report USGS-NPS Vegetation
+Mapping Program Rock Creek Park
+</title>
+<edition>Version 1</edition>
+<geoform>Report</geoform>
+<serinfo>
+<sername>Unknown</sername>
+<issue>Unknown</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Unknown</pubplace>
+<publish>Ed Reyes</publish>
+</pubinfo>
+<othercit>Unknown</othercit>
+</citeinfo>
+</methcite>
+<methodid>
+<methkt>None</methkt>
+<methkey>TNC</methkey>
+</methodid>
+</method>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Air Survey Corporation Sterling, Virginia</origin>
+<pubdate>19961029</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Rock Creek Park</title>
+<edition>Version 1.0</edition>
+<geoform>image</geoform>
+<serinfo>
+<sername>1.0</sername>
+<issue>Unknown</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Sterling Virginia</pubplace>
+<publish>Air Survey Corporation</publish>
+</pubinfo>
+<othercit>The aerial photography is CIR 1:6,000 scale.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/rocr/photos.html</onlink>
+</citeinfo>
+</srccite>
+<srcscale>12000</srcscale>
+<typesrc>CIR Aerial Photography</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19961029</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>ASC</srccitea>
+<srccontr>None</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>See Methodology Description above.</procdesc>
+<srcused>ASC</srcused>
+<procdate>19981001</procdate>
+</procstep>
+<procstep>
+<procdesc>
+The following continues to describe the tasks performed and
+methodologies used by Aerial Information Systems (AIS)
+during the vegetation data compilation for Rock Creek Park.
+DATA CONVERSION: Typically, the first step of the data
+conversion process is the Manual rectification was conducted
+by attaching a new mylar overlay to the base. The photo
+signature delineation units were transferred to the overlay
+through local registration of the photos with the attached
+photo signature delineation overlay. Existing orthophotography
+for Rock Creek Park was created from photos flown in leaf off
+conditions. Although this allowed greater ease for viewing
+features such as roads in forest canopies, it proved difficult to
+register vegetation from leaf on photography to the early spring
+leaf off orthophotography. A small area of the photo was
+registered to the base at a time. By matching photo image to
+orthophoto image, the delineations were transferred to the base
+overlay. Because the parallax of the photo differs from that of
+the orthophoto base, care was required in transfer. Inconsistent
+stretching or shortening of the images was common from the photo
+to the base. When one area was completed, the photo was shifted
+to register to another small area. The process continued until the
+manual rectification and transfer of polygons was complete. The
+codes for PI signature type, height, density, and community type
+were transferred from the corresponding photo overlays.
+</procdesc>
+<procdate>19980601</procdate>
+</procstep>
+<procstep>
+<procdesc>
+FIELD RECONNAISSANCE EFFORT: A three day
+photointerpretation field reconnaissance effort was  conducted
+in May 1997 (see section III) to tie the photo signatures delineated
+on the aerial photographs with units evident on the ground.
+The field crew consisted of Eden Crane and Sue Salmons (park
+biologists), Virginia Crouch (Heritage biologist), Julie Lundgen (TNC
+ecologist) and John Menke (AIS photointerpreter).
+Prior to the field reconnaissance effort, several in-house preparations
+were performed in order to facilitate a more organized trip. Each photo
+was prepared with a separate field overlay. Locational features (roads,
+buildings, etc) were drafted onto the overlays. Each photo was reviewed
+and field transect sites were chosen representing different signatures
+types, geographic variables (% slope, aspect, shape of the slope, elevation),
+and other abiotic variables noted on the photography. These sites were
+drafted onto the field overlays with notations to each site as needed.
+Multiple sites were chosen to provide alternatives if one or more sites
+proved inaccessible.
+The field crew conducted on-site investigations over the three-day period.
+During the field visit, the photointerpreter worked with the field biologists to
+identify the plant species, preliminary vegetation communities, and their
+associated photo signatures throughout the park. Field site numbers were
+annotated directly onto the photo field overlay, thereby correlating the field
+site to a specific location and photo signature. A field notebook was used to
+record pertinent information (canopy dominance, understory species present,
+abiotic features, disturbance history) for each site visited. Several ground
+photos were taken at selected locations that were later tied back to the aerial
+photographs and the field sites. Sites not previously identified on the photos
+were also visited. These sites included areas between initially selected sites,
+areas of noteworthy or unusual significance as determined by park personnel,
+and areas the photointerpreter deemed important in transit from site to site.
+</procdesc>
+<procdate>19981001</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>
+The ecology field sites were digitized to indicate
+the area for which a TNC ecologist conducted an
+ecological field sampling.
+</indspref>
+<direct>Point</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>18</utmzone>
+<transmer>
+<longcm>-180</longcm>
+<latprjo>-90</latprjo>
+<feast>50000</feast>
+<fnorth>0</fnorth>
+<sfctrmer>0.9996</sfctrmer>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>1</absres>
+<ordres>1</ordres>
+</coordrep>
+<plandu>Meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodedic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altdatum>North American Vertical Datum of 1988</altdatum>
+<altres>1</altres>
+<altunits>Feet</altunits>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+The system is organized hierarchically to support
+conservation and resource stewardship applications
+across multiple scales.  The upper levels of the
+hierarchy are based on the physical form or
+structure of the vegetation (physiognomy) and have
+been refined from the international standards
+developed by the United Nations Educational,
+Scientific, and Cultural Organization (UNESCO).
+The two most detailed levels of the hierarchy are
+based on the species composition of the existing
+vegetation (floristics) and reflect the
+phyto-sociological standards that were originally
+developed by European ecologists.  The vegetation
+classification is continually advanced through the
+collection and analysis of new field data and will
+be greatly strengthened during the course of the
+USGS-NPS mapping efforts.  National Park
+Service/Biological Resources Division Vegetation
+Inventory and Mapping Program for Rock Creek
+Park, Washington DC, Final Community Association
+Classification, March, 1998.  DATA DICTIONARY -
+ROCK CREEK PARK  Data Format Outline:  Variable
+Coverage related variables: Area818F Perimeter818F
+Veg#45B Veg-id45B Defined variables: Seqno33I
+Mod44C PI 22I Height11I Density11I TNC 33C
+Landuse44C Pattern11I  Data Dictionary:  MOD
+(Defines the modules corresponding to the DOQQ
+file name. 6 total - roughly corresponding to the
+six individual plots)  WE4 WW1 WW2 WW3 WW3E WW4
+Defines Photointerpretation Signature Type (PI)
+Non Forest Types:  01=Code not Used 02=Managed
+grass/lawns 03=Meadow grasslands  (native
+component) 04=Shrub areas  (forest edges)
+05=Canopy openings  (shrubs, vines, some trees)
+06=Water 99=Urban/disturbed  (see detailed Urban
+codes in Land Use field)  Forest Types:
+10=Floodplain areas 11=Ash swamps 12=Oak/beech
+13=Mesic oak 14=Dry mesic oak 15=Tulip/oak
+16=Tulip 17=Pine/oak 18=Tulip/oak/beech 19=Tulip
+floodplain 20=Exotic/planted trees with managed
+grass/lawn  Defines Height (HEIGHT)  1=&lt; 0.5
+meters 2=0.5-2 meters 3=2-5 meters 4=5-15 meters
+5=15-35 meters 6=35-50 meters 7=&gt; 50 meters 9=Not
+Applicable  Defines Density (DENSITY)
+1=Closed/Continuous&gt;60% 2=Discontinuous40%-60%
+3=Dispersed25%-40% 4=Sparse10%-25% 5=Rare2%-10%
+9=Not Applicable  Defines Mapping Classification
+Communities and Variants (TNC) 01=Forest canopy
+gap 02=Loblolly pine - mixed oak forest Pinus
+taeda - Quercus (alba, falcata, stellata) Forest
+[Provisional] 03=Virginia pine - oak forest Pinus
+virginiana - Quercus (alba, stellata, falcata,
+velutina) Forest Association 04=Sycamore - green
+ash forest (floodplain forest) Platanus
+occidentalis - Fraxinus pennsylvanica Forest
+05=Tulip poplar forest Liriodendron tulipifera
+Forest [Provisional] 06=Chestnut oak forest
+Quercus (prinus, velutina) / Gaylussacia baccata
+Forest 07=code not used 08=MIXED OAK/BEECH VARIANT
+of Beech - white oak / mayapple forest Fagus
+grandifolia - Quercus alba / Podophyllum peltatum
+Forest 09=code not used 10=Beech - white oak /
+mayapple forest (CLASSIC TYPE) Fagus grandifolia -
+Quercus alba / Podophyllum peltatum Forest
+10B=Beech - white oak / mayapple forest (CLASSIC
+TYPE) beech/tulip component Fagus grandifolia -
+Quercus alba / Podophyllum peltatum Forest
+11=Shrub areas 12=Managed grass/lawns 13=Meadow
+grasslands 14=Managed grass/lawns with trees
+98=Water  Defines Land Use (LANDUSE)  1000=Urban
+1900=Residential 1910=Commercial and Services
+1911=Nature center and planetarium 1912=Horse
+center; maintenance yard 1913=Park headquarters
+1914=Park police 1915=Amphitheater 1916=Mixed park
+facilities 1917=Center for Urban Ecology 1918=Fort
+Stevens 1919=Fort Reno Park 1920=Industrial
+1930=Transportation, Communications, and Utilities
+1931=Road 1932=Parking Area 1940=Industrial and
+Commercial Complexes 1950=Mixed Urban or Built-up
+Land 1960=Other Urban or Built-up Land
+1961=Community gardens 1962=Golf course 1963=Ball
+fields 1964=Tennis stadium and/or courts
+1965=Tennis courts and gardens 1966=Swim center
+1967=Area Under Construction 1968=Cemetery
+2000=Agriculture 3000=Natural Vegetation
+8000=Water  Defines Pattern (PATTERN) 1 = Evenly
+Dispersed 2 = Clumped / Bunched 3 = Gradational /
+Transitional 4 = Alternating 9 = Not Applicable
+FILE SPECIFICATIONS: Coordinate system: NAD83 -
+Maryland State Plane (zone 4126)
+</eaover>
+<eadetcit>
+Grossman, D. Et al. 1994.  National Park Service
+Vegetation Mapping Project, Standardized National
+Vegetation Classification System 209 pp.
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>U.S. Geological Survey, Center for Biological Informatics</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological
+Informatics, MS 302, Room 8000, Building 810,
+Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>ROCR Veg Map</resdesc>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the U.S.
+Geological Survey, no warranty expressed or
+implied is made regarding the accuracy or utility
+of the data on any other system or for general or
+scientific purposes, nor shall the act of
+distribution constitute any such warranty.  This
+disclaimer applies both to individual use of the
+data and aggregate use with other data.  It is
+strongly recommended that these data are directly
+acquired from a U.S. Geological Survey server, and
+not indirectly through other sources which may
+have changed the data in some way.  It is also
+strongly recommended that careful attention be
+paid to the contents of the metadata file
+associated with these data.  The U.S. Geological
+Survey shall not be held liable for improper or
+incorrect use of the data described and/or
+contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>JPG</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/rocr/images/rocrveg.jpg</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/rocr/rocr.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/rocr/rocrsdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/rocr/rocrbdy.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/rocr/rocrbdysdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>200102</metd>
+<metrd>20050517</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19961029</begdate><enddate>19961029</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_rocrveg.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

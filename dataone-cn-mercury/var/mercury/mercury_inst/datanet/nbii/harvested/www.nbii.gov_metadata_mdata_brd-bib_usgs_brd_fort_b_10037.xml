@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_10037.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shafroth, P.B., J.M. Friedman, G.T. Auble, M.L. Scott, and J.H. Braatne</origin>
+<pubdate>2002</pubdate>
+<title>Potential responses of riparian vegetation to dam removal</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>BioScience (ISSN 0006-3568)</sername>
+<issue>52(8):703-712</issue>
+</serinfo>
+<othercit>Vol. 52(8) pages 703-712</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Shafroth, P.B., J.M. Friedman, G.T. Auble, M.L. Scott, and J.H. Braatne. 2002. Potential responses of riparian vegetation to dam removal. BioScience 52(8): 703-712.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>dam removal</themekey>
+<themekey>vegetation</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Shafroth, P.B.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Stromberg, J.C., S.J. Lite, R. Marler, C. Paradzick, P.B. Shafroth, D. Shorrock, J.M. White, and M.S. White</origin>
+<pubdate>2007</pubdate>
+<title>Altered stream-flow regimes and invasive plant species: the Tamarix case</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Global Ecology and Biogeography</sername>
+<issue>16(3):381-393</issue>
+</serinfo>
+<othercit>Vol. 16(3) pages 381-393</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shafroth, P.B., and V.B. Beauchamp, (eds.)</origin>
+<pubdate>2006</pubdate>
+<title>Defining ecosystem flow requirements for the Bill Williams River, Arizona</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>135 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21745/21745.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shafroth, P.B., J.R. Cleverly, T.L. Dudley, J.P. Taylor, C. van Riper III, E.P. Weeks, and J.N. Stuart</origin>
+<pubdate>2005</pubdate>
+<title>Control of Tamarix in the western United States: implications for water salvage, wildlife use, and riparian restoration</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Environmental Management (ISSN 0364-152X)</sername>
+<issue>35(3):231-246</issue>
+</serinfo>
+<othercit>Vol. 35(3) pages 231-246</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shafroth, P.B., J.C. Stromberg, and D.T. Patten</origin>
+<pubdate>2002</pubdate>
+<title>Riparian vegetation response to altered disturbance and stress regimes</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Ecological Applications (ISSN 1051-0761)</sername>
+<issue>12(1):107-123</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>Ecological Society of America</publish>
+</pubinfo>
+<othercit>Vol. 12(1) pages 107-123</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shafroth, P.B., J.C. Stromberg, and D.T. Patten</origin>
+<pubdate>2000</pubdate>
+<title>Woody riparian vegetation response to different alluvial water table regimes</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Western North American Naturalist (ISSN 1527-0904)</sername>
+<issue>60(1):66-76</issue>
+</serinfo>
+<othercit>Vol. 60(1) pages 66-76</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Shafroth, P.B.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Potential responses of riparian vegetation to dam removal.  FORT Library Archive Number: 2002/0028 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_10037.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

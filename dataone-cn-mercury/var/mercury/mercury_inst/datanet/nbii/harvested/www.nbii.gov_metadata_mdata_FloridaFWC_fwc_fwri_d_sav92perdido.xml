@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_sav92perdido.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>United States Geological Survey (USGS), Biological Resources Division (BRD), at the National Wetlands Research Center (NWRC).</origin>
+<pubdate>1992</pubdate>
+<title>NW Seagrass from Anclote Key to Perdido Bay</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Lafayette, LA</pubplace>
+<publish>USGS, BRD</publish>
+</pubinfo>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The NW seagrass GIS data set was created by the United States Geological Survey (USGS) Biological Resources Division (BRD) at the National Wetlands Research Center (NWRC) in Lafayette, LA.  The study area is from Anclote Key to Perdido Bay on the Alabama-Florida state line.  The aerial photos were obtained in December of 1992 and early 1993.  Photos were 1:24,000 natural color.  Aerial photos were interpreted and delineated by USGS, then transferred to a base map using a zoom transfer scope.  The maps were digitized into ARC/INFO.  There are a few data gaps in the data set due to a lack of complete aerial photo coverage in the Panhandle region (West Bay and Escambia Bay).</abstract>
+<purpose>To map spatial distribution of seagrasses in northwest Florida for scientific and GIS analysis.</purpose>
+<supplinf>
+Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The institute name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The institute name has been changed in references to ongoing research, new research, and contact information.
+Oysters and bare substrate were also mapped wherever they were found close to seagrasses. This is not intended to include a complete oyster reef data set. Despite being over ten years old, these are the best available seagrass data for this area.
+(previous geoform was 'vector digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>19921230</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown/none</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-87.552891</westbc>
+<eastbc>-82.469449</eastbc>
+<northbc>30.776143</northbc>
+<southbc>28.084626</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>FWRItheme</themekt>
+<themekey>habitat (rivers, estuaries, ecology, hard bottom)</themekey>
+<themekey>benthic</themekey>
+<themekey>oysters</themekey>
+<themekey>marine vegetation (mangroves, seagrasses, seaweeds, sea oats)</themekey>
+<themekey>coastal</themekey>
+<themekey>marine</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>biota</themekey>
+</theme>
+<place>
+<placekt>FWRIplace</placekt>
+<placekey>west coast of Florida</placekey>
+<placekey>Florida</placekey>
+<placekey>Big Bend</placekey>
+<placekey>northwest Florida</placekey>
+<placekey>Florida Panhandle</placekey>
+</place>
+<place>
+<placekt>Florida Counties</placekt>
+<placekey>Escambia</placekey>
+<placekey>Santa Rosa</placekey>
+<placekey>Okaloosa</placekey>
+<placekey>Walton</placekey>
+<placekey>Bay</placekey>
+<placekey>Gulf</placekey>
+<placekey>Franklin</placekey>
+<placekey>Taylor</placekey>
+<placekey>Pasco</placekey>
+<placekey>Citrus</placekey>
+<placekey>Hernando</placekey>
+<placekey>Levy</placekey>
+<placekey>Dixie</placekey>
+<placekey>Jefferson</placekey>
+</place>
+<place>
+<placekt>FWC Region</placekt>
+<placekey>FWC Region-North Central</placekey>
+<placekey>FWC Region-Northwest</placekey>
+<placekey>FWC Region-Southwest</placekey>
+</place>
+<place>
+<placekt>Water Management Districts</placekt>
+<placekey>Northwest Florida Water Management District</placekey>
+<placekey>Southwest Florida Water Management District</placekey>
+<placekey>Suwannee River Water Management District</placekey>
+</place>
+<place>
+<placekt>Florida Waterbodies</placekt>
+<placekey>Gulf of Mexico</placekey>
+</place>
+</keywords>
+<accconst>All data must be verified by Principal Investigator or Group Database Analyst prior to release.  It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the data's suitability for other purposes.</accconst>
+<useconst>FWC-FWRI and the originator of the data must be credited. This is not a survey data set and should not be utilized as such. These data are not to be used for navigation. Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data.  Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.  This is not a survey data set and should not be utilized as such. These data are not to be used for navigation.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</ptcontac>
+<datacred>Marcia Colby and Jen Bexley were involved in FWRI's work on this data set.</datacred>
+<secinfo>
+<secsys>FWRI-DC</secsys>
+<secclass>Available without restriction.</secclass>
+<sechandl>Available without restriction.</sechandl>
+</secinfo>
+<native>Windows NT Version 5.0 (Build 2195) Service Pack 1; ESRI ArcInfo 8.1.0.415</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Interpreted photos were quality checked by two photo interpreters for attribute classification. Field verification was performed for areas where attribute classification was questionable. Local personnel with state and federal agencies assisted in field identification. The mylar-based 1:24,000-scale maps were checked by cartographic personnel for line and labelworks. The attribute accuracy is tested manually comparing hard copy plots of the data with the source materials. When attributes cannot be visually verified on plots they are interactively queried and verified on screen. In addition, the attributes are compared against a master set of valid attributes.</attraccr>
+</attracc>
+<logic>unknown</logic>
+<complete>unknown</complete>
+<posacc>
+<horizpa>
+<horizpar>National Map Accuracy Standards for 1:24,000-scale maps. Digitized from 1:24,000-scale mylars at 0.001 inch digitizer resolution using largest available scale reference material for positional accuracy check.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>United States Geological Survey (USGS), Biological Resources Division (BRD), at the National Wetlands Research Center (NWRC).</origin>
+<pubdate>1992</pubdate>
+<title>1992 Natural Color Aerial Photographs</title>
+<geoform>Natural color aerial photographs</geoform>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>Natural color aerial photographs</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1992</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>USGS/BRD</srccitea>
+<srccontr>Panhandle data delivered to FWRI on a single CD-ROM containing ARC/INFO export files tiled into 7.5-minute quads. Big Bend data delivered as single ARC/INFO coverage.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>
+These seagrass data were interpreted by the USGS National Wetlands Research Center in Lafayette, LA from 1:24000 scale natural color aerial photography flown in Nov '92.  Where data gaps occurred in portions of Pensacola Bay, Ft. Walton Beach and St. Andrews Bay, 1:32,500 scale color infrared photos flown in Dec '92 were used. The seagrass beds were classified according to a NWRC derived classification scheme based on the C-CAP Coastal Land Cover Classification system of NOAA Coastwatch Change Analysis Project.
+Panhandle data were delivered to FWRI on a single CD-ROM containing ARC/INFO export files tiled into 7.5-minute quads.  Big Bend data were delivered as a single ARC/INFO coverage.  FWRI mapjoined the panhandle quads together.  Then the Panhandle and Big Bend coverages were mapjoined together.  Sliver polygons and edge matching errors were resolved at the border so boundary is invisible.
+Please Note:  (2/4/2000)  The original data set from USGS has been changed.  Polys in the class "Estuarine (EST) Non-seagrass habitat (open water)" were changed to "Estuarine/Marine (EST/MAR) Non-seagrass habitat (open water)."  The reason for this change is that the original data from the USGS did not account for those waters having higher salinity values (Marine, ex. Gulf of Mexico) than those of estuarine environments.  The term "Estuarine"  indicates salinity values ranging from 10ppt - 30ppt, while Marine or Oceanic salinities may be greater than 30ppt.  Delineated photos were digitized in Arc/INFO by USGS Midcontinent Ecological Science Center.  The apparent data gap between Laguna Beach and Inlet Beach, FL was mapped but this coverage has not yet been received from USGS.  According to USGS, this area contained no seagrass.  Data for the 'west Pensacola' quad in upper Perdido Bay are missing.  FWRI never received this quad from USGS-NWRC for unknown reasons. For further information, see the 12 metadata textfiles supplied by USGS.
+</procdesc>
+<procdate>1992</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>10067</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Albers Conical Equal Area</mapprojn>
+<albers>
+<stdparll>24</stdparll>
+<stdparll>31.5</stdparll>
+<longcm>-84</longcm>
+<latprjo>24</latprjo>
+<feast>400000</feast>
+<fnorth>0</fnorth>
+</albers>
+</mapproj>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>0.001024</absres>
+<ordres>0.001024</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>FMRI.seagrass_nw_fl_1992_poly</enttypl>
+<enttypd>Sub aquatic vegetation in polygon format.</enttypd>
+<enttypds>Producer defined</enttypds>
+</enttyp>
+<attr>
+<attrlabl>NW_GRASS_92_</attrlabl>
+<attrdef>Internal ID used by ArcINFO.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Internal ID used by ArcINFO.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>NW_GRASS_92_ID</attrlabl>
+<attrdef>Internal ID used by ArcINFO.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Internal ID used by ArcINFO.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal ID used by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Internal ID used by SDE</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PERIMETER</attrlabl>
+<attrdef>Length of polygon perimeter (in meters).  Automatically calculated by ArcINFO.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Length of polygon perimeter (in meters).  Automatically calculated by ArcINFO.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Internal item used by SDE.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Internal item used by SDE.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+<attrdef>Area of a polygon (in square meters).  Automatically calculated by SDE.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Area of a polygon (in square meters).  Automatically calculated by SDE.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+<attrdef>Length of polygon perimeter (in meters).  Automatically calculated by SDE.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Length of polygon perimeter (in meters).  Automatically calculated by SDE.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUB_AQ_VEG</attrlabl>
+<attrdef>Vegetation type and percent cover within a polygon.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>EST/MAR</edomv>
+<edomvd>Estuarine/Marine Non-seagrass habitat (open water)</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>RIV</edomv>
+<edomvd>Fresh Non-seagrass habitat (open water)</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>LAND</edomv>
+<edomvd>Land</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>PSG1</edomv>
+<edomvd>Patchy seagrass very sparse (1-14% crown cover)</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>PSG2</edomv>
+<edomvd>Patchy seagrass sparse (15-40% crown cover)</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>PSG3</edomv>
+<edomvd>Patchy seagrass moderate (41-70% crown cover)</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>PSG4</edomv>
+<edomvd>Patchy seagrass dense (71-85% crown cover)</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>CSG</edomv>
+<edomvd>Continuous seagrass (86-100% crown cover)</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>MOL</edomv>
+<edomvd>Mollusk, oyster reef or beds</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>UNK</edomv>
+<edomvd>Unknown</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>OUT</edomv>
+<edomvd>Not mapped</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>Attributes for the NWGRASS92 has one continuous seagrass class and 4 patchy seagrass classes.  Oysters, and bare substrate were also mapped wherever they were found close to seagrasses.  This is not a complete oyster reef coverage.</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</distrib>
+<resdesc>Available without Restriction</resdesc>
+<distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-FWRI produced data set; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://ocean.floridamarine.org/mrgis</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None. However, persons or organizations requesting information must provide transfer media if FTP is not available and must pay express shipping costs if express shipping is required.</fees>
+<ordering>Contact GIS Librarian by e-mail, telephone, or letter explaining which products are needed and providing a brief description of how the products will be used. Also, provide name and address of the person or organization requesting the products.</ordering>
+<turnarnd>Usually within 10 business days, although, complex requests may take longer</turnarnd>
+</stdorder>
+<custom>Contact GIS Librarian</custom>
+</distinfo>
+<metainfo>
+<metd>20010713</metd>
+<metrd>20051129</metrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>No restrictions on metadata.</metac>
+<metuc>Metadata must be distributed with the data set.</metuc>
+<metsi>
+<metscs>FWRI-MC</metscs>
+<metsc>Available</metsc>
+<metshd>Metadata must be distributed with the data set.</metshd>
+</metsi>
+</metainfo>
+<mercury><begdate>19921230</begdate><enddate>19921230</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_sav92perdido.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

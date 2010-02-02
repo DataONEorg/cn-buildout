@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21039.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Skagen, S.K, J. Bart, B. Andres, S. Brown, G. Donaldson, B. Harrington, V. Johnston, S.L. Jones, and R.I.G. Morrison</origin>
+<pubdate>2003</pubdate>
+<title>Monitoring the shorebirds of North America:  towards a unified approach</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>Wader Study Group Bulletin</sername>
+<issue>100:102-104</issue>
+</serinfo>
+<othercit>Vol. 100 pages 102-104</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Skagen, S.K, J. Bart, B. Andres, S. Brown, G. Donaldson, B. Harrington, V. Johnston, S.L. Jones, and R.I.G. Morrison. 2003. Monitoring the shorebirds of North America:  towards a unified approach. Wader Study Group Bulletin 100: 102-104.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2003</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>North America</descgeog>
+<bounding>
+<westbc>172.48</westbc>
+<eastbc>-12.291</eastbc>
+<northbc>83.62359</northbc>
+<southbc>7.206111</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>monitoring</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>North America</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Skagen, S.K.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Skagen, S.K</origin>
+<pubdate>@@@</pubdate>
+<title>En route shorebird populations in extensive wetland landscapes: challenges of monitoring and conservation</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Passenger Pigion</sername>
+<issue>Information not in the FORT Publications database</issue>
+</serinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Andres, B.A., S.K. Skagen, and K. Rosenberg</origin>
+<pubdate>2008</pubdate>
+<title>Assessing conservation status of poorly monitored birds</title>
+<geoform>Unknown</geoform>
+<othercit>Vol. Jan 2008 pages 11-12</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Skagen, S.K., C.P. Melcher, and J. Bart</origin>
+<pubdate>2003</pubdate>
+<title>Ground counts of shorebirds at non-breeding sites</title>
+<edition>USGS website</edition>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Laurel, MD</pubplace>
+<publish>Patuxent Wildlife Research Center</publish>
+</pubinfo>
+<othercit>pages [1-11</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>2003</pubdate>
+<title>Ground counts of shorebirds at non-breeding sites</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Laurel, MD</pubplace>
+<publish>Patuxent Wildlife Research Center</publish>
+</pubinfo>
+<othercit>pages [1-11</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Skagen, S.K.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Monitoring the shorebirds of North America:  towards a unified approach.  FORT Library Archive Number: 2003/0100 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20030101</begdate><enddate>20031231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21039.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

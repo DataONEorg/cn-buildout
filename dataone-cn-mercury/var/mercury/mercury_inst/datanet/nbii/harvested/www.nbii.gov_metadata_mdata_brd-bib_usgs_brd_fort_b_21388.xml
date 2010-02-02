@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21388.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Lamb, B.L., N. Burkardt, and D. Lybecker</origin>
+<pubdate>2004</pubdate>
+<title>Background and applications of the Legal-Institutional Analysis Model (LIAM) for management of infrastructures</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Ube, Yamaguchi, Japan</pubplace>
+<publish>Infrastructures and Environmental Management Research Group, Y.U</publish>
+</pubinfo>
+<othercit>pages 54-69</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Miyamoto, A., and H. Morata (eds.), ed.</origin>
+<pubdate>2004</pubdate>
+<title>Proceedings of Infrastructure and Environmental Management symposium, Yamaguchi 2004</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Ube, Yamaguchi, Japan</pubplace>
+<publish>Infrastructures and Environmental Management Research Group, Y.U</publish>
+</pubinfo>
+<othercit>pages 54-69</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Lamb, B.L., N. Burkardt, and D. Lybecker. 2004. Background and applications of the Legal-Institutional Analysis Model (LIAM) for management of infrastructures. In: Miyamoto, A., and H. Morata (eds.). Proceedings of Infrastructure and Environmental Management symposium, Yamaguchi 2004. Ube, Yamaguchi, Japan: Infrastructures and Environmental Management Research Group, Y.U. p. 54-69.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2004</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>decision-making</themekey>
+<themekey>public works</themekey>
+<themekey>negotiation</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Lamb, B.L.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Lamb, B.L</origin>
+<pubdate>2007</pubdate>
+<title>Symposium Introduction</title>
+<geoform>Proceedings</geoform>
+<othercit>Vol. 10 (4) pages 470-475</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21850/21850.asp</onlink>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>2007</pubdate>
+<title>Symposium Introduction</title>
+<geoform>Proceedings</geoform>
+<othercit>Vol. 10 (4) pages 470-475</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>U.S. Geological Survey</origin>
+<pubdate>2004</pubdate>
+<title>Fort Collins Science Center: Policy Analysis and Science Assistance</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>2 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21415/21415.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Lamb, B.L., N. Burkardt, and D. Lybecker</origin>
+<pubdate>1999</pubdate>
+<title>Decision analysis tools:  use of the Legal-Institutional Analysis Model, Chap. 9</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>NY</pubplace>
+<publish>Marcel Dekker, Inc.</publish>
+</pubinfo>
+<othercit>pages 175-1</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Soden, D. L., and B.S. Steel, ed.</origin>
+<pubdate>1999</pubdate>
+<title>Decision analysis tools:  use of the Legal-Institutional Analysis Model, Chap. 9</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>NY</pubplace>
+<publish>Marcel Dekker, Inc.</publish>
+</pubinfo>
+<othercit>pages 175-1</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Lamb, B.L., and E. Lord</origin>
+<pubdate>1992</pubdate>
+<title>Legal mechanisms for protecting riparian resource values</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Water Resources Research (ISSN 0043-1397)</sername>
+<issue>28(4):965-9</issue>
+</serinfo>
+<othercit>Vol. 28(4) pages 965-9</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Lamb, B.L.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Background and applications of the Legal-Institutional Analysis Model (LIAM) for management of infrastructures.  FORT Library Archive Number: 2004/0046 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20040101</begdate><enddate>20041231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21388.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

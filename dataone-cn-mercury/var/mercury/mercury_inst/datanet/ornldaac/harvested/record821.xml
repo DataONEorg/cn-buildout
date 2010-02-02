@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        
+        <origin><![CDATA[SCHAAF, C.L.B.]]></origin>
+        
+        <origin><![CDATA[STRAHLER, A.H.]]></origin>
+        
+        <origin><![CDATA[TSVETSINSKAYA, E.]]></origin>
+        
+
+        <title><![CDATA[ISLSCP II AVHRR ALBEDO AND BRDF, 1995]]></title>
+
+        <onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/928.xml]]></onlink>
+        
+        <onlink><![CDATA[http://daac.ornl.gov//ISLSCP_II/guides/avhrr_albedo_1995_xdeg.html]]></onlink>
+        
+        
+        <geoform><![CDATA[metadata]]></geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[This Albedo and BRDF (Bidirectional Reflectance Distribution Function) data set contains three files containing BRDF parameters, white- sky albedo and black-sky albedo at solar noon for three bands ((350-680nm, 680-3000nm, and 350-30000nm)derived from AVHRR (Advanced Very High Resolution Radiometer). These data are available at spatial resolutions of quarter, half, and one degree. Black-sky albedo (direct beam contribution) and white-sky (Completely diffuse contribution) can be linearly combined as a function of the fraction of diffuse skylight (itself a function of optical depth) to provide an actual or instantaneous albedo at local solar noon.]]></abstract>
+      <supplinf></supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[19950201]]></begdate>
+          <enddate><![CDATA[19950731]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Complete]]></progress>
+      <update><![CDATA[ As appropriate]]></update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180</westbc>
+        <eastbc>180</eastbc>
+        <northbc>90</northbc>
+        <southbc>-90</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt><![CDATA[Parameter_Sensor_Source]]></themekt>
+        
+        <themekey><![CDATA[ALBEDO|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        
+        <themekey><![CDATA[CANOPY CHARACTERISTICS|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        
+        <themekey><![CDATA[LAND COVER|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></themekey>
+        
+        <themekey><![CDATA[LEAF CHARACTERISTICS|LEAF AREA METER|FIELD INVESTIGATION]]></themekey>
+        
+        <themekey><![CDATA[PLANT CHARACTERISTICS|STEEL MEASURING TAPE|FIELD INVESTIGATION]]></themekey>
+        
+        <themekey><![CDATA[REFLECTANCE|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        
+        <themekey><![CDATA[VEGETATION COVER|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)]]></themekey>
+        
+        <themekey><![CDATA[VEGETATION INDEX|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        
+        
+        <themekt><![CDATA[Parameter]]></themekt>
+        
+        <themekey><![CDATA[ALBEDO]]></themekey>
+        
+        
+        <themekt><![CDATA[Source]]></themekt>
+        
+        <themekey><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)]]></themekey>
+        
+        
+        <themekt><![CDATA[Sensor]]></themekt>
+        
+        <themekey><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)]]></themekey>
+        
+      </theme>
+      
+      <place>
+        <placekt><![CDATA[Place Keywords]]></placekt>
+        
+        <placekey><![CDATA[GLOBAL]]></placekey>
+        
+      </place>
+    </keywords>
+    
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[SCHAAF, C.L.B.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; ]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)]]></cntorg>
+          <cntper><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; ]]></cntfax>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://daac.ornl.gov/]]></computer>
+            <accinstr><![CDATA[PUBLIC]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Strahler, A.H., C.L.B. Schaaf, and E. Tsvetsinskaya. 2009. ISLSCP II AVHRR Albedo and BRDF, 1995. In Hall, Forrest G., G. Collatz, B. Meeson, S. Los, E. Brown de Colstoun, and D. Landis  (eds.). ISLSCP Initiative II Collection. Data set. Available on-line [http://daac.ornl.gov/] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/928]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd><![CDATA[20090928]]></metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn><![CDATA[FGDC Content Standard for Digital Geospatial Metadata]]></metstdn>
+  </metainfo>
+  <Local-Control-Number><![CDATA[Created 2009 11 15 21 30 38 1252338638 by 160.91.11.44]]></Local-Control-Number>
+
+  <mercury>
+    <begdate>19950201</begdate>
+    <enddate>19950731</enddate>
+    
+    <Site_Information>
+      <Site><![CDATA[GLOBAL]]></Site>
+      <Westernmost_Longitude><![CDATA[-180]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[90]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[-90]]></Southernmost_Latitude>
+    </Site_Information>
+    
+
+    
+    <Keywords><![CDATA[GCM]]></Keywords>
+    
+    <Keywords><![CDATA[NDVI]]></Keywords>
+    
+    <Keywords><![CDATA[FPAR]]></Keywords>
+    
+    <Keywords><![CDATA[SWAMP]]></Keywords>
+    
+    <Keywords><![CDATA[ISCCP]]></Keywords>
+    
+    <Keywords><![CDATA[GEWEX]]></Keywords>
+    
+    <Keywords><![CDATA[MARSH]]></Keywords>
+    
+    <Keywords><![CDATA[FAPAR]]></Keywords>
+    
+    <Keywords><![CDATA[UNFAO]]></Keywords>
+    
+    <Keywords><![CDATA[ISLSCP]]></Keywords>
+    
+    <Keywords><![CDATA[BIOSPHERE]]></Keywords>
+    
+    <Keywords><![CDATA[GRID DATA]]></Keywords>
+    
+    <Keywords><![CDATA[SALTWATER]]></Keywords>
+    
+    <Keywords><![CDATA[GREENNESS]]></Keywords>
+    
+    <Keywords><![CDATA[SAND DUNES]]></Keywords>
+    
+    <Keywords><![CDATA[SALT FLATS]]></Keywords>
+    
+    <Keywords><![CDATA[FASIR NDVI]]></Keywords>
+    
+    <Keywords><![CDATA[VEGETATION]]></Keywords>
+    
+    <Keywords><![CDATA[LAND COVER]]></Keywords>
+    
+    <Keywords><![CDATA[SNOW COVER]]></Keywords>
+    
+    <Keywords><![CDATA[SALT MARSH]]></Keywords>
+    
+    <Keywords><![CDATA[SURFACE PAR]]></Keywords>
+    
+    <Keywords><![CDATA[HOURLY DATA]]></Keywords>
+    
+    <Keywords><![CDATA[MODEL OUTPUT]]></Keywords>
+    
+    <Keywords><![CDATA[MONTHLY DATA]]></Keywords>
+    
+    <Keywords><![CDATA[LEAF AREA INDEX]]></Keywords>
+    
+    <Keywords><![CDATA[VEGETATION CLASSIFICATION MAP]]></Keywords>
+    
+    <Keywords><![CDATA[GLOBAL ENERGY AND WATER CYCLE EXPERIMENT]]></Keywords>
+    
+    <Keywords><![CDATA[INTERNATIONAL SATELLITE LAND-SURFACE CLIMATOLOGY PROJECT]]></Keywords>
+    
+    
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[ALBEDO ]]></Parameter>
+      <Sensor><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER) ]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14) ]]></Source>
+      <Term><![CDATA[ATMOSPHERIC RADIATION ]]></Term>
+      <Topic><![CDATA[ATMOSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[CANOPY CHARACTERISTICS ]]></Parameter>
+      <Sensor><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER) ]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14) ]]></Source>
+      <Term><![CDATA[VEGETATION ]]></Term>
+      <Topic><![CDATA[BIOSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[LAND COVER ]]></Parameter>
+      <Sensor><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER) ]]></Sensor>
+      <Source><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE) ]]></Source>
+      <Term><![CDATA[LAND USE/LAND COVER ]]></Term>
+      <Topic><![CDATA[LAND SURFACE ]]></Topic>
+    </Parameter_Description>
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[LEAF CHARACTERISTICS ]]></Parameter>
+      <Sensor><![CDATA[LEAF AREA METER ]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION ]]></Source>
+      <Term><![CDATA[VEGETATION ]]></Term>
+      <Topic><![CDATA[BIOSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[PLANT CHARACTERISTICS ]]></Parameter>
+      <Sensor><![CDATA[STEEL MEASURING TAPE ]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION ]]></Source>
+      <Term><![CDATA[VEGETATION ]]></Term>
+      <Topic><![CDATA[BIOSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[REFLECTANCE ]]></Parameter>
+      <Sensor><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER) ]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14) ]]></Source>
+      <Term><![CDATA[SURFACE RADIATIVE PROPERTIES ]]></Term>
+      <Topic><![CDATA[LAND SURFACE ]]></Topic>
+    </Parameter_Description>
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[VEGETATION COVER ]]></Parameter>
+      <Sensor><![CDATA[MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER) ]]></Sensor>
+      <Source><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE) ]]></Source>
+      <Term><![CDATA[VEGETATION ]]></Term>
+      <Topic><![CDATA[BIOSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[VEGETATION INDEX ]]></Parameter>
+      <Sensor><![CDATA[AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER) ]]></Sensor>
+      <Source><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14) ]]></Source>
+      <Term><![CDATA[VEGETATION ]]></Term>
+      <Topic><![CDATA[BIOSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    
+    
+    <Project><![CDATA[ISLSCP II]]></Project>
+    
+    
+    
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|ALBEDO]]></Navpath>
+    
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|CANOPY CHARACTERISTICS]]></Navpath>
+    
+    <Navpath><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|LAND COVER]]></Navpath>
+    
+    <Navpath><![CDATA[FIELD INVESTIGATION|LEAF AREA METER|LEAF CHARACTERISTICS]]></Navpath>
+    
+    <Navpath><![CDATA[FIELD INVESTIGATION|STEEL MEASURING TAPE|PLANT CHARACTERISTICS]]></Navpath>
+    
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|REFLECTANCE]]></Navpath>
+    
+    <Navpath><![CDATA[TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|VEGETATION COVER]]></Navpath>
+    
+    <Navpath><![CDATA[NOAA-14 (NATIONAL OCEANIC &amp; ATMOSPHERIC ADMINISTRATION-14)|AVHRR (ADVANCED VERY HIGH RESOLUTION RADIOMETER)|VEGETATION INDEX]]></Navpath>
+    
+    
+    
+    <Principal_Investigator>
+      <Name><![CDATA[SCHAAF, C.L.B.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[STRAHLER, A.H.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[TSVETSINSKAYA, E.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    
+    
+    <Data_Set_Link>
+      <URL><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=928]]></URL>
+      <Label><![CDATA[ISLSCP II AVHRR ALBEDO AND BRDF, 1995]]></Label>
+      <Link_Note></Link_Note>
+    </Data_Set_Link>
+    
+  
+    
+    <Documentation_Link>
+      <URL><![CDATA[http://daac.ornl.gov//ISLSCP_II/guides/avhrr_albedo_1995_xdeg.html]]></URL>
+      <Label><![CDATA[ISLSCP II AVHRR ALBEDO AND BRDF, 1995]]></Label>
+      <Text></Text>
+    </Documentation_Link>
+    
+
+    
+
+        
+
+    <OME_Software_Version><![CDATA[/home/web/mercury/write_mercury_xml.pl]]></OME_Software_Version>
+    <OME_DTD_Version><![CDATA[mercury21.dtd]]></OME_DTD_Version>
+
+    
+    <Contact_Person>
+      <Email><![CDATA[ornldaac@ornl.gov]]></Email>
+      <Name><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></Name>
+      <Phone><![CDATA[+1(865)241-3952]]></Phone>
+    </Contact_Person>
+    
+    
+    <Temporal_Resolution></Temporal_Resolution>
+    <enddate_blank></enddate_blank>
+    <File_ID><![CDATA[928]]></File_ID>
+    <MD_Entry_id><![CDATA[ISLSCP2_AVHRR_ALBEDO]]></MD_Entry_id>
+    
+
+    <Spatial_Extent>64800</Spatial_Extent>
+
+    
+    <Search_Text_Link>
+      <URL><![CDATA[http://daac.ornl.gov//ISLSCP_II/guides/avhrr_albedo_1995_xdeg.html]]></URL>
+      <Label><![CDATA[ISLSCP II AVHRR ALBEDO AND BRDF, 1995]]></Label>
+    </Search_Text_Link>
+    
+
+    
+    
+    <Granule_Details>
+    
+    </Granule_Details>
+    <OGC_URL></OGC_URL>
+
+
+  </mercury>
+
+</metadata>

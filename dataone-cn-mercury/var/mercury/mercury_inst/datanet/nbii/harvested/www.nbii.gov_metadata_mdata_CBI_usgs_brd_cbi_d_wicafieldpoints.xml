@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_wicafieldpoints.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>
+U.S. Bureau of Reclamation, Remote Sensing and GIS Group,
+Technical Service Center
+Mail Code D-8260, POB 25007, Denver CO 80225
+</origin>
+<pubdate>1999</pubdate>
+<title>Wind Cave National Park, Field Plots Data Base for Vegetation Mapping</title>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Wind Cave National Park</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resource Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>Created under contract to the USGS-BRD-CBI.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/wica/fielddata.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+Vegetation field plots at Wind Cave NP were visited, described, and
+documented in a digital database. The database consists of 2 parts - (1)
+Physical Descriptive Data, and (2) Species Listings.
+</abstract>
+<purpose>
+The vegetation plots were used to describe the vegetation in and around
+Wind Cave National Park and to assist in developing a final mapping
+classification system.
+</purpose>
+<supplinf>(previous geoform was 'Database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>199706</begdate>
+<enddate>199708</enddate>
+</rngdates>
+</timeinfo>
+<current>Field Work</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>not applicable</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-103.6194</westbc>
+<eastbc>-103.3222</eastbc>
+<northbc>43.65139</northbc>
+<southbc>43.50639</southbc>
+</bounding>
+<descgeog>
+Wind Cave National Park and about a 2 mile which includes private lands and
+portions of Custer State Park and Black Hills National Forest.
+</descgeog>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>association</themekey>
+<themekey>alliance</themekey>
+<themekey>land cover</themekey>
+<themekey>land use</themekey>
+<themekey>vegetation</themekey>
+<themekey>National Park Service</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Wind Cave</placekey>
+<placekey>Pringle</placekey>
+<placekey>South Dakota</placekey>
+<placekey>National Park</placekey>
+<placekey>Wind Cave National Park</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>Plants</taxonkey>
+<taxonkey>vegetation</taxonkey>
+<taxonkey>National Vegetation Classification System</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>U.S. Government; Federal Geographic Data Committee</origin>
+<pubdate>19971022</pubdate>
+<title>National Vegetation Classification Standard (NVCS)</title>
+<geoform>document</geoform>
+<pubinfo>
+<pubplace>Washington D.C.</pubplace>
+<publish>Federal Geographic Data Committee</publish>
+</pubinfo>
+<onlink>http://www.fgdc.gov/standards/status/sub2_1.html</onlink>
+</citeinfo>
+</classcit>
+</classsys>
+<taxonpro>
+Sequence of field test data and observation plots, and CIR photo signature
+field observations.
+</taxonpro>
+</taxonsys>
+<taxongen>
+Refer to complete listing of mapped plant alliances/associations
+under Supplemental Information above.
+</taxongen>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>
+Any person using the information presented here should fully understand the
+data collection and compilation procedures, as described in the metadata,
+before beginning analysis. The burden for determining fitness for use lies
+entirely with the user. For purposes of publication or dissemination, citations
+or credit should be given to the U.S. Geological Survey, and the National Park
+Service, and the U.S. Bureau of Reclamation.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>U.S. Geological Survey, Center for Biological Informatics</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological
+Informatics, MS 302, Room 8000, Building 810,
+Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/wica/images/wicaplot.gif</browsen>
+<browsed>
+Graphic file showing vegetation filed plot
+locations.  Low resolution for web browser - 82 KB file size.
+</browsed>
+<browset>GIF</browset>
+</browse>
+<datacred>BRD-USGS, U.S, BOR, TNC</datacred>
+<native>DB4</native>
+<crossref>
+<citeinfo>
+<origin>
+U.S. Bureau of Reclamation, Remote Sensing and GIS Group, Denver, CO and
+The Nature Conservancy
+</origin>
+<pubdate>19980310</pubdate>
+<title>
+Wind Cave National Park, Field Plots Data Base for Vegetation Mapping:
+Plot Data, Species Listing Data for Plots
+</title>
+<geoform>Database</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Wind Cave National Park</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resource Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>Created under contract to the USGS-BRD-CBI.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/wica/fielddata.html</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>USGS/BRD, Center for Biological Informatics</origin>
+<pubdate>19990430</pubdate>
+<title>Accuracy Assessment Procedures and Results</title>
+<geoform>Database</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Wind Cave National Park</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resource Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+This report was prepared by The National Conservancy,
+Arlington, VA and U.S. Department of Interior Bureau of
+Reclamation, Denver, CO, under contract from the U.S.
+Department of Interior Biological Resource Division and
+National Park Service.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/wica/report.pdf#accuracy</onlink>
+<onlink>http://biology.usgs.gov/npsveg/wica/report.pdf#assessment</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+Physical description - Descriptive plot data were collected for 69 sites whose
+vegetation represents a full spectrum of alliance types present within Wind
+Cave National Park and its immediate surroundings. Attributes collected for
+each site include: a unique plot identification code, park name, quad
+name, UTM coordinates, UTM projection, plot survey date, surveyor's name,
+length, width, photo type, elevation, slope aspect, topographic position,
+landform, surface geology, Cowardin System category, hydrology, surface
+material description, soil texture, soil drainage, leaf phenology, leaf
+type, and physiognomy. Species - Descriptive plot data were collected for
+69 sites whose vegetation represents a full spectrum of alliance types
+present within Wind Cave National Park and its immediate surroundings.
+This database which is the second of two databases containing plot field
+data, delineates species. Individual species described at each of 69 plots
+is listed, one line per species, with the following information: Plot
+Identification Code, Species Name, Species Cover ( 0=trace, 1=&lt; 1%, 2=1-5%,
+3=5-25%, 4=25-50%, 5=50-75%, 6=75-100%), Plantcode (first 2 letters of
+genus+first 2 letters of spp.), and Plant Strata (T, S, H, v.s, and no entry).
+</attraccr>
+</attracc>
+<logic>
+Physical description - Entries for each of the listed attributes are in the
+form of consistent groupings of either textual or numerical descriptors.
+Species - Entries for each of the listed attributes are in the form of
+consistent groupings of either textual or numerical descriptors as described
+under 2.1.1: attribute accuracy report. NOTE1: The significance of numbers
+appended to some of the Plant Codes is not known. NOTE2: entries under Plant
+Strata were not clearly defined on the original field forms. It is assumed
+that T=tree, S=shrub, and H=herbaceous. It is also assumed that numbers
+represent canopy levels (starting with 1 as tallest), v.s. = very short.
+Plant strata entries in this database are not always consistent with these
+assumed labeling conventions.
+</logic>
+<complete>
+Descriptive entries for each of the 69 plots are complete for each of the
+applicable attributes listed in the database.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+X,Y UTM coordinates representing each of the 69 plots were collected by
+P-code PLGR (Precise Lightweight GPS Receiver) receivers, with an
+accuracy ranging from +/- 10 m. to +/- 30 m. based on 60 second
+averaging at each point.
+</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>Not applicable</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<method>
+<methtype>Field and Remote Sensing</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>photo-interpretation</methkey>
+<methkey>Field Methods for Vegetation Mapping</methkey>
+<methkey>ground truth</methkey>
+<methkey>reconnaissance</methkey>
+<methkey>gradsect</methkey>
+<methkey>observation</methkey>
+<methkey>plot</methkey>
+<methkey>photo signatures</methkey>
+<methkey>ground verification</methkey>
+<methkey>stereoscope</methkey>
+</methodid>
+<methdesc>Field sampling using releve plots</methdesc>
+</method>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>USGS,BRD,Center for Biological Informatics</origin>
+<pubdate>19960405</pubdate>
+<title>Wind Cave National Park Sampling and Classification</title>
+<geoform>report</geoform>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, BRD, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+This report was generated by the Nature Conservancy under contract to
+the USGS, BRD, CBI.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/wica/report.pdf</onlink>
+</citeinfo>
+</srccite>
+<typesrc>Online</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>199510</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Ground Condition</srccurr>
+</srctime>
+<srccitea>WICA sample and classification</srccitea>
+<srccontr>Report summarizing plot data collection effort</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>US Dept of Interior</origin>
+<origin>National Biological Survey(Now USGS/Biological Resources Division)</origin>
+<origin>and National Park Service</origin>
+<pubdate>199411</pubdate>
+<title>
+Standardized National Vegetation Classification System; protocol
+document for the USGS-NPS Vegetation Mapping Program (unpublished
+report)
+</title>
+<geoform>report</geoform>
+<edition>Final Draft</edition>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS/BRD/Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+Report prepared under contract by The Nature Conservancy, 1815 N. Lynn
+Street, Arlington, Virginia 22209 and Environmental Systems Research
+Institute, 380 New York street, Redlands, California 92373
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/classification/index.html</onlink>
+</citeinfo>
+</srccite>
+<typesrc>Online</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>199411</begdate>
+<enddate>2010</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>Publication Date and indefinitely</srccurr>
+</srctime>
+<srccitea>SNVCS protocol document</srccitea>
+<srccontr>
+Report prepared under contract by The Nature Conservancy, 1815 N. Lynn
+Street, Arlington, VA and the Environmental Systems Research Institute,
+380 New York Street, Redlands, CA 92373. Describes the structure, content,
+and origins of the Standard National Vegetation Classification System, and
+it describes the process by which the system is to be applied to changing
+requirements.
+</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>USGS, BRD, Center for Biological Informatics</origin>
+<pubdate>19960405</pubdate>
+<title>Wind Cave National Park Vegetation Descriptions</title>
+<geoform>report</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program Park Vegetation Descriptions</sername>
+<issue>Wind Cave National Park</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, BRD, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+This report was generated by the Nature Conservancy under contract to
+the USGS, BRD, CBI.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/wica/descript.pdf</onlink>
+</citeinfo>
+</srccite>
+<typesrc>Online</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19960405</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Publication Date</srccurr>
+</srctime>
+<srccitea>WICA Veg Descriptions</srccitea>
+<srccontr>
+This document describes and defines the vegetation classification system
+which is to be used for describing and mapping the vegetation at Wind Cave
+National Park
+</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>
+United States Department of Interior, National Biological Survey (now
+USGS Biological Resources Division) and the National Park Service
+</origin>
+<pubdate>199412</pubdate>
+<title>Field Methods for Vegetation Mapping</title>
+<geoform>document</geoform>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resources Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+This report was generated by the Nature Conservancy under contract to
+the USGS, BRD, CBI.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/fieldmethods/index.html</onlink>
+</citeinfo>
+</srccite>
+<typesrc>Online</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>199412</begdate>
+<enddate>2010</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>Publication Date and indefinitely</srccurr>
+</srctime>
+<srccitea>field methods protocol document</srccitea>
+<srccontr>
+This document defines the methods and protocols for field data collection
+to be used as part of the USGS-NPS Vegetation Mapping Program.
+</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>
+The following describes the tasks performed by The Nature Conservancy to
+produce descriptive data for 69 vegetation sampling plots in two separate
+database tables. Physical description - The first of the two tables contains
+general descriptive information at each of the plots. Plot sites were
+selected by information obtained during a reconnaissance visit to the
+park in April of 1995, and by examining tone and textural patterns on
+the WICA AERIAL PHOTOGRAPHS. Site physical parameters, species types,
+and vegetation strata were described at each site. Plot data were
+manually recorded on field forms on-site, and subsequently keyed into
+the database files described herein. Information in the plot database
+was then used to develop the classification system and plant
+identification keys contained in the TNC WICA SAMPLING AND CLASSIFICATION
+REPORT. Species - The second of the two tables contains listings of individual
+species found in each plot, along with height and cover estimates, and
+strata delineations. The SPECIES LISTING database contains line entries
+for each species including the Plot Code, Numeric species code, full
+scientific species name, cover estimate, a unique alphnumeric species identifier
+(plant code), and Plant Strata delineation. Plot sites were
+selected subjectively because of the heterogeneity of the vegetation and
+the small number of samples per type. Since aerial photos were not
+available at the time of plot selection, visual reconnaissance was
+conducted at the summit of the bluff to examine vegetation patterns for
+determining plot placement. Plot data were manually recorded on field
+forms on-site, and subsequently keyed into the database files described
+herein. Information in the plot database was then used to develop the
+classification system and plant identification keys contained in the WIND
+CAVE SAMPLING AND CLASSIFICATION REPORT.
+</procdesc>
+<srcused>wica Aerial Photos</srcused>
+<srcused>SNVCS protocol document</srcused>
+<srcused>Field Methods for Vegetation Mapping</srcused>
+<procdate>19960405</procdate>
+<srcprod>wica sample and classification</srcprod>
+<srcprod>wica Veg Descriptions</srcprod>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>The Nature Conservancy</cntorg>
+<cntper>Dennis Grossman</cntper>
+</cntorgp>
+<cntpos>Chief Ecologist, The Nature Conservancy</cntpos>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>1815 Lynn Street</address>
+<city>Arlington</city>
+<state>VA</state>
+<postal>22209</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(703) 841-5305</cntvoice>
+<cntemail>dgrossman@tnc.org</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Label Point</sdtstype>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>13</utmzone>
+<transmer>
+<longcm>-105</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+<sfctrmer>.9996</sfctrmer>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>1</absres>
+<ordres>1</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodedic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+Each of 69 vegetation mapping plot sites contains the attributes of
+species found. Physical Description - General plot information is
+described by identification codes, locational information (including
+state, park name, and USGS 7 1/2' topographic quad name). Physical
+factors tabulated in the database include UTM_X, UTM_Y, UTM Zone, map
+projection, survey date, name of surveyors, plot length and width,
+type of photos used, plot elevation, slope aspect, topographic
+position, landform type, surface geology, Cowardin system descriptor,
+hydrology, rock size, surface material type, soil texture and drainage,
+leaf phenology, leaf type, and physiognomy. Species - (sp_code is a
+project specific code for  each species found, species is the
+scientific name for that  species, spcover is the species present and
+the percent cover for each species, plant code is the first two letters
+of the  genus and first two letters of the species. If the code are not
+unique a number is added to make the code unique). This includes strata
+cover  which is an average percent cover of that particular species,
+1 = 0-10%, 2 = 10-25%, 3 = 25-60% and 4 = 60-100%,  pstrata is the type
+of vegetation, T1 = emergent, T2 = canopy, T3  = sub-canopy, S1 = tall
+shrub, S2 = short shrub, H = herbaceous, N = non-vascular, V = vine/liana,
+and E = epiphyte).
+</eaover>
+<eadetcit>
+Wind Cave National Park, USGS/NPS Vegetation Mapping Program, Technical
+Memorandum No. 8260-99-03, USBR
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>
+U.S. Geological Survey, Center for Biological
+Informatics
+</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological
+Informatics, MS 302, Room 8000, Building 810,
+Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>WICA Plots data; Physical Descriptive Data and Species Listing Data.</resdesc>
+<distliab>
+Although these data have been processed successfully on a computer system at
+the Biological Resources Division, no warranty expressed or implied is made
+regarding the accuracy or utility of the data on any other system or for
+general or scientific purposes, nor shall the act of distribution constitute
+any such warranty. This disclaimer applies both to individual use of the
+data and aggregate use with other data. It is strongly recommended that
+these data are directly acquired from a Biological Resources Division
+server, and not indirectly through other sources which may have changed the
+data in some way. It is also strongly recommended that careful attention be
+paid to the contents of the metadata file associated with these data. The
+Biological Resources Division shall not be held liable for improper or
+incorrect use of the data described and/or contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>HTML</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/wica/fielddata.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20011022</metd>
+<metrd>20050523</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19970601</begdate><enddate>19970831</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_wicafieldpoints.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

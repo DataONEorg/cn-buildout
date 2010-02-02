@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_JW001.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Wang, J.D.,</origin>
+<origin>Jiangang, L.,</origin>
+<origin>Ault, J.</origin>
+<pubdate>200305</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Flow, salinity and some implications for larval transport in south Biscayne Bay, Florida</title>
+<edition>First</edition>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>Bulletin of Marine Science</sername>
+<issue>Vol. 72 (3) pp 695-723</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Miami, FL</pubplace>
+<publish>Rosenstiel School of Marine and Atmopsheric Science</publish>
+</pubinfo>
+<onlink>http://anole.rsmas.miami.edu/people/jwang/bms2003.pdf</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>A numerical model was developed to describe the currents, residence times, salinity patterns, and larval transport in a South Florida lagoonal system. Model forcing included tides, wind, and freshwater inflows prescribed from 4 yrs of recorded observations. Physical and biological performance tests were applied to two hindcasts. Computed tidal currents agreed with observations to within 0.01 m s-1. Transports in ocean inlets explained 87% of observed variance over a 45-d period. The average difference of computed salinities, expressing the effects of model advective fields, and historic salinity data from 54 locations was less than 2 psu. Computed residence times varied widely from several months in the more enclosed Barnes Sound, to on the order of a month in the western parts of South Biscayne Bay, and to near zero in the vicinity of the ocean inlets. The hydrodynamic model was also coupled to one for the Lagrangian drift dynamics and recruitment of post-larval pink shrimp to study both passive-particle and behaviorally mediated drift of population cohorts. Simulations of drift trajectories of pink shrimp larvae and shrimp spatial abundance distributions were in agreement with settlement patterns of live shrimp larvae from synoptic sampling surveys carried out over the last 25 yrs. The coupled models could be used to evaluate ecosystem effects and risks to coastal marine resources from a regional redistribution of surface and groundwater.</abstract>
+<purpose>To describe the currents, residence times, salinity patterns, and larval transport in a South Florida lagoonal system.</purpose>
+<supplinf>(previous geoform was 'DEC Alpha 600 MHz workstation data files')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>1995</begdate>
+<begtime>Unknown</begtime>
+<enddate>1998</enddate>
+<endtime>Unknown</endtime>
+</rngdates>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None Planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-80.2933</westbc>
+<eastbc>-80.1000</eastbc>
+<northbc>25.7469</northbc>
+<southbc>25.352</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Shoreline Glossary in Support of a National Shoreline Data Content Standard</themekt>
+<themekey>Ecosystem risk assessment</themekey>
+<themekey>salinity changes</themekey>
+<themekey>controls on population dynamics</themekey>
+</theme>
+<place>
+<placekt>Geographic Names Information System</placekt>
+<placekey>Biscayne Bay</placekey>
+<placekey>South Florida</placekey>
+</place>
+<temporal>
+<tempkt>None</tempkt>
+<tempkey>95</tempkey>
+<tempkey>96</tempkey>
+<tempkey>97</tempkey>
+<tempkey>98</tempkey>
+</temporal>
+</keywords>
+<accconst>Dataset access will be granted by Principle Investigator on an individual basis.</accconst>
+<useconst>use of dataset has to be permitted by Principle Investigator.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>John D. Wang</cntper>
+<cntorg>Rosenstiel School of Marine and Atmospheric Science-AMP</cntorg>
+</cntperp>
+<cntpos>Professor of Applied Marine Physics</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>RSMAS-AMP</address>
+<address>4600 Rickenbacker Causeway</address>
+<city>Miami</city>
+<state>FL</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>305-421-4648</cntvoice>
+<cntfax>305-421-4701</cntfax>
+<cntemail>jwang@rsmas.miami.edu</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>This work was sponsored by the NOAA Coastal Ocean program (grant No. NA37RJO2000), theU.S. Army Corps of Engineers (grant No. DACW 39-94-K0032), EPA grant R 827453-01-0, andthe NOAA South Florida Ecosystem Restoration Prediction Modeling Program (grant No.NA67RJ0149). We thank N. P. Smith for current meter data in the ABC inlets, and G. A. Diaz fordata on post-larval pink shrimp distributions. We are also grateful for additional data provided byBiscayne National Park and Dade Environmental Resources Management (DERM).</datacred>
+<native>DEC Alpha 600 MHz workstation</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>not applicable</attraccr>
+</attracc>
+<logic>not applicable</logic>
+<complete>not applicable</complete>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>various: see article pp 721 - 723</origin>
+<pubdate>Unknown</pubdate>
+<pubtime>Unknown</pubtime>
+<title>various: see article pp 721 - 723</title>
+<geoform>various: see article pp 721 - 723</geoform>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>Unknown</begdate>
+<begtime>Unknown</begtime>
+<enddate>2001</enddate>
+<endtime>Unknown</endtime>
+</rngdates>
+</timeinfo>
+<srccurr>n/a</srccurr>
+</srctime>
+<srccitea>not applicable</srccitea>
+<srccontr>not available</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>n/a</procdesc>
+<srcused>n/a</srcused>
+<procdate>Unknown</procdate>
+<srcprod>n/a</srcprod>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>John D Wang</cntper>
+<cntorg>University of Miami</cntorg>
+</cntperp>
+<cntpos>PI</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>4600 Rickenbacker CSWY</address>
+<city>Miami</city>
+<state>FL</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(305)421-4648</cntvoice>
+<cntemail>jwang@rsmas.miami.edu</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+<cloud>Unknown</cloud>
+<tidinfo>
+<tidtype>mainly semidiurnal</tidtype>
+<tideref>n.a.</tideref>
+<tidesup>n.a.</tidesup>
+</tidinfo>
+<event>unknown</event>
+</dataqual>
+<spdoinfo>
+<indspref>Latitude Longitude</indspref>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.01</latres>
+<longres>0.01</longres>
+<geogunit>Degrees, minutes, and decimal seconds</geogunit>
+</geograph>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>winds tides currents canal discharges salinities rainfall evaporation overland flow groundwater flow</eaover>
+<eadetcit>not applicable</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>John D. Wang</cntper>
+<cntorg>University of Miami</cntorg>
+</cntperp>
+<cntpos>PI</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>4600 Rickenbacker CSWY</address>
+<city>Miami</city>
+<state>FL</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(305)421-4648</cntvoice>
+<cntemail>jwang@rsmas.miami.edu</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>FLOWS, SALINITY, AND SOME IMPLICATIONS FOR LARVALTRANSPORT IN SOUTH BISCAYNE BAY, FLORIDAcontact</resdesc>
+<distliab>please contact PI</distliab>
+<stdorder>
+<nondig>contact PI or go to http://anole.rsmas.miami.edu/people/jwang/bms2003.pdf for article</nondig>
+<fees>unknown</fees>
+<ordering>n/a</ordering>
+<turnarnd>n/a</turnarnd>
+</stdorder>
+<custom>n/a</custom>
+<techpreq>none</techpreq>
+</distinfo>
+<metainfo>
+<metd>200502</metd>
+<metrd>200502</metrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Johann Besserer</cntper>
+<cntorg>RSMAS Library</cntorg>
+</cntperp>
+<cntpos>Research Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>Library, RSMAS</address>
+<address>University of Miami</address>
+<address>Rickenbacker Cswy</address>
+<city>Miami</city>
+<state>FL</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>305-421-4006</cntvoice>
+<cntemail>jbesserer@rsmas.miami.edu</cntemail>
+</cntinfo>
+</metc>
+<metstdn>Shoreline Metadata Profile of the Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.2-2001</metstdv>
+<mettc>local time</mettc>
+<metsi>
+<metscs>no classification system used</metscs>
+<metsc>Unclassified</metsc>
+<metshd>contact PI for access to Dataset</metshd>
+</metsi>
+</metainfo>
+<mercury><begdate>19950101</begdate><enddate>19981231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_JW001.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_comps.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>University of South Florida College of Marine Science, St. Petersburg, Florida, USA</origin>
+<pubdate>19981201</pubdate>
+<title>Coastal Ocean Monitoring and Prediction System (COMPS): Meteorological and Oceanographic Datasets from University of South Florida College of Marine Science West Florida Shelf Weather Monitoring Stations.</title>
+<geoform>maps data</geoform>
+<othercit>The USF COMPS West Florida Shelf Weather Monitoring Stations datasets is also a component of the Southeast Atlantic Coastal Ocean Observing System (SEA-COOS). Other related datasets are listed under Cross Reference.</othercit>
+<onlink>http://comps.marine.usf.edu</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+The University of South Florida has implemented a real-time Coastal Ocean Monitoring and Prediction System (COMPS) in 1997 for West Florida as a State of Florida legislative initiative.
+The real-time and non real-time meteorological and oceanographic data collected from coastal stations and offshore buoy stations located and maintained by USF along the West Florida Shelf are part of the COMPS initiative.
+All USF-COMPS coastal stations are equipped with Aquatrak, acoustic water level measurement sensors to measure the watel level. The coastal stations also have a variety of meteorological and oceanographic sensors, they are: RM Young anemometers for wind speed and direction, barometric pressure sensors, air temperature and realtive humidity sensors, rain gages, water temperature and conductivity sensors, fluorometer and transmissometer.
+Our buoy-mounted meteorological sensors consist of either the Coastal Environmental Systems Weatherpak 2000 system modified to accommodate GOES telemetry, or the Woods Hole Oceanographic Institute (WHOI) designed Improved METeorology (IMET) system, which has now evolved to the Air Sea Interaction METeorology (ASIMET) system presently being manufactured by Star Engineering. With the Weatherpaks we measure wind, air and sea temperature, relative humidity, and barometric pressure.  With IMET or ASIMET system we also measure incoming short and long wave radiation and precipitation. Our buoys also mounted with Acoustic Current Doppler Profiler that measures velocities and direction of ocean currents and temperature and conductivity recorders.
+Note that, not all the stations have all the sensors. They are installed on each stations based on the need.
+For details on the USF Coastal station sensors available on each coastal station, please visit http://comps.marine.usf.edu.
+</abstract>
+<purpose>To provide real-time and non real-time meteorogical and oceanographic data to SEA-COOS Coastal Ocean Observing System initiative, local emergency managers, federal and state agencies, the general public, and to scientic users.</purpose>
+<supplinf>(previous geoform was 'digital tabular data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19981201</begdate>
+<enddate>Present</enddate>
+</rngdates>
+</timeinfo>
+<current>Observed</current>
+</timeperd>
+<status>
+<progress>In Work</progress>
+<update>Continually</update>
+</status>
+<spdom>
+<descgeog>
+The USFCMS COMPS Meteorological and Oceanographic Data
+Collection covers West Florida Shelf, presently extending from Dania Florida in the southeast to Pensacola in the northwest (see - http://comps.marine.usf.edu)
+</descgeog>
+<bounding>
+<westbc>-87</westbc>
+<eastbc>-80</eastbc>
+<northbc>31</northbc>
+<southbc>24</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Weather, Meteorological, Oceanographic, Ocean Modeling, Water Temperature, Coastal, Offshore, Water Level, Wind Speed, Wind Velocity, Wind Direction,Wind Gusts, Air Temperature, Sea Surface Temperature, Salinity, Estuary, Bay, Shelf, Conductivity</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>West Florida, West Florida Shelf, Northwest Florida Bay, Shell Point, Pensacola, Homosassa, Aripeka, Port Richey, Hudson, Florida, Anna Maria, Egmont Key, Tampa, Tampa Bay, Gulf of Mexico, Yucatan Straits, Eastern Gulf of Mexico, Dania, Florida Keys, Key</placekey>
+<placekey>SouthEast Atlantic Coastal Region, Anclote Key, Big Carlos Pass, Pinellas County, Citrus County</placekey>
+</place>
+<temporal>
+<tempkt>None</tempkt>
+<tempkey>1998, 1999, 2000, 2001, 2002, 2003,2004,2005</tempkey>
+</temporal>
+</keywords>
+<accconst>None. It is strongly recommended that the USFCMS COMPS Data be directly acquired from College of Marine Science, University of South Florida and not indirectly through other sources as they might have been changed in some way.</accconst>
+<useconst>The Principal Investigators (Originators), University of South Florida College of Marine Science, and the Grantor (See Data_Set_Credit) should be fully acknowledged in any publications in which any part of these data are used. Use of the data without completely reading and understanding of the metadata is not recommended. The College of Marine Science, University of South Florida is not responsible for the misuse of data.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Dr. Mark E. Luther and Dr. Robert H. Weisberg</cntper>
+<cntorg>University of South Florida</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>
+140 7th Avenue South
+College of Marine Science
+University of South Florida
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-553-1528, 727-553-1568</cntvoice>
+<cntfax>727-553-1189</cntfax>
+<cntemail>luther@marine.usf.edu, weisberg@marine.usf.edu</cntemail>
+<hours>8.30 am to 5.30 pm EST/EDT Monday-Friday</hours>
+<cntinst>E-mail prefered</cntinst>
+</cntinfo>
+</ptcontac>
+<datacred>The USFCMS COMPS is a State of Florida legislative, with Drs. Mark Luther and Robert Weisberg as Principal Investigators. Numerous researchers, faculty, post-docs, technicians, students, and data managers have contributed to these datasets.</datacred>
+<native>
+The raw and decoded data from the USFCMS COMPS real-time and non real-time weather monitoring stations are stored in SGI/Linux and Windows based computers and are presntly served via Internet
+(http://comps.marine.usf.edu and ftp://comps.marine.usf.edu/pub).
+</native>
+<crossref>
+<citeinfo>
+<origin>Unknown</origin>
+<pubdate>Unknown</pubdate>
+<title>
+The following Datasets are all part of larger COMPS work.
+Originator  Mark Luther, Robert Weisberg
+Publication Date: 2002
+Title  Southeast Atlantic Coastal Ocean Observing System (SEA-COOS)
+</title>
+<geoform>Unknown</geoform>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+USF COMPS Coastal Stations Weather Monitoring System Accuracy (Station Names: Northwest Florida Bay, Homosassa, Shell Point, Aripeka, Port Richey, Tarpon Springs, Anna Maria, Egmont Key, Big Carlos Pass, Fred Howard Park, Anclote Gulf Park)
+Wind Speed:      	+/- 0.3 m/sec or 3%
+Wind Direction:		5 - 7.8 Deg.
+Air Temperature:	+/-0.3 deg. C
+Water Temperature:	+/-0.2 deg. C
+Water Level:            Calibration:
+Standard: +/- 0.025%
+Optional: +/- 0.01%
+Nonlinearity: +/- 0.02%
+Precision	 : +/- 0.01%
+Stability,	: 0
+Drift, 1 Year
+Temperature Drift: &lt;1 ppm/deg C
+Conductivity:          Normalized to 25 Deg. C - +/- 1% over
+Range 0-30 deg C
+Non-Normalised - 0.2% over range
+0-30 deg C
+Barometric Pressure:+/- 0.5 hPa (0.02 in Hg) @ 20 deg. C
++/- 2.0 hPa (0.06 in Hg) over temp.range
+Relative Humidity:3% from 10 to 90% RH at 20 deg. C
+4% from 0to10 and 90to100% RH at 20 deg. C
+Precipitation:         +/- 0.4 mm per hour
+Fluorometer and
+Transmissionmeter:     +/- 1.25 mV
+USF COMPS Offshore Buoy Stations (Meteorological and Oceanographic System Accuracy)
+Stations NAVY-2 (NA2) and Pasco County (CMP4) Buoys
+Wind Speed:      	+/- 0.3 m/sec or 3%
+Wind Direction:		5 - 7.8 Deg.
+Air Temperature:        0.1 deg. C (If full temperature calibration, 0.05 deg. C)
+Water Temperature:      +/- 0.005 deg. C
+Barometric Pressure:    1 mbar
+Relative Humidity:      +/- 2% RH (77 deg)
+Precipitation:          +/- 0.4 mm per hour
+Shortwave Radiation:    +/- 1%
+Longwave Radiation:     +/- 1%
+SM MicroCAT - Conductivity and Temperature Recorder
+Temperature:            +/-.002 deg C
+Conductivity:           0.003 ms/cm
+Acoustic Doppler Current Profiler (ADCP)
+Velocity: +/- 0.25% of water velocity relative to ADCP +/-2.5mm/s (1200 &amp;amp; 600Khz)
++/- 0.5% of water velocity relative to ADCP +/-5mm (300Khz)
+Temperature: +/- 0.4 degrees C
+Tilt: +/- 0.5 deg.
+Compass: +/- 2 degrees
+Staions West Florida Central (CMP24) and West Florida South (CM3) Buoys
+Wind Speed:      	+/- 0.3 m/sec or 3%
+Wind Direction:		5 - 7.8 Deg.
+Air Temperature:        +/- 0.3 deg C
+Water Temperature:      +/- 0.15 deg. C
+Barometric Pressure:    .2 mbar and .5 mbar from -18 deg. C to 50 deg. C
+Compass:                +/- 1 deg (at 25 Deg, 0 deg heel)
+Relative Humidity:      4% total error
+Shortwave Radiation:    +/- 1%
+Longwave Radiation:     +/- 1%
+Acoustic Doppler Current Profiler (ADCP)
+Velocity: +/- 0.25% of water velocity relative to ADCP +/-2.5mm/s (1200
+&amp;amp; 600Khz)
++/- 0.5% of water velocity relative to ADCP +/-5mm (300Khz)
+1mm/s
+Temperature: +/- 0.4 degrees C
+Tilt: +/- 0.5 deg.
+Compass: +/- 2 degrees
+</attraccr>
+</attracc>
+<logic>N/A</logic>
+<complete>
+The near real-time data telemetred from the coastal and Buoy stations can be accessed via the website http://comps.marine.usf.edu. The individual stations website are updated every hour, and data for the past 24-hour in report form can be accessed via the website. Various Data Display (Time series and Wind Vector plots) plots (Past 24 hours and 5- Days) are also available for download from the website. The details of data format are also provided in the website. The decoded data files of the USFSea-Coos individual stations can be accessed by pointing the browser to the URL:ftp://comps.marine.usf.edu/pub/.
+The data format details are also available. For further details on data availability and access, please contact COMPS Program Data Manager. The station log of maintenance, problems, and observations relevant to the Sensor systems on the stations are maintained in College of Marine Science, University of South Florida, St. Petersburg, Florida. The raw data telemetred from the stations are archived at College of Marine Science, University of South Florida. The raw data will be provided based on request to the Pricipal Investigators of the USF COMPS Project.
+</complete>
+<lineage>
+<method>
+<methtype>Field Collection Procedures and Protocols</methtype>
+<methdesc>
+An overview data collection systems of USFCMS COMPS Coastal and Offshore weather monitoring stations are presented here. Detailed description about the systems are available at College of Marine Science, University of South Florida. Work is under progress to make them available on-line.
+Coastal Stations Methodology Description
+A typical USF COMPS Coastal Station consists of a Data Logger, communication components that are used to telemeter the data collected at the station, and a number of environmental sensors. The Data Logger for the USF COMPS Coastal Stations are Vitel 1100 systems. The data logger controls sensors, store the collected data, and transmit the data using line-of-sight radio or GOES satellites. Except AnnaMaria Coastal station, all the coastal stations are equipped with transmitters to send the data via GOES satellite. Meteorlogical Data and Water Parameters are measured every six minutes and logged, depending upon the channels and allotted transmit time the data are transmitted once every hour. The Egmont Key, Anna Maria, Tarpon Springs and Port Richey stations are equipped with Freewave Spread Spectrum Radios and provide data at higher intervals.
+All USFCMS COMPS coastal stations are equipped with Aquatrak, acoustic water level measurement sensors to measure the watel level. The Aquatrak computes water level by measuring the time-of-travel of a sound pulse reflecting off the water&amp;amp;apos;s surface within a sounding tube abd stilling well. The coastal stations also have a variety of meteorological and oceanographic sensors, they are:
+RM Young anemometers for wind speed and direction, barometric pressure sensors, air temperature and realtive humidity sensors, rain gages, water temperature and conductivity sensors, fluorometer and transmissometer. Note that, not all the stations have all the sensors. They are installed on each stations based on the need, and for details on the USF Coastal station sensors available on each coastal station, please see ftp://comps.marine.usf.edu/pub/coastal/coastal_sta_sen.htm. The sensors of a Coastal Station is mounted to a pier/coastal tower/other shore based structures. Each coastal station pictures are also available at the ftp site described above.
+USF COMPS Offshore Buoy Stations
+Our buoy-mounted meteorological sensors consist of either the Coastal Environmental Systems Weatherpak 2000 system modified to accommodate GOES telemetry, or the Woods Hole Oceanographic Institute (WHOI) designed Improved METeorology (IMET) system, which has now evolved to the Air Sea Interaction METeorology (ASIMET) system presently being manufactured by Star Engineering. With the Weatherpaks we measure wind, air and sea temperature, relative humidity, and barometric pressure.  With IMET or ASIMET we add incoming short and long wave radiation and precipitation.  Given the modular design of IMET we added a new module to incorporate the ADCP data into the telemetry stream.  This ADCP module was initially designed at WHOI and then modified by the USF Center for Ocean Technology (COT) for integration with both ASIMET and a USF-COT designed data logger and telemetry system.  This logging and telemetry system also handles the temperature and salinity provided by the inductively coupled MicroCat sensors.  We use a conducting cable to transfer these data from the inductive coupler located on the mooring wire to a modem located in the data logger located on the buoy.
+The data logger and telemetry system developed by the USF-COT in conjunction with the Ocean Circulation Group 9OCG) is based on a Motorola 68HC16 micro controller with 128 Kbytes of flash memory and 128 Kbytes of RAM for program use.  A multiplexed serial communications I/O allows for RS485 and RS232 devices to be interfaced.  The controller accesses the suite of IMET or ASIMET sensors, plus either narrowband or broadband ADCPs via an RS485 bus.  MicroCat data, depending upon whether inductively coupled or direct, are accessed through either RS485 or RS232.  All data are both locally stored and telemetered hourly via GOES satellite.  The logger-transmitter also has radio communications. This allows for remote communications with the controller for the purposes of setup, data download, and troubleshooting without having to board the buoy.  We have successfully utilized this feature from both research vessels and aircraft.
+</methdesc>
+</method>
+<procstep>
+<procdesc>
+A brief overview of the data processing steps of USFCMS COMPS Coastal and Offshore weather monitoring data is presented here. Detailed description of the processing scripts used are available at College of Marine Science, University of South Florida.
+USF has two downlink systems to acquire the coastal and offshore stations data via GOES: a Digital Direct Reading Ground Station (DDRGS) and a Domestic Satellite rebroadcast receiving system (DOMSAT). We also download our data from NESDIS using Local Readout Ground Station software package obtained from NOAA, NESDIS. The hourly data streams (meteorological and water parameters) received from coastal stations consist of ten 6-minute samples. The hourly data streams (measurements of meteorological	parameters) that are received from the offshore stations consist of four 15-minute and three 20-minute samples for buoys equipped with Coastal Climate WeatherPak systems and USF/ASIMET systems respectively. The ADCP (velocities, direction) consist of one sample per hour. The salinity and temperature data consist of three 20 minute samples on IMET/ASIMET type buoys and two 30 minute samples on coastal climate weatherpak buoys. Once received the data are processed using decoder scripts written in C and Perl programming languages.  Observations are then served to the public via the Internet at http://comps.marine.usf.edu.  These data are also available via the NDBC who have direct access for input to the National Center for Environmental Prediction for improved marine weather forecasts at http://www.ndbc.noaa.gov/Maps/Florida.shtml.  The most recent observations, graphics and reports (past one and five days duration) generated from the data are available for download from the individual station web site. Development of a web based data management system is in progress.
+</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+<cloud>Unknown</cloud>
+</dataqual>
+<spdoinfo>
+<indspref>West Florida Shelf, Florida</indspref>
+<direct>Point</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<overview>
+<eaover>For details on the information cotained in the data set, please go to URL:http://comps.marine.usf.edu or ftp://comps.marine.usf.edu/pub. Work is in progress to update the information available at the ftp site.</eaover>
+<eadetcit>For USF COMPS Coastal and offshore stations the complete description of the entity types, attributes and attribute values are maintained at College of Marine Science, University of South Florida and work is in progress to make them accessable via Internet.</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Mark Luther, Bob Weisberg, Clifford Merz, Vembu Subramanian, Jeff Donovan, Rick Cole</cntper>
+<cntorg>University of South Florida</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>
+140 7th Avenue South
+College of Marine Science
+University of South Florida
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-553-1528, 727-553-1568, 727-553-3729, 727-553-1625, 727-553-1116, 727-553-1522</cntvoice>
+<cntfax>727-553-1189</cntfax>
+<cntemail>luther@marine.usf.edu, weiberg@marine.usf.edu, cmerz@marine.usf.edu, vembu@marine.usf.edu, jeff@marine.usf.edu, rdc@ocg7.marine.usf.edu</cntemail>
+<hours>8.30 am to 5.30 pm EST/EDT Monday-Friday</hours>
+<cntinst>E-mail prefered</cntinst>
+</cntinfo>
+</distrib>
+<distliab>All data are provisional and have not been quality-controlled. While all due care is taken to provide accurate information, provisional data are subject to change or retraction after quality control and before official release. No warranty is made, express or implied, regarding the accuracy or validity of the data, or regarding the suitability of the data for any particular application.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ASCII text</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://comps.marine.usf.edu</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20050614</metd>
+<metfrd>20060616</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Vembu Subramanian and Jeff Donovan</cntper>
+<cntorg>University of South Florida</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>
+140 7th Avenue South
+College of Marine Science
+University of South Florida
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-553-1625, 727-553-1116</cntvoice>
+<cntfax>727-553-1189</cntfax>
+<cntemail>vembu@marine.usf.edu, jeff@marine.usf.edu</cntemail>
+<hours>8.30 am to 5.30 pm EST/EDT Monday-Friday</hours>
+<cntinst>E-mail prefered</cntinst>
+</cntinfo>
+</metc>
+<metstdn>Content Standards for National Biological Information Infrastructure Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://comps.marine.usf.edu</onlink>
+<metprof>COMPS metadata</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19981201</begdate><enddate>20091114</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_comps.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

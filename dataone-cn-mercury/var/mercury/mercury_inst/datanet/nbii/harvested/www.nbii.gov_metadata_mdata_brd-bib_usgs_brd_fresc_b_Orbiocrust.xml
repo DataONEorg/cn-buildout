@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_Orbiocrust.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Ponzetti, J.M. and B.P. McCune</origin>
+<pubdate>2001</pubdate>
+<title>Biotic soil crusts of Oregon's shrub steppe: Community composition in relation to soil chemistry, climate, and livestock activity</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Bryologist</sername>
+<issue>104 (2): 212-225</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Las Vegas, NV</pubplace>
+<publish>American Bryological and Lichenological Society</publish>
+</pubinfo>
+<othercit>Publication Control #: 1105</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Biotic soil crust cover and composition were examined at nine shrub-steppe sites in central and eastern Oregon. Livestock and excluded transects were established at each site. Data were collected on biotic soil crust cover, vascular plant species, soil surface pH and electrical conductivity, and other variables. It was found by gradient analysis that differences in community composition were most strongly related to soil pH, electrical conductivity, and Calcareous Index Value. Other important variables were elevation, precipitation, aspect and temperature. Total crust cover was highest at sites with lower pH, electrical conductivity and Calcareous Index Value. Dominant species differed significantly between the more calcareous sites with higher pH, and the less calcareous, lower pH sites. The livestock presence gradient was not as important in the data as the strong soil chemistry and climate gradients. Overall community composition of soil crust species was different between grazed and long-ungrazed sites. Comparison of grazed and long-ungrazed sites showed lower cover of biotic crusts, nitrogen-fixing lichens, crust-dominated soil surface roughness, and lower species richness. Biotic soil crusts appear to be sensitive indicators of disturbance and there seem to be strong compositional differences in shrub steppe crust communities of Oregon that are correlated with regional soil and climate gradients.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>Illustrative Matter: map, tables, figures.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2001</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Oregon</descgeog>
+<bounding>
+<westbc>-124.5584</westbc>
+<eastbc>-116.46834</eastbc>
+<northbc>46.27969</northbc>
+<southbc>41.98685</southbc>
+<boundalt>
+<altmin>240</altmin>
+<altmax>1612</altmax>
+<altunits>meters</altunits>
+</boundalt>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Science Information System Controlled Vocabulary</themekt>
+<themekey>Grassland/Rangeland</themekey>
+<themekey>Plants</themekey>
+</theme>
+<theme>
+<themekt>Biocomplexity Thesaurus</themekt>
+<themekey>Environmental factors</themekey>
+<themekey>Biotic factors</themekey>
+<themekey>Soils</themekey>
+<themekey>Lichens</themekey>
+<themekey>Bryophyta</themekey>
+<themekey>Cryptogams</themekey>
+<themekey>Livestock</themekey>
+<themekey>Grazing</themekey>
+<themekey>Disturbance</themekey>
+<themekey>Human impact</themekey>
+<themekey>Soil biology</themekey>
+<themekey>Soil chemistry</themekey>
+<themekey>Soil analysis</themekey>
+<themekey>Soil properties</themekey>
+<themekey>Soil ecology</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Oregon</placekey>
+<placekey>OR</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>fungi</taxonkey>
+<taxonkey>bacteria</taxonkey>
+<taxonkey>algae</taxonkey>
+</keywtax>
+<taxongen>Biological soil crusts are composed of a community of organisms that include fungi, bacteria, algae, and other taxa.</taxongen>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Bryophyta</taxonrv>
+<common>mosses</common>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Fungi</taxonrv>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Ascomycota</taxonrv>
+<common>sac fungi (lichens)</common>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #: 1105</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20031024</metd>
+<metrd>20040301</metrd>
+<metfrd>20040315</metfrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>20010101</begdate><enddate>20011231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_Orbiocrust.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

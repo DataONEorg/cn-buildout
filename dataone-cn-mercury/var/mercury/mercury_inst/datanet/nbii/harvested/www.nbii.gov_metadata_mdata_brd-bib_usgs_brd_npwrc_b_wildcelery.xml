@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_npwrc_b_wildcelery.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Carl E. Korschgen and William L. Green, U.S. Fish and Wildlife Service</origin>
+<pubdate>1988</pubdate>
+<title>American Wildcelery (Vallisneria americana): Ecological Considerations for Restoration</title>
+<edition>Version 16JUL97</edition>
+<geoform>web site</geoform>
+<pubinfo>
+<pubplace>Jamestown, North Dakota</pubplace>
+<publish>U.S. Fish and Wildlife Service</publish>
+</pubinfo>
+<othercit>Northern Prairie Wildlife Research Center Home Page.</othercit>
+<onlink>http://www.npwrc.usgs.gov/resource/literatr/wildcel/wildcel.htm</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The success of vegetation management programs for waterfowl is dependent on knowing the physical and physiological requirements of the target species. Lakes and riverine impoundments that contain an abundance of the American wildcelery plant (Vallisneria americana) have traditionally been favored by canvasback ducks (Aythya valisineria) and other waterfowl species as feeding areas during migration. Information on the ecology of V. americana is summarized to serve as a guide for potential wetland restoration projects. Because of the geographic diversity and wetland conditions in which V. americana is found, we have avoided making hard-and-fast conclusions about the requirements of the plant. Rather, we present as much general information as possible and provide the sources of more specific information. Vallisneria americana is a submersed aquatic plant that has management potential.  Techniques are described for transplanting winter buds from one location to another. Management programs that employ these techniques should define objectives clearly and evaluate the water regime carefully before initiating a major effort.</abstract>
+<purpose>Habitat management projects for restoring and managing lakes and riverine impoundments for waterfowl in general, and canvasback (Aythya valisineria) migration and wintering habitats in particular, have led to a better understanding of one of the most important components of this habitat-the American wildcelery plant (Vallisneria americana). We compile and summarize information related to the ecology of American wildcelery and provide recommendations for its propagation. Habitat management programs based on natural succession patterns and an understanding of ecological tolerances of target species produce the most ecologically and economically sound results.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>1988</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Vallisneria americana is found primarily in eastern North America, occurring west from Nova Scotia to South Dakota and south to the Gulf of Mexico (Fassett 1957). The plant has recently been reported in the western States of Washington, Nebraska, New Mexico, and Arizona (Lowden 1982).</descgeog>
+<bounding>
+<westbc>-104</westbc>
+<eastbc>-60</eastbc>
+<northbc>46</northbc>
+<southbc>14</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>vegetation management program</themekey>
+<themekey>ecological considerations</themekey>
+</theme>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>American Wildcelery</taxonkey>
+<taxonkey>Vallisneria americana</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+<taxoncl>
+<taxonrn>Subkingdom</taxonrn>
+<taxonrv>Tracheobionta</taxonrv>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Magnoliophyta</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Liliopsida</taxonrv>
+<taxoncl>
+<taxonrn>Subclass</taxonrn>
+<taxonrv>Alismatidae</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Hydrocharitales</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Hydrocharitaceae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Vallisneria</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Vallisneria americana</taxonrv>
+<common>American wildcelery</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Carl E. Korschgen</cntper>
+<cntorg>U.S. Fish and Wildlife Service, U.S. Geological Survey, Biological Resources Division,  Northern Prairie Wildlife Research Center, Lacrosse Field Station</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>P.O. Box 2226</address>
+<city>La Crosse</city>
+<state>Wisconsin</state>
+<postal>54602</postal>
+</cntaddr>
+<cntvoice>unknown</cntvoice>
+</cntinfo>
+</ptcontac>
+<datacred>We thank H. Kantrud, J. Peck, G. Swanson, and J. Titus for reviews of preliminary drafts of this manuscript. P. B. Reed, Jr., U.S. Fish and Wildlife Service, National Wetland Inventory, provided distribution records from the National Wetland Plant Species List and Data Base. V. Ramey, Director, University of Florida Center for Aquatic Plants, provided bibliographic searches of V. americana. A. Prochowicz provided valuable assistance in word processing the drafts of the manuscript.</datacred>
+<crossref>
+<citeinfo>
+<origin>Korschgen, Carl E. and William L. Green.</origin>
+<pubdate>1988</pubdate>
+<title>American wildcelery (Vallisneria americana): Ecological considerations for restoration.</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>U.S. Fish and Wildlife Service Technical Report</sername>
+<issue>19</issue>
+</serinfo>
+<othercit>24 pages</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<logic>not applicable</logic>
+<complete>Very complete review of vegetation management practices.</complete>
+<lineage>
+<procstep>
+<procdesc>not applicable</procdesc>
+<procdate>unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>Spatial reference based on local geographical names.</indspref>
+</spdoinfo>
+<eainfo>
+<overview>
+<eaover>Entity - American Wildcelery; Attributes - Ecological considerations, management programs</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Tom Sklebar</cntper>
+<cntorg>U.S. Geological Survey, Northern Prairie Wildlife Research Center</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>8711 37th Street, S.E.</address>
+<city>Jamestown</city>
+<state>North Dakota</state>
+<postal>58401</postal>
+</cntaddr>
+<cntvoice>701-253-5500, 701-253-5554</cntvoice>
+<cntfax>701-253-5553</cntfax>
+<cntemail>tom_sklebar@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a U.S. Geological Survey server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20020131</metd>
+<metfrd>20030131</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>19880101</begdate><enddate>19881231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_npwrc_b_wildcelery.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

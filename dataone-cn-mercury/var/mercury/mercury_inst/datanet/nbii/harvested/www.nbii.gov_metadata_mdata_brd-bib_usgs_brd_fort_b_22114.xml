@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_22114.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shafroth, P.B. and M.K. Briggs</origin>
+<pubdate>2008</pubdate>
+<title>Restoration ecology and invasive riparian plants: An introduction to the special action on Tamarix spp. in Western North America</title>
+<geoform>publication</geoform>
+<othercit>Vol. 16(1) pages 94-96</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Shafroth, P.B. and M.K. Briggs. 2008. Restoration ecology and invasive riparian plants: An introduction to the special action on Tamarix spp. in Western North America. Restoration Ecology 16(1): 94-96.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2008</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>invasive species</themekey>
+<themekey>riparian</themekey>
+<themekey>restoration</themekey>
+</theme>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>Tamarisk</taxonkey>
+<taxonkey>Tamarix</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Magnoliophyta</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Magnoliopsida</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Violales</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Tamaricaceae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Tamarix</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>ramosissima</taxonrv>
+<common>Tamarix</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Shafroth, P.B.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shafroth, P.B., V.B. Beauchamp, M.K. Briggs, K. Lair, and A.A. Sher</origin>
+<pubdate>2008</pubdate>
+<title>Planning riparian restoration in the context of Tamarix control in western North America</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Restoration Ecology (ISSN 1061-2971)</sername>
+<issue>16(1):97-112</issue>
+</serinfo>
+<othercit>Vol. 16(1) pages 97-112</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shafroth, P.B</origin>
+<pubdate>2006</pubdate>
+<title>Tamarisk control, water salvage, and wildlife habitat restoration along rivers in the western United States</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>2 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21653/21653.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shafroth, P.B., J.R. Cleverly, T.L. Dudley, J.P. Taylor, C. van Riper III, E.P. Weeks, and J.N. Stuart</origin>
+<pubdate>2005</pubdate>
+<title>Control of Tamarix in the western United States: implications for water salvage, wildlife use, and riparian restoration</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Environmental Management (ISSN 0364-152X)</sername>
+<issue>35(3):231-246</issue>
+</serinfo>
+<othercit>Vol. 35(3) pages 231-246</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shafroth, P.</origin>
+<pubdate>2003</pubdate>
+<title>Natural flooding and dams: effects on riparian systems</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Southwest Hydrology</sername>
+<issue>2(MAR/APR):20-21</issue>
+</serinfo>
+<othercit>Vol. 2(MAR/APR) pages 20-21</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shafroth, P.B., B. Tellman, and M.K. Briggs</origin>
+<origin>Shafroth, P. B., B. Tellman, and M. K. Briggs (Technical Coordinators), ed.</origin>
+<pubdate>1999</pubdate>
+<title>Riparian ecosystem restoration in the Gila River Basin: opportunities and constraints</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>The University of AZ, Tucson</pubplace>
+<publish>Water Resources Research Center</publish>
+</pubinfo>
+<othercit>78 pp.</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Shafroth, P.B.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Restoration ecology and invasive riparian plants: An introduction to the special action on Tamarix spp. in Western North America.  FORT Library Archive Number: 2008/0021 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20080101</begdate><enddate>20081231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_22114.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

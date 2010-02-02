@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_pub818.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Kauffman, J.B. and David A. Pyke</origin>
+<pubdate>2001</pubdate>
+<title>Range ecology, global livestock influences</title>
+<geoform>Book chapter</geoform>
+<serinfo>
+<sername>Encyclopedia of Biodiversity</sername>
+<issue>Volume 5:33-52</issue>
+</serinfo>
+<othercit>
+Science Information System Project #: 7098
+Publication Control #: 818
+</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Rangelands are found on all continents, covering up to 30-50% of the earth's surface. Most rangelands in the western states are water-limited ecosystems. Therefore small changes in precipitation amount or season may affect biological components that maintain nutrient and water cycles within these ecosystems and energy flow through these ecosystems. The climate of the Intermountain West is generally semi-arid with most of the precipitation during the winter. Global circulation models often predict a shift of the summer monsoon storm track to the north into the Intermountain West. Resource managers have stressed the need to predict changes to ecosystems that might occur with shifts in global circulation patterns. The effects of climate shifts on lands where human-induced impacts, such as livestock grazing, occur may result in interactions that will accelerate or cancel the effects predicted by climate alone. Livestock impacts go beyond just herbivory to include trampling and nutrient redistribution that may affect various ecosystem properties differentially. We will determine: A) the sensitivity and responses of physical, chemical, and biological components along a series of environmental gradients of soil types, precipitation timing, and evapo-transpiration gradients in semi-arid ecosystems of the Intermountain West; B) the effect various climate and grazing scenarios will have on the ability for ecosystems to sustain current levels of plant productivity, functional composition and C and N pools for the next 50-500 years as well as to predict the response of invertebrates to changes in C and N with grazing and climate change; and C) the potential impacts of selected policy decisions regarding livestock grazing in the Intermountain West.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>
+Extent of item: 33-52 pp
+Illustrative Matter:  photos
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2001</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Intermountain west</descgeog>
+<bounding>
+<westbc>-121</westbc>
+<eastbc>-106</eastbc>
+<northbc>48</northbc>
+<southbc>33</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>NBII Biocomplexity Thesaurus</themekt>
+<themekey>Aquatic ecosystems</themekey>
+<themekey>Rangelands</themekey>
+<themekey>Grasslands</themekey>
+<themekey>Restoration</themekey>
+<themekey>Desertification</themekey>
+<themekey>Environmental degradation</themekey>
+<themekey>Forbs</themekey>
+<themekey>Grazing</themekey>
+<themekey>Overgrazing</themekey>
+<themekey>Pasture</themekey>
+<themekey>Savannahs</themekey>
+</theme>
+<theme>
+<themekt>none</themekt>
+<themekey>animal unit month</themekey>
+<themekey>biological soil crusts</themekey>
+<themekey>browse</themekey>
+<themekey>graminoids</themekey>
+<themekey>range conditions</themekey>
+<themekey>ruminant</themekey>
+<themekey>woodland</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Intermountain west</placekey>
+<placekey>Washington</placekey>
+<placekey>WA</placekey>
+<placekey>Oregon</placekey>
+<placekey>OR</placekey>
+<placekey>Idaho</placekey>
+<placekey>ID</placekey>
+<placekey>Nevada</placekey>
+<placekey>NV</placekey>
+<placekey>Utah</placekey>
+<placekey>UT</placekey>
+<placekey>California</placekey>
+<placekey>CA</placekey>
+<placekey>Montana</placekey>
+<placekey>MT</placekey>
+<placekey>Wyoming</placekey>
+<placekey>WY</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #: 818</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20050325</metd>
+<metrd>20010529</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20010101</begdate><enddate>20011231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_pub818.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

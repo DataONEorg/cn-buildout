@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21308.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Lamb, B.L., and N.P. Lovrich</origin>
+<pubdate>2005</pubdate>
+<title>Agency bargaining behavior in multi-party environmental negotiations: a symposium overview</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>International Journal of Organization Theory and Behavior</sername>
+<issue>8(2):175-180</issue>
+</serinfo>
+<othercit>Vol. 8(2) pages 175-180</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Lamb, B.L., and N.P. Lovrich. 2005. Agency bargaining behavior in multi-party environmental negotiations: a symposium overview. International Journal of Organization Theory and Behavior 8(2): 175-180.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2005</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>conflict resolution</themekey>
+<themekey>organizational theory</themekey>
+<themekey>alternative dispute resolution</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Lamb, B.L.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Lamb, B.L. and N. Burkardt</origin>
+<pubdate>2008</pubdate>
+<title>Mathematical models frame environmental dispute [Review of the article Useless arithmetic: Ten points to ponder when using mathematical models in environmental decision making]</title>
+<geoform>Unknown</geoform>
+<othercit>Vol. 68(3) pages 55-60</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Lamb, B.L., and N.P. Lovrich, (eds.)</origin>
+<pubdate>2005</pubdate>
+<title>Symposium on agency bargaining behavior in multi-party environmental negotiations: Part I</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>International Journal of Organization Theory and Behavior</sername>
+<issue>8(2):174-273</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Boca Raton, FL</pubplace>
+<publish>PrAcademics Press</publish>
+</pubinfo>
+<othercit>Vol. 8(2) pages 174-273</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Lamb, B.L., N. Burkardt, and J.G. Taylor</origin>
+<pubdate>2001</pubdate>
+<title>The importance of defining technical issues in interagency environmental negotiations</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Public Works Management and Policy</sername>
+<issue>5(3):220-232</issue>
+</serinfo>
+<othercit>Vol. 5(3) pages 220-232</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/2669/2669.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Lamb, B.L., N. Burkardt, and J.G. Taylor</origin>
+<pubdate>1996</pubdate>
+<title>Quants and wonks in environmental disputes: Are scientists experts or advocates?</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Commack, NY</pubplace>
+<publish>Nova Science Publishers</publish>
+</pubinfo>
+<othercit>pages 173-1</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Soden, D. L, ed.</origin>
+<pubdate>1996</pubdate>
+<title>Quants and wonks in environmental disputes: Are scientists experts or advocates?</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Commack, NY</pubplace>
+<publish>Nova Science Publishers</publish>
+</pubinfo>
+<othercit>pages 173-1</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Burkardt, N., B.L. Lamb, and T. Waddle</origin>
+<pubdate>1994</pubdate>
+<title>Technical understanding in successful environmental negotiations</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>American Society of Civil Engineers</publish>
+</pubinfo>
+<othercit>pages 695-6</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Fontane, D. G., Tuvel, H. N, ed.</origin>
+<pubdate>1994</pubdate>
+<title>Technical understanding in successful environmental negotiations</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>American Society of Civil Engineers</publish>
+</pubinfo>
+<othercit>pages 695-6</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Lamb, B.L.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Agency bargaining behavior in multi-party environmental negotiations: a symposium overview.  FORT Library Archive Number: 2005/0050 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20050101</begdate><enddate>20051231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21308.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

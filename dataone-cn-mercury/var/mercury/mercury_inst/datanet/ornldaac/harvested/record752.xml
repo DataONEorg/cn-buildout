@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        
+        <origin><![CDATA[DEETER, M.N.]]></origin>
+        
+        <origin><![CDATA[DRUMMOND, J.R.]]></origin>
+        
+        <origin><![CDATA[EDWARDS, D.P.]]></origin>
+        
+        <origin><![CDATA[GILLE, J.C.]]></origin>
+        
+        <origin><![CDATA[MAO, D.]]></origin>
+        
+
+        <title><![CDATA[SAFARI 2000 MOPITT TROPOSPHERIC CARBON MONOXIDE, SOUTHERN AFRICA, DRY SEASON 2000]]></title>
+
+        <onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/835.xml]]></onlink>
+        
+        <onlink><![CDATA[http://daac.ornl.gov//S2K/guides/S2K_MOPITT_guide.html]]></onlink>
+        
+        
+        <geoform><![CDATA[metadata]]></geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[The MOPITT (Measurements Of Pollution In The Troposphere) instrument on the NASA Terra Satellite makes measurements of infrared radiation originating from the surface of the planet and isolates the energy being radiated from carbon monoxide (CO). By using appropriate data analysis techniques, concentration profiles of CO (Level-2 (L2) data) can be obtained on a global basis at a reasonably high horizontal (~22km) and vertical resolution (~3km).The MOPITT Level-3 (L3) data products provided in this data set are a subset of the daily averages from the L2 data. This subset was produced by overlaying a global 1x1-degree grid onto the L2 data, and then clipping the data to this southern Africa subset which originates at 5 degrees longitude and -35 degrees latitude and extends to 60 degrees longitude and 35 degrees latitude. Data are reported for 2 heights, 700 and 350 hPa, from daytime swaths for the period August 1-September 30, 2000, the SAFARI 2000 Dry Season Campaign.]]></abstract>
+      <supplinf></supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[20000801]]></begdate>
+          <enddate><![CDATA[20000930]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Complete]]></progress>
+      <update><![CDATA[ As appropriate]]></update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>5</westbc>
+        <eastbc>60</eastbc>
+        <northbc>5</northbc>
+        <southbc>-35</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt><![CDATA[Parameter_Sensor_Source]]></themekt>
+        
+        <themekey><![CDATA[CARBON MONOXIDE|MOPITT|TERRA]]></themekey>
+        
+        
+        <themekt><![CDATA[Parameter]]></themekt>
+        
+        <themekey><![CDATA[CARBON MONOXIDE]]></themekey>
+        
+        
+        <themekt><![CDATA[Source]]></themekt>
+        
+        <themekey><![CDATA[TERRA]]></themekey>
+        
+        
+        <themekt><![CDATA[Sensor]]></themekt>
+        
+        <themekey><![CDATA[MOPITT]]></themekey>
+        
+      </theme>
+      
+      <place>
+        <placekt><![CDATA[Place Keywords]]></placekt>
+        
+        <placekey><![CDATA[SOUTHERN AFRICA]]></placekey>
+        
+      </place>
+    </keywords>
+    
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[DEETER, M.N.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; ]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)]]></cntorg>
+          <cntper><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; ]]></cntfax>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://daac.ornl.gov/]]></computer>
+            <accinstr><![CDATA[PUBLIC]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Edwards, D. P., J. C. Gille, M. N. Deeter, D. Mao, and J. R. Drummond  2006. SAFARI 2000 MOPITT Tropospheric Carbon Monoxide, Southern Africa, Dry Season 2000. Data set. Available on-line [http://daac.ornl.gov/] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/835]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd><![CDATA[20060720]]></metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn><![CDATA[FGDC Content Standard for Digital Geospatial Metadata]]></metstdn>
+  </metainfo>
+  <Local-Control-Number><![CDATA[Created 2009 11 15 21 30 33 1252338633 by 160.91.11.44]]></Local-Control-Number>
+
+  <mercury>
+    <begdate>20000801</begdate>
+    <enddate>20000930</enddate>
+    
+    <Site_Information>
+      <Site><![CDATA[SOUTHERN AFRICA]]></Site>
+      <Westernmost_Longitude><![CDATA[5]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[60]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[5]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[-35]]></Southernmost_Latitude>
+    </Site_Information>
+    
+
+    
+    <Keywords><![CDATA[MOPITT]]></Keywords>
+    
+    <Keywords><![CDATA[EOSDIS]]></Keywords>
+    
+    <Keywords><![CDATA[EARTH PROBE]]></Keywords>
+    
+    <Keywords><![CDATA[SAFARI 2000]]></Keywords>
+    
+    <Keywords><![CDATA[CARBON MONOXIDE]]></Keywords>
+    
+    <Keywords><![CDATA[MEASUREMENT OF POLLUTION IN THE TROPOSPHERE]]></Keywords>
+    
+    
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[CARBON MONOXIDE ]]></Parameter>
+      <Sensor><![CDATA[MOPITT ]]></Sensor>
+      <Source><![CDATA[TERRA ]]></Source>
+      <Term><![CDATA[ATMOSPHERIC CHEMISTRY/CARBON AND HYDROCARBON COMPOUNDS ]]></Term>
+      <Topic><![CDATA[ATMOSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    
+    
+    <Project><![CDATA[SAFARI 2000]]></Project>
+    
+    
+    
+    <Navpath><![CDATA[TERRA|MOPITT|CARBON MONOXIDE]]></Navpath>
+    
+    
+    
+    <Principal_Investigator>
+      <Name><![CDATA[DEETER, M.N.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[DRUMMOND, J.R.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[EDWARDS, D.P.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[GILLE, J.C.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[MAO, D.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    
+    
+    <Data_Set_Link>
+      <URL><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=835]]></URL>
+      <Label><![CDATA[SAFARI 2000 MOPITT TROPOSPHERIC CARBON MONOXIDE, SOUTHERN AFRICA, DRY SEASON 2000]]></Label>
+      <Link_Note></Link_Note>
+    </Data_Set_Link>
+    
+  
+    
+    <Documentation_Link>
+      <URL><![CDATA[http://daac.ornl.gov//S2K/guides/S2K_MOPITT_guide.html]]></URL>
+      <Label><![CDATA[SAFARI 2000 MOPITT TROPOSPHERIC CARBON MONOXIDE, SOUTHERN AFRICA, DRY SEASON 2000]]></Label>
+      <Text></Text>
+    </Documentation_Link>
+    
+
+    
+
+        
+
+    <OME_Software_Version><![CDATA[/home/web/mercury/write_mercury_xml.pl]]></OME_Software_Version>
+    <OME_DTD_Version><![CDATA[mercury21.dtd]]></OME_DTD_Version>
+
+    
+    <Contact_Person>
+      <Email><![CDATA[ornldaac@ornl.gov]]></Email>
+      <Name><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></Name>
+      <Phone><![CDATA[+1(865)241-3952]]></Phone>
+    </Contact_Person>
+    
+    
+    <Temporal_Resolution></Temporal_Resolution>
+    <enddate_blank></enddate_blank>
+    <File_ID><![CDATA[835]]></File_ID>
+    <MD_Entry_id><![CDATA[S2K_MOPITT_co]]></MD_Entry_id>
+    
+
+    <Spatial_Extent>2200</Spatial_Extent>
+
+    
+    <Search_Text_Link>
+      <URL><![CDATA[http://daac.ornl.gov//S2K/guides/S2K_MOPITT_guide.html]]></URL>
+      <Label><![CDATA[SAFARI 2000 MOPITT TROPOSPHERIC CARBON MONOXIDE, SOUTHERN AFRICA, DRY SEASON 2000]]></Label>
+    </Search_Text_Link>
+    
+
+    
+    
+    <Granule_Details>
+    
+    </Granule_Details>
+    <OGC_URL></OGC_URL>
+
+
+  </mercury>
+
+</metadata>

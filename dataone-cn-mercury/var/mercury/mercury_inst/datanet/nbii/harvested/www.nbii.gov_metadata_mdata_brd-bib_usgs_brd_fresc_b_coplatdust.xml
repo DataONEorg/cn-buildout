@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_coplatdust.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Reynolds, Richard, Jayne Belnap, Marith Reheis, and Nilah Mazza</origin>
+<pubdate>1998</pubdate>
+<title>Eolian dust on the Colorado Plateau - magnetic and geochemical evidence from sediment in potholes and biologic soil crust</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Conference Proceedings:  Dust Aerosols, Loess Soils &amp; Global Change: An Interdisciplinary Conference and Field Tour on Dust in Ancient Environments and Contemporary Environmental Managment</sername>
+<issue>Oct. 11-14, 1998, Seattle, WA</issue>
+</serinfo>
+<othercit>
+Science Information System Project #: 763A
+Publication Control #: 1006
+</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Eolian dust provides essential nutrients for biota.  Because it is easily transferred by wind, it leaves the remaining soils vulnerable to erosion.  This aspect of the dust should be taken into consideration for land-management policies.  This paper documents the finding of silt in surficial sediment on part of the Colorado Plateau and also that the recent shift in eolian dust may be due to human activities.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>
+Extent of item: 4pp
+Illustrative Matter:  graphs
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>1998</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Colorado Plateau</descgeog>
+<bounding>
+<westbc>-110.5</westbc>
+<eastbc>-109</eastbc>
+<northbc>38.5</northbc>
+<southbc>37.5</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Science Information System Controlled Vocabulary</themekt>
+<themekey>Desert and Arid Lands</themekey>
+<themekey>Ecosystem Science</themekey>
+<themekey>Terrestrial</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Colorado Plateau</placekey>
+<placekey>UT</placekey>
+<placekey>Utah</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Belnap, Jayne</cntper>
+<cntorg>Forest and Rangeland Ecosystem Science Center (FRESC)</cntorg>
+</cntperp>
+<cntpos>Station Leader</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2290 S. West Resource Blvd.</address>
+<city>Moab</city>
+<state>UT</state>
+<postal>84532</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(435) 719-2333</cntvoice>
+<cntfax>(435) 719-2300</cntfax>
+<cntemail>jayne_belnap@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #: 1006</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20011202</metd>
+<metrd>20011209</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Forest and Rangeland Ecosystem Science Center (FRESC)</cntorg>
+</cntorgp>
+<cntpos>Library</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+777 NW 9th St.
+Suite 100
+</address>
+<city>Corvallis</city>
+<state>OR</state>
+<postal>97330</postal>
+</cntaddr>
+<cntvoice>541-750-1030</cntvoice>
+<cntfax>541-750-1069</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19980101</begdate><enddate>19981231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_coplatdust.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

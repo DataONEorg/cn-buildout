@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_sav99estero.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>AGRA Baymont Inc.</origin>
+<pubdate>20010530</pubdate>
+<title>Estero Bay 1999 Seagrass</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Clearwater, FL</pubplace>
+<publish>AGRA Baymont</publish>
+</pubinfo>
+<othercit>Agra Baymont is now called Avineon.</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This GIS data set was produced for the Florida Fish and Wildlife Conservation Commission&amp;#146;s Fish and Wildlife Research Institute (FWRI) in partnership with the South Florida Water Management District (SFWMD).  This data set consists of digital data describing the seagrass, unvegetated bottom, open water, algal beds, oysters, and apparent shoreline for the Southwest Florida Seagrass project area, which consists of Pine Island Sound, Matlacha Pass, San Carlos Bay, the lower Caloosahatchee River, and Estero Bay, in 1999.</abstract>
+<purpose>The intended use of this GIS data set is to provide mapped documentation of the extent and distribution of seagrass communities within the Southwest Florida Seagrass project area in 1999.</purpose>
+<supplinf>Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The institute name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The institute name has been changed in references to ongoing research, new research, and contact information.  (previous geoform was 'vector digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>19991209</caldate>
+<time>Unknown</time>
+</sngdate>
+<sngdate>
+<caldate>19991226</caldate>
+<time>Unknown</time>
+</sngdate>
+</mdattim>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-82.381465</westbc>
+<eastbc>-81.782607</eastbc>
+<northbc>26.708296</northbc>
+<southbc>26.24466</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>FWRItheme</themekt>
+<themekey>GIS</themekey>
+<themekey>marine vegetation (mangroves, seagrasses, seaweeds, sea oats)</themekey>
+<themekey>algae</themekey>
+<themekey>mapping</themekey>
+<themekey>oysters</themekey>
+<themekey>coastal</themekey>
+<themekey>benthic</themekey>
+<themekey>habitat (rivers, estuaries, ecology, hard bottom)</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>biota</themekey>
+</theme>
+<place>
+<placekt>FWRIplace</placekt>
+<placekey>Florida</placekey>
+<placekey>south Florida</placekey>
+<placekey>Estero Bay</placekey>
+<placekey>Pine Island National Wildlife Refuge</placekey>
+<placekey>Matlacha Pass National Wildlife Refuge</placekey>
+<placekey>Caloosahatchee National Wildlife Refuge</placekey>
+<placekey>southwest Florida</placekey>
+</place>
+<place>
+<placekt>Florida Counties</placekt>
+<placekey>Lee</placekey>
+<placekey>Collier</placekey>
+<placekey>Lee</placekey>
+</place>
+<place>
+<placekt>Florida Waterbodies</placekt>
+<placekey>Estero Bay</placekey>
+<placekey>Gulf of Mexico</placekey>
+</place>
+<place>
+<placekt>FWC Region</placekt>
+<placekey>FWC Region-Southwest</placekey>
+</place>
+<place>
+<placekt>Water Management Districts</placekt>
+<placekey>Southwest Florida Water Management District</placekey>
+</place>
+</keywords>
+<accconst>All data must be verified by Principal Investigator or Group Database Analyst prior to release.  It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the data's suitability for other purposes</accconst>
+<useconst>FWC-FWRI and the originator of the data must be credited. This is not a survey data set and should not be utilized as such. These data are not to be used for navigation. Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data.  Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.  This is not a survey data set and should not be utilized as such. These data are not to be used for navigation.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Avineon Incorporated, Baymont Division</cntorg>
+<cntper>Keith Patterson</cntper>
+</cntorgp>
+<cntpos>Director Photogrammetry, Mapping, and GIS</cntpos>
+<cntaddr>
+<addrtype>Mailing and physical</addrtype>
+<address>14100 58th Street North</address>
+<city>Clearwater</city>
+<state>FL</state>
+<postal>33760</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-539-1661</cntvoice>
+<cntfax>727-539-1749</cntfax>
+<cntemail>pattersonk@avineon.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time M-F</hours>
+<cntinst>Avineon was formerly called Agra Baymont, which was previously GEONEX.</cntinst>
+</cntinfo>
+</ptcontac>
+<datacred>AGRA Baymont acknowledges the participation of field staff from the South Florida Water Management District (SFWMD) and the Fish and Wildlife Research Institute (FWRI) in ground-truthing.</datacred>
+<secinfo>
+<secsys>FWRI-DC</secsys>
+<secclass>Available without restriction.</secclass>
+<sechandl>Available without restriction.</sechandl>
+</secinfo>
+<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 1; ESRI ArcCatalog 8.1.0.642</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+Experienced quality control photointerpreters performed a 100% quality control check, in stereo, of all delineations produced during the photointerpretation process to check for accuracy of delineations and classifications.
+The first photointerpretation quality control review was an in-process review performed on the analytical stereoplotter.  A quality control photointerpreter reviewed the seagrass delineations interpreted on the aerial photographs (these data existed as a .dgn file at that stage of production).  Baymont possesses a Zeiss analytical stereoplotter with dual optics, which allowed two photointerpreters to view the images simultaneously.  This equipment is typically used for quality assurance reviews.  Suggested corrections were pointed out to the original photointerpreter during the in-process quality control review.  Some suggested corrections warranted further investigation in the field so that selected classification problems (particularly algae vs. seagrass) could be positively resolved.
+Baymont also performed fieldwork in order to assess and maintain the quality of all photointerpretation. The trips accomplished several photointerpretation tasks in unison including 1) signature identification in advance of photointerpretation; 2) resolution of problems encountered during photointerpretation and 3) ground-truthing of existing delineations by comparing those delineations to the conditions in the field.
+In addition, hard copy photo scale plots of all QC'd delineations were sent to FWRI for further review comments by their staff.  These review comments were inspected and responded to by the Baymont QC team.
+Accuracy of valid attributes was also verified using QC steps in ARC/INFO.
+</attraccr>
+</attracc>
+<logic>Microstation .dgn files were imported to ARC/Info to perform automated validation routines.  Quality control checks for digital data consisted of unlabeled, multi-labeled and contiguous polygon errors as well as dangles and sliver polygons.  Polygon topology was created and label errors and node errors were run in ARC/Info.  Coverage characteristics were adhered to, as specified by the contract (tolerances, projection definition, PAT items etc.).</logic>
+<complete>Visual quality control check of the draft linework and labels superimposed on the aerial photography using the superimposition capability (VIDEOMAP) of the analytical stereoplotter ensured that 100% of all linework was captured.</complete>
+<posacc>
+<horizpa>
+<horizpar>For positional accuracy the data meets USGS National Map Accuracy Standards for 1:24000 scale maps. Not more than 10% of the points tested shall be in error by more than 1/30th (.0333333...) of an inch.  Ground control points were collected by differential GPS.</horizpar>
+<qhorizpa>
+<horizpav>5</horizpav>
+<horizpae>5 meter accuracy. The horizontal positional accuracy is derived from the aerotriangulation output.  In addition, coordinates were collected from the aerotriangulated photography and used to navigate to checksite locations in the field.  Field observations were checked against polygon delineations.</horizpae>
+</qhorizpa>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. Imaging, for the South Florida Water Management District and the Florida Fish and Wildlife Conservation Commission, Fish and Wildlife Research Institute</origin>
+<pubdate>Unknown</pubdate>
+<title>1999 Natural Color Aerial Photography, US Imaging</title>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>Natural color aerial photography</typesrc>
+<srctime>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>19991209</caldate>
+<time>Unknown</time>
+</sngdate>
+<sngdate>
+<caldate>19991226</caldate>
+<time>Unknown</time>
+</sngdate>
+</mdattim>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>SFWMD, FWC-FWRI</srccitea>
+<srccontr>Primary data for photinterpretation.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>
+The data originated from Aerial photography flown in December 1999.
+The data set includes an ArcInfo coverage that was digitized from 1:24000-scale natural color aerial photographs that were photogrammetrically georeferenced utilizing GPS ground control points. Data was stereoscopically photointerpreted and digitized using a Zeiss P3 analytical stereoplotter. The seagrass beds and additional categories were classified according to the FDOT Florida Land Use, Cover and Forms Classification System (FLUCCS). Minimum mapping unit (mmu) for all classes was 0.25 acres. A Photointerpretation Key was developed to aid in the classification of collected data. Ground-truthing was performed during the photointerpretation phase to ensure classification accuracy and consistency of PI. Digital files were created in Microstation design file format (.dgn). 1999 SWIM Seagrass data was translated from ARC/Info to .dgn format and was referenced as collateral tie information during the compilation process.
+</procdesc>
+<procdate>19991226</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Avineon Incorporated, Baymont Division</cntorg>
+<cntper>Keith Patterson</cntper>
+</cntorgp>
+<cntpos>Director Photogrammetry, Mapping, and GIS</cntpos>
+<cntaddr>
+<addrtype>Mailing and physical</addrtype>
+<address>14100 58th Street North</address>
+<city>Clearwater</city>
+<state>FL</state>
+<postal>33760</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-539-1661</cntvoice>
+<cntfax>727-539-1749</cntfax>
+<cntemail>pattersonk@avineon.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time M-F</hours>
+<cntinst>Avineon was formerly called Agra Baymont, which was previously GEONEX.</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Photointerpretation: Data was stereoscopically photointerpreted and digitized from 1:24000 scale natural color aerial photography using a Zeiss P3 analytical stereoplotter.  The seagrass beds and additional categories were classified according to the FDOT Florida Land Use, Cover and Forms Classification System (FLUCCS). Minimum mapping unit (mmu) for all classes was 0.25 acres. Ground-truthing was performed during the photointerpretation phase to ensure classification accuracy and consistency of PI.  Digital files were created in Microstation design file format (.dgn).</procdesc>
+<srcused>SFWMD, FWC-FWRI</srcused>
+<procdate>200105</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Avineon Incorporated, Baymont Division</cntorg>
+<cntper>Keith Patterson</cntper>
+</cntorgp>
+<cntpos>Director Photogrammetry, Mapping, and GIS</cntpos>
+<cntaddr>
+<addrtype>Mailing and physical</addrtype>
+<address>14100 58th Street North</address>
+<city>Clearwater</city>
+<state>FL</state>
+<postal>33760</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-539-1661</cntvoice>
+<cntfax>727-539-1749</cntfax>
+<cntemail>pattersonk@avineon.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time M-F</hours>
+<cntinst>Avineon was formerly called Agra Baymont, which was previously GEONEX.</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>ARC/INFO validation: Microstation .dgn files were imported to ARC/Info to perform automated validation routines.  Quality control checks for digital data consisted of unlabeled, multi-labeled and contiguous polygon errors as well as dangles and sliver polygons.  Polygon topology was created and label errors and node errors were run in ARC/Info.  Coverage characteristics were adhered to, as specified by the contract (tolerances, projection definition, PAT items etc.).</procdesc>
+<procdate>200105</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Avineon Incorporated, Baymont Division</cntorg>
+<cntper>Lesley Ward</cntper>
+</cntorgp>
+<cntpos>Project Coordinator Photogrammetry, Mapping, and GIS</cntpos>
+<cntaddr>
+<addrtype>Mailing and physical</addrtype>
+<address>14100 58th Street North</address>
+<city>Clearwater</city>
+<state>FL</state>
+<postal>33760</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-539-1661</cntvoice>
+<cntfax>727-539-1749</cntfax>
+<cntemail>pattersonk@avineon.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time M-F</hours>
+<cntinst>Avineon was formerly called Agra Baymont, which was previously GEONEX.</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>4089</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Albers Conical Equal Area</mapprojn>
+<albers>
+<stdparll>24</stdparll>
+<stdparll>31.5</stdparll>
+<longcm>-84</longcm>
+<latprjo>24</latprjo>
+<feast>400000</feast>
+<fnorth>0</fnorth>
+</albers>
+</mapproj>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>0.000128</absres>
+<ordres>0.000128</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>fmri.seagrass_esterobay_1999_poly</enttypl>
+<enttypd>Polygon feature class which indicates bottom type for the Estero Bay area of Florida.</enttypd>
+<enttypds>Producer defined</enttypds>
+</enttyp>
+<attr>
+<attrlabl>LEV1</attrlabl>
+<attrdef>1st digit of FLUCCS code, recalculated from SG99CODE for each polygon.</attrdef>
+<attrdefs>FDOT FLUCCS</attrdefs>
+<attrdomv>
+<udom>Numerical code varies.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LEV2</attrlabl>
+<attrdef>1st two digits of FLUCCS code, recalculated from SG99CODE for each polygon.</attrdef>
+<attrdefs>FDOT FLUCCS</attrdefs>
+<attrdomv>
+<udom>Numerical code varies.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LEV3</attrlabl>
+<attrdef>1st three digits of FLUCCS code, recalculated from SG99CODE for each polygon.</attrdef>
+<attrdefs>FDOT FLUCCS</attrdefs>
+<attrdomv>
+<udom>Numerical code varies.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LEV4</attrlabl>
+<attrdef>Four-digit FLUCCS code, recalculated from SG99CODE for each polygon.</attrdef>
+<attrdefs>FDOT FLUCCS</attrdefs>
+<attrdomv>
+<udom>Numerical code varies.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID*</attrlabl>
+<attrdef>Internal ID used by SDE.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Internal ID used by SDE.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SG99CODE</attrlabl>
+<attrdef>FLUCCS code for polygons in 1999</attrdef>
+<attrdefs>FDOT FLUCCS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>9113</edomv>
+<edomvd>Patchy seagrass- patchy or discontinuous beds (&gt;10% and &lt;85% cover)</edomvd>
+<edomvds>FDOT FLUCCS</edomvds>
+</edom>
+<edom>
+<edomv>9116</edomv>
+<edomvd>Continuous seagrass- continuous beds (&gt;85% cover with &lt;10% unvegetated bottom interspersed)</edomvd>
+<edomvds>FDOT FLUCCS</edomvds>
+</edom>
+<edom>
+<edomv>9121</edomv>
+<edomvd>Algal beds- beds of attached algae (&gt;10% cover)</edomvd>
+<edomvds>FDOT FLUCCS</edomvds>
+</edom>
+<edom>
+<edomv>6500</edomv>
+<edomvd>Unvegetated bottom- barren substrate (&lt;10% cover seagrass or algae)</edomvd>
+<edomvds>FDOT FLUCCS</edomvds>
+</edom>
+<edom>
+<edomv>6540</edomv>
+<edomvd>Oysters- oyster beds mapped as polygons or linears without regard to minimum mapping unit (mmu)</edomvd>
+<edomvds>FDOT FLUCCS</edomvds>
+</edom>
+<edom>
+<edomv>5400</edomv>
+<edomvd>Bays and Estuaries- open water</edomvd>
+<edomvds>FDOT FLUCCS</edomvds>
+</edom>
+<edom>
+<edomv>0</edomv>
+<edomvd>Land</edomvd>
+<edomvds>FDOT FLUCCS</edomvds>
+</edom>
+<edom>
+<edomv>Out</edomv>
+<edomvd>Not classified- includes Gulf of Mexico and the inland limits of aerial photography coverage</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SG99DATE</attrlabl>
+<attrdef>All values are 6/11/01, which is two years after the photography was flown.  According to the project history, a meeting between FWRI and Agra Baymont staff on this date resulted in a limited update to the data set.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>All values are 6/11/01, which is two years after the photography was flown.  According to the project history, a meeting between FWRI and Agra Baymont staff on this date resulted in a limited update to the data set.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE*</attrlabl>
+<attrdef>Feature Geometry</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+<attrdef>Area of polygon (in square meters).  Automatically calculated by SDE.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Area of polygon (in square meters).  Automatically calculated by SDE.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+<attrdef>Length of polygon perimeter (in meters).  Automatically calculated by SDE.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Length of polygon perimeter (in meters).  Automatically calculated by SDE.</udom>
+</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>This data set consists of digital data describing the seagrass, unvegetated bottom, open water, algal beds, oysters, and apparent shoreline for the Southwest Florida Seagrass project area, which consists of Pine Island Sound, Matlacha Pass, San Carlos Bay, the lower Caloosahatchee River, and Estero Bay, in 1999.  Each polygon contains a field called SG99CODE, which indicates the FLUCCS code corresponding to the bottom type within that polygon.</eaover>
+<eadetcit>FDOT FLUCCS</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</distrib>
+<resdesc>fmri.seagrass_esterobay_1999_poly</resdesc>
+<distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-FWRI produced data set; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://ocean.floridamarine.org/mrgis</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None. However, persons or organizations requesting information must provide transfer media if FTP is not available and must pay express shipping costs if express shipping is required.</fees>
+<ordering>Contact GIS Librarian by e-mail, telephone, or letter explaining which products are needed and providing a brief description of how the products will be used. Also, provide name and address of the person or organization requesting the products.</ordering>
+<turnarnd>Usually within 10 business days, although, complex requests may take longer</turnarnd>
+</stdorder>
+<custom>Contact GIS Librarian</custom>
+</distinfo>
+<metainfo>
+<metd>20020402</metd>
+<metrd>20051129</metrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>Available without restriction.</metac>
+<metuc>Metadata must be distributed with the data set.</metuc>
+<metsi>
+<metscs>FWRI-MC</metscs>
+<metsc>Available</metsc>
+<metshd>No restrictions on metadata.</metshd>
+</metsi>
+</metainfo>
+<mercury><begdate>19991209</begdate><enddate>19991226</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_sav99estero.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

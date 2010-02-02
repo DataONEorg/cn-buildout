@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_22201.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Hunter, D</origin>
+<pubdate>2005</pubdate>
+<title>People, parks, and pumas…and prions</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>3 pp.</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Hunter, D. 2005. People, parks, and pumas…and prions. http://www.fort.usgs.gov//resources/research_briefs/MtnLionPLW.asp.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2005</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Colorado</descgeog>
+<bounding>
+<westbc>-109.0552</westbc>
+<eastbc>-102.03676</eastbc>
+<northbc>41.00341</northbc>
+<southbc>36.98897</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>cougar</themekey>
+<themekey>predator</themekey>
+<themekey>chronic wasting disease</themekey>
+<themekey>prey</themekey>
+<themekey>capture techniques</themekey>
+<themekey>snare</themekey>
+<themekey>camera trap</themekey>
+<themekey>call box</themekey>
+<themekey>DNA analysis</themekey>
+<themekey>bait site</themekey>
+<themekey>monitoring</themekey>
+<themekey>trained hound</themekey>
+<themekey>radio tracking</themekey>
+<themekey>home range</themekey>
+<themekey>GPS</themekey>
+<themekey>territory</themekey>
+<themekey>population dynamics</themekey>
+<themekey>distribution</themekey>
+<themekey>abundance</themekey>
+<themekey>ecology</themekey>
+<themekey>human interaction</themekey>
+<themekey>modeling</themekey>
+<themekey>prediction</themekey>
+<themekey>immigration</themekey>
+<themekey>movements</themekey>
+<themekey>survival rate</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Rocky Mountain National Park</placekey>
+<placekey>Colorado</placekey>
+<placekey>CO</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>Mountain lion</taxonkey>
+<taxonkey>mule deer</taxonkey>
+<taxonkey>Felis concolor</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Mammalia</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Artiodactyla</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Cervidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Odocoileus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>hemionus</taxonrv>
+<common>Mule or black-tailed deer</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Carnivora</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Felidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Felis</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>concolor</taxonrv>
+<common>Mountain lion</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Hunter, D.O.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Hunter, D.O.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>People, parks, and pumas…and prions.  FORT Library Archive Number: 2005/0163 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20050101</begdate><enddate>20051231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_22201.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

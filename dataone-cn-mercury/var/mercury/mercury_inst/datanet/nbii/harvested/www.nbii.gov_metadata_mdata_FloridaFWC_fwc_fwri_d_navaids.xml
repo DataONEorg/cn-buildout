@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_navaids.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Florida Fish and Wildlife Conservation Commission (FWC), Fish and Wildlife Research Institute (FWRI), Center for Spatial Analysis</origin>
+<pubdate>2002</pubdate>
+<title>Aids to Navigation</title>
+<geoform>maps data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This GIS data set represents the aids to navigation (ATONs) for the Seventh and Eighth Coast Guard Districts. The term "aids to navigation" refers to devices outside of a vessel that are used to assist mariners in determining their position, safe course or warn them of obstructions. Aids to navigation include light buoys and beacons. This data set includes federal aids, which are installed and maintained by the Coast Guard, as well as some privately maintained aids. This data set does not include unofficial (illegal) aids, such as PVC pipes, placed without permission. This data set is not certified for navigation and is not intended for navigation purposes. Each USCG district headquarters is responsible for updating its database on an as-needed basis. When existing aids are destroyed or relocated and new aids are installed, the database is updated. Each aid is assigned an official light listing number. The Light List is a document listing the status of the ATONs; it is regularly published and distributed.  Interim changes to the Light List are published in local notices to mariners. In addition, the USCG broadcasts notices to mariners on the marine band radio as soon as changes in the status of individual aids are reported.  Navigators should use the official notices to mariners to maintain current charts.  Annual (or more frequent) updates of the Aids to Navigation database can be obtained from each USCG district headquarters.</abstract>
+<purpose>This data set represents an all-inclusive GIS layer of ATONs for the year 2002, with spatial extent of the Seventh and Eighth Coast Guard Districts. The Peninsular Florida area in the USCG Seventh District represents a 2004 data update.</purpose>
+<supplinf>
+Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The institute name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The institute name has been changed in references to ongoing research, new research, and contact information.
+The source information of this data set was collected and maintained solely for the internal uses of the Coast Guard. It has not been verified for accuracy or completeness by the USCG or by FWRI. The Coast Guard makes no representations that this information contains an accurate description of aids to navigation or their actual positions. Many fields in the original ATONS database may contain data that are no longer used; therefore, the data are suspect. Consequently, this information should not be used, published, or relied on for the purpose of navigation. Furthermore, it will be subject to change without notice. The Coast Guard makes no representations that this information contains an accurate description of the wrecks and obstructions or their actual positions. Thus, this information should not be used, published, or relied on for navigation. Typographical errors do exist in this data set.
+FWRI updates these data annually. For the most current ATON information, please contact the appropriate USCG district.
+(previous geoform was 'vector digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+<sngdate>
+<caldate>2004</caldate>
+</sngdate>
+</mdattim>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Annually</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-98.515159</westbc>
+<eastbc>-61.91703</eastbc>
+<northbc>33.975063</northbc>
+<southbc>17.51788</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>FWRItheme</themekt>
+<themekey>ATONs</themekey>
+<themekey>GIS</themekey>
+<themekey>boating</themekey>
+<themekey>human impact (boating, pollution, oil spills, dredging, runoff, coastal build up)</themekey>
+<themekey>mapping</themekey>
+<themekey>coastal</themekey>
+<themekey>marine</themekey>
+<themekey>transportation</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>transportation</themekey>
+</theme>
+<place>
+<placekt>FWRIplace</placekt>
+<placekey>Atlantic Ocean</placekey>
+<placekey>Gulf of Mexico</placekey>
+<placekey>south Florida</placekey>
+<placekey>southeast Florida</placekey>
+<placekey>north Florida</placekey>
+<placekey>northeast Florida</placekey>
+<placekey>east coast of Florida</placekey>
+<placekey>west coast of Florida</placekey>
+<placekey>Lake Okeechobee</placekey>
+<placekey>Saint Johns River</placekey>
+<placekey>Florida</placekey>
+<placekey>Alabama</placekey>
+<placekey>Georgia</placekey>
+<placekey>Bahamas</placekey>
+<placekey>Caribbean</placekey>
+<placekey>Florida Panhandle</placekey>
+<placekey>Florida Peninsula</placekey>
+</place>
+<place>
+<placekt>Florida Waterbodies</placekt>
+<placekey>Gulf of Mexico</placekey>
+<placekey>Atlantic Ocean</placekey>
+</place>
+<place>
+<placekt>FWC Region</placekt>
+<placekey>FWC Region-North Central</placekey>
+<placekey>FWC Region-Northeast</placekey>
+<placekey>FWC Region-Northwest</placekey>
+<placekey>FWC Region-South</placekey>
+<placekey>FWC Region-Southwest</placekey>
+</place>
+<place>
+<placekt>Water Management Districts</placekt>
+<placekey>Northwest Florida Water Management District</placekey>
+<placekey>South Florida Water Management District</placekey>
+<placekey>Southwest Florida Water Management District</placekey>
+<placekey>St. Johns River Water Management District</placekey>
+<placekey>Suwannee River Water Management District</placekey>
+</place>
+</keywords>
+<accconst>Available without restriction. All data must be verified by Principle Investigator or Group Database Analyst prior to release.  It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the data's suitability for other purposes.</accconst>
+<useconst>Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source and the originator USCG. Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data.  Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.  This is not a survey data set and should not be utilized as such. These data are not to be used for navigation</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</ptcontac>
+<secinfo>
+<secsys>FWRI-DC</secsys>
+<secclass>Available without restriction.</secclass>
+<sechandl>Available without restriction.</sechandl>
+</secinfo>
+<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 8.3.0.800</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>All entities and attributes have been identified.  Attributes are accurate as provided in the source spreadsheets.</attraccr>
+</attracc>
+<logic>unknown</logic>
+<complete>unknown</complete>
+<posacc>
+<horizpa>
+<horizpar>
+The source data from the USCG gave coordinates in latitude and longitude of varying degrees of precision; the coordinates vary from degree only to three decimal seconds. FWRI has not field-verified these points, so positions are as accurate as the source data. Please see the Coast Guard's disclaimer in the Supplemental Information section of this metadata report.
+FWRI edited the positional accuracy for only gross errors of logical consistency. FWRI deleted point data that did not have coordinates in the source spreadsheets. Point data that were obviously on land were corrected wherever possible if there was an obvious, verifiable typographical error (such as incorrect coordinates that could be corrected by using the coordinates for other aids in the same water body and the appropriate NOAA nautical chart as reference). FWRI used a NOAA nautical chart as the background to visually verify any points that were moved.
+</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>United States Coast Guard (USCG) Seventh and Eighth District</origin>
+<pubdate>2002</pubdate>
+<title>USCG Aids to Navigation Spreadsheet 2002</title>
+<geoform>Excel spreadsheet</geoform>
+</citeinfo>
+</srccite>
+<typesrc>Excel spreadsheet</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>USCG Aids to Navigation Spreadsheet 2002</srccitea>
+<srccontr>Source spreadsheets were formatted and used to create shapefiles.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>United States Coast Guard (USCG) Seventh District</origin>
+<pubdate>20040825</pubdate>
+<title>USCG Aids to Navigation Spreadsheet 2004</title>
+<geoform>Excel spreadsheet</geoform>
+</citeinfo>
+</srccite>
+<typesrc>Excel spreadsheet</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2004</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>2004 spreadsheet</srccitea>
+<srccontr>This spreadsheet provided coordinates for ATONs in the Florida portion of the USCG Seventh District.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>Excel spreadsheets from the Seventh and Eighth Districts were formatted to convert coordinates from degrees, minutes, and seconds to decimal degrees. Additional attributes were created based on information contained within the spreadsheets. FWRI formatted all spreadsheets to contain the same attribute items and attribute field lengths. The Excel files were then converted to dbase and converted to shapefiles using the "add X,Y" function in ArcMap 8.2. The shapefiles were MERGEd together to create one ATON map representing both Districts federal ATONs and the Seventh District's private ATONs.</procdesc>
+<srcused>USCG Aids to Navigation Spreadsheet 2002</srcused>
+<procdate>2003</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>FWRI staff also included mooring buoys and speed zone buoys maintained by Biscayne National Park, as well as private aids provided by Brevard County.</procdesc>
+<procdate>2004</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>
+FWRI received the Excel spreadsheet of 7th district containing Florida 2004 ATON data from the 7th district USCG. The purpose of the project is to replace the 2002 Florida 7th district ATON data with the received new data. So the exact column names and formats of the 2002 data had to be repeated in the new file.
+FWRI formatted the new spreadsheet with the same attribute items and attribute field lengths as of 2002 data. The 7th district coordinates which were originally in degrees, minutes and seconds were converted to decimal degrees. The excel file was converted to a dbase file and later to a shapefile using "Add XY" function in ArcMap 8.3. The shapefile now contains Florida 7th district ATON data for 2004 representing both Federal and Private ATONS. This data set was used to update the peninsular Florida section from the 2002 7th and 8th district ATONs file.
+</procdesc>
+<procdate>2004</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>19351</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Albers Conical Equal Area</mapprojn>
+<albers>
+<stdparll>24</stdparll>
+<stdparll>31.5</stdparll>
+<longcm>-84</longcm>
+<latprjo>24</latprjo>
+<feast>400000</feast>
+<fnorth>0</fnorth>
+</albers>
+</mapproj>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>0.002049</absres>
+<ordres>0.002049</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>FMRI.atons_uscg_2002_point</enttypl>
+<enttypd>This data set represents navigation aids for the Seventh and Eighth Coast Guard Districts.</enttypd>
+<enttypds>Producer defined</enttypds>
+</enttyp>
+<attr>
+<attrlabl>AID_COLOR</attrlabl>
+<attrdef>Color of lighted aid</attrdef>
+<attrdefs>Derived from information provided by the USCG Seventh and Eighth Districts</attrdefs>
+<attrdomv>
+<edom>
+<edomv>R</edomv>
+<edomvd>Red</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>G</edomv>
+<edomvd>Green</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>W</edomv>
+<edomvd>White</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>Y</edomv>
+<edomvd>Yellow</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AID_LABEL</attrlabl>
+<attrdef>Labels are defined as any identification marks displayed on the actual aid. Often, this is a number, but port entrance buoys will have the port initials painted on the buoy. Some hazardous buoys will be identified with "WR."</attrdef>
+<attrdefs>Derived from information provided by the USCG Seventh and Eighth Districts</attrdefs>
+<attrdomv>
+<udom>Label marks.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AID_NAME</attrlabl>
+<attrdef>Unique name assigned by the corresponding district</attrdef>
+<attrdefs>USCG Seventh and Eighth Districts</attrdefs>
+<attrdomv>
+<udom>Unique name.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AID_TYPE</attrlabl>
+<attrdef>This code identifies the type of aid. Each type of aid has a specific function for navigation; unique physical characteristics usually make each easy to identify in the field.</attrdef>
+<attrdefs>Derived from information provided by the USCG Seventh and Eighth Districts</attrdefs>
+<attrdomv>
+<edom>
+<edomv>LT</edomv>
+<edomvd>Lighted aid</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>DBN</edomv>
+<edomvd>Daybeacon</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>ULB</edomv>
+<edomvd>Unlit buoys</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>LB</edomv>
+<edomvd>Lighted buoys</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>LBB</edomv>
+<edomvd>Lighted bell buoys</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>LWB</edomv>
+<edomvd>Lighted whistle buoys</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>RFL</edomv>
+<edomvd>Range forward lights</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>RRL</edomv>
+<edomvd>Range rear lights</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>LGB</edomv>
+<edomvd>Lighted gong buoy</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>N</edomv>
+<edomvd>Nun Buoy</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>MB</edomv>
+<edomvd>Mooring buoy</edomvd>
+<edomvds>Biscayne National Park</edomvds>
+</edom>
+<edom>
+<edomv>BBL</edomv>
+<edomvd>Articulated Light</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CLASS</attrlabl>
+<attrdef>Indicates a federal or private ATON</attrdef>
+<attrdefs>Derived from information provided by the USCG Seventh and Eighth Districts</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Federal</edomv>
+<edomvd>Federal</edomvd>
+<edomvds>Producer defined.</edomvds>
+</edom>
+<edom>
+<edomv>Private</edomv>
+<edomvd>Private</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DAYBOARD</attrlabl>
+<attrdef>Refers to colors (and occasionally numbers) painted on dayboard; see "Entity and Attribute Detail Citation" for codes</attrdef>
+<attrdefs>USCG Eighth District</attrdefs>
+<attrdomv>
+<udom>Color or number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DAYBOARD_Q</attrlabl>
+<attrdef>Number of aids on a dayboard</attrdef>
+<attrdefs>USCG Seventh District</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>N</rdommax>
+<attrunit>Aids</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DAYBOARD_S</attrlabl>
+<attrdef>The size of a dayboard in feet</attrdef>
+<attrdefs>USCG Seventh District</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>N</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DISTRICT</attrlabl>
+<attrdef>Refers to the USCG district that provided the information</attrdef>
+<attrdefs>USCG Seventh and Eighth Districts</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Seventh District</edomv>
+<edomvd>Seventh District</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>Eighth District</edomv>
+<edomvd>Eighth District</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LATDD</attrlabl>
+<attrdef>Latitude in decimal degrees (NAD 83)</attrdef>
+<attrdefs>Derived from information provided by the USCG Seventh and Eighth Districts</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>-90</rdommin>
+<rdommax>+90</rdommax>
+<attrunit>decimal degree</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LGT_LIST_N</attrlabl>
+<attrdef>Unique identifier used by public when reporting problems about a specific navigation aid; reference number for cross-reference with Light List document</attrdef>
+<attrdefs>USCG Seventh and Eighth Districts</attrdefs>
+<attrdomv>
+<udom>Unique identifier</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LONGDD</attrlabl>
+<attrdef>Longitude in decimal degrees (NAD83)</attrdef>
+<attrdefs>Derived from information provided by the USCG Seventh and Eighth Districts</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>-180</rdommin>
+<rdommax>+180</rdommax>
+<attrunit>decimal degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LT_CHAR</attrlabl>
+<attrdef>Applies only to lighted aids (AID_TYPE = LB or LT). Example: "FL G 4 s," is flashing green light with four seconds interval</attrdef>
+<attrdefs>USCG Seventh and Eighth districts</attrdefs>
+<attrdomv>
+<udom>Lighted aid description</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ODD_EVEN</attrlabl>
+<attrdef>In most cases, aids marking a narrow channel will be located as gated pairs; aids on one side of the channel are assigned an odd number, and aids on the other side are assigned an even number: "E" for even, "O" for odd. If the aid has no number then the field is blank. When aids along a narrow channel are displayed on a small-scale map, the map can be cluttered with aid symbols. This odd and even designation allows display of only aids on one side of a channel thus eliminating clutter.</attrdef>
+<attrdefs>Derived from information provided by the USCG Seventh and Eighth Districts</attrdefs>
+<attrdomv>
+<edom>
+<edomv>O</edomv>
+<edomvd>Odd</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>E</edomv>
+<edomvd>Even</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SOURCE</attrlabl>
+<attrdef>Source of the data</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Source of the data</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SYMBOL</attrlabl>
+<attrdef>This field is a concatenation of AID_TYPE and ODD_EVEN.  This field is used for symbolizing aids based on both the AID_TYPE and the ODD_EVEN attributes.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Concatenation of AID_TYPE and ODD_EVEN.</udom>
+</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>This is a detailed description of the attributes for the ATONs. These attributes were obtained from multiple spreadsheets from the USCG Seventh and Eighth Districts. An individual aid may not have values for all of the attributes listed.</eaover>
+<eadetcit>
+General ATON abbreviations (from http://www.uscgboating.org/safety/aton/abbreviations.htm)
+B - Black
+Bn - Beacon
+C - Can Buoy
+F - Fixed
+Fl - Flashing
+Fl (2) - Group Flashing
+Fl (2+1) - Composite Group-Flashing
+G - Green
+Iso - Isophase
+J - Junction (S or T Dayboard)
+K - Rectangular (Range Dayboard)
+M - Octagonal Dayboard
+MO (A) - Morse Code
+N - Nun Buoy
+Oc - Occulting
+Pri - Private
+Q - Quick (Flashing)
+R - Red
+S - Square Dayboard
+s - seconds
+T - Triangle Dayboard
+W - White
+Y - Yellow
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</distrib>
+<distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-FWRI produced data set; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://ocean.floridamarine.org/mrgis</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None. However, persons or organizations requesting information must provide transfer media if FTP is not available and must pay express shipping costs if express shipping is required.</fees>
+<ordering>Contact GIS Librarian by e-mail, telephone, or letter explaining which products are needed and providing a brief description of how the products will be used. Also, provide name and address of the person or organization requesting the products.</ordering>
+<turnarnd>Usually within 10 business days, although, complex requests may take longer</turnarnd>
+</stdorder>
+<custom>Contact GIS Librarian</custom>
+</distinfo>
+<metainfo>
+<metd>20030520</metd>
+<metrd>20050930</metrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>No restrictions on metadata.</metac>
+<metuc>Metadata must be distributed with the data set.</metuc>
+<metsi>
+<metscs>FWRI-MC</metscs>
+<metsc>Available</metsc>
+<metshd>Metadata must be distributed with the data set.</metshd>
+</metsi>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20041231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_navaids.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_scblveg.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey</origin>
+<origin>Department of the Interior</origin>
+<pubdate>199809</pubdate>
+<title>
+Scotts Bluff National Monument Spatial Vegetation Data: Cover type /
+Association level of the National Vegetation Classification System
+</title>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Scotts Bluff National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resources Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+Created in large part by Environmental Systems Research Institute, Inc.
+Redlands, CA under contract from USGS/BRD/CBI.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/scbl/images/scblveg.gif</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/scbl/scbl.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/scbl/scblsdts.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/scbl/scblbdy.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/scbl/scblbdysdts.exe</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+The vegetation units on this map were determined through the stereoscopic
+interpretation of aerial photographs supported by field sampling and
+ecological analysis. The vegetation boundaries were identified on the
+photographs by means of the photographic signature and collateral
+information on slope, hydrology, geography, and vegetation in accordance
+with the Standardized national Vegetation Classification System (October
+1995). The mapped vegetation reflects conditions that existed during the
+specific year and season that the aerial photographs were taken. There is
+a margin of error inherent in the use of aerial photographs. Therefore, a
+detailed ground and historical analysis of a single site may result in a
+revision of the vegetation alliance boundaries established through
+photographic interpretation.
+</abstract>
+<purpose>
+Provide National Parks with the necessary tools to effectively manage
+their natural resources.
+</purpose>
+<supplinf>(previous geoform was 'Map')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>19950725</caldate>
+</sngdate>
+</timeinfo>
+<current>Source photography date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-103.74663</westbc>
+<eastbc>-103.68121</eastbc>
+<northbc>41.86887</northbc>
+<southbc>41.80845</southbc>
+</bounding>
+<descgeog>Scotts Bluff National Monument and environs.</descgeog>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>vegetation classification</themekey>
+<themekey>Standardized National Vegetation Classification</themekey>
+<themekey>SNVCS</themekey>
+<themekey>NVCS</themekey>
+<themekey>alliance</themekey>
+<themekey>community association</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Nebraska</placekey>
+<placekey>NE</placekey>
+<placekey>Scottsbluff</placekey>
+<placekey>Gering</placekey>
+<placekey>Mitchell</placekey>
+<placekey>Mitchell Bottom</placekey>
+<placekey>North Platte River</placekey>
+<placekey>Roubadeau</placekey>
+<placekey>Scottsbluff County</placekey>
+<placekey>Scotts Bluff</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>vegetation classification</taxonkey>
+<taxonkey>Standardized National Vegetation Classification System</taxonkey>
+<taxonkey>alliance</taxonkey>
+<taxonkey>community association</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+<common>plants</common>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>
+Any person using the information presented here should fully understand the
+data collection and compilation procedures, as described in these metadata,
+before beginning analyses. The burden for determining fitness for use lies
+entirely with the user. For purposes of publication or dissemination, citations or
+credit should be given to the U.S. Geological Survey and the National Park Service.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>USGS/BRD, Center for Biological Informatics</cntorg>
+</cntperp>
+<cntpos>Geospatial Technology Specialist</cntpos>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>USGS Biological Resources</address>
+<address>Center for Biological Informatics</address>
+<address>Denver Federal Center, Building 810</address>
+<address>Room 8000, MS302</address>
+<city>Denver</city>
+<state>CO</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/scbl/images/scblveg.gif</browsen>
+<browsed>94 kbyte graphic image of map and key</browsed>
+<browset>GIF</browset>
+</browse>
+<native>UNIX-Arc/Info</native>
+<crossref>
+<citeinfo>
+<origin>USGSBRD, Center for Biological Informatics</origin>
+<pubdate>19980223</pubdate>
+<title>
+Vegetation Sampling and Classification of
+Scotts Bluff National Monument
+</title>
+<geoform>report</geoform>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+The mapped data were originally produced by Aerial Information Systems,
+under sub-contract to the Environmental Systems Research Institute. The
+data were revised by the contractor after the initial accuracy assessment
+was performed by re-interpreting some existing classes and adding two
+additional classes. A second revision was made by CBI personnel, changing
+interpretations of some classes with no further revisions in line work.
+The raw accuracy assessment data can be downloaded at
+http://biology.usgs.gov/npsveg/ftp/vegmapping/scbl/reports/aa_data.txt. The
+contingency table derived from these data can be viewed at
+http://biology.usgs.gov/npsveg/scbl/aa_matrix.pdf
+</attraccr>
+</attracc>
+<logic>
+All polygon features are checked for topology using the ARC/INFO software.
+Each polygon begins and ends at the same point with the node feature. All
+nodes are checked for error so that there are no dangling features. There
+are no duplicate lines or polygons. All nodes will snap together and close
+polygons based on a specified tolerance. If the node is not within the
+tolerance it is adjusted manually. The tests for logical consistency are
+performed in ARC/INFO. All attribute codes and attributes have been checked
+for typographical and logical errors.
+</logic>
+<complete>
+All data in the project area were photointerpreted and digitized. This
+includes alliances/community association classes, density classes, height
+classes, pattern groups, water, and unvegetated/landuse.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+The vegetation spatial data were visually fitted in small (2 inch square
+segments) to a custom-made orthophoto. The custom made orthophoto was
+ground tested for horizontal accuracy in three locations in and
+immediately adjacent to the park with Y-code (5 m accuracy) GPS with all
+test points falling within +/- 4-6 meters of the corresponding image
+location. The vegetation spatial data were test fitted to the orthophoto
+using a 2nd order polygon transformation using GRASS (Geographical
+Resources Analysis Support System) rectification software resulting in
+overall residuals of +/- 5 meters.
+</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>Not applicable</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Donahue Aerial Survey, Parker, CO</origin>
+<pubdate>19950725</pubdate>
+<title>
+Aerial photography (CIR and true color) of Scotts Bluff National
+Monument
+</title>
+<geoform>image</geoform>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+Aerial photography was taken at a scale of 1:12,000. Original media
+are in the form of positive transparencies. Photointerpretation was
+done on contact prints of the true color photos.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/scbl/photos.html</onlink>
+</citeinfo>
+</srccite>
+<srcscale>12000</srcscale>
+<typesrc>Contact paper prints of film transparencies</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19950725</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Imagery date</srccurr>
+</srctime>
+<srccitea>scbl Aerial Photos</srccitea>
+<srccontr>These aerial photographs were the basis for the photointerpretation process.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>County of Scottsbluff, Gering, NE</origin>
+<pubdate>Unknown</pubdate>
+<title>Digital Orthophotograph of Scotts Bluff National Monument</title>
+<geoform>BIL digital file</geoform>
+<pubinfo>
+<pubplace>Gering, NE</pubplace>
+<publish>County of Scottsbluff</publish>
+</pubinfo>
+<othercit>
+Scotts Bluff orthophoto is part of a larger project by the county of
+Scottsbluff to produce a digital basemap for the cities of
+Scottsbluff and Gering and their immediate surroundings, including
+all of Scotts Bluff National Monument. The orthophoto was
+independently verified for horizontal accuracy by use of GPS-derived
+control points by USGS/BRD.
+</othercit>
+</citeinfo>
+</srccite>
+<typesrc>Cartridge Tape</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>Unknown</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Imagery date</srccurr>
+</srctime>
+<srccitea>scbl orthophoto</srccitea>
+<srccontr>This digital orthophoto provided the project basemap</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>USGSBRD, Center for Biological Informatics</origin>
+<pubdate>19980223</pubdate>
+<title>Vegetation Sampling and Classification Report</title>
+<geoform>report</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Scottsbluff National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS/BRD, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+This report was generated by The Nature Conservancy under contract
+to the USGS/BRD, Center for Biological Informatics
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/scbl/methods.pdf</onlink>
+</citeinfo>
+</srccite>
+<typesrc>digital</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19980223</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Ground Condition</srccurr>
+</srctime>
+<srccitea>scbl field data</srccitea>
+<srccontr>This document provides the Field Key, and Vegetation categories used in the mapping process.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>USGS/BRD, Center for Biological Informatics</origin>
+<pubdate>199411</pubdate>
+<title>Accuracy Assessment Procedures, NBS/NPS Vegetation Mapping Program</title>
+<geoform>document</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Scottsbluff National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS/BRD, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+This report was prepared by Environmental Systems Research Institute;
+Redlands, CA,  National Center for Geographic Information and Analysis,
+University of California, Santa Barbara, CA and The Nature Conservancy,
+Arlington, VA under contract from the U.S. Department of Interior National
+Biological Survey and National Park Service.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/aa/aa.html</onlink>
+</citeinfo>
+</srccite>
+<typesrc>electronic document</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>199411</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Accuracy Assessment Procedures Documents</srccitea>
+<srccontr>This document established the procedures and protocols for the accuracy assessment at Scotts Bluff National Monument.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. Geological Survey</origin>
+<origin>Department of the Interior</origin>
+<pubdate>199810</pubdate>
+<title>
+Scotts Bluff National Monument Photo Interpretation
+and Map Generation Procedures
+</title>
+<geoform>report</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Scotts Bluff National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>
+USGS, Biological Resources Division, Center for Biological
+Informatics
+</publish>
+</pubinfo>
+<othercit>
+Created in large part by Aerial Information Systems, Inc.
+under contract from USGS/BRD/CBI.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/scbl/pi_rpt.pdf</onlink>
+</citeinfo>
+</srccite>
+<typesrc>digital</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>199810</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Report date</srccurr>
+</srctime>
+<srccitea>scbl mapping report</srccitea>
+<srccontr>Photo interpretation was done by trained interpreters familiar with the vegetation communities of the Monument on overlays registered to the aerial photographs under a stereoscope. Vegetation communities were identified n the basis of their color, pattern, texture, and location on the landscape and lines were drawn around the communities.  The photo interpreters had visited the monument and conferred with the ecologists who performed the vegetation classification and were familiar with the vegetation communities. Not all vegetation associations could be identified on the photography due to size constraints and complexity of the vegetation.  Map classes were assigned in these cases and a cross-walk was made to the vegetation classification</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>Accuracy assessment field data collection was performed independently of the mapping effort.  512 field plots were taken which were then compared with the attributes of the spatial data.  A contingency table was developed comparing the attributes of 21 vegetation map classes with the field data developed by the accuracy assessment.</procdesc>
+<srcused>AA Report</srcused>
+<procdate>1994</procdate>
+</procstep>
+<procstep>
+<procdesc>Aerial photography was taken of the Monument to serve as the basis for photo interpretation. Vegetation communities were identified on the aerial photography.</procdesc>
+<srcused>scbl Aerial Photos</srcused>
+<procdate>1995</procdate>
+</procstep>
+<procstep>
+<procdesc>Ortho imagery was developed to serve as a registration base to transfer the photo interpreted polygons.  The ortho imagery is registered to locations on the surface of the earth and image distortions due to terrain relief have been eliminated.  When the polygons registered to the aerial photos have been transferred and registered to the ortho images the polygons are registered to locations on the surface of the earth and terrain distortions have been eliminated.</procdesc>
+<srcused>scbl orthophoto</srcused>
+<procdate>Unknown</procdate>
+</procstep>
+<procstep>
+<procdesc>Classification of the vegetation communities was performed by ecologists based on the field data that were collected.  Compiled data are assembled into a single file and transformed mathematically to a common abundance scale. The element classification process is implemented using quantitative approaches of ordination, clustering, and correlation depending on the information available. Multivariate analysis programs are used to examine the floristic patterns and their relationships to measured environmental variables.  Despite their utility in synthesizing large data sets, many of the analytical programs identify vegetation patterns that are statistically but not ecologically meaningful. The quantitative analysis to determine vegetation patterns must be carried out under the guidance and review of experts who have a practical understanding of the ecological relationships in the field.</procdesc>
+<srcused>scbl field data</srcused>
+<procdate>1998</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>vector</direct>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>13</utmzone>
+<transmer>
+<sfctrmer>0.9996</sfctrmer>
+<longcm>-105</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>1</absres>
+<ordres>1</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+The National Vegetation Classification Standard is organized
+hierarchically to support conservation and resource stewardship
+applications across multiple scales. The upper levels of the hierarchy are
+based on the physical form or structure of the vegetation (physiognomy)
+and have been refined from the international standards developed by the
+United nations Educational, Scientific, and Cultural Organization
+(UNESCO). The two most detailed levels of the hierarchy are based on the
+species composition of existing vegetation (floristics) and reflect the
+phyto-sociological standards that were originally developed by European
+ecologists. The vegetation classification is continually advanced through
+the collection and analysis of new field data and will be greatly
+strengthened during the course of the USGS/NPS mapping efforts. Data file
+attributes include vegetation height, density, species, alliance, community
+element, and land cover.
+HEIGHT
+1=&lt; 0.5 meters
+2=0.5 - 2 meters
+3=2 - 5 meters
+4=5 - 15 meters
+5=15 - 35 meters
+6=35 - 50 meters
+7=&gt; 50 meters
+9=Not Applicable
+DENSITY
+1=Closed/Continuous  &lt; 60%
+2=Discontinuous  	40% - 60%
+3=Dispersed   	25% - 40%
+4=Sparse   	10% - 25%
+5=Rare     	2% - 10%
+9=Not Applicable
+Pattern
+1,'Evenly Dispersed'
+2,'Clumped/Bunched'
+3,'Gradational/Transitional'
+4,'Alternating'
+9,'Not Applicable'
+</eaover>
+<eadetcit>
+Grossman, D. Et al. 1994. National Park Service/ National Biological
+Service Vegetation Mapping Project, Standardized National Vegetation
+Classification System 209 pp.
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>USGS/BRD, Center for Biological Informatics</cntorg>
+</cntperp>
+<cntpos>Geospatial Technology Specialist</cntpos>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>USGS Biological Resources</address>
+<address>Center for Biological Informatics</address>
+<address>Denver Federal Center, Building 810</address>
+<address>Room 8000, MS302</address>
+<city>Denver</city>
+<state>CO</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<distliab>
+Although these data have been processed successfully on a computer system at
+the Biological Resources Division, no warranty expressed or implied is made
+regarding the accuracy or utility of the data on any other system or for
+general or scientific purposes, nor shall the act of distribution constitute
+any such warranty. This disclaimer applies both to individual use of the
+data and aggregate use with other data. It is strongly recommended that
+these data are directly acquired from a Biological Resources Division
+server, and not indirectly through other sources which may have changed the
+data in some way. It is also strongly recommended that careful attention be
+paid to the contents of the metadata file associated with these data. The
+Biological Resources Division shall not be held liable for improper or
+incorrect use of the data described and/or contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>GIF</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/scbl/images/scblveg.gif</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/scbl/scbl.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/scbl/scblsdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/scbl/scblbdy.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/scbl/scblbdysdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20011022</metd>
+<metrd>20050519</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19950725</begdate><enddate>19950725</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_scblveg.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21208.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Singer, F.J., L.C. Zeigenfuss, and R. Stottlemyer</origin>
+<pubdate>2004</pubdate>
+<title>Ungulate grazing systems compared between the greater Yellowstone Area and East Africa</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Yellowstone National Park, WY</pubplace>
+<publish>Yellowstone Center for Resources</publish>
+</pubinfo>
+<othercit>pages 304-318</othercit>
+<lworkcit>
+<citeinfo>
+<origin>A.W. Biel (ed.), ed.</origin>
+<pubdate>2004</pubdate>
+<title>Beyond the arch: community and conservation in Greater Yellowstone and East Africa. Proceedings of the 7th biennial scientific conference on the Greater Yellowstone Ecosystem, October 6-8, 2003, Mammoth Hot Springs Hotel</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Yellowstone National Park, WY</pubplace>
+<publish>Yellowstone Center for Resources</publish>
+</pubinfo>
+<othercit>pages 304-318</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Singer, F.J., L.C. Zeigenfuss, and R. Stottlemyer. 2004. Ungulate grazing systems compared between the greater Yellowstone Area and East Africa. In: A.W. Biel (ed.). Beyond the arch: community and conservation in Greater Yellowstone and East Africa. Proceedings of the 7th biennial scientific conference on the Greater Yellowstone Ecosystem, October 6-8, 2003, Mammoth Hot Springs Hotel. Yellowstone National Park, WY: Yellowstone Center for Resources. p. 304-318.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2004</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Serengeti</themekey>
+<themekey>Yellowstone</themekey>
+<themekey>grazing theory</themekey>
+<themekey>overcompensation</themekey>
+<themekey>herbivory responses</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Singer, F.J.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Singer, F.J</origin>
+<pubdate>1995</pubdate>
+<title>Effects of grazing by ungulates on upland bunchgrass communities of the northern winter range of Yellowstone National Park</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Northwest Science</sername>
+<issue>69(3):191-2</issue>
+</serinfo>
+<othercit>Vol. 69(3) pages 191-2</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Singer, F. J., and J.A. Mack</origin>
+<origin>Cook, R, ed.</origin>
+<pubdate>1993</pubdate>
+<title>Potential Ungulate Prey for Gray Wolves</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Washington, D.C.</pubplace>
+<publish>National Park Service</publish>
+</pubinfo>
+<othercit>pages 75-11</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Singer, F.J.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Ungulate grazing systems compared between the greater Yellowstone Area and East Africa.  FORT Library Archive Number: 2004/0068 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20040101</begdate><enddate>20041231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21208.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

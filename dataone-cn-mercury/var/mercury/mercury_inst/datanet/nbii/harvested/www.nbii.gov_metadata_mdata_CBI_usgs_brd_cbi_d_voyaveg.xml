@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_voyaveg.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center, 2630 Fanta Reed
+Road, La Crosse, Wisconsin 54603
+</origin>
+<pubdate>200102</pubdate>
+<title>
+Vegetation Spatial Database Coverage for the
+Voyageurs National Park Vegetation Mapping Project
+</title>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Voyageurs NP Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+The spatial database was prepared by the U.S.
+Geological Survey (USGS) Upper Midwest
+Environmental Sciences Center (UMESC) for the
+USGS-NPS Vegetation Mapping Program.  The Nature
+Conservancy (TNC) and their affiliates
+(Association for Biodiversity Information (ABI)
+and Minnesota County Biological Survey (MCBS) of
+the Minnesota Department of Natural Resources)
+provided ecological and vegetation classification
+support.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/voya/images/voyaveg.jpg</onlink>
+<onlink>http://biology.usgs.gov/npsveg/voya/images/vegmap_large.jpg</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voya.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voyasdts.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voyabdy.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voyabdysdts.exe</onlink>
+<lworkcit>
+<citeinfo>
+<origin>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center
+</origin>
+<pubdate>200102</pubdate>
+<title>
+Voyageurs National Park Vegetation Mapping
+Project, USGS-NPS Vegetation Mapping Program
+</title>
+<geoform>data information for Voyageurs National Park</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Voyageurs NP Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+The Voyageurs National Park Vegetation Mapping
+Project is part of the USGS-NPS Vegetation Mapping
+Program, which is managed by the USGS Center for
+Biological Informatics.  The USGS UMESC provided
+project coordination and compiled all project data
+for distribution.  The UMESC produced all spatial
+database sets: vegetation spatial database
+coverage, observation points, vegetation field
+plots, accuracy assessment, and various other
+ancillary spatial coverages.  The UMESC also
+performed the accuracy assessment analysis of the
+vegetation spatial database coverage, prepared
+final project documentation discussing methods and
+results, and provided metadata reports.  TNC and
+their affiliates (ABI and MCBS) provided
+ecological and vegetation support, vegetation
+field sampling (plot samples and accuracy
+assessment), data entry, vegetation analysis,
+methods documentation, and classification
+development (including community descriptions)
+based on the U.S. National Vegetation
+Classification (USNVC).  Voyageurs National Park
+provided staff to assist in field efforts, boat
+transportation, and knowledge of the local area.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/voya/</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+The vegetation spatial database coverage is of
+Voyageurs National Park and extended environs,
+covering 156,886 hectares (387,674 acres).
+Voyageurs National Park comprises 88,244 hectares
+(218,055 acres) of the total coverage area (56%).
+Almost 33,000 polygons make up the coverage, each
+with map unit description and physiognomic attribute
+information.  The database provides
+crosswalk information to all USNVC floristic and
+physiognomic levels and several other
+classification systems (ecological
+groups/subgroups, Minnesota communities, NW
+Ontario forest and wetland ecosystems, USGS land
+use/land cover).  A total of 50 USNVC associations
+make up the vegetation at Voyageurs National Park
+and environs.  With all vegetation types, land use
+classes, and park specific categories combined, a
+total of 67 map units define the ground features
+within the project area.  Applicable physiognomic
+modifiers define each vegetation map unit in more
+detail about the vegetation structure within a
+polygon (density, pattern, height, dominance).
+The spatial database was produced from the
+interpretation of fall 1995 and 1996
+1:15,840-scale color infrared (CIR) aerial
+photographs.  The interpreted data were
+transferred and automated using base maps produced
+from USGS digital orthophoto quadrangles (DOQ's)
+or using Ontario Basic Mapping Series (OBM)
+topographic maps.  About 92% of the spatial
+coverage is produced using the DOQ-based maps.
+The finished spatial database is a single seamless
+coverage.  The estimated overall thematic accuracy
+for vegetation map units is 82.4%.
+</abstract>
+<purpose>
+The vegetation spatial database coverage was
+produced for the Voyageurs National Park
+Vegetation Mapping Project, USGS-NPS Vegetation
+Mapping Program.
+</purpose>
+<supplinf>
+The coverage is also available as 2 separate
+database sets to reflect the different base map
+medium used during the automation process; the
+DOQ-based coverage (Voyageurs National Park, all
+the environs area within USA, and portions of the
+environs area within Canada) and OBM-based
+coverage (remaining portion of environs area
+within Canada).
+(previous geoform was 'database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>19950927</caldate>
+</sngdate>
+<sngdate>
+<caldate>19960913</caldate>
+</sngdate>
+<sngdate>
+<caldate>19960914</caldate>
+</sngdate>
+<sngdate>
+<caldate>19961003</caldate>
+</sngdate>
+</mdattim>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Voyageurs National Park and environs</descgeog>
+<bounding>
+<westbc>-93.25</westbc>
+<eastbc>-92.437</eastbc>
+<northbc>48.644</northbc>
+<southbc>48.281</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Digital Spatial Database</themekey>
+<themekey>Vegetation Map</themekey>
+<themekey>Vegetation</themekey>
+<themekey>US National Vegetation Classification</themekey>
+<themekey>USNVC</themekey>
+<themekey>National Park</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Voyageurs National Park</placekey>
+<placekey>Minnesota</placekey>
+<placekey>USA</placekey>
+<placekey>Ontario</placekey>
+<placekey>Canada</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>US National Vegetation Classification</taxonkey>
+<taxonkey>USNVC</taxonkey>
+<taxonkey>Vegetation</taxonkey>
+<taxonkey>Plant Community</taxonkey>
+<taxonkey>Association</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>
+Anderson, M., P. Bourgeron, M. T. Bryer, R.
+Crawford, L. Engelking, D. Faber-Langendoen, M.
+Gallyoun, K. Goodin, D. H. Grossman, S. Landaal,
+K. Metzler, K. D. Patterson, M. Pyne, M. Reid, L.
+Sneddon, and A. S. Weakley
+</origin>
+<pubdate>1998</pubdate>
+<title>
+International classification of ecological
+communities: terrestrial vegetation of the United
+States.  Volume II.  The National Vegetation
+Classification System: list of types
+</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Arlington, Virginia, USA</pubplace>
+<publish>The Nature Conservancy</publish>
+</pubinfo>
+<othercit>
+U.S. National Vegetation Classification listing of
+physiognomic and floristic levels.
+</othercit>
+<onlink>http://www.natureserve.org/</onlink>
+<onlink>http://www.conserveonline.org/2001/03/p/en/vol1.pdf</onlink>
+</citeinfo>
+</classcit>
+<classmod>
+All physiognomic and floristic levels are
+represented within the vegetation spatial database
+coverage.
+</classmod>
+</classsys>
+<taxonpro>
+Plot sizes ranged from 20 x 20 m for forests and woodlands
+to 10 x 10 m for shrublands, herbaceous, and nonvascular
+vegetation. Plots were placed subjectively in the most
+representative part of each stand of vegetation. The
+vegetation was visually divided into strata, and height
+and cover abundance of each stratum was estimated. Cover
+of dominant life forms was also estimated to match methods
+used by the Minnesota Natural Heritage Program survey
+methods (e.g. total cover of evergreen trees or shrubs was
+recorded separately from cover of deciduous trees or shrubs
+(Norm Aaseng, personal communication, 1996). All the
+species of each stratum were listed (including mosses and
+lichens) and percent cover estimated using the Braun-Blanquet
+cover scale. Additional species within the vegetation unit
+or polygon that occurred outside of sampled plots
+(generally within 2 m of the plot border) were listed
+separately. Species that were not identifiable in the field
+were collected for later identification. Vegetation plot
+data were entered into the Minnesota Natural Heritage
+Program's plot database. Species were assigned standardized
+codes and names based on the PLANTS database (USDA, NRCS
+1999). These data were transferred to the PLOTS database
+developed by the Nature Conservancy (TNC 1997) for final
+inclusion in this report. For the vegetation analysis, the
+data were analyzed using the PC-ORD Multivariate Analysis
+package (McCune and Mefford 1997). The data were analyzed
+in a series of runs, partitioning the data into smaller
+sets based on clusters found in the larger data sets, until
+sufficient resolution was achieved. Multivariate analysis
+was done using both Non-metric Multidimensional Scaling or
+NMS (Clarke 1993) and Cluster Analysis. A Bray-Curtis
+ordination was used as a starting point for the NMS and
+Ward's Method was used in the Cluster Analysis. These were
+then reviewed and assessed for perceived environmental
+gradients (e.g. moisture gradients, peat depth, soil depth,
+etc.). Indicator Species Analysis (Dufrene and Legendre 1997)
+was used to identify indicator species and to assess the
+reassignment of plots into different cluster analysis groups.
+These groups were compared with the USNVC (Faber-Langendoen
+et al. 1996, Grossman et al. 1998), as well as to
+northwestern Ontario types (Sims et al. 1989 and 1997,
+Harris et al. 1996). Care was taken not to over-emphasize local
+variations found at Voyageurs compared to more extensive
+information compiled at the state or regional level.
+Nevertheless, several types in the USNVC were revised
+based on these analyses. Plot summaries were
+produced for each type.
+</taxonpro>
+</taxonsys>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>
+Those using the database should understand the
+data and determine for themselves the fitness of
+the data prior to use.  For publication and
+dissemination, citations or credit should be given
+to the U.S. Geological Survey Center for
+Biological Informatics, the National Park Service,
+and the U.S. Geological Survey Upper Midwest
+Environmental Sciences Center.  The Nature
+Conservancy and their affiliates (Association for
+Biodiversity Information and Minnesota County
+Biological Survey of the Minnesota Department of
+Natural Resources) should be given credit for
+ecological support.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>U.S. Geological Survey, Center for Biological Informatics</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological
+Informatics, MS 302, Room 8000, Building 810,
+Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/voya/images/vegmap.jpg</browsen>
+<browsed>
+Graphic file showing vegetation distribution of
+Voyageurs NP and environs, by ecological
+subgroups.  Low resolution for web browser -
+816 x 528 pixel size, 311 KB file size.
+</browsed>
+<browset>JPG</browset>
+</browse>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/voya/images/vegmap_large.jpg</browsen>
+<browsed>
+Graphic file showing vegetation distribution of
+Voyageurs NP and environs, by ecological
+subgroups.  High resolution for presentation - 3263
+x 2111 pixel size, 3.6 MB file size.
+</browsed>
+<browset>JPG</browset>
+</browse>
+<datacred>USGS UMESC, TNC and their affiliates (ABI and MCBS)</datacred>
+<native>UNIX-ARC/INFO</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+Based on results of a thematic accuracy
+assessment, the estimated overall accuracy for the
+vegetation map units is 82.4%.
+</attraccr>
+</attracc>
+<logic>
+All polygon features were checked for topology and
+existence of label points using ArcInfo.  Each
+polygon begins and ends at the same point with the
+node feature.  All nodes were checked for error so
+that there are no dangling features.  There are no
+duplicate lines or polygons.  All nodes were
+snapped together and polygons closed based on a
+specified tolerance.  The tests for logical
+consistency were performed in ArcInfo.
+</logic>
+<complete>
+All data within the bounding coordinates are
+complete with polygons representing ground
+features at the time of aerial photographs.  Each
+polygon is represented with a single label in the
+form of a code that represents the map unit and
+appropriate physiognomic descriptors.  A .5
+hectare (1.2 acre) minimum mapping unit was
+applied to all map units, except for the small
+island categories which are mapped to .1 hectares
+(.25 acres).
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+The portion of the spatial database that was
+produced using the USGS 1:12,000-scale orthophoto
+base maps (hard copy maps plotted from 3.75-minute
+DOQ's) has a positional accuracy meeting U.S.
+National Map Accuracy Standards.  The portion of
+the spatial database that was produced using the
+OBM 1:20,000-scale topographic maps (10 meter
+contour interval) has a positional accuracy of 1
+meter for well-defined features.  With most
+features within the project area not being
+well-defined (e.g. large forested and wetland
+areas), positional accuracy is uncertain.
+</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>KBM, Inc.</origin>
+<pubdate>1995/1996</pubdate>
+<title>
+Voyageurs National Park - Fall 1995/1996 Color
+Infrared Aerial Photography
+</title>
+<geoform>aerial photography</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Voyageurs NP Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>1604 S. Washington St., Grand Forks, North Dakota</pubplace>
+<publish>KBM, Inc.</publish>
+</pubinfo>
+<othercit>
+A total of 782 color infrared aerial photographs
+(1:15,840-scale) were collected for the Voyageurs
+NP Vegetation Mapping Project, USGS-NPS Vegetation
+Mapping Program.  The photographs cover the entire
+Park and extended environs.  Digital flight line
+index coverages of the aerial photographs were
+produced by the U.S. Geological Survey Upper
+Midwest Environmental Sciences Center and are
+available on the project's CD-ROM.
+</othercit>
+</citeinfo>
+</srccite>
+<srcscale>15840</srcscale>
+<typesrc>aerial photographs</typesrc>
+<srctime>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>19950927</caldate>
+</sngdate>
+<sngdate>
+<caldate>19960913</caldate>
+</sngdate>
+<sngdate>
+<caldate>19960914</caldate>
+</sngdate>
+<sngdate>
+<caldate>19961003</caldate>
+</sngdate>
+</mdattim>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>VOYA 1995/1996 CIR Aerial Photographs</srccitea>
+<srccontr>None</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. Geological Survey</origin>
+<pubdate>1991-1992</pubdate>
+<title>3.75-minute Digital Orthophoto Quadrangles</title>
+<geoform>orthorectified aerial photographs</geoform>
+<othercit>
+Black &amp; white (gray-scale) orthorectified images
+derived from aerial photographs taken May 1991 and
+May 1992.  Projection is in Universal Transverse
+Mercator, Zone 15, and datum in North American
+Datum of 1983, Geodedic Reference System 80
+spheroid.
+</othercit>
+</citeinfo>
+</srccite>
+<srcscale>12000</srcscale>
+<typesrc>photographs</typesrc>
+<srctime>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>199105</caldate>
+</sngdate>
+<sngdate>
+<caldate>199205</caldate>
+</sngdate>
+</mdattim>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>USGS 3.75-minute DOQ</srccitea>
+<srccontr>None</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>
+Provincial Mapping Office, Ontario Ministry of
+Natural Resources
+</origin>
+<pubdate>1993</pubdate>
+<title>Ontario Basic Mapping Series</title>
+<geoform>topography paper map</geoform>
+<pubinfo>
+<pubplace>Toronto, Ontario, Canada</pubplace>
+<publish>Ontario Ministry of Natural Resources</publish>
+</pubinfo>
+<othercit>
+Used selected map tiles for portions within the
+project boundary that were not covered by USGS DOQ
+base maps.  Hard copy (paper) topographic maps are
+1:20,000-scale, Universal Transverse Mercator,
+Zone 15, North American Datum of 1927.  Air photo
+source 1983, map published 1993.  Map base by Land
+and Resource Information Branch.
+</othercit>
+</citeinfo>
+</srccite>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1993</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>the publication date</srccurr>
+</srctime>
+<srccitea>OBM</srccitea>
+<srccontr>None</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center
+</origin>
+<pubdate>200003</pubdate>
+<title>
+Map Units for the Voyageurs National Park
+Vegetation Mapping Project
+</title>
+<geoform>Map unit codes and name for Voyageurs National Park</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Voyageurs NP Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>La Crosse, Wisconsin</pubplace>
+<publish>U.S. Geological Survey, Upper Midwest Environmental Sciences Center</publish>
+</pubinfo>
+<othercit>
+Map unit codes and name descriptions developed
+specifically for the Voyageurs NP Vegetation
+Mapping Project.  Includes crosswalk to U.S.
+National Vegetation Classification floristic and
+physiognomic levels (names and codes), Ecological
+Groups (subgroups), Minnesota Natural Community
+Classification, NW Ontario Forest Ecosystem
+Classification and Wetland Ecosystem
+Classification systems, and U.S. Geological Survey
+Land Use/Land Cover classification system (level
+2).  Microsoft (R) Excel 97 Workbook files
+[voya_mapunit_crosswalk.xls] for full crosswalk,
+and [voya_mapunit.xls] for condensed crosswalk are
+available on the project's CD-ROM.
+</othercit>
+</citeinfo>
+</srccite>
+<typesrc>digital file</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>200003</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>final version</srccurr>
+</srctime>
+<srccitea>VOYA Map Units</srccitea>
+<srccontr>None</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>
+INTRODUCTION &amp; AERIAL PHOTOGRAPHY: The vegetation
+spatial database coverage is of Voyageurs National
+Park and extended environs, and covers 156,866
+hectares (387,674 acres).  Voyageurs National Park
+comprises 88,244 hectares (218,055 acres) of the
+total coverage area (56%).  A total of 782 CIR
+aerial photographs were collected for the project
+at a scale of 1:15,840.  The aerial photograph
+mission began late September 1995 with the
+collection of 111 photos, covering much of the
+northern one-third of the project area.  The photo
+mission was completed late September and early
+October 1996 with the collection of an additional
+671 aerial photographs.  A total of 510 aerial
+photographs were used for mapping.  The spatial
+database reflects conditions that existed at the
+time the photos were collected.
+</procdesc>
+<procdate>1995-1996</procdate>
+</procstep>
+<procstep>
+<procdesc>
+FIELD RECONNAISSANCE &amp; PHOTO INTERPRETATION: Prior
+to photo interpretation, field reconnaissance was
+performed throughout the 1996 field season by the
+photo interpretation team to learn, test, and
+verify photo signatures to establish a map
+classification.  Efforts were concentrated in the
+northern one-third of the project area for which a
+set of photographs had already been acquired.
+Ecologists intermittently assisted to assure
+correct field calls and to verify additional
+vegetation types as they were encountered.  By the
+end of the 1996 field season, mapping protocols
+were sufficiently stabilized to permit the aerial
+photo interpretation team to begin delineating
+polygons across the northern one-third of the
+project area.  During the 1997 field season, field
+reconnaissance activities continued, focusing on
+the southern two-thirds of the project area with
+an emphasis on photo signatures not readily
+observed the prior year.  Throughout this field
+process, map unit classes were developed, and a
+fuller understanding of their linkage to
+vegetation types was strengthened.  Photo
+interpretation was performed using the 1995/1996
+CIR film transparencies (1:15,840-scale).  The
+photographs were cut from rolls and covered with
+clear acetate overlays.  The overlays were
+registered to the photos.  Ground features were
+interpreted and delineated onto the photo overlays
+using a Bausch and Lomb Zoom 240 stereoscope over
+a light table.  Each photograph was viewed with
+its matching stereo pairs so images could be seen
+in 3-dimensions.  To minimize edge distortion,
+interpretation was focused towards the center of
+each photograph.  Texture, height, pattern, life
+form, and position in the landscape were all used
+in the decision process of delineating polygons
+and assigning map unit codes.  Appropriate
+physiognomic modifiers were added in conjunction
+with the map unit attribute.  An ancillary set of
+October 1988 CIR aerial photographs
+(1:12,000-scale) was used to assist in the
+interpretation process.  The 1988 photo set
+effectively captured fall colors in leaf canopies
+and revealed distinctions not apparent on the
+1995/1996 photo set.  A total of 509 aerial
+photographs were interpreted to produce the
+spatial coverage.
+</procdesc>
+<procdate>1996-1998</procdate>
+</procstep>
+<procstep>
+<procdesc>
+AUTOMATION &amp; SPATIAL COVERAGE: Bausch and Lomb
+zoom transfer scopes were used to transfer photo
+interpreted data to geo-referenced base maps.  The
+transfer process removed much of the aerial
+photograph's inherent distortion and also tied the
+interpreted data to real-world coordinates so it
+could be digitally automated.  A total of 51 USGS
+3.75-minute DOQ's were used to plot hard copy
+(film acetate) orthophoto base maps at a scale of
+1:12,000.  About 92% of the project area was
+produced with DOQ-based maps, covering the
+Voyageurs National Park, all the environs area
+within USA, and portions of the environs area
+within Canada.  For portions of Canada not covered
+by DOQ's, OBM topographic paper maps at a scale of
+1:20,000 were used.  The polygons were manually
+transferred to overlays that were registered to
+the base maps.  Map unit attributes and
+appropriate physiognomic modifier codes were added
+to a second overlay that was positioned over the
+polygon overlay.  The overlays were subsequently
+rechecked for accuracy.  Each overlay of
+transferred data was scanned using a large format
+sheet fed scanner at a resolution of 400 dots per
+inch.  The resulting Tagged Image File Format
+images were then converted to a grid using ArcInfo
+(Version 7.2.1 Patch 2).  For data produced with
+the DOQ base maps, the converted grid was
+projected to Universal Transverse Mercator (UTM),
+Zone 15, with datum in North American Datum of
+1983 (NAD83).  For data produced with the OBM base
+maps, the converted grid was projected to UTM,
+Zone 15, with datum in North American Datum of
+1927 (NAD27) and later converted to NAD83 once all
+OBM-based digital coverages were produced and
+joined.  Each individual grid was transformed to a
+geo-referenced boundary coverage to digitally
+reference the data to real-world coordinates.  In
+ArcTools, the ArcScan utility was used to trace
+the referenced polygon data producing an ArcInfo
+coverage.  Each intermediate coverage was edited
+for errors, assigned attributes to polygons,
+checked against the hand-transferred overlays for
+line and attribute errors, and finally joined to
+produce a seamless spatial database coverage of
+the vegetation map.  The look up table (LUT) was
+originally produced in spreadsheet format (dBASE
+IV), and then converted to an ArcInfo table using
+ArcInfo (Version 8.0.2).  The table was merged
+with the spatial coverage using MAP_CODE as the
+common attribute item.  The merged LUT contains
+numerous items which provides a set of information
+for each polygon.  For the list of LUT items,
+refer to the Entity and Attribute Information's
+Entity and Attribute Overview section within this
+a metadata report.  The finished coverage is
+single, seamless spatial database of the entire
+project area.  Because 2 procedures were used in
+the automation process (DOQ-based maps in NAD83,
+and OBM-based maps in NAD27 later converted to
+NAD83), the vegetation database was also preserved
+as 2 separate coverages.
+</procdesc>
+<procdate>1996-2000</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Kevin D. Hop</cntper>
+<cntorg>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center
+</cntorg>
+</cntperp>
+<cntpos>Project Team Leader - Biologist (Remote Sensing)</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center, 575 Lester Avenue
+</address>
+<city>Onalaska</city>
+<state>Wisconsin</state>
+<postal>54650</postal>
+</cntaddr>
+<cntaddr>
+<addrtype>organization address</addrtype>
+<address>2630 Fanta Reed Road</address>
+<city>La Crosse</city>
+<state>Wisconsin</state>
+<postal>54603</postal>
+</cntaddr>
+<cntvoice>(608) 783-7550 ext 46</cntvoice>
+<cntvoice>(608) 783-6451 (organization)</cntvoice>
+<cntfax>(608) 783-8058</cntfax>
+<cntfax>(608) 783-6066 (org)</cntfax>
+<cntemail>kevin_hop@usgs.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>
+Voyageurs National Park is located in northern
+Minnesota, with the northern extent of the Park
+bordering Ontario, Canada.  The northwest corner
+of the Park is 18 miles east of International
+Falls, Minnesota.  The southwest corner of the
+Park is adjacent the Boundary Waters Canoe Area,
+Superior National Forest.
+</indspref>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Label point</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>15</utmzone>
+<transmer>
+<sfctrmer>0.9996</sfctrmer>
+<longcm>-93</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>1</absres>
+<ordres>1</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodedic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>BSB</enttypl>
+<enttypd>Black Spruce Bog</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>LBC</enttypl>
+<enttypd>Black Spruce/Leatherleaf Semi-treed Bog</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>LB</enttypl>
+<enttypd>Leatherleaf Bog</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>BBX</enttypl>
+<enttypd>Beaver Basin Break-up Mosaic</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>BBSF</enttypl>
+<enttypd>Bog Birch-Willow Shore Fen</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>LSF</enttypl>
+<enttypd>Leatherleaf-Sweet Gale Shore Fen</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>TF</enttypl>
+<enttypd>Tamarack Scrub Poor Fen</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>SPF</enttypl>
+<enttypd>Northern Sedge Poor Fen</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>BJ</enttypl>
+<enttypd>Canada Bluejoint Eastern Meadow</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>SMX</enttypl>
+<enttypd>Wet Meadow/Fen Mosaic/Complex</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>PM</enttypl>
+<enttypd>Eastern Reed Marsh</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>BM</enttypl>
+<enttypd>Freshwater Bulrush Marsh</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>CM</enttypl>
+<enttypd>Midwest Cattail Deep Marsh</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WRM</enttypl>
+<enttypd>Wild Rice Marsh</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>DMX</enttypl>
+<enttypd>Deep Marsh Mosaic/Complex</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>PW</enttypl>
+<enttypd>Midwest Pondweed Submerged Aquatic Wetland</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WL</enttypl>
+<enttypd>Northern Water Lily Aquatic Wetland</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>BA</enttypl>
+<enttypd>Black Ash-Mixed Hardwood Swamp</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WCBA</enttypl>
+<enttypd>White Cedar-Black Ash Swamp</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>BSAS</enttypl>
+<enttypd>Black Spruce/Alder Rich Swamp</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>TA</enttypl>
+<enttypd>Northern Tamarack Rich Swamp</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WCS</enttypl>
+<enttypd>
+White Cedar-(Mixed Conifer)/Alder Swamp (rich soil
+phase)
+</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WCT</enttypl>
+<enttypd>
+White Cedar-(Mixed Conifer)/Alder Swamp (peatland
+phase)
+</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>BSL</enttypl>
+<enttypd>
+Black Spruce/Labrador Tea Poor Swamp (evergreen
+phase)
+</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>BST</enttypl>
+<enttypd>Black Spruce/Labrador Tea Poor Swamp (mixed phase)</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>DS</enttypl>
+<enttypd>Dogwood-Pussy Willow Swamp</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>AS</enttypl>
+<enttypd>Speckled Alder Swamp</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>JPW</enttypl>
+<enttypd>Boreal Pine Rocky Woodland (jack pine phase)</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>JPM</enttypl>
+<enttypd>Boreal Pine Rocky Woodland (mixed pine phase)</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>JPL</enttypl>
+<enttypd>Jack Pine/Lichen Rocky Barrens</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>ABW</enttypl>
+<enttypd>Mixed Aspen Rocky Woodland</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>OW</enttypl>
+<enttypd>
+Northern Pin Oak-Bur Oak-(Jack Pine) Rocky
+Woodland (deciduous phase)
+</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>JPOM</enttypl>
+<enttypd>
+Northern Pin Oak-Bur Oak-(Jack Pine) Rocky
+Woodland (jack pine-oak phase)
+</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>MPHW</enttypl>
+<enttypd>
+Northern Pin Oak-Bur Oak-(Jack Pine) Rocky
+Woodland (mixed pine-oak phase)
+</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>UBS</enttypl>
+<enttypd>Boreal Hazelnut-Serviceberry Rocky Shrubland</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>MGF</enttypl>
+<enttypd>Poverty Grass Granite Barrens</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WCU</enttypl>
+<enttypd>White Cedar-Boreal Conifer Mesic Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WCA</enttypl>
+<enttypd>White Cedar-Yellow Birch Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>JPAX</enttypl>
+<enttypd>Jack Pine-Aspen Forest Mosaic</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>JPF</enttypl>
+<enttypd>Jack Pine/Balsam Fir Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WRPA</enttypl>
+<enttypd>White Pine-Red Pine-Quaking Aspen-Birch Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>RP</enttypl>
+<enttypd>Red Pine/Blueberry Dry Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WP</enttypl>
+<enttypd>White Pine/Mountain Maple Mesic Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>SFA</enttypl>
+<enttypd>Spruce-Fir-Aspen Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>BSF</enttypl>
+<enttypd>Black Spruce/Feathermoss Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>SF</enttypl>
+<enttypd>Spruce-Fir/Mountain Maple Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>AB</enttypl>
+<enttypd>Quaking Aspen-Paper Birch Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>PB</enttypl>
+<enttypd>Paper Birch/Fir Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>AL</enttypl>
+<enttypd>Trembling Aspen-Balsam Poplar Lowland Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>BO</enttypl>
+<enttypd>Northern Bur Oak Mesic Forest</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>EP</enttypl>
+<enttypd>Evergreen Plantation</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>PGCH</enttypl>
+<enttypd>Perennial Grass Crops (hay, pastureland)</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>PGCS</enttypl>
+<enttypd>
+Perennial Grass Crops with Sparse Shrubs (hay,
+pastureland)
+</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>ACP</enttypl>
+<enttypd>Cropland and Pasture</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>ARB</enttypl>
+<enttypd>Other Agricultural Land</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>BLQ</enttypl>
+<enttypd>Strip Mines, Quarries, and Gravel Pits</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>UC</enttypl>
+<enttypd>Commercial and Services</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>UR</enttypl>
+<enttypd>Residential</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>UT</enttypl>
+<enttypd>Transportation, Communications, and Utilities</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WLK</enttypl>
+<enttypd>Lakes (&gt;16 h)</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WS</enttypl>
+<enttypd>Streams and Canals</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>SIG</enttypl>
+<enttypd>Small Island with Grass (0.1 - 0.5 h)</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>SIR</enttypl>
+<enttypd>Small Island with Rock (0.1 - 0.5 h)</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>SIS</enttypl>
+<enttypd>Small Island with Shrubs (0.1 - 0.5 h)</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>SIT</enttypl>
+<enttypd>Small Island with Trees (0.1 - 0.5 h)</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WBP</enttypl>
+<enttypd>Water-Beaver Pond (&lt;10% vegetated)</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>WNP</enttypl>
+<enttypd>Water-Natural Pond (&lt;16 ha, &lt;10% vegetated)</enttypd>
+<enttypds>Map Unit</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>1</enttypl>
+<enttypd>Closed Canopy/Continuous (60-100% cover)</enttypd>
+<enttypds>Coverage Density</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>2</enttypl>
+<enttypd>Open Canopy/Discontinuous (25-60% cover)</enttypd>
+<enttypds>Coverage Density</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>3</enttypl>
+<enttypd>Dispersed-Sparse Canopy (10-25% cover)</enttypd>
+<enttypds>Coverage Density</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>A</enttypl>
+<enttypd>Evenly Dispersed</enttypd>
+<enttypds>Coverage Pattern</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>B</enttypl>
+<enttypd>Clumped/Bunched</enttypd>
+<enttypds>Coverage Pattern</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>C</enttypl>
+<enttypd>Gradational/Transitional</enttypd>
+<enttypds>Coverage Pattern</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>D</enttypl>
+<enttypd>Regularly Alternating</enttypd>
+<enttypds>Coverage Pattern</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>1</enttypl>
+<enttypd>30-50 meters (98-162 feet)</enttypd>
+<enttypds>Height</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>2</enttypl>
+<enttypd>20-30 meters (65-98 feet)</enttypd>
+<enttypds>Height</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>3</enttypl>
+<enttypd>12-20 meters (40-65 feet)</enttypd>
+<enttypds>Height</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>4</enttypl>
+<enttypd>5-12 meters (16-40 feet)</enttypd>
+<enttypds>Height</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>5</enttypl>
+<enttypd>0.5-5 meters (1.5-16 feet)</enttypd>
+<enttypds>Height</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>6</enttypl>
+<enttypd>&lt;0.5 meters (&lt;1.5 feet)</enttypd>
+<enttypds>Height</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>D</enttypl>
+<enttypd>
+Deciduous 60-75% dominance of existing tree
+coverage, evergreen 25-40%
+</enttypd>
+<enttypds>Dominance/Co-dominance</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>E</enttypl>
+<enttypd>
+Evergreen 60-75% dominance of existing tree
+coverage, deciduous 25-40%
+</enttypd>
+<enttypds>Dominance/Co-dominance</enttypds>
+</enttyp>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>M</enttypl>
+<enttypd>
+Deciduous/Evergreen 40-60% co-dominance of
+existing tree coverage
+</enttypd>
+<enttypds>Dominance/Co-dominance</enttypds>
+</enttyp>
+</detailed>
+<overview>
+<eaover>
+Items within the spatial database LUT in addition
+to the ArcInfo default items (e.g. area,
+perimeter) include: 1) CODE_MOD - Map Unit Code
+with all applicable physiognomic feature
+modifiers, 2) MAP_CODE - Map Unit Code, 3)
+MAP_DESC - Map Unit Description Name, 4) DENS_MOD
+- Coverage Density Modifier (applies to all
+vegetation map units), 5) PTRN_MOD - Coverage
+Pattern Modifier (applies to all vegetation map
+units), 6) HT_MOD - Height Modifier (applies to
+woody terrestrial vegetation map units), 7)
+DOM_MOD - Dominance/Co-dominance Modifier (applies
+to mixed conifer/deciduous woody terrestrial
+vegetation map units), 8) ASSN_NAME - Project
+Global Community Name (USNVC Association), 9)
+ASSN_CNAME - Project Global Common Community Name
+(synonym name of USNVC Association), 10) ASSN_CEGL
+- Community Element Global Code (Elcode link to
+USNVC Association), 11) ALL_NAME - USNVC Alliance
+Name, 12) ALL_CNAME - USNVC Common Alliance Name,
+13) ALL_KEY - Alliance Key (code representing
+USNVC Alliance), 14) NVCS_CODE - USNVC Code (to
+Formation level), 15) CLASS - USNVC Formation
+Class (Class name &amp; code), 16) SUBCLASS - USNVC
+Formation Subclass (Subclass name &amp; code), 17)
+GROUP - USNVC Formation Group (Group name &amp; code),
+18) SUBGROUP - USNVC Formation Subgroup (Subgroup
+name &amp; code), 19) FORMATION - USNVC Formation
+(Formation name &amp; code), 20) ECO_GROUP -
+Ecological Group (groups of vegetation types
+sharing ecological processes), 21) ECO_SUBGRP -
+Ecological Subgroup (subgroups of vegetation types
+sharing ecological processes), 22) MNCC -
+Minnesota Natural Community Classification, 23)
+NWON_FEC - NW Ontario Forest Ecosystem
+Classification, 24) NWON_WET - NW Ontario Wetland
+Ecosystem Classification 25) LUC_II - USGS Land
+Use and Land Cover Classification System (level
+2), 26) COMMENT1 - General description about the
+map unit, and 27) COMMENT2 - General comment of
+how the map unit relates to other map units.
+</eaover>
+<eadetcit>
+Map Unit Codes and Map Unit Description Names
+(CODE_MOD, MAP_CODE, &amp; MAP_DESC): Map Units for
+the Voyageurs National Park Vegetation Mapping
+Project.  March 2000.  U.S. Geological Survey
+Upper Midwest Environmental Sciences Center, La
+Crosse, Wisconsin.
+</eadetcit>
+<eadetcit>
+Physiognomic Modifiers - Coverage Density,
+Coverage Pattern, Height, and
+Dominance/Co-dominance (DENS_MOD, PTRN_MOD,
+HT_MOD, &amp; DOM_MOD): Physiognomic modifiers added
+to map units (when applicable) to describe
+structural features.  Original source for Coverage
+Density, Coverage Pattern, and Height is cited to
+Aerial Information Systems, Inc.  1995.  Standard
+Interpretive Conventions (Viewgraph 3).  Redlands,
+California.  Height categories were modified to
+accommodate park specific needs.
+Dominance/Co-dominance is project derived.
+</eadetcit>
+<eadetcit>
+Project Global Community Names, Project Global
+Common Community Names, Community Element Global
+Codes, Alliance Name, Common Alliance Name,
+Alliance Key, USNVC Code, USNVC Physiognomic
+Formation levels Class, Subclass, Group, Subgroup,
+and Formation (ASSN_NAME, ASSN_CNAME, ASSN_CEGL,
+ALL_NAME, ALL_CNAME, ALL_KEY, NVCS_CODE, CLASS,
+SUBCLASS, GROUP, SUBGROUP, &amp; FORMATION): Anderson,
+M., P. Bourgeron, M. T. Bryer, R. Crawford, L.
+Engelking, D. Faber-Langendoen, M. Gallyoun, K.
+Goodin, D. H. Grossman, S. Landaal, K. Metzler, K.
+D. Patterson, M. Pyne, M. Reid, L. Sneddon, and A.
+S. Weakley.  1998.  International classification
+of ecological communities: terrestrial vegetation
+of the United States.  Volume II.  The National
+Vegetation Classification System: list of types.
+The Nature Conservancy, Arlington, Virginia, USA.
+</eadetcit>
+<eadetcit>
+Ecological Groups and Ecological Subgroups
+(ECO_GROUP &amp; ECO_SUBGRP): Faber-Langendoen, D.
+(editor).  2000 (in press).  International
+classification of ecological communities:
+terrestrial vegetation of the Midwestern United
+States.  The Nature Conservancy, Midwest
+Conservation Science Department, Minneapolis, MN.
+</eadetcit>
+<eadetcit>
+Minnesota Natural Community Classification (MNCC):
+Minnesota Department of Natural Resources, Natural
+Heritage Program.  1993.  Minnesota's Native
+Vegetation: A Key to Natural Communities (version
+1.5).
+</eadetcit>
+<eadetcit>
+NW Ontario Forest Ecosystem Classification
+(NWON_FEC): Sims, R.A., W.D. Towill, K.A. Baldwin,
+P. Uhlig and G.M. Wickware. 1997. Field guide to
+the forest ecosystem classification for
+northwestern Ontario. Ont. Min. Natur. Resour.,
+Northwest Sci. &amp; Technol. Thunder Bay, Ont. Field
+Guide FG-03. 176 pp.
+</eadetcit>
+<eadetcit>
+NW Ontario Wetland Ecosystem Classification
+(NWON_WET): Harris, A.G., S.C. McMurray, P.W.C.
+Uhlig, J.K. Jeglum, R.F. Foster and G.D. Racey.
+1996. Field guide to the wetland ecosystem
+classification for northwestern Ontario. Ont. Min.
+Nat. Resour., Northwest Sci. &amp; Technol. Thunder
+Bay, Ont. Field Guide FG-01. 74 pp. + Append.
+</eadetcit>
+<eadetcit>
+USGS Land Use and Land Cover Classification
+(LUC_II): Anderson, J. R., E. Hardy, J. Roach, and
+R. Witter.  1976.  A Land Use and Land Cover
+Classification System for Use with Remote Sensor
+Data.  Geological Survey Professional paper 964.
+U.S. Government Printing Office, Washington.
+Note: Crosswalk to level 2 for all map units.
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>U.S. Geological Survey, Center for Biological Informatics</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological
+Informatics, MS 302, Room 8000, Building 810,
+Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>
+Vegetation Spatial Database Coverage for the
+Voyageurs National Park Vegetation Mapping Project
+</resdesc>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the U.S.
+Geological Survey, no warranty expressed or
+implied is made regarding the accuracy or utility
+of the data on any other system or for general or
+scientific purposes, nor shall the act of
+distribution constitute any such warranty.  This
+disclaimer applies both to individual use of the
+data and aggregate use with other data.  It is
+strongly recommended that these data are directly
+acquired from a U.S. Geological Survey server, and
+not indirectly through other sources which may
+have changed the data in some way.  It is also
+strongly recommended that careful attention be
+paid to the contents of the metadata file
+associated with these data.  The U.S. Geological
+Survey shall not be held liable for improper or
+incorrect use of the data described and/or
+contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>JPG</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/voya/images/voyaveg.jpg</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>JPG</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/voya/images/vegmap_large.jpg</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voya.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voyasdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voyabdy.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voyabdysdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>200102</metd>
+<metrd>20050520</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19950927</begdate><enddate>19961003</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_voyaveg.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

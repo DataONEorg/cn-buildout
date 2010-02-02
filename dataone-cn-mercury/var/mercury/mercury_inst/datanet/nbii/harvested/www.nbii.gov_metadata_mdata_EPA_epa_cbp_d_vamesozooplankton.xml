@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/EPA/epa_cbp_d_vamesozooplankton.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Dan Dauer, Kenneth Carpenter, Harold Marshall</origin>
+<origin>Old Dominion University</origin>
+<pubdate>1999</pubdate>
+<title>
+Virginia Chesapeake Bay Monitoring Program: Lower
+Chesapeake Bay Mesozooplankton Study (July 1985
+through December 1999)
+</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Annapolis, Maryland</pubplace>
+<publish>
+U.S. Environmental Protection Agency and Virginia
+Department of Environmental Quality program
+administered by Virginia Department of
+Environmental Quality
+</publish>
+</pubinfo>
+<lworkcit>
+<citeinfo>
+<origin>Jacqueline Johnson</origin>
+<pubdate>19981321</pubdate>
+<title>Chesapeake Bay Program Plankton Database</title>
+<edition>Version 2.0</edition>
+<geoform>database</geoform>
+<pubinfo>
+<pubplace>Annapolis, MD</pubplace>
+<publish>US EPA Chesapeake Bay Program</publish>
+</pubinfo>
+<onlink>www.chesapeakebay.net</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+The Commonwealth of Virginia, in cooperation with
+the US EPA Chesapeake Bay Program, has monitored
+plankton species abundance and composition in the
+Virginia Chesapeake Bay mainstem and tributaries
+since 1985.  The current program is designed to
+give comprehensive spatial and temporal
+information on plankton. Sampling is performed in
+conjunction with the Virginia phytoplankton and
+water quality monitoring programs.
+</abstract>
+<purpose>
+The initial objectives of this data set were to
+characterize the composition and abundance, and
+the spatial and temporal patterns of the
+mesozooplankton populations in the lower
+Chesapeake Bay and several major tributaries, and
+to examine relationships between water quality
+conditions and observed zooplankton composition
+and abundance.  A major goal is the establishment
+of a long term data base that is being used to
+identify trends in zooplankton spatio-temporal
+patterns of development over time and in relation
+to changes in Bay water quality conditions and
+other plankton components (Birdsong, 1992; Mateja
+et al., 1995).
+</purpose>
+<supplinf>
+Information for this metadata was adapted from the
+Environmental Protection Agency Chesapeake Bay
+Program data page web site -
+www.chesapeakebay.net/data/index.htm.
+If above web sites change go to www.chesapeakebay.net.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19850708</begdate>
+<enddate>19991216</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>In work</progress>
+<update>Annually</update>
+</status>
+<spdom>
+<descgeog>
+Chesapeake Bay and its Tidal Tributaries in the
+Commonwealth of Virginia
+</descgeog>
+<bounding>
+<westbc>-77.233</westbc>
+<eastbc>-76.0106</eastbc>
+<northbc>38.019</northbc>
+<southbc>36.7697</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+
+</theme><theme>
+<themekt>None</themekt>
+
+<themekey>water quality monitoring</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Virginia</placekey>
+<placekey>VA</placekey>
+<placekey>Chesapeake Bay</placekey>
+<placekey>USA</placekey>
+</place>
+</keywords>
+<taxonomy>
+
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>mesozooplankton</taxonkey>
+</keywtax>
+
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Interstate Commission on Potomac River Basin</cntorg>
+<cntper>Jacqueline Johnson</cntper>
+</cntorgp>
+<cntpos>
+Chesapeake Bay Program Living Resources Data
+Manager
+</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>410 Severn Avenue, Suite 109</address>
+<city>Annapolis</city>
+<state>Maryland</state>
+<postal>21403</postal>
+</cntaddr>
+<cntvoice>1-800-968-7229</cntvoice>
+<cntvoice>410-267-5729</cntvoice>
+<cntfax>410-267-5777</cntfax>
+<cntemail>jjohnson@chesapeakebay.net</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. Monday Through Friday</hours>
+<cntinst>unavailable</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+The zooplankton field chief was the custodian for
+all samples collected, verified proper labeling of
+bottles, complete field data entries, the
+collection of the samples, preservative used and
+transport to the laboratory.  They also supervise
+the calibration and availability of field
+equipment. Samples are turned over to the
+laboratory chief who oversees the sample
+processing, analysis and recording of the raw
+data.  Taxon identifications, raw data sheets and
+other stages of the collection and analysis
+procedures are routinely checked by the principal
+investigator and laboratory chief for quality
+assurance.
+</attraccr>
+</attracc>
+<logic>not applicable</logic>
+<complete>
+Sampling of tributary stations did not begin until
+January 1986. Sampling in the Elizabeth river did
+not begin until January of 1989. Beginning in 1997
+a second sampling cruise was added for station in
+tidal fresh area (TF3.3, TF4.2, TF5.5) to better
+measure food availability in andaromous fish
+spawning areas. In 1998 sampling at Elizabeth
+River station SBE2 was discontinued. Collection of
+Biomass data at all stations was also dicontinued.
+</complete>
+<lineage>
+<method>
+
+</method><method>
+<methtype>Lab</methtype>
+
+<methodid>
+<methkt>None</methkt>
+<methkey>
+Chesapeake Bay Program Analytical Method
+Code-MZ102
+</methkey>
+</methodid>
+<methdesc>
+From January 1985-February 1998, processing and
+analysis of samples is conducted by the
+coefficient of variation stabilizing method (Alden
+et al. 1982).  Size fractionation of each sample
+produces 5 size classes (200, 300,600, 850, 2000
+microns).  Size classes in which the organisms are
+too numerous to count in their entirety are split
+with a folsom plankton splitter until an
+appropriate sample size is reached for
+statistically valid counts of the dominant
+species.  The chosen error level of 35% requires
+that each species of interest be counted to
+achieve a range of between 20 and 42 individuals
+in any given split.  Species observed to be
+subdominant in the final split are counted until
+they have achieved the range for the 35% error
+level.  Taxon abundance is recorded as numbers per
+unit volume.
+</methdesc>
+
+</method><method>
+<methtype>Lab</methtype>
+
+<methodid>
+<methkt>None</methkt>
+<methkey>
+Chesapeake Bay Program Analytical Method
+Code-MZ102B
+</methkey>
+</methodid>
+<methdesc>
+From March 1998 to present, processing and
+analysis of samples is  conducted by  a
+modification of the coefficient of variation
+stabilizing method (Alden et al. 1982).  Size
+fractionation of each sample produces 5 size
+classes ( 75, 200, 300, 600, 850, 2000 microns).
+Size classes in which the organisms are too
+numerous to count in their entirety are split with
+a folsom plankton splitter until an appropriate
+sample size is reached for statistically valid
+counts of the dominant species.  The chosen error
+level of 35% requires that each species of
+interest be counted to achieve a range of between
+20 and 42 individuals in any given split.  Species
+observed to be subdominant in the final split are
+counted until they have achieved the range for the
+35% error level.  Taxon abundance is recorded as
+numbers per unit volume.
+</methdesc>
+<methodid>
+<methkt>None</methkt>
+<methkey>Cheapeake Bay Program Analytical Method Code-BM102</methkey>
+</methodid>
+<methdesc>
+The ash-free dry weights are determined following
+the normal biomass drying and weighing procedures.
+Following the initial weighing, the dried samples
+are directly placed into the muffle furnace for
+incineration.  The samples are incinerated in the
+furnace at a temperature of 550 degrees C for 4
+hours. The samples are allowed to cool to room
+temperature and then transferred to a dessicator
+for storage until weighing.  Drying, cooling and
+weighing are repeated until the succesive weights
+vary by less than 5% over a one-day interval.
+Exposure from the dessicator never exceeds 5
+minutes.
+</methdesc>
+
+</method><method>
+<methtype>Lab</methtype>
+
+<methodid>
+<methkt>None</methkt>
+<methkey>
+Chesapeake Bay Program Analytical Method
+Code-JF103
+</methkey>
+</methodid>
+<methdesc>
+Beroe (BEROE, BEROEVOL),
+Hydrozoans(HYDRO,HYDROVOL),  Mnemiopsis(MNEMIOP,
+MNEMVOL), and true Jellyfish ((JELLY, JELLYVOL)
+were removed from samples and sorted in the field
+after sample preservation, their numbers and
+settled volumes were recorded from the net that
+was used as the count sample.
+</methdesc>
+</method>
+<procstep>
+<procdesc>
+The following formula is used to calculate
+distance traveled by the bongo net during a tow.
+DISTANCE=(STOP-START)*BLADE CONSTANT  Where STOP
+is the number of revolutions recorded on the bongo
+net flow meter at the end of the tow, START is the
+number of revolutions on the meter at the
+beginning of the tow, DISTANCE is the distance
+traveled by the bongo net during the tow. The
+blade constant is equal to 26873/999999.  The
+sample volume is calculated using the following
+equation:  SAMPLE VOLUME= DISTANCE*AREA where AREA
+= 0.18776 square meters.
+</procdesc>
+<procdate>unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>Based on local reference names.</indspref>
+</spdoinfo>
+<eainfo>
+<overview>
+<eaover>
+Mesozooplankton in Virginia Chesapeake Bay
+(Entity); Numbers and Species Identification
+(Attributes)
+</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Interstate Commission on Potomac River Basin</cntorg>
+<cntper>Jacqueline Johnson</cntper>
+</cntorgp>
+<cntpos>
+Chesapeake Bay Program Living Resources Data
+Manager
+</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>410 Severn Avenue, Suite 109</address>
+<city>Annapolis</city>
+<state>Maryland</state>
+<postal>21403</postal>
+</cntaddr>
+<cntvoice>1-800-968-7229</cntvoice>
+<cntvoice>410-267-5729</cntvoice>
+<cntfax>410-267-5777</cntfax>
+<cntemail>jjohnson@chesapeakebay.net</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. Monday Through Friday</hours>
+<cntinst>unavailable</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>
+VAMZTXyy.TXT  ; VAMZBMyy.TXT;  VAMZJFyy.TXT ,
+VAMZEVyy.TXT, VAMZKYyy.TXT
+</resdesc>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the
+Chesapeake Bay Program, no warranty expressed or
+implied is made regarding the accuracy or utility
+of the data on any other system or for general or
+scientific purposes, nor shall the act of
+distribution constitute any such warranty. This
+disclaimer applies both to individual use of the
+data and aggregate use with other data. It is
+strongly recommended that careful attention be
+paid to the contents of the metadata file
+associated with these data. The Chesapeake Bay
+Program shall not be held liable for improper or
+incorrect use of the data described and/or
+contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ASCII</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.chesapeakebay.net/data/index.htm</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<custom>
+All data files are available in comma delimited
+ascii wide header line.  All files from World Wide
+Web will have the extension *.asc instead *.TXT.
+</custom>
+</distinfo>
+<metainfo>
+<metd>199903</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Raytheon ITSS</cntorg>
+<cntper>Cheryl Solomon</cntper>
+</cntorgp>
+<cntpos>Ecosystem Coordinator</cntpos>
+<cntaddr>
+<addrtype>Mailing and Physical Address</addrtype>
+<address>4500 Forbes Avenue</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301-794-3049</cntvoice>
+<cntfax>301-794-3164</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>
+NBII Content Standard for National Biological
+Information Infrastructure Metadata
+</metstdn>
+<metstdv>December 1995</metstdv>
+<metac>None</metac>
+<metuc>None</metuc>
+</metainfo>
+<mercury><begdate>19850708</begdate><enddate>19991216</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_EPA_epa_cbp_d_vamesozooplankton.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

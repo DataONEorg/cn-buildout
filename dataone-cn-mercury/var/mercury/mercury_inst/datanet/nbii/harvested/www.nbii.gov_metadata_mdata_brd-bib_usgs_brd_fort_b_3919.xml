@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_3919.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Atkinson, C.T., R.J. Dusek, K.L. Woods, and W.M. Iko</origin>
+<pubdate>2000</pubdate>
+<title>Pathogenicity of avian malaria in experimentally-infected Hawaii Amakihi</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>Journal of Wildlife Diseases (ISSN 0090-3558)</sername>
+<issue>36(2):197-204</issue>
+</serinfo>
+<othercit>Vol. 36(2) pages 197-204</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Atkinson, C.T., R.J. Dusek, K.L. Woods, and W.M. Iko. 2000. Pathogenicity of avian malaria in experimentally-infected Hawaii Amakihi. Journal of Wildlife Diseases 36(2): 197-204.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2000</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Hawaii</descgeog>
+<bounding>
+<westbc>-160.35</westbc>
+<eastbc>-154.65</eastbc>
+<northbc>22.6</northbc>
+<southbc>18.8</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>honeycreeper</themekey>
+<themekey>pathology</themekey>
+<themekey>experimental infection</themekey>
+<themekey>Plasmodium relictum</themekey>
+<themekey>Drepanidinae</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Hawaii</placekey>
+<placekey>HI</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>Hemignathus virens</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Aves</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Passeriformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Fringillidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Hemignathus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>virens</taxonrv>
+<common>Hawaii amakihi</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Iko, W.M.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Atkinson, C.T., K.L. Woods, R.J. Dusek, L. Sileo, and W.M. Iko</origin>
+<pubdate>1995</pubdate>
+<title>Wildlife disease and conservation in Hawaii: Pathogenicity of avian malaria (Plasmodium relictum) in experimentally infected Iiwi (Vestiaria coccinea)</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Parasitology</sername>
+<issue>111:S59-S69</issue>
+</serinfo>
+<othercit>Vol. 111 pages S59-S69</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Iko, W.M.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Pathogenicity of avian malaria in experimentally-infected Hawaii Amakihi.  FORT Library Archive Number: 2000/0002 MESC</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20000101</begdate><enddate>20001231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_3919.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

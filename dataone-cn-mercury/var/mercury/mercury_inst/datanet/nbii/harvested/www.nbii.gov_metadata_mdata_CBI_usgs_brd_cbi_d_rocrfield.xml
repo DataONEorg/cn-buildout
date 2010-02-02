@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_rocrfield.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>USGS, Biological Resources Division, Center for Biological Informatics</origin>
+<pubdate>19961029</pubdate>
+<title>Rock Creek Park Field Plots Data Base for Vegetation Mapping</title>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Rock Creek Park</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resources Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>Created under contract to the USGS-BRD-CBI by The Nature Conservancy.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/rocr/fielddata.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+The National Park Service (NPS), in conjunction
+with the Biological Resources Division (BRD) of
+the U.S. Geological Survey (USGS), has implemented
+a program to "develop a uniform hierarchical
+vegetation methodology" at a national level.  The
+program will also create a geographic information
+system (GIS) database for the parks under its
+management.  The purpose of the data is to
+document the state of vegetation within the NPS
+service area during the 1990's, thereby providing
+a baseline study for further analysis at the
+Regional or Service-wide level.  Aerial
+Information Systems (AIS) was subcontracted by
+Environmental Systems Research Institute (ESRI),
+the prime contractor, to perform the
+photointerpretation for the program.  ESRI
+subcontracted The Nature Conservancy (TNC) to
+conduct the field sampling effort and to support
+the development of the National Standard
+Classification.
+</abstract>
+<purpose>
+Several parks, representing different regions,
+environmental conditions, and vegetation types,
+were chosen by BRD to be part of the prototype
+phase of the program.  The initial goal of the
+prototype phase is to "develop, test, refine, and
+finalize the standards and protocols" to be used
+during the production phase of the project.  This
+includes the development of a standardized
+vegetation classification system for each park and
+the establishment of photointerpretation, field,
+and accuracy assessment procedures.  Rock Creek
+Park, established in 1890, was designated as one
+of the prototype parks.  The park is located on
+the fall line between the Atlantic coastal plain
+and the piedmont.  The main portion of the park is
+bounded on the north by the Maryland State line
+and on the south by the Virginia State line.  Its
+western edge follows along Oregon Avenue, and it
+is bounded on the east by 16th Street NW.  The
+western outlying portions of the Park extend to
+and slightly beyond Nebraska Avenue NW.  The
+eastern outlying portions extend from 16th Street
+NW to the junction of US Highway 1 and the
+Maryland border.  The park is noted for having
+exceptional resources, including six natural
+resources that maintain its significance within
+the National Park System.  Included in these six
+natural resources, are three that are directly
+related to the vegetation of the park.  They are:
+1) Deciduous forests, 2) Wetlands, and 3) Plant
+species protected in both Virginia and Maryland.
+Based on these and other resources, Rock Creek
+Park is divided up into nine management zones
+pertaining to vegetation, automobile access,
+recreation, administration, and cultural
+resources.
+</purpose>
+<supplinf>
+Rock Creek is one of the largest forested urban
+parks in the United States, with more the &amp;frac34; of the
+park's approximately 2,760 acres covered by mature
+deciduous forest. A significant portion of this
+forest is second growth, with a moderately high
+diversity in canopy and understory species.  Rock
+Creek Park is made up of steep canyons and side
+slopes that bisect several significant east-west
+trending ridgelines.  The park descends along the
+fall line through numerous small rapids along the
+creek.  Rock Creek itself, descends over 150' from
+the state line to its confluence with the Potomac
+River.  Flood plain development is fairly
+restrictive, limited primarily to Rock Creek
+itself.  Broad Branch, the main tributary to Rock
+Creek within the park, flows southeasterly and
+joins Rock Creek towards the southern portion of
+the park. At the confluence, the park boundary
+significantly narrows in its east-west extent.
+All sections are accessible either by automobile
+or by hiking.  Most portions of the park are
+accessible through short hikes, usually under one
+mile.  Gradients above the floodplain are
+surprisingly steep, and make for some moderate
+hiking.  For purposes of vegetation mapping, the
+park was divided into four sections pertaining
+primarily to its location on the fall line between
+the coastal plain and piedmont.  The park was
+further divided into the main portion of the park
+(containing Rock Creek), and the various outliner
+portions of the park to the east and west.
+(previous geoform was 'database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>19961029</caldate>
+</sngdate>
+</timeinfo>
+<current>Source_Photography_Date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None Planned</update>
+</status>
+<spdom>
+<descgeog>
+The park is located on the fall line between the
+Atlantic coastal plain and the piedmont.  The main
+portion of the park is bounded on the north by the
+Maryland State line and on the south by the
+Virginia State line.  Its western edge follows
+along Oregon Avenue, and it is bounded on the east
+by 16th Street NW.  The western outlying portions
+of the Park extend to and slightly beyond Nebraska
+Avenue NW.  The eastern outlying portions extend
+from 16th Street NW to the junction of US Highway
+1 and the Maryland border.
+</descgeog>
+<bounding>
+<westbc>77.1</westbc>
+<eastbc>77</eastbc>
+<northbc>38.98333</northbc>
+<southbc>38.9</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>National Park Service</themekey>
+<themekey>U.S. Geological Service</themekey>
+<themekey>The Nature Conservancy</themekey>
+<themekey>Aerial Information Systems</themekey>
+<themekey>Center for Biological Informatics</themekey>
+<themekey>land cover</themekey>
+<themekey>vegetation</themekey>
+<themekey>community</themekey>
+<themekey>association</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Rock Creek Park</placekey>
+<placekey>Washington D.C.</placekey>
+<placekey>USA</placekey>
+</place>
+<stratum>
+<stratkt>None</stratkt>
+<stratkey>Glover Archbold Park and Environs</stratkey>
+<stratkey>Fort Totten Park, Barnard Hill Park and Environs</stratkey>
+<stratkey>Land Use Areas of the Park</stratkey>
+<stratkey>Coastal Plain</stratkey>
+<stratkey>Piedmont</stratkey>
+<stratkey>Forest Zone</stratkey>
+</stratum>
+<temporal>
+<tempkt>None</tempkt>
+<tempkey>Data Represents October 1996</tempkey>
+</temporal>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>National Vegetation Classification System</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>
+United States Department of the Interior National
+Biological Survey and National Park Service
+</origin>
+<pubdate>19941101</pubdate>
+<title>
+Standardized National Vegetation Classification
+System
+</title>
+<edition>Version 1</edition>
+<geoform>Classification System</geoform>
+<serinfo>
+<sername>NBS/NPS Vegetation Mapping Program</sername>
+<issue>Final Draft</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Redlands, California</pubplace>
+<publish>ESRI</publish>
+</pubinfo>
+<othercit>Prepared by the Nature Conservancy</othercit>
+</citeinfo>
+</classcit>
+</classsys>
+<idref>
+<citeinfo>
+<origin>
+United States Department of the Interior National
+Biological Survey and National Park Service
+</origin>
+<pubdate>19941101</pubdate>
+<title>
+Standardized National Vegetation Classification
+System
+</title>
+<edition>Version 1</edition>
+<geoform>Classification System</geoform>
+<serinfo>
+<sername>NBS/NPS Vegetation Mapping Program</sername>
+<issue>Final Draft</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Redlands, California</pubplace>
+<publish>ESRI</publish>
+</pubinfo>
+<othercit>Prepared by the Nature Conservancy</othercit>
+</citeinfo>
+</idref>
+<taxonpro>
+See "Photo Interpretation Report, BRD/NPS Vegetation and Inventory and Mapping Program,
+Rock Creek Park," October 1, 1998 &lt;http://biology.usgs.gov/npsveg/rocr/pi_rpt.pdf&gt;
+</taxonpro>
+<taxoncom>Complete</taxoncom>
+</taxonsys>
+<taxongen>
+Vegetation Alliances of the National Vegetation
+Classification System (October 1995)
+</taxongen>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>
+Any person using the information presented here
+should fully understand the data collection and
+compilation procedures, as described in these
+metadata, before beginning analysis.  The burden
+for determining fitness for use lies entirely with
+the user.  For purposes of publication or
+dissemination, citations should be given to the
+U.S. Geological Survey and the National Park
+Service
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>
+USGS Biological Resources Division, Center for Biological
+Informatics
+</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>Building 810, Room 8000</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>PO BOX 25046, DFC, MS302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/rocr/images/rocrplot.jpg</browsen>
+<browsed>182 Kbyte</browsed>
+<browset>JPEG</browset>
+</browse>
+<secinfo>
+<secsys>None</secsys>
+<secclass>None</secclass>
+<sechandl>None</sechandl>
+</secinfo>
+<native>Microsoft Access mdb</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+Physical description - For 77 sites, contains
+site code, site name, GPS coordinates, physical factors
+(elevation, slope, aspect, topographic setting, landform,
+surface geology, cowardin system type, hydrography,
+surface materials, soil texture and drainage,
+leaf characteristics, and physiography.
+Species listing - Contains species listings for each site,
+listed by site code one species per line, with species type,
+plant code, and strata code.
+</attraccr>
+</attracc>
+<logic>
+Physical description - Entries for each of the listed
+attributes are in the form of consistent groupings of
+either textual or numerical descriptors.
+Species - Entries for each of the listed attributes are
+in the form of consistent groupings of either textual or
+numerical descriptors.
+</logic>
+<complete>
+Descriptive entries for each of the 77 plots are complete
+for each of the applicable attributes listed in the database.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+Unknown.  The coordinates associated with each plot are assumed
+to be generated from GPS receivers, but no specific information
+is currently available.
+</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methdesc>
+FIELD METHODS: Plots were subjectively placed so as to be
+most representative of the mapped vegetation unit. All mapped
+vegetation types were sampled over a range of environmental
+variation. Additional plots were taken where the vegetation type
+documented in the field was unclassified or less well known. For
+example, the ash floodplain map unit polygons were targeted
+specifically for field verification. This vegetation types was later
+classified as part of the Platanus occidentalis - Fraxinus
+pennsylvanica Forest Association.
+Plot sizes ranged from 20 x 20 m for forests and woodlands,
+10 x 10 m for shrublands, and 5 x 5 m for herbaceous vegetation.
+In some cases, where the polygons were too narrow to
+reasonably accommodate standard plot sizes, the plots were
+adjusted accordingly, e.g., 10 x 20 m plots were often used in
+sampling narrow bands of floodplain forest in the park. The
+vegetation was visually divided into strata, and all the species of
+each stratum were listed and percent cover estimated. Additional
+species within the vegetation unit or polygon that occurred outside
+of sampled plots were listed separately. Species that were not
+identifiable in the field were collected for later identification. In
+addition to floristic information, the following environmental
+information was recorded on field forms: soil profile description,
+flooding regime, soil moisture regime, slope, aspect and evidence
+of disturbance. Latitude and longitude of each plot was recorded
+using a GPS unit. The vegetation profile in cross-section was
+sketched by hand to represent the location and setting of the plot.
+Seventy-seven vegetation plots in total were sampled for this project.
+DATA ANALYSIS: Park plot data (77 plots) were entered by
+Rock Creek Park staff into The Nature Conservancy's PLOTS
+Database System (1997) on a Microsoft Access platform. Species
+were assigned standardized codes and names based on the PLANTS
+database developed by National Resources Conservation Service
+(NRCS) in cooperation with the Biota of North America Program
+(BONAP). For the vegetation analysis, portions of the Rock Creek
+Park data set were copied onto spreadsheets in a format compatible
+with PC-ORD Multivariate Analysis package (McCune and Mefford
+1997). Plots that represented cultivated types or exotics-dominated
+sites were excluded from the analysis. Several outliers (plots that are
+very dissimilar from all the others) were identified using Sorenson and
+Euclidian formulas in PC-ORD and were excluded from the primary
+analyses. The remaining data set of 67 plots was analyzed with Detrended
+Correspondence Analysis/DCA (Hill and Gauch 1980) and Two-Way
+Indicator Species Analysis/TWINSPAN (Hill 1979). DCA ordinates both
+species and samples simultaneously along perceived gradients (e.g. that
+may indicate moisture gradient, elevation, etc.). TWINSPAN successively
+divides the plots into groups that are similar in species composition. The
+initial results indicated that some plots were artificially clustering based on
+high percent cover of several exotic species. The data set was further
+modified to exclude these exotics and the revised data were re-analyzed
+with DCA and TWINSPAN.
+These groups were compared with the National Vegetation Classification
+(Grossman et al. 1998) and matched to existing Alliances and/or Associations
+where appropriate.
+Environmental data on soil characteristics, slope, aspect and topography for
+each plot were used to interpret the results. The soil survey, geologic map
+and topographic maps were also used in the interpretation. Plot information
+on flooding regime was incomplete but could be extrapolated from the polygon
+and plot locations delineated on air photos and topographic maps.
+Environmental data were analyzed using the ordination program CANOCO in
+PC-ORD. However, due to the small size of the study area, the relatively
+uniform topography of the park and some incomplete and inconsistent data on
+soil types and hydrology, the CANOCO results provided little additional
+information for the classification.
+</methdesc>
+<methcite>
+<citeinfo>
+<origin>
+Lesley Sneddon, Julie Lundgren, Mark Anderson,
+Dennis Grossman, Kathy Goodin, Anthony Curtis,
+Mark Bryer, Robert Ford, Eden Crane, Susan Salmons,
+Tara Faud, Stephanie Glenn, Tim Assal, Jason Grant,
+Jeannie Whitler, Rebecca Wright, Jim Drake
+The Nature Conservancy,
+Eastern Regional Office,
+201 Devonshire Street, 5th Floor,
+Boston, MA 02110
+and
+The Nature Conservancy,
+International Headquarters,
+1815 North Lynn Street,
+Arlington, VA 22209
+</origin>
+<pubdate>1998</pubdate>
+<title>
+USGS-NPS Vegetation Mapping Program,
+Classification of the Vegetation of Rock Creek Park
+</title>
+<geoform>Report</geoform>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, BRD, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>Created under contract to the USGS-BRD-CBI.</othercit>
+<onlink>&lt;http://biology.usgs.gov/npsveg/rocr/methods.pdf&gt;</onlink>
+</citeinfo>
+</methcite>
+</method>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Air Survey Corporation Sterling, Virginia</origin>
+<pubdate>19961029</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Rock Creek Park</title>
+<edition>Version 1.0</edition>
+<geoform>image</geoform>
+<serinfo>
+<sername>1.0</sername>
+<issue>Unknown</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Sterling Virginia</pubplace>
+<publish>Air Survey Corporation</publish>
+</pubinfo>
+<othercit>The aerial photography is CIR 1:6,000 scale.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/rocr/photos.html</onlink>
+</citeinfo>
+</srccite>
+<srcscale>12000</srcscale>
+<typesrc>CIR Aerial Photography</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19961029</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>ASC</srccitea>
+<srccontr>None</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>See Methodology Description above</procdesc>
+<srcused>ASC</srcused>
+<procdate>199803</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>
+The ecology field sites were digitized to indicate
+the area for which a TNC ecologist conducted an
+ecological field sampling.
+</indspref>
+<direct>Point</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>18</utmzone>
+<transmer>
+<longcm>-180</longcm>
+<latprjo>-90</latprjo>
+<feast>50000</feast>
+<fnorth>0</fnorth>
+<sfctrmer>0.9996</sfctrmer>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>1</absres>
+<ordres>1</ordres>
+</coordrep>
+<plandu>Meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodedic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altdatum>North American Vertical Datum of 1988</altdatum>
+<altres>1</altres>
+<altunits>Feet</altunits>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+Physical Descriptive Data:
+Plot Code: This field is the unique identifier for a Plot record.  It is
+generated by the system, at the time a new record  is entered into
+the database.  The Plot Code is assembled from two parts: the
+Location Code and the Plot Code Counter, which is a sequential
+counter field that is increased automatically each time a Plot is
+entered for that Location. The sequential counter can be reset to
+any number you would like.
+SubPlot: ‘yes&amp;#146; if the plot is a subplot of another larger plot. Blank if
+the plot is not a subplot of another plot.
+Polygon Code: Code indicating the vegetation polygon where the plot was
+taken.  This is entered only if working from previously delineated
+photos.
+Provisional Community Name: The name of the vegetation type which most
+closely resembles this type using the classification system.
+Entered at the finest level of the classification possible.  This
+is meant to be a field call of the vegetation classification and
+may change when the data are analyzed.  Colloquial names can be
+used in this field if necessary.
+Classified Community Name: The community name from the National
+Vegetation Classification System, once the data are analyzed and
+the community has been classified.
+TNC Elcode: The Elcode (Element Code) for the community element
+corresponding to the Classified Community Name.
+Quad Name: Appropriate name/scale from survey map used; 7.5 minute
+quadrangle used if possible.
+Quad Code: Code of USGS 7.5 minute quadrangle map.
+GPS Techniques: (empty) The projection and GPS datum, plus any
+noteworthy comments regarding equipment and/or techniques used to
+process the GPS data.
+Corrected UTM X: X coordinate of Universal Transverse Mercator
+projection after post-processing correction.  Filled in at the
+office, not in the field.
+Corrected UTM Y: Y coordinate of Universal Transverse Mercator
+projection after post-processing correction.  Filled in at the
+office, not in the field.
+Survey Date: Date the survey was taken; month, day, year*.  *Year is
+entered as 4 characters, so as to avoid the "Year 2000" computer
+problem.
+Surveyors: (empty) Names (and addresses, if appropriate) of surveyors,
+principle surveyor listed first.
+X Dimension: The length in meters* of one side of each of the plots in
+which samples were taken.  If the plot is circular, enter the
+length of its radius.  If transects were used, enter their length
+here. The value of X Dimension should correspond to the plot
+specified in the Plot Shape field.  *NOTE:  Dimensions MUST be
+converted to meters.
+Y Dimension: The length in meters* of the side of the plot adjacent to
+the side entered in the X Dimension field.  The value entered in
+the Y Dimension field should correspond to the plot referred to in
+the Plot Shape  and X Dimension  fields.  Leave this field blank if
+the plot is circular.  Enter a one if a transect was used.  *NOTE:
+Dimensions MUST be converted to meters.
+Plot Shape: Shape which best describes that used for this sample.
+Possible values are "rectangular", "square", "circular",
+"transect/strip", "Other"
+Photos: "yes" if photos of the plot were taken at the time of sampling.
+Permanent: "yes" to indicate if the plot has been permanently marked.
+Slope: Degrees of slope measured using a clinometer.  Possible values
+include "FLAT"=0°=0%, "GENTLE"=0-5°=1-9%, "MODERATE"=6-14°=10-25%,
+"SOMEWHAT STEEP"=15-26°=26-49%, "STEEP"=27-45°=50-100%, "VERY
+STEEP"=45-69°=101-275%, "ABRUPT"=70-100°=276-300%,
+"OVERHANG/SHELTERED"=&gt;100°=&gt;300%
+Aspect: aspect of the slope; measured using a compass (should have been
+corrected for the magnetic declination).  		 Possible Values are
+"flat", "variable". Topo Position: Possible values include
+"INTERFLUVE"=(crest, summit, ridge) linear top of ridge, hill, or
+mountain; the elevated area between two fluves (drainageways)
+that sheds water to the drainageways.
+"HIGH SLOPE"=(shoulder slope, upper slope, convex creep slope)
+geomorphic component that forms the uppermost inclined surface
+at the top of a slope. Comprises the transition zone from
+backslope to summit.  Surface is dominantly convex in profile
+and erosional in origin.
+"HIGH LEVEL"=(mesa) level top of plateau.
+"MIDSLOPE"=(transportational midslope, middle slope) intermediate
+slope position
+"BACKSLOPE"=(dipslope) subset of midslopes which are steep, linear,
+and may include cliff segments (fall faces).
+"STEP IN SLOPE"=(ledge, terracette) nearly level shelf interrupting
+a steep slope, rock wall, or cliff face.
+"LOWSLOPE"=(lower slope, foot slope, colluvial footslope) inner
+gently inclined surface at the base of a slope.  Surface
+profile is generally concave and a transition between midslope
+or backslope, and toe slope.
+"TOESLOPE"=(alluvial toeslope) outermost gently inclined surface at
+base of a slope.  In profile, commonly gentle and linear and
+characterized by alluvial deposition.
+"LOW LEVEL"=(terrace) valley floor or shoreline representing the
+former position of an alluvial plane, lake, or shore.
+"CHANNEL WALL"=(bank) sloping side of a channel.
+"CHANNEL BED"=(narrow valley bottom, gully arroyo) bed of single
+or braided watercourse commonly barren of vegetation and
+formed of modern alluvium.
+"BASIN FLOOR"=(depression) nearly level to gently sloping, bottom
+surface of a basin.
+Landform: A descriptive term for the landform characteristics of the
+area.
+Surficial Geology: a term that describes the geologic substrate
+influencing the plant community (bedrock or surficial materials).
+Cowardin System: "Upland" if the system is not a wetland, if wetland,
+the name of the USFWS system which best describes its hydrology and
+landform.  Values include
+"ESTUARINE" = Deepwater tidal habitats and adjacent tidal wetlands
+that are usually semi enclosed by land but have open, partly
+obstructed, or sporadic access to the open ocean, and in which
+ocean water is at least occasionally diluted by freshwater
+runoff from the land.  The salinity is above 0.5 parts per
+thousand, and may be periodically increased above that of the
+open ocean by evaporation.  Along some low energy coastlines
+there is appreciable dilution of sea water.  Off shore areas
+with typical estuarine plants and animals, such as red
+mangroves and eastern oysters are also included in the
+Estuarine System.  The presence of halophytic plants may be
+used to differentiate Estuarine from other freshwater systems
+if there is insufficient data on salinity.
+"PALUSTRINE" = Nontidal wetlands dominated by trees, shrubs,
+persistent emergents, emergent mosses or lichens, and all such
+wetlands that occur in tidal areas where salinity due to ocean
+derived salts is below 0.5 parts per thousand.  It also
+includes wetlands lacking such vegetation, but with all of the
+following four characteristics: (1) area less than 8 ha (20
+acres); (2) active waveformed or bedrock shoreline features
+lacking; (3) water depth in the deepest part of basin less
+than 2m at low water; and salinity due to ocean derived salts
+less than 0.5 parts per thousand.
+"RIVERINE" = Includes all wetlands and deepwater habitats contained
+within a channel, with two exceptions: (1) wetland dominated
+by trees, shrubs, persistent emergents, emergent mosses, or
+lichens, and (2) habitats with water containing ocean derived
+salts in excess of 0.5 parts per thousand.  A channel is "an
+open conduit either naturally or artificially created which
+periodically on continuously contains moving water, or which
+forms a connecting link between two bodies of standing water".
+"LACUSTRINE" = Includes wetlands and deepwater habitats with all of
+the following characteristics: (1) situated in a topographic
+depression or a dammed river channel; (2) lacking trees,
+shrubs, persistent emergents, emergent mosses or lichens with
+greater than 30% areal coverage: and (3) total area exceeds 8
+ha (20 acres).  Similar wetland and deepwater habitats
+totaling less than 8 ha are also included in the Lacustrine
+System if an active waveformed or bedrock shoreline feature
+makes up all or part of the boundary, or if the water depth in
+the deepest part of the basin exceeds 2 m (6.6 feet) at low
+water.  Lacustrine waters may be tidal or nontidal, but ocean
+derived salinity is always less than 0.5 parts per thousand.
+Hydro Regime: The appropriate term from the following possible values
+"SEMIPERMANENTLY FLOODED" = Surface water persists throughout
+growing season in most years except during periods of drought.
+Land surface is normally saturated when water level drops
+below soil surface.  Includes Cowardin's Intermittently
+Exposed and Semipermanently Flooded modifiers.
+"SEASONALLY FLOODED" = Surface water is present for extended
+periods during the growing season, but is absent by the end of
+the growing season in most years.  The water table after
+flooding ceases is very variable, extending from saturated to
+a water table well below the ground surface.  Includes
+Cowardin's Seasonal, Seasonal-Saturated, and Seasonal-Well
+Drained modifiers.
+"SATURATED" = Surface water is seldom present, but substrate is
+saturated to surface for extended periods during the growing
+season.  Equivalent to Cowardin's Saturated modifier.
+"TEMPORARILY FLOODED" = Surface water present for brief periods
+during growing season, but water table usually lies well below
+soil surface.  Often characterizes flood-plain wetlands.
+Equivalent to Cowardin's Temporary modifier.
+"INTERMITTENTLY FLOODED" = Substrate is usually exposed, but
+surface water can be present for variable periods without
+detectable seasonal periodicity.  Inundation is not
+predictable to a give season and is dependent upon highly
+localized rain storms.  this modifier was developed for use in
+the arid West for water regimes of Playa lakes, intermittent
+streams, and dry washes but can be used in other parts of the
+U.S. where appropriate.  This modifier can be applied to both
+wetland and non-wetland situations.  Equivalent to Cowardin's
+Intermittently Flooded modifier.
+"PERMANENTLY FLOODED" = Water covers the land surface at all times
+of the year in all years.  Equivalent to Cowardin's
+"permanently flooded".
+"PERMANENTLY FLOODED TIDAL" = Salt water covers the land surface at
+all times of the year in all years.  This modifier applies
+only to permanently flooded areas irregularly flooded by fresh
+tidal water.  Equivalent to Cowardin's "permanently
+flooded/tidal".
+"TIDALLY FLOODED" = flooded by the alternate rise and fall of the
+surface of oceans, seas, and the bays, rivers, etc. connected
+to them, caused by the attraction of the moon and sun or by
+the back-up of water caused by unfavorable winds.
+"UNKNOWN" = The water regime of the area is not known.  The unit
+is simply described as "(wetland)'.
+Salinity/Halinity: Possible values include
+Coastal Tidal: Saltwater - tidal = &gt; 30 ppt
+Coastal Tidal: Brackish = 0.5 - 30 ppt
+Coastal Tidal: Freshwater = &lt; 0.5 ppt
+Inland: Saltwater = &gt; 30 ppt
+Inland: Brackish = 0.5 - 30 ppt
+Soil Texture: Simplified Key to Soil Texture (Brewer and McCann, 1982)
+A1   Soil does not remain in a ball when squeezed . . . . . . .sand
+A2   Soil remains in a ball when squeezed . . . . . . . . . . . . B
+B1   Squeeze the ball between your thumb and forefinger, attempting
+to make a ribbon that you push up over your finger.
+Soil makes no ribbon . . . . . . . . . . . . . . .  loamy sand
+B2   Soil makes a ribbon; may be very short . . . . . . . . . . . C
+C1   Ribbon extends less than 1 inch before breaking . . . . . . . D
+C2   Ribbon extends 1 inch or more before breaking . . . . . . . .E
+D1   Add excess water to small amount of soil;
+soil feels at least slightly gritty . . . . loam or sandy loam
+D2   Soil feels smooth . . . . . . . . . . . . . . . . .  silt loam
+E1   Soil makes a ribbon that breaks when 12 inches long; cracks if
+bent into a ring . . . . . . . . . . . . . . . . . . . . . . F
+E2   Soil makes a ribbon 2+ inches long; doesn't crack when bent
+into a ring . . . . . . . . . . . . . . . . . . . . . . . . .G
+F1   Add excess water to small amount of soil; soil feels at least
+slightly gritty . . . . . . . . . sandy clay loam or clay loam
+F2   Soil feels smooth . . . . . . . . . . .silty clay loam or silt
+G1   Add excess water to a small amount of soil; soil feels at
+least slightly gritty . . . . . . . . . . . sandy clay or clay
+G2   Soil feels smooth . . . . . . . . . . . . . . . . . silty clay
+Soil Drainage: Soil drainage classes are defined in terms of (1) actual
+moisture content (in excess of field moisture capacity), and (2)
+the extent of the period during which excess water is present in
+the plant root zone.  It is recognized that permeability, level of
+groundwater, and seepage are factors affecting moisture status.
+However, because these are not easily observed or measured in the
+field, they cannot be used generally as criteria of moisture
+status.  It is further recognized that soil profile morphology, for
+example mottling, normally, but not always, reflects soil moisture
+status.  Although soil morphology may be a valuable field
+indication of moisture status, it should not be the overriding
+criterion.  Soil drainage classes cannot be based solely on the
+presence or absence of mottling.  Topographic position and
+vegetation as well as soil morphology are useful field criteria for
+assessing soil moisture status.
+RAPIDLY DRAINED - The soil moisture content seldom exceeds field
+capacity in any horizon except immediately after water
+addition.  Soils are free from any evidence of gleying
+throughout the profile.  Rapidly drained soils are commonly
+coarse textured or soils on steep slopes.
+WELL DRAINED - The soil moisture content does not normally exceed
+field capacity in any horizon (except possibly the C) for a
+significant part of the year.  Soils are usually free from
+mottling in the upper 3 feet, but may be mottled below this
+depth.  B horizons, if present, are reddish, brownish, or
+yellowish.
+MODERATELY WELL DRAINED - The soil moisture in excess of field
+capacity remains for a small but significant period of the
+year.  Soils are commonly mottled (chroma &lt; 2) in the lower B
+and C horizons or below a depth of 2 feet.  The Ae horizon, if
+present, may be faintly mottled in fine textured soils and in
+medium textured soils that have a slowly permeable layer below
+the solum.  In grassland soils the B and C horizons may be
+only faintly mottled and the A horizon may be relatively thick
+and dark.
+SOMEWHAT POORLY DRAINED - The soil moisture in excess of field
+capacity remains in subsurface horizons for moderately long
+periods during the year.  Soils are commonly mottled in the B
+and C horizons; the Ae horizon, if present, may be mottled.
+The matrix generally has a lower chroma than in the well
+drained soil on similar parent material.
+POORLY DRAINED - The soil moisture in excess of field capacity
+remains in all horizons for a large part of the year.  The
+soils are usually very strongly gleyed.  Except in high chroma
+parent materials the B, if present, and upper C horizons
+usually have matrix colors of low chroma.  Faint mottling may
+occur throughout.
+VERY POORLY DRAINED - Free water remains at or within 12 inches of
+the surface most of the year.  The soils are usually very
+strongly gleyed.  Subsurface horizons usually are of low
+chroma and yellowish to bluish hues.  Mottling may be present
+but at depth in the profile.  Very poorly drained soils
+usually have a mucky or peaty surface horizon.
+Leaf Phenology: The value which best describes the leaf phenology of the
+dominant stratum.
+EVERGREEN - Greater than 75% of the total woody cover is never
+without green foliage.
+DECIDUOUS - Greater than 75% of the total woody cover sheds its
+foliage simultaneously in connection with the unfavorable
+season.
+COLD DECIDUOUS - Unfavorable season mainly characterized by winter
+frost.
+DROUGHT DECIDUOUS - Unfavorable season mainly characterized by
+drought, in most cases winter-drought.  Foliage is shed
+regularly every year.  Most trees with relatively thick,
+fissured bark.
+MIXED EVERGREEN - DECIDUOUS - Evergreen and deciduous species
+generally contribute 5-75% of the total woody cover.
+MIXED EVERGREEN / COLD DECIDUOUS - Evergreen and cold-deciduous
+species admixed.
+MIXED EVERGREEN / DROUGHT DECIDUOUS - Evergreen and drought-
+deciduous species admixed.
+HERB - PERENNIAL - Herbaceous vegetation composed of more than 50%
+perennial species.
+HERB - ANNUAL - Herbaceous vegetation composed of more than 50%
+annual species.
+Leaf Type: The value which best describes the leaf form of the
+dominant stratum.
+BROADLEAF - Woody vegetation primarily broadleaved (generally
+contribute to greater than 50% of the total woody cover).
+NEEDLELEAF - Woody vegetation primarily needleleaved (generally
+contribute to greater than 50% cover).
+MYCROPHYLLOUS - Woody cover primarily microphyllous.
+GRAMINOID - Herbaceous vegetation composed of more than 50%
+graminoid / stipe leaf species.
+BROADLEAF HERBACEOUS (FORB) - Herbaceous vegetation composed of
+more than 50% broadleaf forb species.
+PTERIDOPHYTE - Herbaceous vegetation composed of more than 50%
+species with frond or frondlike leaves.
+Physio Class: Physiognomic classes are determined by assessing the
+relative percent cover and height of the lifeform comprising the
+uppermost strata with cover greater than 0%.  (Note: Percent canopy
+cover and height ranges are provided as guidelines, not strict
+cutoff points).
+FOREST - Trees (&gt;5m) with crowns interlocking (generally forming 60-
+100% cover).
+WOODLAND - Trees (&gt;5m) with crowns not touching (25-60% cover).
+SPARSE WOODLAND - Trees (&gt;5m) with crowns widely spaced (10-25%
+cover).
+SHRUBLAND - Shrubs/Trees (0.5 - 5m) with 25-100% cover.
+SPARSE SHRUBLAND - Shrubs/Trees (0.5 - 5m) with 10 - 25 % cover.
+DWARF SHRUBLAND - Dwarf Shrubs/Shrubs/Trees (&lt;0.5m) with 25-100%
+cover
+SPARSE DWARF SHRUBLAND - Dwarf Shrubs/Shrubs/Trees (&lt;0.5m) with
+10-25% cover.
+HERBACEOUS - Herbaceous plants with 10-100% cover.
+SPARSE VASCULAR / NON-VASCULAR - 1-10% Vascular Vegetation.
+T1 Hgt: Average height of emergent trees. 01=&lt;0.5m, 02=0.5-1m, 03=1-2m,
+04=2-5m, 05=5-10m, 06=10-15m, 07=15-20m, 08=20-35m, 09=35-50m,
+10=&gt;50m
+T1 Cover: class value that represents the average percent cover of the
+whole emergent tree stratum.
+T2 Hgt: Average height of tree canopy.  01=&lt;0.5m, 02=0.5-1m, 03=1-2m,
+04=2-5m, 05=5-10m, 06=10-15m, 07=15-20m, 08=20-35m, 09=35-50m,
+10=&gt;50m
+T2 Cover:  class value that represents the average percent cover of the
+whole tree canopy stratum.
+T3 Hgt: Average height of tree subcanopy.  01=&lt;0.5m, 02=0.5-1m, 03=1-2m,
+04=2-5m, 05=5-10m, 06=10-15m, 07=15-20m, 08=20-35m, 09=35-50m,
+10=&gt;50m
+T3 Cover:  class value that represents the average percent cover of the
+whole tree subcanopy stratum.
+S1 Hgt: Average height of tall shrubs (&lt;5 m).  01=&lt;0.5m, 02=0.5-1m,
+03=1-2m, 04=2-5m, 05=5-10m, 06=10-15m, 07=15-20m, 08=20-35m,
+09=35-50m, 10=&gt;50m
+S1 Cover:  class value that represents the average percent cover of the
+whole tall shrubs stratum.
+S2 Hgt: Average height of short shrubs (&lt; 2m).  01=&lt;0.5m, 02=0.5-1m,
+03=1-2m, 04=2-5m, 05=5-10m, 06=10-15m, 07=15-20m, 08=20-35m,
+09=35-50m, 10=&gt;50m
+S2 Cover:  class value that represents the average percent cover of the
+whole short shrubs stratum.
+H Hgt: Average height of Herbaceous stratum.  01=&lt;0.5m, 02=0.5-1m,
+03=1-2m, 04=2-5m, 05=5-10m, 06=10-15m, 07=15-20m, 08=20-35m,
+09=35-50m, 10=&gt;50m
+H Cover:  class value that represents the average percent cover of the
+whole Herbaceous stratum.
+N Hgt: Average height of Nonvascular stratum.  01=&lt;0.5m, 02=0.5-1m,
+03=1-2m, 04=2-5m, 05=5-10m, 06=10-15m, 07=15-20m, 08=20-35m,
+09=35-50m, 10=&gt;50m
+N Cover:  class value that represents the average percent cover of the
+whole Nonvascular stratum.
+V Hgt: Average height of Vine / Liana stratum.  01=&lt;0.5m, 02=0.5-1m,
+03=1-2m, 04=2-5m, 05=5-10m, 06=10-15m, 07=15-20m, 08=20-35m,
+09=35-50m, 10=&gt;50m
+V Cover:  class value that represents the average percent cover of the
+whole Vine / Liana stratum.
+E Hgt: Average height of Epiphyte stratum.  01=&lt;0.5m, 02=0.5-1m,
+03=1-2m, 04=2-5m, 05=5-10m, 06=10-15m, 07=15-20m, 08=20-35m,
+09=35-50m, 10=&gt;50m
+E Cover:  class value that represents the average percent cover of the
+whole Epiphyte stratum.
+Other Measure1 Defined: Non-standard cover classes; 0=No data; 1=&lt;1%;
+2=1-10%; 3=10-25%; 4=25-50%; 5=50-75%; 6=75-95%; 7=&gt;95
+Other Measure2 Defined:
+Animal Use Evidence: Comment on any evidence of use of the plot /
+polygon by non-domestic animals (i.e., tracks, scat, gopher or
+prairie dog mounds, etc.).  Notes on domestic animals should be
+made in the field Disturbance Comments.
+Disturbance Comments: Comment on any evidence of natural or
+anthropogenic disturbance and specify the source.
+Other Comments: Use this field for general comments, or any comments
+that don't seem to fit elsewhere.
+Update:
+User:
+Species Counter:
+Optional Fields Defined: Hydrologic zones
+Opt1: Hydrologic zone number
+Species Listing Data for Plots:
+Plot Code: This field is the unique identifier for a Plot record.  It is
+generated by the system, at the time a new record  is entered into
+the database.  The Plot Code is assembled from two parts: the
+Location Code and the Plot Code Counter, which is a sequential
+counter field that is increased automatically each time a Plot is
+entered for that Location. The sequential counter can be reset to
+any number you would like.
+Plant Symbol: The symbol field provides a quick and easy way to search
+for a species name in the PLANTS database.  It generally consists
+of the first two characters of the Genus name, plus the first two
+characters of the Species name.  Identical symbol codes that are
+for different species names are appended with tie-breaker
+characters.
+Scientific Name: The scientific name for an individual species record
+within the NRCS PLANTS Database.  As supplied by the NRCS, this
+field also contains authority information.  This field is used as
+validation data when a species' name is entered into the Species
+Scientific Name field in either the Plots or the AA Observations
+table.
+Common Name: The common name for an individual species record within the
+NRCS PLANTS Database.
+Family: The family name for an individual species within the NRCS PLANTS
+Database.
+Used PLANTS: This field will be automatically checked if the name
+appearing in the Species Scientific Name field is found in the
+PLANTS database.  Note that the automatic check-off will only
+take place if there is an exact match between the Species Scientific Name
+and the name as listed in PLANTS.
+Source: This field indicates the source of the name record in the PLANTS
+Database.  Values are:
+SS=Standard Source (e.g. the NRCS PLANTS list),
+NS=Non-standard Source (any source other than NRCS),
+SY=Accepted synonym by NRCS list.
+Within Plot:
+The Stratum Sort: The stratum in which this species occurs.  T1=Emergent Tree,
+T2= Tree Canopy, T3=Tree Subcanopy, S1=Tall Shrub (&gt;5m),
+S2=Short Shrub (&lt;2m), S3=Dwarf-Shrub, H=Herbaceous, N=Nonvascular,
+E=Epiphyte, V=Vine/Liana.
+Diagnostic: This is to be checked if the species is known to be
+diagnostic of the vegetation type.
+Other Measure1:
+Other Measure2:
+Update:
+User:
+</eaover>
+<eadetcit>
+Grossman, D. Et al. 1994.  National Park Service
+Vegetation Mapping Project,
+Standardized National Vegetation Classification System 209 pp.
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>
+U.S. Geological Survey, Biological Resources
+Division, Center for Informatics
+</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division</address>
+<address>Center for Informatics</address>
+<address>PO Box 25046, DFC, MS302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>ROCR Veg Map</resdesc>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the U.S.
+Geological Survey, no warranty expressed or
+implied is made regarding the accuracy or utility
+of the data on any other system or for general or
+scientific purposes, nor shall the act of
+distribution constitute any such warranty. This
+disclaimer applies both to individual use of the
+data and aggregate use with other data.  It is
+strongly recommended that these data are directly
+acquired from a U.S. Geological Survey server, and
+not indirectly through other sources which may
+have changed the data in some way.  It is also
+strongly recommended that careful attention be
+paid to the contents of the metadata file
+associated with these data.  The U.S. Geological
+Survey shall not be held liable for improper or
+incorrect use of the data described and/or
+contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>HTML</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/rocr/fielddata.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>200102</metd>
+<metrd>20050517</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19961029</begdate><enddate>19961029</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_rocrfield.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

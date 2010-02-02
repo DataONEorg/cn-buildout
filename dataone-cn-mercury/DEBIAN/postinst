@@ -1,3 +1,95 @@
 #!/bin/bash
 
-echo "Configuration of Mercury complete."
+LONG_DATE=`date +%Y%m%d%H%M%S`
+
+TOMCAT=tomcat6
+TOMCAT_USER=tomcat6
+TOMCAT_BASE=/usr/share/tomcat6
+TOMCAT_HOME=/var/lib/tomcat6
+SOURCE_DIR=/usr/share/mercury
+SCRIPT_DIR=${SOURCE_DIR}/debian
+MERCURY_VAR=/var/mercury/mercury_inst/datanet
+SOLR_VAR=/var/mercury/solr/datanet
+
+
+###############################################################################
+#
+# Things it would be useful to do in this script
+#
+# Install mercury3 war file
+# Install solr context file
+# 
+# Install 2 extra needed jar files into tomcat/lib
+#
+#future tasks:
+# Install custom config file(s) for mercury (Mercury3properties.xml, applicationcontext.xml)
+#
+###############################################################################
+
+## Stop tomcat
+echo "Stopping Tomcat"
+/etc/init.d/${TOMCAT} stop
+
+
+chown -R ${TOMCAT_USER} ${MERCURY_VAR}
+chown -R ${TOMCAT_USER} ${SOLR_VAR}
+
+## backup the old war file
+if [ -e ${TOMCAT_HOME}/webapps/mercury3.war ]
+then
+  echo "Backing up ${TOMCAT_HOME}/webapps/mercury3.war to ${TOMCAT_HOME}/webapps/mercury3.war.${LONG_DATE}"
+  mv ${TOMCAT_HOME}/webapps/mercury3.war ${TOMCAT_HOME}/webapps/mercury3.war.${LONG_DATE}
+fi  
+
+## remove the mercury3 application directory
+if [ -d ${TOMCAT_HOME}/webapps/mercury3 ]
+then
+  echo "Removing the old mercury3 application directories"
+  rm -rf ${TOMCAT_HOME}/webapps/mercury3
+fi 
+
+## copy the new war file into the webapps directory
+echo copying new mercury3.war file to ${TOMCAT_HOME}/webapps/mercury3.war
+cp ${SOURCE_DIR}/mercury3.war ${TOMCAT_HOME}/webapps/mercury3.war
+
+## expand the war file
+CURR_DIR=`pwd`
+
+## make mercury3 directory and extract mercury3.war into it.
+echo "Making mercury application directory: ${TOMCAT_HOME}/webapps/mercury3"
+mkdir ${TOMCAT_HOME}/webapps/mercury3
+cd ${TOMCAT_HOME}/webapps/mercury3
+
+echo "extracting mercury3.war into ${TOMCAT_HOME}/webapps/mercury3"
+jar -xvf ${TOMCAT_HOME}/webapps/mercury3.war > /dev/null
+chown -R ${TOMCAT_USER} ${TOMCAT_HOME}/webapps/mercury3
+echo cd to $CURR_DIR
+cd $CURR_DIR
+
+
+# If not present, Configure the solr context
+if [ !  -e ${TOMCAT_HOME}/conf/Catalina/localhost/datanet_solr.xml ]
+then
+	cp ${SCRIPT_DIR}/datanet_solr.xml ${TOMCAT_HOME}/conf/Catalina/localhost/datanet_solr.xml
+fi
+
+# Drop in jars for tomcat which are not part of distribution, but need to be in lib
+
+if [ !  -e ${TOMCAT_BASE}/lib/commons-collections-3.2.jar ]
+then
+	cp ${SOURCE_DIR}/lib/commons-collections-3.2.jar ${TOMCAT_BASE}/lib/commons-collections-3.2.jar
+fi 
+
+if [ !  -e ${TOMCAT_BASE}/lib/mysql-connector-java-3.1.12-bin.jar ]
+then
+	cp ${SOURCE_DIR}/lib/mysql-connector-java-3.1.12-bin.jar ${TOMCAT_BASE}/lib/mysql-connector-java-3.1.12-bin.jar
+fi  
+
+
+
+
+
+/etc/init.d/${TOMCAT} start
+
+
+

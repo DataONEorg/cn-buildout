@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_tuzifieldpoints.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey Department of the Interior</origin>
+<pubdate>199710</pubdate>
+<title>Tuzigoot National Monument, Field Plots Data Base for Vegetation Mapping</title>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Tuzigoot National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resource Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+Created in large part by Environmental Systems Research Institute, Inc.
+Redlands, CA under contract from USGS/BRD/CBI
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/tuzi/fielddata.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+Vegetation field plots at Tuzigoot NM were visited, described, and
+documented in a digital database. The database consists of 3 parts -
+(1)Physical Descriptive Data, (2) Species Listings, and (3) Vegetative
+Strata.
+</abstract>
+<purpose>
+Provide National Parks with the necessary tools to effectively manage
+their natural resources. Plot data are collected and analyzed to develop a
+classification (using the Standardized National Vegetation Classification
+System) and description of vegetation types in preparation for
+photointerpretation and mapping of the monument's vegetation types.
+</purpose>
+<supplinf>(previous geoform was 'Database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19951010</begdate>
+<enddate>19951027</enddate>
+</rngdates>
+</timeinfo>
+<current>Ground Condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>none planned</update>
+</status>
+<spdom>
+<descgeog>Tuzigoot National Monument and environs</descgeog>
+<bounding>
+<westbc>-112.028</westbc>
+<eastbc>-112.017</eastbc>
+<northbc>34.78583</northbc>
+<southbc>34.6584</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>National Park Service</themekey>
+<themekey>U.S. Geological Survey</themekey>
+<themekey>vegetation classification</themekey>
+<themekey>sampling plots</themekey>
+<themekey>alliance</themekey>
+<themekey>association</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Arizona</placekey>
+<placekey>Verde Valley</placekey>
+<placekey>Cottonwood</placekey>
+<placekey>Tuzigoot National Monument</placekey>
+<placekey>Yavapai county</placekey>
+<placekey>Verde Valley</placekey>
+<placekey>Verde River</placekey>
+<placekey>Clarkdale</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>vegetation classification</taxonkey>
+<taxonkey>Standardized National Vegetation Classification System</taxonkey>
+<taxonkey>alliance</taxonkey>
+<taxonkey>community association</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>U.S. Government; Federal Geographic Data Committee</origin>
+<pubdate>19971022</pubdate>
+<title>National Vegetation Classification Standard (NVCS)</title>
+<geoform>document</geoform>
+<pubinfo>
+<pubplace>Washington D.C.</pubplace>
+<publish>Federal Geographic Data Committee</publish>
+</pubinfo>
+<onlink>http://www.fgdc.gov/standards/status/sub2_1.html</onlink>
+</citeinfo>
+</classcit>
+</classsys>
+<taxonpro>
+Vegetation alliances were identified; no specimens nor vouchers were
+collected as a part of this process
+</taxonpro>
+<taxoncom>
+Conforms with FGDC standardized vegetation
+classification system.
+</taxoncom>
+</taxonsys>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>
+Any person using the information presented here should fully understand the
+data collection and compilation procedures, as described in these metadata,
+before beginning analysis. The burden for determining fitness for use lies
+entirely with the user. For purposes of publication or dissemination, citations or
+credit should be given to the U.S. Geological Survey and the National Park Service.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>
+USGS Biological Resources Division, Center for Biological
+Informatics
+</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>Building 810, Room 8000</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>PO BOX 25046, DFC, MS302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/tuzi/images/tuziplots.gif</browsen>
+<browsed>Locations of vegetation plot samples; low resolution for web browsing.</browsed>
+<browset>GIF</browset>
+</browse>
+<datacred>Bill Rosenberg, in cooperation with The Nature Conservancy, collected field data.</datacred>
+<native>DB4</native>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey Department of the Interior</origin>
+<pubdate>199710</pubdate>
+<title>
+Tuzigoot National Monument, Spatial Data: Cover type / Association
+Level of the National Vegetation Classification system Base for Vegetation Mapping
+</title>
+<geoform>Database</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Tuzigoot National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resource Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+Created in large part by Environmental Systems Research Institute, Inc.
+Redlands, CA under contract from USGS/BRD/CBI
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/tuzi/fielddata.html</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey Department of the Interior</origin>
+<pubdate>199710</pubdate>
+<title>Tuzigoot National Monument, Accuracy Assessment</title>
+<geoform>Database</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Tuzigoot National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resource Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>Created by USGS/BRD/CBI</othercit>
+<onlink>http://biology.usgs.gov/npsveg/tuzi/aa_rpt.pdf</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+Physical description - Descriptive plot data were collected for 35 sites whose
+vegetation represents a full spectrum of alliance types present within Tuzigoot
+National Monument and its immediate surroundings. Attributes collected for
+each site include: a unique plot identification code, park name, quad
+name, UTM coordinates, UTM projection, plot survey date, surveyor's name,
+length, width, photo type, elevation, slope aspect, topographic position,
+landform, surface geology, Cowardin System category, hydrology, surface
+material description, soil texture, soil drainage, leaf phenology, leaf
+type, and physiognomy. Species - Descriptive plot data were collected for 35
+sites whose vegetation represents a full spectrum of alliance types present
+within Tuzigoot National Monument and its immediate surroundings. This
+database which is the second of three databases containing plot field data,
+delineates species. Individual species described at each of 35 plots is listed,
+one line per species, with the following information: Plot Identification
+Code, Species Name, Species Cover ( 0=trace, 1=&lt; 1%, 2=1-5%, 3=5-25%,
+4=25-50%, 5=50-75%, 6=75-100%), Plantcode (first 2 letters of genus+first
+2 letters of spp.), and Plant Strata (T, S, H, v.s, and no entry). Strata -
+Descriptive plot data were collected for 35 sites whose vegetation
+represents a full spectrum of alliance types present within Tuzigoot
+National Monument and its immediate surroundings. This database which is
+the third of three databases containing plot field data, delineates plot
+strata. Most of the 35 plots have multiple strata, with each listed as a
+separate line entry in the database. Strata are described by plot code,
+descriptive name, height, cover, and an alpha-numeric strata code.
+Descriptive names include canopy, sub-canopy, tall shrub, short shrub,
+herbaceous, and emergent. Height classes, in meters, range from 1 to 7:
+1=&lt;0.5 m, 2=0.5-1m, 3=1-2m, 4=2-5m, 5=5-10m, 6=10-15m and 7=15-20m. Cover
+groupings, in percent, range from 1 to 4: 1=0-10%, 2=10-25%, 3=25-60%, and
+4=60-100%. The diagnostic species for each stratum is listed by latin
+name. Stratum codes are defined in the following manner: T1=emergent,
+T2=canopy, T3=sub-canopy, S1=tall shrub, S2=short shrub, and H=herbaceous.
+</attraccr>
+</attracc>
+<logic>
+Physical description - Entries for each of the listed attributes are in the form
+of consistent groupings of either textual or numerical descriptors. Species &amp; Strata -
+Entries for each of the listed attributes are in the form of consistent
+groupings of either textual or numerical descriptors as described under
+2.1.1: attribute accuracy report. NOTE1: The significance of numbers
+appended to some of the Plant Codes is not known. NOTE2: entries under Plant
+Strata were not clearly defined on the original field forms. It is assumed
+that T=tree, S=shrub, and H=herbaceous. It is also assumed that numbers
+represent canopy levels (starting with 1 as tallest), v.s. = very short.
+Plant strata entries in this database are not always consistent with these
+assumed labeling conventions.
+</logic>
+<complete>
+Physical description - Descriptive entries for each of the 35 plots are
+complete for each of the applicable attributes listed in the database. Species
+&amp; Strata - Descriptive entries for each of the 35 plots are complete for each
+of the applicable attributes listed in the database, with the exception of one
+missing plant code in plot 95ROS29. According to convention, the code should
+be "CINE".
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+X,Y UTM coordinates representing each of the 35 plots were collected by
+P-code PLGR (Precise Lightweight GPS Receiver) receivers, with an
+accuracy ranging from +/- 10 m. to +/- 30 m. based on 60 second
+averaging at each point.
+</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>Vertical accuracies are approximately twice the horizontal accuracy.</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>releve</methkey>
+<methkey>plot</methkey>
+<methkey>sampling</methkey>
+</methodid>
+<methdesc>Field sampling using releve plots</methdesc>
+</method>
+<method>
+<methtype>Field</methtype>
+<methdesc>Field Methods for Vegetation Mapping</methdesc>
+</method>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Kenney Aerial mapping Company, Phoenix, AZ</origin>
+<pubdate>19950912</pubdate>
+<title>Tuzigoot National Monument CIR Aerial Photography</title>
+<geoform>photos</geoform>
+<pubinfo>
+<pubplace>Phoenix, AZ</pubplace>
+<publish>Kenney Aerial Mapping Company</publish>
+</pubinfo>
+<othercit>
+The aerial photography is CIR and 1:6000 scale. The camera
+calibration report is USGS Report Number OSL/2066 dated January 10,
+1995.
+</othercit>
+</citeinfo>
+</srccite>
+<srcscale>6000</srcscale>
+<typesrc>Transparency</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19950912</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Date photos flown</srccurr>
+</srctime>
+<srccitea>tuzi Aerial Photos</srccitea>
+<srccontr>
+Color Infrared (CIR) aerial photos were used for selection of plot
+locations, and as the basis for the photointerpretation process.
+</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>USGS, BRD, Center for Biological Informatics</origin>
+<pubdate>19960405</pubdate>
+<title>Tuzigoot National Monument Sampling and Classification</title>
+<geoform>report</geoform>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, BRD, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+This report was generated by the Nature Conservancy under contract
+to the USGS, BRD, CBI.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/tuzi/methods.pdf</onlink>
+</citeinfo>
+</srccite>
+<typesrc>Online</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>199510</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Ground Condition</srccurr>
+</srctime>
+<srccitea>tuzi sample and classification</srccitea>
+<srccontr>Report summarizing plot data collection effort</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>US Dept of Interior</origin>
+<origin>National Biological Survey (Now USGS/Biological Resources Division)</origin>
+<origin>and National Park Service</origin>
+<pubdate>199411</pubdate>
+<title>
+Standardized National Vegetation Classification System; protocol
+document for the USGS-NPS Vegetation Mapping Program (unpublished
+report)
+</title>
+<geoform>report</geoform>
+<edition>Final Draft</edition>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS/BRD/Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+Report prepared under contract by The Nature Conservancy, 1815 N.
+Lynn Street, Arlington, Virginia 22209 and Environmental Systems
+Research Institute, 380 New York street, Redlands, California 92373
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/classification/index.html</onlink>
+</citeinfo>
+</srccite>
+<typesrc>Online</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>199411</begdate>
+<enddate>2010</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>Publication Date and indefinitely</srccurr>
+</srctime>
+<srccitea>SNVCS protocol document</srccitea>
+<srccontr>
+Report prepared under contract by The Nature Conservancy, 1815 N. Lynn
+Street, Arlington, VA and the Environmental Systems Research Institute,
+380 New York Street, Redlands, CA 92373. Describes the structure,
+content, and origins of the Standard National Vegetation Classification
+System, and it describes the process by which the system is to be
+applied to changing requirements.
+</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>
+United States Department of Interior, National Biological Survey
+(now USGS Biological Resources Division) and the National Park
+Service
+</origin>
+<pubdate>199412</pubdate>
+<title>Field Methods for Vegetation Mapping</title>
+<geoform>document</geoform>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resources Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+This report was generated by the Nature Conservancy under contract
+to the USGS, BRD, CBI.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/fieldmethods/index.html</onlink>
+</citeinfo>
+</srccite>
+<typesrc>Online</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>199412</begdate>
+<enddate>2010</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>Publication Date and indefinitely</srccurr>
+</srctime>
+<srccitea>field methods protocol document</srccitea>
+<srccontr>
+This document defines the methods and protocols for field data
+collection to be used as part of the USGS-NPS Vegetation Mapping
+Program.
+</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>
+The following describes the tasks performed by The Nature Conservancy to
+produce descriptive data for 35 vegetation sampling plots in three
+separate database files. The first of the three contains general
+descriptive information at each of the plots. Plot sites were selected
+by information obtained during a reconnaissance visit to the park in
+April of 1995, and by examining tone and textural patterns on the TUZI
+AERIAL PHOTOGRAPHS. Site physical parameters, species types, and
+vegetation strata were described at each site. The PLOTS database
+contains tabulations of site physical factors, listed under
+the ATTRIBUTE ACCURACY REPORT for each of the 35 plots. Plot data were
+manually recorded on field forms on-site, and subsequently keyed into
+the database files described herein. Information in the plot database
+was then used to develop the classification system and plant
+identification keys contained in the TNC TUZI SAMPLING AND
+CLASSIFICATION REPORT.
+</procdesc>
+<procdate>19960405</procdate>
+</procstep>
+<procstep>
+<procdesc>
+The following describes the tasks performed by The Nature Conservancy to
+produce descriptive data for 35 vegetation sampling plots in three
+separate database files. The second of the three contains listings of
+individual species found in each plot, along with cover estimates and
+height (strata) delineations. The SPECIES LISTING database contains line
+entries for each species including the Plot Code, a unique numerical
+species code, full species name, Species Cover, Plant Code, and Plant
+Strata delineation. See 2.1.1 (Accuracy Assessment Report) for
+explanations of these attributes. Plot data were manually recorded on
+field forms on-site, and subsequently keyed into the database files
+described herein. Information in the plot database was then used to
+develop the classification system and plant identification keys
+contained in the TNC TUZI SAMPLING AND CLASSIFICATION REPORT.
+</procdesc>
+<procdate>19960405</procdate>
+</procstep>
+<procstep>
+<procdesc>
+The following describes the tasks performed by The Nature Conservancy to
+produce descriptive data for 35 vegetation sampling plots in three
+separate database files. The third of the three contains listings of
+individual strata found in each plot, along with cover estimates and
+height (strata) delineations. The STRATA LISTING database contains line
+entries for each strata including the Plot Code, full species name,
+height, cover, and Strata delineation. See 2.1.1 (Accuracy Assessment Report) for
+explanations of these attributes. Plot data were manually recorded on
+field forms on-site, and subsequently keyed into the database files
+described herein. Information in the plot database was then used to
+develop the classification system and plant identification keys
+contained in the TNC TUZI SAMPLING AND CLASSIFICATION REPORT.
+</procdesc>
+<procdate>19960405</procdate>
+<srcused>tuzi Aerial Photos</srcused>
+<srcused>SNVCS protocol document</srcused>
+<srcused>Field Methods for Vegetation Mapping</srcused>
+<srcprod>tuzi sample and classification</srcprod>
+<srcprod>tuzi Veg Descriptions</srcprod>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>The Nature Conservancy</cntorg>
+<cntper>Dennis Grossman</cntper>
+</cntorgp>
+<cntpos>Chief Ecologist, The Nature Conservancy</cntpos>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>1815 Lynn Street</address>
+<city>Arlington</city>
+<state>VA</state>
+<postal>22209</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(703) 841-5305</cntvoice>
+<cntemail>dgrossman@tnc.org</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>
+The Ecology Field Sites were digitized to indicate the area for which a TNC
+ecologist conducted an ecological field sampling.
+</indspref>
+<direct>Vector</direct>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>12</utmzone>
+<transmer>
+<longcm>-111</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+<sfctrmer>.9996</sfctrmer>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>1</absres>
+<ordres>1</ordres>
+</coordrep>
+<plandu>Meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodedic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+Each of 35 vegetation plots has attributes for physical description, species and
+strata. Physical description - (Plot number, plot code, common name, scientific
+name, state, park name, quad name, utm zone, map project,
+gps file, raw utm x, raw utm y, corrected utm x, corrected utm y, surveyors date,
+surveyors, length, width, photos, permanent, elevation, slope, aspect,
+topographical position, landform, surficial geology, Cowardin system type,
+hydrography, bedrock, large rock, small rock, sand, litter duff, wood, bare soil,
+other soil, soil texture, soil drainage, leaf phenology, leaf type, and
+physiology). Species - (sp_code is a project specific code for each species found,
+species is the scientific name for that species, spcover is the species present and
+the percent cover for each species, plant code is the first two letters of the genus
+and first two letters of the species. If the code are not unique a number is
+added to make the code unique). Strata - (height and cover are average percent cover
+of that particular species, 1 = 0-10%, 2 = 10-25%, 3 = 25-60% and 4 = 60-100%,
+pstrata is the type of vegetation, T1 = emergent, T2 = canopy, T3 = sub-canopy, S1 =
+tall shrub, S2 = short shrub, H = herbaceous, N = non-vascular, V = vine/liana, and E
+= epiphyte). Species - Each of 35 vegetation mapping plot sites has attributes of
+species found. Strata - Plot strata are defined according to plot identification code,
+physiognomic descriptors, height and cover estimates, diagnostic species,
+and an alphanumeric structure code. Plot strata information in the
+database is listed by plot identification code, with most plots containing
+multiple strata. Descriptive factors include physiognomic type, height and
+cover estimates, latin name of diagnostic plant species, and a strata code
+delineating type and structure.
+</eaover>
+<eadetcit>
+Field Methods for Vegetation Mapping, December 1994, Prepared for: the
+United States Department of Interior, National Biological Survey (Now the
+USGS Biological Resources Division) and National Park Service. Prepared
+By: The Nature Conservancy, and Environmental Systems Research Institute.
+(http://biology.usgs.gov/npsveg/fieldmethods/index.html).
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>Center For Biological Informatics, USGS/BRD</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>P.O. Box 24046, MS-302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>303-202-4259</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>TUZI Plots data; Physical Descriptive Data and Species Listing Data.</resdesc>
+<distliab>
+Although these data have been processed successfully on a computer system at
+the Biological Resources Division, no warranty expressed or implied is made
+regarding the accuracy or utility of the data on any other system or for
+general or scientific purposes, nor shall the act of distribution constitute
+any such warranty. This disclaimer applies both to individual use of the
+data and aggregate use with other data. It is strongly recommended that
+these data are directly acquired from a Biological Resources Division
+server, and not indirectly through other sources which may have changed the
+data in some way. It is also strongly recommended that careful attention be
+paid to the contents of the metadata file associated with these data. The
+Biological Resources Division shall not be held liable for improper or
+incorrect use of the data described and/or contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>HTML</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/tuzi/fielddata.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>none</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20011022</metd>
+<metrd>20050518</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19951010</begdate><enddate>19951027</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_tuzifieldpoints.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

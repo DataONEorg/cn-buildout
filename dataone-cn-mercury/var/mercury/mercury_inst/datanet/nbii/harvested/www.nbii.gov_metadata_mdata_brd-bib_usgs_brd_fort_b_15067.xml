@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_15067.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Oyler, S.J., C.E. Braun, and K.P. Burnham</origin>
+<pubdate>@@@</pubdate>
+<title>Use of a habitat-based model to predict sage grouse (Centrocercus urophasianus) occupancy of patches in southwestern Colorado</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>Wildlife Biology</sername>
+<issue>3:282</issue>
+</serinfo>
+<othercit>Vol. 3 282 pp.</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Oyler, S.J., C.E. Braun, and K.P. Burnham. NGH. Use of a habitat-based model to predict sage grouse (Centrocercus urophasianus) occupancy of patches in southwestern Colorado. Wildlife Biology 3: 282.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>@@@</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Colorado</descgeog>
+<bounding>
+<westbc>-109.0552</westbc>
+<eastbc>-102.03676</eastbc>
+<northbc>41.00341</northbc>
+<southbc>36.98897</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>modeling</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Colorado</placekey>
+<placekey>CO</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>Sage grouse</taxonkey>
+<taxonkey>Centrocercus urophasianus</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Aves</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Galliformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Phasianidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Centrocercus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>urophasianus</taxonrv>
+<common>Sage grouse</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Oyler-McCance, S.J.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>
+Postal_Code  80526-8118
+Country  USA
+</cntfax>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</idinfo>
+<mercury><begdate>@@@</begdate><enddate>@@@</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_15067.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

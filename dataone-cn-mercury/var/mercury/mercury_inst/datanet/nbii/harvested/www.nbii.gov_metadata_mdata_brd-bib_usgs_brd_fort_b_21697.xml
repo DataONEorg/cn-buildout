@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21697.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>O'Shea, T.J., R.A. Bowen, L.E. Ellison, M.L. Farnsworth, and C.E. Rupprecht</origin>
+<pubdate>2006</pubdate>
+<title>Ecology of commensal bats in relation to rabies transmission: summary of the Fort Collins study, 2001-2005</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Amherst, MA</pubplace>
+<publish>American Society of Mammalogists</publish>
+</pubinfo>
+<othercit>1 pp.</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>2006</pubdate>
+<title>86th Annual Meeting of the American Society of Mammalogists, Amherst, Massachusetts</title>
+<geoform>Proceedings,Meeting, or Workshop</geoform>
+<pubinfo>
+<pubplace>Amherst, MA</pubplace>
+<publish>American Society of Mammalogists</publish>
+</pubinfo>
+<othercit>1 pp.</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>O'Shea, T.J., R.A. Bowen, L.E. Ellison, M.L. Farnsworth, and C.E. Rupprecht. 2006. Ecology of commensal bats in relation to rabies transmission: summary of the Fort Collins study, 2001-2005 abs.. In: 86th Annual Meeting of the American Society of Mammalogists, Amherst, Massachusetts. Amherst, MA: American Society of Mammalogists. p. 1.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2006</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Colorado</descgeog>
+<bounding>
+<westbc>-109.0552</westbc>
+<eastbc>-102.03676</eastbc>
+<northbc>41.00341</northbc>
+<southbc>36.98897</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>None</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Colorado</placekey>
+<placekey>CO</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>bats</taxonkey>
+<taxonkey>Eptesicus fuscus</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Mammalia</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Chiroptera</taxonrv>
+<common>Bats</common>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Vespertilionidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Eptesicus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>fuscus</taxonrv>
+<common>Big brown bat</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>O'Shea, T.J.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>O'Shea, T.J.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Ecology of commensal bats in relation to rabies transmission: summary of the Fort Collins study, 2001-2005.  FORT Library Archive Number: 2006/0080 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20060101</begdate><enddate>20061231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21697.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

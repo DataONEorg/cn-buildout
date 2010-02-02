@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_pub903.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Belnap, Jayne, R. Rosentreter, S. Leonard, J.H.Kaltenecker, J. Williams, D. Eldridge</origin>
+<pubdate>2001</pubdate>
+<title>Biological Soil Crusts: Ecology and Management</title>
+<geoform>book</geoform>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>US Dept. of Interior, BLM, National Science and Technology Center</publish>
+</pubinfo>
+<othercit>
+Science Information System Project #:5003110
+Publication Control #:903
+</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+Biological soils crusts, also called cyanobacterial-lichen, cryptobiotic, microbiotic or microphytic soil crusts, play an important ecological role in many vegetation communities of the western United States. These crusts affect soil stability, water infiltration, and fertility of soils. Disturbance of these crusts can lead to increased erosion and resultant losses of organic matter, fine soil particles, nutrients and microbial populations in soils. Cyanobacteria and cyanolichen components of these soil crusts are important contributors of fixed nitrogen to desert ecosystems. These crusts appear to be the dominant source of fixed nitrogen in cold-desert pinyon-juniper and grassland ecosystems in southern Utah and the N fixed is available immediately to vascular plants. Biological soil crusts are an important source of carbon for the sparsely vegetated areas that are common throughout the West. Plants growing on crusted soil often show higher concentrations and/or greater total accumulation of various essential nutrients when compared to plants growing in adjacent, uncrusted soils. Because of the significant contribution of biological
+crusts to ecosystem functioning, it is important we understand how we can restore these crusts once they have been impacted.
+</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>
+Extent of item: 110 pp
+Illustrative Matter:  tables, figures
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2001</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>western United States</descgeog>
+<bounding>
+<westbc>-120</westbc>
+<eastbc>-106</eastbc>
+<northbc>48</northbc>
+<southbc>42</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>NBII Biocomplexity Thesaurus</themekt>
+<themekey>Arid environments</themekey>
+<themekey>Biomonitoring</themekey>
+<themekey>Human impact</themekey>
+</theme>
+<theme>
+<themekt>none</themekt>
+<themekey>biological soil crusts</themekey>
+<themekey>management</themekey>
+<themekey>human impact</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>western United States</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>cryptobiotic crust</taxonkey>
+<taxonkey>Cyanobacteria</taxonkey>
+</keywtax>
+<taxoncl>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Monera</taxonrv>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Cyanophycota</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Fungi</taxonrv>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Ascomycotina</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #:903</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20050413</metd>
+<metrd>20010615</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20010101</begdate><enddate>20011231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_pub903.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

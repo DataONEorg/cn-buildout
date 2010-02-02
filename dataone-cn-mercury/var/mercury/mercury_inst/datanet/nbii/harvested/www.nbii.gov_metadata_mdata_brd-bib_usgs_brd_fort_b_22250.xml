@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_22250.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Baron, J.S., T.S. Schmidt, and M.D. Hartman</origin>
+<pubdate>2008</pubdate>
+<title>Climate-induced changes in nitrogen dynamics in Loch Vale Watershed, Rocky Mountain National Park</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>National Park Service, U.S. Department of the Interior</publish>
+</pubinfo>
+<othercit>7 pp.</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Baron, J.S., T.S. Schmidt, and M.D. Hartman. 2008. Climate-induced changes in nitrogen dynamics in Loch Vale Watershed, Rocky Mountain National Park abs.. In: 2008 Research Conference, Rocky Mountain National Park. : National Park Service, U.S. Department of the Interior. p. 7.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2008</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>nitrogen</themekey>
+<themekey>Loch Vale Watershed</themekey>
+<themekey>glaciers</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Baron, J.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Baron, J.S., T.S. Schmidt, and M.D. Hartman</origin>
+<pubdate>2009</pubdate>
+<title>Climate-induced changes in high elevation stream nitrate dynamics</title>
+<geoform>Unknown</geoform>
+<othercit>Vol. 15 pages 1777-1789</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Baron, J.S., D. Peterson, and J. Wilson</origin>
+<pubdate>2008</pubdate>
+<title>Western Mountain Initiative: Predicting ecosystem responses to climate change</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>2 pp.</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Baron, J</origin>
+<pubdate>2008</pubdate>
+<title>Fixing nitrogen levels</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>Environmental Research Web</publish>
+</pubinfo>
+<othercit>6 pp.</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Baron, J.S., M.D. Hartman, L.E. Band, and R.L. Lammers</origin>
+<pubdate>1999</pubdate>
+<title>Sensitivity of high elevation Rocky Mountain watersheds to climate change</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Reno, Nevada</pubplace>
+<publish>National Watershed Coalition</publish>
+</pubinfo>
+<othercit>pages 269-2</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>1999</pubdate>
+<title>Sensitivity of high elevation Rocky Mountain watersheds to climate change</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Reno, Nevada</pubplace>
+<publish>National Watershed Coalition</publish>
+</pubinfo>
+<othercit>pages 269-2</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Campbell, D.H., J.S. Baron, K.A. Tonnessen, P.D. Brooks, and P.F. Schuster</origin>
+<pubdate>2000</pubdate>
+<title>Controls on nitrogen flux in alpine/subalpine watersheds of Colorado</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Water Resources Research (ISSN 0043-1397)</sername>
+<issue>36(1):37-47</issue>
+</serinfo>
+<othercit>Vol. 36(1) pages 37-47</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Baron, J.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Climate-induced changes in nitrogen dynamics in Loch Vale Watershed, Rocky Mountain National Park.  FORT Library Archive Number: 2008/0048 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20080101</begdate><enddate>20081231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_22250.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

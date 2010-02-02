@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21181.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Schuster, E., S.S. Johnson, and J.G. Taylor</origin>
+<pubdate>2004</pubdate>
+<title>Wilderness experience in Rocky Mountain National Park 2002: Report to RMNP - January 2004</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>47  pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21181/21181.asp</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Schuster, E., S.S. Johnson, and J.G. Taylor. 2004. Wilderness experience in Rocky Mountain National Park 2002: Report to RMNP - January 2004: U.S. Geological Survey Open-File Report 03-445; NPS Study # ROMO 02034. 47  p.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2004</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>wilderness</themekey>
+<themekey>parks</themekey>
+<themekey>visitor employed photography</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Taylor, J.G.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Flick, S., and J.G. Taylor</origin>
+<pubdate>1998</pubdate>
+<title>Attitudes of backpackers and casual day visitors in Rocky Mountain National Park</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Park Science (ISSN 0735-9462)</sername>
+<issue>18(1):18-20</issue>
+</serinfo>
+<othercit>Vol. 18(1) pages 18-20</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Taylor, J.G., N.R. Sexton, and K.J. Czarnowski</origin>
+<pubdate>1995</pubdate>
+<title>Visitor employed photography at Rocky Mountain National Park: a valuation technique</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Park Science (ISSN 0735-9462)</sername>
+<issue>15(1):10-12</issue>
+</serinfo>
+<othercit>Vol. 15(1) pages 10-12</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Taylor, J.G., N.R. Sexton, P.D. Ponds, E. Shuster, and S.S. Harlow</origin>
+<pubdate>2004</pubdate>
+<title>Measuring experiences in parks and protected areas</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Sassari, Italy</pubplace>
+<publish>Carlo Delfino editore, Via Rolando</publish>
+</pubinfo>
+<othercit>pages 479-4</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Camarda, I., M.J. Manfredo, F. Mulas, and T.L. Teel (eds.), ed.</origin>
+<pubdate>2004</pubdate>
+<title>Measuring experiences in parks and protected areas</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Sassari, Italy</pubplace>
+<publish>Carlo Delfino editore, Via Rolando</publish>
+</pubinfo>
+<othercit>pages 479-4</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Schuster, E., S.S. Johnson, and J.G. Taylor</origin>
+<pubdate>2003</pubdate>
+<title>Wilderness experience in Rocky Mountain National Park 2002: report to respondents</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, Colorado</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>32 pp.</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Taylor, J.G.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Wilderness experience in Rocky Mountain National Park 2002: Report to RMNP - January 2004.  FORT Library Archive Number: 2004/0001 FORT - online</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20040101</begdate><enddate>20041231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21181.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

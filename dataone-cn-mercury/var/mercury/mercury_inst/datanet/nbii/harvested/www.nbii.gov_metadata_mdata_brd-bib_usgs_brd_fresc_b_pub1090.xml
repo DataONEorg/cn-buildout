@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_pub1090.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Belnap, Jayne</origin>
+<pubdate>2002</pubdate>
+<title>Biological soil crusts of Arabian sabkhat</title>
+<geoform>Book chapter</geoform>
+<pubinfo>
+<pubplace>Netherlands</pubplace>
+<publish>Kluwer Academic Publishing</publish>
+</pubinfo>
+<othercit>Publication Control #: 1090</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Most arid and semi-arid landscapes have a limited cover of vascular vegetation with the soil spaces between vascular plants containing communities of cyanobacteria, green algae, microfungi, and other bacteria. In the top few millimeters of soil, the cyanobacterial and microfungal filaments weave among soil grains and create a crust that helps to stabilize and protect soil surfaces from erosion. USGS scientist Jayne Belnap has studied the importance of biological soil crusts in many regions, including the arid Arabian sabkhat where crusts have important ecological roles. For example, biological soil crusts help to input nitrogen and carbon, maintain nutrients required by plants in a biologically available form, influence local hydrology, affect the establishment of vascular, and decrease soil erosion from either wind or water. Although no studies have directly addressed the ecological role of soil crusts on sabkha surfaces, there are many studies from hot desert ecosystems that are applicable to these systems. However, it is hoped that further studies will determine more specifically how soil crusts affect the ecology of Arabian sabkhat.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>
+Extent of item: 10pp
+Illustrative Matter: pictures
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Arabian peninsula, United Arab Emirates, Tunisia</descgeog>
+<bounding>
+<westbc>7.5</westbc>
+<eastbc>56.65</eastbc>
+<northbc>37.75</northbc>
+<southbc>22.5</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>NBII Biocomplexity Thesaurus</themekt>
+<themekey>Terrestrial ecosystems</themekey>
+<themekey>Arid environments</themekey>
+<themekey>sabkhas</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Arabian Sabkhat</placekey>
+<placekey>Arabian Peninsula</placekey>
+<placekey>United Arab Emirates</placekey>
+<placekey>Tunisia</placekey>
+<placekey>Africa</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>biological soil crusts</taxonkey>
+</keywtax>
+<taxoncl>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Monera</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Cyanophycota</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Fungi</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Ascomycotina</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Belnap, Jayne</cntper>
+<cntorg>Forest and Rangeland Ecosystem Science Center (FRESC)</cntorg>
+</cntperp>
+<cntpos>Station Leader</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2290 S. West Resource Blvd.</address>
+<city>Moab</city>
+<state>UT</state>
+<postal>84532</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(435) 719-2333</cntvoice>
+<cntfax>(435) 719-2300</cntfax>
+<cntemail>jayne_belnap@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #: 1090</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20050324</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_pub1090.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_GR003.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Dr. Gene Rankey</origin>
+<pubdate>2004</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Andros Island wetlands - impact of hurricane Michelle</title>
+<edition>First</edition>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>Journal of Sedimentary Research</sername>
+<issue>in press, 2004</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Tulsa, Oklahoma, USA</pubplace>
+<publish>SEPM-Society for Sedimentary Geology</publish>
+</pubinfo>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Major storms commonly are cited as important geomorphic and sedimentologic agents, and their significance is perhaps most emphatically noted in interpretations of modern and ancient tidal flats. The purpose of this study was to assess the impact of Hurricane Michelle on the carbonate tidal flats of Andros Island, Bahamas, by coupling remote-sensing data and field observations.  Although regional MODIS remote-sensing data reveal that the passage of Hurricane Michelle suspended sediments across the shallow bank, integrating ultra-high-resolution remote-sensing data with field observations demonstrates that the hurricane had almost no impact the Andros Islands tidal flats.  This lack of impact is surprising because the storm still had hurricane- force winds as it passed immediately over some of the focal areas.  With this hurricane, storm strength and intra-storm interval probably were not limiting factors.  Instead, several influences combined to minimize the storm's impact on both sediment and erosion, including the low level of water on the bank resulting from ebb tides and, in the northwestern area, from offshore storm winds, and the short duration of the storm resulting from its high forward velocity.  Given the apparent prevalence of widespread storm effects on ancient tidal flats, but the spatially limited major geomorphic impacts of storms on many modern systems, we suggest that the geologic evolution and preservation of ancient tidal-flat successions may have been shaped by mega-storms that simply cannot form in the present global climate.  Nonetheless, understanding tidal-flat dynamics and changes on human timescales will require continued monitoring and assessment of low-impact storms such as Michelle, as well the more sensational hurricanes that produce widespread death, destruction, and deposition.</abstract>
+<purpose>The purpose of this study was to assess the impact of Hurricane Michelle on the carbonate tidal flats of Andros Island, Bahamas, by coupling remote-sensing data and field observations.</purpose>
+<supplinf>(previous geoform was 'remote sensing images, photos')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>200106</begdate>
+<begtime>Unknown</begtime>
+<enddate>200204</enddate>
+<endtime>Unknown</endtime>
+</rngdates>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None Planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-78.37</westbc>
+<eastbc>-77.58</eastbc>
+<northbc>25.10</northbc>
+<southbc>24.15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>remote sensing</themekey>
+<themekey>Hurricane Michelle</themekey>
+<themekey>wetlands</themekey>
+<themekey>geomorphology</themekey>
+<themekey>sedimentology</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Andros Islands</placekey>
+<placekey>Bahamas</placekey>
+</place>
+</keywords>
+<accconst>Dr. Rankey owns the photos.  The remote sensing images are owned by Spaceimaging.com, but Dr. Rankey has a license for them.</accconst>
+<useconst>1) Must refer to the source 2) For remote sensing data, must cite, "Copyright Spaceimaging.com"</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Dr. Gene Rankey</cntper>
+<cntorg>University of Miami - Rosenstiel School of Marine and Atmospheric Science</cntorg>
+</cntperp>
+<cntpos>Professor</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>University of Miami</address>
+<address>Rosenstiel School of Marine &amp; Atmospheric Science</address>
+<address>Grosvenor Laboratory N252</address>
+<address>4600 Rickenbacker Causeway</address>
+<city>Miami</city>
+<state>Florida</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(305)361-4690</cntvoice>
+<cnttdd>none</cnttdd>
+<cntfax>(305) 361-4632</cntfax>
+<cntemail>grankey@rsmas.miami.edu</cntemail>
+<hours>Monday - Friday 5am - 6pm</hours>
+<cntinst>Best to Call</cntinst>
+</cntinfo>
+</ptcontac>
+<datacred>Paul Enos, Kelley Steffen, Dominic Druke</datacred>
+</idinfo>
+<dataqual>
+<logic>unknown</logic>
+<complete>Observations were based upon four 11km x 11km areas along with field checks.</complete>
+<posacc>
+<horizpa>
+<horizpar>All positions are determined using satellite information</horizpar>
+<qhorizpa>
+<horizpav>30.0</horizpav>
+<horizpae>Satellite information was accurate within a few meters.</horizpae>
+</qhorizpa>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>not applicable to this study</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+<cloud>15</cloud>
+</dataqual>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.001</latres>
+<longres>0.001</longres>
+<geogunit>Degrees and decimal minutes</geogunit>
+</geograph>
+</horizsys>
+</spref>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Dr. Gene Rankey</cntper>
+<cntorg>University of Miami - Rosenstiel School of Marine and Atmospheric Science</cntorg>
+</cntperp>
+<cntpos>Professor</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>University of Miami</address>
+<address>Rosenstiel School of Marine &amp; Atmospheric Science</address>
+<address>Grosvenor Laboratory N252</address>
+<address>4600 Rickenbacker Causeway</address>
+<city>Miami</city>
+<state>Florida</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(305) 361-4690</cntvoice>
+<cnttdd>none</cnttdd>
+<cntemail>grankey@rsmas.miami.edu</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Andros Island wetlands - impact of hurricane Michelle</resdesc>
+<distliab>none</distliab>
+<stdorder>
+<nondig>Contact Dr. Gene Rankey (contributor) and request a hardcopy of the data.</nondig>
+<fees>none</fees>
+<ordering>Call Dr. Rankey to make the request.</ordering>
+<turnarnd>&lt; 1 week</turnarnd>
+</stdorder>
+<techpreq>none</techpreq>
+</distinfo>
+<metainfo>
+<metd>20040607</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Rosenstiel School of Marine and Atmospheric Science - Library</cntorg>
+</cntorgp>
+<cntpos>Research Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>University of Miami</address>
+<address>Rosenstiel School of Marine &amp; Atmospheric Science</address>
+<address>Library</address>
+<address>4600 Rickenbacker Causeway</address>
+<city>Miami</city>
+<state>Florida</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(305) 361-4007</cntvoice>
+<cnttdd>none</cnttdd>
+<cntfax>(305)361-9306</cntfax>
+<hours>Monday-Friday 8:30am-6pm</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>20010601</begdate><enddate>20020431</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_GR003.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

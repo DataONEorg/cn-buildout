@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_throveg.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>
+Remote Sensing and GIS Group, Technical Service
+Center, US Bureau of Reclamation, MC-D8260, POB
+25007, Denver CO 80225
+</origin>
+<pubdate>2000</pubdate>
+<title>Theodore Roosevelt NP Vegetation Database</title>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Theodore Roosevelt NP</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS/BRD</publish>
+</pubinfo>
+<othercit>Database created under contract to the USGS/BRD</othercit>
+<onlink>http://biology.usgs.gov/npsveg/index.html</onlink>
+<onlink>http://www.rsgis.do.usbr.gov</onlink>
+<onlink>http://biology.usgs.gov/npsveg/thro/throveg.html</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/thro/thro.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/thro/throsdts.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/thro/throbdy.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/thro/throbdysdts.exe</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+This metadata is for all coverages associated with
+the vegetation land cover and land use geo-spatial
+database for Theodore Roosevelt National Park and
+surrounding areas.  The project is authorized as
+part of the USGS/NPS Vegetation Mapping Program.
+The program is being administered by the
+Biological Resources Division (BRD) of the United
+States Geological Survey (USGS).  The USGS/BRD is
+responsible for overall management and oversight
+of all ongoing mapping efforts.  This mapping
+effort was performed by the US Bureau of
+Reclamation's (USBR) Remote Sensing and GIS Group,
+Technical Service Center, Denver, CO. The
+vegetation mapping program is part of a larger
+Inventory and Monitoring (I&amp;M) program started by
+the National Park Service (NPS) Their website is :
+http://www.aqd.nps.gov/nrid/im/
+</abstract>
+<purpose>
+The purposes of the mapping effort are varied and
+include the following: Provides support for NPS
+Resources Management; Promotes vegetation-related
+research for both NPS and USGS/BRD; Provides
+support for NPS Planning and Compliance; Adds to
+the information base for NPS Interpretation; and
+Assists in NPS Operations.  The NPS  I&amp;M goals
+are, among others, to map the vegetation of all
+national parks and monuments and provide a
+baseline inventory of vegetation.
+</purpose>
+<supplinf>
+The following vegetation and land use classes were
+mapped for this project:       LAND USE:  51
+Transportation, Communications, and Utilities; 52
+Mixed Urban or Built-up Land; 53   Croplands and
+Pasture; 54   Seeded Mixed Grass Prairie; 55
+Other Agricultural Land; 56   Streams - Rivers; 57
+Reservoirs; 58   Beaches and Sandy Areas; 59
+Strip Mines, Quarries, and Gravel Pits; and 60
+Oil/Gas Well Drill Pads and Roads.
+VEGETATION:  1    Prairie Dog Town Disturbed
+Community; 2 Badlands Sparse Vegetation Complex; 3
+Scoria Sparse Vegetation Complex; 4 Long-leaved
+Sagebrush Sparse Vegetation Alliance; 10 Leafy
+Spurge Herbaceous Alliance; 11 Canada Thistle
+Herbaceous Alliance; 12 Prairie Sand-reed Grass
+Herbaceous Alliance; 13 Prairie Cordgrass
+Temporarily Flooded Herbaceous Alliance; 14
+Cattail - Bulrush Semi-permanently Flooded
+Herbaceous Alliance; 15  Little Bluestem -
+Sideoats Grama Herbaceous Alliance; 16  Western
+Wheatgrass Herbaceous Alliance; 17  Introduced
+Grassland Herbaceous Alliance; 18  Blue Grama
+Herbaceous Alliance; 30  Horizontal Juniper Dwarf
+Shrub Alliance; 31  Silver Sagebrush/Western
+Wheatgrass Shrubland; 33  Rabbitbrush Shrubland
+Alliance; 35  Three-leaved Sumac Shrubland
+Alliance; 36  Buffaloberry Shrubland Alliance; 37
+Wolfberry Temporarily Flooded Shrubland Alliance;
+38  Sandbar Willow Semi-permanently Flooded
+Shrubland Alliance; 39  Greasewood Temporarily
+Flooded Shrubland Alliance; 41 Cottonwood -
+Peachleaf Willow Floodplain Woodland; 42
+Cottonwood - Rocky Mtn Juniper Floodplain
+Woodland; 43 Cottonwood Temporarily Flooded
+Woodland Alliance; 44 Green Ash - American Elm
+Woodland Alliance (Draws); 45 Green Ash - American
+Elm Temporarily Flooded Woodland Alliance; 46
+Quaking Aspen Woodland Alliance; 47 Rocky Mountain
+Juniper Woodland Alliance; and 48 Ponderosa Pine
+Woodland Alliance.
+(previous geoform was 'map')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>199607</caldate>
+</sngdate>
+<sngdate>
+<caldate>199608</caldate>
+</sngdate>
+</mdattim>
+</timeinfo>
+<current>Dates of aerial photography</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<spdom>
+<descgeog>Theodore Roosevelt NP and surrounding environs</descgeog>
+<bounding>
+<westbc>-103.75</westbc>
+<eastbc>-103.125</eastbc>
+<northbc>47.75</northbc>
+<southbc>46.75</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Land cover</themekey>
+<themekey>Land use</themekey>
+<themekey>Vegetation</themekey>
+<themekey>National Park Service</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>North Dakota</placekey>
+<placekey>Theodore Roosevelt National Park</placekey>
+<placekey>Little Missouri River</placekey>
+<placekey>Little Missouri National Grasslands</placekey>
+<placekey>Elkhorn Ranch</placekey>
+<placekey>Medora</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>vegetation</taxonkey>
+<taxonkey>plants</taxonkey>
+<taxonkey>National Vegetation Classification System</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>Anderson, et al</origin>
+<pubdate>1976</pubdate>
+<title>A Land Use and Land Cover Classification System for Use with Remote Sensor Data</title>
+<geoform>document</geoform>
+<serinfo>
+<sername>Geological Survey Professional Paper</sername>
+<issue>No. 964</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>US GPO</publish>
+</pubinfo>
+<othercit>This project used the Level II Land Use Classes</othercit>
+<onlink>http://biology.usgs.gov/npsveg/classification/index.html</onlink>
+</citeinfo>
+</classcit>
+</classsys>
+<taxonpro>Sequence of field test data plots, observation plots, and photo-signature observations.</taxonpro>
+</taxonsys>
+<taxongen>Refer to complete listing of mapped plant alliances/associations under Supplemental Information above.</taxongen>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>
+Acknowledgment of the USGS/BRD and the USBR/RSGIS
+Group would be appreciated in products derived
+from these data.  Any person using the information
+presented here should fully understand the data
+collection and compilation procedures, as
+described in the metadata, before beginning
+analysis.  The burden for determining fitness for
+use lies entirely with the user.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>
+USGS Biological Resources Division, Center for Biological
+Informatics
+</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>Building 810, Room 8000</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>PO BOX 25046, DFC, MS302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/thro/images/throveg.jpg</browsen>
+<browsed>249 Kbyte</browsed>
+<browset>JPEG</browset>
+</browse>
+<datacred>
+Dan Cogan, Doug Crawford, Jean Pennell, Trudy
+Meyer, Jim Von Loh
+</datacred>
+<native>UNIX-ARC/INFO</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+These data have an overall accuracy of 74.3%
+(71.3% Kappa index) within a 90% confidence
+interval of 70.3 to 78.3%.
+</attraccr>
+</attracc>
+<logic>
+All polygon features are checked for topology and
+existence of label points using the ARC/INFO
+software.  Each polygon begins and ends at the
+same point with the node feature.  All nodes are
+checked for error so that there are no
+unintentional dangling features.  There are no
+duplicate lines or polygons.  All nodes will snap
+together and close polygons based on a specified
+tolerance.  If the node is not with the tolerance
+it is adjusted manually.  The tests for logical
+consistency are performed in ARC/INFO using
+certain commands.
+</logic>
+<complete>
+All data that can be photo-interpreted are
+digitized in accordance with the minimum mapping
+unit (MMU) of 1/2 hectare.  This includes selected
+features that fall into the NVCS vegetation
+classification and the Anderson Level II land use
+classification.  Some classes below the MMU are
+included such as wetlands and grasslands in
+badlands areas and polygons cut off by other
+features and borders.  Roads (out to visible
+disturbed ground right-of-way or fence line) and
+streams/drainages wider than approx 10 meters were
+digitized as polygons and attributed accordingly.
+Roads visible on the orthophotos but thinner than
+10 meters were digitized as lines. Wet drainages
+thinner than 10 meters were digitized as lines and
+attributed with code #14.  Dry drainages thinner
+than 10 meters were not digitized.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+USGS DOQQ's were used as the basemap for this
+project.  The attribute accuracy stated above may
+also reflect horizontal positional accuracy.
+</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>
+This database contains no vertical or elevation
+data.
+</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>Ground Truth</methkey>
+<methkey>GPS</methkey>
+<methkey>Field Plot</methkey>
+<methkey>National Vegetation Classification System</methkey>
+<methkey>Anderson Level II</methkey>
+</methodid>
+<methdesc>
+Refer to the steps outlined in Process Description
+below.
+</methdesc>
+<methcite>
+<citeinfo>
+<origin>
+Remote Sensing and GIS Group, Technical Service
+Center, US Bureau of Reclamation, MC-D8260, POB
+25007, Denver CO 80225
+</origin>
+<pubdate>2000</pubdate>
+<title>Theodore Roosevelt NP Vegetation Database</title>
+<geoform>map</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Theodore Roosevelt NP</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS/BRD</publish>
+</pubinfo>
+<othercit>Database created under contract to the USGS/BRD</othercit>
+<onlink>http://biology.usgs.gov/npsveg/index.html</onlink>
+<onlink>http://www.rsgis.do.usbr.gov</onlink>
+</citeinfo>
+</methcite>
+</method>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>USGS</origin>
+<pubdate>Unknown</pubdate>
+<title>
+Digital Orthophoto Quarter Quadrangles.  See other
+information below for list.
+</title>
+<geoform>remote-sensing image</geoform>
+<othercit>
+List of DOQQs used as basemaps for this project
+(text in parenthesis indicates Arc/Info coverage
+filename): Bear Butte (bear_bt), Belfield
+(belfield), Belfield SW (blfld_sw), Buckskin Butte
+(bkskn_bt), Buffalo Gap Campground (bufgp_cp),
+Chimney Buttes (chmny_bt), Eagle Draw, Gorham SE &amp;
+SW (gorhm_se, gorhm_sw), Fryburg, (fryburg),
+Fryburg NE &amp; NW (frybr_ne, frybr_nw), Ice Box
+Canyon (icebx_cn), Hanks Gully, Lone Butte
+(lone_bt), Lone Butte NW (ln_bt_nw), Long X Divide
+(longx_dv), Medora, Red Wing Creek (rdwng_cr),
+Roosevelt Creek East &amp; West, Sperati Point
+(sprti_pt), Stocke Butte (stck_bt), Tepee Buttes
+(tepe_bts), Tracy Mountain (tracy_mt), Wannagan
+Creek East &amp; West (wna_cr_e, wna_cr_w), Wolf
+Coulee (wolf_cle)
+</othercit>
+<onlink>http://edc.usgs.gov/Webglis/glisbin/glismain.pl</onlink>
+</citeinfo>
+</srccite>
+<srcscale>12000</srcscale>
+<typesrc>CD-ROM</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>1991</begdate>
+<enddate>1995</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>None</srccitea>
+<srccontr>None</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>USDA-FSA, Aerial Photography Field Office</origin>
+<pubdate>199608</pubdate>
+<title>1:24k Color Aerial Photographs</title>
+<geoform>remote-sensing image</geoform>
+<serinfo>
+<sername>Little Missouri National Grasslands</sername>
+<issue>611089</issue>
+</serinfo>
+<pubinfo>
+<pubplace>P.O. Box 30010, SLC, Utah 84130</pubplace>
+<publish>USDA, Farm Service Agency</publish>
+</pubinfo>
+<othercit>See database for photographs used.</othercit>
+<onlink>http://www.apfo.usda.gov/</onlink>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>photographs</typesrc>
+<srctime>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>199607</caldate>
+</sngdate>
+<sngdate>
+<caldate>199608</caldate>
+</sngdate>
+</mdattim>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>None</srccitea>
+<srccontr>None</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>
+PHOTO INTERPRETATION:  All map classes were
+interpreted from 1:24,000 scale,  color
+photography flown in July &amp; August 1996.  The
+photographs were acquired from the USDA and were
+enlarged to 1:12000. Photo-interpretation used the
+standard identification features such as tone,
+texture, color, pattern, topographic position, and
+shadow.  In addition, field sample locations and
+their vegetation descriptions aided in assigning
+map class to each polygon. Photographs were
+examined using a stereoscope as needed.  Linework
+was created on mylars placed over the photos.  GIS
+PROCEDURES:  The linework on the mylar overlays
+were transferred into the GIS database by one of
+two methods, either heads-up digitizing or
+scanning.  METHOD I:  Heads-up digitizing will be
+used whenever the photo does not include many
+complicated grassland polygons as these are the
+most difficult to transfer using heads-up
+digitizing.  This will usually mean photos with
+mostly badlands topography or agricultural lands
+(i.e., have boundaries that are easy to see on the
+digital orthophoto image) will be transferred
+using the heads-up method.  Briefly, heads-up
+digitizing is a procedure whereby the operator
+digitizes by hand and eye on a computer terminal
+screen showing a digital image of an
+ortho-rectified photo.  By looking at similar
+features on both the aerial photograph from which
+the classification was made and on the orthophoto,
+the line drawn on the aerial photo overlay is
+transferred to the digital image, which is
+registered to coordinates on the earth.  This
+technique should produce good results except where
+there is little feature contrast on the ortho, in
+which case the operator must estimate the shape
+and location of the line work.  Using this
+technique, a curve on the photo may appear to be a
+series of short, differently-angled straight line
+segments, since it is easier to make a curve with
+a pencil or pen than it is with digitized discrete
+points.  Depending on the density of digitized
+points, this may or may not be a problem.  The
+analyst may set the digitizing software to
+calculate a pseudo-curve of many points by
+inputting as few as three points to define a
+curve.  METHOD II:  Photos that are too difficult
+to accurately transfer via heads-up will be
+scanned, ie, the mylars overlays will be scanned,
+not the actual photos.  Before the mylar is
+scanned, it will be marked with control points
+that correspond to visible points on the DOQQ.
+The GIS software was used to convert the scanned
+mylar into a geo-referenced coverage which was
+then attributed and combined with the larger
+vegetation coverage associated with the quarter
+quad area.  The entire transfer and editing
+sequence was automated via in-house Arc/INFO AML
+programs.  The final vegetation coverages consist
+of (1) Quarter-quad, Park, and GIS project area
+boundary arcs, if applicable, and (2) vegetation
+polygons. Linear wetland features were put in a
+separate coverage called 'drainage'.  Another step
+involved heads-up digitizing of roads and
+railroads visible on the DOQQ in accordance with
+the criteria discussed  above. OTHER DATA:
+Coverages for the plot and observation data points
+were created from the plot and observation data
+sheets.  The coordinates on the data sheets were
+in datum NAD27.  Once the coverages were finalized
+they were reprojected into datum NAD83. The
+Drainage coverage was created by taking arcs
+attributed with veg_code = 14 out of the
+vegetation coverage and 'put' into the drainage
+coverage.
+</procdesc>
+<procdate>1999</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>
+Remote Sensing and Geographic Information Group,
+USBR
+</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>P.O. Box 25007</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>303-445-2267</cntvoice>
+<cntfax>303-445-6337</cntfax>
+<cntemail>mpucherelli@do.usbr.gov</cntemail>
+<hours>
+7:00 a.m. to 3:00 p.m. Monday Through Friday,
+Mountain Time
+</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>
+Theodore Roosevelt National Park, USGS 7.5 minute
+quadrangle names
+</indspref>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Label point</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>13</utmzone>
+<transmer>
+<longcm>-105</longcm>
+<latprjo>0</latprjo>
+<feast>0</feast>
+<fnorth>0</fnorth>
+<sfctrmer>.9996</sfctrmer>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>1</absres>
+<ordres>1</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodedic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+VEGETATION COVERAGES: Due to the large size of the
+database, vegetation coverages were named
+according to associated USGS 7.5m quads.
+Exception; the Elkhorn Ranch Unit coverage is
+named ranch_veg. Naming convention:
+&lt;quadname&gt;_veg# with # referring to the quarter
+quadrant as follows: 1 - Northwest quadrant; 2 -
+Northeast quadrant; 3 - Southeast quadrant; 4 -
+Southwest quadrant. Coding Information: Polygon
+coverage with labels in each polygon with the
+following custom items: (veg_code - 3 3 I)* coded
+with vegetation classification number.  See
+Supplemental Info under Id Info above for complete
+listing of attribute codes and their descriptions;
+(photo - 6 6 I) coded with associated photo
+number; (location - 10 10 I) coded according to
+whether the polygon is in the park or environs
+(buffer) area; (pdog - 2 2 I) for prairie dog
+colonies coded with 0 (no pdog holes) or 1
+(polygon has pdog holes); and (lspr - 2 2 I) for
+leafy spurge coded with 0 for none and 1 for
+polygon has leafy spurge.  These last two items
+were used to show areas that were not classified
+as prairie dog colonies or leafy spurge but had
+substantial pdog use or leafy spurge; Also, each
+arc was coded as follows: (digtype - 2 2 I)) coded
+to identify how the arc was transferred into the
+database or type of arc as follows:   1 =
+heads-up, on screen digitizing; 2 = scanned mylar;
+3 = arc associated with GIS project border; 4 =
+arc associated with quarterquad border; 5 = arc
+associated with park border. (veg_code - 3 3 I)
+linear wetland features coded with vegetation
+classification number.  Arcs attributed class 14
+were extracted and put into a separate (line)
+coverage named drainage.  Some of the class 14
+arcs remained in the _veg coverage if it also
+delineated a unique polygon. BOUNDARY COVERAGES:
+bndrypark - Park boundary coverage.  This coverage
+was obtained from Theodore Roosevelt National Park
+Headquarters. bndryproj - GIS mapping project
+area. bndryquad - Boundaries of all the 7.5m
+quads. bndrygrds - Grad-sect boundaries. Coding
+Information: bndrypark - line coverage - no custom
+attributing. bndryproj - line coverage - no custom
+attributing. bndryquad - polygon coverage with
+labels in each quad polygon with the following
+items: (quadname - 8 8 c) - abbreviated name for
+each quad; (fullname - 20 20 c) - full quadname.
+DATA COVERAGES: dataobsv
+- Point coverage of observation data points.
+dataplot - Point coverage of plot data points.
+Coding Information: Label points with items as
+follows: (plot_code - 3 3 n) coded with plot
+number from plot data sheets; (veg_code - 14 14 c)
+coded with veg class text; (type - 10 10 c) coded
+with broad vegetation class (eg: woodland). Note1:
+x-coord and y-coord added with ARC/INFO "addxy"
+command. Note2:  Field data points were collected
+with GPS units set to datum NAD27.  All coverages
+were re-projected into Datum NAD83 so the x- y-
+coordinates will not match those shown on the data
+sheets. OTHER COVERAGES: sec_roads - Line coverage
+of secondary roads digitized from USGS DOQQ.
+railroads - Line coverage of railroads digitized
+from USGS DOQQ. The parks projects will be using
+DOQQ's as the basemap for transfer of information
+from the photos to the GIS database.  The DOQQ's
+are standard USGS product and are in datum of
+NAD83. (*) Item definition in the arc/info
+database.
+</eaover>
+<eadetcit>
+Theodore Roosevelt National Park, USGS/NPS
+Vegetation Mapping Program, Technical Memorandum
+No. 8260-00-04, USBR
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>Center For Biological Informatics, USGS/BRD</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>P.O. Box 24046, MS-302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>303-202-4259</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+<hours>7:30am to 4:00 pm Mon-Fri, Mountain Time</hours>
+</cntinfo>
+</distrib>
+<resdesc>Theodore Roosevelt National Park Vegetation Maps</resdesc>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the U.S.
+Geological Survey, no warranty expressed or
+implied is made regarding the accuracy or utility
+of the data on any other system or for general or
+scientific purposes, nor shall the act of
+distribution constitute any such warranty. This
+disclaimer applies both to individual use of the
+data and aggregate use with other data.  It is
+strongly recommended that these data are directly
+acquired from a U.S. Geological Survey server, and
+not indirectly through other sources which may
+have changed the data in some way.  It is also
+strongly recommended that careful attention be
+paid to the contents of the metadata file
+associated with these data.  The U.S. Geological
+Survey shall not be held liable for improper or
+incorrect use of the data described and/or
+contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ARC/INFO</formname>
+</digtinfo>
+<digtopt>
+<offoptn>
+<offmedia>CD-ROM</offmedia>
+<recfmt>ISO 9660</recfmt>
+</offoptn>
+</digtopt>
+</digform>
+<fees>Media, Shipping, and Handling</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>JPG</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/thro/images/throveg.jpg</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/thro/thro.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/thro/throsdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/thro/throbdy.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/thro/throbdysdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>200001</metd>
+<metrd>20050517</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19960701</begdate><enddate>19960831</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_throveg.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

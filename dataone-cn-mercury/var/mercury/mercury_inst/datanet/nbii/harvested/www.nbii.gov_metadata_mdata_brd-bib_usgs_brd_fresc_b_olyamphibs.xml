@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_olyamphibs.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Adams, M.J. and R. B. Bury</origin>
+<pubdate>2000</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Amphibians of Olympic National Park</title>
+<geoform>pamphlet</geoform>
+<serinfo>
+<sername>USGS Fact Sheet</sername>
+<issue>098-00</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Corvallis, OR</pubplace>
+<publish>USGS, Forest and Rangeland Ecosystem Science Center</publish>
+</pubinfo>
+<othercit>Publication Control #1112</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This fact sheet describes the groups of amphibians found in Olympic National Park. Salamanders, frogs and toads live in the ponds, streams or moist, rocky areas found in the park. The life cycles and habits of these amphibians are described in the fact sheet and possible reasons for amphibian declines are discussed.  The effect of elevation and ultraviolet radiation exposure or introduced fish on amphibian numbers is considered, but no serious amphibian decline appears to be occurring in Olympic National Park at the present time. Resident amphibians such as Cope's giant salamander is found only on the Olympic Peninsula and the tailed frog is found only in the Pacific Northwest.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>4 pp., photographs, table, map</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2000</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Olympic National Park, Washington</descgeog>
+<bounding>
+<westbc>-124.76079</westbc>
+<eastbc>-116.91815</eastbc>
+<northbc>49</northbc>
+<southbc>45.5432</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>amphibians</themekey>
+<themekey>frogs</themekey>
+<themekey>toads</themekey>
+<themekey>salamanders</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Olympic National Park</placekey>
+<placekey>Washington</placekey>
+<placekey>WA</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>Biocomplexity Thesaurus</taxonkt>
+<taxonkey>amphibians</taxonkey>
+<taxonkey>frogs</taxonkey>
+<taxonkey>salamanders</taxonkey>
+<taxonkey>toads</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<common>animal</common>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<common>chordates</common>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Amphibia</taxonrv>
+<common>amphibian</common>
+<taxoncl>
+<taxonrn>Sub Class</taxonrn>
+<taxonrv>Lissamphibia</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Anura</taxonrv>
+<common>frogs</common>
+<common>toads</common>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Hylidae</taxonrv>
+<common>tree frogs</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Pseudacris</taxonrv>
+<common>chorus frogs</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Pseudacris regilla</taxonrv>
+<common>Pacific tree frog</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Ranidae</taxonrv>
+<common>ranid frogs</common>
+<common>ranids</common>
+<common>riparian frogs</common>
+<common>true frogs</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Rana</taxonrv>
+<common>true frogs</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Rana aurora</taxonrv>
+<common>red-legged frog</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Rana cascadae</taxonrv>
+<common>Cascades frog</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Ascaphidae</taxonrv>
+<common>tailed frog</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Ascaphus</taxonrv>
+<common>tailed frogs</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Ascaphus truei</taxonrv>
+<common>tailed frog</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Bufonidae</taxonrv>
+<common>toads</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Bufo</taxonrv>
+<common>toads</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Bufo boreas</taxonrv>
+<common>western toad</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Caudata</taxonrv>
+<common>salamanders</common>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Ambystomatidae</taxonrv>
+<common>mole salamanders</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Ambystoma</taxonrv>
+<common>mole salamanders</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Ambystoma gracile</taxonrv>
+<common>Northwestern salamander</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Ambystoma macrodactylum</taxonrv>
+<common>long-toed salamander</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Salamandridae</taxonrv>
+<common>newts</common>
+<common>salamanders</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Taricha</taxonrv>
+<common>Pacific newts</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Taricha granulosa</taxonrv>
+<common>rough-skinned newt</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Dicamptodontidae</taxonrv>
+<common>giant salamanders</common>
+<common>Olympic salamanders</common>
+<common>Pacific giant salamanders</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Dicamptodon</taxonrv>
+<common>giant salamanders</common>
+<common>Pacific giant salamanders</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Dicamptodon copei Nussbaum</taxonrv>
+<common>Cope's giant salamander</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Rhyacotritonidae</taxonrv>
+<common>Torrent salamanders</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Rhyacotriton</taxonrv>
+<common>Olympic salamanders</common>
+<common>Olympic torrent salamanders</common>
+<common>torrent salamanders</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Rhyacotriton olympicus</taxonrv>
+<common>Olympic salamander</common>
+<common>Olympic torrent salamander</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Plethodontidae</taxonrv>
+<common>lungless salamanders</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Plethodon</taxonrv>
+<common>woodland salamanders</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Plethodon vandykei</taxonrv>
+<common>Van Dyke's salamander</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Plethodon vehiculum</taxonrv>
+<common>Western red-backed salamander</common>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Ensatina</taxonrv>
+<common>ensatinas</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Ensatina eschscholtzii</taxonrv>
+<common>ensatina</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #1112</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>PDF</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://fresc.usgs.gov/products/fs/fs-098-00.pdf</networkr>
+</networka>
+</computer>
+<accinstr>Download from FRESC Web site</accinstr>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20040630</metd>
+<metrd>20040710</metrd>
+<metfrd>20040810</metfrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>20000101</begdate><enddate>20001231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_olyamphibs.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

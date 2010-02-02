@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        
+        <origin><![CDATA[CURLIN, J.W.]]></origin>
+        
+        <origin><![CDATA[HARRIS, F.W.]]></origin>
+        
+        <origin><![CDATA[HUSTON, M.A.]]></origin>
+        
+        <origin><![CDATA[JOHNSON, D.W.]]></origin>
+        
+        <origin><![CDATA[TODD, D.E.]]></origin>
+        
+
+        <title><![CDATA[WALKER BRANCH WATERSHED VEGETATION INVENTORY, 1967-1997]]></title>
+
+        <onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/819.xml]]></onlink>
+        
+        <onlink><![CDATA[http://daac.ornl.gov//NPP/guides/WBW_veg_survey.html]]></onlink>
+        
+        
+        <geoform><![CDATA[metadata]]></geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[The original objectives of the long-term vegetation survey of Walker Branch Watershed in eastern Tennessee (WBW; Curlin and Nelson 1968) was to quantify the standing crop of vegetation through time including measures of tree/plant size distribution, species composition, above-ground biomass, and chemical balance. Field studies of permanent vegetation plots using one sample design were conducted over a 30-year period (1967 to 1997), and observations continue with funding from the U.S. Department of Energy's Program for Ecosystem Research.* This data set consists of long-term measurements of diameter at breast height (DBH) determined on randomly located permanent inventory plots within the 4 different vegetation types located on WBW in 1967.  In addition, the lignin to nitrogen content in leaves (g lignin / g N of leaf tissue) for species present in WBW was obtained from the literature. More information can be found at: http://walkerbranch.ornl.gov/.  Funding for long-term data collection efforts on Walker Branch was provided by the U.S. Department of Energy (DOE), Office of Science, Biological and Environmental Research (BER), as a part of the Program for Ecosystem Research (PER).]]></abstract>
+      <supplinf></supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[19670101]]></begdate>
+          <enddate><![CDATA[19971231]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Complete]]></progress>
+      <update><![CDATA[ As appropriate]]></update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-84.3</westbc>
+        <eastbc>-84.3</eastbc>
+        <northbc>35.9</northbc>
+        <southbc>35.9</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt><![CDATA[Parameter_Sensor_Source]]></themekt>
+        
+        <themekey><![CDATA[BIOMASS|ANALYSIS|FIELD INVESTIGATION]]></themekey>
+        
+        <themekey><![CDATA[PLANT CHARACTERISTICS|STEEL MEASURING TAPE|FIELD INVESTIGATION]]></themekey>
+        
+        <themekey><![CDATA[VEGETATION SPECIES|HUMAN OBSERVER|FIELD INVESTIGATION]]></themekey>
+        
+        
+        <themekt><![CDATA[Parameter]]></themekt>
+        
+        <themekey><![CDATA[BIOMASS]]></themekey>
+        
+        
+        <themekt><![CDATA[Source]]></themekt>
+        
+        <themekey><![CDATA[FIELD INVESTIGATION]]></themekey>
+        
+        
+        <themekt><![CDATA[Sensor]]></themekt>
+        
+        <themekey><![CDATA[ANALYSIS]]></themekey>
+        
+      </theme>
+      
+      <place>
+        <placekt><![CDATA[Place Keywords]]></placekt>
+        
+        <placekey><![CDATA[WALKER BRANCH, TENNESSEE, USA]]></placekey>
+        
+      </place>
+    </keywords>
+    
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[CURLIN, J.W.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; ]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)]]></cntorg>
+          <cntper><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; ]]></cntfax>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://daac.ornl.gov/]]></computer>
+            <accinstr><![CDATA[PUBLIC]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Huston, M.A., D.W. Johnson, D.E. Todd, J.W. Curlin, and F.W. Harris. 2005. Walker Branch Watershed Vegetation Inventory, 1967-1997. Data set. Available on-line [http://daac.ornl.gov/] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/819]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd><![CDATA[20051206]]></metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn><![CDATA[FGDC Content Standard for Digital Geospatial Metadata]]></metstdn>
+  </metainfo>
+  <Local-Control-Number><![CDATA[Created 2009 11 15 21 30 32 1252338632 by 160.91.11.44]]></Local-Control-Number>
+
+  <mercury>
+    <begdate>19670101</begdate>
+    <enddate>19971231</enddate>
+    
+    <Site_Information>
+      <Site><![CDATA[WALKER BRANCH, TENNESSEE, USA]]></Site>
+      <Westernmost_Longitude><![CDATA[-84.3]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[-84.3]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[35.9]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[35.9]]></Southernmost_Latitude>
+    </Site_Information>
+    
+
+    
+    <Keywords><![CDATA[WALKER BRANCH WATERSHED]]></Keywords>
+    
+    
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[BIOMASS ]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS ]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION ]]></Source>
+      <Term><![CDATA[VEGETATION ]]></Term>
+      <Topic><![CDATA[BIOSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[PLANT CHARACTERISTICS ]]></Parameter>
+      <Sensor><![CDATA[STEEL MEASURING TAPE ]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION ]]></Source>
+      <Term><![CDATA[VEGETATION ]]></Term>
+      <Topic><![CDATA[BIOSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[VEGETATION SPECIES ]]></Parameter>
+      <Sensor><![CDATA[HUMAN OBSERVER ]]></Sensor>
+      <Source><![CDATA[FIELD INVESTIGATION ]]></Source>
+      <Term><![CDATA[VEGETATION ]]></Term>
+      <Topic><![CDATA[BIOSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    
+    
+    <Project><![CDATA[NET PRIMARY PRODUCTIVITY (NPP)]]></Project>
+    
+    
+    
+    <Navpath><![CDATA[FIELD INVESTIGATION|ANALYSIS|BIOMASS]]></Navpath>
+    
+    <Navpath><![CDATA[FIELD INVESTIGATION|STEEL MEASURING TAPE|PLANT CHARACTERISTICS]]></Navpath>
+    
+    <Navpath><![CDATA[FIELD INVESTIGATION|HUMAN OBSERVER|VEGETATION SPECIES]]></Navpath>
+    
+    
+    
+    <Principal_Investigator>
+      <Name><![CDATA[CURLIN, J.W.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[HARRIS, F.W.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[HUSTON, M.A.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[JOHNSON, D.W.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[TODD, D.E.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    
+    
+    <Data_Set_Link>
+      <URL><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=819]]></URL>
+      <Label><![CDATA[WALKER BRANCH WATERSHED VEGETATION INVENTORY, 1967-1997]]></Label>
+      <Link_Note></Link_Note>
+    </Data_Set_Link>
+    
+  
+    
+    <Documentation_Link>
+      <URL><![CDATA[http://daac.ornl.gov//NPP/guides/WBW_veg_survey.html]]></URL>
+      <Label><![CDATA[WALKER BRANCH WATERSHED VEGETATION INVENTORY, 1967-1997]]></Label>
+      <Text></Text>
+    </Documentation_Link>
+    
+
+    
+
+        
+
+    <OME_Software_Version><![CDATA[/home/web/mercury/write_mercury_xml.pl]]></OME_Software_Version>
+    <OME_DTD_Version><![CDATA[mercury21.dtd]]></OME_DTD_Version>
+
+    
+    <Contact_Person>
+      <Email><![CDATA[ornldaac@ornl.gov]]></Email>
+      <Name><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></Name>
+      <Phone><![CDATA[+1(865)241-3952]]></Phone>
+    </Contact_Person>
+    
+    
+    <Temporal_Resolution></Temporal_Resolution>
+    <enddate_blank></enddate_blank>
+    <File_ID><![CDATA[819]]></File_ID>
+    <MD_Entry_id><![CDATA[npp_temp_forest_veg_survey]]></MD_Entry_id>
+    
+
+    <Spatial_Extent>0</Spatial_Extent>
+
+    
+    <Search_Text_Link>
+      <URL><![CDATA[http://daac.ornl.gov//NPP/guides/WBW_veg_survey.html]]></URL>
+      <Label><![CDATA[WALKER BRANCH WATERSHED VEGETATION INVENTORY, 1967-1997]]></Label>
+    </Search_Text_Link>
+    
+
+    
+    
+    <Granule_Details>
+    
+    </Granule_Details>
+    <OGC_URL></OGC_URL>
+
+
+  </mercury>
+
+</metadata>

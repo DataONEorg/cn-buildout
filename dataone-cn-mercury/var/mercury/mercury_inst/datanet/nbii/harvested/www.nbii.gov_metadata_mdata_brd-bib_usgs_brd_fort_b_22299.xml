@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_22299.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Stephenson, N., D. Peterson, D. Fagre, C. Allen, D. McKenzie, and J. Baron</origin>
+<pubdate>2007</pubdate>
+<title>Response of western mountain ecosystems to climatic variability and change: the Western Mountain Initiative</title>
+<geoform>publication</geoform>
+<othercit>Vol. 1(1) pages 4-9</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Stephenson, N., D. Peterson, D. Fagre, C. Allen, D. McKenzie, and J. Baron. 2007. Response of western mountain ecosystems to climatic variability and change: the Western Mountain Initiative. Mountain Views: The newsletter of the Consortium for Integrated Climate Research in Western Mountains (CIRMOUNT) . 1(1): 4-9 p.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2007</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Bandelier National Monument</descgeog>
+<bounding>
+<westbc>-114.4756317</westbc>
+<eastbc>-105.4937363</eastbc>
+<northbc>49.00161742</northbc>
+<southbc>35.763771</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Rocky Mountains</themekey>
+<themekey>Sierra Nevada</themekey>
+<themekey>Cascades</themekey>
+<themekey>climate change</themekey>
+<themekey>fire</themekey>
+<themekey>hydrology</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Glacier National Park</placekey>
+<placekey>Rocky Mountain National Park</placekey>
+<placekey>Bandelier National Monument</placekey>
+<placekey>Sequoia-Kings Canyon National Park</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Baron, J.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Baron, J.S., D. Peterson, and J. Wilson</origin>
+<pubdate>2008</pubdate>
+<title>Western Mountain Initiative: Predicting ecosystem responses to climate change</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>2 pp.</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Stephenson, N., D. Peterson, D. Fagre, C. Allen, D. McKenzie, and J. Baron</origin>
+<pubdate>2006</pubdate>
+<title>Response of western mountain ecosystems to climatic variability and change: the Western Mountain Initiative</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Park Science (ISSN 0735-9462)</sername>
+<issue>24(1):24-29</issue>
+</serinfo>
+<othercit>Vol. 24(1) pages 24-29</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Baron, J. (ed.)</origin>
+<pubdate>2002</pubdate>
+<title>Rocky Mountain futures: An ecological perspective</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>Island Press</publish>
+</pubinfo>
+<othercit>352 pp.</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Baron, J.S., and N. Caine</origin>
+<pubdate>2000</pubdate>
+<title>Temporal coherence of two alpine lake basins of the Colorado Front Range, USA</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Freshwater Biology</sername>
+<issue>43(3):463-476</issue>
+</serinfo>
+<othercit>Vol. 43(3) pages 463-476</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Baron, J.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Response of western mountain ecosystems to climatic variability and change: the Western Mountain Initiative.  FORT Library Archive Number: 2007/0119 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20070101</begdate><enddate>20071231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_22299.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21306.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Roelle, J.E</origin>
+<pubdate>2004</pubdate>
+<title>Bighorn sheep demography and population modeling, Bighorn Canyon National Recreation Area, Wyoming and Montana, 2000-2002</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Colllins Science Center</publish>
+</pubinfo>
+<othercit>pages 37-67</othercit>
+<lworkcit>
+<citeinfo>
+<origin>K.A. Schoenecker (compiler), ed.</origin>
+<pubdate>2004</pubdate>
+<title>Bighorn sheep habitat studies, population dynamics, and population modeling in Bighorn Canyon National Recreation Area, Wyoming and Montana, 2000-2003. Open-File Report 2004-1337</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Colllins Science Center</publish>
+</pubinfo>
+<othercit>pages 37-67</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Roelle, J.E. 2004. Bighorn sheep demography and population modeling, Bighorn Canyon National Recreation Area, Wyoming and Montana, 2000-2002. In: K.A. Schoenecker (compiler). Bighorn sheep habitat studies, population dynamics, and population modeling in Bighorn Canyon National Recreation Area, Wyoming and Montana, 2000-2003. Open-File Report 2004-1337. Open-file Report 2004-1337. Fort Collins, CO: U.S. Geological Survey, Fort Colllins Science Center. 37-67 p.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2004</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>population dynamics</themekey>
+<themekey>competition</themekey>
+<themekey>survivorship</themekey>
+<themekey>ungulate</themekey>
+<themekey>modeling</themekey>
+</theme>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>bighorn sheep</taxonkey>
+<taxonkey>Ovis canadensis</taxonkey>
+<taxonkey>wild horses</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Mammalia</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Artiodactyla</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Bovidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Ovis</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>canadensis</taxonrv>
+<common>Mountain sheep; bighorn sheep</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Perissodactyla</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Equidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Equus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>caballus</taxonrv>
+<common>Horse</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Schoenecker, K.A.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Schoenecker, K.A., (compiler)</origin>
+<pubdate>2004</pubdate>
+<title>Bighorn sheep habitat studies, population dynamics, and population modeling in Bighorn Canyon National Recreation Area, Wyoming and Montana, 2000-2003</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>202 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21386/21386.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Gudorf, M.A</origin>
+<pubdate>2004</pubdate>
+<title>Bighorn sheep habitat suitability assessment of the greater Bighorn Canyon National Recreation Area: a higher resolution analysis</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>pages 139-166</othercit>
+<lworkcit>
+<citeinfo>
+<origin>K.A Schoenecker (compiler), ed.</origin>
+<pubdate>2004</pubdate>
+<title>Bighorn sheep habitat suitability assessment of the greater Bighorn Canyon National Recreation Area: a higher resolution analysis</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>pages 139-166</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Schoenecker, K.A., F.J. Singer, K.A. Grams, and J.E. Roelle</origin>
+<pubdate>2004</pubdate>
+<title>Bighorn sheep (Ovis canadensis)survivorship and habitat studies in Bighorn Canyon National Recreation Area and surrounding lands, Wyoming and Montana, 2000-2003</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>pages 3-36</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21300/21300.asp</onlink>
+<lworkcit>
+<citeinfo>
+<origin>K.A Schoenecker (compiler), ed.</origin>
+<pubdate>2004</pubdate>
+<title>Bighorn sheep (Ovis canadensis)survivorship and habitat studies in Bighorn Canyon National Recreation Area and surrounding lands, Wyoming and Montana, 2000-2003</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>pages 3-36</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Schoenecker, K.A.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Bighorn sheep demography and population modeling, Bighorn Canyon National Recreation Area, Wyoming and Montana, 2000-2002.  FORT Library Archive Number: 2004/0101 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20040101</begdate><enddate>20041231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21306.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

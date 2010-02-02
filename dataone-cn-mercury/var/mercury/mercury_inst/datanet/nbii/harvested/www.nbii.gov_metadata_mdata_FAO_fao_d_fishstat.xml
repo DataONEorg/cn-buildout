@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FAO/fao_d_fishstat.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Food and Agriculture Organization</origin>
+<pubdate>2001</pubdate>
+<title>Fishstat - Fisheries Data Analysis Software and Data</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Food and Agriculture Organization</pubplace>
+<publish>Rome, Italy</publish>
+</pubinfo>
+<onlink>http://www.fao.org/fi/statist/FISOFT/FISHPLUS.asp#DownloadData</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>FishStat contains datasets organized by year, with statistics on capture, production, and value. Each dataset can be run through a set of filtering and aggregating options that help organize the data. The system consists of the main module and the datasets. Each dataset can be installed and uninstalled separately.</abstract>
+<purpose>The system provides users with access to Fishery Statistics of various sorts. Any data having time series structure can potentially be stored and processed by Fishstat Plus.</purpose>
+<supplinf>FishStat allows one to use a variety of charting tools.  With the Report Wizard you can produce 2D and 3D pie and bar charts using a wide variety of colors and layouts.  (previous geoform was 'statistics software')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>1950</begdate>
+<enddate>2000</enddate>
+</rngdates>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<descgeog>Eastern Central Atlantic, Mediterranean and Black Sea, Southeast Atlantic,</descgeog>
+<bounding>
+<westbc>-45</westbc>
+<eastbc>35</eastbc>
+<northbc>45</northbc>
+<southbc>30</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>fishery statistics software</themekey>
+<themekey>fish catch</themekey>
+<themekey>aquaculture</themekey>
+<themekey>fisheries</themekey>
+<themekey>capture production</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Eastern Central Atlantic</placekey>
+<placekey>Mediterranean</placekey>
+<placekey>Black Sea</placekey>
+<placekey>Souteast Atlantic</placekey>
+<placekey>Atlantic</placekey>
+<placekey>Las Palmas</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>fish</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<common>chordates</common>
+<taxoncl>
+<taxonrn>Subphylum</taxonrn>
+<taxonrv>Vertebrata</taxonrv>
+<common>vertebrates</common>
+<taxoncl>
+<taxonrn>Superclass</taxonrn>
+<taxonrv>Osteichthyes</taxonrv>
+<common>bony fishes</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Fishery Data Officer</cntper>
+<cntorg>Food and Agriculture Organization</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Viale delle Terme di Caracalla</address>
+<city>Rome</city>
+<postal>00100</postal>
+<country>Italy</country>
+</cntaddr>
+<cntvoice>(39) 06 570 55964</cntvoice>
+<cntfax>39 06 57052476</cntfax>
+<cntemail>FIDI-Inquiries@fao.org</cntemail>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>Food and Agriculture Organization</origin>
+<pubdate>Unknown</pubdate>
+<title>FishState Plus Help Manual-Fisheries Data Analysis Software for Windows</title>
+<geoform>manual</geoform>
+<pubinfo>
+<pubplace>Rome, Italy</pubplace>
+<publish>Food and Agriculture Organization</publish>
+</pubinfo>
+<onlink>http://www.fao.org/fi/statist/FISOFT/FISHPLUS.asp#Manual</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<logic>not applicable</logic>
+<complete>1. Aquaculture production: quantities 1970-2000: Download Ftp.fao.org/fi/stat/windows/fishplus/aquaq.zip (0.8 Mb).  Data included in the dataset are published as: FAO yearbook, Fishery statistics, Aquaculture production 2000. Vol 90/2. Formerly published as: FAO Fisheries Circular N.815 Rev.11 "Aquaculture Production Statistics" 2.  Aquaculture production: values 1984-2000: Download Ftp.fao.org/fi/stat/windows/fishplus/aquav.zip (0.8 Mb). Data included in the dataset are published as: FAO yearbook. Fishery statistics. Aquaculture production 2000. Vol. 90/2. Formerly published as: FAO Fisheries Circular N.815 Rev. 11 "Aquaculture Production Statistics" 3. Capture production 1970-2000: Download ftp.fao.org/fi/stat/windows/fishplus/capdet.zip (1.4 Mb).  Data included in the dataset are published as: FAO yearbook. Fishery statistics. Capture production 2000, Vol. 90/1. 4. Total production 1950-2000: Download Ftp.fao.org/fi/stat/windows/fishplus/fstat.zip (1.6 Mb).  Data up to 1995 included in the: FAO Yearbook of Fishery Statistics "Catches and Landings", Vol.80. This Yearbook is no longer published. 5. Fisheries commodities production and trade 1976-2000: Download Ftp.fao.org/fi/stat/windows/fishplus/fishcomm.zip (2.7 Mb). Data included in the dataset refer to:  FAO Yearbook, Fishery Statistics, Commodities 2000, Vol.91 6. CECAF (Eastern Central Atlantic) capture production 1970-2000: Download  ftp.fao.org/fi/stat/windows/fishplus/cecaf.zip (0.6 Mb). Data up to 1991 included in the: FAO Bulletin of Fishery Statistics "CECAF Nominal Catches", Vol.7. This Bulletin is no longer published. 7. GFCM (Mediterranean and Black Sea) capture production 1970-2000: Download Ftp.fao.org/fi/stat/windows/fishplus/gfcm.zip (0.6 Mb). Data up to 1991 included in the: FAO Bulletin of Fishery Statistics "GFCM Nominal Catches", Vol.9, This Bulletin is no longer published. 8. Southeast Atlantic capture production 1975-2000: Download Ftp.fao.org/fi/stat/windows/fishplus/atl_se.zip (0.6 Mb).</complete>
+<lineage>
+<procstep>
+<procdesc>not applicable</procdesc>
+<procdate>not applicable</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>Based on local reference names</indspref>
+</spdoinfo>
+<eainfo>
+<overview>
+<eaover>Entity - Fishery Statistics; Attributes - country, fish catch</eaover>
+<eadetcit>Food and Agriculture Organization</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Food and Agriculture Organization Fishstat Plus CD-ROM</cntorg>
+<cntper>Senior Fishery Statistician</cntper>
+</cntorgp>
+<cntpos>Senior Fishery Statistician, FIDI</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Viale delle Terme di Caracalla</address>
+<city>Rome</city>
+<postal>00100</postal>
+<country>Italy</country>
+</cntaddr>
+<cntvoice>(39) 06 570 55964</cntvoice>
+<cntfax>+39 06 57052476</cntfax>
+<cntemail>FIDI-Inquiries@fao.org</cntemail>
+</cntinfo>
+</distrib>
+<distliab>Although these data have been processed successfully on a computer system at the Food and Agriculture Organization, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a Food and Agriculture Organization server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The Food and Agriculture Organization shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>FishStat format</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.fao.org/fi/statist/FISOFT/FISHPLUS.asp#DownloadData</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None, if available online.</fees>
+</stdorder>
+<custom>Please contact distributor.</custom>
+<techpreq>Windows 3.1, Windows 95, Windows 98 or Windows NT. 10 MB of hard disk for the system.  Additional space for the datasets (2-12 MB per dataset). 8 MB RAM with Windows 3.1, 16 with Windows 95 or NT. Color VGA monitor, SVGA recommended.</techpreq>
+</distinfo>
+<metainfo>
+<metd>20011030</metd>
+<metfrd>20021031</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19500101</begdate><enddate>20001231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_FAO_fao_d_fishstat.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

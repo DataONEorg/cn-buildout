@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_GR001.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Dr. Gene Rankey</origin>
+<pubdate>200207</pubdate>
+<title>Andros Island Wetlands- historical changes "Quantified rates of geomorphic change on a modern carbonate tidal flat, Bahamas"</title>
+<edition>First</edition>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>Geology</sername>
+<issue>volume 30</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado, USA</pubplace>
+<publish>Geological Society of America</publish>
+</pubinfo>
+<othercit>p. 583-587</othercit>
+<onlink>http://www.gsajournals.org</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Comparison of aerial photographs and ultrahigh-resolution remote sensing data reveals changes in the geomorphology of a modern carbonate tidal flat. In the 58 yr between acquisition of the two data sets, several tidal channels have extended headward more than 100 m, channel bars have stabilized, the shoreline has eroded as much as 50 m, the inland algal marsh locally has prograded as much as 90 m, and many mangrove ponds have increased in size. These changes over the known time interval allow quantification of the rates of these geomorphic processes and suggest rates of migration of landforms to several meters per year. Some observed rates appear to be different than rates averaged over the past several thousand years, however, possibly because of changes in storm activity or circulation patterns. These data illustrate the dynamic nature of the entire coastal tidal-flat system, not just the shoreline, and reflect the system's response to factors including relative rises in sea level.</abstract>
+<purpose>The purposes of this paper are to document and quantify historical changes in the morphology of a carbonate tidal flat and to discuss the possible role of the sea-level rise on these changes.</purpose>
+<supplinf>(previous geoform was 'remote sensing images and aerial photos')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>1943</begdate>
+<begtime>Unknown</begtime>
+<enddate>2001</enddate>
+<endtime>Unknown</endtime>
+</rngdates>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None Planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-78.37</westbc>
+<eastbc>-77.58</eastbc>
+<northbc>25.10</northbc>
+<southbc>24.15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>remote sensing</themekey>
+<themekey>sea level</themekey>
+<themekey>sediments</themekey>
+<themekey>carbonate</themekey>
+<themekey>tidal flat</themekey>
+<themekey>coastal</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Andros Island</placekey>
+</place>
+<stratum>
+<stratkt>None</stratkt>
+<stratkey>Sea-level</stratkey>
+<stratkey>tidal flat</stratkey>
+</stratum>
+<temporal>
+<tempkt>None</tempkt>
+<tempkey>1943</tempkey>
+<tempkey>2001</tempkey>
+<tempkey>time series</tempkey>
+</temporal>
+</keywords>
+<accconst>None</accconst>
+<useconst>1.  Must refer to source 2.  For remote sensing images</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Dr. Gene Rankey</cntper>
+<cntorg>University of Miami - Rosenstiel School of Marine and Atmospheric Science</cntorg>
+</cntperp>
+<cntpos>Professor</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>Grosvenor Library -N252</address>
+<address>Rosenstiel School of Marine and Atmospheric Science</address>
+<address>4600 Rickenbacker Causeway</address>
+<city>Miami</city>
+<state>Florida</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(305) 361-4690</cntvoice>
+<cnttdd>none</cnttdd>
+<cntfax>(305) 361-4632</cntfax>
+<cntemail>grankey@rsmas.miami.edu</cntemail>
+<hours>Monday - Friday 5am-6pm</hours>
+<cntinst>Best to contact by phone</cntinst>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>https://mermaid.ncddc.noaa.gov/edu/umiami/rsmas/library/metadata/Rankey_Gene/Rankey_Gene/GR_001/idinfo/browse/rankey_morgan_02.pdf</browsen>
+<browsed>PDF file of the Geology paper associated with the dataset, including graphics.</browsed>
+<browset>pdf</browset>
+</browse>
+<datacred>Jim Morgan</datacred>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Location data are accurate within a few meters based on the accuracy of the satellites.</attraccr>
+</attracc>
+<logic>unknown</logic>
+<complete>All data come from comparisons of images from 2001 and 1943.</complete>
+<posacc>
+<horizpa>
+<horizpar>All data are accurate within a few meters based upon the accuracy of the satellite mapping.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>not applicable</procdesc>
+<srcused>none</srcused>
+<procdate>Unknown</procdate>
+<srcprod>none</srcprod>
+</procstep>
+</lineage>
+<cloud>0</cloud>
+</dataqual>
+<spdoinfo>
+<indspref>locations were georeferenced by satellite.</indspref>
+<direct>Point</direct>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.001</latres>
+<longres>0.001</longres>
+<geogunit>Degrees and decimal minutes</geogunit>
+</geograph>
+</horizsys>
+</spref>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Dr. Gene Rankey</cntper>
+<cntorg>University of Miami - Rosenstiel School of Marine and Atmospheric Science</cntorg>
+</cntperp>
+<cntpos>Professor</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>Rosenstiel School of Marine and Atmospheric Science</address>
+<address>Grosvenor Laboratory N252</address>
+<address>4600 Rickenbacker Causeway</address>
+<city>Miami</city>
+<state>Florida</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(305)361-4690</cntvoice>
+<cntemail>grankey@rsmas.miami.edu</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Andros Island Wetlands - historical changes</resdesc>
+<distliab>none</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>PDF</formname>
+<formcont>images</formcont>
+<filedec>No compression applied</filedec>
+<transize>0.624</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.gsajournals.org/gsaonline/?request=get-abstract&amp;doi=10.1130%2F0091-7613(2002)030%3C0583:QROGCO%3E2.0.CO%3B2</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>Contact GSA for information</fees>
+<ordering>Contact GSA for instructions</ordering>
+<turnarnd>Contact GSA for information</turnarnd>
+</stdorder>
+<custom>contact GSA</custom>
+<techpreq>unknown</techpreq>
+<availabl>
+<timeinfo>
+<rngdates>
+<begdate>200406</begdate>
+<enddate>Unknown</enddate>
+</rngdates>
+</timeinfo>
+</availabl>
+</distinfo>
+<metainfo>
+<metd>20040604</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Rosenstiel School of Marine and Atmospheric Science - Library</cntorg>
+</cntorgp>
+<cntpos>Research Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>Rosenstiel School of Marine and Atmospheric Science</address>
+<address>4600 Rickenbacker Causeway</address>
+<city>Miami</city>
+<state>Florida</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(305)361-4007</cntvoice>
+<cntfax>(305)361-9306</cntfax>
+<hours>M-F 8:30am-6pm</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>19430101</begdate><enddate>20011231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_GR001.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

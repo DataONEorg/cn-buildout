@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_flfofieldpoints.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey Department of the Interior</origin>
+<pubdate>200212</pubdate>
+<title>Florissant Fossil Beds National Monument, Field Plots Data Base for Vegetation Mapping</title>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Florissant Fossil Beds National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resources Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>Created in part by e2m under contract from NPS.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/flfo/fielddata.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Vegetation field plots at Florissant Fossil Beds NM were visited, described, and documented in a digital database.  The database consists of 2 parts - (1) Physical Descriptive Data, (2) Species Listings, and strata descriptive Data.</abstract>
+<purpose>Provide National Parks with the necessary tools to effectively manage their natural resources.  Plot data are collected and analyzed to develop a classification (using the Standardized National Vegetation Classification System) and description of vegetation types in preparation for photointerpretation and mapping of the monument's vegetation types.</purpose>
+<supplinf>(previous geoform was 'Database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>200107</begdate>
+<enddate>200108</enddate>
+</rngdates>
+</timeinfo>
+<current>Ground Condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>none planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-105.311935</westbc>
+<eastbc>-105.245676</eastbc>
+<northbc>38.941112</northbc>
+<southbc>38.884081</southbc>
+</bounding>
+<descgeog>Florissant Fossil Beds National Monument</descgeog>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>National Park Service</themekey>
+<themekey>U.S. Geological Survey</themekey>
+<themekey>vegetation classification</themekey>
+<themekey>sampling plots</themekey>
+<themekey>alliance</themekey>
+<themekey>association</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Colorado</placekey>
+<placekey>CO</placekey>
+<placekey>Florissant</placekey>
+<placekey>Teller County</placekey>
+<placekey>Florissant Fossil Beds National Monument</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>Any person using the information presented here should fully understand the data collection and compilation procedures, as described in these metadata, before beginning analyses.  The burden for determining fitness for use lies entirely with the user.  For purposes of publication or dissemination, citations or credit should be given to the U.S. Geological Survey and the National Park Service.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>
+USGS Biological Resources Division, Center for Biological
+Informatics
+</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>Building 810, Room 8000</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>PO BOX 25046, DFC, MS302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Jim von Loh, in cooperation with NatureServe, collected field data.</datacred>
+<native>Microsoft Excel</native>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Department of the Interior</origin>
+<pubdate>200212</pubdate>
+<title>Florissant Fossil Beds National Monument, Spatial Vegetation Data: Cover type / Association Level of the National Vegetation Classification System Base for Vegetation Mapping</title>
+<geoform>Database</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Florissant Fossil Bed National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resources Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>Created in large part by USGS Rocky Mountain Mapping Center under agreement from the National Park Service</othercit>
+<onlink>http://biology.usgs.gov/npsveg/flfo/index.html</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Department of the Interior</origin>
+<pubdate>200212</pubdate>
+<title>Florissant Fossil Beds National Monument, Accuracy Assessment</title>
+<geoform>Database</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Florissant Fossil Beds National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS, Biological Resources Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>Created in large part by e2m and USGS RMMC under contract with the National Park Service</othercit>
+<onlink>http://biology.usgs.gov/npsveg/flfo/index.html</onlink>
+</citeinfo>
+</crossref>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>vegetation classification</taxonkey>
+<taxonkey>Standardized National Vegetation Classification System</taxonkey>
+<taxonkey>alliance</taxonkey>
+<taxonkey>community association</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>U.S. Government; Federal Geographic Data Committee</origin>
+<pubdate>19971022</pubdate>
+<title>National Vegetation Classification Standard (NVCS)</title>
+<geoform>document</geoform>
+<pubinfo>
+<pubplace>Washington D.C.</pubplace>
+<publish>Federal Geographic Data Committee</publish>
+</pubinfo>
+<onlink>http://www.fgdc.gov/standards/status/sub2_1.html</onlink>
+</citeinfo>
+</classcit>
+</classsys>
+<taxonpro>Vegetation associations were identified; no specimens nor vouchers were collected as a part of this process.</taxonpro>
+<taxoncom>Conforms with FGDC standardized vegetation classification system.</taxoncom>
+</taxonsys>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+<common>plants</common>
+</taxoncl>
+</taxonomy>
+<browse>
+<browsen>&lt;http://biology.usgs.gov/npsveg/flfo/images/flfoplot.jpg&gt;</browsen>
+<browsed>Locations of vegetation plot samples; low resolution for web browsing.</browsed>
+<browset>JPG</browset>
+</browse>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+Physical description - Descriptive plot data were
+collected for 99 sites and 60 observation points
+whose vegetation represents a full spectrum of
+alliance types present within Florissant Fossil
+Beds National Monument.  Attributes collected for each site
+include: a unique plot identification code, park
+name, quad name, UTM coordinates, UTM projection,
+plot survey date, surveyor's name, length, width,
+photo type, elevation, slope aspect, topographic
+position, landform, surface geology, Cowardin
+System category, hydrology, surface material
+description, soil texture, soil drainage, leaf
+phenology, leaf type, and physiognomy. Species -
+Descriptive plot data were collected for 99 sites
+whose vegetation represents a full spectrum of
+alliance types present within Florissant Fossil
+Beds National Monument.
+This database, which is the second of two
+databases containing plot field data, delineates
+species.  Individual species described at each of
+99 plots is listed, one line per species, with the
+following information:  Plot Identification Code,
+Numeric Species Code, Species Name, Species Cover
+( 0=trace, 1=&lt; 1%, 2=1-5%, 3=5-25%, 4=25-50%,
+5=50-75%,  6=75-100%), Plantcode, and Strata Code
+(T1=emergent, T2=canopy, T3=sub-canopy, S1=tall
+shrub, S2=short shrub, H=herbaceous,
+N=non-vascular, V=vinae/liana, E=epiphyte).
+Most of the 99 plots have multiple strata, with each
+listed as a separate line entry in the species database.
+Strata are described by plot code, descriptive name,
+height, cover, and an alpha-numeric strata code.
+Descriptive names include canopy, sub-canopy, tall
+shrub, short shrub, herbaceous, and emergent. Height
+classes, in meters, range from 1 to 7: 1=&lt;0.5 m,
+2=0.5-1m, 3=1-2m, 4=2-5m, 5=5-10m, 6=10-15m and
+7=15-20m. Cover groupings, in percent, range from 1
+to 4: 1=0-10%, 2=10-25%, 3=25-60%, and 4=60-100%.
+The diagnostic species for each stratum is listed
+by latin name. Stratum codes are defined in the
+following manner: T1=emergent, T2=canopy,
+T3=sub-canopy, S1=tall shrub, S2=short shrub, and
+H=herbaceous.  Less extensive data were collected at the
+60 observation points in two tables.
+</attraccr>
+</attracc>
+<logic>
+Physical description - Entries for each of the listed
+attributes are in the form of consistent groupings of
+either textual or numerical descriptors. Species &amp; Strata -
+Entries for each of the listed attributes are in
+the form of consistent groupings of either textual
+or numerical descriptors, as defined above under
+"Attribute Accuracy Report".
+</logic>
+<complete>
+Physical description - Descriptive entries for each
+of the 99 plots and 60 observation points
+are complete for each of the applicable
+attributes listed in the database. Species -
+One species is entered per line, by plot code,
+with multiple species listed for each plot, one
+per row.  Plot codes and species names are
+complete for each row, but some species codes,
+cover and strata information is missing (because
+it was not present on the original field forms).
+</complete>
+<posacc>
+<horizpa>
+<horizpar>X,Y UTM coordinates representing each of the 99 plots were collected via GPS under selective availability with post processing for differential correction. The differentially correted GPS coordinates have accuracies in the X and Y direction of +/- 2 to 5 meters.</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>Elevations for plots were obtained from the USGS 24,000 quad map for Lake George, and are estimated to be +/- 15 m.</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>releve</methkey>
+<methkey>plot</methkey>
+<methkey>sampling</methkey>
+</methodid>
+<methdesc>Field sampling using releve plots</methdesc>
+</method>
+<method>
+<methtype>Field</methtype>
+<methdesc>Field Methods for Vegetation Mapping</methdesc>
+</method>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>National Biological Survey (Now USGS/Biological Resources Division)</origin>
+<origin>and National Park Service</origin>
+<pubdate>199411</pubdate>
+<title>Standardized National Vegetation Classification System; protocol document for the USGS-NPS Vegetation mapping Program</title>
+<geoform>document</geoform>
+<edition>Final Draft</edition>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Protocol documents</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS/BRD, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>Report prepared under contract by The Nature Conservancy, 1815 N. Lynn Street, Arlington, Virginia  22209 and Environmental Systems Research Institute, 380 New York Street, Redlands, California  92373</othercit>
+<onlink>http://biology.usgs.gov/npsveg/classification/index.html</onlink>
+</citeinfo>
+</srccite>
+<typesrc>Online</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>199411</begdate>
+<enddate>2010</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>Publication Date and indefinitely</srccurr>
+</srctime>
+<srccitea>SNVCS protocol document</srccitea>
+<srccontr>This document describes and defines the vegetation classification system which is to be used for describing and mapping the vegetation at Florissant Fossil Beds National Monument</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>USGSBRD, Center for Biological Informatics</origin>
+<pubdate>19980223</pubdate>
+<title>Vegetation Mapping Project Report at Florissant Fossil Beds National Monument</title>
+<geoform>report</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Florissant Fossil Beds National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS/BRD, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>This report was generated by e2m, NatureServe and the USGS Rocky Mountain Mapping Center under contract with the National Park Service</othercit>
+<onlink>http://biology.usgs.gov/npsveg/flfo/index.html</onlink>
+</citeinfo>
+</srccite>
+<typesrc>Online</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>200106</begdate>
+<enddate>200207</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>Ground Condition, summer 2001</srccurr>
+</srctime>
+<srccitea>FLFO sample and classification</srccitea>
+<srccontr>Report summarizing plot data collection effort</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>United States Dept. of the Interior, National Biological Survey (now USGS Biological Resources Division) and the National Park Service</origin>
+<pubdate>199412</pubdate>
+<title>Field Methods for Vegetation Mapping</title>
+<geoform>document</geoform>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS/Biological Resources Division, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>This report was generated by The Nature Conservancy under contract to the USGS/BRD, CBI</othercit>
+<onlink>http://biology.usgs.gov/npsveg/fieldmethods/index.html</onlink>
+</citeinfo>
+</srccite>
+<typesrc>Online</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>199412</begdate>
+<enddate>2010</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>Publication Date and indefinitely</srccurr>
+</srctime>
+<srccitea>field methods protocol document</srccitea>
+<srccontr>This document defines the methods and protocols for field data collection to be used as part of the USGS-NPS Vegetation Mapping Program</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>
+The following describes the tasks performed by
+The Nature Conservancy to produce descriptive
+data for 99 vegetation sampling plots in two
+separate database files and 60 observation points.
+The first contains general descriptive information
+at each of the plots. Plot sites were selected
+by information obtained during a reconnaissance
+visit to the park in June of 2001, and by
+examining tone and textural patterns on the FLFO
+AERIAL PHOTOGRAPHS. Site physical parameters,
+species types, and vegetation strata were
+described at each site. The PLOTS database
+contains tabulations of site physical factors,
+listed under the ATTRIBUTE ACCURACY REPORT for
+each of the 99 plots. Plot data were manually
+recorded on field forms on-site, and subsequently
+keyed into the database files described herein.
+Information in the plot database was then used
+to develop the classification system and plant
+identification keys contained in the Project Report.
+</procdesc>
+<procdate>200107</procdate>
+</procstep>
+<procstep>
+<procdesc>
+The following describes the tasks performed by The
+Nature Conservancy to produce descriptive data for
+99 vegetation sampling plots in three separate
+database files.  The second table contains
+listings of individual species found in each plot,
+along with height and cover estimates, and strata
+delineations.  The SPECIES LISTING database
+contains line entries for each species including
+the Plot Code, Numeric species code, full
+scientific species name, cover estimate, a unique
+alphnumeric species identifier (plant code), and
+Plant Strata delineation.    Plot sites were
+selected subjectively because of the heterogeneity
+of the vegetation and the small number of samples
+per type.  Since aerial photos were not available
+at the time of plot selection, visual
+reconnaissance was conducted at  the summit of the
+bluff to examine vegetation patterns for
+the purpose of plot placement.  .  Plot data were
+manually recorded on field forms on-site, and
+subsequently keyed into the database files
+described herein.  Information in the plot
+database was then used to develop
+the classification system and plant identification
+keys contained in the Project Report.
+</procdesc>
+<procdate>200107</procdate>
+<srcused>SNVCS protocol document</srcused>
+<srcused>Field Methods for Vegetation Mapping</srcused>
+<srcprod>flfo sample and classification</srcprod>
+<srcprod>flfo Vegetation Descriptions</srcprod>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Jim Von Loh</cntper>
+<cntorg>e2m</cntorg>
+</cntperp>
+<cntpos>Senior Biologist</cntpos>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>7000 South Yosemite Street</address>
+<address>Suite 295</address>
+<city>Engelwood</city>
+<state>CO</state>
+<postal>80112</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303-721-9219</cntvoice>
+<cntemail>jvonloh@e2m.net</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>vector</direct>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>13</utmzone>
+<transmer>
+<longcm>-105</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+<sfctrmer>.9996</sfctrmer>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>Coordinate pair</plance>
+<coordrep>
+<absres>100</absres>
+<ordres>100</ordres>
+</coordrep>
+<plandu>Meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodedic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+Each of 99 vegetation plots has attributes for
+physical  description, species and strata. Physical description -
+(Plot  number, plot code, common name, scientific name,
+state, park  name, quad name, utm zone, map project,
+gps file, raw utm x, raw  utm y, corrected utm x,
+corrected utm y, surveyors date, surveyors,
+length, width, photos, permanent, elevation,
+slope,  aspect, topographical position, landform,
+surficial geology,  cowardin system type, hydrography,
+bedrock, large rock, small  rock, sand, litter duff,
+wood, bare soil, other soil, soil texture,
+soil drainage, leaf phenology, leaf type,
+and  physiology). Species - (sp_code is a project
+specific code for  each species found, species is
+the scientific name for that  species, spcover is
+the species present and the percent cover   for
+each species, plant code is the first two letters
+of the  genus and first two letters of the species.
+If the code are not  unique a number is added to
+make the code unique). Strata -  (height and cover
+are average percent cover of that particular
+species, 1 = 0-10%, 2 = 10-25%, 3 = 25-60% and
+4 = 60-100%,  pstrata is the type of vegetation,
+T1 = emergent, T2 = canopy, T3  = sub-canopy,
+S1 = tall shrub, S2 = short shrub, H = herbaceous,
+N = non-vascular, V = vine/liana, and E = epiphyte).
+</eaover>
+<eadetcit>
+Field Methods for Vegetation mapping, December
+1994.  Prepared for: the United States Department
+of the Interior, National Biological Survey (now
+the USGS Biological Resources Division) and the
+National Park Service.  Prepared by:  The Nature
+Conservancy, and Environmental Systems Research
+Institute.
+(http://biology.usgs.gov/npsveg/fieldmethods/index.html)
+.
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>U.S. Geological Survey, Center for Biological Informatics, MS 302, Room 8000, Building 810, Denver Federal Center</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>FLFO Plots Data; Physical Descriptive Data and Species Listing Data</resdesc>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the
+Biological Resources Division, no warranty
+expressed or implied is made regarding the
+accuracy or utility of the data on any other
+system or for general or scientific purposes, nor
+shall the act of distribution constitute any such
+warranty. This disclaimer applies both to
+individual use of the data and aggregate use with
+other data.  It is strongly recommended that these
+data are directly acquired from a Biological
+Resources Division server, and not indirectly
+through other sources which may have changed the
+data in some way.  It is also strongly recommended
+that careful attention be paid to the contents of
+the metadata file associated with these data.  The
+Biological Resources Division shall not be held
+liable for improper or incorrect use of the data
+described and/or contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>HTML</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/flfo/fielddata.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20021217</metd>
+<metrd>20050519</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>20010701</begdate><enddate>20010831</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_flfofieldpoints.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

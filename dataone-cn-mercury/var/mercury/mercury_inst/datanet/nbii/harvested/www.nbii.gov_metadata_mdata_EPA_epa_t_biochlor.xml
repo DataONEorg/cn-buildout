@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/EPA/epa_t_biochlor.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Charles Newell, GSI</origin>
+<pubdate>200203</pubdate>
+<title>Natural Attenuation Decision Support System (BIOCHLOR)</title>
+<edition>Version 2.2</edition>
+<geoform>tools software</geoform>
+<pubinfo>
+<pubplace>Ada, Oklahoma</pubplace>
+<publish>USEPA, Ground Water and Ecosystems Restoration Division</publish>
+</pubinfo>
+<othercit>
+Four files are available for download:
+biochlor22-2000.exe (Excel 2000 version) User's Manual, installation program, help files, and installation instructions.
+biochlor22-97.exe (Excel '97 version) User's Manual, installation program, help files, and installation instructions.
+biochlor10.pdf: User's Manual for BIOCHLOR Version 1.0, Primary Source of information about BIOCHLOR.
+biochlor22.pdf: User's Manual addendum for BIOCHLOR Version 2.2.
+</othercit>
+<onlink>http://www.epa.gov/ada/csmos/models/biochlor.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+BIOCHLOR is an easy-to-use screening model that simulates remediation by natural attenuation (RNA) of dissolved solvents at chlorinated solvent release sites. The software, programmed in the Microsoft Excel spreadsheet environment and based on the Domenico analytical solute transport model, has the ability to simulate 1-D advection, 3-D dispersion, linear adsorption, and biotransformation via reductive dechlorination (the dominant biotransformation process at most chlorinated solvent sites). Reductive dechlorination is assumed to occur under anaerobic conditions and dissolved solvent degradation is assumed to follow a sequential first-order decay process. BIOCHLOR includes three different model types:
+Solute transport without decay;
+Solute transport with biotransformation modeled as a sequential first-order decay process; and
+Solute transport with biotransformation modeled as a sequential first-order decay process with two different reaction zones (i.e., each zone has a different set of rate coefficient values)
+</abstract>
+<purpose>BIOCHLOR is a screening model that simulates remediation by natural attenuation of dissolved solvents at chlorinated solvent release sites. BIOCHLOR can be used to simulate solute transport without decay and solute transport with biodegredation modeled as a sequential first-order process within one or two different reaction zones.</purpose>
+<supplinf>Information was obtained from Charles Newell and from http://www.epa.gov/ada/csmos/models/biochlor.html.  (previous geoform was 'model')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>200303</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>model</themekey>
+<themekey>natural attenuation</themekey>
+<themekey>dissolved solvents</themekey>
+<themekey>solute transport</themekey>
+<themekey>biodegradation</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Charles J. Newell</cntper>
+<cntorg>Groundwater Services, Inc.</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>2211 Norfolk, Suite 1000</address>
+<city>Houston</city>
+<state>Texas</state>
+<postal>77098</postal>
+</cntaddr>
+<cntvoice>713 522 6300</cntvoice>
+<cntfax>713 522 8010</cntfax>
+<cntemail>cjnewell@gsi-net.com</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Groundwater and Ecosystems Restoration Division</cntorg>
+<cntper>Dan West</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Office of Research and Development
+National Risk Management Research Laboratory
+Ground Water and Ecosystems Restoration Division (GWERD)
+P.O. Box 1198
+</address>
+<city>Ada</city>
+<state>Oklahoma</state>
+<postal>74821</postal>
+</cntaddr>
+<cntvoice>(580) 436-8717, (580) 436-8500</cntvoice>
+<cntemail>west.daniel@epa.gov</cntemail>
+<cntinst>
+Office of Research and Development
+National Risk Management Research Laboratory
+Ground Water and Ecosystems Restoration Division (GWERD)
+P.O. Box 1198
+Ada, Oklahoma 74821
+</cntinst>
+</cntinfo>
+</distrib>
+<distliab>Although these data have been processed successfully on a computer system at the U.S. Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a U.S. Environmental Protection Agency server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The U.S. Environmental Protectio Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>exe</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.epa.gov/ada/csmos/models/biochlor.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None, if available online.</fees>
+</stdorder>
+<techpreq>
+Minimum System Requirements:
+The BIOCHLOR model requires a computer system capable of running Microsoft Excel '97 or 2000 for Windows. Operation requires an IBM-compatible PC equipped with a Pentium II or later processor. A minimum of 64 MB of system memory (RAM) is strongly recommended.
+Installation and Start-Up
+Getting Started:
+You will need Adobe Acrobat Reader to view the documentation (PDF) files. The Reader is available free from Adobe at the sites below:
+http://www.adobe.com - Adobe Reader download page
+ftp://ftp.adobe.com - Adobe anonymous ftp home page
+Installing the Program:
+Four files are available for download:
+biochlor22-2000.exe (Excel 2000 version) User's Manual, installation program, help files, and installation instructions.
+biochlor22-97.exe (Excel '97 version) User's Manual, installation program, help files, and installation instructions.
+biochlor10.pdf: User's Manual for BIOCHLOR Version 1.0, Primary Source of information about BIOCHLOR.
+biochlor22.pdf: User's Manual addendum for BIOCHLOR Version 2.2.
+View the BIOCHLOR10.PDF and BIOCHLOR22.PDF files for further instructions.
+Download BIOCHLOR22_2000.EXE or BIOCHLOR22_97.EXE to a desired location on your computer.
+Run BIOCHLOR22.EXE either by selecting Run from the File menu in Program Manager or by double-clicking on the file BIOCHLOR22.EXE in File Manager (or Windows 95/98 Explorer).
+Follow the on-screen instructions.
+Start the Biochlor22 program by clicking the Start Button(Desktop Toolbar), move to Programs, and click BIOCHLOR22. You can also use Windows Explorer to open folder BIOCHLOR22 and double-click biochlor22.xls file. You will see a message box that asks you whether you want to disable or enable the macros. For BIOCHLOR to operate effectively, you must enable the macros.
+</techpreq>
+</distinfo>
+<metainfo>
+<metd>20030503</metd>
+<metrd>20030711</metrd>
+<metfrd>20040711</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20030301</begdate><enddate>20030331</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_EPA_epa_t_biochlor.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

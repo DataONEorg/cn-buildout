@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/EPA/epa_cbp_d_vaprimaryproduction.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Dr. Kneeland K. Nesius,</origin>
+<origin>Dr. Harold G. Marshal</origin>
+<origin>Old Dominion University</origin>
+<pubdate>unknown</pubdate>
+<title>
+Virginia Chesapeake Bay Water Quality Monitoring
+Program: Phytoplankton-  Primary Productivity
+Component
+</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Annapolis, Maryland</pubplace>
+<publish>
+U.S. EPA Chesapeake Bay Program and Virginia
+Department of Environmental Quality
+</publish>
+</pubinfo>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+The state of Virginia, in cooperation with the US
+EPA Chesapeake Bay Program, has monitored
+phytoplankton primary production in the Virginia
+Chesapeake Bay mainstem and tributaries since July
+1989. The program is designed to give
+comprehensive spatial and temporal information  on
+primary production.  Sampling is performed in
+conjunction with the Maryland phytoplankton,
+fluorometry, mesozooplankton, microzooplankton,
+jellyfish and water quality monitoring programs.
+</abstract>
+<purpose>
+The overall phytoplankton monitoring program is
+designed to detect and monitor changes in plankton
+production in relation to changing water quality
+conditions in Chesapeake Bay.
+</purpose>
+<supplinf>
+Information for this metadata was adapted from the
+Environmental Protection Agency Chesapeake Bay
+Program data page web site -
+www.chesapeakebay.net/data/index.htm.  If above
+web sites change visit
+http://www.chesapeakebay.net.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19890710</begdate>
+<enddate>19991216</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>In work</progress>
+<update>Annually</update>
+</status>
+<spdom>
+<descgeog>
+Lower Chesapeake Bay and its' tidal tributaries in
+the State of Virginia with special stations on the
+Elizabeth River.
+</descgeog>
+<bounding>
+<westbc>-77.233</westbc>
+<eastbc>-76.0106</eastbc>
+<northbc>38.019</northbc>
+<southbc>36.7697</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+
+</theme><theme>
+<themekt>None</themekt>
+
+<themekey>assimilation ratio</themekey>
+<themekey>water quality monitoring</themekey>
+<themekey>carbon fixation</themekey>
+<themekey>chlorophyll</themekey>
+<themekey>primary production</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>
+Mouth Rappahannock River/Bay Transition   (VIMS
+Hist. Sta. - RAO.O
+</placekey>
+<placekey>
+Mouth of James River/Bay transition  VIMS
+Historical Station (JA0.0) Slack Water Station
+</placekey>
+<placekey>
+Baltimore Channel at Bay Bridge - Bay/Ocean
+transition area at mid Bay mouth channel
+</placekey>
+<placekey>Lower Eastern Shore Channel area</placekey>
+<placekey>
+Central Bay Stem offshore from the York River
+mouth
+</placekey>
+<placekey>Lower end of Main Bay Channel - Anoxia Monitoring</placekey>
+<placekey>
+Mouth of York River/Bay Transition Area   (VIMS
+Hist. Sta. - YKO.O )
+</placekey>
+<placekey>
+Southern Branch of the Elizabeth River - Adjacent
+to Atlantic Wood
+</placekey>
+<placekey>
+Southern Branch of the Elizabeth River - Adjacent
+to  Virginia Power
+</placekey>
+<placekey>N40, Clay Bank, Rappahannock River</placekey>
+<placekey>
+N. Buoy R10, VIMS Slack Water Station,
+Rappahannock River
+</placekey>
+<placekey>VIMS Historic Station C57, York River</placekey>
+<placekey>Red buoy 107 JRWQMP Station #13, James River</placekey>
+<placekey>
+Swann's Point JRWQMP STA. #19, VIMS Slack Water
+Station, James River
+</placekey>
+<placekey>
+Swann's Point JRWQMP STA. #19, VIMS Slack Water
+Station, James River
+</placekey>
+<placekey>Virginia</placekey>
+<placekey>VA</placekey>
+<placekey>Chesapeake Bay</placekey>
+</place>
+</keywords>
+<taxonomy>
+
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>phytoplankton</taxonkey>
+</keywtax>
+
+
+  <taxoncl>
+    <taxonrn>Kingdom</taxonrn>
+    <taxonrv>Animal</taxonrv>
+
+    <taxoncl>
+      <taxonrn>Phylum</taxonrn>
+      <taxonrv></taxonrv>
+
+      <taxoncl>
+        <taxonrn>Class</taxonrn>
+        <taxonrv></taxonrv>
+
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv></taxonrv>
+
+          <taxoncl>
+            <taxonrn>Family</taxonrn>
+            <taxonrv></taxonrv>
+
+            <taxoncl>
+              <taxonrn>Genus</taxonrn>
+              <taxonrv></taxonrv>
+
+              <taxoncl>
+                <taxonrn>Species</taxonrn>
+                <taxonrv></taxonrv>
+                <common></common>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxoncl>
+  </taxoncl>
+</taxoncl>
+<taxongen>phytoplankton</taxongen>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>Dataset credit required</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Interstate Commission on Potomac River Basin</cntorg>
+<cntper>Jacqueline Johnson</cntper>
+</cntorgp>
+<cntpos>
+Chesapeake Bay Program Living Resources Data
+Manager
+</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>410 Severn Avenue, Suite 109</address>
+<city>Annapolis</city>
+<state>Maryland</state>
+<postal>21403</postal>
+</cntaddr>
+<cntvoice>1-800-968-7229</cntvoice>
+<cntvoice>410-267-5729</cntvoice>
+<cntfax>410-267-5777</cntfax>
+<cntemail>jjohnson@chesapeakebay.net</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. Monday Through Friday</hours>
+<cntinst>unavailable</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+Standard protocol procedures will be followed to
+guard against errors and maintain accuracy and
+precision throughout the collection and analysis
+procedures (Strickland and Parsons, 1972).  These
+include first hand instruction to all assistants
+by the re-check and first hand observations by the
+Principle Investigator., and periodic duplicate
+analysis of samples collected.  The C14 work will
+be performed on four separate replicates taken
+from each composite sample.  Carbonate alkalinity
+will be determined on four separate replicates.
+Comparison between replicates will be constantly
+monitored. The phytoplankton field chief was the
+custodian for all samples collected, and verifies
+proper labeling of bottles, complete field data
+entries, the collection of the samples,
+preservative used and transport to the laboratory.
+He also supervised the calibration and
+availability of field equipment. Samples were
+turned over to the laboratory chief who oversees
+the sample processing, analysis and recording of
+the raw data.  Taxon identifications, raw data
+sheets and other stages of the collection and
+analysis procedures are routinely checked by the
+principal investigator and laboratory chief for
+quality assurance. All stations positions are
+provided as NAD27 coordinates.
+</attraccr>
+</attracc>
+<logic>not applicable</logic>
+<complete>
+Sampling in the Elizabeth River did not begin
+until February of 1991. In 1998, sampling at
+Elizabeth River Station SBE2 was discontinued and
+a second sampling cruise was added in July and
+August for all remaining stations.
+</complete>
+<lineage>
+<method>
+
+</method><method>
+<methtype>Field</methtype>
+
+<methdesc>
+Carbon fixation rates (C14) were obtained from
+replicate surface layer composite samples at 15
+stations, sampled monthly from January - December
+in Virginia.  Stations were located to
+characterize primary productivity in the lower Bay
+and Bay mouth systems, Virginia Tributaries and
+Southern Branch of the Elizabeth River.  Sampling
+in the Elizabeth River did not begin until
+February of 1991. In 1998, sampling at Elizabeth
+River Station SBE2 was discontinued and a second
+sampling cruise was added in July and August for
+all remaining stations.
+</methdesc>
+
+</method><method>
+<methtype>Lab</methtype>
+
+<methdesc>
+In the laboratory, a one hundred milliliter
+samples from each composite sample were placed in
+separate dilution bottles and transferred to a
+water bath equipped with a bottle holder which
+rotates between banks of cool-white fluorescent
+lights. The light levels exceeded the light
+saturation point of the phytoplankton. The
+temperature of the water bath was the same as the
+temperature at each station when the samples were
+taken. After one hour of acclamation the bottles
+were inoculated with two to five uCi  C14-NaHCO3.
+The samples were returned to the water bath for
+one hour.  One of the samples was analyzed for C14
+activity immediately (zero Time of Sample). At the
+end of the incubation period (one and half to two
+hours) the remaining samples was filtered through
+a 25 mm 0.45 pore-size millipore filter under a
+vacuum less than 5 cm Hg pressure. After the
+contents of the milk dilution bottle and its
+rinses were filtered, the Millipore filters were
+removed and fumed over concentrated HCl for 30
+seconds and placed in scintillation vials.
+Scintillation fluid was added to each vial and C14
+activity was determined using a Beckman Model LS
+1701scintillation counter. The amount of C14 in
+the stock bottle was determined by placing 20 to
+50 microliter of stock solution in scintillation
+vials containing 0.5 milli- liters of
+phenethylamine.  Scintillation fluid was added to
+the vials set in the dark over night and analyzed
+for C14 activity.
+</methdesc>
+</method>
+<procstep>
+<procdesc>
+The following equations were used to determine the
+rate of carbon fixation in ug/l/hr.  Note that the
+raw data used in these calculations are not
+presented in the associated data set.  Only the
+resulting carbon fixation rate is included.    1)
+CARBALK = 120 * (Total Alkalinity)   2) CARBFIX =
+IVOL * ((DPMSAM/FVOL)-(DPMT0/FVOL)) * CARBALK *
+1.05 / DPMSP * (ETIME-BTIME) where CARBFIX =
+Carbon fixation rate in ug C/l/hr; IVOL = Volume
+incubated; FVOL = Volume filtered;       DPMSAM =
+Disintegrations per minute from incubated sample;
+DPMT0 = Disintegrations per minute from
+corresponding unincubated (time zero - t0) sample;
+DPMSP = Total disintegrations per minute for C-14
+spike; BTIME = Beginning time of incubation
+(h); ETIME = Ending time of incubation (h);
+CARBALK = Total inorganic carbonate;Calculation of
+Assimilation Ratio: ASMRATIO = CARBFIX / CHLA -
+this ratio is calculated prior to rounding the
+CARBFIX value where ASMRATIO = Assimilation ratio;
+CARBFIX = Carbon fixation in ug C/l/h from 2);
+CHLA = Chlorophyll a in ug/l.
+</procdesc>
+<procdate>unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>Based on local reference names.</indspref>
+</spdoinfo>
+<spref></spref>
+<eainfo>
+<overview>
+<eaover>
+Phytoplankton (Entity); carbon fixation rates
+(Attributes)
+</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Interstate Commission on Potomac River Basin</cntorg>
+<cntper>Jacqueline Johnson</cntper>
+</cntorgp>
+<cntpos>
+Chesapeake Bay Program Living Resources Data
+Manager
+</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>410 Severn Avenue, Suite 109</address>
+<city>Annapolis</city>
+<state>Maryland</state>
+<postal>21403</postal>
+</cntaddr>
+<cntvoice>1-800-968-7229</cntvoice>
+<cntvoice>410-267-5729</cntvoice>
+<cntfax>410-267-5777</cntfax>
+<cntemail>jjohnson@chesapeakebay.net</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. Monday Through Friday</hours>
+<cntinst>unavailable</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>VAPDCFyy.TXT, VAPDEVyy.TXT</resdesc>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the
+Chesapeake Bay Program, no warranty expressed or
+implied is made regarding the accuracy or utility
+of the data on any other system or for general or
+scientific purposes, nor shall the act of
+distribution constitute any such warranty. This
+disclaimer applies both to individual use of the
+data and aggregate use with other data. It is
+strongly recommended that careful attention be
+paid to the contents of the metadata file
+associated with these data. The Chesapeake Bay
+Program shall not be held liable for improper or
+incorrect use of the data described and/or
+contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ASCII</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.chesapeakebay.net/data/index.htm</networkr>
+</networka>
+</computer>
+<accinstr>
+All data files are available in comma delimited
+ascii with header line all files from world wide
+web will have extension *.asc instead of .txt.
+</accinstr>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>199903</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Raytheon ITSS</cntorg>
+<cntper>Cheryl Solomon</cntper>
+</cntorgp>
+<cntpos>Ecosystem Coordinator</cntpos>
+<cntaddr>
+<addrtype>Mailing and Physical Address</addrtype>
+<address>4500 Forbes Avenue</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301-794-3049</cntvoice>
+<cntfax>301-794-3164</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>
+NBII Content Standard for National Biological
+Information Infrastructure Metadata
+</metstdn>
+<metstdv>December 1995</metstdv>
+<metac>None</metac>
+<metuc>None</metuc>
+</metainfo>
+<mercury><begdate>19890710</begdate><enddate>19991216</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_EPA_epa_cbp_d_vaprimaryproduction.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/EPA/epa_d_fishmercury.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Environmental Protection Agency, Office of Water</origin>
+<pubdate>2000</pubdate>
+<title>National Survey of Mercury Concentrations in Fish</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Washington, D.C.</pubplace>
+<publish>U.S. Environmental Protection Agency</publish>
+</pubinfo>
+<onlink>http://www.epa.gov/ost/fish/mercurydata.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>EPA began a cooperative effort in 1995 to assemble a nationwide data base on total mercury concentrations in fish tissue. The first objective of this project was to assemble and review data on the mercury contamination in fish tissue. This step included identifying appropriate state and federal agencies and other groups with relevant data on mercury concentrations in fish. The second step in this project involved the development of a fish tissue data base, organizing relevant data to be used for future analyses. EPA focused data compilation efforts on obtaining results of state monitoring efforts during 1990-1995. These data can be used to derive estimates of tissue concentrations, determine the number and frequency of samples taken and analyzed by state, and calculate descriptive statistics on mercury concentrations in fish tissue.</abstract>
+<purpose>The current data base will facilitate EPA&amp;#146;s ability to determine additional and future data needs. In the future, the data base may be used to identify and evaluate factors affecting mercury contamination in fish.</purpose>
+<supplinf>The information for abstract and purpose was collected from the EPA web site at http://www.epa.gov/ost/fish/mercurydata.html.  (previous geoform was 'Database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>1990</begdate>
+<enddate>1995</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<spdom>
+<descgeog>United States.</descgeog>
+<bounding>
+<westbc>-125</westbc>
+<eastbc>-67</eastbc>
+<northbc>49</northbc>
+<southbc>25</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>mercury contamination</themekey>
+<themekey>mercury concentrations</themekey>
+<themekey>mercury</themekey>
+</theme>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>largemouth bass</taxonkey>
+<taxonkey>walleye</taxonkey>
+<taxonkey>northern pike</taxonkey>
+<taxonkey>channel catfish</taxonkey>
+<taxonkey>bluegill sunfish</taxonkey>
+<taxonkey>common carp</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animal</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Actinopterygii</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Perciformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Centrarchidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Micropterus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Micropterus salmoides</taxonrv>
+<common>largemouth bass</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Percidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Stizostedion</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Stizostedion vitreum</taxonrv>
+<common>walleye</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Centrarchidae</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Esociformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Esocidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Esox</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Esox lucius</taxonrv>
+<common>northern pike</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Siluriformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Ictaluridae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Ictalurus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Ictalurus punctatus</taxonrv>
+<common>channel catfish</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Actinopterygii</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Cypriniformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Cyprinidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Cyprinus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Cyprinus carpio</taxonrv>
+<common>common carp</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental  Protection Agency</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Environmental Protection Agency
+Office of Water (4101)
+1200 Pennsylvania Avenue, N.W.
+</address>
+<city>Washington</city>
+<state>District of Columbia</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>unavailable</cntvoice>
+<cntemail>OW-GENERAL@epamail.epa.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Environmental Protection Agency, Office of Water</origin>
+<pubdate>199909</pubdate>
+<title>The National Survey of Mercury Concentrations in Fish Data Base Summary 1990-1995</title>
+<geoform>Report</geoform>
+<pubinfo>
+<pubplace>Washington, D.C.</pubplace>
+<publish>U.S. Environmental Protection Agency</publish>
+</pubinfo>
+<onlink>http://www.epa.gov/ost/fish/mercurydata.html</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>The first step in quality assuring the data was to identify the appropriate data source for each state.  States either maintained collected data within the state agency and/or submitted mercury concentrations in fish tissue data directly to STORET, a nationally maintained ambient water quality data base.  Data downloaded by the state from the STORET system and sent in an electronic or hard copy format are considered "STORET" data.  Data maintained by the state agency in house and not submittted to STORET are considered "state" data.  State-collected data on mercury concentrations in fish tissue were available from most states in electronic or hard copy formats, or both.  EPA quality assured STORET data while trying to obtain missing data fields from STORET and BIOS, another national data base containing fish species information that is compatible with STORET maintained on EPA's mainframe computer.  STORET and BIOS were searched on the EPA mainframe, and the resulting data were compared to STORET data sent by the state.  When possible, STORET data from the mainframe were used to augment incomplete data sets received from the state.  This action resulting in five states with combined data sets from 1990 - 1995.  Following completion of the data standardization process, additional quality assurance measures were performed before performing any analysis on the data base.  For example,  the mercury concentration field was carefully scrutinized.  Unreasonably high mercury concentrations (e.g., 140.0 ppm and 220.0 ppm) were identified and subsequently dropped from the data base when scientifically valid explanations could not be identified.  Other suspicious mercury concentrations (13.3 ppm, 5.95 ppm, and 5.83 ppm) identified were noted in the data base but were not dropped because reasonable justifications could not be identified.  In one instance, values for a chemical other than mercury that had been sent such as sampling date, latitude, and longitude also were discovered and corrected, following confirmation with the state contact.</attraccr>
+</attracc>
+<logic>not applicable</logic>
+<complete>Data from 40 states and the District of Columbia comprise the national data base on total mercury concentrations in fish tissue.  The data are broadly categorized into three groups, providing location, biological, and mercury concentration information.  The principal features of the national data base on mercury concentrations are:  Fish tissue samples collected from 1990 to 1995, inclusive; location information, with most states providing latitude and longitude; common and scientific names for fish species; total mercury concentrations greater than zero.  If the mercury concentration was labeled as "non-detected" or as less than a given value, the detection limit or the given value was used to estimate mercury concentration; weighted mercury concentrations in fish tissues.  States not included in the data base either could not provide information on mercury concentrations in fish (Alaska, Colorado, Hawaii, Idaho, Nevada, North Dakota, Wyoming, and Utah), or provided data in hard copy reports (i.e., Montana and South Dakota).  Mercury data available only in hard copy reports were not included in the data base because the data in hard copy reports frequently did not contain complete information.  Manually entering the data from hard copy into an appropriate electronic format, obtaining missing information and peforming quality control checks on the data would have been prohibitive, given the schedule and scope of work for this project.  After identifying, obtaining, and verifying data from appropriate sources, discrepancies among state data were identified by visually examining each data set. Consistency in the formatting of data sets from state to state is the most important requirement in establishing a well-structured national data base.  Some of the principal inconsistencies and discrepancies encountered were the following:  Missing data or blank fields-Very few state data sets initially contained all the requested data fields.  Some states could not send the requested data because such data were not collected.  Others were able to send the additional information, and in some cases a completely new version of the data set was submitted.  If the state could not supply additional data, STORET was searched in an effort to augment the data set.  This standardization process resulted in obtaining some additional latitude and longitude data.  EPA attempted to standardize the data to make the data base as complete as possible.  For example, some states provided only the year, or the year and month of the sample collection date.  The month of January and/or the first day of the month (01) were assigned as necessary to form a complete value for the variable "Collection date" in the data base.  In addition to differing software packages, the format or structure of the data sets varied from state to state.  For example, field descriptor names differ across states.  Furthermore, the same field names may define the same, or different, variables.  Empty entries in data sets also vary from state to state.  In some state data set formats, empty entries denote missing values.  However, in other state data formats, empty entries imply that the values for the empty entry are the same as the prior nonempty value.  The disparities among state data structures and field names typically cannot be discerned until the given format for several state data sets is thoroughly examined.  Improving the consistency among state data base formats, such as through the use of EPA's modernized STORET data system, would greatly enhance comparability and synthesis of data on a national scale.  A fairly common discrepancy among the state data sets is that each state has a different coding system.  Lack of explanation for the codes hinders the standardization, and addition contact with the state was necessary to interpret codes for several fields, including common name, fish species, portion analyzed, collection agency, county, and qualifier.  Some state data sets contain only the common name and do not contain a key that cross references the associated name.  Other records that frequently differed were fish length, for which different units were given - inches, centimeters, or millimeters; fish weight - pounds or grams; common name/secies/genus-carp or common carp/cyprinus or C./carpio; mercury concentration-ppm or ppb; latitude and longitude-degree-minute-second or decimal degrees; and length and weight measurements-total length and total weight of fish or composite or mean length and weight of the composite.</complete>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methodid>
+<methkt>none</methkt>
+<methkey>sampling</methkey>
+</methodid>
+<methdesc>Information is available in the report National Survey of Mercury Concentrations in Fish, Database Summary 1990-1995.  Varying by state, information may be available on sample type such as specimen or individual, composite sample and in the case of composites, whether the number of fish in the composite is reported.</methdesc>
+</method>
+<method>
+<methtype>Field</methtype>
+<methodid>
+<methkt>none</methkt>
+<methkey>analysis</methkey>
+</methodid>
+<methdesc>The portion of the fish analyzed includes whole body, fillet, or "other"; other includes gonads, internal organs, eggs, etc. All states analyzed the fillets of the fish for mercury, while several others elected to analyze whole body portions as well.  Mercury concentrations are reported on a dry weight basis or a wet weight basis.  The vast majority of states measure and report mercury on a wet weight basis.</methdesc>
+</method>
+<procstep>
+<procdesc>Standardizing the variables in each state consisted of the following activities: Three fields are associated with identifying fish species: common name, genus name, and species name.  Most states only provided common names using different coding schemes.  In order to standardize the names, genus and species names were assigned to the common names.  The first step in this process used a data sheet containing both common names and scientific names as designated by the American Fisheries Society (AFS)  All common names were matched electronically to identical common names.  In cases were names did not match, taxonomy literature and best professional judgement were used to identify the genus and species.  Some states supplied common names that had been coded for their data management system without providing an accompanying key to the coding system.  For example, one state may have used "LMB" for largemouth bass or assigned a numeric code to a common name, and a follow-up contact with the state was required to obtain information on the coding system.</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+<procstep>
+<procdesc>The portion analyzed was standardized from the state data set into the national database and then again for the analysis presented in the document.  The standardized portion code in the data base and the portion code used for mercury concentrations analysis were shown in Table 2-3 Standardized Portion Codes of the Report-The National Survey of Mercury Concentrations in Fish. Data Base Summary 1990-1995.  Other entries for portions analyzed that were supplied by states included connective tissue, eggs, eyes, gills, gonads, liver, head and viscera, no head or viscera, no skin, and veins.  These entries were retained as is in the data base, but they were eliminated for analyses involving whole-body and fillet mercury concentration comparisons.</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+<procstep>
+<procdesc>Values for latitude and longitude were converted to decimal degrees, such as 39.2522 and 95.3267.  This process entailed converting the degree, minute, second or the radian format supplied by most states to decimal degrees by the equations: Lat_decimal= Lat_deg + Lat_min/60 + Lat_sec/3600; Long_decimal=Long_deg+Long_min/60+Long_sec/3600</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+<procstep>
+<procdesc>For some states, fish tissue mercury concentrations were provided on a dry weight basis.  An additional column was added to the data base (Dry_Wet Conversion) that converts the concentrations on a dry-weight basis to a wet-weight basis to enable data comparisons.  The following equation was used to perform the conversion calculation: Wet weight = Dry Weight x (1-0.xxx); Wet weight = mercury concentration by wet weight in mg/kg tissue; Dry weight = mercury concentration by dry weight in mg/kg tissue; 0.xxx = percent moisture in fish tissue expressed as a decimal (e.g. 75%=0.75).  Moisture content varies in fish based on numerous factors such as age and species, and because moisture content is not included as a variable in the data base, all conversions were made with an assumed moisture tissue percentage of 78.5% (0.785).  This value was based on the arithmetic mean of the moisture contents of coho salmon (85%), kokanee (74%), lake whitefish (80%), pike (78%), white sturgeon (78%), and sockeye salmon white muscle (fillet, 76%).</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+<procstep>
+<procdesc>The fish tissue data consist primarily of analyses of mercury concentrations in fillets.  Some states, however, provided data on the basis of whole body measurements.  To facilitate comparisons between tissue and whole-body measurements, the following empirically-derived equations from Bevelheimer et al. (1996) were used: Cwb = 0.7 x Cf where Cwb = whole-body mercury concentration in gm/kg; Cf = fillet mercury concentration in mg/kg.  A field (fillet conversion) was added to the data base that contains the results of the calculation above, solved for Cf only for those records where the mercury concentration was measured based on whole body measurements.</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Point</direct>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>Unknown</latres>
+<longres>Unknown</longres>
+<geogunit>Decimal Degrees</geogunit>
+</geograph>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Location Information for Mercury Concentrations in Fish</enttypl>
+<enttypd>Variables relating to presence of mercury in fish.</enttypd>
+<enttypds>U.S. Environmental Protection Agency, Office of Water</enttypds>
+</enttyp>
+<attr>
+<attrlabl>Date</attrlabl>
+<attrdef>Date when the sample was collected.</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>1987</rdommin>
+<rdommax>1997</rdommax>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Latitude</attrlabl>
+<attrdef>Latitude</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>50 N</rdommin>
+<rdommax>25 N</rdommax>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Longitude</attrlabl>
+<attrdef>Longitude</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>-125 W</rdommin>
+<rdommax>-167 W</rdommax>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Site</attrlabl>
+<attrdef>Location of fish sample.</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>State Names</codesetn>
+<codesets>Basic 2 letter Names for all states.</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Water-body</attrlabl>
+<attrdef>The body of water that was sampled.</attrdef>
+<attrdefs>U.S. Environmental Projection Agency, Office of Water</attrdefs>
+<attrdomv>
+<udom>Approximately 3200 water bodies.  See Table 3-3 in The National Survey of Mercury Concentrations in Fish, U.S. Environmental Protection Agency for distribution among states.</udom>
+</attrdomv>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>Biological Information for Mercury Concentration in Fish</enttypl>
+<enttypd>Biological data are included in the variables.</enttypd>
+<enttypds>U.S. Environmental Projection Agency, Office of Water</enttypds>
+</enttyp>
+<attr>
+<attrlabl>Comp. Vs. Spec.</attrlabl>
+<attrdef>Composite versus Specimen - Is the sample a composite of more than one fish or a single individual or specimen.</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<edom>
+<edomv>composite</edomv>
+<edomvd>More than one fish.</edomvd>
+<edomvds>U.S. Environmental Protection Agency, Office of Water</edomvds>
+</edom>
+<edom>
+<edomv>specimen</edomv>
+<edomvd>Individual fish.</edomvd>
+<edomvds>U.S. Environmental Protection Agency, Office of Water</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Length</attrlabl>
+<attrdef>Length of specimen or individual fish.</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<udom>Unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Portion Analyzed</attrlabl>
+<attrdef>What portion of the fish is analyzed, that is, whole body, or fillet.</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<edom>
+<edomv>whole body</edomv>
+<edomvd>Whole body analyzed.</edomvd>
+<edomvds>U.S. Environmental Protection Agency, Office of Water</edomvds>
+</edom>
+<edom>
+<edomv>fillet</edomv>
+<edomvd>Fillet analyzed.</edomvd>
+<edomvds>U.S. Environmental Protection Agency, Office of Water</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Taxon</attrlabl>
+<attrdef>The selected fish species.</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<udom>Nearly 82,000 individual species.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Weight</attrlabl>
+<attrdef>Weight of specimen or individual fish.</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<udom>Not known.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Weight Basis</attrlabl>
+<attrdef>Whether the mercury content is expressed on a wet weight basis or dry weight basis (or both).</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<udom>Unrepresentable domain.</udom>
+</attrdomv>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>Mercury Data for Mercury Concentration in Fish</enttypl>
+<enttypd>Information about the mercury contained in the fish specimens and composites.</enttypd>
+<enttypds>U.S. Environmental Protection Agency, Office of Water</enttypds>
+</enttyp>
+<attr>
+<attrlabl>comments</attrlabl>
+<attrdef>Comments associated with mercury concentration.</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<udom>Unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>concentration</attrlabl>
+<attrdef>Concentration of mercury in fish.</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0.001</rdommin>
+<rdommax>8.94</rdommax>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>detection limits</attrlabl>
+<attrdef>unknown</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>units</attrlabl>
+<attrdef>The units for the mercury concentration.</attrdef>
+<attrdefs>U.S. Environmental Protection Agency, Office of Water</attrdefs>
+<attrdomv>
+<udom>Unknown</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental  Protection Agency</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Environmental Protection Agency
+Office of Water (4101)
+1200 Pennsylvania Avenue, N.W.
+</address>
+<city>Washington</city>
+<state>District of Columbia</state>
+<postal>20460</postal>
+</cntaddr>
+<cntvoice>unavailable</cntvoice>
+<cntemail>OW-GENERAL@epamail.epa.gov</cntemail>
+</cntinfo>
+</distrib>
+<distliab>Although these data have been processed successfully on a computer system at the U.S. Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a U.S. Environmental Protection Agency server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>DBF</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.epa.gov/ost/fish/mercurydata.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>MDB</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.epa.gov/ost/fish/mercurydata.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20001101</metd>
+<metrd>20010105</metrd>
+<metfrd>20011101</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 400</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>240 232-0300, Ext. 1030</cntvoice>
+<cntfax>240 232-0320</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>19900101</begdate><enddate>19951231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_EPA_epa_d_fishmercury.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

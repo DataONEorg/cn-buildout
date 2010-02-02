@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        
+        <origin><![CDATA[SCHLESINGER, P.]]></origin>
+        
+        <origin><![CDATA[STONE, T.A.]]></origin>
+        
+
+        <title><![CDATA[RLC SELECTED INFRASTRUCTURE DATA FOR THE FORMER SOVIET UNION, 1993]]></title>
+
+        <onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/698.xml]]></onlink>
+        
+        <onlink><![CDATA[http://daac.ornl.gov//RLC/guides/RLC_vector_data.html]]></onlink>
+        
+        
+        <geoform><![CDATA[metadata]]></geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract></abstract>
+      <supplinf></supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[19930101]]></begdate>
+          <enddate><![CDATA[19931231]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Complete]]></progress>
+      <update><![CDATA[ As appropriate]]></update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>25</westbc>
+        <eastbc>180</eastbc>
+        <northbc>71</northbc>
+        <southbc>23.21</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt><![CDATA[Parameter_Sensor_Source]]></themekt>
+        
+        <themekey><![CDATA[DRAINAGE|DIGITIZER|TOPOGRAPHIC MAP]]></themekey>
+        
+        <themekey><![CDATA[ELECTRICITY|DIGITIZER|TOPOGRAPHIC MAP]]></themekey>
+        
+        <themekey><![CDATA[TRANSPORTATION|DIGITIZER|TOPOGRAPHIC MAP]]></themekey>
+        
+        
+        <themekt><![CDATA[Parameter]]></themekt>
+        
+        <themekey><![CDATA[DRAINAGE]]></themekey>
+        
+        
+        <themekt><![CDATA[Source]]></themekt>
+        
+        <themekey><![CDATA[TOPOGRAPHIC MAP]]></themekey>
+        
+        
+        <themekt><![CDATA[Sensor]]></themekt>
+        
+        <themekey><![CDATA[DIGITIZER]]></themekey>
+        
+      </theme>
+      
+      <place>
+        <placekt><![CDATA[Place Keywords]]></placekt>
+        
+        <placekey><![CDATA[RUSSIA/FORMER SOVIET UNION]]></placekey>
+        
+      </place>
+    </keywords>
+    
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[SCHLESINGER, P.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; ]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)]]></cntorg>
+          <cntper><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; ]]></cntfax>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://daac.ornl.gov/]]></computer>
+            <accinstr><![CDATA[PUBLIC]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Stone, T. A., and P. Schlesinger. 2003. RLC Selected Infrastructure Data for the Former Soviet Union, 1993. Data set. Available on-line [http://www.daac.ornl.gov] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/698]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd><![CDATA[20040107]]></metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn><![CDATA[FGDC Content Standard for Digital Geospatial Metadata]]></metstdn>
+  </metainfo>
+  <Local-Control-Number><![CDATA[Created 2009 11 15 21 30 28 1252338628 by 160.91.11.44]]></Local-Control-Number>
+
+  <mercury>
+    <begdate>19930101</begdate>
+    <enddate>19931231</enddate>
+    
+    <Site_Information>
+      <Site><![CDATA[RUSSIA/FORMER SOVIET UNION]]></Site>
+      <Westernmost_Longitude><![CDATA[25]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[180]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[71]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[23.21]]></Southernmost_Latitude>
+    </Site_Information>
+    
+
+    
+    <Keywords><![CDATA[ROADS]]></Keywords>
+    
+    <Keywords><![CDATA[DRAINAGE]]></Keywords>
+    
+    <Keywords><![CDATA[UTILITIES]]></Keywords>
+    
+    <Keywords><![CDATA[RAILROADS]]></Keywords>
+    
+    <Keywords><![CDATA[POPULATION CENTERS]]></Keywords>
+    
+    
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[DRAINAGE ]]></Parameter>
+      <Sensor><![CDATA[DIGITIZER ]]></Sensor>
+      <Source><![CDATA[TOPOGRAPHIC MAP ]]></Source>
+      <Term><![CDATA[SURFACE WATER ]]></Term>
+      <Topic><![CDATA[HYDROSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[ELECTRICITY ]]></Parameter>
+      <Sensor><![CDATA[DIGITIZER ]]></Sensor>
+      <Source><![CDATA[TOPOGRAPHIC MAP ]]></Source>
+      <Term><![CDATA[INFRASTRUCTURE ]]></Term>
+      <Topic><![CDATA[HUMAN DIMENSIONS ]]></Topic>
+    </Parameter_Description>
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[TRANSPORTATION ]]></Parameter>
+      <Sensor><![CDATA[DIGITIZER ]]></Sensor>
+      <Source><![CDATA[TOPOGRAPHIC MAP ]]></Source>
+      <Term><![CDATA[INFRASTRUCTURE ]]></Term>
+      <Topic><![CDATA[HUMAN DIMENSIONS ]]></Topic>
+    </Parameter_Description>
+    
+    
+    
+    <Project><![CDATA[RUSSIAN LAND COVER]]></Project>
+    
+    
+    
+    <Navpath><![CDATA[TOPOGRAPHIC MAP|DIGITIZER|DRAINAGE]]></Navpath>
+    
+    <Navpath><![CDATA[TOPOGRAPHIC MAP|DIGITIZER|ELECTRICITY]]></Navpath>
+    
+    <Navpath><![CDATA[TOPOGRAPHIC MAP|DIGITIZER|TRANSPORTATION]]></Navpath>
+    
+    
+    
+    <Principal_Investigator>
+      <Name><![CDATA[SCHLESINGER, P.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[STONE, T.A.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    
+    
+    <Data_Set_Link>
+      <URL><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=698]]></URL>
+      <Label><![CDATA[RLC SELECTED INFRASTRUCTURE DATA FOR THE FORMER SOVIET UNION, 1993]]></Label>
+      <Link_Note></Link_Note>
+    </Data_Set_Link>
+    
+  
+    
+    <Documentation_Link>
+      <URL><![CDATA[http://daac.ornl.gov//RLC/guides/RLC_vector_data.html]]></URL>
+      <Label><![CDATA[RLC SELECTED INFRASTRUCTURE DATA FOR THE FORMER SOVIET UNION, 1993]]></Label>
+      <Text></Text>
+    </Documentation_Link>
+    
+
+    
+
+        
+
+    <OME_Software_Version><![CDATA[/home/web/mercury/write_mercury_xml.pl]]></OME_Software_Version>
+    <OME_DTD_Version><![CDATA[mercury21.dtd]]></OME_DTD_Version>
+
+    
+    <Contact_Person>
+      <Email><![CDATA[ornldaac@ornl.gov]]></Email>
+      <Name><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></Name>
+      <Phone><![CDATA[+1(865)241-3952]]></Phone>
+    </Contact_Person>
+    
+    
+    <Temporal_Resolution></Temporal_Resolution>
+    <enddate_blank></enddate_blank>
+    <File_ID><![CDATA[698]]></File_ID>
+    <MD_Entry_id><![CDATA[rlc_infra_1993]]></MD_Entry_id>
+    
+
+    <Spatial_Extent>7407.45</Spatial_Extent>
+
+    
+    <Search_Text_Link>
+      <URL><![CDATA[http://daac.ornl.gov//RLC/guides/RLC_vector_data.html]]></URL>
+      <Label><![CDATA[RLC SELECTED INFRASTRUCTURE DATA FOR THE FORMER SOVIET UNION, 1993]]></Label>
+    </Search_Text_Link>
+    
+
+    
+    
+    <Granule_Details>
+    
+    </Granule_Details>
+    <OGC_URL></OGC_URL>
+
+
+  </mercury>
+
+</metadata>

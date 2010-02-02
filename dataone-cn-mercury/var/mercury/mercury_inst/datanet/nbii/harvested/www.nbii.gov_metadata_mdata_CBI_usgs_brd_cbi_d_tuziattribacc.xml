@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_tuziattribacc.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey</origin>
+<origin>Department of the Interior</origin>
+<pubdate>199705</pubdate>
+<title>Tuzigoot National Monument Accuracy Assessment</title>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Tuzigoot National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS Biological Resources Division, Center for Biological Informatics</publish>
+</pubinfo>
+<onlink>http://biology.usgs.gov/npsveg/tuzi/images/tuziaa.gif</onlink>
+<onlink>http://biology.usgs.gov/npsveg/tuzi/aa_rpt.pdf</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/tuzi/tuziaa.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/tuzi/tuziaasdts.exe</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+The accuracy assessment field work was performed
+in May, 1997 to verify the accuracy of the
+vegetation communities spatial data developed by
+the USGS-NPS Vegetation Mapping Program for Tuzigoot National Monument.
+The data points were randomly distributed stratified according to
+vegetation association over the project area
+according to protocols developed by the Program.
+Points were located by GPS navigation and the
+community information was collected at the point,
+without knowledge of the attributes of the
+vegetation spatial data.
+</abstract>
+<purpose>
+To verify the accuracy of the mapped vegetation
+communities at Tuzigoot National Monument
+</purpose>
+<supplinf>(previous geoform was 'database and report')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>199705</caldate>
+</sngdate>
+</timeinfo>
+<current>Source of data collection</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-112.028</westbc>
+<eastbc>-112.017</eastbc>
+<northbc>34.78583</northbc>
+<southbc>34.6584</southbc>
+</bounding>
+<descgeog>Tuzigoot National Monument, Nebraska and environs.</descgeog>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>National Park Service</themekey>
+<themekey>U.S. Geological Survey</themekey>
+<themekey>vegetation classification</themekey>
+<themekey>accuracy assessment</themekey>
+<themekey>sampling plots</themekey>
+<themekey>alliance</themekey>
+<themekey>association</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Arizona</placekey>
+<placekey>Verde Valley</placekey>
+<placekey>Cottonwood</placekey>
+<placekey>Tuzigoot National Monument</placekey>
+<placekey>Yavapai county</placekey>
+<placekey>Verde Valley</placekey>
+<placekey>Verde River</placekey>
+<placekey>Clarkdale</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>vegetation classification</taxonkey>
+<taxonkey>Standardized National Vegetation Classification System</taxonkey>
+<taxonkey>alliance</taxonkey>
+<taxonkey>community association</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>U.S. Government; Federal Geographic Data Committee</origin>
+<pubdate>19971022</pubdate>
+<title>National Vegetation Classification Standard (NVCS)</title>
+<geoform>document</geoform>
+<pubinfo>
+<pubplace>Washington D.C.</pubplace>
+<publish>Federal Geographic Data Committee</publish>
+</pubinfo>
+<onlink>http://www.fgdc.gov/standards/status/sub2_1.html</onlink>
+</citeinfo>
+</classcit>
+</classsys>
+<taxonpro>
+Vegetation alliances were identified; no specimens nor vouchers were
+collected as a part of this process
+</taxonpro>
+<taxoncom>
+Conforms with FGDC standardized vegetation
+classification system.
+</taxoncom>
+</taxonsys>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>
+Any person using the information presented here
+should fully understand the data collection and
+compilation procedures, as described in these
+metadata, before beginning analysis.  The burden
+for  determining fitness for use lies entirely
+with the user.  For purposes of publication or
+dissemination, citation or credit should be given
+to the U.S. Geological Survey and the National
+Park Service.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>
+USGS Biological Resources Division, Center for Biological
+Informatics
+</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>Building 810, Room 8000</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>PO BOX 25046, DFC, MS302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/tuzi/images/tuziaa.gif</browsen>
+<browsed>
+63 kbyte file showing vegetation associations and
+location of accuracy assessment points
+</browsed>
+<browset>GIF</browset>
+</browse>
+<native>text file</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+The attributes for the accuracy assessment were
+recorded in the field in May, 1997.  Vegetation
+associations were identified based on the field
+key and plant identification.  If additional
+communities were found within a 50 meter radius of
+the plot center, they were recorded as well.
+During the analysis, it was concluded that some
+attributes were in error and changed to match the
+mapped attributes.  This was done by examination
+of the aerial photographs under stereoscopic view.
+The attributes were in error due to 1) spatial
+error in the GPS derived coordinates (4-8 meters),
+2) change of vegetation community due to temporal
+changes, or differences between observation team identifications.
+</attraccr>
+</attracc>
+<logic>
+All attributes are codes that correspond to
+vegetation communities and have been checked for
+typographical and logical errors.
+</logic>
+<complete>
+All points were collected and analyzed. Several
+points fell outside the mapping area, so were
+discarded.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+X,Y UTM coordinates representing each of the 35 plots were collected by
+P-code PLGR (Precise Lightweight GPS Receiver) receivers, with an
+accuracy ranging from +/- 10 m. to +/- 30 m. based on 60 second
+averaging at each point.
+</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>Not applicable</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>Accuracy Assessment</methkey>
+</methodid>
+<methdesc>
+Data points were located by use of a PLGR GPS
+receiver.  Vegetation communities were identified
+on the basis of a dichotomous field key and plant
+species present.
+</methdesc>
+</method>
+<method>
+<methtype>Lab</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>Accuracy Assessment</methkey>
+</methodid>
+<methdesc>
+Accuracy assessment points were compiled into an
+ARCINFO point coverage and intersected with the
+vegetation community coverage.  The resulting INFO
+file was exported into a text file, imported into
+a spreadsheet, and the attributes from the
+accuracy assessment and the spatial data were
+compared.  If the attributes did not compare, an
+analysis of the mismatch was made and either the
+AA attribute or the map attribute was changed
+based on identification of the community on the
+aerial photo.
+</methdesc>
+</method>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. National Biological Survey</origin>
+<origin>U.S. National Park Service</origin>
+<origin>Department of the Interior</origin>
+<pubdate>199411</pubdate>
+<title>Accuracy Assessment Procedures, NBS/NPS Vegetation Mapping Program</title>
+<geoform>procedures document</geoform>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>
+USGS, Biological Resources Division, Center for
+Biological Informatics
+</publish>
+</pubinfo>
+<othercit>
+Prepared by: Environmental Systems Research Institute; Redlands, CA and
+National Center for Geographic Information and Analysis, University of
+California, Santa Barbara, CA and The Nature Conservancy, Arlington, VA under
+contract from U.S. Department of the Interior National Biological Survey and
+National Park Service.
+</othercit>
+</citeinfo>
+</srccite>
+<typesrc>electronic document</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>199411</begdate>
+<enddate>Present</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Accuracy Assessment Procedures Document</srccitea>
+<srccontr>
+This document established the procedures and protocols for the accuracy assessment
+at Tuzigoot National Monument.
+</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. Geological Survey</origin>
+<origin>Department of the Interior</origin>
+<pubdate>199705</pubdate>
+<title>
+Tuzigoot National Monument Spatial Vegetation
+Data:  Cover type / Association level of the
+National Vegetation Classification System
+</title>
+<geoform>report</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Tuzigoot National Monument</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>
+USGS, Biological Resources Division, Center for
+Biological Informatics
+</publish>
+</pubinfo>
+<othercit>
+Created in large part by Environmental Systems
+Research Institute, Inc. Redlands, CA under
+contract from USGS/BRD/CBI.
+</othercit>
+</citeinfo>
+</srccite>
+<typesrc>Disc</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19950725</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>Spatial data of vegetation communities for Tuzigoot National Monument.</srccitea>
+<srccontr>
+The vegetation spatial data were tested for
+accuracy with the AA data.
+</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>
+The accuracy assessment field work was performed
+in May, 1997 to verify the accuracy of the
+vegetation communities spatial data developed by
+the USGS-NPS Vegetation Mapping Program for Tuzigoot
+National Monument.  The data points were
+randomly distributed stratified according to
+vegetation association over the project area
+according to protocols developed by the Program.
+Points were located by GPS navigation and the
+community information was collected at the point,
+without knowledge of the attributes of the
+vegetation spatial data.
+</procdesc>
+<srcused>Spatial data of vegetation communities for Tuzigoot National Monument.</srcused>
+<srcused>Accuracy Assessment Procedure Document</srcused>
+<procdate>199810</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Point</direct>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>12</utmzone>
+<transmer>
+<longcm>-111</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+<sfctrmer>.9996</sfctrmer>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>1</absres>
+<ordres>1</ordres>
+</coordrep>
+<plandu>Meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodedic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+The National Vegetation Classification Standard is
+organized hierarchically to support conservation
+and resource stewardship applications across
+multiple scales. The upper levels of the hierarchy
+are based on the physical form or structure of the
+vegetation (physiognomy) and have been refined
+from the international standards developed by the
+United nations Educational, Scientific, and
+Cultural Organization (UNESCO). The two most
+detailed levels of the hierarchy are based on the
+species composition of existing vegetation
+(floristics) and reflect the phyto-sociological
+standards that were originally developed by
+European ecologists. The vegetation classification
+is continually advanced through the collection and
+analysis of new field data and will be greatly
+strengthened during the course of the USGS-NPS
+mapping efforts. Data file attributes include
+species, alliance, community element, and land cover.
+</eaover>
+<eadetcit>
+Grossman, D. Et al. 1994. National Park Service/
+National Biological Service Vegetation Mapping
+Project, Standardized National Vegetation
+Classification System 209 pp.
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>Center For Biological Informatics, USGS/BRD</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>P.O. Box 24046, MS-302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>303-202-4259</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the
+Biological Resources Division, no warranty
+expressed or implied is made regarding the
+accuracy or utility of the data on any other
+system or for general or scientific purposes, nor
+shall the act of distribution constitute any such
+warranty. This disclaimer applies both to
+individual use of the data and aggregate use with
+other data.  It is strongly recommended that these
+data are directly acquired from a Biological
+Resources Division server, and not indirectly
+through other sources which may have changed the
+data in some way.  It is also strongly recommended
+that careful attention be paid to the contents of
+the metadata file associated with these data.  The
+Biological Resources Division shall not be held
+liable for improper or incorrect use of the data
+described and/or contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>PDF</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/tuzi/aa_rpt.pdf</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/tuzi/tuziaa.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/tuzi/tuziaasdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>GIF</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/tuzi/images/tuziaa.gif</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20011022</metd>
+<metrd>20050520</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19970501</begdate><enddate>19970531</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_tuziattribacc.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

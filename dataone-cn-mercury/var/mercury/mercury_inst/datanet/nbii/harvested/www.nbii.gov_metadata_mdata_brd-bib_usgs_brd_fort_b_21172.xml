@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21172.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Allen, C.D</origin>
+<pubdate>2002</pubdate>
+<title>Lots of lightning and plenty of people:  An ecological history of fire in the upland southwest</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Washington</pubplace>
+<publish>Island Press</publish>
+</pubinfo>
+<othercit>pages 143-193</othercit>
+<lworkcit>
+<citeinfo>
+<origin>T.R. Vale (ed.), ed.</origin>
+<pubdate>2002</pubdate>
+<title>Fire, Native Peoples, and the Natural Landscape</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Washington</pubplace>
+<publish>Island Press</publish>
+</pubinfo>
+<othercit>pages 143-193</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Allen, C.D. 2002. Lots of lightning and plenty of people:  An ecological history of fire in the upland southwest. In: T.R. Vale (ed.). Fire, Native Peoples, and the Natural Landscape. Washington: Island Press. p. 143-193.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>fire</themekey>
+<themekey>ecology</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Allen, A.W.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>White, C.S., and C.D. Allen</origin>
+<pubdate>@@@</pubdate>
+<title>Changes in nitrogen cycling processes following repeated fire in Southwestern ponderosa pine orest</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Ecological Applications (ISSN 1051-0761)</sername>
+<issue>Information not in the FORT Publications database</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>Ecological Society of America</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Anderson, R.S., C.D. Allen, J.L. Toney, R.B. Jass, and A.N. Blair</origin>
+<pubdate>2008</pubdate>
+<title>Holocene vegetation and fire regimes in subalpine and mixed conifer forests, southern Rocky Mountains</title>
+<geoform>Unknown</geoform>
+<othercit>Vol. 17(1) pages 96-114</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Margolis, E.Q., T.W. Swetnam, and C.D. Allen</origin>
+<pubdate>2007</pubdate>
+<title>A stand-replacing fire history in upper montane forests of the southern Rocky Mountains</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Canadian Journal of Forest Research (ISSN 0045-5067)</sername>
+<issue>37(11):2227-2241</issue>
+</serinfo>
+<othercit>Vol. 37(11) pages 2227-2241</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Sisk, T.D., M. Savage, D. Falk, C.D. Allen, E. Muldavin and P. McCarthy</origin>
+<pubdate>2005</pubdate>
+<title>A landscape perspective for forest restoration</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Journal of Forestry (ISSN 0022-1201)</sername>
+<issue>103(6):319-320</issue>
+</serinfo>
+<othercit>Vol. 103(6) pages 319-320</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Allen, C.D</origin>
+<pubdate>2005</pubdate>
+<title>A thousand years in the life of a landscape</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Santa Fe, NM</pubplace>
+<publish>School of American Research Press</publish>
+</pubinfo>
+<othercit>pages 11-18</othercit>
+<lworkcit>
+<citeinfo>
+<origin>R.P. Powers (ed.), ed.</origin>
+<pubdate>2005</pubdate>
+<title>A thousand years in the life of a landscape</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Santa Fe, NM</pubplace>
+<publish>School of American Research Press</publish>
+</pubinfo>
+<othercit>pages 11-18</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Allen, A.W.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Lots of lightning and plenty of people:  An ecological history of fire in the upland southwest.  FORT Library Archive Number: 2002/0056 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21172.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

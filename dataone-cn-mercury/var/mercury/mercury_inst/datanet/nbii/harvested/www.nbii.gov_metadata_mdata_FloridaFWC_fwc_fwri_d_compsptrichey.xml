@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_compsptrichey.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>University of South Florida College of Marine Science</origin>
+<pubdate>Unpublished material</pubdate>
+<title>Port Richey Coastal Observing Station Data - Coastal Ocean Monitoring and Prediction System (COMPS)</title>
+<geoform>maps data</geoform>
+<onlink>http://comps1.marine.usf.edu/pas/</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The University of South Florida Coastal Ocean Monitoring and Prediction System (COMPS) Port Richey Station is located along the south western edge of Koons Road within the city of Port Richey's Brasser Park (Port Richey Recreation Center). The 4 pile structure, approximately 13' offshore in 6' of water, is approximately 7'x 9' (9' aligned to the shore) with the platform deck height approximately 6' above MHHW. The wind monitor is approximately 34' above MHHW. The parameters measured at this station are water level, water temperature and conductivity, wind speed and direction, air temperature, barometric pressure, relative humidity, and precipitation. The data is transmitted from the station to the COMPS office at USF approximately every hour using the GOES satellite and is then made available on the COMPS website. Note that the only date reference for each data record is in the GOES transmission header and corresponds to transmission time. If the transmission time for data collected during the 23rd hour is after midnight, the date in the header will be one day ahead of the actual date of collection. Sensor heights on this station were referenced to NAVD 88 on August 23, 2002 at 1520 UTC.</abstract>
+<purpose>The University of South Florida has implemented a real-time Coastal Ocean Monitoring and Prediction System (COMPS) for West Florida. COMPS consists of an array of instrumentation, both along the coast and offshore, combined with numerical circulation models, and builds upon existing in-situ measurements and modeling programs funded by various state and federal agencies. COMPS provides additional data needed for a variety of management issues, including more accurate predictions of coastal flooding by storm surge, safety and efficiency of marine navigation, search and rescue efforts, and fisheries management. COMPS also supports basic	research programs.</purpose>
+<supplinf>The University of South Florida implemented COMPS in 1997 for West Florida as a State of Florida legislative initiative. The real-time and non real-time meteorological and oceanographic data collected from coastal stations and offshore buoy stations maintained by USF along the West Florida Shelf are part of the COMPS initiative. All USF-COMPS coastal stations are equipped with Aquatrak acoustic water level measurement sensors. The coastal stations also have a variety of meteorological and oceanographic sensors: RM Young anemometers for wind speed and direction, barometric pressure sensors, air temperature and realtive humidity sensors, rain gages, water temperature and conductivity sensors, fluorometers and transmissometers. Note that not all the stations have all these sensors. They are installed on each stations based on the need. COMPS buoy-mounted meteorological sensors consist of either the Coastal Environmental Systems Weatherpak 2000 system, modified to accommodate GOES telemetry, or the Woods Hole Oceanographic Institute (WHOI) Improved METeorology (IMET) system, which has now evolved into the Air Sea Interaction METeorology (ASIMET) system, which is presently being manufactured by Star Engineering. The Weatherpaks measure wind speed and direction, air and water temperature, relative humidity, and barometric pressure. IMET and ASIMET measures the above parameters plus incoming short and long wave radiation and precipitation.  (previous geoform was 'tabular digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>20020410</begdate>
+<begtime>200000</begtime>
+<enddate>Present</enddate>
+<endtime>Unknown</endtime>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>In work</progress>
+<update>Continually</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-82.732</westbc>
+<eastbc>-82.732</eastbc>
+<northbc>28.285</northbc>
+<southbc>28.285</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>meteorology</themekey>
+<themekey>oceanography</themekey>
+<themekey>air temperature</themekey>
+<themekey>water temperature</themekey>
+<themekey>conductivity</themekey>
+<themekey>water level</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Florida</placekey>
+<placekey>Port Richey</placekey>
+<placekey>Pasco County</placekey>
+<placekey>Tampa Bay</placekey>
+<placekey>Gulf of Mexico</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>Following academic courtesy standards, the COMPS Co-Directors (see Originator), the University of South Florida College of Marine Science, and the Grantor (see Data Set Credit) should be fully acknowledged in any subsequent publications in which any part of these data are used. Use of the data without completely reading and understanding the metadata is not recommended. Neither the University of South Florida, the USF College of Marine Science researchers, nor the State of Florida are responsible for the misuse of data from this database (see Distribution Liability).</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Dr. Mark E. Luther or Dr. Robert H. Weisberg</cntper>
+<cntorg>University of South Florida</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>
+140 7th Avenue South
+College of Marine Science
+University of South Florida
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-553-1528, 727-553-1568</cntvoice>
+<cntfax>727-553-1189</cntfax>
+<cntemail>luther@marine.usf.edu,weisberg@marine.usf.edu</cntemail>
+<hours>8:30 a.m. to 5:30 p.m. EST/EDT Monday-Friday</hours>
+<cntinst>E-mail preferred</cntinst>
+</cntinfo>
+</ptcontac>
+<datacred>The COMPS program is supported by the State of Florida and the University of South Florida, College of Marine Science. The Port Richey station is funded in part by the Pasco County Division of Emergency Management and the NOAA National Weather Service. It is maintained by the USF College of Marine Science. Dr. Mark Luther and Dr. Bob Weisberg are the Co-directors of the COMPS Program. The COMPS field program directors, COMPS data manager, and COMPS system administrator have also contributed to the dataset.</datacred>
+<native>The raw and de-coded data from this station is stored in SGI/Linux and PC/Windows based computers and are presently served on the internet.</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+USF COMPS Coastal Stations Weather Monitoring System Accuracy (Port Richey Coastal Station)
+Wind Speed:      	+/- 0.3 m/sec or 3%
+Wind Direction:		5 - 7.8 Deg.
+Air Temperature:	+/-0.3 deg. C
+Water Temperature:	+/-0.2 deg. C
+Water Level:            Calibration:
+Standard: +/- 0.025%
+Optional: +/- 0.01%
+Nonlinearity: +/- 0.02%
+Precision	 : +/- 0.01%
+Stability,	: 0
+Drift, 1 Year
+Temperature Drift: &lt;1 ppm/deg C
+Conductivity:          Normalized to 25 Deg. C - +/- 1% over
+Range 0-30 deg C
+Non-Normalised - 0.2% over range
+0-30 deg C
+Barometric Pressure:+/- 0.5 hPa (0.02 in Hg) @ 20 deg. C
++/- 2.0 hPa (0.06 in Hg) over temp.range
+Relative Humidity:3% from 10 to 90% RH at 20 deg. C
+4% from 0to10 and 90to100% RH at 20 deg. C
+Precipitation:         +/- 0.4 mm per hour
+</attraccr>
+</attracc>
+<logic>N/A</logic>
+<complete>
+The near real-time data telemetred from the Port Richey Coastal Station data  can be accessed via the website http://comps1.marine.usf.edu/pas/. The Port Richey Station  website is updated every hour, and data for the past 24-hour in report form can be accessed via the website. Various Data Display (Time series and Wind Vector plots) plots (Past 24 hours and 5- Days) are also available for download from the website. The details of data format are also provided in the website. The decoded data files of the USF COMPS Anclote site can be accessed by pointing the browser to the URL:ftp://comps.marine.usf.edu/pub/pas.
+The data format details are also available. For further details on data availability and access, please contact COMPS Program Data Manager. The station log of maintenance, problems, and observations relevant to the Sensor systems on the stations are maintained in College of Marine Science, University of South Florida, St. Petersburg, Florida. The raw data telemetred from the station are archived at College of Marine Science, University of South Florida. The raw data will be provided based on request to the Pricipal Investigators of the USF COMPS Project.
+</complete>
+<lineage>
+<procstep>
+<procdesc>
+A brief overview of the data processing steps of USFCMS COMPS Coastal and Offshore weather monitoring data is presented here. Detailed description of the processing scripts used are available at College of Marine Science, University of South Florida.
+USF has two downlink systems to acquire the coastal and offshore stations data via GOES: a Digital Direct Reading Ground Station (DDRGS) and a Domestic Satellite rebroadcast receiving system (DOMSAT). We also download our data from NESDIS using Local Readout Ground Station software package obtained from NOAA, NESDIS. The hourly data streams (meteorological and water parameters) received from coastal stations consist of ten 6-minute samples. The hourly data streams (measurements of meteorological	parameters) that are received from the offshore stations consist of four 15-minute and three 20-minute samples for buoys equipped with Coastal Climate WeatherPak systems and USF/ASIMET systems respectively. The ADCP (velocities, direction) consist of one sample per hour. The salinity and temperature data consist of three 20 minute samples on IMET/ASIMET type buoys and two 30 minute samples on coastal climate weatherpak buoys. Once received the data are processed using decoder scripts written in C and Perl programming languages.  Observations are then served to the public via the Internet at http://comps.marine.usf.edu.  These data are also available via the NDBC who have direct access for input to the National Center for Environmental Prediction for improved marine weather forecasts at http://www.ndbc.noaa.gov/Maps/Florida.shtml.  The most recent observations, graphics and reports (past one and five days duration) generated from the data are available for download from the individual station web site. Development of a web based data management system is in progress.
+</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+<cloud>Unknown</cloud>
+</dataqual>
+<spdoinfo>
+<direct>Point</direct>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Observations</enttypl>
+<enttypd>The attributes in this entity describe the observations made by instruments at the station every six minutes.</enttypd>
+<enttypds>USF COMPS</enttypds>
+</enttyp>
+<attr>
+<attrlabl>bp</attrlabl>
+<attrdef>barometric pressure</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>9000</rdommin>
+<rdommax>10400</rdommax>
+<attrunit>millibars *10</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>2</attrva>
+<attrvae>+/-0.5 mbar at 20 degrees Celsius; +/-2.0 mbar over temperature range</attrvae>
+</attrvai>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>cd</attrlabl>
+<attrdef>conductivity</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>50</rdommin>
+<rdommax>800</rdommax>
+<attrunit>millisiemens/cm * 10</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>hhmm</attrlabl>
+<attrdef>measurement time (UTC)</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>00:00</rdommin>
+<rdommax>23:59</rdommax>
+<attrunit>hours:minutes</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>lct</attrlabl>
+<attrdef>lower calibration temperature for water level sensor</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<udom>
+For calibration only--not a physical measurement (units are degrees F
+* 10)
+</udom>
+</attrdomv>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>ol</attrlabl>
+<attrdef>number_of_outliers (for water level during the sampling period)</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<udom>statistical quantity--not a physical measurement</udom>
+</attrdomv>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>pp</attrlabl>
+<attrdef>precipitation</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>500</rdommax>
+<attrunit>millimeters * 10</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>0.4</attrva>
+<attrvae>+/-0.4 mm per hour</attrvae>
+</attrvai>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>rh</attrlabl>
+<attrdef>relative_humidity</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0.0</rdommin>
+<rdommax>1000</rdommax>
+<attrunit>percentage * 10</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>3</attrva>
+<attrvae>+/-3% from 10-90% RH at 20 degrees C; +/-4% from 1-10% and 90-100% RH</attrvae>
+</attrvai>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>sd</attrlabl>
+<attrdef>
+standard deviation (of the mean of the water level measurements over the
+sampling period)
+</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<udom>
+statistical quantity--not a physical measurement (note that quantity
+is standard deviation * 100)
+</udom>
+</attrdomv>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>ta</attrlabl>
+<attrdef>air_temp</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>-150</rdommin>
+<rdommax>450</rdommax>
+<attrunit>degrees Celsius * 10</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>0.3</attrva>
+<attrvae>+/-0.3 degrees Celsius</attrvae>
+</attrvai>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>tw</attrlabl>
+<attrdef>water temperature</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>500</rdommax>
+<attrunit>degrees C * 10</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>uct</attrlabl>
+<attrdef>upper calibration temperature for water level sensor</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<udom>
+For calibration only--not a physical measurement (units are degrees F
+* 10)
+</udom>
+</attrdomv>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>wd</attrlabl>
+<attrdef>wind direction</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>359</rdommax>
+<attrunit>degrees true</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>3</attrva>
+<attrvae>
++/-3.0 degrees true; measurements from 356 to 359 are invalid due to a
+5 degree open spot on the potentiometer.
+</attrvae>
+</attrvai>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>wg</attrlabl>
+<attrdef>maximum wind gust during the sampling period</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>600</rdommax>
+<attrunit>meters per second * 10</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>0.3</attrva>
+<attrvae>+/-0.3 meters per second</attrvae>
+</attrvai>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>wl</attrlabl>
+<attrdef>
+primary_water_level Notes: Water Level =(staff_offset) - (measured
+(Primary) water level) - sensor offset **** The water level was
+referenced to NAVD 88 on August 23, 2002. See distributor for
+calculations.
+</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>-1000</rdommin>
+<rdommax>10000</rdommax>
+<attrunit>millimeters</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>2.5</attrva>
+<attrvae>
+Accuracy is +/-0.025 percent of measurement. Calibration (Standard:
++/-0.025%, Optional: +/-0.01%); Non-linearity: +/-0.02%; Precision:
++/-0.01%; Stability: 0; One year temperature drift: 1 ppm/deg C
+</attrvae>
+</attrvai>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>wl2</attrlabl>
+<attrdef>
+redundant_water_level (water level from one hour ago--used for quality
+control) **** Notes: Water Level =(staff_offset) - (measured (Primary)
+water level) - sensor offset **** The water level was referenced to NAVD
+88 on August 23, 2002. See distributor for calculations.
+</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>-1000</rdommin>
+<rdommax>10000</rdommax>
+<attrunit>millimeters</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>2.5</attrva>
+<attrvae>
+Accuracy is +/-0.025 percent of measurement. Calibration (Standard:
++/-0.025%, Optional: +/-0.01%); Non-linearity: +/-0.02%; Precision:
++/-0.01%; Stability: 0; One year temperature drift: 1 ppm/deg C
+</attrvae>
+</attrvai>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+<attr>
+<attrlabl>ws</attrlabl>
+<attrdef>wind speed</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>600</rdommax>
+<attrunit>meters per second * 10</attrunit>
+<attrmres>1</attrmres>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>0.3</attrva>
+<attrvae>+/-0.3 meters per second</attrvae>
+</attrvai>
+<attrmfrq>6 minutes</attrmfrq>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>Header String</enttypl>
+<enttypd>NOAA GOES Transmission Header String example with interpretation key</enttypd>
+<enttypds>NOAA National Coastal Data Development Center</enttypds>
+</enttyp>
+<attr>
+<attrlabl>COTIERVR1405632A03274002810G42-7NN061E9600331M 2751 +4150 -107 117</attrlabl>
+<attrdef>
+JD 1) **** Message Received time (GMT) HHMMSS:002810 **** FAILURE_CODE 1
+code for message: G (Good) **** SIGNAL_STRENGTH 2 DAMS quality
+measurement(good between 43 and 53): 42 **** FREQUENCY_OFFSET 2 DAMS
+quality measurement :-7 **** MODULATION_INDEX 1 DAMS quality measurement
+(N=Normal, L=low, H=high): N **** DATA_QUALITY 1 DAMS quality
+measurement (N=Normal, F=Fair, P=poor): N **** CHANNEL_RECEIVED 3
+channel message received on: 061 **** GOES_SPACECRAFT 1 GOES Spacecraft
+used (E=East, W=West): E **** UPLINK_CARRIER_STATUS 2 Uplink carrier
+status (not operational): 99 **** MESSAGE_DATA_LENGTH 5 message length
+(bytes) see notes: 00331 **** MESSAGE_DATA 15750 (max.) message data
+(variable length) **** Remaining fields in header are added locally:
+**** DATA_LOGGER_DAY: 2751 **** BENCHMARK_OFFSET (millimeters): 4150
+**** SENSOR_OFFSET (millimeters): -107 **** BATTERY_VOLTAGE: 117 ****
+Notes: **** Failure Codes: G=Good message, ?=message received with
+parity errors, W=message received on wrong channel, D=message received
+on multiple channels, A=message received with address error(s)
+(correctable), T=message received late/early, U=unexpected message,
+M=missing message, N=PDT entry for this platform is not complete ****
+Message data length: indicates the total length of the message as
+received. Because the first four bytes of the message are the binary DCP
+address which is not downloaded, the actual number of bytes tranferred
+is MESSAGE_DATA_LENGTH minus 4.
+</attrdef>
+<attrdefs>USF COMPS</attrdefs>
+<attrdomv>
+<udom>free text</udom>
+</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>The individual environmental observations made at this station are described in the Detailed Description of this metadata record. The primary water level values in the data record represent the distance from the sensor to the water surface, so a receding water level will appear as an  increase in the value. To obtain the correct water level, use the computation provided in the station's format (.fmt) file with the reference datum. Missing measurements are denoted by -99.9.</eaover>
+<eadetcit>
+See USF COMPS ftp server for format file
+(ftp://comps.marine.usf.edu/pub/pas/pas.fmt),See NOAA GOES transmitter web site for more information about transmitter operation (http://dcs.noaa.gov),See "Users Guide Model 4100 Series Aquatrak" for information about the operation of the water level sensor--available from http://www.cpacc.org/download/4100%20Manual%20070100.pdf,See USF COMPS ftp server for sensor heights referenced to NAVD 88:			ftp://comps.marine.usf.edu/pub/comps_stn_details/usfsc_stn_sensor_hts.htm
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>
+Mark Luther, Bob Weisberg, Clifford Merz, Vembu Subramanian, Jeff Donovan
+Donovan, Rick Cole
+</cntper>
+<cntorg>University of South Florida</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>
+140 7th Avenue South
+College of Marine Science
+University of South Florida
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-553-1528,727-553-1568,727-553-3729,727-553-1625,727-553-1116,727-553-1522</cntvoice>
+<cntfax>727-553-1189</cntfax>
+<cntemail>luther@marine.usf.edu,weisberg@marine.usf.edu,cmerz@marine.usf.edu,vembu@marine.usf.edu,jeff@marine.usf.edu,rdc@ocg7.marine.usf.edu</cntemail>
+<hours>8.30 am to 5.30 pm EST/EDT Monday-Friday</hours>
+<cntinst>E-mail preferred</cntinst>
+</cntinfo>
+</distrib>
+<distliab>This server (comps.marine.usf.edu) provides real-time oceanographic data to the public; however, all data are provisional and have not been quality-controlled. While all due care is taken to provide accurate information, provisional data are subject to change or retraction after quality control and before official release. No warranty is made, express or implied, regarding the accuracy or validity of the data, or regarding the an official source for these data products. For further information please contact the distributor.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ASCII text</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://comps.marine.usf.edu</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20050614</metd>
+<metrd>20060216</metrd>
+<metfrd>20060616</metfrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>University of South Florida (USF) - College of Marine Science</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>140 7th Avenue South</address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-553-1625</cntvoice>
+<cntfax>727-553-1189</cntfax>
+<cntemail>vembu@marine.usf.edu</cntemail>
+<hours>8am-5pm, Monday through Friday</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>none</metac>
+<metuc>none</metuc>
+<metextns>
+<onlink>http://comps1.marine.usf.edu/pas</onlink>
+<metprof>Port Richey Coastal Station</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>20020410</begdate><enddate>20091114</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_compsptrichey.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

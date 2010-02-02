@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_olyamphib.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Bury, R. Bruce and Michael J. Adams</origin>
+<pubdate>2000</pubdate>
+<title>Inventory and monitoring of amphibians in North Cascades and Olympic National Parks, 1995-1998; final</title>
+<geoform>Book</geoform>
+<othercit>
+Science Information System Project #: 7076
+Publication Control #: 978
+</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>In Olympic National Park, we surveyed 14 drainages (244 seeps, 168 streams, 165 ponds). In North Cascades National Park, we surveyed 3 drainages. We detected 13 species of amphibians in Olympic National Park and 8 species in North Cascades National Park. We measured population attributes of tailed frogs (Ascaphus truei) and spotted frogs (Rana luteiventris) in North Cascades. In Olympic National Park, most Cascade frogs (Rana cascadae) bred in shallow ponds without fish and with lower UV-B exposure (i.e., high dissolved organic matter). The relationship with UV-B exposure remained marginally significant even after the presence of fish was included in the model. At 50-cm water depth, there was a 55% reduction in incident 305-nm radiation at sites where breeding populations of Cascade frogs were detected compared to other sites. We did not detect any associations between UV-B attenuation and northwestern or long-toed salamanders. Stream amphibians were common and widespread, but Copes giant salamander (Dicamptodon copei) was not detected in 4 drainages in the northeast portion of the park. Our findings confirmed that stream amphibians have some association with consolidated substrates but, unlike studies on managed forests, we found amphibians to be widespread and abundant in areas with unconsolidated surface geology. This finding counters earlier work suggesting that unconsolidated substrates are not good habitat for stream amphibians. In North Cascades National Park, a spotted frog population in Dagger Lake was estimated at 304 adults in 1997. In 1998, this population produced approximately 77 egg masses. Some ranid frogs in the Big Beaver Drainage (North Cascades National Park) appear to have characteristics of both Cascade frogs and spotted frogs. Tailed frogs in Happy Creek (North Cascades) appear to have a three-year larval period.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>
+Extent of item: 135pp
+Illustrative Matter: tables, graphs, figures
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>1995</begdate>
+<enddate>1998</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Olympic National Park and North Cascades National Park</descgeog>
+<bounding>
+<westbc>-124.333</westbc>
+<eastbc>-120.5</eastbc>
+<northbc>49</northbc>
+<southbc>47.5</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>MetaWebber Subject Categories</themekt>
+<themekey>Amphibians and Reptiles</themekey>
+<themekey>Ecosystems - Ecological Communities</themekey>
+</theme>
+<theme>
+<themekt>Science Information System Controlled Vocabulary</themekt>
+<themekey>Amphibians</themekey>
+<themekey>Ecosystem Science</themekey>
+<themekey>Inventory</themekey>
+<themekey>National Parks</themekey>
+<themekey>Status and Trends</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>North Cascades National Park</placekey>
+<placekey>Olympic National Park</placekey>
+<placekey>Washington</placekey>
+<placekey>WA</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>amphibians</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Sub Phylum</taxonrn>
+<taxonrv>Vertebrata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Amphibia</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Anura</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Ascaphidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Ascaphus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Ascaphus truei</taxonrv>
+<common>Tailed Frog</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Ranidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Rana</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Rana aurora</taxonrv>
+<common>Red-Legged Frog</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Rana cascadae</taxonrv>
+<common>Cascade Frog</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Rana luteiventris</taxonrv>
+<common>Columbian Spotted Frog</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Hylidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Pseudacris</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Hyla regilla</taxonrv>
+<common>Pacific Treefrog</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Bufonidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Bufo</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Bufo boreas</taxonrv>
+<common>Western Toad</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Caudata</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Ambystomatidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Ambystoma</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Ambystoma macrodactylum</taxonrv>
+<common>Long-Toed Salamander</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Ambystoma gracile</taxonrv>
+<common>Northwestern Salamander</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Dicamptodontidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Dicamptodon</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Dicamptodon tenebrosus</taxonrv>
+<common>Pacific Giant Salamander</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Dicamptodon copei</taxonrv>
+<common>Cope's Giant Salamander</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Salamandridae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Taricha</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Taricha granulosa</taxonrv>
+<common>Rough-Skinned Newt</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Rhyacotritonidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Rhyacotriton</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Rhyacotriton olympicus</taxonrv>
+<common>Olympic Torrent Salamander</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Plethodontidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Plethodon</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Plethodon vehiculum</taxonrv>
+<common>Western Red-Backed Salamander</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Plethodon vandykei</taxonrv>
+<common>Van Dyke's Salamander</common>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Ensatina</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Ensatina eschscholtzii</taxonrv>
+<common>Ensatina</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Bury, R. Bruce</cntper>
+<cntorg>USGS Forest and Rangeland Ecosystem Science Center</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>3200 SW Jefferson Way</address>
+<city>Corvallis</city>
+<state>OR</state>
+<postal>97331</postal>
+</cntaddr>
+<cntvoice>541/758/7788</cntvoice>
+<cntemail>buryb@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #: 978</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20010711</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Forest and Rangeland Ecosystem Science Center (FRESC)</cntorg>
+</cntorgp>
+<cntpos>Library</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+777 NW 9th St.
+Suite 100
+</address>
+<city>Corvallis</city>
+<state>OR</state>
+<postal>97330</postal>
+</cntaddr>
+<cntvoice>541-750-1030</cntvoice>
+<cntfax>541-750-1069</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19950101</begdate><enddate>19981231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_olyamphib.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

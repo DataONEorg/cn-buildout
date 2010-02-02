@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_loon.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>S. Earnst</origin>
+<pubdate>2000</pubdate>
+<title>The Alaska Loon Working Group Project Directory</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Boise, ID</pubplace>
+<publish>USGS Forest and Rangeland Ecosystem Science Center</publish>
+</pubinfo>
+<othercit>
+Science Information System Project #:  73-11
+Publication Control #:  805
+</othercit>
+<onlink>http://alaska.fws.gov/mbm/loons/index.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This directory provides a summary of 24 ongoing, completed, or planned projects on the Alaska&amp;#146;s loons and grebes. The goals of the Alaska Loon Working Group, and this directory, are to facilitate exchange of information among biologists, managers, and the public; identify conservation and management issues faced by loons and grebes that breed or winter in Alaska; review and identify gaps in knowledge of loon distribution, status, and ecology, and facilitate collaborative projects among agencies and others.  The directory also includes a bibliography of 100 references, both published and unpublished, on loon and grebe ecology or distribution in Alaska, northern Canada, and Russia.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>
+Extent of item: 24 pp,  Appendix A and B
+Illustrative Matter:  tables
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2000</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed to maintain web availability</update>
+</status>
+<spdom>
+<descgeog>Unknown.  This information is not normally part of a publication bibliographic record.  The coordinates provided below are default coordinates which cover the United States including Alaska and Hawaii.</descgeog>
+<bounding>
+<westbc>-180</westbc>
+<eastbc>180</eastbc>
+<northbc>72</northbc>
+<southbc>18</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Science Information System Controlled Vocabulary</themekt>
+<themekey>Birds</themekey>
+<themekey>Monitoring</themekey>
+<themekey>Contaminants</themekey>
+<themekey>Status and Trends</themekey>
+<themekey>Aquatic</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Alaska</placekey>
+<placekey>Arctic</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>loon</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Subphylum</taxonrn>
+<taxonrv>Vertebrata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Aves</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Ciconiiformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Gaviidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Gavia</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Gavia adamsii</taxonrv>
+<common>Yellow-billed Loon</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Gavia arctica</taxonrv>
+<common>Arctic Loon</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Gavia immer</taxonrv>
+<common>Common Loon</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Gavia pacifica</taxonrv>
+<common>Pacific Loon</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Gavia stellata</taxonrv>
+<common>Red-throated Loon</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Earnst, Susan</cntper>
+<cntorg>USGS FRESC Snake River Field Station</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>970 Lusk Street</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+</cntaddr>
+<cntvoice>208/426/5209</cntvoice>
+<cntemail>searnst@eagle.boisestate.edu</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>USFWS, Nongame Bird Program</datacred>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Point of Contact - refer to above contact information</cntper>
+<cntorg>USGS Forest and Rangeland Ecosystem Science Center</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>_</address>
+<city>_</city>
+<state>_</state>
+<postal>_</postal>
+</cntaddr>
+<cntvoice>_</cntvoice>
+</cntinfo>
+</distrib>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20020911</metd>
+<metrd>20020918</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Forest &amp; Rangeland Ecosystem Science Center (FRESC)</cntorg>
+<cntper>Headquarters</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical Address</addrtype>
+<address>
+U.S. Geological Survey
+Forest and Rangeland Ecosystem Science Center
+3200 SW Jefferson Way
+</address>
+<city>Corvallis</city>
+<state>Oregon</state>
+<postal>97331</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(541) 750-7307</cntvoice>
+<cntemail>FRESC_Outreach@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20000101</begdate><enddate>20001231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_loon.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

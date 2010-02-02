@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_ouraveg.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Remotes Sensing and GIS Group, Denver, Colorado</origin>
+<pubdate>Unpublished Material</pubdate>
+<title>Ouray National Wildlife Refuge Vegetation Mapping Project Vegetation Coverage</title>
+<geoform>maps data</geoform>
+<onlink>&lt;http://biology.usgs.gov/npsveg/oura/images/ouraveg.jpg&gt;</onlink>
+<onlink>&lt;http://biology.usgs.gov/npsveg/ftp/vegmapping/oura/oura.exe&gt;</onlink>
+<onlink>&lt;http://biology.usgs.gov/npsveg/ftp/vegmapping/oura/ourasdts.exe&gt;</onlink>
+<onlink>&lt;http://biology.usgs.gov/npsveg/ftp/vegmapping/oura/ourabdy.exe&gt;</onlink>
+<onlink>&lt;http://biology.usgs.gov/npsveg/ftp/vegmapping/oura/ourabdysdts.exe&gt;</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This metadata is for the vegetation land-cover and land-use spatial database created at/for Ouray National Wildlife Refuge, Utah.</abstract>
+<purpose>To help meet the management needs of the Refuge.</purpose>
+<supplinf>(previous geoform was 'map')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20000705</caldate>
+</sngdate>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Ouray National Wildlife Refuge and environs</descgeog>
+<bounding>
+<westbc>-109.6785</westbc>
+<eastbc>-109.56379</eastbc>
+<northbc>40.20372</northbc>
+<southbc>40.09382</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Land Cover</themekey>
+<themekey>Land Use</themekey>
+<themekey>Vegetation</themekey>
+<themekey>Fish and Wildlife Service</themekey>
+<themekey>National Wildlife Refuge</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Utah</placekey>
+<placekey>Ouray</placekey>
+<placekey>Green River</placekey>
+<placekey>Unita Basin</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>plant communities</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>Acknowledgment of the USBR/RSGIG would be appreciated in products derived from these data.  Any person using the information presented here should fully understand the data collection and compilation process before beginning their analysis/use. The burden of determining fitness for use lies with the user.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Region 6, Fish and Wildlife Service</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>Refuges Division, 134 Union Blvd</address>
+<city>Lakewood</city>
+<state>CO</state>
+<postal>80228</postal>
+</cntaddr>
+<cntvoice>(303) 236-8145</cntvoice>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/oura/images/ouraveg.jpg</browsen>
+<browsed>329 Kbyte graphic in map composition layout</browsed>
+<browset>JPG</browset>
+</browse>
+<datacred>USBR, Denver, CO: Jim Von Loh, Daniel Cogan, Janet Coles, Jack Butler, Doug Crawford, Trudy Meyer, Jean Pennel, USFWS, ONWR: Manuel DeLeon; ABI, Boulder, CO: Marion Reed.</datacred>
+<native>HP-UNIX ArcInfo</native>
+</idinfo>
+<dataqual>
+<logic>All polygon features are checked for topology and existence of attributed label points.  Coverage checked for un-intentional dangling arcs.</logic>
+<complete>All data with a minimum mapping unit of 1/2 hectare that can be interpreted from the aerial photographs are entered into the digital database.  This includes features defined by the NVCS and the Anderson Level II Land Use classification.  Some classes under the MMU are included due to its ease of interpretation and due to specialty of the class. Road and utility corridors and streams/canals wider that 10 meters were digitized as polygons.</complete>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Horizons, Inc</origin>
+<pubdate>20000705</pubdate>
+<title>Horizons Orthophoto</title>
+<geoform>remote-sensing image</geoform>
+<pubinfo>
+<pubplace>South Dakota</pubplace>
+<publish>Horizons, Inc</publish>
+</pubinfo>
+<othercit>Orthophoto basemap</othercit>
+</citeinfo>
+</srccite>
+<srcscale>12000</srcscale>
+<typesrc>CD-ROM</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>20000705</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>Digital Orthophoto</srccitea>
+<srccontr>Created orthophoto for the project under contract to the USBR</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Horizons, Inc</origin>
+<pubdate>20000705</pubdate>
+<title>Horizons Air Photos</title>
+<geoform>remote-sensing image</geoform>
+<pubinfo>
+<pubplace>South Dakota</pubplace>
+<publish>Horizons, Inc</publish>
+</pubinfo>
+<othercit>Aerial photography</othercit>
+</citeinfo>
+</srccite>
+<srcscale>12000</srcscale>
+<typesrc>filmstrip</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>Unknown</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Aerial Photography</srccitea>
+<srccontr>Flew and produced aerial photography for the project under contract to the USBR.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>MAP CLASSES: Vegetation classification was in accordance with the standards developed under the USGS/NPS Vegetation Mapping Program using the National Vegetation Classification Standard.  Field work (collecting plot data) aided in the development of the vegetation classes.  Also, the Refuge had specific types that they wanted mapped.  PHOTO INTERPRETATION:  All map classes were interpreted from 1:12,000 scale, color infra-red photography. Photo-interpretation used the standard identification features such as tone, texture, color, pattern, topographic position, and shadow.  In addition, field sample locations and their vegetation descriptions aided in assigning map class to each polygon. Photographs were examined using a stereoscope as needed. Linework was created on mylars placed over the photos. GIS PROCEDURES: The linework on the mylar overlays were transferred into the GIS database by one of two methods, either heads-up digitizing or scanning. METHOD I: Heads-up digitizing is a procedure whereby the operator digitizes by hand and eye on a computer terminal screen showing a digital image of an ortho-rectified photo. By looking at similar features on both the aerial photograph from which the classification was made and on the orthophoto, the line drawn on the aerial photo overlay is transferred to the digital image, which is registered to coordinates on the earth.  This technique should produce good results except where there is little feature contrast on the orthophoto, in which case the operator must estimate the shape and location of the line work.  METHOD II: Photos that cover an area with little topography or are too difficult to accurately transfer via heads-up will be scanned, ie, the mylar overlays will be scanned, not the actual photos.  Before the mylar is scanned, it will be marked with control points that correspond to visible points on the orthophoto.  The GIS software was used to convert the scanned mylar into a geo-referenced coverage which was then attributed and combined with the larger vegetation coverage associated with the area.  The entire transfer and editing sequence was automated via in-house Arc/INFO AML programs.  OTHER DATA: Quadrangle and orthophoto border coverages (bndryquad, bndryortho) were created  to aid in the creation of the vegetation coverage.  The mapping project border coverage (bndryproj) was acquired from the Refuge.  A flightline coverage (bndryfline) was made by digitizing arcs with a DRG on screen and following lines as they appeared on the flightline index map.  Field Observation, Plot, and Accuracy Assessment data point coverages (data_obsv, data_plot, and data_aa) were created by entering points with the 'generate' command using a text file of points and x-y coordinates.  Refer to the metadata file for specifics on the data coverages.</procdesc>
+<procdate>2001</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Remote Sensing and GIS Group</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>USBR, Code D-8260, POB 25007</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>303-445-2266</cntvoice>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>5445</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>12</utmzone>
+<transmer>
+<sfctrmer>0.9996</sfctrmer>
+<longcm>-111</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>1</absres>
+<ordres>1</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Clarke 1866</ellips>
+<semiaxis>6378206</semiaxis>
+<denflat>294.9786982</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>Arcs in the coverage are attributed based on type of arc or how it was entered into the database and polygons are attributed based on vegetation type.</eaover>
+<eadetcit>None.</eadetcit>
+</overview>
+<detailed>
+<enttyp>
+<enttypl>Vegetation Polygons and Arcs</enttypl>
+<enttypd>A two-dimensional feature representing an area.</enttypd>
+<enttypds>ESRI Glossary definitions.</enttypds>
+</enttyp>
+<attr>
+<attrlabl>ALL_CNAME</attrlabl>
+<attrdef>Polygon attribute - NVCS Alliance Common Name</attrdef>
+<attrdefs>National Vegetation Classification Standard</attrdefs>
+<attrdomv>
+<udom>textual of NVCS common Alliance name</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ALL_KEY</attrlabl>
+<attrdef>Polygon attribute - NVCS Alliance  Key number</attrdef>
+<attrdefs>National Vegetation Classification Standard</attrdefs>
+<attrdomv>
+<udom>textual of NVCS common Alliance name</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ALL_NAME</attrlabl>
+<attrdef>Polygon attribute - NVCS Alliance Name</attrdef>
+<attrdefs>National Vegetation Classification Standard</attrdefs>
+<attrdomv>
+<udom>textual of NVCS common Alliance name</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AREA</attrlabl>
+<attrdef>Internal ArcInfo item</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ASSN_CEGL</attrlabl>
+<attrdef>Polygon attribute - NVCS Association CEGL code</attrdef>
+<attrdefs>National Vegetation Classification Standard</attrdefs>
+<attrdomv>
+<udom>numerical of Elcode link to NVCS Association</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ASSN_CNAME</attrlabl>
+<attrdef>Polygon attribute - NVCS Association Common Name</attrdef>
+<attrdefs>National Vegetation Classification Standard</attrdefs>
+<attrdomv>
+<udom>textual of synonym global community name (NVCS Association)</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ASSN_NAME</attrlabl>
+<attrdef>Polygon attribute - NVCS Association Name</attrdef>
+<attrdefs>National Vegetation Classification Standard</attrdefs>
+<attrdomv>
+<udom>textual of scientific global community name (NVCS Association)</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CLASS</attrlabl>
+<attrdef>Polygon attribute - NVCS Class</attrdef>
+<attrdefs>National Vegetation Classification Standard</attrdefs>
+<attrdomv>
+<udom>textual of  class code &amp; name</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DIGTYPE</attrlabl>
+<attrdef>Arc attribute describing the arc as follows:</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>Originated from on-screen (heads-up) digitizing</edomvd>
+<edomvds>Sequential unique whole numbers that are automatically generated.</edomvds>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>Arc originated from scan of interpreted photo overlay (Mylar)</edomvd>
+<edomvds>Sequential unique whole numbers that are automatically generated.</edomvds>
+</edom>
+<edom>
+<edomv>5</edomv>
+<edomvd>Arcs associated with GIS mapping border (Refuge border)</edomvd>
+<edomvds>Sequential unique whole numbers that are automatically generated.</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FNODE_</attrlabl>
+<attrdef>Internal ArcInfo item</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FORMATION</attrlabl>
+<attrdef>Polygon attribute - NVCS Formation description</attrdef>
+<attrdefs>USNVC Formation</attrdefs>
+<attrdomv>
+<udom>textual formation name &amp; code</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>GROUP</attrlabl>
+<attrdef>Polygon attribute - NVCS Group</attrdef>
+<attrdefs>USNVC Formation Group</attrdefs>
+<attrdomv>
+<udom>textual group name &amp; code</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IFWSNO</attrlabl>
+<attrdef>Polygon attribute - code assigned by the FWS</attrdef>
+<attrdefs>Fish &amp; Wildlife Service</attrdefs>
+<attrdomv>
+<udom>textual polygon attribute code</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LENGTH</attrlabl>
+<attrdef>Internal ArcInfo item</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Whole numbers</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LPOLY_</attrlabl>
+<attrdef>Internal ArcInfo item</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LUC_II</attrlabl>
+<attrdef>Anderson Level II Land Use Code</attrdef>
+<attrdefs>USGS Land Use and Land Cover Classification System</attrdefs>
+<attrdomv>
+<udom>numerical levels, code &amp; name</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>MAP_CODE</attrlabl>
+<attrdef>Vegetation classification code</attrdef>
+<attrdefs>LaCreek National Wildlife Refuge</attrdefs>
+<attrdomv>
+<udom>numerical class code</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>MOD</attrlabl>
+<attrdef>Modifier</attrdef>
+<attrdefs>LaCreek NWR</attrdefs>
+<attrdomv>
+<edom>
+<edomv>R</edomv>
+<edomvd>Polygon contains and additional Refuge (FWS) classification name</edomvd>
+<edomvds>textual character of vegetation classification modifiers</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>NVCS_CODE</attrlabl>
+<attrdef>Polygon attribute - NVCS Code</attrdef>
+<attrdefs>USNVC Code</attrdefs>
+<attrdomv>
+<udom>numerical formation level</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OURAY_VEG_</attrlabl>
+<attrdef>Internal ArcInfo item</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Whole numbers</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OURAY_VEG_ID</attrlabl>
+<attrdef>Internal ArcInfo item</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PDOG</attrlabl>
+<attrdef>Polygon attribute that Indicates presence (1) of prairie dogs.</attrdef>
+<attrdefs>LaCreek NWR</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>Default - no use</edomvd>
+<edomvds>Ouray National Wildlife Refuge</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>Yes</edomvd>
+<edomvds>Ouray National Wildlife Refuge</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PERIMETER</attrlabl>
+<attrdef>Internal ArcInfo item</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PHOTO</attrlabl>
+<attrdef>Polygon attribute that indicates aerial photo from which the polygon was interpreted.</attrdef>
+<attrdefs>Horizon, Inc</attrdefs>
+<attrdomv>
+<udom>numerical aerial photo number (whole numbers)</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>RPOLY_</attrlabl>
+<attrdef>Internal ArcInfo item</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBCLASS</attrlabl>
+<attrdef>Polygon attribute - NVCS Subclass</attrdef>
+<attrdefs>USNVC</attrdefs>
+<attrdomv>
+<udom>textual subclass code &amp; name</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBGROUP</attrlabl>
+<attrdef>Polygon attribute - NVCS subgroup</attrdef>
+<attrdefs>USNVC</attrdefs>
+<attrdomv>
+<udom>textual group code &amp; name</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TNODE_</attrlabl>
+<attrdef>Internal ArcInfo item</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>VEG_CODE</attrlabl>
+<attrdef>Polygon attribute for vegetation code number</attrdef>
+<attrdefs>LaCreek National Wildlife Refuge</attrdefs>
+<attrdomv>
+<udom>numerical class code</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>VEG_NAME</attrlabl>
+<attrdef>Polygon attribute for vegetation name</attrdef>
+<attrdefs>LaCreek National Wildlife Refuge</attrdefs>
+<attrdomv>
+<udom>textual class name</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>U.S. Geological Survey, Center for Biological Informatics</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological
+Informatics, MS 302, Room 8000, Building 810,
+Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>None at this time</resdesc>
+<distliab>
+Although these data have been processed successfully on a computer system at
+the U.S. Geological Survey, no warranty expressed or implied is made
+regarding the accuracy or utility of the data on any other system or for
+general or scientific purposes, nor shall the act of distribution constitute
+any such warranty. This disclaimer applies both to individual use of the
+data and aggregate use with other data. It is strongly recommended that
+these data are directly acquired from a U.S. Geological Survey server, and
+not indirectly through other sources which may have changed the data in some
+way. It is also strongly recommended that careful attention be paid to the
+contents of the metadata file associated with these data. The U.S.
+Geological Survey shall not be held liable for improper or incorrect use of
+the data described and/or contained herein. Mention of trade names or
+commercial products in this metadata report does not constitute endorsement
+or recommendation for use by the U. S. Department of the Interior, U. S.
+Geological Survey.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>JPG</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/oura/images/ouraveg.jpg</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/oura/oura.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/oura/ourasdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/oura/ourabdy.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/oura/ourabdysdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20020125</metd>
+<metrd>20050421</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>20000705</begdate><enddate>20000705</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_ouraveg.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

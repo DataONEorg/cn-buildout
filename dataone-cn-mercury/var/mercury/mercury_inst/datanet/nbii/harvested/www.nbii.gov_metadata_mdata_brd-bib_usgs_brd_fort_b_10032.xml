@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_10032.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Mueller, G., and C. Liston</origin>
+<pubdate>1994</pubdate>
+<title>An assessment of tire reefs for supplemental fish habitat in concrete-lined irrigation canals</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Sacramento, CA</pubplace>
+<publish>USCID</publish>
+</pubinfo>
+<othercit>pages 125-1</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>1994</pubdate>
+<title>Environmental Enhancement of Water Projects: Proceedings from the 1993 Seminar, October 14-16, 1993</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Sacramento, CA</pubplace>
+<publish>USCID</publish>
+</pubinfo>
+<othercit>pages 125-1</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Mueller, G., and C. Liston. 1994. An assessment of tire reefs for supplemental fish habitat in concrete-lined irrigation canals. Sacramento, CA: USCID. 125-1 p.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>1994</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>fish</themekey>
+<themekey>reefs</themekey>
+<themekey>irrigation canals</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Mueller, G.A.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Mueller, G.A</origin>
+<pubdate>2006</pubdate>
+<title>Ecology of bonytail and razorback sucker and the role of off-channel habitats in their recovery</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>64 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21534/21534.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Mueller, G., and M.J. Horn</origin>
+<pubdate>1999</pubdate>
+<title>Description of the pelagic zooplankton and fish communities of Lakes Powell and Mead</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>449 pp.</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Foster, D.K., and G. Mueller</origin>
+<pubdate>1999</pubdate>
+<title>Movement patterns, behavior, and habitat use of razorback sucker stocked into the Green River at Canyonlands National Park, Utah</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>47 pp.</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Mueller, G., J. Sartoris, K. Nakamura, and J. Boutwell</origin>
+<pubdate>1996</pubdate>
+<title>Ukishima, floating islands, or schwimmkampen?</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Lakeline</sername>
+<issue>16(3):18-19</issue>
+</serinfo>
+<othercit>Vol. 16(3) pages 18-19</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Nelson, S.M., G. Mueller, and D.C. Hemphill</origin>
+<pubdate>1994</pubdate>
+<title>Identification of tire leachate toxicants and a risk assessment of water quality effects using tire reefs in canals</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Bulletin of Environmental Contamination and Toxicology</sername>
+<issue>52:574-5</issue>
+</serinfo>
+<othercit>Vol. 52 pages 574-5</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Mueller, G.A.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>An assessment of tire reefs for supplemental fish habitat in concrete-lined irrigation canals.  FORT Library Archive Number: 1994/0139 MESC</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19940101</begdate><enddate>19941231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_10032.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FAO/fao_d_seamounts.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Karen Stocks, San Diego Supercomputer Cener</origin>
+<pubdate>200209</pubdate>
+<title>Seamounts</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>La Jolla, California</pubplace>
+<publish>San Diego Supercomputer Center</publish>
+</pubinfo>
+<onlink>http://seamounts.sdsc.edu/main.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>SeamountsOnline is an NSF-funded project that holds records of species that have been collected from underwater seamounts, guyots and ridges, along with some accessory information about when, where and how the samples were collected.  The contents of SeamountsOnline is constantly growing as we find and incorporate new sources of data.  At present, the system holds 5124 records on 1348 species and 86 seamounts.</abstract>
+<purpose>The purpose of Seamounts Online is to gather information on species found in seamount habitats, and to provide a freely-available online resource for searching, downloading, mapping, and analyzing patterns of biogeography in these data. It is designed to facilitate research into seamount ecology, and to act as a resource for managers.</purpose>
+<supplinf>Information was obtained from http://seamounts.sdsc.edu/. In the course of developing SeamountsOnline, over 1,000 literature citations have been collected relating to seamounts. The coverage is most comprehensive for biological sampling on seamounts. Geology, hydrology, chemistry, etc. are also represented, but the coverage is not as thorough. The bibliography can be searched for references of interest or downloaded as whole through the Search References feature.  (previous geoform was 'Database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20020524</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>In Work</progress>
+<update>Continually</update>
+</status>
+<spdom>
+<descgeog>World</descgeog>
+<bounding>
+<westbc>-180</westbc>
+<eastbc>180</eastbc>
+<northbc>90</northbc>
+<southbc>-90</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>seamounts</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>world</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>fish</taxonkey>
+<taxonkey>sponges</taxonkey>
+<taxonkey>crustaceans</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animal</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<common>chordates</common>
+<taxoncl>
+<taxonrn>Subphylum</taxonrn>
+<taxonrv>Vertebrata</taxonrv>
+<common>vertebrates</common>
+<taxoncl>
+<taxonrn>Superclass</taxonrn>
+<taxonrv>Osteichthyes</taxonrv>
+<common>bony fishes</common>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Actinopterygii</taxonrv>
+<common>ray-finned fishes</common>
+<common>spiny rayed fishes</common>
+<taxoncl>
+<taxonrn>Subclass</taxonrn>
+<taxonrv>Neopterygii</taxonrv>
+<taxoncl>
+<taxonrn>Infraclass</taxonrn>
+<taxonrv>Teleostei</taxonrv>
+<taxoncl>
+<taxonrn>Superorder</taxonrn>
+<taxonrv>Acanthopterygii</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Karen Stocks</cntper>
+<cntorg>San Diego Supercomputer Center and Scripps Institution of Oceanography and University of California</cntorg>
+</cntperp>
+<cntpos>Principle investigator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<city>La Jolla</city>
+<state>California</state>
+<postal>92093-0505</postal>
+</cntaddr>
+<cntvoice>858 834-5009</cntvoice>
+<cntfax>858 822-3631</cntfax>
+<cntemail>kstocks@sdsc.edu</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Current staff include Karen Stocks, the principal investigator, with a leg in both the worlds of oceanography and ecological informatics; David Stockwell, an information scientist and developer of ecological analyses tools at the San Diego Supercomputer Center; Lisa Levin, a biological oceanographer in the Marine Life Research Group at Scripps Institute of Oceanography; Elisheba Spiller, an environmental systems student at UCSD, has taken over data content development.  Previous staff included  John Lin, a computer science major student at UCSD who developed the website and Megan Williams, an environmental science major at UCSD, was in charge of data acquisition and entry until her graduation in Spring of 2002.  Our thanks to those who have provided data for the SeamountsOnline project. Our "Hall of Champions" includes: Bertram Richer de Forges and collaborators for their Norfolk Ridge data; George Boehlert for his ichthyoplankton dataset; Heino Fock and collaborators for their Great Meteor Fish data; FishBase, an online resource of fish distribution, taxonomy and life history data (www.fishbase.org). FishBase kindly allowed SeamountsOnline to access and download seamount-related records. The Scripps Institution of Oceanography's seamount related records from the Marine Vertebrates and Benthic Invertebrate collections (http://www.sio.ucsd.edu/library/collections.htm).</datacred>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Seamounts, like all open ocean habitats, are understudied. In order to interpret the species distribution patterns found within the dataset it is vital to concurrently consider the sampling information. Many seamounts have not been sampled, and those that have may have records for only one or a few taxonomic groups from one or a few sampling events. If a particular species has not been recorded for a particular seamount, it may be that the species does not occur there, but it may well also be that the species is present but has not been found in the existing sampling. This database records species presences, but does not indicate where a species is absent. Instead, we provide as complete sampling information as possible to allow the user to assess for him or herself whether the lack of an observation is due to undersampling or a true absence.</attraccr>
+</attracc>
+<logic>not applicable</logic>
+<complete>The contents of SeamountsOnline is constantly growing as we find and incorporate new sources of data.  At present, the system holds 5124 records on 1348 species and 86 seamounts.  Seamounts, like all open ocean habitats, are understudied.  In order to interpret the species distribution patterns found within the dataset it is vital to concurrently consider the sampling information.  Many seamounts have not been sampled, and those that have may have records for only one or a few taxonomic groups from one or a few sampling events.  If a particular species has not been recorded for a particular seamount, it may be that the species does not occur there, but it may well also be that the species is present but has not been found in the existing sampling.  This database records species presences, but does not indicate where a species is absent.  Instead, we provide as complete sampling information as possible to allow the user to assess for him or herself whether the lack of an observation is due to undersampling or a true absence. SeamountsOnline holds records of species that have been collected from underwater seamounts, guyots and ridges, along with some accessory information about when, where and how the samples were collected.  The database has strong coverage (5/2002) for benthic, near-bottom invertebrates and fish on the Nasca/Sala-y-Gomez chain off Peru, benthic, near-bottom invertebrates and fish from  the Norfolk ridge in the Coral Sea and pelagic and benthic decapods, fishes and mollusks from the Hawaii/Emperor Chain and Mid-Pacific Mountains.</complete>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methdesc>SeamountsOnline is supported by a species-based relational database in Microsoft Access.</methdesc>
+</method>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Parin, N.V., A.N. Mironov, and K.N. Nesis</origin>
+<pubdate>1997</pubdate>
+<title>Biology of the Nazca and Sala y Gomez Submarine Ridges, an Outpost of the Indo-West Pacific Fauna in the Eastern Pacific Ocean: Composition and Distribution of the Fauna, its Copmmunities and History</title>
+<geoform>Journal Article</geoform>
+<serinfo>
+<sername>Advances in Marine Biology</sername>
+<issue>32</issue>
+</serinfo>
+<othercit>This covers data from a series of Soviet/Russian Expeditions.  Bottom and off-bottom sampling, including trawls, traps and long-lines give comprehensive community information on all invertebrate and vertebrate taxa found.  Overall, ~1000 records of 388 species from 22 seamounts are included.  The sampling effort per seamount is not known at present.  For more information, please see:  Parin, Mironov, and Nesis, Advances in Marine Biology 32, pp 145-242, 1997.</othercit>
+</citeinfo>
+</srccite>
+<typesrc>publication / non-digital tabular</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1997</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Publication Date</srccurr>
+</srctime>
+<srccitea>Nasca/Sala-y-Gomez Ridge (Parin, N.V et al)</srccitea>
+<srccontr>Attribute data</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Garth, J.S.</origin>
+<pubdate>1992</pubdate>
+<title>Some deep-water Parthenopidae (Crustacea, Brachyura) from French Polynesia and nearby eastern Pacific Ridges and Seamounts.</title>
+<geoform>Journal Article</geoform>
+<serinfo>
+<sername>Museum National d'Histoire Naturelle Section A Zoologie</sername>
+<issue>14: 781-795</issue>
+</serinfo>
+<othercit>Reports on two species of Parthenopidae found on three seamounts in the Nasca/Sala chain.</othercit>
+</citeinfo>
+</srccite>
+<typesrc>publication / non-digital tabular</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1992</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Publication Date</srccurr>
+</srctime>
+<srccitea>Nasca/Sala-y-Gomez Ridge (Garth, J.S.)</srccitea>
+<srccontr>Attribute data</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Burukovskiy, R.N.</origin>
+<pubdate>1992</pubdate>
+<title>New species of shrimp from the genus Plesionika (Crustacea, Decapoda, Pandalidae) from Pacific Ocean seamounts.</title>
+<geoform>Journal Article</geoform>
+<serinfo>
+<sername>Hydrobiological journal</sername>
+<issue>29: 1-3</issue>
+</serinfo>
+<othercit>Describes and reports the collection of one species of decapod from two seamounts in the Nasca/Sala chain.</othercit>
+</citeinfo>
+</srccite>
+<typesrc>publication / non-digital tabular</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1992</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Publication Date</srccurr>
+</srctime>
+<srccitea>Nasca/Sala-y-Gomez (Burukovskiy)</srccitea>
+<srccontr>Attribute data</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Kudinova-Pasternak, R.K.</origin>
+<pubdate>1991</pubdate>
+<title>Tanaidacea (Crustacea, Malacostraca) from the Pacific Ocean Nasca Ridge.</title>
+<geoform>Journal Article</geoform>
+<serinfo>
+<sername>Hydrobiological Journal</sername>
+<issue>27: 95-102</issue>
+</serinfo>
+<othercit>Covers the Tanaids found on the Russian cruises to the Nasca/Sala ridge (partially overlaps with the Parin data).  Includes 9 species from 3 samples on Cupole, 1 sample on Icthyologists, and 1 from Western.</othercit>
+</citeinfo>
+</srccite>
+<typesrc>publication / non-digital tabular</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1991</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>Publication Date</srccurr>
+</srctime>
+<srccitea>Nasca/Sala-y-Gomez (Kudinova-Pasternak, R.K.)</srccitea>
+<srccontr>Attribute data</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>unknown</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>Based on local reference names</indspref>
+</spdoinfo>
+<eainfo>
+<overview>
+<eaover>Entity - species living around seamounts; Attributes - distribution</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Karen Stocks</cntper>
+<cntorg>San Diego Supercomputer Center and Scripps Institution of Oceanography and University of California</cntorg>
+</cntperp>
+<cntpos>Principle investigator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<city>La Jolla</city>
+<state>California</state>
+<postal>92093-0505</postal>
+</cntaddr>
+<cntvoice>858 834-5009</cntvoice>
+<cntfax>858 822-3631</cntfax>
+<cntemail>kstocks@sdsc.edu</cntemail>
+</cntinfo>
+</distrib>
+<distliab>Although these data have been processed successfully on a computer system at the San Diego Supercomputer Center, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a San Diego Supercomputer Center server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The San Diego Supercomputer Center shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>CSV or XLS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://seamounts.sdsc.edu/main.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None, if available online.</fees>
+<ordering>Data can be downloaded 3 ways - species data only, species with sample data, or sample data only.  Species data - only downloads the species, location, and reference information.  Species Data with Sample Data - downloads the species data file on screen, with additional columns holding complete sample information for each observation (i.e. the gear used, the expedition name, dates collected, etc.). Note that this can be unwieldy when you have queried for all species from a given seamount: if a sample had 50 species in it, the full details of the sample will be repeated in 50 rows, once for each species. However, it is convenient in that all the data are in a single, stand-alone file.  Separate Sample Data - downloads a comma-delimited text file containing the full information (i.e. the gear used, the expedition name, dates collected, Esc) for each sample referenced in the on-screen table of species. This is designed to act as a companion to the Species Data file, and contains the same sample information in the "Species Data with Sample Data" version. This can be more convenient than the combined "Species Data with Sample Data" file in that each sample is listed only once. The two files are cross-referenced through the Sample ID field.</ordering>
+</stdorder>
+<custom>Please contact distributor.</custom>
+</distinfo>
+<metainfo>
+<metd>20011030</metd>
+<metfrd>20021031</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20020524</begdate><enddate>20020524</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_FAO_fao_d_seamounts.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

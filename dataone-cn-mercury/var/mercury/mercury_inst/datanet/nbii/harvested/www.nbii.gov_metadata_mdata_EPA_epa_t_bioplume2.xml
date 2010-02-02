@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/EPA/epa_t_bioplume2.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Environmental Protection Agency, Ground Water and Ecosystems Restoration Research</origin>
+<pubdate>198910</pubdate>
+<title>BIOPLUMEII - A Simulation that Computes Concentrations of Dissolved Hydrocarbon in an Aquifer</title>
+<geoform>tools software</geoform>
+<pubinfo>
+<pubplace>Ada, Oklahoma</pubplace>
+<publish>U.S. Environmental Protection Agency, Ground Water and Ecosystems Restoration Research</publish>
+</pubinfo>
+<onlink>http://www.epa.gov/ada/csmos/models/bioplume2.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>BIOPLUME II is a simulation that computes concentrations of dissolved hydrocarbon under the influence of oxygen-limited biodegradation in an aquifer. The model solves the solute transport equation for both hydrocarbon and oxygen, assumes an instantaneous reaction between oxygen and hydrocarbon, and combines the two plumes using the principle of superposition. Computations account for convection, dispersion, mixing, and biodegradation effects. Also, the program can simulate slow hydrocarbon plumes undergoing biodegradation and can simulate in-situ biorestoration schemes such as the injection of oxygenated water. Moreover, the model can simulate reaeration and anaerobic biodegradation as a first-order decay in hydrocarbon concentrations.</abstract>
+<purpose>The purpose of BIOPLUME II is to compute concentrations of dissolved hydrocarbon in an aquifer.</purpose>
+<supplinf>Information was obtained from http://www.epa.gov/ada/csmos/models/bioplume2.html.  (previous geoform was 'model')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>198910</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>model</themekey>
+<themekey>dissolved hydrocarbon</themekey>
+<themekey>oxygen-limited biodegradation</themekey>
+<themekey>aquifer</themekey>
+<themekey>convection</themekey>
+<themekey>dispersion</themekey>
+<themekey>mixing</themekey>
+<themekey>biodegradation effects</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Groundwater and Ecosystems Restoration Division</cntorg>
+<cntper>Daniel West</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Office of Research and Development
+National Risk Management Research Laboratory
+Ground Water and Ecosystems Restoration Division (GWERD)
+P.O. Box 1198
+</address>
+<city>Ada</city>
+<state>Oklahoma</state>
+<postal>74821</postal>
+</cntaddr>
+<cntvoice>(580) 436-8717, (580) 436-8500</cntvoice>
+<cntemail>west.daniel@epa.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Groundwater and Ecosystems Restoration Division</cntorg>
+<cntper>Daniel West</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Office of Research and Development
+National Risk Management Research Laboratory
+Ground Water and Ecosystems Restoration Division (GWERD)
+P.O. Box 1198
+</address>
+<city>Ada</city>
+<state>Oklahoma</state>
+<postal>74821</postal>
+</cntaddr>
+<cntvoice>(580) 436-8717, (580) 436-8500</cntvoice>
+<cntemail>west.daniel@epa.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>bioplume.zip, bioplume.pdf</resdesc>
+<distliab>Although these data have been processed successfully on a computer system at the U.S. Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a U.S. Environmental Protection Agency server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>exe</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.epa.gov/ada/csmos/models/bioplume2.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None, if available online.</fees>
+</stdorder>
+<techpreq>
+To run Bioplume II, you will need the following:
+IBM PC/AT or compatible; DOS version 2.0 (or later); 640K of machine resident memory (RAM) - A minimum of 550K of RAM is necessary to load the model with the menu preprocessor. To check available RAM, type the command CHKDSK. If there is less memory available, the model (DRIVER.EXE) may still be loaded without the menu preprocessor. Please contact Rice University if you have any questions; 80287 (or faster) math co-processor chip; Hard disk - It is possible to run the model using a high-density floppy drive if a hard disk is not available in your system.
+Optional hardware includes: Graphics adapter (CGA, EGA, or Hercules) - The VIEW program and the View option in TOPO and SURF both require a graphics card (adapter). However, if your system does not have a graphics card, SURFER may still be used to generate graphics on a graphics printer or plotter (Golden Software, Inc., 1987).
+SURFER supported graphics printer or plotter (see Appendix D of SURFER manual); You will need unzipping (compression) software to uncompress ZIP files. If you need to load unzipping software on your computer, free software is available for download on the internet at the following sites: http://www.pkunzip.com -  PKUNZIP home page
+http://www.cdrom.com/pub/infozip - InfoZip Wiz
+You will need Adobe Acrobat Reader to view the documentation (PDF) files.
+Installing the Program:
+Two files are available for download:
+bioplume.zip (161 Kb): Installation program and installation instructions
+bioplume.pdf (363 Kb): User's Manual, includes Case Study and Sample output
+View the BIOPLUME.PDF file for further installation instructions.
+Go to Windows Explorer and create a directory (folder) named Bioplume II.
+Download BIOPLUME.PDF and BIOPLUME.ZIP to the new Bioplume II directory.
+Unzip BIOPLUME.ZIP to the Bioplume II directory.
+Review the Users Manual (bioplume.pdf) for instruction on running the model.
+Run the menu.exe file to start the model.
+In order to run the programs, the following command must be included in the file CONFIG.SYS on your system disk: DEVICE = ANSI.SYS
+Note that the file ANSI.SYS, included with the DOS package, must reside in the same directory as CONFIG.SYS.  Otherwise, a pathname must be included in the file.   Please refer to your DOS reference manual for details on this command.
+</techpreq>
+</distinfo>
+<metainfo>
+<metd>20030527</metd>
+<metfrd>20040527</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19891001</begdate><enddate>19891031</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_EPA_epa_t_bioplume2.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

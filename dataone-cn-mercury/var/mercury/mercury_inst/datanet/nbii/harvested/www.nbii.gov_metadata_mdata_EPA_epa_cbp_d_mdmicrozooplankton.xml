@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/EPA/epa_cbp_d_mdmicrozooplankton.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Stella Sellner</origin>
+<origin>
+Academy of Natural Sciences (ANS) Benedict
+Estuarine Reseach Labortory
+</origin>
+<pubdate>20000101</pubdate>
+<title>
+Maryland Chesapeake Bay Water Quality Monitoring
+Program:Microzooplankton Component
+</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Annapolis, Md</pubplace>
+<publish>US EPA Chesapkeay Bay Program Office</publish>
+</pubinfo>
+<onlink>www.chesapeakebay.net</onlink>
+<onlink>ftp.chesapeakebay.net</onlink>
+<lworkcit>
+<citeinfo>
+<origin>Jacqueline Johnson</origin>
+<pubdate>19981231</pubdate>
+<title>Chesapeake Bay Program Plankton Database</title>
+<edition>Version 2.0</edition>
+<geoform>database</geoform>
+<pubinfo>
+<pubplace>Annapolis, MD</pubplace>
+<publish>US EPA Chesapeake Bay Program</publish>
+</pubinfo>
+<onlink>www.chesapeakebay.net</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+The overall microzooplankton monitoring program is
+designed to detect and monitor changes in
+microzooplankton abundances and species
+composition in relation to changing water quality
+conditions in the Chesapeake Bay.
+Microzooplankton are animal plankton between 20
+and 200 micrometers in size and, in this study,
+include copepod nauplii, rotifers and protozoans.
+They are an important trophic link between
+phytoplankton and the higher trophic forms such as
+mesozooplankton and larval fish. In the present
+program, microzooplankton are collected with a 44
+micrometer mesh net.  Samples are collected in
+conjunction with the Maryland Chesapeake Bay
+phytoplankton, mesozooplankton, jellyfish, C14
+primary production, fluorometry and water quality
+monitoring programs.
+</abstract>
+<purpose>
+The state of Maryland, in cooperation with the US
+EPA Chesapeake Bay Program, has monitored
+microzooplankton species abundance and composition
+in the Maryland Chesapeake Bay mainstem and
+tributaries since August 1984.  The program is
+designed to give comprehensive time and
+geographical information on microzooplankton.
+</purpose>
+<supplinf>
+CB1.1-mouth of Susquehanna River, main Bay
+CB2.1-southwest of Turkey Point, main Bay CB2.2
+-west of Still Pond near buoy R34, main Bay
+CB3.3C-north of Chesapeake Bay Bridge, main Bay
+CB4.3C-east of Dares Beach near buoy R64, main Bay
+CB5.2-east of Point No Point, main Bay
+LE1.1-mid-channel south-southwest of Jack Bay
+sandspit and northeast of Sandgates, Patuxent
+River TF1.7-mid-channel on a transect heading of
+approximately 115 degrees from Jacks Creek,
+Patuxent River TF1.6-mid-channel off the wharf at
+Lower Marlboro, Patuxent River TF1.5-mid-channel
+at Nottingham, Patuxent River TF2.3-mid-channel
+off Indian Head at buoy N54, Potomac River TF2.4
+-Buoy 44 between Possoum Point and Moss Point
+Potomac River RET2.2-mid-channel off Maryland
+Point at buoy 19, Potomac River LE2.2-off Ragged
+Point at buoy BW51B, Potomac River (prior to
+October 1988 data tape, this station was
+designatedXBE9541) ET4.2-south of Eastern Neck
+Island at Buoy 9, Chester River ET5.0-mid-channel
+off the mouth of Kings Creek, Choptank River
+ET5.1-at Ganey's Wharf, downstream of confluence
+with Tuckahoe Creek, Choptank River ET5.2-near Rt
+50 bridge at Cambridge, Choptank River EE3.1-1000
+yards north of buoy R16, Tangier Sound northwest
+of Haines Point, main Bay WT5.1-east of Hawkins
+Point at buoy 5M, Patapsco River (Baltimore
+Harbor)
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>198407101</begdate>
+<enddate>Present</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>In work</progress>
+<update>Biannually</update>
+</status>
+<spdom>
+<descgeog>
+Chesapeake Bay and it Tidal Tributaries In
+Maryland
+</descgeog>
+<bounding>
+<westbc>-77.2936</westbc>
+<eastbc>-75.9222</eastbc>
+<northbc>39.4794</northbc>
+<southbc>37.9947</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+
+</theme><theme>
+<themekt>None</themekt>
+
+<themekey>Watersheds</themekey>
+<themekey>Microzooplankton</themekey>
+<themekey>Water Quality</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Chesapeake Bay</placekey>
+<placekey>Potomac River</placekey>
+<placekey>Choptank River</placekey>
+<placekey>Patuxent River</placekey>
+<placekey>Maryland</placekey>
+<placekey>Patapsco River</placekey>
+<placekey>Chester River</placekey>
+<placekey>MD</placekey>
+</place>
+<stratum>
+<stratkt>None</stratkt>
+<stratkey>Water Column</stratkey>
+</stratum>
+<temporal>
+<tempkt>None</tempkt>
+<tempkey>monthly</tempkey>
+<tempkey>bimonthly</tempkey>
+</temporal>
+</keywords>
+<taxonomy>
+
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>MICROZOOPLANKTON</taxonkey>
+<taxonkey>PROTOZOA</taxonkey>
+<taxonkey>ROTIFERA</taxonkey>
+<taxonkey>MALACOSTRACA</taxonkey>
+<taxonkey>LARVAL</taxonkey>
+<taxonkey>animals</taxonkey>
+<taxonkey>plants</taxonkey>
+<taxonkey>multiple species</taxonkey>
+<taxonkey>collection</taxonkey>
+<taxonkey>protists</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>National Oceanographic Data Center (NODC)</origin>
+<pubdate>Unknown</pubdate>
+<title>Taxonomic Code</title>
+</citeinfo>
+</classcit>
+<classmod>
+The in-house species codes used by the Academy of
+Natural Science Benedict Estuarine Research Center
+are modified NODC codes.  Conversion of in-house species
+code to NODC Code and spelling are in file
+MDMIKYyy.TXT.
+*
+*                   NODC CODE    DIGIT REPRESENTS
+*                   ---------    ----------------
+*                     1-2          Phylum
+*                     3-4          Class and/or Order
+*                     5-6          Family
+*                     7-8          Genus
+*                     9-10         Species
+*                     11-12        Subspecies
+*                     13           Special in-house modifier
+*
+Inhouse codes are same as the NODC codes with the addition of an
+inhouse modifier in column 13.  The modifier in
+the 13th column has different meanings depending
+on the taxa being considered.  For larger metazoa,
+"1" in this column indicates that the organism is
+in its larval or naupliar stage.  For smaller
+metazoa such as rotifers and for non-tintinnine
+ciliate protozoa, this modifier may indicate a
+size category within a taxa.  The NODC code does
+not distinguish between life history stages.  For
+tintinnine ciliates (3540...), a 0, 1, 2 (or 3, 4,
+5) in the 13th column indicates that it was not or
+could not be determined if the lorica contained a
+cell, that the lorica did contain a cell (full),
+or that the lorica did not contain a cell (empty),
+respectively.  For an undescribed species, the
+code is given for as much of the higher  taxa as
+possible, the unknown levels are given zeros and a
+number is assigned in the subspecies columns
+(11-12) (e.g. Brachionusa = 4506010400010; rotifer
+a = 45000000010).  These numbers will be completed
+when more detailed taxonomic information is
+obtained.
+</classmod>
+</classsys>
+<taxonpro>
+Samples are put into a Sedgewick-Rafter cell for
+enumeration with a compound microscope at 100X
+magnification.
+</taxonpro>
+<taxoncom>
+Only the organisms greater than 44 and less than
+200 micrometers in smallest dimension are included
+in the species list.  The microzooplankton less
+than 44 micrometers are noted and recorded as
+either rare, common, abundant, or dominant.  The
+mesozooplankton are enumerated and recorded
+separately.
+</taxoncom>
+</taxonsys>
+
+
+
+
+
+
+
+
+
+</taxonomy>
+<taxonomy>
+
+  <taxoncl>
+    <taxonrn>Kingdom</taxonrn>
+    <taxonrv>Protistum</taxonrv>
+
+    <taxoncl>
+      <taxonrn>Phylum</taxonrn>
+      <taxonrv>Protozoa</taxonrv>
+
+      <taxoncl>
+        <taxonrn>Class</taxonrn>
+        <taxonrv></taxonrv>
+
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv></taxonrv>
+
+          <taxoncl>
+            <taxonrn>Family</taxonrn>
+            <taxonrv></taxonrv>
+
+            <taxoncl>
+              <taxonrn>Genus</taxonrn>
+              <taxonrv></taxonrv>
+
+              <taxoncl>
+                <taxonrn>Species</taxonrn>
+                <taxonrv></taxonrv>
+                <common></common>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxoncl>
+  </taxoncl>
+</taxoncl>
+<taxongen></taxongen>
+
+  <taxoncl>
+    <taxonrn>Kingdom</taxonrn>
+    <taxonrv>Animal</taxonrv>
+
+    <taxoncl>
+      <taxonrn>Phylum</taxonrn>
+      <taxonrv>Rotifera</taxonrv>
+
+      <taxoncl>
+        <taxonrn>Class</taxonrn>
+        <taxonrv></taxonrv>
+
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv></taxonrv>
+
+          <taxoncl>
+            <taxonrn>Family</taxonrn>
+            <taxonrv></taxonrv>
+
+            <taxoncl>
+              <taxonrn>Genus</taxonrn>
+              <taxonrv></taxonrv>
+
+              <taxoncl>
+                <taxonrn>Species</taxonrn>
+                <taxonrv></taxonrv>
+                <common></common>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxoncl>
+  </taxoncl>
+</taxoncl>
+<taxongen></taxongen>
+
+  <taxoncl>
+    <taxonrn>Kingdom</taxonrn>
+    <taxonrv>Protistum</taxonrv>
+
+    <taxoncl>
+      <taxonrn>Phylum</taxonrn>
+      <taxonrv>Myxozoa</taxonrv>
+
+      <taxoncl>
+        <taxonrn>Class</taxonrn>
+        <taxonrv></taxonrv>
+
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv></taxonrv>
+
+          <taxoncl>
+            <taxonrn>Family</taxonrn>
+            <taxonrv></taxonrv>
+
+            <taxoncl>
+              <taxonrn>Genus</taxonrn>
+              <taxonrv></taxonrv>
+
+              <taxoncl>
+                <taxonrn>Species</taxonrn>
+                <taxonrv></taxonrv>
+                <common></common>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxoncl>
+  </taxoncl>
+</taxoncl>
+<taxongen></taxongen>
+
+  <taxoncl>
+    <taxonrn>Kingdom</taxonrn>
+    <taxonrv>Protistum</taxonrv>
+
+    <taxoncl>
+      <taxonrn>Phylum</taxonrn>
+      <taxonrv>Ciliophora</taxonrv>
+
+      <taxoncl>
+        <taxonrn>Class</taxonrn>
+        <taxonrv></taxonrv>
+
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv></taxonrv>
+
+          <taxoncl>
+            <taxonrn>Family</taxonrn>
+            <taxonrv></taxonrv>
+
+            <taxoncl>
+              <taxonrn>Genus</taxonrn>
+              <taxonrv></taxonrv>
+
+              <taxoncl>
+                <taxonrn>Species</taxonrn>
+                <taxonrv></taxonrv>
+                <common></common>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxoncl>
+  </taxoncl>
+</taxoncl>
+<taxongen></taxongen>
+
+  <taxoncl>
+    <taxonrn>Kingdom</taxonrn>
+    <taxonrv>Animal</taxonrv>
+
+    <taxoncl>
+      <taxonrn>Phylum</taxonrn>
+      <taxonrv>Gastrotricha</taxonrv>
+
+      <taxoncl>
+        <taxonrn>Class</taxonrn>
+        <taxonrv></taxonrv>
+
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv></taxonrv>
+
+          <taxoncl>
+            <taxonrn>Family</taxonrn>
+            <taxonrv></taxonrv>
+
+            <taxoncl>
+              <taxonrn>Genus</taxonrn>
+              <taxonrv></taxonrv>
+
+              <taxoncl>
+                <taxonrn>Species</taxonrn>
+                <taxonrv></taxonrv>
+                <common></common>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxoncl>
+  </taxoncl>
+</taxoncl>
+<taxongen></taxongen>
+
+  <taxoncl>
+    <taxonrn>Kingdom</taxonrn>
+    <taxonrv>Animal</taxonrv>
+
+    <taxoncl>
+      <taxonrn>Phylum</taxonrn>
+      <taxonrv>Molluska</taxonrv>
+
+      <taxoncl>
+        <taxonrn>Class</taxonrn>
+        <taxonrv>Gastrpoda</taxonrv>
+
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv></taxonrv>
+
+          <taxoncl>
+            <taxonrn>Family</taxonrn>
+            <taxonrv></taxonrv>
+
+            <taxoncl>
+              <taxonrn>Genus</taxonrn>
+              <taxonrv></taxonrv>
+
+              <taxoncl>
+                <taxonrn>Species</taxonrn>
+                <taxonrv></taxonrv>
+                <common></common>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxoncl>
+  </taxoncl>
+</taxoncl>
+<taxongen></taxongen>
+
+  <taxoncl>
+    <taxonrn>Kingdom</taxonrn>
+    <taxonrv></taxonrv>
+
+    <taxoncl>
+      <taxonrn>Phylum</taxonrn>
+      <taxonrv></taxonrv>
+
+      <taxoncl>
+        <taxonrn>Class</taxonrn>
+        <taxonrv></taxonrv>
+
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv></taxonrv>
+
+          <taxoncl>
+            <taxonrn>Family</taxonrn>
+            <taxonrv></taxonrv>
+
+            <taxoncl>
+              <taxonrn>Genus</taxonrn>
+              <taxonrv></taxonrv>
+
+              <taxoncl>
+                <taxonrn>Species</taxonrn>
+                <taxonrv></taxonrv>
+                <common></common>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxoncl>
+  </taxoncl>
+</taxoncl>
+<taxongen>
+All zooplankton between 20 and 200 micrometers in
+size.
+</taxongen>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>Dataset credit required</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Jacqueline Johnson</cntper>
+<cntorg>Interstate Commission on Potomac River Basin</cntorg>
+</cntperp>
+<cntpos>
+Chesapeake Bay Program Living Resources Data
+Manager
+</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>410 Severn Avenue, Suite 109</address>
+<city>Annapolis</city>
+<state>Maryland</state>
+<postal>21403</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>1-800-968-7229</cntvoice>
+<cntvoice>410-267-5729</cntvoice>
+<cntfax>410-267-5777</cntfax>
+<cntemail>jjohnson@chesapeakebay.net</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. Monday Through Friday</hours>
+</cntinfo>
+</ptcontac>
+<datacred>Data Origninators</datacred>
+<native>Micrsoft Access Database</native>
+<crossref>
+<citeinfo>
+<origin>Jacqueline Johnson</origin>
+<pubdate>20000101</pubdate>
+<title>
+2000 Users' Guide to Chesapeake Bay Program
+Biological and Living Resources Data
+</title>
+<edition>Version 1</edition>
+<pubinfo>
+<pubplace>Annapolis, MD</pubplace>
+<publish>USEPA CHESAPEAKE BAY PROGRAM OFFICE</publish>
+</pubinfo>
+<onlink>ftp.chesapeakebay.net/pub/living_resources/guide2000.pdf</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+For each monthly microzooplankton collection, one
+sample was randomly selected as the QA/QC sample.
+Two separate counts of the one sample were
+performed using the same enumeration techniques.
+Data are also checked with computer verification
+programs.
+</attraccr>
+</attracc>
+<logic>Not Applicable</logic>
+<complete>
+In May 1992, 1993 &amp; 1994 microzooplankton samples
+for stations CB1.1, CB2.2, TF1.7, TF1.5, RET2.2,
+TF2.3, ET5.1 and ET5.2 were sampled twice to
+coincide with white perch and striped bass
+spawning periods.  From April 1993 through June
+1993 and again from April 1994 and June, 1994 and
+again in 1995 additional station CB2.1, in the
+upper Chesapeake Bay was also sampled to coincide
+with the spawning periods.   In April, 1996, 3
+more tidal fresh stations TF2.4 in the Potomac
+River, TF1.6 in the Patuxent River, and ET5.0 in
+the Choptank River were added for microzooplankton
+sampling in April, May, and June.    Stations
+CB2.2,CB2.1, TF2.3, TF2.4, RET2.2, TF1.5, TF1.6,
+TF1.7, ET5.1, and ET5.0 were sampled twice in
+April and May 1996, again to coincide with white
+perch and striped bass spawning periods.  Main Bay
+stations CB1.1 and CB5.2 were no longer sampled as
+of March, 1996. Sampling in November was
+discontinued in 1996.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+Station positions in data set are approximations
+of actual positions in the field.   Station
+latitudes and longitudes are input into a Loran-C
+or GPS receiver and sampling begins when boat
+reaches pre-programmed coordinates.  Loran-C is
+accurate to plus or minus 1500 feet.  The actual
+Loran or GPS coordinates for each sampling event
+are not currently recorded in data set. COLLECTION
+METHODS:  Loran-C, NAD27 from July 1984 to June
+1997; GPS NAD83 from June 1997 to Present
+</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>
+Composited water samples pumped from 5 depths
+above the pycnocline and 5 depths below the
+pycnocline. : Water column conductivity is
+recorded immediately before plankton sampling.
+P_DEPTH is set at 0.5 meters above the pycnocline
+and is used as the cutoff depth between upper (AP)
+and lower (BP) water column layers. The pycnocline
+is determined to be the depth at which the
+greatest conductivity change is observed.  The
+minimum threshold change is 1000 umhos/cm.  WC is
+the entire water column from surface to bottom
+without regards to P_DEPTH. P_DEPTH-Composite
+Sample cut off Depth-Depth 0.5 Meters Above the
+Pycnocline
+</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<method>
+
+</method><method>
+<methtype>Field</methtype>
+
+<methodid>
+<methkt>None</methkt>
+<methkey>Samples</methkey>
+</methodid>
+<methdesc>
+COUNT (Density of a Taxon as # Individuals per
+Liter). Composited water samples pumped from 5
+depths above the pycnocline and 5 depths below the
+pycnocline were filtered through a 44 micrometer
+mesh net and rinsed into a jar.  After February
+1985, the two above-pycnocline replicates were
+combined as were the two below-pycnocline
+replicates.  Beginning July 1985, waters from the
+above-pyncocline depths and below-pycnocline
+depths were pumped directly through the net and
+rinsed into their respective jars two times rather
+than first being composited.  Beginning July 1989,
+entire water column samples from 10 depths were
+collected from stations RET2.2, TF1.7, TF1.5,
+ET5.1, CB1.1, CB2.2 and CB2.1 (when sampled).
+</methdesc>
+<methcite>
+<citeinfo>
+<origin>US EPA</origin>
+<pubdate>19850101</pubdate>
+<title>
+Standard Methods for the Examination of Water and
+Wastewater
+</title>
+<edition>16</edition>
+<pubinfo>
+<pubplace>US Goverment Printing Office, Washington DC</pubplace>
+<publish>US EPA</publish>
+</pubinfo>
+<onlink>www.epa.gov</onlink>
+</citeinfo>
+</methcite>
+
+
+</method><method>
+<methtype>Field</methtype>
+
+<methodid>
+<methkt>None</methkt>
+<methkey>Sample Preservatives</methkey>
+</methodid>
+<methdesc>
+SAMPLE PRESERVATIVES:  Between August 1984 and
+September 1985, 1 milliliter of neosynephrine was
+added to each concentrated sample.  The sample was
+allowed to set for 30 minutes and then buffered
+formaldehyde was added.  The neosynephrine step
+was eliminated after this time and buffered
+formaldehyde was added to each sample jar prior to
+the addition of the sample (final concentration of
+fixative was approximately 2.5%).
+</methdesc>
+
+</method><method>
+<methtype>Lab</methtype>
+
+<methodid>
+<methkt>None</methkt>
+<methkey>COUNT</methkey>
+</methodid>
+<methdesc>
+-Chesapeake Bay Program Laboratory Method Code
+MI101 Samples are gently mixed and a 1 milliliter
+aliquot is removed with a Stempel pipet and put
+into a Sedgewick-Rafter cell for enumeration with
+a compound microscope at 100X magnification.
+Beginning with samples collected in April 1986, a
+small drop of concentrated Rose Bengal stain was
+added to the cell prior to addition of the
+subsample.  The subsample is allowed to set for 10
+minutes before counting.  At least one chamber (1
+milliliter) is counted for each sample and if the
+total count does not reach 250 organisms,
+subsequent l milliliter aliquots are enumerated
+until a count of 250 or more organisms is obtained
+or 3 milliliter are examined.  If a certain
+organism is abundant (more than 60 per chamber),
+it is not counted in the subsequent 1 milliliter
+aliquot for a given sample.  For extremely
+abundant taxa, less than one milliliter can be
+counted.  Species identification is made using the
+NODC species code.  Microzooplankton smaller than
+44 micrometers are noted on the original data
+sheet but not enumerated since estimates would not
+be quantitative.
+</methdesc>
+<methcite>
+<citeinfo>
+<origin>US EPA</origin>
+<pubdate>19850101</pubdate>
+<title>
+Standard Methods for the Examination of Water and
+Wastewater
+</title>
+<edition>16</edition>
+<pubinfo>
+<pubplace>US Goverment Printing Office, Washington DC</pubplace>
+<publish>US EPA</publish>
+</pubinfo>
+<onlink>www.epa.gov</onlink>
+</citeinfo>
+</methcite>
+
+</method>
+<procstep>
+<procdesc>
+The following equation is used to convert raw
+counts to density (# per liter) for each taxon
+identified:  DENSITY =
+((RAWCNT/MLSCNT)*CONCENT)/TOTVCOMP    where
+DENSITY = density of a given taxonomic group (#
+individuals/liter)   RAWCNT = raw count of
+taxonomic group per subsample      MLSCNT =
+milliliters of subsample counted      CONCENT =
+volume of concentrated sample      TOTVCOMP = # of
+liters filtered though net or total volume of
+composite sample  If the sample was counted by
+rows, MLSCNT is determined by dividing the number
+of rows by 28.4.
+</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+<procstep>
+<procdesc>
+The name of species ANSCODE = 4506130200010 has
+been changed from "Synchaeta sp. A - long horns"
+to "Synchaeta bicornis" and the name of species
+ANSCODE = 4506130200020 has been changed from
+"Synchaeta sp. B - porker" to "Synchaeta baltica."
+</procdesc>
+<procdate>19920415</procdate>
+</procstep>
+<procstep>
+<procdesc>
+SUMMER 1997 -  Salinity zones were calculated by
+ICPRB Staff from water quality data provided by
+the Maryland Department of the Environment. Values
+were derived  from Water Quality Hydrographic data
+collected concurrently with the plankton when ever
+possible. If data was not available for the of
+sampling but was collected within a one week
+window of sampling date, the water quality data
+was used to determine a salinity zone. However the
+salinity zone is marked with an E to denote being
+estimated.
+</procdesc>
+<procdate>1997</procdate>
+</procstep>
+</lineage>
+
+</dataqual>
+<spdoinfo>
+<indspref>
+Chesapeake Bay and its Tidal Tributaries in the
+State of Maryland
+</indspref>
+<direct>Point</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<sdtstype>Area point</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>30</latres>
+<longres>30</longres>
+<geogunit>Decimal seconds</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodedic Reference System 80</ellips>
+<semiaxis>6378206.4</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<depthsys>
+<depthdn>Chart datum; datum for sounding reduction</depthdn>
+<depthres>.1</depthres>
+<depthdu>meters</depthdu>
+<depthem>Attribute values</depthem>
+</depthsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>MDMITXyy.TXT or MDMIEVyy.TXT</enttypl>
+<enttypd>Sampling Event or Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>SOURCE</attrlabl>
+<attrdef>Data Collection Agency</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<edom>
+<edomv>ANS</edomv>
+<edomvd>Academy of Natural Resouces</edomvd>
+<edomvds>Living Resouces Data Dictionary</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT or MDMIEVyy.TXT</enttypl>
+<enttypd>Sampling Event or Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>STATION</attrlabl>
+<attrdef>Sampling Station</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Chesapeake Bay Program Sampling Station List</codesetn>
+<codesets>Living Resouces Data Dictionary</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT or MDMIEVyy.TXT</enttypl>
+<enttypd>Sampling Event or Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>SAMPLE_DATE</attrlabl>
+<attrdef>Sampling date (YYYYMMDD)</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>19840707</rdommin>
+<rdommax>20000101</rdommax>
+</rdom>
+</attrdomv>
+<attrunit>Date</attrunit>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT or MDMIEVyy.TXT</enttypl>
+<enttypd>Sampling Event or Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>LAYER</attrlabl>
+<attrdef>Layer in Water Column Which Sample was Taken</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Chesapeake Bay Program Sample Layer Codes</codesetn>
+<codesets>Living Resouces Data Dictionary</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT or MDMIEVyy.TXT</enttypl>
+<enttypd>Sampling Event or Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>R_DATE</attrlabl>
+<attrdef>Version Date of Data (YYYYMMDD)</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>19950301</rdommin>
+<rdommax>20000101</rdommax>
+</rdom>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT or MDMIEVyy.TXT</enttypl>
+<enttypd>Sampling Event or Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>BASIN</attrlabl>
+<attrdef>Cheseapeake Bay Tributary Basin</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Chesapeake Bay Program Tributary Designations</codesetn>
+<codesets>Living Resouces Data Dictionary</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT or MDMIEVyy.TXT</enttypl>
+<enttypd>Sampling Event or Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>HUC8</attrlabl>
+<attrdef>USGS Eight Digit Hydrologic Unit Code</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>USGS Eight Diget Hydrologic Unit Codes</codesetn>
+<codesets>US Geologic Survey</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT or MDMIEVyy.TXT</enttypl>
+<enttypd>Sampling Event or Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FIPS</attrlabl>
+<attrdef>Federal Information Processing Code</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Federal Information Processing Code</codesetn>
+<codesets>Federal Information Processing Center</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT</enttypl>
+<enttypd>Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>SAMPLE_NUMBER</attrlabl>
+<attrdef>Sample Replicate Number</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>1</rdommin>
+<rdommax>10</rdommax>
+</rdom>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT</enttypl>
+<enttypd>Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>GMETHOD</attrlabl>
+<attrdef>Chesapeake Bay Program Sampling Gear Code</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Chesapeake Bay Program Sampling Gear Code</codesetn>
+<codesets>CBP Living Resources Data Dictonary</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT</enttypl>
+<enttypd>Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>TSN</attrlabl>
+<attrdef>ITIS Taxon Serial Number</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>ITIS Taxon Serial Number</codesetn>
+<codesets>Interagency Taxonomic Information System</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT</enttypl>
+<enttypd>Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>LATIN_NAME</attrlabl>
+<attrdef>Species Latin Name</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>ITIS Taxon Serial Number Latin Names</codesetn>
+<codesets>Interagency Taxonomic Information System</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT</enttypl>
+<enttypd>Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>LIFE_STAGE_DESCRIPTION</attrlabl>
+<attrdef>
+Life stage of individual- Chesapeake Bay Program
+Life Stage Code
+</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>CBP Lifestage Codes</codesetn>
+<codesets>Living Resouces Data Dictionary</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT</enttypl>
+<enttypd>Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>METHOD</attrlabl>
+<attrdef>Parameter Method Analysis Code</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Living Resources Sample Method Codes</codesetn>
+<codesets>Living Resouces Data Dictionary</codesets>
+</codesetd>
+</attrdomv>
+<begdatea>19840701</begdatea>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT</enttypl>
+<enttypd>Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>PARAMETER</attrlabl>
+<attrdef>Parameter Sampled</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<edom>
+<edomv>COUNT</edomv>
+<edomvd>Organism Count</edomvd>
+<edomvds>Living Resouces Data Dictionary</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT</enttypl>
+<enttypd>Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>VALUE</attrlabl>
+<attrdef>Parameter Value</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>100000</rdommax>
+</rdom>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT</enttypl>
+<enttypd>Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>UNITS</attrlabl>
+<attrdef>Parameter Reporting Units</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>CBP Living Resources Reporting Unit Codes</codesetn>
+<codesets>Living Resources Data Dictionary</codesets>
+</codesetd>
+</attrdomv>
+<attrunit>Number per Liter</attrunit>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT</enttypl>
+<enttypd>Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>NODCCODE</attrlabl>
+<attrdef>NODC Species Code</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>NOAA- NODC Species Codes</codesetn>
+<codesets>
+National Oceanic and Atmospheric
+Administration-National Oceanographic Data Center
+</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMITXyy.TXT</enttypl>
+<enttypd>Taxonomic Count Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>SPEC_CODE</attrlabl>
+<attrdef>Source Species Taxon Code</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<udom>Source generated species code set</udom>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMIEVyy.TXT</enttypl>
+<enttypd>Event Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>LATITUDE</attrlabl>
+<attrdef>Latitude in decimal degrees</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>38.3467</rdommin>
+<rdommax>38.6818</rdommax>
+</rdom>
+</attrdomv>
+<attrunit>Decimal Degrees</attrunit>
+</attr>
+<enttyp>
+<enttypl>MDMIEVyy.TXT</enttypl>
+<enttypd>Event Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>LONGITUDE</attrlabl>
+<attrdef>Longitude in decimal degrees</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>-77.1167</rdommin>
+<rdommax>-77.3180</rdommax>
+</rdom>
+</attrdomv>
+<attrunit>Decimal Degrees</attrunit>
+</attr>
+<enttyp>
+<enttypl>MDMIEVyy.TXT</enttypl>
+<enttypd>Event Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>P_DEPTH</attrlabl>
+<attrdef>Composite Sample Cut Off Depth</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0.5</rdommin>
+<rdommax>30</rdommax>
+</rdom>
+</attrdomv>
+<attrunit>Meters</attrunit>
+</attr>
+<enttyp>
+<enttypl>MDMIEVyy.TXT</enttypl>
+<enttypd>Event Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>SALZONE</attrlabl>
+<attrdef>Salinity zone</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>CBP Living Resources Salinity Zones</codesetn>
+<codesets>Living Resouces Data Dictionary</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<enttyp>
+<enttypl>MDMIEVyy.TXT</enttypl>
+<enttypd>Event Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>SAMPLE_VOLUME</attrlabl>
+<attrdef>Total Volume of Sample</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0.1</rdommin>
+<rdommax>200</rdommax>
+</rdom>
+</attrdomv>
+<attrunit>Liters</attrunit>
+</attr>
+<enttyp>
+<enttypl>MDMIEVyy.TXT</enttypl>
+<enttypd>Event Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>TOTAL_DEPTH</attrlabl>
+<attrdef>Total Station Depth</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0.5</rdommin>
+<rdommax>30</rdommax>
+</rdom>
+</attrdomv>
+<attrunit>Meters</attrunit>
+</attr>
+<enttyp>
+<enttypl>MDMIEVyy.TXT</enttypl>
+<enttypd>Event Data</enttypd>
+<enttypds>CBP Plankton Database</enttypds>
+</enttyp>
+<attr>
+<attrlabl>SAMPLE_TIME</attrlabl>
+<attrdef>Sample Collection Time (HHMM)</attrdef>
+<attrdefs>Living Resouces Data Dictionary</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0600</rdommin>
+<rdommax>2300</rdommax>
+</rdom>
+</attrdomv>
+<attrunit>HHMM</attrunit>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Jacqueline Johnson</cntper>
+<cntorg>Interstate Commission on Potomac River Basin</cntorg>
+</cntperp>
+<cntpos>
+Chesapeake Bay Program Living Resources Data
+Manager
+</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>410 Severn Avenue, Suite 109</address>
+<city>Annapolis</city>
+<state>Maryland</state>
+<postal>21403</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>1-800-968-7229</cntvoice>
+<cntvoice>410-267-5729</cntvoice>
+<cntfax>410-267-5777</cntfax>
+<cntemail>jjohnson@chesapeakebay.net</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. Monday Through Friday</hours>
+</cntinfo>
+</distrib>
+<distliab>
+I, the data requestor, agree to acknowledge the
+Chesapeake Bay Program and any other agencies and
+institutions as specified by the Chesapeake Bay
+Program Office as data providers. I agree to
+credit the data originators in any publications,
+reports or presentations generated from this data.
+I also accept that, although these data have been
+processed successfully on a computer system at the
+Chesapeake Bay Program, no warranty expressed or
+implied is made regarding the accuracy or utility
+of the data on any other system or for general or
+scientific purposes, nor shall the act of
+distribution constitute any such warranty. This
+disclaimer applies both to individual use of the
+data and aggregate use with other data. It is
+strongly recommended that careful attention be
+paid to the contents of the data documentation
+file associated with these data. The Chesapeake
+Bay Program shall not be held liable for improper
+or incorrect use of the data described and/or
+contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ASCII</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.chesapeakebay.net</networkr>
+<networkr>ftp.chesapeakebay.net</networkr>
+</networka>
+</computer>
+</onlinopt>
+<offoptn>
+<offmedia>CD-ROM</offmedia>
+<reccap>
+<recden>750</recden>
+<recdenu>megabytes</recdenu>
+</reccap>
+<recfmt>ISO 9660</recfmt>
+<compat>None</compat>
+</offoptn>
+</digtopt>
+</digform>
+<fees>None</fees>
+<ordering>None</ordering>
+<turnarnd>5 Working Days</turnarnd>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ACC</formname>
+<formvern>97</formvern>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>www.chesapeakebay.net</networkr>
+</networka>
+</computer>
+</onlinopt>
+<offoptn>
+<offmedia>CD-ROM</offmedia>
+<reccap>
+<recden>700</recden>
+<recdenu>megabytes</recdenu>
+</reccap>
+<recfmt>ISO 9660</recfmt>
+</offoptn>
+</digtopt>
+</digform>
+<fees>None</fees>
+<ordering>
+All Requests for data on media must be made in
+writing to the Living Resources Data Manager
+</ordering>
+<turnarnd>Two Weeks</turnarnd>
+</stdorder>
+<custom>None</custom>
+</distinfo>
+<metainfo>
+<metd>20000308</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Jacqueline Johnson</cntper>
+<cntorg>Interstate Commission on Potomac River Basin</cntorg>
+</cntperp>
+<cntpos>
+Chesapeake Bay Program Living Resources Data
+Manager
+</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>410 Severn Avenue, Suite 109</address>
+<city>Annapolis</city>
+<state>Maryland</state>
+<postal>21403</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>1-800-968-7229</cntvoice>
+<cntvoice>410-267-5729</cntvoice>
+<cntfax>410-267-5777</cntfax>
+<cntemail>jjohnson@chesapeakebay.net</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. Monday Through Friday</hours>
+</cntinfo>
+</metc>
+<metstdn>
+NBII Content Standard for National Biological
+Information Infrastructure Metadata
+</metstdn>
+<metstdv>December 1995</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+<mercury><begdate>198407101</begdate><enddate>20090328</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_EPA_epa_cbp_d_mdmicrozooplankton.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

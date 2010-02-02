@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/frames/nbii_frames_d_cerrogrande.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Western Forest Fire Research Center, Colorado State University</origin>
+<pubdate>Unpublished Material</pubdate>
+<title>2000 Cerro Grande Wildfire study (Cerro Grande_NM.doc)</title>
+<geoform>maps data</geoform>
+<othercit>FRAMES resource id = {BC0309E5-F22E-429D-8366-433CD8F64092}</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Philip N. Omi, Colorado State University</origin>
+<pubdate>20020325</pubdate>
+<title>Effect of Fuel Treatments on Wildfire Severity -- JFSP 99-1-4-01 {C11B336A-9466-4340-9355-F225B50D07CD}</title>
+<geoform>unknown</geoform>
+<othercit>FRAMES resource id = {C11B336A-9466-4340-9355-F225B50D07CD}</othercit>
+<onlink>http://jfsp.nifc.gov/JFSP_JFSP_Products.htm</onlink>
+<onlink>www.cnr.colostate.edu/frws/research/westfire/FinalReport.pdf</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The data are from the 2000 Cerro Grande wildfire that burned into an area of the Santa Fe National Forest that had received extensive fuel treatments since 1994 that included mechanical thinning and prescribed burning, both in isolation and in combination.  The fire also burned into an area of the Santa Clara Pueblo where several adjacent 1.8 ha plots had been thinned with slash removed by hand in 1991. Ten plot pairs were established that straddled the fuel treatment boundaries.  Data collected describe stand conditions and fire severity at each plot.</abstract>
+<purpose>The data were collected to assess the effect of the fuel treatments on stand conditions and subsequent wildfire severity.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>Unknown</caldate>
+</sngdate>
+</timeinfo>
+<current>as defined by dataset</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Northern New Mexico between UTM Eastings 381,200 and 387,924 and between UTM Northings 3,976,945 and 3,982,007 (Zone 13S, NAD27).</descgeog>
+<bounding>
+<westbc>-106.316</westbc>
+<eastbc>-106.243</eastbc>
+<northbc>35.977</northbc>
+<southbc>35.931</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>FRAMES Resource ID</themekt>
+<themekey>{BC0309E5-F22E-429D-8366-433CD8F64092}</themekey>
+</theme>
+<theme>
+<themekt>FRAMES subject categories</themekt>
+<themekey>prescribed fire</themekey>
+<themekey>fuels</themekey>
+<themekey>fire effects</themekey>
+</theme>
+<theme>
+<themekt>GACC region</themekt>
+<themekey>Southwest</themekey>
+</theme>
+<theme>
+<themekt>OTHER</themekt>
+<themekey>fuel treatments</themekey>
+<themekey>mechanical thinning</themekey>
+<themekey>stand conditions</themekey>
+<themekey>wildfire severity</themekey>
+<themekey>New Mexico</themekey>
+<themekey>Santa Fe National Forest</themekey>
+<themekey>ponderosa pine</themekey>
+</theme>
+<theme>
+<themekt>Tall Timbers Thesaurus</themekt>
+<themekey>wildfires</themekey>
+<themekey>thinning</themekey>
+<themekey>prescribed fires</themekey>
+<themekey>fire intensity</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Santa Fe, New Mexico</placekey>
+<placekey>northern New Mexico</placekey>
+<placekey>NM</placekey>
+</place>
+</keywords>
+<accconst>Data are owned by Colorado State University and will be used in publications currently in preparation.  Data access requests will be considered on a case-by-case basis.  Data access without the express written consent of the Western Forest Fire Research Center is prohibited.</accconst>
+<useconst>Data are owned by Colorado State University and will be used in publications currently in preparation.  Data use requests will be considered on a case-by-case basis.  Data use without the express written consent of the Western Forest Fire Research Center is prohibited.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Erik J. Martinson</cntper>
+<cntorg>Colorado State University</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>131 Forestry</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80523</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>970.491.1779</cntvoice>
+<cntemail>erikm@cnr.colostate.edu</cntemail>
+</cntinfo>
+</ptcontac>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native>
+<crossref>
+<citeinfo>
+<origin>Philip N. Omi, Colorado State University</origin>
+<pubdate>20020325</pubdate>
+<title>Effect of Fuel Treatments on Wildfire Severity -- JFSP 99-1-4-01 {C11B336A-9466-4340-9355-F225B50D07CD}</title>
+<geoform>unknown</geoform>
+<othercit>FRAMES resource id = {C11B336A-9466-4340-9355-F225B50D07CD}</othercit>
+<onlink>http://jfsp.nifc.gov/JFSP_JFSP_Products.htm</onlink>
+<onlink>www.cnr.colostate.edu/frws/research/westfire/FinalReport.pdf</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Martinson, E.J. and P.N.Omi</origin>
+<pubdate>2003</pubdate>
+<title>Performance of fuel treatments subjected to wildfires [literature review] -- {4F90FF71-3C33-4607-9185-8D2EF0E0C380}</title>
+<geoform>unknown</geoform>
+<othercit>
+This data set was used in the manuscript already captured by Tall Timbers -- see citation: Martinson, E.J. and P.N.Omi. 2003. Performance of fuel treatments subjected to wildfires [literature review] Pages 7-13 in Omi,P.N. and L.A.Joyce (eds.). Fire, Fuel Treatments, and Ecological Restoration: Conference Proceedings: 16-18 April 2002: Fort Collins, Colorado. Proceedings. USDA Rocky Mountain Research Station, Fort Collins, CO.  CALL NO: A13.151/5:RMRS-P-29 Book/Gov Doc
+with FRAMES resource id = {4F90FF71-3C33-4607-9185-8D2EF0E0C380}
+</othercit>
+<onlink>http://www.talltimbers.org/index.htm</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Omi, Philip N. and Erik J. Martinson</origin>
+<pubdate>20020325</pubdate>
+<title>Effect of Fuels Treatment on Wildfire Severity -- Final Report</title>
+<geoform>unknown</geoform>
+<othercit>
+This data set is documented by the JFSP final report cited as:
+Omi, Philip N. and Erik J. Martinson. 25 March 2002. Effect of Fuels Treatment on Wildfire Severity -- Final Report. Western Forest Fire Research Center, Colorado State University. Submitted to the Joint Fire Science Program Governing Board. 40p.  with FRAMES resource id = {79EFFA17-1DAF-4A64-8E8F-523ED6B320DD}
+</othercit>
+<onlink>http://www.cnr.colostate.edu/frws/research/westfire/FinalReport.pdf</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Unknown</origin>
+<pubdate>2004</pubdate>
+<title>Fuels, fire severity, and invasive plants within the Cerro Grande Fire, Los Alamos, New Mexico -- {F12F8D17-7CE9-4375-B969-B251338EB0BA}</title>
+<geoform>unknown</geoform>
+<othercit>this data set was used in the manuscript already captured by Tall Timbers -- see citation: Omi, P. N., E. J. Martinson, M. A. Kalkhan, G. W. Chong, M. A. Hunter, and T. J. Stohlgren. 2004. Fuels, fire severity, and invasive plants within the Cerro Grande Fire, Los Alamos, New Mexico. Tall Timbers Fire Ecology Conference Proceedings 22: 141-8. CALL NO: Journals-T Journal	with FRAMES resource id = {F12F8D17-7CE9-4375-B969-B251338EB0BA}</othercit>
+<onlink>http://www.talltimbers.org/index.htm</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Error checks have been completed.  Crown base heights may be underestimated in high severity plots where lower limbs were consumed.  Needle scorch heights are limited by tree height and thus underestimated on completely scorched trees.</attraccr>
+</attracc>
+<logic>none</logic>
+<complete>Plot coordinates are available as points indicating the center of each variable radius plot.  The dataset contains no omissions.</complete>
+<lineage>
+<procstep>
+<procdesc>unknown</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>13</utmzone>
+<transmer>
+<sfctrmer>0.9996</sfctrmer>
+<longcm>-105</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>unknown</absres>
+<ordres>unknown</ordres>
+</coordrep>
+<plandu>Meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1927</horizdn>
+<ellips>Clarke 1866</ellips>
+<semiaxis>6378206</semiaxis>
+<denflat>294.9786982</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>2000 Cerro Grande Wildfire</enttypl>
+<enttypd>2000 Cerro Grande wildfire that burned into an area of the Santa Fe National Forest.</enttypd>
+<enttypds>Colorado State University, College of Natural Resources</enttypds>
+</enttyp>
+<attr>
+<attrlabl>basal area (m2/ha)</attrlabl>
+<attrdef>square meters per hectare</attrdef>
+<attrdefs>Colorado State University, College of Natural Resources</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>crown volume consumption</attrlabl>
+<attrdef>crown volume consumption</attrdef>
+<attrdefs>Colorado State University, College of Natural Resources</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>crown volume scorch</attrlabl>
+<attrdef>crown volume scorch</attrdef>
+<attrdefs>Colorado State University, College of Natural Resources</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>depth of char rating</attrlabl>
+<attrdef>depth of char rating</attrdef>
+<attrdefs>Colorado State University, College of Natural Resources</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>dole char height</attrlabl>
+<attrdef>dole char height</attrdef>
+<attrdefs>Colorado State University, College of Natural Resources</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>mean crown base height (m)</attrlabl>
+<attrdef>mean crown base height (m)</attrdef>
+<attrdefs>Colorado State University, College of Natural Resources</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>mean diameter at breast height (cm)</attrlabl>
+<attrdef>mean diameter at breast height (cm)</attrdef>
+<attrdefs>Colorado State University, College of Natural Resources</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>mean tree height (m)</attrlabl>
+<attrdef>mean tree height</attrdef>
+<attrdefs>Colorado State University, College of Natural Resources</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>needle scorch height</attrlabl>
+<attrdef>needle scorch height</attrdef>
+<attrdefs>Colorado State University, College of Natural Resources</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>stand damage rating (0-4)</attrlabl>
+<attrdef>stand damage rating (0-4)</attrdef>
+<attrdefs>Colorado State University, College of Natural Resources</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>tree density</attrlabl>
+<attrdef>number of trees per hectare</attrdef>
+<attrdefs>Colorado State University, College of Natural Resources</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Erik J. Martinson</cntper>
+<cntorg>Colorado State University</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>131 Forestry</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80523</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>970.491.1779</cntvoice>
+<cntemail>erikm@cnr.colostate.edu</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>none</resdesc>
+<distliab>No warranty expressed or implied is made regarding the accuracy or utility of the data for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from the originator(s) of the data, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The distributor(s) shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20050629</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>The Nature Conservancy</cntorg>
+<cntper>Christopher C. Szell</cntper>
+</cntorgp>
+<cntpos>Assistant Fire Ecologist, Southern U.S.</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>6114 Fayetteville Rd., Suite 109</address>
+<city>Durham</city>
+<state>NC</state>
+<postal>27713</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>919.484.7857 ext. 142</cntvoice>
+<cntfax>919.484.7357</cntfax>
+<cntemail>cszell@tnc.org</cntemail>
+</cntinfo>
+</metc>
+<metstdn>Biological Data Profile of the FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+<mercury><begdate>Unknown</begdate><enddate>Unknown</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/frames/www.nbii.gov_metadata_mdata_frames_nbii_frames_d_cerrogrande.html</htmlurl><LTER-Site>frames</LTER-Site></mercury></metadata>

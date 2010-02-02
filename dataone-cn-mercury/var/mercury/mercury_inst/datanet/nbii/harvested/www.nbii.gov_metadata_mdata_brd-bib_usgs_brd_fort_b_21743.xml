@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21743.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Pearce, R.D., T.J. O'Shea, V. Shankar, and C.E. Rupprecht</origin>
+<pubdate>2007</pubdate>
+<title>Lack of association between ectoparasite intensities and rabies virus neutralizing antibody seroprevalence in wild big brown bats (Eptesicus fuscus), Fort Collins, Colorado</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>Vector-Borne and Zoonotic Diseases</sername>
+<issue>7(4):489-495</issue>
+</serinfo>
+<othercit>Vol. 7(4) pages 489-495</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Pearce, R.D., T.J. O'Shea, V. Shankar, and C.E. Rupprecht. 2007. Lack of association between ectoparasite intensities and rabies virus neutralizing antibody seroprevalence in wild big brown bats (Eptesicus fuscus), Fort Collins, Colorado. Vector-Borne and Zoonotic Diseases 7(4): 489-495.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2007</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Colorado</descgeog>
+<bounding>
+<westbc>-109.0552</westbc>
+<eastbc>-102.03676</eastbc>
+<northbc>41.00341</northbc>
+<southbc>36.98897</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>disease</themekey>
+<themekey>ectoparasites</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Colorado</placekey>
+<placekey>CO</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>bats</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Mammalia</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Chiroptera</taxonrv>
+<common>Bats</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>O'Shea, T.J.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shankar, V., L.A. Orciari, C. De Mattos, I.V. Kuzmin, W.J. Pape, T.J. O'Shea, and C.E. Rupprecht</origin>
+<pubdate>2005</pubdate>
+<title>Genetic divergence of rabies viruses from bat species of Colorado, USA</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Vector-Borne and Zoonotic Diseases</sername>
+<issue>5(4):330-341</issue>
+</serinfo>
+<othercit>Vol. 5(4) pages 330-341</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Shankar, V., R.A. Bowen, A.D. Davis, C.E. Rupprecht, and T.J. O'Shea</origin>
+<pubdate>2004</pubdate>
+<title>Rabies in a captive colony of big brown bats (Eptesicus fuscus)</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Journal of Wildlife Diseases (ISSN 0090-3558)</sername>
+<issue>40(3):403-413</issue>
+</serinfo>
+<othercit>Vol. 40(3) pages 403-413</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>O'Shea, T.J.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Lack of association between ectoparasite intensities and rabies virus neutralizing antibody seroprevalence in wild big brown bats (Eptesicus fuscus), Fort Collins, Colorado.  FORT Library Archive Number: 2007/0089 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20070101</begdate><enddate>20071231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21743.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

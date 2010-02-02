@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_migcon.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Webster, M. S., P. P. Mara, S. M. Haig, S. Bensch, and R. T. Holmes</origin>
+<pubdate>2002</pubdate>
+<title>Links between worlds: Unraveling migratory connectivity</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Trends in Ecology and Evolution</sername>
+<issue>17(2):76-83</issue>
+</serinfo>
+<othercit>
+Science Information System Project #: 7042
+Publication Control #: 1072
+</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Migration is the movement of individuals that occurs seasonally each year, and often entails traveling from a breeding location to a nonbreeding location and back again. Migration is a widespread phenomenon in nature, and is particularly common among birds. The extent to which individuals from the same breeding area migrate to the same nonbreeding area (termed migratory connectivity), and vice versa, is a very important and yet unresolved issue in the study of migratory birds. This paper discusses new technologies for better understanding the ecology and evolution of migrating organisms. New advances in satellite telemetry, genetic analyses, and stable isotope chemistry are discussed as pertinent tools for determining the population and geographical origin of individual birds.  In this paper, the advantages and limitations to these new approaches are considered the link between migratory connectivity to other ecological, evolutionary, and conservation issues.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>
+Extent of item: 7pp
+Illustrative Matter: diagrams, charts
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Unknown.  This information is not normally part of a publication bibliographic record.  The coordinates provided below are default coordinates which cover the United States including Alaska and Hawaii.</descgeog>
+<bounding>
+<westbc>-180</westbc>
+<eastbc>180</eastbc>
+<northbc>72</northbc>
+<southbc>18</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Science Information System Controlled Vocabulary</themekt>
+<themekey>Analytical Chemistry</themekey>
+<themekey>Biomarkers</themekey>
+<themekey>Birds</themekey>
+<themekey>Endangered Species</themekey>
+<themekey>Fish</themekey>
+<themekey>Genetics</themekey>
+<themekey>Mammals</themekey>
+<themekey>Marine Mammals</themekey>
+<themekey>Migratory</themekey>
+<themekey>Monitoring</themekey>
+<themekey>Populations</themekey>
+<themekey>Reptiles</themekey>
+<themekey>Status and Trends</themekey>
+<themekey>Taxonomy/Systematics</themekey>
+<themekey>Waterfowl</themekey>
+<themekey>Wildlife</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Haig, Susan</cntper>
+<cntorg>USGS Forest and Rangeland Ecosystem Science Center</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>3200 SW Jefferson way</address>
+<city>Corvallis</city>
+<state>OR</state>
+<postal>97331</postal>
+</cntaddr>
+<cntvoice>541-750-7482</cntvoice>
+<cntemail>susan_haig@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Forest &amp; Rangeland Ecosystem Science Center (FRESC)</cntorg>
+<cntper>Headquarters</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical Address</addrtype>
+<address>
+U.S. Geological Survey
+Forest and Rangeland Ecosystem Science Center
+3200 SW Jefferson Way
+</address>
+<city>Corvallis</city>
+<state>Oregon</state>
+<postal>97331</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(541) 750-7307</cntvoice>
+<cntemail>FRESC_Outreach@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #: 1072</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20020510</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS FRESC Snake River Field Station Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Library</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>970 Lusk Street</address>
+<city>Boise</city>
+<state>Idaho</state>
+<postal>83706</postal>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>kathy_mccoy@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_migcon.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

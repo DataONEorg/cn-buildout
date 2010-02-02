@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/ECTI/ecti_d_annonaceaetrop.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>M.E. Bakker</origin>
+<pubdate>Unknown</pubdate>
+<title>Annonaceae - Neotropical Genera and Species</title>
+<edition>1.0 (Mac), 1.0 (Win)</edition>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Amsterdam, Netherlands</pubplace>
+<publish>Expert Center for Taxonomic Identification</publish>
+</pubinfo>
+<othercit>ISBN: Mac 3-540-14805-1</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>In the Neotropics (Central and South America) the Annonaceae are one of the largest tropical plant families. Some genera are of economic importance (fruits, and ornamental purposes). This CD-ROM holds a fully up-to-date information system on all known neotropical genera (39) of the Annonaceae with concise descriptions and additional information. For 263 species of 17 revised genera highly detailed descriptions are provided, accompanied by line drawings, photos and full color slides of plant, flower, fruit and seed, and geographical distributions. Identification of the species is facilitated by two types of computer assisted keys: a dichotomous key, and several multi-access keys. An interactive geographic information system presents distribution data and supports geographic searches and comparisons. A literature database with over 2400 references and a hyperlinked illustrated glossary of terms are part of the system.</abstract>
+<purpose>This CD-ROM is a taxonomic reference work for researchers of various disciplines such as: plant taxonomists, curators of plant collections, ecologists, foresters, ethnobotanists, pharmacologists, teachers and nature conservators and managers.</purpose>
+<supplinf>This information was obtained from the ETI web site - http://www.eti.uva.nl/Products/CD-catalogue.html.  (previous geoform was 'CD-ROM database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>Unknown</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<spdom>
+<descgeog>Central and South America</descgeog>
+<bounding>
+<westbc>-95</westbc>
+<eastbc>-40</eastbc>
+<northbc>18</northbc>
+<southbc>-55</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>taxonomy</themekey>
+<themekey>tropical plant families</themekey>
+<themekey>fruits</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Central America</placekey>
+<placekey>South America</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>Annonaceae</taxonkey>
+<taxonkey>neotropical plant families</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Magnoliophyta</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Magnoliopsida</taxonrv>
+<taxoncl>
+<taxonrn>Sub Class</taxonrn>
+<taxonrv>Magnoliidae</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Magnoliales</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Annonaceae</taxonrv>
+<common>custard apples</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Anaxagorea</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Annona</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Artabotrys</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Asimina</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Cananga</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Deeringothamnus</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Duguetia</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Guatteria</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Monodora</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Oxandra</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Rollinia</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Stelechocarpus</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Xylopia</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Expert Center for Taxonomic Identification</cntorg>
+<cntper>Webmaster</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>P.O. Box 94766, Mauritskade 61</address>
+<city>Amsterdam</city>
+<postal>NL-1090 GT</postal>
+<country>Netherlands</country>
+</cntaddr>
+<cntvoice>+31-20-5257239</cntvoice>
+<cntfax>+31-20-5257238</cntfax>
+<cntemail>webmaster@eti.uva.nl</cntemail>
+<cntinst>info@eti.uva.nl - general information about ETI. Phone and fax numbers are for general information.  Email adress webmaster@eti.uva.nl may know the most about the online World Biodiversity database.</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<logic>not applicable</logic>
+<complete>This CD-ROM holds a fully up-to-date information system on all known neotropical genera (39) of the Annonaceae with concise descriptions and additional information. A literature database with over 2400 references and a hyperlinked illustrated glossary of terms are part of the system.</complete>
+<lineage>
+<procstep>
+<procdesc>not applicable</procdesc>
+<procdate>not applicable</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<eainfo>
+<overview>
+<eaover>Entity - Neotropical plant families; Attributes - descriptions, line drawings, photos and full color slides of plants, flower, fruit and seed and geographical distributions.</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Springer</cntorg>
+<cntper>Customer Service</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>Haberstrasse 7</address>
+<city>Heidelberg</city>
+<postal>69126</postal>
+<country>Germany</country>
+</cntaddr>
+<cntvoice>Unknown</cntvoice>
+<cntfax>+49 (0) 6221/345 229;</cntfax>
+<cntemail>orders@springer.de</cntemail>
+</cntinfo>
+</distrib>
+<distliab>
+ETI is committed to updating its CD-ROM publications in the above mentioned series, including adapting them to hardware configurations and computer operating systems to come (meaning that they will be replaced by new versions when big changes occur). All users of ETI CD-ROM products and the Linnaeus II software can ask for support at our
+by a helpdesk [support@eti.uva.nl]. We will do our very best to help you with any questions that may arise.
+</distliab>
+<stdorder>
+<fees>$129.95</fees>
+<ordering>The Copepods CD-ROM can be ordered at your local bookshop, and the following distributor(s):  Springer Customer Service, Haberstrasse 7, 69126 Heidelberg, Germany; fax: +49 (0) 6221/345 229; e-mail: orders@springer.de; UNESCO Publishing, 7, place de Fontenoy, 75352 Paris 07 SP, France. ETI-partners may order directly at ETI as they receive a discount on the retail prices of all CD's. The Linnaeus II software for Biodiversity Documentation can be purchased only at ETI.</ordering>
+</stdorder>
+<techpreq>Windows:  Windows 95/98, Pentium CPU, 16MB RAM, Thousands of colors, 4x speed CD-ROM or higher. Macintosh: System 7.x/8.x, 680x0/PowerPC CPU, 16MB RAM, Thousands of colors, 4x speed CD-ROM or higher.</techpreq>
+</distinfo>
+<metainfo>
+<metd>20010831</metd>
+<metfrd>20020831</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>Unknown</begdate><enddate>Unknown</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_ECTI_ecti_d_annonaceaetrop.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

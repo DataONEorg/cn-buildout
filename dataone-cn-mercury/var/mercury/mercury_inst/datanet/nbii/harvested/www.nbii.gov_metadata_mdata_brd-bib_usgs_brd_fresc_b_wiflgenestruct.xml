@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_wiflgenestruct.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Eben Paxton</origin>
+<pubdate>2000</pubdate>
+<title>Molecular Genetic Structuring in the Willow Flycatcher (Empidonax traillii)</title>
+<geoform>M.S. Thesis</geoform>
+<pubinfo>
+<pubplace>Flagstaff, AZ</pubplace>
+<publish>Northern Arizona University</publish>
+</pubinfo>
+<othercit>
+Science Information System Project #: 75-3A
+Publication Control #: 894
+</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This master thesis report summarizes the study of genetic structure differences between subspecies of the willow flycatcher.  The scientist found that through study of genetic structure there were many differences between the subspecies.  He also concluded that the population of willow flycatchers went through a period of low population and then through a rapid expansion recently.  This may have affected the genetics of the endangered southwestern willow flycatcher.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>
+Extent of item: 33pp
+Illustrative Matter:  graphs and maps
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2000</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Not Applicable.  This information is not normally part of a publication bibliographic record.  The coordinates provided below are default coordinates which cover the United States including Alaska and Hawaii.</descgeog>
+<bounding>
+<westbc>-180</westbc>
+<eastbc>180</eastbc>
+<northbc>72</northbc>
+<southbc>18</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>willow flycatcher</themekey>
+<themekey>neotropical</themekey>
+</theme>
+<theme>
+<themekt>Science Information System Controlled Vocabulary</themekt>
+<themekey>Birds</themekey>
+<themekey>Genetics</themekey>
+<themekey>Populations</themekey>
+<themekey>Endangered Species</themekey>
+</theme>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>birds</taxonkey>
+<taxonkey>Empidonax traillii extimus</taxonkey>
+<taxonkey>Southwestern Willow Flycatcher</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Sub Phylum</taxonrn>
+<taxonrv>Vertebrata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Aves</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Passeriformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Tyrannidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Empidonax</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Empidonax traillii extimus</taxonrv>
+<common>Southwestern Willow Flycatcher</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Sogge, Mark</cntper>
+<cntorg>USGS Forest and Rangeland Ecosystem Science Center; Colorado Plateau Field Station</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>Northern Arizona University, PO Box 5614 BLDG 24</address>
+<city>Flagstaff</city>
+<state>AZ</state>
+<postal>86011-5614</postal>
+</cntaddr>
+<cntvoice>520-556-7466</cntvoice>
+<cntemail>mark.sogge@nau.edu</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #: 894</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20010308</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20000101</begdate><enddate>20001231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_wiflgenestruct.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

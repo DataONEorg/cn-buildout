@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_LW002.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Elizabeth Williams</origin>
+<pubdate>Unpublished material</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Explorer of the Seas Total Sky Imager (TSI)</title>
+<geoform>maps data</geoform>
+<onlink>http://oceanlab.rsmas.miami.edu/cgi-bin/nph-dods/explorer/tsi/</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Operation of shipboard instrumentation aboard the Royal Caribbean Cruise Lines Explorer of the Seas cruise vessel in the southwestern North Atlantic Ocean to gather oceanographic and atmospheric data. The vessel is based in Miami and makes weekly year-round cruise tracks. It is outfitted with several suites of ocean monitoring instrumentation. The area of study ranges from the east coast of Florida to the Florida Straits including three major transport passages between the Atlantic and Caribbean.</abstract>
+<purpose>To gather and disseminate real time observational measurements on sky conditions using total sky imagery (TSI) instrumentation</purpose>
+<supplinf>(previous geoform was 'tabular digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>20010107</begdate>
+<enddate>20030704</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-88.5</westbc>
+<eastbc>-62.5</eastbc>
+<northbc>26.5</northbc>
+<southbc>17.5</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Royal Caribbean</themekey>
+<themekey>Explorer of the Seas</themekey>
+<themekey>Total Sky Imager</themekey>
+<themekey>TSI</themekey>
+</theme>
+<place>
+<placekt>GeoRef Thesaurus</placekt>
+<placekey>Caribbean Sea</placekey>
+<placekey>Straits of Florida</placekey>
+<placekey>Bahamas</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Elizabeth Williams</cntper>
+<cntorg>Rosenstiel School of Marine and Atmospheric Science</cntorg>
+</cntperp>
+<cntpos>Program Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>4600 Rickenbacker Causeway</address>
+<city>Miami</city>
+<state>FL</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>305-361-4070</cntvoice>
+<cntemail>ewilliams@rsmas.miami.edu</cntemail>
+</cntinfo>
+</ptcontac>
+<native>ASCII</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>The attribute values were checked visually against known values</attraccr>
+</attracc>
+<logic>none</logic>
+<complete>not applicable</complete>
+<lineage>
+<procstep>
+<procdesc>Measurements taken at sites along cruise track of Explorer of the Seas vessel</procdesc>
+<srcused>not applicable</srcused>
+<procdate>2003</procdate>
+</procstep>
+</lineage>
+<cloud>Unknown</cloud>
+</dataqual>
+<eainfo>
+<overview>
+<eaover>Measurements along cruise track at incremental sampling stations for total sky imager</eaover>
+<eadetcit>see above</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Elizabeth Williams</cntper>
+<cntorg>Rosenstiel School of Marine and Atmospheric Science</cntorg>
+</cntperp>
+<cntpos>Research Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>4600 Rickenbacker Causeway</address>
+<city>Miami</city>
+<state>FL</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>305-361-4070</cntvoice>
+<cntemail>ewilliams@rsmas.miami.edu</cntemail>
+</cntinfo>
+</distrib>
+<distliab>none</distliab>
+<stdorder>
+<nondig>contact Elizabeth Williams</nondig>
+<fees>none</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>200410</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Fernando Bretos</cntper>
+<cntorg>Rosenstiel School of Marine and Atmospheric Science - Library</cntorg>
+</cntperp>
+<cntpos>Research Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>4600 Rickenbacker Causeway</address>
+<city>Miami</city>
+<state>FL</state>
+<postal>33149</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>305-361-4007</cntvoice>
+<cntemail>fbretos@rsmas.miami.edu</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+<mercury><begdate>20010107</begdate><enddate>20030704</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_LW002.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

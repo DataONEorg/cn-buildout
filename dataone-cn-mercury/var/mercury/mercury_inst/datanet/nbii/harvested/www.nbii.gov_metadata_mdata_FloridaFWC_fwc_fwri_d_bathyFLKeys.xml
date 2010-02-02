@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_bathyFLKeys.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Geonex (now Avineon Inc.)</origin>
+<pubdate>1992</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Bathymetry of the Florida Keys</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>St. Petersburg, FL</pubplace>
+<publish>GEONEX</publish>
+</pubinfo>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+This data set includes the nearshore bathymetry of the Florida Keys, from Islamorada to the Dry Tortugas, as lines representing bathymetric contours and polygons representing the depth ranges between the contours. While only the polygon data are served on the ArcIMS site, line contours are also available by request. Please see the Distribution Information section below for data request procedures.
+Geonex digitized the contours during 1991-1992 from clean, wrinkle-free paper National Oceanic and Atmospheric Administration (NOAA) nautical charts. Geonex used the most current versions of the charts available at that time. The source charts used to create this data set varied in scale from 1:10000 to 1:80000, but in all cases, the largest scale charts available were used. Geonex staff members also interpolated additional contours not present on the charts.
+</abstract>
+<purpose>This data set was created to represent marine depth contours and depth range polygons, primarily for cartographic purposes.</purpose>
+<supplinf>
+Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The institute name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The institute name has been changed in references to ongoing research, new research, and contact information.
+These data may contain attribute and positional inaccuracies.  Use with caution.
+These data are not to be used for navigation.  User should be aware that later versions of the source charts may be available and that contours may have changed.  Consult the appropriate coast pilot and the most recent paper or digital charts available.
+(previous geoform was 'vector digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>1991</begdate>
+<begtime>Unknown</begtime>
+<enddate>1992</enddate>
+<endtime>Unknown</endtime>
+</rngdates>
+</timeinfo>
+<current>Date the data were digitized</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-83.112035</westbc>
+<eastbc>-80.613376</eastbc>
+<northbc>25.252099</northbc>
+<southbc>24.215123</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>FWRItheme</themekt>
+<themekey>bathymetry</themekey>
+<themekey>GIS</themekey>
+<themekey>mapping</themekey>
+<themekey>contours</themekey>
+<themekey>coastal</themekey>
+<themekey>marine</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>elevation</themekey>
+<themekey>oceans</themekey>
+</theme>
+<place>
+<placekt>FWRIplace</placekt>
+<placekey>Florida Keys</placekey>
+<placekey>Florida</placekey>
+<placekey>Dry Tortugas</placekey>
+<placekey>Lower Keys</placekey>
+<placekey>Middle Keys</placekey>
+<placekey>Great White Heron National Wildlife Refuge</placekey>
+<placekey>National Key Deer Wildlife Refuge</placekey>
+<placekey>Hawk Channel</placekey>
+<placekey>Gulf of Mexico</placekey>
+<placekey>Everglades National Park</placekey>
+<placekey>Key West National Wildlife Refuge</placekey>
+<placekey>Florida Straits</placekey>
+<placekey>south Florida</placekey>
+</place>
+<place>
+<placekt>Florida Waterbodies</placekt>
+<placekey>Florida Bay</placekey>
+</place>
+<place>
+<placekt>FWC Region</placekt>
+<placekey>FWC Region-South</placekey>
+</place>
+<place>
+<placekt>Water Management Districts</placekt>
+<placekey>South Florida Water Management District</placekey>
+</place>
+<place>
+<placekt>Florida Counties</placekt>
+<placekey>Monroe</placekey>
+</place>
+</keywords>
+<accconst>All data must be verified by Principal Investigator or Group Database Analyst prior to release.  It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the data's suitability for other purposes.</accconst>
+<useconst>FWC-FWRI and the originator of the data must be credited. This is not a survey data set and should not be utilized as such. These data are not to be used for navigation. Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data.  Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.  This is not a survey data set and should not be utilized as such. These data are not to be used for navigation.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</ptcontac>
+<datacred>Geonex (now Avineon Inc.)</datacred>
+<secinfo>
+<secsys>FWRI-DC</secsys>
+<secclass>Available with caution</secclass>
+<sechandl>Available with caution</sechandl>
+</secinfo>
+<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 1; ESRI ArcCatalog 8.1.1.649</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>All entities and attributes have been identified and documented.  FWRI has not verified attribute accuracy.  There is poor logical consistency between DEPTH and D-coding attributes.</attraccr>
+</attracc>
+<logic>DEPTH attributes and D-coding are poor.  There are apparent logical inconsistencies between arcs and polygons.  Some lines are coded as 666, indicating that they are inland water bodies.  This attribute should be for polygons only, because a line around an inland water body should have a depth of 0.  However, not all of the arcs coded as DEPTH = 666 are indeed shoreline, and not all of the polygons coded as 666 are fully land-locked.  Polygons coded as 333 and arcs coded as 444 are also miscoded.  This data set needs additional quality checks and editing.</logic>
+<complete>DEPTH attributes and D-coding are poor.  There are apparent logical inconsistencies between arcs and polygons.  Some lines are coded as 666, indicating that they are inland water bodies.  This attribute should be for polygons only, because a line around an inland water body should have a depth of 0.  However, not all of the arcs coded as DEPTH = 666 are indeed shoreline, and not all of the polygons coded as 666 are fully land-locked.  Polygons coded as 333 and arcs coded as 444 are also miscoded.  This data set needs additional quality checks and editing.</complete>
+<posacc>
+<horizpa>
+<horizpar>Positional accuracy has not been verified by FWRI.  Not all contours match the source charts.  Some contours may have been interpolated from other sources.  FWRI has not verified that all contours deviating from the source charts are interpolations.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>National Oceanic and Atmospheric Administration, National Ocean Service</origin>
+<pubdate>Unknown</pubdate>
+<title>National Oceanic and Atmospheric Administration Nautical Charts - various</title>
+<geoform>vector digital data</geoform>
+</citeinfo>
+</srccite>
+<typesrc>Digital</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>Unknown</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>NOAA</srccitea>
+<srccontr>Geonex digitized the nearshore contours from the largest scale charts available.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>Geonex digitized the nearshore contours from clean, wrinkle-free paper National Oceanic and Atmospheric Administration (NOAA) nautical charts. Geonex used the most current versions of the charts available at that time. The source charts used to create this data set varied in scale from 1:10000 to 1:80000, but in all cases, the largest scale charts available were used. In some areas, Geonex staff members interpolated additional contours not present on the charts.</procdesc>
+<srcused>NOAA</srcused>
+<procdate>1991-1992</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Avineon Incorporated, Baymont Division</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>14100 58th Street North</address>
+<city>Clearwater</city>
+<state>FL</state>
+<postal>33760</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(727) 539-1661</cntvoice>
+<cntfax>727-539-1749</cntfax>
+<hours>8:00 a.m.-5:00 p.m. Eastern time M-F</hours>
+<cntinst>Avineon was formerly called Agra Baymont, which was previously GEONEX.</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>6200</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Albers Conical Equal Area</mapprojn>
+<albers>
+<stdparll>24</stdparll>
+<stdparll>31.5</stdparll>
+<longcm>-84</longcm>
+<latprjo>24</latprjo>
+<feast>400000</feast>
+<fnorth>0</fnorth>
+</albers>
+</mapproj>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>0.001863</absres>
+<ordres>0.001863</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>FMRI.nearshore_keys_arc</enttypl>
+<enttypd>This data set represents bathymetry contours in arc format.</enttypd>
+<enttypds>Producer defined</enttypds>
+</enttyp>
+<attr>
+<attrlabl>D0</attrlabl>
+<attrdef>True or false for the condition shoreline;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D100</attrlabl>
+<attrdef>True or false for the condition DEPTH = 100 feet;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D12</attrlabl>
+<attrdef>True or false for the condition DEPTH = 12 feet;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D18</attrlabl>
+<attrdef>True or false for the condition DEPTH = 18 feet;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D3</attrlabl>
+<attrdef>True or false for the condition DEPTH = 3 feet;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D30</attrlabl>
+<attrdef>True or false for the condition DEPTH = 30 feet;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D555</attrlabl>
+<attrdef>True or false for the condition exposed at mean lower low water;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D6</attrlabl>
+<attrdef>True or false for the condition DEPTH = 6 feet;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D60</attrlabl>
+<attrdef>True or false for the condition DEPTH = 60 feet;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D666</attrlabl>
+<attrdef>True or false for the condition inland water;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D777</attrlabl>
+<attrdef>True or false for the condition dredged channel;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D888</attrlabl>
+<attrdef>True or false for the condition spoil;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D999</attrlabl>
+<attrdef>True or false for the condition chart border;  0 = false, 1 = true</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>false</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>true</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEPTH</attrlabl>
+<attrdef>
+This field indicates the depth (in feet) of the shallowest contour represented by the line.  In cases where a non-depth item is represented, a special 3-digit number is used to describe the feature. The following values can be found in this data set:
+0 = shoreline
+3 = 3 feet
+6 = 6 feet
+12 = 12 feet
+18 = 18 feet
+30 = 30 feet
+60 = 60 feet
+100 = 100 feet
+444 = these arcs are improperly coded as undetermined water depth
+555 = exposed at mean lower low water
+666 = these arcs are improperly coded as inland water body shoreline
+777 = dredged channel
+888 = spoil
+999 = chart border
+</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>
+This field indicates the depth (in feet) of the shallowest contour represented by the line.  In cases where a non-depth item is represented, a special 3-digit number is used to describe the feature. The following values can be found in this data set:
+0 = shoreline
+3 = 3 feet
+6 = 6 feet
+12 = 12 feet
+18 = 18 feet
+30 = 30 feet
+60 = 60 feet
+100 = 100 feet
+444 = these arcs are improperly coded as undetermined water depth
+555 = exposed at mean lower low water
+666 = these arcs are improperly coded as inland water body shoreline
+777 = dredged channel
+888 = spoil
+999 = chart border
+</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal ID used by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Internal ID used by SDE</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Feature geometry</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+<attrdef>Length of arc (in meters); SDE automatically calculates</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Length of arc (in meters); SDE automatically calculates</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TYPE</attrlabl>
+<attrdef>Textual description of DEPTH attribute value</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Textual description of DEPTH attribute value</udom>
+</attrdomv>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>FMRI.nearshore_keys_poly</enttypl>
+<enttypd>This data set represents bathymetry contours in polygon format.</enttypd>
+<enttypds>Producer defined</enttypds>
+</enttyp>
+<attr>
+<attrlabl>D_RANGE</attrlabl>
+<attrdef>
+This value represents the depth of the area between two contours. The value of the deeper depth contour is assigned to this item.  In cases where a non-depth item is represented, a special 3-digit number is used to describe the feature. The following values can be found in this data set:
+0 = Land
+3 = 0 to 3 feet
+6 = 3 to 6 feet
+12 = 6 to 12 feet
+18 = 12 to 18 feet
+30 = 18 to 30 feet
+60 = 30 to 60 feet
+100 = 60 to 100 feet
+333 = these polygons are improperly coded as oyster beds
+555 = exposed at mean lower low water
+666 = inland water
+777 = dredged channel
+888 = spoil area
+889 = frequently changing area
+999 = greater than 100 feet
+</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>
+This value represents the depth of the area between two contours. The value of the deeper depth contour is assigned to this item.  In cases where a non-depth item is represented, a special 3-digit number is used to describe the feature. The following values can be found in this data set:
+0 = Land
+3 = 0 to 3 feet
+6 = 3 to 6 feet
+12 = 6 to 12 feet
+18 = 12 to 18 feet
+30 = 18 to 30 feet
+60 = 30 to 60 feet
+100 = 60 to 100 feet
+333 = these polygons are improperly coded as oyster beds
+555 = exposed at mean lower low water
+666 = inland water
+777 = dredged channel
+888 = spoil area
+889 = frequently changing area
+999 = greater than 100 feet
+</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal ID used by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Internal ID used by SDE</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Feature geometry</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+<attrdef>Area of polygon (in square meters); SDE automatically calculates</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Area of polygon (in square meters); SDE automatically calculates</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+<attrdef>Length of polygon perimeter (in meters); SDE automatically calculates</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Length of polygon perimeter (in meters); SDE automatically calculates</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TYPE</attrlabl>
+<attrdef>Textual description of D_RANGE attribute value</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Textual description of D_RANGE attribute value</udom>
+</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>
+Each line contour contains the attribute DEPTH, which represents the shallowest contour depth in feet.  Special non-depth items are indicated by 3-digit codes.  The D-coding attributes represent the presence or absence of each contour value.
+Each polygon contains the attribute D-RANGE, which represents the deepest depth value within the range.
+</eaover>
+<eadetcit>
+Each line contour contains the attribute DEPTH, which represents the shallowest contour depth in feet.  Special non-depth items are indicated by 3-digit codes.  The D-coding attributes represent the presence or absence of each contour value.
+Each polygon contains the attribute D-RANGE, which represents the deepest depth value within the range.
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</distrib>
+<distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-FWRI produced data set or the appropriate originator; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://ocean.floridamarine.org/mrgis</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None. However, persons or organizations requesting information must provide transfer media if FTP is not available and must pay express shipping costs if express shipping is required.</fees>
+<ordering>Contact GIS Librarian by e-mail, telephone, or letter explaining which products are needed and providing a brief description of how the products will be used. Also, provide name and address of the person or organization requesting the products.</ordering>
+<turnarnd>Usually within 10 business days, although, complex requests may take longer</turnarnd>
+</stdorder>
+<custom>These data have caveats. Contact GIS Librarian for details. If these data are maintained by an agency other than FWC-FWRI, then the source agency should be contacted directly for requests.</custom>
+</distinfo>
+<metainfo>
+<metd>20020205</metd>
+<metrd>20051129</metrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>No restrictions on metadata.</metac>
+<metuc>Metadata must be distributed with the data set.</metuc>
+<metsi>
+<metscs>FWRI-MC</metscs>
+<metsc>Available</metsc>
+<metshd>Metadata must be distributed with the data set.</metshd>
+</metsi>
+</metainfo>
+<mercury><begdate>19910101</begdate><enddate>19921231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_bathyFLKeys.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

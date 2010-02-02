@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21083.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Zoellick, B.W., H.M. Ulmschneider, B.S. Cade, and A.W. Stanley</origin>
+<pubdate>2004</pubdate>
+<title>Isolation of Snake River islands and mammalian predation of waterfowl nests</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>Journal of Wildlife Management (ISSN 0022-541X)</sername>
+<issue>68(3):650-662</issue>
+</serinfo>
+<othercit>Vol. 68(3) pages 650-662</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Zoellick, B.W., H.M. Ulmschneider, B.S. Cade, and A.W. Stanley. 2004. Isolation of Snake River islands and mammalian predation of waterfowl nests. Journal of Wildlife Management 68(3): 650-662.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2004</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Idaho</descgeog>
+<bounding>
+<westbc>-117.23591</westbc>
+<eastbc>-111.04595</eastbc>
+<northbc>49</northbc>
+<southbc>41.99398</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>nest predation</themekey>
+<themekey>raccoon</themekey>
+<themekey>river flows</themekey>
+<themekey>Snake River islands</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Idaho</placekey>
+<placekey>ID</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>Anas platyrhynchos</taxonkey>
+<taxonkey>Branta canadensis</taxonkey>
+<taxonkey>Canada goose</taxonkey>
+<taxonkey>Canis latrans</taxonkey>
+<taxonkey>coyote</taxonkey>
+<taxonkey>mallard</taxonkey>
+<taxonkey>Procyon lotor</taxonkey>
+<taxonkey>red fox</taxonkey>
+<taxonkey>Vulpes vulpes</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Aves</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Anseriformes</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Anatidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Anas</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>platyrhynchos</taxonrv>
+<common>Mallard</common>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Branta</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>canadensis</taxonrv>
+<common>Canada goose</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Mammalia</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Carnivora</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Canidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Canis</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>latrans</taxonrv>
+<common>Coyote</common>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Vulpes</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>vulpes</taxonrv>
+<common>Red fox</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Procyonidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Procyon</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>lotor</taxonrv>
+<common>Common raccoon</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Cade, B.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Cade, B.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Isolation of Snake River islands and mammalian predation of waterfowl nests.  FORT Library Archive Number: 2004/0024 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20040101</begdate><enddate>20041231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21083.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

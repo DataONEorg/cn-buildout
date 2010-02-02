@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21262.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Cryan, P.M</origin>
+<pubdate>2003</pubdate>
+<title>Migration and thermoregulation strategies of hoary bats (Lasiurus cinereus) in North America</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Albuquerque, New Mexico</pubplace>
+<publish>The University of New Mexico</publish>
+</pubinfo>
+<othercit>90 pp.</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Cryan, P.M. 2003. Migration and thermoregulation strategies of hoary bats (Lasiurus cinereus) in North America. Ph.D. Dissertation. Albuquerque, New Mexico: The University of New Mexico. 90 p.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2003</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>migration</themekey>
+<themekey>thermoregulation</themekey>
+<themekey>torpor</themekey>
+<themekey>stable isotopes</themekey>
+<themekey>deuterium</themekey>
+<themekey>Lasiurus</themekey>
+<themekey>Lasionycteris</themekey>
+<themekey>seasonal distribution</themekey>
+<themekey>museum records</themekey>
+</theme>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>bats</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Mammalia</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Chiroptera</taxonrv>
+<common>Bats</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Cryan, P.M.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Cryan, P.M., and J.P. Veilleux</origin>
+<pubdate>2007</pubdate>
+<title>Migration and the use of Autumn, Winter, and Spring roosts by tree bats</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Baltimore, MD</pubplace>
+<publish>The Johns Hopkins University Press</publish>
+</pubinfo>
+<othercit>pages 153-175</othercit>
+<lworkcit>
+<citeinfo>
+<origin>M.J. Lacki, J.P. Hayes, and A. Kurta (eds.), ed.</origin>
+<pubdate>2007</pubdate>
+<title>Migration and the use of Autumn, Winter, and Spring roosts by tree bats</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Baltimore, MD</pubplace>
+<publish>The Johns Hopkins University Press</publish>
+</pubinfo>
+<othercit>pages 153-175</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Cryan, P.M., and A.C. Brown</origin>
+<pubdate>2007</pubdate>
+<title>Migration of bats past a remote island offers clues towards the problem of bat fatalities at wind turbines</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Biological Conservation (ISSN 0006-3207)</sername>
+<issue>139(1-2):1-11</issue>
+</serinfo>
+<othercit>Vol. 139(1-2) pages 1-11</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Cryan, P., T. O&amp;#146;Shea, L. Ellison, M. Bogan, and J. Wilson</origin>
+<pubdate>2004</pubdate>
+<title>Flying by night: USGS scientists put technology to work on bats</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey, Fort Collins Science Center</publish>
+</pubinfo>
+<othercit>2 pp.</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Cryan, P.M., M.A. Bogan, R.O. Rye, G.P. Landis, and C.L. Kester</origin>
+<pubdate>2004</pubdate>
+<title>Stable hydrogen isotope analysis of bat hair as evidence for seasonal molt and long-distance migration</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Journal of Mammalogy (ISSN 0022-2372)</sername>
+<issue>85(5):995-1001</issue>
+</serinfo>
+<othercit>Vol. 85(5) pages 995-1001</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Cryan, P.M., and B.O. Wolf</origin>
+<pubdate>2003</pubdate>
+<title>Sex differences in the thermoregulation and evaporative water loss of a heterothermic bat, Lasiurus cinereus, during its spring migration</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>The Journal of Experimental Biology</sername>
+<issue>206(9):3381-3390</issue>
+</serinfo>
+<othercit>Vol. 206(9) pages 3381-3390</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Cryan, P.M.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Migration and thermoregulation strategies of hoary bats (Lasiurus cinereus) in North America.  FORT Library Archive Number: 2003/0083 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20030101</begdate><enddate>20031231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21262.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        
+        <origin><![CDATA[BROWN, S.L.]]></origin>
+        
+        <origin><![CDATA[SCHROEDER, P.E.]]></origin>
+        
+
+        <title><![CDATA[NPP MULTI-BIOME: PRODUCTION AND MORTALITY FOR EASTERN U.S. FORESTS, 1962-1996]]></title>
+
+        <onlink><![CDATA[http://daac.ornl.gov/mercury_harvest/655.xml]]></onlink>
+        
+        <onlink><![CDATA[http://daac.ornl.gov//NPP/guides/brown_production.html]]></onlink>
+        
+        
+        <geoform><![CDATA[metadata]]></geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract><![CDATA[Annual mean aboveground wood increments for both hardwood and softwood are provided for 1956 counties of the 28 eastern U.S. states based on the forest inventory data from 1960s to 1990s.  Estimates of aboveground production and mortality of woody biomass for forests of the eastern United States based on data collected from an extensive network of permanent inventory plots maintained by the U.S. Department of Agriculture Forest Service Forest Inventory and Analysis (FIA).  Estimates of growing stock volume by forest type and stand size-class were compiled for 1,956 counties in the 28 Eastern states based on state-based inventories conducted between 1962 and 1988 with remeasurements conducted 6 to 23 years later between 1985 and 1996 (average interval of 12 years) (see Brown and Schroeder 1999).  Inventory data were aggregated by county into three broad forest categories (hardwood, pine, and spruce-fir) and three stand-size classes and expressed per unit area of forest land.  Forest area is defined by the Forest Service as land producing or capable of producing in excess of 20 cubic feet per acre per year of industrial roundwood products.  Stand volume was converted to aboveground biomass with regression equations for biomass expansion factors (BEF; ratio of aboveground biomass density of all living trees to merchantable volume).  The change in biomass and mortality between the two inventories was converted to an average net annual change in growing stock and mortality (MWB - mortality of woody biomass).  APWB (aboveground production of woody biomass) was calculated as the sum of net annual growth and mortality of woody biomass.  APWB is a major component of aboveground net primary production (ANPP).  Statistics were presented for hardwood and softwood (pine plus spruce-fir) forest categories.  The approach accounted for production of commercial and non commercial tree species with diameters greater than 2.5 cm and included noncommercial tree components (branches, twigs, and leaves) but did not account for annual leaf production.  The estimation methods were based on work by Schroeder et al. 1997 and were also used to estimate woody biomass (Brown et al. 1999).Based on the analysis of the aboveground production data (Brown and Shroeder 1999), APWB for hardwood forests ranged from 0.6 to 28 Mg ha-1 yr-1 and averaged 5.2 Mg ha-1 yr-1. For softwood forests, APWB ranged from 0.2 to 31 Mg ha-1 yr-1 and averaged 4.9 Mg ha-1 yr-1. The correct spatial patterns of woody production estimates were published in Brown and Schroeder (2000).  The corrected version of Figure 2 from Brown and Schroeder (1999) is included here as a companion file.  Aboveground production of woody biomass was generally highest in southeastern and southern counties, mostly along an arc from southern Virginia to Louisiana and eastern Texas.  No clear spatial pattern of mortality of woody biomass (MWB) existed, except for a distinct area of high mortality in South Carolina due to Hurricane Hugo in 1989. For hardwood forests, MWB ranged from 0 to 15 Mg ha-1 yr-1 and averaged 1.1 Mg ha-1 yr-1. The average MWB for softwood forests was 0.6 Mg ha-1 yr-1 with a range of 0-10 Mg ha-1 yr-1.  The rate of MWB on an aboveground biomass basis averaged <1/yr for both hardwood and softwood forests.]]></abstract>
+      <supplinf></supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate><![CDATA[19620101]]></begdate>
+          <enddate><![CDATA[19961231]]></enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress><![CDATA[Complete]]></progress>
+      <update><![CDATA[ As appropriate]]></update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-100</westbc>
+        <eastbc>-60</eastbc>
+        <northbc>50</northbc>
+        <southbc>25</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt><![CDATA[Parameter_Sensor_Source]]></themekt>
+        
+        <themekey><![CDATA[BIOMASS|ANALYSIS|VEGETATION SURVEY]]></themekey>
+        
+        
+        <themekt><![CDATA[Parameter]]></themekt>
+        
+        <themekey><![CDATA[BIOMASS]]></themekey>
+        
+        
+        <themekt><![CDATA[Source]]></themekt>
+        
+        <themekey><![CDATA[VEGETATION SURVEY]]></themekey>
+        
+        
+        <themekt><![CDATA[Sensor]]></themekt>
+        
+        <themekey><![CDATA[ANALYSIS]]></themekey>
+        
+      </theme>
+      
+      <place>
+        <placekt><![CDATA[Place Keywords]]></placekt>
+        
+        <placekey><![CDATA[UNITED STATES]]></placekey>
+        
+      </place>
+    </keywords>
+    
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper><![CDATA[BROWN, S.L.]]></cntper>
+        </cntperp>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; ]]></cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg><![CDATA[The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)]]></cntorg>
+          <cntper><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntfax><![CDATA[6.1.10.8 Contact Electronic Mail: INTERNET &gt; ]]></cntfax>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer><![CDATA[http://daac.ornl.gov/]]></computer>
+            <accinstr><![CDATA[PUBLIC]]></accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc><![CDATA[Brown, S. L., and P. E. Schroeder.  2003.  NPP Multi-Biome: Production and Mortality for Eastern U.S. Forests, 1962-1996.  Data set. Available on-line [http://www.daac.ornl.gov] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/655]]></resdesc>
+  </distinfo>
+  <metainfo>
+    <metd><![CDATA[20030306]]></metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper><![CDATA[ORNL DAAC Staff]]></cntper>
+        </cntperp>
+        <cntvoice><![CDATA[+1(865)241-3952]]></cntvoice>
+        <cntemail><![CDATA[ornldaac@ornl.gov]]></cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn><![CDATA[FGDC Content Standard for Digital Geospatial Metadata]]></metstdn>
+  </metainfo>
+  <Local-Control-Number><![CDATA[Created 2009 11 15 21 30 27 1252338627 by 160.91.11.44]]></Local-Control-Number>
+
+  <mercury>
+    <begdate>19620101</begdate>
+    <enddate>19961231</enddate>
+    
+    <Site_Information>
+      <Site><![CDATA[UNITED STATES]]></Site>
+      <Westernmost_Longitude><![CDATA[-100]]></Westernmost_Longitude>
+      <Easternmost_Longitude><![CDATA[-60]]></Easternmost_Longitude>
+      <Northernmost_Latitude><![CDATA[50]]></Northernmost_Latitude>
+      <Southernmost_Latitude><![CDATA[25]]></Southernmost_Latitude>
+    </Site_Information>
+    
+
+    
+    <Keywords><![CDATA[BIOMASS]]></Keywords>
+    
+    <Keywords><![CDATA[MORTALITY]]></Keywords>
+    
+    <Keywords><![CDATA[CARBON BUDGET]]></Keywords>
+    
+    <Keywords><![CDATA[UNITED STATES]]></Keywords>
+    
+    <Keywords><![CDATA[FOREST INVENTORY]]></Keywords>
+    
+    <Keywords><![CDATA[HARDWOOD FORESTS]]></Keywords>
+    
+    <Keywords><![CDATA[SPRUCE &amp; FIR FORESTS]]></Keywords>
+    
+    <Keywords><![CDATA[BIOMASS EXPANSION FACTORS]]></Keywords>
+    
+    <Keywords><![CDATA[ABOVEGROUND NET PRIMARY PRODUCTION]]></Keywords>
+    
+    
+    
+    <Parameter_Description>
+      <Parameter><![CDATA[BIOMASS ]]></Parameter>
+      <Sensor><![CDATA[ANALYSIS ]]></Sensor>
+      <Source><![CDATA[VEGETATION SURVEY ]]></Source>
+      <Term><![CDATA[VEGETATION ]]></Term>
+      <Topic><![CDATA[BIOSPHERE ]]></Topic>
+    </Parameter_Description>
+    
+    
+    
+    <Project><![CDATA[NET PRIMARY PRODUCTIVITY (NPP)]]></Project>
+    
+    
+    
+    <Navpath><![CDATA[VEGETATION SURVEY|ANALYSIS|BIOMASS]]></Navpath>
+    
+    
+    
+    <Principal_Investigator>
+      <Name><![CDATA[BROWN, S.L.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    <Principal_Investigator>
+      <Name><![CDATA[SCHROEDER, P.E.]]></Name>
+      <Email></Email>
+    </Principal_Investigator>
+    
+    
+    
+    <Data_Set_Link>
+      <URL><![CDATA[http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=655]]></URL>
+      <Label><![CDATA[NPP MULTI-BIOME: PRODUCTION AND MORTALITY FOR EASTERN U.S. FORESTS, 1962-1996]]></Label>
+      <Link_Note></Link_Note>
+    </Data_Set_Link>
+    
+  
+    
+    <Documentation_Link>
+      <URL><![CDATA[http://daac.ornl.gov//NPP/guides/brown_production.html]]></URL>
+      <Label><![CDATA[NPP MULTI-BIOME: PRODUCTION AND MORTALITY FOR EASTERN U.S. FORESTS, 1962-1996]]></Label>
+      <Text></Text>
+    </Documentation_Link>
+    
+
+    
+
+        
+
+    <OME_Software_Version><![CDATA[/home/web/mercury/write_mercury_xml.pl]]></OME_Software_Version>
+    <OME_DTD_Version><![CDATA[mercury21.dtd]]></OME_DTD_Version>
+
+    
+    <Contact_Person>
+      <Email><![CDATA[ornldaac@ornl.gov]]></Email>
+      <Name><![CDATA[ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665]]></Name>
+      <Phone><![CDATA[+1(865)241-3952]]></Phone>
+    </Contact_Person>
+    
+    
+    <Temporal_Resolution></Temporal_Resolution>
+    <enddate_blank></enddate_blank>
+    <File_ID><![CDATA[655]]></File_ID>
+    <MD_Entry_id><![CDATA[npp_woody_production]]></MD_Entry_id>
+    
+
+    <Spatial_Extent>1000</Spatial_Extent>
+
+    
+    <Search_Text_Link>
+      <URL><![CDATA[http://daac.ornl.gov//NPP/guides/brown_production.html]]></URL>
+      <Label><![CDATA[NPP MULTI-BIOME: PRODUCTION AND MORTALITY FOR EASTERN U.S. FORESTS, 1962-1996]]></Label>
+    </Search_Text_Link>
+    
+
+    
+    
+    <Granule_Details>
+    
+    </Granule_Details>
+    <OGC_URL></OGC_URL>
+
+
+  </mercury>
+
+</metadata>

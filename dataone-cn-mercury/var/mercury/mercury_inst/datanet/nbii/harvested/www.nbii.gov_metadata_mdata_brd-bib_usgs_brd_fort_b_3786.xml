@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_3786.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Friedman, J.M., W.R. Osterkamp, M.L. Scott, and G.T. Auble</origin>
+<pubdate>1998</pubdate>
+<title>Downstream effects of dams on channel geometry and bottomland vegetation: regional patterns in the Great Plains</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>Wetlands (ISSN 0277-5212)</sername>
+<issue>18(4):619-6</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>The Society of Wetland Scientists</publish>
+</pubinfo>
+<othercit>Vol. 18(4) pages 619-6</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Friedman, J.M., W.R. Osterkamp, M.L. Scott, and G.T. Auble. 1998. Downstream effects of dams on channel geometry and bottomland vegetation: regional patterns in the Great Plains. Wetlands 18(4): 619-6.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>1998</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>dam</themekey>
+<themekey>forest</themekey>
+<themekey>Great Plains</themekey>
+<themekey>riparian</themekey>
+<themekey>sediment</themekey>
+</theme>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>cottonwood</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Magnoliophyta</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Magnoliopsida</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Salicales</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Salicaceae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Populus</taxonrv>
+<common>Cottonwood</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Friedman, J.M.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Katz, G.L., J.M. Friedman, and S.W. Beatty</origin>
+<pubdate>2005</pubdate>
+<title>Delayed effects of flood control on a flood-dependent riparian forest</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Ecological Applications (ISSN 1051-0761)</sername>
+<issue>15(3):1019-1035</issue>
+</serinfo>
+<othercit>Vol. 15(3) pages 1019-1035</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Friedman, J.M., and G.T. Auble</origin>
+<pubdate>1999</pubdate>
+<title>Mortality of riparian box elder from sediment mobilization and extended inundation</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Regulated Rivers: Research &amp; Management (ISSN 0886-9375)</sername>
+<issue>15:463-4</issue>
+</serinfo>
+<othercit>Vol. 15 pages 463-4</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Friedman, J.M., M.L. Scott, G.T. Auble, and L.S. Ischinger</origin>
+<pubdate>1995</pubdate>
+<title>Plains cottonwood regenerates from natural seedfall on disturbed, irrigated sites</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>National Biological Service</publish>
+</pubinfo>
+<othercit>3 pp.</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Friedman, J.M.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Downstream effects of dams on channel geometry and bottomland vegetation: regional patterns in the Great Plains.  FORT Library Archive Number: 1998/0085 MESC</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19980101</begdate><enddate>19981231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_3786.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

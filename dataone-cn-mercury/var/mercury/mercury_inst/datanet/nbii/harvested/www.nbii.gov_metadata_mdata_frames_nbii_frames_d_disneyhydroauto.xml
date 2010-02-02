@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/frames/nbii_frames_d_disneyhydroauto.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Disney Wilderness Preserve (DWP) Research Coordinator</origin>
+<pubdate>20050625</pubdate>
+<title>Automated hydrologic monitoring data for Disney Wilderness Preserve, Florida</title>
+<geoform>maps data</geoform>
+<othercit>FRAMES resource id = {1BC998D2-2C3B-4A1E-964B-05109AE44810}</othercit>
+<lworkcit>
+<citeinfo>
+<origin>David Brownlie</origin>
+<pubdate>2001</pubdate>
+<title>Consequences and Correlates of Fire in Wetlands -- JFSP 01-1-3-09 {43FDCF46-8CA2-4FF6-8561-1DF571136A95}</title>
+<geoform>unknown</geoform>
+<othercit>FRAMES resource id = {43FDCF46-8CA2-4FF6-8561-1DF571136A95}</othercit>
+<onlink>http://jfsp.nifc.gov/JFSP_Project_Info.htm</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Daily water level data collected from a subset of 43 automated locations on the Preserve, most within wetland systems.</abstract>
+<purpose>To measure hydrologic regimes of restored wetland systems.</purpose>
+<supplinf>The Disney Wilderness Preserve (DWP) in Osceola and Polk counties, Florida. Approximate bounding coordinates N: Lat 28.145 Long -81.439; S: Lat 28.029 Long -81.406; E: Lat 28.074 Long -81.373; W: Lat 28.129 Long -81.457</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>Unknown</caldate>
+</sngdate>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Daily</update>
+</status>
+<spdom>
+<descgeog>The Disney Wilderness Preserve (DWP) in Osceola and Polk counties, Florida</descgeog>
+<bounding>
+<westbc>-81.457</westbc>
+<eastbc>-81.373</eastbc>
+<northbc>28.145</northbc>
+<southbc>28.029</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>FRAMES Resource ID</themekt>
+<themekey>{1BC998D2-2C3B-4A1E-964B-05109AE44810}</themekey>
+</theme>
+<theme>
+<themekt>FRAMES subject categories</themekt>
+<themekey>restoration &amp; rehabilitation</themekey>
+<themekey>monitoring &amp; inventory</themekey>
+</theme>
+<theme>
+<themekt>GACC region</themekt>
+<themekey>Southern</themekey>
+</theme>
+<theme>
+<themekt>OTHER</themekt>
+<themekey>water table</themekey>
+<themekey>hydroperiod</themekey>
+<themekey>water depth</themekey>
+<themekey>wetlands</themekey>
+<themekey>restoration</themekey>
+<themekey>hydrology</themekey>
+<themekey>Florida</themekey>
+</theme>
+<theme>
+<themekt>Tall Timbers Thesaurus</themekt>
+<themekey>wetlands</themekey>
+<themekey>hydrology</themekey>
+<themekey>streamflow</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Disney Wilderness Preserve</placekey>
+<placekey>Florida</placekey>
+<placekey>Osceola and Polk counties</placekey>
+<placekey>Kissimmee, Florida</placekey>
+</place>
+</keywords>
+<accconst>Requests for data should be directed to the DWP Research Coordinator. Data will be provided in electronic format.</accconst>
+<useconst>Any reports or publications presenting or referring to these datasets must be approved by the DWP Research Coordinator prior to publication. Proper credit must be given to DWP and The Nature Conservancy.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Sandy Woiak</cntper>
+<cntorg>Disney Wilderness Preserve (DWP) Research Coordinator</cntorg>
+</cntperp>
+<cntpos>Disney Wilderness Preserve (DWP) Research Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2700 Scrub Jay Trail</address>
+<city>Kissimmee</city>
+<state>FL</state>
+<postal>34759</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>407.935.0002</cntvoice>
+<cntemail>swoiak@tnc.org</cntemail>
+<cntinst>DWP Research Coordinator. As of 5/19/05, this is Sandy Woiak.</cntinst>
+</cntinfo>
+</ptcontac>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native>
+<crossref>
+<citeinfo>
+<origin>David Brownlie</origin>
+<pubdate>2001</pubdate>
+<title>Consequences and Correlates of Fire in Wetlands -- JFSP 01-1-3-09 {43FDCF46-8CA2-4FF6-8561-1DF571136A95}</title>
+<geoform>unknown</geoform>
+<othercit>FRAMES resource id = {43FDCF46-8CA2-4FF6-8561-1DF571136A95}</othercit>
+<onlink>http://jfsp.nifc.gov/JFSP_Project_Info.htm</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<logic>unknown</logic>
+<complete>Hourly data from proximal locations are graphed and compared to check that they follow the same general trend. Outliers ("spikes" up or down) are identified and eliminated. Monthly manual readings taken at the same location are compared against the hourly readings to identify drift from calibration. Recorders consistently drifting &gt; 0.1' are replaced as soon as practical. Data from these drifting recorders are either eliminated or adjusted - adjustment occurs only if a consistent trend of drift can be identified.</complete>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methdesc>unknown</methdesc>
+</method>
+<procstep>
+<procdesc>unknown</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>automated well locations</indspref>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Daily water level data on The Nature Conservancy's Disney Wilderness Preserve</enttypl>
+<enttypd>Daily water level data collected from a subset of 43 automated locations on the Preserve, most within wetland systems.</enttypd>
+<enttypds>The Nature Conservancy, Disney Wilderness Preserve, Florida</enttypds>
+</enttyp>
+<attr>
+<attrlabl>Date</attrlabl>
+<attrdef>Date of measurement</attrdef>
+<attrdefs>The Nature Conservancy, Disney Wilderness Preserve</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>InsNGVD</attrlabl>
+<attrdef>Water level inside of well pipe set to feet-NGVD.  8888 means no data. 9999 means well was dry inside.</attrdef>
+<attrdefs>The Nature Conservancy, Disney Wilderness Preserve</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Time</attrlabl>
+<attrdef>Time of Measurement</attrdef>
+<attrdefs>The Nature Conservancy, Disney Wilderness Preserve</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>WellID</attrlabl>
+<attrdef>A unique number for each well comprised of: Hydrologic Unit, Transect Number, Well Number (meter distance along transect)</attrdef>
+<attrdefs>The Nature Conservancy, Disney Wilderness Preserve</attrdefs>
+<attrdomv>
+<udom>unknown</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Sandy Woiak</cntper>
+<cntorg>The Nature Conservancy</cntorg>
+</cntperp>
+<cntpos>Disney Wilderness Preserve (DWP) Research Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2700 Scrub Jay Trail</address>
+<city>Kissimmee</city>
+<state>FL</state>
+<postal>34759</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>407.935.0002</cntvoice>
+<cntemail>swoiak@tnc.org</cntemail>
+<cntinst>direct inquiries to the DWP Research Coordinator. As of 05/19/2005, this is Sandy Woiak.</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>Requests for data should be directed to the DWP Research Coordinator. Data will be provided in electronic format.</resdesc>
+<distliab>No warranty expressed or implied is made regarding the accuracy or utility of the data for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from the originator(s) of the data, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The distributor(s) shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20050627</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>The Nature Conservancy</cntorg>
+<cntper>Christopher C. Szell</cntper>
+</cntorgp>
+<cntpos>Assistant Fire Ecologist, Southern U.S.</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>6114 Fayetteville Rd., Suite 109</address>
+<city>Durham</city>
+<state>NC</state>
+<postal>27713</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>919.484.7857 ext. 142</cntvoice>
+<cntfax>919.484.7357</cntfax>
+<cntemail>cszell@tnc.org</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+<mercury><begdate>Unknown</begdate><enddate>Unknown</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/frames/www.nbii.gov_metadata_mdata_frames_nbii_frames_d_disneyhydroauto.html</htmlurl><LTER-Site>frames</LTER-Site></mercury></metadata>

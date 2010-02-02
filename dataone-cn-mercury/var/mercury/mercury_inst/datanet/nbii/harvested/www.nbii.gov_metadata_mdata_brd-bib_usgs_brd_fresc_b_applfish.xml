@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_applfish.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Larson, G.L., Hoffman, R.L., Moore, S.E.</origin>
+<pubdate>2002</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Observations of the distribution of five fish species in a small Appalachian stream</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Transactions of the American Fisheries Society</sername>
+<issue>v. 131 (4)</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Bethesda, Maryland</pubplace>
+<publish>American Fisheries Society</publish>
+</pubinfo>
+<othercit>Publication Control # 1111</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+The notion has been growing that resident
+stream fishes exhibit a greater capacity for movement
+than was previously thought. In this study, we recorded
+the distributions of four resident fish species (longnose
+dace Rhinichthys cataractae, blacknose dace R. atratulus,
+mottled sculpin Cottus bairdi, and rainbow trout Oncorhynchus
+mykiss) and one nonresident species (central
+stoneroller Campostoma anomalum) in Rock Creek, a
+small tributary of Cosby Creek in Great Smoky Mountains
+National Park, over the period 1979•1995. During
+this study, 1,998 individuals of resident species were
+collected from stream sections considered to be within
+a common area of distribution for each species. Forty-
+five individuals of resident and nonresident species were
+captured upstream of these areas, and eight of these fish
+were considered to be larger than individuals considered
+typical for each species. Small mammal dispersal theory
+concepts were used to classify and describe fish movements
+outside of common areas of distribution. These
+movements were identified as important in maintaining
+population connectivity within stream drainages, contributing
+to reducing the potential for local extinctions
+of populations and to the recolonization of unoccupied
+habitats. This study highlights the need for continued
+study of fish movements in stream drainages and for
+development of appropriate resource management strategies
+based partly on the spatial dynamics of fish populations
+and communities.
+</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>6 pp., Illustration Matter: tables</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Rock Creek, Great Smoky Mountains National Park</descgeog>
+<bounding>
+<westbc>-83</westbc>
+<eastbc>-83.125</eastbc>
+<northbc>35.875</northbc>
+<southbc>35.75</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Biocomplexity Thesaurus</themekt>
+<themekey>fishes</themekey>
+<themekey>freshwater fishes</themekey>
+<themekey>freshwater environments</themekey>
+<themekey>water courses</themekey>
+<themekey>downstream</themekey>
+<themekey>freshwater ecosystems</themekey>
+<themekey>freshwater ecology</themekey>
+<themekey>freshwater organisms</themekey>
+<themekey>biogeography</themekey>
+<themekey>distribution</themekey>
+<themekey>home range</themekey>
+<themekey>population distribution</themekey>
+<themekey>dispersion</themekey>
+<themekey>watersheds</themekey>
+<themekey>relative abundance</themekey>
+<themekey>population number</themekey>
+<themekey>abundance</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>TN</placekey>
+<placekey>Tennessee</placekey>
+<placekey>Great Smoky National Park</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>Biocomplexity Thesaurus</taxonkt>
+<taxonkey>fishes</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<common>Animal</common>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<common>chordates</common>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Actinopterygii</taxonrv>
+<common>ray-finned fishes</common>
+<common>spiny rayed fishes</common>
+<taxoncl>
+<taxonrn>Sub Class</taxonrn>
+<taxonrv>Neopterygii</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Cypriniformes</taxonrv>
+<common>cyprins</common>
+<common>meuniers, minnows</common>
+<common>suckers</common>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Cyprinidae</taxonrv>
+<common>carpes</common>
+<common>carps</common>
+<common>minnows</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Rhinichthys</taxonrv>
+<common>riffle daces</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Rhinichthys atratulus</taxonrv>
+<common>blacknose dace</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Rhinichthys cataractae</taxonrv>
+<common>longnose dace</common>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Campostoma</taxonrv>
+<common>stonerollers</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Campostoma anomalum</taxonrv>
+<common>central stoneroller</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Scorpaeniformes</taxonrv>
+<common>chabots</common>
+<common>scorpion fishes</common>
+<common>sculpins</common>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Cottidae</taxonrv>
+<common>bullheads</common>
+<common>sculpins</common>
+<common>scaleless sculpins</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Cottus</taxonrv>
+<common>freshwater sculpins</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Cottus bairdii</taxonrv>
+<common>mottled sculpin</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Salmoniformes</taxonrv>
+<common>salmons</common>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Salmonidae</taxonrv>
+<common>salmons</common>
+<common>trouts</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Oncorhynchus</taxonrv>
+<common>Pacific salmon</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Oncorhynchus mykiss</taxonrv>
+<common>rainbow trout</common>
+<common>redband trout</common>
+<common>steelhead</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #1111</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20040628</metd>
+<metrd>20040712</metrd>
+<metfrd>20050812</metfrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_library@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_applfish.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

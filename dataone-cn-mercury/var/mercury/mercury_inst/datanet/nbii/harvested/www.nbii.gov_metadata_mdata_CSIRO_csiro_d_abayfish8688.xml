@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CSIRO/csiro_d_abayfish8688.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Stephen Blaber, David Brewer, John Salini, J. Kerr</origin>
+<pubdate>Unknown</pubdate>
+<title>Albatross Bay Fish Data 1986-1988</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Australia</pubplace>
+<publish>CSIRO Division of Marine Research</publish>
+</pubinfo>
+</citeinfo>
+</citation>
+<descript>
+<abstract>7, four- to five-day cruises were undertaken using the vessel "Jacqueline D" in Albatross Bay, Gulf of Carpentaria between August 1986 and November 1988, using a random stratified trawl survey to measure fish species composition and abundance. Four depth zones between 7 and 45 m were sampled during both day and night. Approximately 890,000 fish of 237 species were collected, of which the bulk were made up of 25 species. The dominant families were Leignathidae, Haemulidae and Clupeidae, with Sciaenidae and Dasyatidae important at night. Leiognathus bindus was the most abundant species, while Caranx bucculentus was the most frequently caught (96% of all trawls). The suite of fishes was separately analysed for occurrence of prawn predators.  This metadata record is sourced from 'MarLIN', the CSIRO Marine Laboratories Information Network.</abstract>
+<purpose>The purpose of the dataset is to provide information about Albatross Bay Fish data including fish species composition and abundance.</purpose>
+<supplinf>Information was obtained from http://www.marine.csiro.au/marine/mcdd/data/CSIRODMR/CSIRODMR_datasets.html. The originating project was the Tropical Fish Ecology Project: Gulf of Carpenteria studies.  The Tropical Fish Ecology project over this time period carried out work on fish as peneid prawn predators in  Albatross Bay and the Embley Estuary, and as tiger prawn predators at Groote Eylandt; fish surveys of the Gulf of Carpentaria; and the biology of tuna baitfish in the Solomon Islands, Kiribati, and the Maldives (work commissioned by ACIAR).</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19860811</begdate>
+<enddate>19881115</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<descgeog>Albatross Bay, Gulf of Carpentaria, Australia</descgeog>
+<bounding>
+<westbc>141.5</westbc>
+<eastbc>142</eastbc>
+<northbc>-13</northbc>
+<southbc>-12.5</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>fish species composition</themekey>
+<themekey>fish species abundance</themekey>
+<themekey>marine and freshwater fishes</themekey>
+<themekey>geographical distribution</themekey>
+<themekey>nutrition and feeding habits</themekey>
+<themekey>aquatic species interactions</themekey>
+<themekey>fishable stocks</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Australia</placekey>
+<placekey>Gulf of Carpentaria</placekey>
+<placekey>Albatross Bay</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>Leignathidae</taxonkey>
+<taxonkey>Haemulidae</taxonkey>
+<taxonkey>Clupeidae</taxonkey>
+<taxonkey>Sciaenidae</taxonkey>
+<taxonkey>Dasyatidae</taxonkey>
+<taxonkey>fish</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>Agencies listed below</origin>
+<pubdate>2002</pubdate>
+<title>Integrated Taxonomic Information System</title>
+<geoform>Database</geoform>
+<pubinfo>
+<pubplace>Washington, D.C.</pubplace>
+<publish>U.S. Department of Agriculture</publish>
+</pubinfo>
+<othercit>Department of Commerce, National Oceanic and Atmospheric Administration (NOAA),  Department of Interior (DOI), Geological Survey (USGS), Environmental Protection Agency (EPA), Department of Agriculture (USDA), Agriculture Research Service (ARS) Natural Resources Conservation Service (NRCS) Smithsonian Institution National Museum of Natural History (NMNH).</othercit>
+<onlink>http://www.itis.usda.gov/</onlink>
+</citeinfo>
+</classcit>
+</classsys>
+</taxonsys>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<common>animals</common>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<common>chordates</common>
+<taxoncl>
+<taxonrn>Subphylum</taxonrn>
+<taxonrv>Vertebrata</taxonrv>
+<common>vertebrates</common>
+<taxoncl>
+<taxonrn>Superclass</taxonrn>
+<taxonrv>Osteichthyes</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Actinopterygii</taxonrv>
+<common>ray-finned fishes</common>
+<common>spiny rayed fishes</common>
+<taxoncl>
+<taxonrn>Subclass</taxonrn>
+<taxonrv>Neopterygii</taxonrv>
+<taxoncl>
+<taxonrn>Infraclass</taxonrn>
+<taxonrv>Teleostei</taxonrv>
+<taxoncl>
+<taxonrn>Superorder</taxonrn>
+<taxonrv>Acanthopterygii</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Perciformes</taxonrv>
+<common>perch-like fishes</common>
+<taxoncl>
+<taxonrn>Suborder</taxonrn>
+<taxonrv>Percoidei</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Haemulidae</taxonrv>
+<common>grunts</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Pomadasys</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Pomadasys kaakan</taxonrv>
+<common>grunter bream</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Pomadasys maculatus</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Pomadasys maculatus</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Pomadasys trifasciatus</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Sciaenidae</taxonrv>
+<common>coakers</common>
+<common>croakers</common>
+<common>drums</common>
+<common>roncadores</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Leiognathidae</taxonrv>
+<common>ponyfishes</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Leiognathus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Leiognathus bindus</taxonrv>
+<common>orangefinned ponyfish</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Leiognathus equulus</taxonrv>
+<common>greater ponyfish</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Leiognathus leuciscus</taxonrv>
+<common>ponyfish</common>
+<common>slipmouth</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Leiognathus splendens</taxonrv>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Secutor</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Secutor insidiator</taxonrv>
+<common>slenderbarred ponyfish</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Carangidae</taxonrv>
+<common>jacks</common>
+<common>pompanos</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Caranx</taxonrv>
+<common>bigeye jacks</common>
+<common>cavallas</common>
+<common>crevallies</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Caranx bucculentus</taxonrv>
+<common>bluespotted trevally</common>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Pantolabus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Pantolabus radiatus</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Gerreidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Gerres</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Gerres filamentosus</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Teraponidae</taxonrv>
+<common>tiger-fish</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Pelates</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Pelates quadrilineatus</taxonrv>
+<common>Pelates quadrilineatus</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Mullidae</taxonrv>
+<common>goatfishes</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Upeneus sulphureus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Upeneus sulphureus</taxonrv>
+<common>sunrise goatfish</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Superorder</taxonrn>
+<taxonrv>Clupeomorpha</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Clupeiformes</taxonrv>
+<common>anchovies</common>
+<common>herrings</common>
+<taxoncl>
+<taxonrn>Suborder</taxonrn>
+<taxonrv>Clupeoidei</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Clupeidae</taxonrv>
+<common>herrings</common>
+<common>menhadens</common>
+<common>pilchards</common>
+<common>sardines</common>
+<common>shads</common>
+<common>sprats</common>
+<taxoncl>
+<taxonrn>Subfamily</taxonrn>
+<taxonrv>Dorosomatinae</taxonrv>
+<common>gizzard shads</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Anodontostoma</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Anodontostoma chacunda</taxonrv>
+<common>Chacunda gizzard shad</common>
+<common>shortnose gizzard shad</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Pristigasteridae</taxonrv>
+<common>sawbelly herrings</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Pelloninae</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Pellona ditchela</taxonrv>
+<common>Indian pellona</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Chondrichthyes</taxonrv>
+<common>cartilaginous fishes</common>
+<common>rays</common>
+<common>sharks</common>
+<taxoncl>
+<taxonrn>Subclass</taxonrn>
+<taxonrv>Elasmobranchii</taxonrv>
+<taxoncl>
+<taxonrn>Superorder</taxonrn>
+<taxonrv>Euselachii</taxonrv>
+<taxoncl>
+<taxonrn>Superfamily</taxonrn>
+<taxonrv>Dasyatoidea</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Dasyatidae</taxonrv>
+<common>stingrays</common>
+<common>whiprays</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>Release with the permission of the custodian.</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>John Salini</cntper>
+<cntorg>CSIRO Division of Marine Research</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>P.O. Box 120</address>
+<city>Cleveland</city>
+<state>Queensland</state>
+<postal>4163</postal>
+<country>Australia</country>
+</cntaddr>
+<cntvoice>61 7 3826 7244</cntvoice>
+<cntfax>61 7 3826 7222</cntfax>
+<cntemail>john.salini@csiro.au</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>FRDC funding in part- grant 1985/85.</datacred>
+<crossref>
+<citeinfo>
+<origin>CSIRO Marine Research (formerly CSIRO Division of Fisheries/Fisheries Research</origin>
+<pubdate>1993</pubdate>
+<title>Albatross Bay Adult Prawn Data 1986-1992</title>
+<geoform>unknown</geoform>
+<pubinfo>
+<pubplace>Australia</pubplace>
+<publish>CSIRO Division of Marine Research</publish>
+</pubinfo>
+<onlink>http://www.marine.csiro.au/marine/mcdd/data/CSIRODMR/Albatross_Bay_Adult_Prawn_Data_1986_1992.HTML</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>CSIRO Division of Marine Research</origin>
+<pubdate>Unknown</pubdate>
+<title>Albatross Bay Chlorophyll Data 1986-1992</title>
+<geoform>unknown</geoform>
+<pubinfo>
+<pubplace>Australia</pubplace>
+<publish>CSIRO Division of Marine Research</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Blaber, S. J. M., Brewer D. T., Salini, J. P. and Kerr, J. D.</origin>
+<pubdate>1990</pubdate>
+<title>Biomasses, catch rates and abundances of demersal fishes, particularly predators of prawns, in a tropical bay in the Gulf of Carpentaria, Australia.</title>
+<geoform>unknown</geoform>
+<serinfo>
+<sername>Marine Biology</sername>
+<issue>107: 397-408</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Australia</pubplace>
+<publish>CSIRO</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Blaber, S.J.M., Salini, J.P. And Brewer, D.T.</origin>
+<pubdate>1990</pubdate>
+<title>A checklist of the fishes of Albatross Bay and the Embley Estuary, North-eastern Gulf of Carpenteria</title>
+<geoform>report</geoform>
+<serinfo>
+<sername>CSIRO Australia</sername>
+<issue>(210): 22 pages</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Australia</pubplace>
+<publish>CSIRO Australia</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Stever Blaber, CSIRO Division of Marine Research</origin>
+<pubdate>Unknown</pubdate>
+<title>Albatross Bay Nearshore Fish Study 1991-1992</title>
+<geoform>unknown</geoform>
+<pubinfo>
+<pubplace>Australia</pubplace>
+<publish>CSIRO Division of Marine Research</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>CSIRO Division of Marine Research</origin>
+<pubdate>Unknown</pubdate>
+<title>Albatross Bay Nutrient Data 1992</title>
+<geoform>unknown</geoform>
+<pubinfo>
+<pubplace>Australia</pubplace>
+<publish>CSIRO Division of Marine Research</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Chris Jackson, CSIRO Division of Marine Research</origin>
+<pubdate>Unknown</pubdate>
+<title>Albatross Bay Phytoplankton Data 1986-1992</title>
+<geoform>unknown</geoform>
+<pubinfo>
+<pubplace>Queensland, Australia</pubplace>
+<publish>CSIRO Division of Marine Research</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>CSIRO Division of Marine Research</origin>
+<pubdate>Unknown</pubdate>
+<title>Albatross Bay Prawn Larval Data</title>
+<geoform>unknown</geoform>
+<pubinfo>
+<pubplace>Queensland, Australia</pubplace>
+<publish>CSIRO Division of Marine Research</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>CSIRO Division of Marine Research</origin>
+<pubdate>Unknown</pubdate>
+<title>Albatross Bay Primary Productivity</title>
+<geoform>unknown</geoform>
+<pubinfo>
+<pubplace>Queensland, Australia</pubplace>
+<publish>CSIRO Division of Marine Research</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<logic>Refer to CSIRO Division of Marine Research for details of logical checks carried out on the data.</logic>
+<complete>Dataset is complete. Trawl data from 133 stations are contained in this dataset (approximately 10,900 catch records by species)</complete>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methdesc>unknown</methdesc>
+</method>
+<procstep>
+<procdesc>Data calculation and post-processing/statistical analyses: refer to Blaber et al, 1990 a and b.</procdesc>
+<procdate>Unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Point</direct>
+</spdoinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Tony Rees</cntper>
+<cntorg>CSIRO Division of Marine Research-Hobart</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<city>Hobart</city>
+<country>Australia</country>
+</cntaddr>
+<cntvoice>unknown</cntvoice>
+<cntfax>unknown</cntfax>
+<cntemail>Tony.Rees@csiro.au</cntemail>
+</cntinfo>
+</distrib>
+<distliab>
+You accept all risks and responsibility for losses, damages, costs and other
+consequences resulting directly or indirectly from using this site and andinformation or material available from it. To the maximum permitted by law, CSIRO excludes all liability to any person arising directly or indirectly from using this site and any information or material available from it.
+</distliab>
+<custom>Please contact the distributor.</custom>
+</distinfo>
+<metainfo>
+<metd>20010628</metd>
+<metrd>20020930</metrd>
+<metfrd>20030930</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19860811</begdate><enddate>19881115</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CSIRO_csiro_d_abayfish8688.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

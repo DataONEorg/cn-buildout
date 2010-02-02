@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_shrimpzone.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Florida Fish and Wildlife Conservation Commission (FWC), Fish and Wildlife Research Institute (FWRI), Center for Spatial Analysis</origin>
+<pubdate>Unknown</pubdate>
+<title>Citrus and Hernando County Shrimp Zones</title>
+<geoform>maps data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This GIS data set represents the Citrus and Hernando county shrimp closure area boundaries.</abstract>
+<purpose>This data set visually represents Citrus and Hernando county shrimp closure areas. FWRI created these data at the request of the FWC Division of Marine Fisheries.</purpose>
+<supplinf>
+Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The institute name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The institute name has been changed in references to ongoing research, new research, and contact information.
+Florida Administrative Code (FAC) chapter 68B-38.001 describes the regulation of these zones as follows:
+(3) No person shall operate any trawl in the following zones during the time periods indicated:
+(a) ZONES I and III - Beginning on October 5 of each year and continuing through May 20 of the following year.
+(b) ZONE IV - Beginning on December 2 of each year and continuing through April 1 of the following year.
+(c) ZONE V - Beginning on December 1 of each year and continuing through March 15 of the following year.
+(4) No person shall fish with, set, or place any trap in the following zones during the time periods indicated:
+(a) ZONE II - Beginning on October 5 of each year and continuing through May 20 of the following year.
+(b) ZONE IV - Beginning on October 5 of each year and continuing through December 1 of the same year and beginning on April 2 of each year and continuing through May 20 of the same year.
+(c) ZONE V - Beginning on October 5 of each year and continuing through November 30 of the same year and beginning on March 16 of each year and continuing through May 20 of the same year.
+(5) This rule shall not be construed as allowing shrimping or trapping in areas or during times as may be otherwise prohibited by law or rule.
+(6) "Trawl" means a net in the form of an elongated bag with the mouth kept open by various means and fished by being towed or dragged on the bottom.
+(7) "Trapping" means deployment of any device for harvesting crabs, fish, or other animals, which device captures by entrapping such animals within its walls, including, but not limited to any trap authorized in Rules 68B-13.008, 68-14.005, 68B-24.006, or 68B-45.004, or in Section 370.1105, Florida Statutes.
+See the FAC for the official bounding coordinates of these zones.
+(previous geoform was 'vector digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>Unknown</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-83.007895</westbc>
+<eastbc>-82.748233</eastbc>
+<northbc>28.992913</northbc>
+<southbc>28.431659</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>FWRItheme</themekt>
+<themekey>shrimp</themekey>
+<themekey>GIS</themekey>
+<themekey>mapping</themekey>
+<themekey>managed areas</themekey>
+<themekey>boundaries</themekey>
+<themekey>bounds</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>boundaries</themekey>
+</theme>
+<place>
+<placekt>FWRIplace</placekt>
+<placekey>Florida</placekey>
+<placekey>Chassahowitzka National Wildlife Refuge</placekey>
+<placekey>Gulf of Mexico</placekey>
+<placekey>west coast of Florida</placekey>
+</place>
+<place>
+<placekt>Florida Counties</placekt>
+<placekey>Citrus</placekey>
+<placekey>Hernando</placekey>
+</place>
+<place>
+<placekt>Florida Waterbodies</placekt>
+<placekey>Gulf of Mexico</placekey>
+</place>
+</keywords>
+<accconst>All data must be verified by Principal Investigator or Group Database Analyst prior to release.  It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the data's suitability for other purposes.</accconst>
+<useconst>FWC-FWRI must be credited.  This data set is for visual reference only.  Refer to the FAC for official coordinates. This is not a survey data set and should not be utilized as such. These data are not to be used for navigation. Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data.  Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.  This is not a survey data set and should not be utilized as such. These data are not to be used for navigation.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+<cntper>Chris Anderson</cntper>
+</cntorgp>
+<cntpos>Marine Research Associate</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</ptcontac>
+<secinfo>
+<secsys>FWRI-DC</secsys>
+<secclass>Available without restriction.</secclass>
+<sechandl>Available without restriction.</sechandl>
+</secinfo>
+<native>Microsoft Windows NT Version 4.0 (Build 1381) Service Pack 6; ESRI ArcCatalog 8.1.1.649</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>All entities and attributes have been identified.  Attributes are accurate as of the GIS creation date.</attraccr>
+</attracc>
+<logic>unknown</logic>
+<complete>unknown</complete>
+<posacc>
+<horizpa>
+<horizpar>These data are provided in FWRI's custom Albers projection to display with the rest of FWRI's data.  The Florida Administrative Code defines the boundaries of the closure areas in latitude and longitude.  If there is any discrepancy between this data set and the coordinates given in the FAC, the FAC shall be considered the authoritative source.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Florida Department of State</origin>
+<pubdate>Unknown</pubdate>
+<title>Florida Administrative Code section 68B-38</title>
+<onlink>http://fac.dos.state.fl.us/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>CD-ROM</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1999</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Florida Administrative Code</srccitea>
+<srccontr>unknown</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>William Teehan, FWC Division of Marine Fisheries, provided bounding coordinate locations in latitude and longitude.  FWRI GENERATEd a polygon coverage in ArcInfo based on the information provided by Division of Marine Fisheries.</procdesc>
+<procdate>2001</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+<cntper>Chris Anderson</cntper>
+</cntorgp>
+<cntpos>Marine Research Associate</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>FWRI projected the data into FWRI Albers projected and loaded into ArcSDE geodatabase.</procdesc>
+<procdate>2001</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>FWRI added the DESCRIPTION attribute to indicate restrictions for each zone as described in the FAC.</procdesc>
+<srcused>Florida Administrative Code</srcused>
+<procdate>20030606</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>5</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Albers Conical Equal Area</mapprojn>
+<albers>
+<stdparll>24</stdparll>
+<stdparll>31.5</stdparll>
+<longcm>-84</longcm>
+<latprjo>24</latprjo>
+<feast>400000</feast>
+<fnorth>0</fnorth>
+</albers>
+</mapproj>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>0.002095</absres>
+<ordres>0.002095</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>FMRI.shrimpclose_citruscounty_poly</enttypl>
+<enttypd>Attributes include ZONE number and DESCRIPTION of the rules that apply to the zone.</enttypd>
+<enttypds>Producer defined</enttypds>
+</enttyp>
+<attr>
+<attrlabl>DESCRIPTION</attrlabl>
+<attrdef>Description of the regulations for each zone.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Description of the regulations for each zone.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Internal feature number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+<attrdef>Area of polygon (in square meters); automatically calculated by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Area of polygon (in square meters); automatically calculated by SDE</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+<attrdef>Length of polygon perimeter (in meters); automatically calculated by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Length of polygon perimeter (in meters); automatically calculated by SDE</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ZONE</attrlabl>
+<attrdef>Zone number as referenced in the FAC.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Zone number as referenced in the FAC.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</distrib>
+<distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-FWRI produced data set; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://ocean.floridamarine.org/mrgis</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None. However, persons or organizations requesting information must provide transfer media if FTP is not available and must pay express shipping costs if express shipping is required.</fees>
+<ordering>Contact GIS Librarian by e-mail, telephone, or letter explaining which products are needed and providing a brief description of how the products will be used. Also, provide name and address of the person or organization requesting the products.</ordering>
+<turnarnd>Usually within 10 business days, although, complex requests may take longer</turnarnd>
+</stdorder>
+<custom>Contact GIS Librarian</custom>
+</distinfo>
+<metainfo>
+<metd>20020205</metd>
+<metrd>20051129</metrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>No restrictions on metadata.</metac>
+<metuc>Metadata must be distributed with the data set.</metuc>
+<metsi>
+<metscs>FWRI-MC</metscs>
+<metsc>Available</metsc>
+<metshd>Metadata must be distributed with the data set.</metshd>
+</metsi>
+</metainfo>
+<mercury><begdate>Unknown</begdate><enddate>Unknown</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_shrimpzone.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

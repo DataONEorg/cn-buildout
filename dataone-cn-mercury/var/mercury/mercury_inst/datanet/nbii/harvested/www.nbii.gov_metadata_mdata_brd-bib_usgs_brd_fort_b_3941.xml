@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_3941.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R.T</origin>
+<pubdate>1998</pubdate>
+<title>Numerical modeling of flushing flows in gravel-bed rivers (Chapter 25)</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Highlands Ranch, CO</pubplace>
+<publish>Water Resources Publications, LLC</publish>
+</pubinfo>
+<othercit>pages 579-6</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Klingeman, P. C.,  R.L. Beschta,  P.  Komar, and J.  Bradley, ed.</origin>
+<pubdate>1998</pubdate>
+<title>Gravel-bed rivers in the environment</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Highlands Ranch, CO</pubplace>
+<publish>Water Resources Publications, LLC</publish>
+</pubinfo>
+<othercit>pages 579-6</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Milhous, R.T. 1998. Numerical modeling of flushing flows in gravel-bed rivers (Chapter 25). In: Klingeman, P. C.,  R.L. Beschta,  P.  Komar, and J.  Bradley. Gravel-bed rivers in the environment. Highlands Ranch, CO: Water Resources Publications, LLC. p. 579-6.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>1998</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>flushing flows</themekey>
+<themekey>instream flow</themekey>
+<themekey>stream modeling</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Milhous, R.T.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R.T</origin>
+<pubdate>1996</pubdate>
+<title>Modeling of instream flow needs: the link between sediment and aquatic habitat</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Eau. Sainte-Foy, Quebec</pubplace>
+<publish>Institut National de la Recherche Scientifique</publish>
+</pubinfo>
+<othercit>Vol. A pages A319-</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Leclerc, M., H, Capra, S.  Valentin, A. Boudreault, and Y. Cote, ed.</origin>
+<pubdate>1996</pubdate>
+<title>Modeling of instream flow needs: the link between sediment and aquatic habitat</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Eau. Sainte-Foy, Quebec</pubplace>
+<publish>Institut National de la Recherche Scientifique</publish>
+</pubinfo>
+<othercit>Vol. A pages A319-</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R. T</origin>
+<pubdate>1995</pubdate>
+<title>Changes in sediment transport capacity in the lower Gunnison River, Colorado, USA</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>International Association of Hydrological Science</publish>
+</pubinfo>
+<othercit>Vol. 230 pages 275-2</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Petts, G, ed.</origin>
+<pubdate>1995</pubdate>
+<title>Changes in sediment transport capacity in the lower Gunnison River, Colorado, USA</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>International Association of Hydrological Science</publish>
+</pubinfo>
+<othercit>Vol. 230 pages 275-2</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R. T., and R. Dodge</origin>
+<pubdate>1995</pubdate>
+<title>Flushing flows for habitat restoration</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>New York, NY</pubplace>
+<publish>American Society of Civil Engineers</publish>
+</pubinfo>
+<othercit>pages 663-6</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Espey, W. H., Jr., Combs, P. J, ed.</origin>
+<pubdate>1995</pubdate>
+<title>Flushing flows for habitat restoration</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>New York, NY</pubplace>
+<publish>American Society of Civil Engineers</publish>
+</pubinfo>
+<othercit>pages 663-6</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R.T., R. Dodge, and P. Johnson</origin>
+<pubdate>1994</pubdate>
+<title>Bed material and numerical modeling in a gravel/cobble stream</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>New York, NY</pubplace>
+<publish>Hydraulic Engineering '94, Volume 2</publish>
+</pubinfo>
+<othercit>Vol. 2 pages 1055-</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Cotroneo, G. V., Rumer, R. R, ed.</origin>
+<pubdate>1994</pubdate>
+<title>Bed material and numerical modeling in a gravel/cobble stream</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>New York, NY</pubplace>
+<publish>Hydraulic Engineering '94, Volume 2</publish>
+</pubinfo>
+<othercit>Vol. 2 pages 1055-</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Milhous, R.T</origin>
+<pubdate>1994</pubdate>
+<title>Sediment balance and flushing flow analysis: Trinity River case study</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>Colorado State University</publish>
+</pubinfo>
+<othercit>pages 281-2</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Morel-Seytoux, H.J, ed.</origin>
+<pubdate>1994</pubdate>
+<title>Sediment balance and flushing flow analysis: Trinity River case study</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>Colorado State University</publish>
+</pubinfo>
+<othercit>pages 281-2</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Milhous, R.T.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Numerical modeling of flushing flows in gravel-bed rivers (Chapter 25).  FORT Library Archive Number: 1998/0153 MESC</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19980101</begdate><enddate>19981231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_3941.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

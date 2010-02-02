@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_pikas.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Beever, E.A.</origin>
+<pubdate>2002</pubdate>
+<title>Persistence of pikas</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Park Science</sername>
+<issue>21 (2):23-29</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USDI, National Park Service</publish>
+</pubinfo>
+<othercit>Publication Control #1109</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This is an article about pika populations in Craters of the Moon and Lava Beds National Monuments. Their persistence in these areas appears to be a combination of habitat, distance to primary roads, and maximum elevation to which pikas can migrate. Population size also seems to be related to the presence of livestock grazing in some cases. Habitat quality for pikas may be compromised by consistently higher ambient temperatures (climatic change), changed composition of grasslands and significant fragmentation of lava habitats.</abstract>
+<purpose>Report research results</purpose>
+<supplinf>Illustrative Matter: map, photographs</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Craters of the Moon National Monument in Idaho and Lava Beds National Monument in California, United States</descgeog>
+<bounding>
+<westbc>-121.62</westbc>
+<eastbc>-113.43</eastbc>
+<northbc>43.52</northbc>
+<southbc>41.65</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>pikas</themekey>
+<themekey>endangered species</themekey>
+<themekey>island biogeography</themekey>
+<themekey>climate change</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Western United States</placekey>
+<placekey>Great Basin</placekey>
+<placekey>Craters of the Moon National Monument</placekey>
+<placekey>Lava Beds National Monument</placekey>
+<placekey>Idaho</placekey>
+<placekey>California</placekey>
+<placekey>CA</placekey>
+<placekey>ID</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>mammals</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animalia</taxonrv>
+<common>Animal</common>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<common>chordates</common>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Mammalia</taxonrv>
+<common>Mammals</common>
+<taxoncl>
+<taxonrn>Sub Class</taxonrn>
+<taxonrv>Theria</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Lagomorpha</taxonrv>
+<common>lagomorphs</common>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Ochotonidae</taxonrv>
+<common>pikas</common>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Ochotona</taxonrv>
+<common>pika</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Ochotona princeps</taxonrv>
+<common>American pika</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control # 1109</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20040114</metd>
+<metrd>20040319</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_pikas.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

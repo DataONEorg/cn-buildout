@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21037.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Skagen, S.K., R. Hazlewood, and M.L. Scott</origin>
+<pubdate>2005</pubdate>
+<title>The importance and future condition of western riparian ecosystems as migratory bird habitat</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Albany, CA</pubplace>
+<publish>U.S. Forest Service, Pacific Southwest Research Station</publish>
+</pubinfo>
+<othercit>pages 525-527</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21037/21037.asp</onlink>
+<lworkcit>
+<citeinfo>
+<origin>C.J. Ralph and T.D. Rich (eds.), ed.</origin>
+<pubdate>2005</pubdate>
+<title>Bird conservation implementation and integration in the Americas: Proceedings of the Third International Partners in Flight conference, Volume 2, March 20-24, 2002, Asilomar, California. Gen. Tech. Rpt. PSW-GTR-191</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Albany, CA</pubplace>
+<publish>U.S. Forest Service, Pacific Southwest Research Station</publish>
+</pubinfo>
+<othercit>pages 525-527</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Skagen, S.K., R. Hazlewood, and M.L. Scott. 2005. The importance and future condition of western riparian ecosystems as migratory bird habitat. In: C.J. Ralph and T.D. Rich (eds.). Bird conservation implementation and integration in the Americas: Proceedings of the Third International Partners in Flight conference, Volume 2, March 20-24, 2002, Asilomar, California. Gen. Tech. Rpt. PSW-GTR-191. Albany, CA: U.S. Forest Service, Pacific Southwest Research Station. p. 525-527.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2005</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>migration</themekey>
+<themekey>migratory birds</themekey>
+<themekey>habitat</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Skagen, S.K.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Carlisle, J.D., S.K. Skagen, B.E. Kus, C. van Riper III, K.L. Paxton, and J.F. Kelly</origin>
+<pubdate>2009</pubdate>
+<title>Landbird migration in the American West: Recent progress and future research directions</title>
+<geoform>Unknown</geoform>
+<othercit>Vol. 111(2) pages 211-225</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Skagen, S.K., S. Brown, and R. Johnson</origin>
+<pubdate>2005</pubdate>
+<title>Implications of different shorebird migration strategies for habitat conservation</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Albany, CA</pubplace>
+<publish>U.S. Forest Service, Pacific Southwest Research Station</publish>
+</pubinfo>
+<othercit>pages 680-683</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21035/21035.asp</onlink>
+<lworkcit>
+<citeinfo>
+<origin>C.J. Ralph and T.D. Rich (eds.), ed.</origin>
+<pubdate>2005</pubdate>
+<title>Implications of different shorebird migration strategies for habitat conservation</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Albany, CA</pubplace>
+<publish>U.S. Forest Service, Pacific Southwest Research Station</publish>
+</pubinfo>
+<othercit>pages 680-683</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Skagen, S.K., J.F. Kelly, C. Van Riper, III, R.L. Hutto, D.M. Finch, D.J. Krueper, and C.P. Melcher</origin>
+<pubdate>2005</pubdate>
+<title>Geography of spring landbird migration through riparian habitats in southwestern North America</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Condor (ISSN 0010-5422)</sername>
+<issue>107(2):212-227</issue>
+</serinfo>
+<othercit>Vol. 107(2) pages 212-227</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Dinsmore, S.J., S.K. Skagen, and D.L. Helmers</origin>
+<pubdate>1999</pubdate>
+<title>Shorebirds: An overview for the Prairie Pothole Joint Venture</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>[Denver, CO]</pubplace>
+<publish>[Prairie Pothole Joint Venture]</publish>
+</pubinfo>
+<othercit>24 pp.</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Skagen, S.K., C.P. Melcher, W.H. Howe, and F.L. Knopf</origin>
+<pubdate>1998</pubdate>
+<title>Comparative use of riparian corridors and oases by migrating birds in southeast Arizona</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Conservation Biology (ISSN 0888-8892)</sername>
+<issue>12(4):896-9</issue>
+</serinfo>
+<othercit>Vol. 12(4) pages 896-9</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Skagen, S.K.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>The importance and future condition of western riparian ecosystems as migratory bird habitat.  FORT Library Archive Number: 2005/0101 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20050101</begdate><enddate>20051231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21037.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

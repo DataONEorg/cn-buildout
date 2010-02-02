@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_efmoattribacc.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Upper Midwest Environmental Sciences Center, 2630 Fanta Reed Road, La Crosse, Wisconsin 54603</origin>
+<pubdate>20050131</pubdate>
+<title>Accuracy Assessment Site Spatial Database for the Effigy Mounds National Monument Vegetation Mapping Project</title>
+<edition>Final</edition>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Effigy Mounds NM Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>This spatial database was prepared by the U.S. Geological Survey Upper Midwest Environmental Sciences Center for the USGS-NPS Vegetation Mapping Program. NatureServe provided ecological and vegetation classification support.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/efmo/report.pdf#accuracy</onlink>
+<onlink>http://biology.usgs.gov/npsveg/efmo/images/efmoaa.jpg</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/efmo/efmoaa.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/efmo/efmoaasdts.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/efmo/aa_matrix.html</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/efmo/aa_matrix.xls</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The U.S. Geological Survey Upper Midwest Environmental Sciences Center (UMESC) has produced a vegetation spatial database coverage (vegetation map) for the Effigy Mounds National Monument (EFMO) Vegetation Mapping Project, USGS-NPS Vegetation Mapping Program (VMP). The vegetation map shows the locations of National Vegetation Classification System (NVCS) plant communities (associations) at EFMO and immediate surroundings. Thematic accuracy requirements by the VMP specify 80% accuracy for map classes (themes) representing plant communities. During 2002, field classification data from 369 locations were collected at EFMO and nearby public lands for a thematic accuracy assessment (AA) to the vegetation map. The sites were randomly generated, stratified to map class themes representing National Vegetation Classification System (NVCS) natural/semi-natural plant communities using VMP standards. Of the 369 accuracy assessment sites collected, 34 sites representing NVCS Formation level types or open water were dropped to evaluate exclusively those map classes representing NVCS plant communities. Data from 335 sites were used in the final analysis. Regardless of their use in the analysis, all 369 AA sites are represented in the accuracy assessment site spatial database. The spatial database provides the locations of all AA sites along with results from the analysis.</abstract>
+<purpose>The accuracy assessment site spatial database provides spatially referenced locations of field assessment sites, which data were used in the thematic assessment of the vegetation spatial database coverage for the EFMO Vegetation Mapping Project, USGS-NPS VMP (see Cross Reference at the end of this section for more information on the vegetation map, the Project, and the VMP). This metadata report supports not only the Accuracy Assessment Site Spatial Database coverage, but also an overview of AA methods and analysis. For documentation, however, on the analysis methods and discussion of results, including an error contingency matrix, see the EFMO Project Report.</purpose>
+<supplinf>The accuracy assessment site spatial database is a geo-spatial point coverage projected in Universal Transverse Mercator (UTM), Zone 15, using the North American Datum of 1983 (NAD83). AA field data are preserved on hard copy data sheets. The AA data were entered into the same PLOTS database of the project's vegetation plot sampling data. Only select fields from the AA PLOTS database are included in the spatial database. --- The UMESC performed the comparison analysis of the field AA data to the vegetation map. Based on results of this thematic accuracy assessment, the estimated overall accuracy for map classes representing NVCS natural/semi-natural plant communities is 92%, with a kappa index of 90%.  (previous geoform was 'vector digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20050131</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-91.250517</westbc>
+<eastbc>-91.14964</eastbc>
+<northbc>43.120573</northbc>
+<southbc>42.9289</southbc>
+</bounding>
+<descgeog>Effigy Mounds National Monument in northeast Iowa, including the Yellow River and Sny Magill Units, and extended environs.</descgeog>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Accuracy Assessment</themekey>
+<themekey>Digital Spatial Database</themekey>
+<themekey>Field Data</themekey>
+<themekey>GIS</themekey>
+<themekey>GPS</themekey>
+<themekey>International Vegetation Classification</themekey>
+<themekey>National Park</themekey>
+<themekey>National Vegetation Classification System</themekey>
+<themekey>National Vegetation Classification Standard</themekey>
+<themekey>NVCS</themekey>
+<themekey>U.S. National Vegetation Classification</themekey>
+<themekey>USNVC</themekey>
+<themekey>Vegetation</themekey>
+<themekey>Vegetation Map</themekey>
+<themekey>Effigy Mounds National Monument Vegetation Mapping Project</themekey>
+<themekey>USGS-NPS Vegetation Mapping Program</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Effigy Mounds National Monument</placekey>
+<placekey>EFMO</placekey>
+<placekey>Yellow River</placekey>
+<placekey>Sny Magill</placekey>
+<placekey>Harpers Ferry</placekey>
+<placekey>Marquette</placekey>
+<placekey>Allamakee County</placekey>
+<placekey>Clayton County</placekey>
+<placekey>Iowa</placekey>
+<placekey>USA</placekey>
+</place>
+</keywords>
+<accconst>GIS software.</accconst>
+<useconst>1) Those using the spatial database should understand the data and determine for themselves the fitness of the data prior to use. 2) For publication and dissemination, citations or credit should be given to the U.S. Geological Survey Center for Biological Informatics, the National Park Service, the U.S. Geological Survey Upper Midwest Environmental Sciences Center, and NatureServe. 3) Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U.S. Department of the Interior, U.S. Geological Survey.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>U.S. Geological Survey, Center for Biological Informatics, MS 302, Room 8000, Building 810, Denver Federal Center</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/efmo/images/efmoaa.jpg</browsen>
+<browsed>
+137 kbyte file showing vegetation associations and location of accuracy
+assessment points
+</browsed>
+<browset>JPG</browset>
+</browse>
+<datacred>The USGS Upper Midwest Environmental Sciences Center and NatureServe.</datacred>
+<native>ESRI ArcView GIS 3.3; ESRI ArcInfo Workstation 9.0; ESRI ArcCatalog 9.0.0.535; Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4.</native>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Upper Midwest Environmental Sciences Center, 2630 Fanta Reed Road, La Crosse, Wisconsin 54603</origin>
+<pubdate>20050131</pubdate>
+<title>Effigy Mounds National Monument Vegetation Mapping Project</title>
+<geoform>document</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Effigy Mounds NM Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>The Effigy Mounds National Monument (EFMO) Vegetation Mapping Project is an initiative of the U.S. Geological Survey (USGS)-National Park Service (NPS) Vegetation Mapping Program (VMP). (For more information on VMP, see larger work citation below.) The goals of the project are to adequately describe and map plant communities of EFMO and immediate surroundings and to provide the NPS Inventory and Monitoring (I&amp;M) Program, resource managers, and biological researchers with useful baseline vegetation information. The USGS Upper Midwest Environmental Sciences Center (UMESC) in La Crosse, Wisconsin, and the Minneapolis Office of NatureServe in Minneapolis, Minnesota, have mapped and classified the existing plant communities at EFMO and extended surroundings. --- Common to all VMP mapping projects, the three major components of the EFMO Vegetation Mapping Project are vegetation classification, vegetation mapping, and map accuracy assessment. Two sets of aerial photographs were collected during summer and fall of 2000, and the mapping project was officially inaugurated spring 2001 with a scoping meeting where partners discussed the project's objectives, goals, and methods. Photointerpreters, ecologists, and botanists collaborated to describe National Vegetation Classification System (NVCS) plant associations (communities) and determine how best to map them using the aerial photographs. Plant community descriptions were derived from analyses of vegetation sampling data at EFMO. These plant communities, along with NVCS Formation vegetation units depicting human disturbance and cultivated lands and with units describing human-made structures, were interpreted and mapped using aerial photographs and mirror stereoscopes. Spatial database coverages were produced of the Yellow River and Sny Magill units and their respective environs using state-of-the-art photogrammetric and GIS software. An accuracy assessment of the map coverages were performed on map classes representing NVCS plant communities, with results exceeding VMP standards. --- The EFMO project delivers many geospatial and vegetation data products in hard copy and digital formats, including an in-depth project summary report discussing methods and results, plant community descriptions and dichotomous key, representative ground photos of plant communities, a database containing the plot samples and accuracy assessment, field data sheets, aerial photograph prints and images (including geo-referenced photo mosaics), map classification and descriptions, and spatial coverages and maps of plant communities, fieldwork locations, aerial photo indexes, and project boundaries (each supported with metadata reports). All geospatial products are in Universal Transverse Mercator projection, Zone 15, using North American Datum of 1983. More VMP information and products of completed park mapping projects are on the Internet at &lt;http://biology.usgs.gov/npsveg&gt;.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/efmo/</onlink>
+<lworkcit>
+<citeinfo>
+<origin>U.S. Geological Survey, Center for Biological Information</origin>
+<pubdate>200304</pubdate>
+<title>USGS-NPS Vegetation Mapping Program (May 2003)</title>
+<geoform>document</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Overview</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>Overview of USGS - NPS Vegetation Mapping Program (taken from http://biology.usgs.gov/npsveg/overview.html, May 2003): The USGS-NPS Vegetation Mapping Program is a cooperative effort by the U.S. Geological Survey (USGS) and the National Park Service (NPS) to classify, describe, and map vegetation communities in more than 270 national park units across the United States. This landmark program is both the first to provide national-scale descriptions of vegetation for a federal agency and the first to create national vegetation standards for its data products. Its goal is to meet specific information needs identified by the National Park Service. --- The vegetation mapping program is an important part of the NPS Inventory and Monitoring Program, a long-term effort to develop baseline data for all national park units that have a natural resource component. It is managed by the USGS Center for Biological Informatics, a unique information center designed to help scientists, land managers, the public, and others locate and apply biological information. --- Program activities are based on peer-reviewed, objective science. Comprehensive vegetation information is provided at national and regional levels, while also serving local management needs of individual parks. Stringent quality control procedures ensure that products are accurate and consistent for initial inventory purposes and replicable for monitoring purposes. The spatially enabled digital products produced by the program are available on the World Wide Web. --- Program scientists have developed data collection procedures for classification, mapping, accuracy assessment, and use of existing data. Program products meet Federal Geographic Data Committee standards for vegetation classification and metadata, and national standards for spatial accuracy and data transfer. Standards include a minimum mapping unit of 0.5 hectares and classification accuracy of 80% for each map class. Nature Serve, an important partner in the USGS-NPS Vegetation Mapping program, is the caretaker of the National Vegetation Classification System, which is used by the program to classify vegetation communities. --- A report of project methods and results is provided at completion of individual projects. Project results include a rich set of data and information for each park project, as follows: --- Spatial Data: Aerial photography, Map classification, Map classification description and key, Spatial database of vegetation communities, Hardcopy maps of vegetation communities, Metadata for spatial databases, Complete accuracy assessment of spatial data, Vegetation Information. --- Vegetation classification: Dichotomous field key of vegetation classes, Formal description for each vegetation class, Ground photos of vegetation classes, Field data in database format.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>National Vegetation Classification Standard</taxonkey>
+<taxonkey>National Vegetation Classification System</taxonkey>
+<taxonkey>U.S. National Vegetation Classification</taxonkey>
+<taxonkey>International Vegetation Classification</taxonkey>
+<taxonkey>Plant Community</taxonkey>
+<taxonkey>Association</taxonkey>
+<taxonkey>Alliance</taxonkey>
+<taxonkey>NVCS</taxonkey>
+<taxonkey>USNVC</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>US Department of Agriculture, Natural Resources Conservation Service</origin>
+<pubdate>199612</pubdate>
+<title>The PLANTS Database (1996)</title>
+<geoform>database</geoform>
+<serinfo>
+<sername>The Plants Database</sername>
+<issue>December 1996</issue>
+</serinfo>
+<pubinfo>
+<pubplace>National Plant Data Center, Baton Rouge, Louisiana</pubplace>
+<publish>USDA, NRCS</publish>
+</pubinfo>
+<othercit>The Plants Database as of December 1996. USDA Natural Resources Conservation Service. Web address: http://plants.usda.gov/plants. Version used in the PLOTS Database System (1997).</othercit>
+<onlink>http://plants.usda.gov/plants</onlink>
+</citeinfo>
+</classcit>
+<classmod>This is the version of The PLANTS Database that is used in The Nature Conservancy's PLOTS Database System (Version 1.1, 1997).</classmod>
+</classsys>
+<taxonpro>The plant community classification and descriptions for the EFMO Vegetation Mapping Project were developed through the analyses of vegetation sampling data using ordination and clustering techniques via computer software. Vegetation field plot data were entered into the PLOTS Database System (TNC 1997), which uses the USDA NRCS PLANTS Database. This database is available for download at the USGS-NPS VMP web site. A listing of vegetation species recorded with these field plots is provided in the EFMO Project Report, also available at the VMP web site.</taxonpro>
+</taxonsys>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+</taxoncl>
+</taxonomy>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>The various attributes within the spatial database were reviewed and checked for consistency with their original sources (digital data, data sheets), using a combination of manual and digital means.</attraccr>
+</attracc>
+<logic>All point features are unique with their own site attribute and X-Y (Easting-Northing) coordinates. There are no duplicate points.</logic>
+<complete>Regardless of use in the analysis, all 369 accuracy assessment sites collected are included in the spatial point coverage. X-Y coordinates are projected in UTM, Zone 15, using NAD83.</complete>
+<posacc>
+<horizpa>
+<horizpar>X-Y coordinates of field data locations were collected using a Rockwell Precision Lightweight GPS Receiver (PLGR). Most points were successfully collected with positional accuracies ranging from +/- 5 to +/- 10 meters.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>Accuracy Assessment</methkey>
+<methkey>Vegetation Map</methkey>
+<methkey>Analysis</methkey>
+<methkey>Statistics</methkey>
+<methkey>Contingency Matrix</methkey>
+<methkey>Error Matrix</methkey>
+<methkey>Users' Accuracy</methkey>
+<methkey>Producers' Accuracy</methkey>
+<methkey>GPS</methkey>
+<methkey>GIS</methkey>
+</methodid>
+<methdesc>Accuracy Assessment Procedures: modified and adapted to unique circumstances presented with the Acadia NP Vegetation Mapping Project. See Process Steps for details.</methdesc>
+<methcite>
+<citeinfo>
+<origin>The Nature Conservancy, Environmental Systems Research Institute, and National Center of Geographic Information and Analysis</origin>
+<pubdate>199411</pubdate>
+<title>NBS/NPS Vegetation Mapping Program: Accuracy Assessment Procedures (1994c)</title>
+<edition>Final Draft</edition>
+<geoform>document</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Program Documents and Standards</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>The Nature Conservancy, Environmental Systems Research Institute, and National Center of Geographic Information and Analysis. 1994c.  NBS/NPS Vegetation Mapping Program: Accuracy Assessment Procedures. Prepared for the U.S. Department of the Interior, National Biological Survey and National Park Service. -- Accuracy assessment methodology modified and adapted to match unique characteristics and challenges (e.g. remote locations, logistics).</othercit>
+<onlink>http://biology.usgs.gov/npsveg/aa/aa.html</onlink>
+</citeinfo>
+</methcite>
+</method>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. Geological Survey, Upper Midwest Environmental Sciences Center, 2630 Fanta Reed Road, La Crosse, Wisconsin 54603</origin>
+<pubdate>20001009</pubdate>
+<title>Aerial Photographs (October) of Effigy Mounds National Monument</title>
+<geoform>aerial photo</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Effigy Mounds NM Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>The October 2000 aerial photographs of Effigy Mounds National Monument and environs were collected as baseline imagery data to produce the vegetation spatial database coverages for the Effigy Mounds National Monument Vegetation Mapping Project, USGS-NPS Vegetation Mapping Program. The U.S. Geological Survey Upper Midwest Environmental Sciences Center (UMESC) of La Crosse, Wisconsin collected the aerial photographs in conjunction with the U.S. Fish and Wildlife Service (USFWS) Region 3 of Ft. Snelling, Minnesota. Funding for this effort was provided by the National Park Service. Mounted in a USFWS Partenavia twin-engine aircraft, aerial photographs were collected using a Ziess Jena LMK 2000 camera loaded with KODAK AEROCHROME II Infrared Film 2443. To attain stereo viewing and full aerial coverage, parameters were set to collect aerial photos with a 60% forward-lap and a 30% side-lap. The 1:8,000-scale photographs were collected at an elevation above ground level of 4,000 ft. --- The photo mission required five flight lines to cover the Yellow River Unit, and another two flight lines to cover the Sny Magill Unit. In all, 69 aerial photos were collected on October 9, 2000 (57 photos for the Yellow River Unit, 12 photos for the Sny Magill Unit). HAS Images, Inc. (Dayton, Ohio) processed the original 9 x 9-inch positive transparency film, and produced two sets of contact prints. --- An earlier set of CIR aerial photos was collected by the UMESC on August 25, 2000 (1:15,000-scale) to capture peak vegetation biomass, which became particularly useful for mapping early senescing macrophytic wetland vegetation. This August photo set compliments the October set, which was collected to capture peak fall leaf phenology for forest mapping.</othercit>
+</citeinfo>
+</srccite>
+<srcscale>8000</srcscale>
+<typesrc>photographic transparency and print</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>20001009</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>EFMO October 2000 CIR Aerial Photographs (UMESC 2000a)</srccitea>
+<srccontr>Aerial images used for field work, photo interpretation, and subsequent map automation.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. Geological Survey</origin>
+<pubdate>1994</pubdate>
+<title>USGS 3.75-minute Digital Orthophoto Quadrangles of Effigy Mounds National Monument</title>
+<geoform>digital orthophoto quadrangle</geoform>
+<serinfo>
+<sername>U.S. Geological Survey Digital Orthophoto Quadrangle Program</sername>
+<issue>3.75-minute</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Menlo Park, California</pubplace>
+<publish>U.S. Geological Survey, Earth Science Information Center</publish>
+</pubinfo>
+<othercit>USGS digital orthophoto quadrangles are black &amp; white (gray-scale) orthorectified images derived from aerial photographs. The 3.75-minute DOQs used for the EFMO vegetation mapping project are the Clayton NE, Clayton SE Harpers Ferry SE, Harpers Ferry SW, Prairie du Chien NE, Prairie du Chien NW, Prairie du Chien SE, &amp; Prairie du Chien SW quadrangles derived from taken May 17, 1994 aerial photos. All DOQ are 10 m resolution. Projection in Universal Transverse Mercator, Zone 15, using North American Datum of 1983, Geodedic Reference System 80 spheroid.</othercit>
+</citeinfo>
+</srccite>
+<srcscale>12000</srcscale>
+<typesrc>online</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1994</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>EFMO USGS 3.75-minute DOQ (USGS 1994)</srccitea>
+<srccontr>Geo-spatial images to make hard-copy maps for field navigation. These DOQs were also used for geo-referencing (horizontal, x-y) aerial photo interpretation data.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. Geological Survey, Upper Midwest Environmental Sciences Center</origin>
+<pubdate>20050131</pubdate>
+<title>Map Classes for the Effigy Mounds National Monument Vegetation Mapping Project</title>
+<edition>Final</edition>
+<geoform>spreadsheet</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Effigy Mounds NM Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>La Crosse, Wisconsin</pubplace>
+<publish>U.S. Geological Survey, Upper Midwest Environmental Sciences Center</publish>
+</pubinfo>
+<othercit>Map classification developed specifically for the Effigy Mounds National Monument Vegetation Mapping Project. Includes crosswalk to the National Vegetation Classification System floristic and physiognomic levels (names and codes), NatureServe Ecological Systems, and U.S. Geological Survey Land Use and Land Cover Classification System (Level 2).</othercit>
+</citeinfo>
+</srccite>
+<typesrc>digital database file</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>20050131</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>EFMO Map Classification (UMESC 2005a)</srccitea>
+<srccontr>Map classification defining polygon data (vegetation and general land cover).</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. Geological Survey, Upper Midwest Environmental Sciences Center, 2630 Fanta Reed Road, La Crosse, Wisconsin 54603</origin>
+<pubdate>20050131</pubdate>
+<title>Vegetation Spatial Database Coverage for the Effigy Mounds National Monument Vegetation Mapping Project</title>
+<edition>Final</edition>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Effigy Mounds NM Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>This spatial database was prepared by the U.S. Geological Survey Upper Midwest Environmental Sciences Center for the USGS-NPS Vegetation Mapping Program. NatureServe provided ecological and vegetation classification support.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/efmo/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>digital database file</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>20050131</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>EFMO Vegetation Map Coverages (UMESC 2005b)</srccitea>
+<srccontr>Geo-spatial database of polygon data showing locations of vegetation types and general land cover.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>NatureServe</origin>
+<pubdate>2003</pubdate>
+<title>International Vegetation Classification (2003a)</title>
+<geoform>database</geoform>
+<pubinfo>
+<pubplace>Arlington, Virginia</pubplace>
+<publish>NatureServe</publish>
+</pubinfo>
+<othercit>NatureServe. 2003a. International Ecological Classification Standard: International Vegetation Classification. Central Databases. NatureServe, Arlington, Virginia, USA.</othercit>
+<onlink>http://www.natureserve.org/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>online</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2003</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>NVCS Floristic Classes (NatureServe 2003a)</srccitea>
+<srccontr>Vegetation classification (floristic association and alliance types, 2003) defining natural/semi-natural vegetation types in the EFMO Yellow River and Sny Magill vegetation spatial database coverages.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>The Nature Conservancy</origin>
+<pubdate>1997</pubdate>
+<title>PLOTS Database System (1997)</title>
+<edition>Version 1.1</edition>
+<geoform>computer program</geoform>
+<pubinfo>
+<pubplace>Arlington, Virginia</pubplace>
+<publish>The Nature Conservancy</publish>
+</pubinfo>
+<othercit>Plant species taxonomy extracted from the December 1996 version of The PLANTS Database (USDA).</othercit>
+</citeinfo>
+</srccite>
+<typesrc>computer program</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1997</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>PLOTS (1997)</srccitea>
+<srccontr>Computer software program used for vegetation data entry and subsequent export for vegetation analysis.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. Geological Survey, Upper Midwest Environmental Sciences Center, 2630 Fanta Reed Road, La Crosse, Wisconsin 54603</origin>
+<pubdate>20050131</pubdate>
+<title>Accuracy Assessment Site Spatial Database for the Effigy Mounds National Monument Vegetation Mapping Project</title>
+<edition>Final</edition>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Effigy Mounds NM Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>This spatial database was prepared by the U.S. Geological Survey Upper Midwest Environmental Sciences Center for the USGS-NPS Vegetation Mapping Program. NatureServe provided ecological and vegetation classification support.</othercit>
+<onlink>http://biology.usgs.gov/npsveg/efmo/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>digital database file</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>20050131</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>EFMO AA Spatial Database</srccitea>
+<srccontr>Geo-spatial product showing locations of accuracy assessment site locations, and provides results of the analyses and reference to digital ground photos.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>INTRODUCTION: --- The accuracy assessment (AA) process is split into 4 sections: 1) Site Selection, 2) Field Methods, 3) Data Analyses, and 4) Spatial Database. The accuracy assessment site spatial database provides the locations of all assessment sites, along with results from the analyses, and reference to digital ground photos. The following describes the methods of AA and the development of the accuracy assessment site spatial database.</procdesc>
+<procdate>2002 - 2004</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Upper Midwest Environmental Sciences Center</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2630 Fanta Reed Road</address>
+<city>La Crosse</city>
+<state>Wisconsin</state>
+<postal>54603</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(608) 781-6451</cntvoice>
+<cntfax>(608) 783-8058</cntfax>
+<cntemail>URL address: http://www.umesc.er.usgs.gov/umesc_home.html</cntemail>
+<hours>7:30 AM - 4:00 PM, M-F</hours>
+<cntinst>Ask receptionist for national park mapping contact in geospatial applications branch.</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>SITE SELECTION: --- The number of AA sites to be selected for field visits depends on a combination of polygon frequency and area per individual themes (map classes) within a vegetation map coverage, as outlined in the USGS-NPS VMP Accuracy Assessment Procedures document. This formula was used as a guide for the EFMO vegetation map, and was applied to map classes representing NVCS types within areas of access (EFMO and surrounding public access lands). Several NVCS plant communities are represented on the map by more than one map class, known as map class phases. (A map class phase is a version of a plant community recognizable on the aerial photographs and important to distinguish as a map unit for either management or ecological interests. See the EFMO Project Report for further details on map class relationships to plant communities.) Although these map class phases would collapse into the primary map class for the final assessment, the formula was applied to the map class phase level to leave open the option to validate the phase level of mapping if time permitted. --- For AA site generation, the vegetation map was reduced to areas of public access (e.g., EFMO, Iowa State Forests, USFWS Refuges). Site locations were stratified randomly across the vegetation map. Once the number of samples per map class (theme) was determined, 507 sites were generated using a software program. Additional sites were also randomly generated to account for inaccessible or remote sites that could potentially be difficult or impractical to reach once in the field. A buffer zone of approximately 10 m from polygon edges was also generated to help reduce problems of error created by using GPS units too near boundaries. Sites were reduced back to their original sample size of 507 by reviewing (in ArcView GIS) the site locations of each map class theme and their feasibility of acquiring field data. The X-Y coordinates (Easting-Northing projected in UTM, Zone 15, using NAD83) were uploaded to both Rockwell Precision Lightweight GPS Receiver (PLGR) and Garmin III+ GPS receivers. Hard-copy 1:8,000-scale orthophoto quadrangle maps, produced from USGS 3.75-minute digital orthophoto quadrangles (DOQ), were plotted with the unlabeled vegetation polygons, the final selection of AA points, and park and state boundaries overlaying the maps.</procdesc>
+<srcused>EFMO USGS 3.75-minute DOQ (USGS 1994)</srcused>
+<srcused>EFMO Map Classification (UMESC 2005a)</srcused>
+<srcused>EFMO Vegetation Map Coverages (UMESC 2005b)</srcused>
+<procdate>2002</procdate>
+</procstep>
+<procstep>
+<procdesc>FIELD METHODS: --- Field data for AA was collected during 2002. The field team used the 1:8,000-scale orthophoto maps, USGS topographic maps, and the project's aerial photographs to help them navigate across terrain and confirm proper site location. The team used the Garmin GPS unit for navigating to the general location of the site, and then used the PLGR unit for improving the field coordinate precision. Once a site location was reached, the site was evaluated of equal area to MMU, and the field-determined map class (which references a plant community) was recorded onto a data sheet. Dominant species, environmental data, and pertinent comments were also recorded. If the area was not homogenous (containing more than one map class), the other appropriate map classes were also listed on the data sheet. The field GPS coordinate location was also collected to confirm the AA site location was reached. --- The total number of sites acquired was 369, about 25% less than originally intended. Field efforts were slowed considerably due to poor GPS signals and inclement weather. However, because of the aggressive sampling design of including map class phases with theme stratification - that is, once the map class phases were collapsed into their respective primary map class representing a plant community ? the number of sites per theme (primary map class) remained adequate.</procdesc>
+<srcused>EFMO October 2000 CIR Aerial Photographs (UMESC 2000a)</srcused>
+<srcused>EFMO USGS 3.75-minute DOQ (USGS 1994)</srcused>
+<procdate>2002</procdate>
+</procstep>
+<procstep>
+<procdesc>DATA ANALYSES: --- The AA field data were entered into the PLOTS database and reviewed for errors in preparation for analyses. The analyses of the map accuracy using the field data included the following steps: --- 1) Finalizing the relations of map classes to vegetation types ? There are 5 plant communities that are represented by more than one map class (known as map class phases). These map class phases needed to be collapsed to their respective primary map class to achieve a 1:1 ratio between plant communities and map classes. --- 2) Initial comparison analysis of the field and map data ? The field coordinates, along with selected items from the AA database (within the PLOTS database) were intersected with the vegetation map coverage, producing an output table to begin a comparison between field assessment calls and map classes of the polygons in which the field coordinate is located. This accounted for all alternate map class calls indicated on the field data sheets. Alternate field calls matching map polygon calls were accepted as correct. --- 3) Review of all disagreements and correcting for false errors as necessary - A false error determined if caused by an error in GPS field coordinates, a missing or misapplied field call, or a field site assessment are was smaller then the polygon MMU (known as an inclusion). Correcting these false errors has duly enhanced the information the AA analyses provides. --- 4) Final comparison analysis of the field and map data ? Final comparison between the field assessment calls and map classes were performed on 335 of the 369 AA sites originally collected. Dropped from the analysis were 34 sites representing NVCS Formation level vegetation types and open water. The final analysis compared map classes representing NVCS plant communities. --- 5) Final output of results into a contingency matrix ? The results of the final analysis were transferred into a contingency table (matrix) where user and producer accuracy percentages were calculated for each map class and plant community. The matrix shows both the frequency of agreement and placement of disagreements. --- 6) Final output of the analyses and results into a spatial database for use in GIS ? Results were entered into the PLOTS database. These results, along with X-Y coordinates and references to digital ground photos collected during the field data collection, were then exported in preparation to develop the AA site spatial database. --- Based on the results of this thematic accuracy assessment, the estimated overall accuracy for map classes representing plant communities is 92% with a kappa index of 90%.</procdesc>
+<srcused>EFMO Map Classification (UMESC 2005a)</srcused>
+<srcused>EFMO Vegetation Map Coverages (UMESC 2005b)</srcused>
+<srcused>NVCS Floristic Classes (NatureServe 2003a)</srcused>
+<procdate>2004</procdate>
+<srcprod>PLOTS (1997)</srcprod>
+</procstep>
+<procstep>
+<procdesc>SPATIAL DATABASE: --- Regardless of use in the analysis, the accuracy assessment site spatial database includes all AA sites collected in the field. The accuracy assessment site data of the site's X-Y coordinates, field calls, map call, and analysis results were exported from the PLOTS database. The exported file was imported into ArcView GIS (Version 3.3) as an Event Theme using X-Y coordinates, and then converted to a Shapefile. In ArcGIS (ArcInfo Workstation ArcTools 9.0), the Shapefile was converted to an ArcInfo coverage, converted from single to double precision, projection defined to UTM (Zone 15) NAD83, and lastly packaged into an ArcInfo Export (.e00) file (no compression).</procdesc>
+<srcused>PLOTS (1997)</srcused>
+<procdate>2004</procdate>
+<srcprod>EFMO AA Spatial Database</srcprod>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>Located in northeastern Iowa in Allamakee and Clayton counties, EFMO is adjacent to the Mississippi River in a topographically unique area known as the Paleozoic Plateau region. The EFMO headquarters is 3 miles north of Marquette, Iowa. The main section of EFMO, the Yellow River Unit, envelops the Yellow River near its confluence with the Mississippi River. The Sny Magill Unit is approximately 16 km (10 miles) south of headquarters within the Mississippi River floodplain.</indspref>
+<direct>Point</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>369</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+<ptvctcnt>4</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>15</utmzone>
+<transmer>
+<sfctrmer>0.9996</sfctrmer>
+<longcm>-93</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000032</absres>
+<ordres>0.000032</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>efmo_aa.pat</enttypl>
+<enttypd>ArcInfo attribute tables from the EFMO accuracy assessment spatial database coverage. (Numbers &amp; dashes in front of Attribute Labels are added for sorting purposes; Attribute Labels are listed in the order they appear in the spatial database sets.)</enttypd>
+<enttypds>Attribute tables developed by the USGS UMESC to describe the EFMO accuracy assessment spatial database coverage, USGS-NPS VMP.</enttypds>
+</enttyp>
+<attr>
+<attrlabl>01 - SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI.</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>02 - AREA</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI.</attrdefs>
+<attrdomv>
+<udom>Area is always zero for point coverages. Values are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>03 - PERIMETER</attrlabl>
+<attrdef>Perimeter of feature in internal units.</attrdef>
+<attrdefs>ESRI.</attrdefs>
+<attrdomv>
+<udom>Perimeter is always zero for point coverages. Values are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>04 - EFMO_AA#</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI.</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>05 - EFMO_AA-ID</attrlabl>
+<attrdef>User-defined feature number.</attrdef>
+<attrdefs>ESRI.</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>06 - AA_SITE</attrlabl>
+<attrdef>Automated field site number assigned during stratified random selection of site.</attrdef>
+<attrdefs>USGS UMESC.</attrdefs>
+<attrdomv>
+<udom>Unique whole numbers automatically generated during site selection.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>07 - PRIME_CALL</attrlabl>
+<attrdef>Primary field call.</attrdef>
+<attrdefs>USGS UMESC (project derived).</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Map class code.</codesetn>
+<codesets>Field calls are map class codes representing NVCS vegetation type. See Domain Enumerated Values for 07 - MAP_CLASS in Metadata for EFMO Vegetation Spatial Database Coverages. Also, map classes are listed &amp; described in Appendix G: Map Classification Descriptions and Visual Guide, Project Report - January 2005, Effigy Mounds National Monument, USGS-NPS Vegetation Mapping Program.</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>08 - ALT_CALL</attrlabl>
+<attrdef>Alternate field call.</attrdef>
+<attrdefs>USGS UMESC (project derived).</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Map class code.</codesetn>
+<codesets>Field calls are map class codes representing NVCS vegetation type. See Domain Enumerated Values for 07 - MAP_CLASS in Metadata for EFMO Vegetation Spatial Database Coverages. Also, map classes are listed &amp; described in Appendix G: Map Classification Descriptions and Visual Guide, Project Report - January 2005, Effigy Mounds National Monument, USGS-NPS Vegetation Mapping Program.</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>09 - ONE_50M</attrlabl>
+<attrdef>1st field call within 50m of field site location.</attrdef>
+<attrdefs>USGS UMESC (project derived).</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Map class code.</codesetn>
+<codesets>Field calls are map class codes representing NVCS vegetation type. See Domain Enumerated Values for 07 - MAP_CLASS in Metadata for EFMO Vegetation Spatial Database Coverages. Also, map classes are listed &amp; described in Appendix G: Map Classification Descriptions and Visual Guide, Project Report - January 2005, Effigy Mounds National Monument, USGS-NPS Vegetation Mapping Program.</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>10 - TWO_50M</attrlabl>
+<attrdef>2nd field call within 50m of field site location.</attrdef>
+<attrdefs>USGS UMESC (project derived).</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Map class code.</codesetn>
+<codesets>Field calls are map class codes representing NVCS vegetation type. See Domain Enumerated Values for 07 - MAP_CLASS in Metadata for EFMO Vegetation Spatial Database Coverages. Also, map classes are listed &amp; described in Appendix G: Map Classification Descriptions and Visual Guide, Project Report - January 2005, Effigy Mounds National Monument, USGS-NPS Vegetation Mapping Program.</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>11 - MAP_CALL</attrlabl>
+<attrdef>Map class polygon code of accuracy assessment site location for comparison analysis.</attrdef>
+<attrdefs>USGS UMESC (project derived).</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Map class code.</codesetn>
+<codesets>Map calls are map class codes. See Domain Enumerated Values for 07 - MAP_CLASS in Metadata for EFMO Vegetation Spatial Database Coverages. Also, map classes are listed &amp; described in Appendix G: Map Classification Descriptions and Visual Guide, Project Report - January 2005, Effigy Mounds National Monument, USGS-NPS Vegetation Mapping Program.</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>12 - ANALYSIS</attrlabl>
+<attrdef>Accuracy assessment result.</attrdef>
+<attrdefs>USGS UMESC.</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Drop</edomv>
+<edomvd>Accuracy assessment site dropped from the analysis because of field classifications were either NVCS Formation types because (not Association type because of land disturbance) or open water (non-vegetation).</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+<edom>
+<edomv>Match (alternate)</edomv>
+<edomvd>Map polygon call matches the alternate field assessment call.</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+<edom>
+<edomv>Match (alternate-phase)</edomv>
+<edomvd>Map polygon call matches the alternate field assessment call in regards to map class phases. (Map and field calls are different phases, but each represent the same plant community.)</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+<edom>
+<edomv>Match (direct)</edomv>
+<edomvd>Map polygon call matches directly the field assessment call.</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+<edom>
+<edomv>Match (gps displacement)</edomv>
+<edomvd>Map polygon call matches the field assessment call once gps error displacement is accounted for.</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+<edom>
+<edomv>Match (inclusion)</edomv>
+<edomvd>Field assessment call &lt; MMU and determined an inclusion to the map polygon call.</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+<edom>
+<edomv>Match (phase &amp; alternate-direct)</edomv>
+<edomvd>Map polygon call matches directly the alternate field assessment call as a phase map class.</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+<edom>
+<edomv>Match (phase &amp; w/in 50m-direct)</edomv>
+<edomvd>Map polygon call matches a phase of an area within 50m of field site.</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+<edom>
+<edomv>Match (phase)</edomv>
+<edomvd>Map polygon call matches field assessment call as a phase.</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+<edom>
+<edomv>Match (w/in 50m)</edomv>
+<edomvd>Map polygon call matches a field assessment call within 50m of field site.</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+<edom>
+<edomv>Match (w/in 50m-phase)</edomv>
+<edomvd>Map polygon call matches a field assessment call phase type within 50m of field site.</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+<edom>
+<edomv>Miss</edomv>
+<edomvd>Map polygon and field assessment calls are not in agreement.</edomvd>
+<edomvds>USGS UMESC (project derived).</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>13 - DISCUSSION</attrlabl>
+<attrdef>Explanation of analysis result.</attrdef>
+<attrdefs>USGS UMESC.</attrdefs>
+<attrdomv>
+<udom>Unique explanation regarding results in the ANALYSIS Attribute Label item.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>14 - CODES</attrlabl>
+<attrdef>Explanation of field and map codes.</attrdef>
+<attrdefs>USGS UMESC.</attrdefs>
+<attrdomv>
+<udom>Global explanation of map class codes used for field and map calls.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>15 - GPS_TECH</attrlabl>
+<attrdef>GPS receiver used to collect the ground coordinates, and the projection and datum GPS coordinates collected in.</attrdef>
+<attrdefs>USGS UMESC.</attrdefs>
+<attrdomv>
+<udom>Global explanation of the GPS_TECH Attribute Label item.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>16 - LOCATION</attrlabl>
+<attrdef>Location in reference to EFMO units.</attrdef>
+<attrdefs>USGS UMESC.</attrdefs>
+<attrdomv>
+<udom>Project-derived location descriptions providing general location in and around EFMO.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>17 - X_EASTING</attrlabl>
+<attrdef>Easting coordinate of site location.</attrdef>
+<attrdefs>USGS UMESC.</attrdefs>
+<attrdomv>
+<udom>Easting coordinate collected during field assessment.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>18 - Y_NORTHING</attrlabl>
+<attrdef>Northing coordinate of site location.</attrdef>
+<attrdefs>USGS UMESC.</attrdefs>
+<attrdomv>
+<udom>Northing coordinate collected during field assessment.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>19 - GRND_PHOTO</attrlabl>
+<attrdef>Ground photos collected of the field site.</attrdef>
+<attrdefs>USGS UMESC.</attrdefs>
+<attrdomv>
+<udom>Ground photo digital image file (revised name); AA#, where # is the accuracy assessment site number. The original digital file name of ground photo follows the revised name, which is reflects the names found on the field data sheets.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>20 - PHOTO_NOTE</attrlabl>
+<attrdef>Note explaining ground photos.</attrdef>
+<attrdefs>USGS UMESC.</attrdefs>
+<attrdomv>
+<udom>Global explanation of the GRND_PHOTO Attribute Label item.</udom>
+</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>Items within the spatial database attribute tables include: 1) SHAPE - Feature geometry. 2) AREA - Area of feature in internal units squared. 3) PERIMETER - Perimeter of feature in internal units. 4) EFMO_AA# - Internal feature number. 5) EFMO_AA-ID - User-defined feature number. 6) AA_SITE - Accuracy assessment site number. 7) PRIME_CALL - Primary field call. 8) ALT_CALL - Alternate field call. 9) ONE_50M - 1st field call within 50m of field site location. 10) TWO_50M - 2nd field call within 50m of field site location. 11) MAP_CALL - Map class polygon code of accuracy assessment site location for comparison analysis. 12) ANALYSIS - Accuracy assessment result. 13) DISCUSSION - Explanation of analysis result. 14) CODES - Explanation of field and map codes. 15) GPS_TECH - GPS receiver used to collect the ground coordinates, and the projection and datum GPS coordinates collected in. 16) LOCATION - Location in reference to EFMO unit. 17) X_EASTING - Easting coordinate of field site location. 18) Y_NORTHING - Northing coordinate of field site location. 19) GRND_PHOTO - Ground photos collected of the field site. 20) PHOTO_NOTE - Note explaining ground photos.</eaover>
+<eadetcit>Various citations referencing Attribute Label items. Refer to individual Attributes within the Detailed Description Entity Type section for citations.</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>U.S. Geological Survey, Center for Biological Informatics, MS 302, Room 8000, Building 810, Denver Federal Center</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<distliab>
+Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that these data are directly acquired from a U.S. Geological Survey server, and not indirectly through other sources which may have changed the data in some way. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein. Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U. S. Department of the Interior, U. S. Geological Survey.
+described and/or contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>PDF</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/efmo/report.pdf#accuracy</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>JPG</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/efmo/images/efmoaa.jpg</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/efmo/efmoaa.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/efmo/efmoaasdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>none</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>HTML</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/efmo/aa_matrix.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>XLS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/efmo/aa_matrix.xls</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20050131</metd>
+<metrd>20050419</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>20050131</begdate><enddate>20050131</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_efmoattribacc.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

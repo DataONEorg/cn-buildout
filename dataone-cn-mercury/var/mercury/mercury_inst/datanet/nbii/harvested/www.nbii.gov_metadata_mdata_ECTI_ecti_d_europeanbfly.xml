@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/ECTI/ecti_d_europeanbfly.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Inge van Halder, Irma Wynhoff, Chris van Swaay</origin>
+<pubdate>Unknown</pubdate>
+<title>European Butterflies</title>
+<edition>Version 1.0</edition>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Amsterdam, Netherlands</pubplace>
+<publish>Expert Center for Taxonomic Identification</publish>
+</pubinfo>
+<othercit>ISBN: 90 215 9503 6</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This multimedia CD ROM presents unique up-to-date information about at least 400 European butterflies that is not available in existing fieldguides. All species are presented with exquisite drawings, pictures of live butterflies and information about area and flight periods. Habitats are described and illustrated. New in this CD is that for each species the trend and rarity of existence is presented for the last 25 years. An easy to use interactive search engine gives the possibility of predicting butterflies based on geographical location, habitat and flight periods. This CD ROM has been produced by specialists of the Butterfly Organization and is a 'must' for every admirer of European butterflies.</abstract>
+<purpose>This CD gives information about at least 400 European butterflies.</purpose>
+<supplinf>This information was obtained from the ETI web site - http://www.eti.uva.nl/Products/CD-catalogue.html.  (previous geoform was 'CD-ROM database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>Unknown</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<spdom>
+<descgeog>Europe</descgeog>
+<bounding>
+<westbc>25</westbc>
+<eastbc>-65</eastbc>
+<northbc>72</northbc>
+<southbc>35</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>area</themekey>
+<themekey>habitat</themekey>
+<themekey>geographical location</themekey>
+<themekey>drawings</themekey>
+<themekey>pictures of live butterflies</themekey>
+<themekey>flight periods</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Europe</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>butterflies</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animal</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Arthropoda</taxonrv>
+<taxoncl>
+<taxonrn>Subphylum</taxonrn>
+<taxonrv>Hexapoda</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Insecta</taxonrv>
+<taxoncl>
+<taxonrn>Subclass</taxonrn>
+<taxonrv>Pterygota</taxonrv>
+<taxoncl>
+<taxonrn>Superorder</taxonrn>
+<taxonrv>Neoptera</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Lepidoptera</taxonrv>
+<taxoncl>
+<taxonrn>Suborder</taxonrn>
+<taxonrv>Macrolepidoptera</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Expert Center for Taxonomic Identification</cntorg>
+<cntper>Webmaster</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>P.O. Box 94766, Mauritskade 61</address>
+<city>Amsterdam</city>
+<postal>NL-1090 GT</postal>
+<country>Netherlands</country>
+</cntaddr>
+<cntvoice>+31-20-5257239</cntvoice>
+<cntfax>+31-20-5257238</cntfax>
+<cntemail>webmaster@eti.uva.nl</cntemail>
+<cntinst>info@eti.uva.nl - general information about ETI. Phone and fax numbers are for general information.  Email adress webmaster@eti.uva.nl may know the most about the online World Biodiversity database.</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<logic>not applicable</logic>
+<complete>The CD contains information about 400 butterflies which are not available in existing field guides.</complete>
+<lineage>
+<procstep>
+<procdesc>not applicable</procdesc>
+<procdate>not applicable</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<eainfo>
+<overview>
+<eaover>Entity -  Butterflies; Attributes - drawings, pictures, area and flight periods</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Natuur &amp; Techniek</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Postbus 3144, 4800 DC</address>
+<city>Breda</city>
+<country>Netherlands</country>
+</cntaddr>
+<cntvoice>Unknown</cntvoice>
+<cntemail>administratie@natutech.nl</cntemail>
+</cntinfo>
+</distrib>
+<distliab>ETI is committed to updating its CD-ROM publications in the above mentioned series, including adapting them to hardware configurations and computer operating systems to come (meaning that they will be replaced by new versions when big changes occur). All users of ETI CD-ROM products and the Linnaeus II software can ask for support at our	by a helpdesk [support@eti.uva.nl]. We will do our very best to help you with any questions that may arise.</distliab>
+<stdorder>
+<fees>$44.92 incl. BTW</fees>
+<ordering>The Dagvlinders van Europa CD-ROM can be ordered at your local bookshop, and the following distributor(s): Natuur &amp; Techniek, Postbus 3144, 4800 DC Breda, Nederland, e-mail: administratie@natutech.nl; Kosmos Z &amp; K, Postbus 14095, 3508SC Utrecht, Nederland. ETI-partners may order directly at ETI as they receive a discount on the retail prices of all CD's. The Linnaeus II software for Biodiversity Documentation can be purchased only at ETI.</ordering>
+</stdorder>
+<techpreq>Windows: Windows 95/98, Pentium CPU, 16MB RAM, Thousands of colors, 4x speed CD-ROM or higher. Macintosh: Not available.</techpreq>
+</distinfo>
+<metainfo>
+<metd>20010831</metd>
+<metfrd>20020831</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>Unknown</begdate><enddate>Unknown</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_ECTI_ecti_d_europeanbfly.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

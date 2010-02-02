@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_22522.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Stottlemyer, R. J. Baron, R. Edmonds, L. Scherbarth, and H. Steltzer</origin>
+<pubdate>2002</pubdate>
+<title>Long-term ecosystem studies in Isle Royale, Olympic, and Rocky Mountain National Parks; Noatak National Preserve, and Fraser Experimental Forest</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>U.S. Geological Survey, Biological Resources Division</publish>
+</pubinfo>
+<othercit>49 pp.</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Stottlemyer, R. J. Baron, R. Edmonds, L. Scherbarth, and H. Steltzer. 2002. Long-term ecosystem studies in Isle Royale, Olympic, and Rocky Mountain National Parks; Noatak National Preserve, and Fraser Experimental Forest. Research Report no. 95. : U.S. Geological Survey, Biological Resources Division. 49 p.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>monitoring</themekey>
+<themekey>long-term</themekey>
+<themekey>surface water</themekey>
+<themekey>ecosystem biodiversity</themekey>
+<themekey>global change</themekey>
+<themekey>climate change</themekey>
+<themekey>soil temperature</themekey>
+<themekey>watershed</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Stottlemyer, J.R.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Stottlemyer, R., and C.A. Troendle</origin>
+<pubdate>1995</pubdate>
+<title>Surface water chemistry and chemical budgets, alpine and subalpine watersheds, Fraser Experimental Forest, Colorado</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Boulder, CO</pubplace>
+<publish>IAHS Publ.no. 228</publish>
+</pubinfo>
+<othercit>Vol. 228 pages 321-3</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>1995</pubdate>
+<title>Surface water chemistry and chemical budgets, alpine and subalpine watersheds, Fraser Experimental Forest, Colorado</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Boulder, CO</pubplace>
+<publish>IAHS Publ.no. 228</publish>
+</pubinfo>
+<othercit>Vol. 228 pages 321-3</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Binkley, D., F. Suarez, C. Rhodes, R. Stottlemyer, and D.W. Valentine</origin>
+<pubdate>1995</pubdate>
+<title>Parent material depth controls ecosystem composition and function on a riverside terrace in northwestern Alaska</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Ecoscience</sername>
+<issue>2(4):377-3</issue>
+</serinfo>
+<othercit>Vol. 2(4) pages 377-3</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Stottlemyer, R</origin>
+<pubdate>1995</pubdate>
+<title>Relationship between snowpack solute load along an elevation gradient, and change in soil solution and stream chemistry, Fraser Experimental Forest, Colorado</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Boulder, CO</pubplace>
+<publish>International Union of Geodesy and Geophysics</publish>
+</pubinfo>
+<othercit>1 pp.</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>1995</pubdate>
+<title>Relationship between snowpack solute load along an elevation gradient, and change in soil solution and stream chemistry, Fraser Experimental Forest, Colorado</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Boulder, CO</pubplace>
+<publish>International Union of Geodesy and Geophysics</publish>
+</pubinfo>
+<othercit>1 pp.</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Stottlemyer, R., B. Travis, and D. Toczydlowski</origin>
+<pubdate>1995</pubdate>
+<title>Nitrogen mineralization in boreal forest stands of Isle Royale, northern Michigan</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Water, Air, and Soil Pollution</sername>
+<issue>82:191-202</issue>
+</serinfo>
+<othercit>Vol. 82 pages 191-202</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Stottlemyer, R</origin>
+<pubdate>2001</pubdate>
+<title>Biogeochemistry of a treeline watershed, Northwestern Alaska</title>
+<geoform>Unknown</geoform>
+<othercit>Vol. 30(6) pages 1990-1998</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Stottlemyer, J.R.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Long-term ecosystem studies in Isle Royale, Olympic, and Rocky Mountain National Parks; Noatak National Preserve, and Fraser Experimental Forest.  FORT Library Archive Number: 2002/0095 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_22522.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

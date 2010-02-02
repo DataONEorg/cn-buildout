@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FAO/fao_d_radiscon.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Food and Agriculture Organization</origin>
+<pubdate>1996</pubdate>
+<title>Regional Animal Disease Surveillance and Control Network (RADISCON)</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Rome, Italy</pubplace>
+<publish>Food and Agriculture Organization</publish>
+</pubinfo>
+<onlink>http://www.fao.org/ag/aga/agah/id/radiscon/Database.htm</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>RADISCON is a joint Food and Agriculture Organization/International Fund for Agriculture Development database targeted at 29 nations located in North Africa, the Sahel, the Horn of Africa, the Middle East and the Arab Gulf, which aim is to promote animal disease surveillance within and among countries. RADISCON implementation started in June 1996. It is hoped that the ongoing activities will increase the efficiency of control programmes. The project is assisting each individual country to establish its National Animal Disease Surveillance System (NADSS) and communication between participating nations is taking place electronically, where possible, using electronic mail facilities.  RADISCON maintains a database of occurrences of animal diseases by country cluster.</abstract>
+<purpose>RADISCON seeks to develop an Animal Disease Surveillance and Control Network through a process of strengthening veterinary investigation, animal disease information and laboratory services, continued professional development and improved professional communication between neighboring countries.</purpose>
+<supplinf>(previous geoform was 'Database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>199606</begdate>
+<enddate>Present</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>In Work</progress>
+<update>Continually</update>
+</status>
+<spdom>
+<descgeog>Maghreb, Middle East, Horn of Africa, Arab Gulf</descgeog>
+<bounding>
+<westbc>-20</westbc>
+<eastbc>60</eastbc>
+<northbc>-20</northbc>
+<southbc>-5</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>animal diseases</themekey>
+<themekey>foot and mouth disease</themekey>
+<themekey>sheep pox</themekey>
+<themekey>Rinderpest</themekey>
+<themekey>Peste des Petits Ruminants</themekey>
+<themekey>bovine</themekey>
+<themekey>buffalo</themekey>
+<themekey>ovine</themekey>
+<themekey>caprine</themekey>
+<themekey>cameline</themekey>
+<themekey>equine</themekey>
+<themekey>swine</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Africa</placekey>
+<placekey>Chad</placekey>
+<placekey>Algeria</placekey>
+<placekey>Bahrain</placekey>
+<placekey>Djibouti</placekey>
+<placekey>Egypt</placekey>
+<placekey>Eritrea</placekey>
+<placekey>Ethiopia</placekey>
+<placekey>Iran</placekey>
+<placekey>Iraq</placekey>
+<placekey>Israel</placekey>
+<placekey>Jordan</placekey>
+<placekey>Kuwait</placekey>
+<placekey>Lebanon</placekey>
+<placekey>Libya</placekey>
+<placekey>Mali</placekey>
+<placekey>Mauritania</placekey>
+<placekey>Morocco</placekey>
+<placekey>Niger</placekey>
+<placekey>Oman</placekey>
+<placekey>Palestinian Authority</placekey>
+<placekey>Qatar</placekey>
+<placekey>U.A. Emirates</placekey>
+<placekey>Saudi Arabia</placekey>
+<placekey>Sudan</placekey>
+<placekey>Somalia</placekey>
+<placekey>Syria</placekey>
+<placekey>Tunisia</placekey>
+<placekey>Turkey</placekey>
+<placekey>Yemen</placekey>
+<placekey>Maghreb</placekey>
+<placekey>Middle East</placekey>
+<placekey>Horn of Africa</placekey>
+<placekey>Arab Gulf</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>cow</taxonkey>
+<taxonkey>buffalo</taxonkey>
+<taxonkey>sheep</taxonkey>
+<taxonkey>camel</taxonkey>
+<taxonkey>horse</taxonkey>
+<taxonkey>pig</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Animal</taxonrv>
+<taxoncl>
+<taxonrn>Phylum</taxonrn>
+<taxonrv>Chordata</taxonrv>
+<taxoncl>
+<taxonrn>Subphylum</taxonrn>
+<taxonrv>Vertebrata</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Mammalia</taxonrv>
+<taxoncl>
+<taxonrn>Subclass</taxonrn>
+<taxonrv>Theria</taxonrv>
+<taxoncl>
+<taxonrn>Infraclass</taxonrn>
+<taxonrv>Eutheria</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Artiodactyla</taxonrv>
+<common>cloven-hoofed ungulates</common>
+<common>even-toed ungulates</common>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Suidae</taxonrv>
+<taxoncl>
+<taxonrn>Subfamily</taxonrn>
+<taxonrv>Suinae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Sus</taxonrv>
+<common>pig</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Bovidae</taxonrv>
+<common>bovids</common>
+<taxoncl>
+<taxonrn>Subfamily</taxonrn>
+<taxonrv>Bovinae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Syncerus</taxonrv>
+<common>buffaloes</common>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Syncerus caffer</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Subfamily</taxonrn>
+<taxonrv>Caprinae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Ovis</taxonrv>
+<common>sheep</common>
+</taxoncl>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Capra</taxonrv>
+<common>goats</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Perissodactyla</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Equidae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Equus</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Abdelali Benkirane</cntper>
+<cntorg>Food and Agriculture Organization</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<city>Rome</city>
+<country>Italy</country>
+</cntaddr>
+<cntvoice>unknown</cntvoice>
+<cntemail>abdelali.benkirane@fao.org</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<logic>Not applicable</logic>
+<complete>The RADISCON forms were field-tested in some RADISCON participating nations and discussed and amended by the coordinators of the national animal disease intelligence and/or the operators of the national databases in a workshop organized in Rabat, Morocco, from 26 to 30 April 1999; and adopted by CVOs at a meeting held in OIE, Paris on the 14 May 1999.</complete>
+<lineage>
+<method>
+<methtype>data collection</methtype>
+<methdesc>RADISCON developed prototype data collection forms, namely RADISCON Disease Outbreak report (RADDOR) and RADISCON Monthly Report  (RADM), for contagious diseases, as vehicles for data exchange within and between countries.</methdesc>
+</method>
+<procstep>
+<procdesc>Disease data are collected from various sources at the country level, consolidated, and incorported into the RADISCON database.</procdesc>
+<procdate>unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>RADISCON countries</enttypl>
+<enttypd>The African countries which RADISCON monitors are contained in four groups - the Arab Gulf Sub-region, the Horn of Africa, the Maghreb/Sahel, and the Middle East Sub-region.</enttypd>
+<enttypds>none</enttypds>
+</enttyp>
+<attr>
+<attrlabl>Arab Gulf Sub-region</attrlabl>
+<attrdef>Countries along the Arab Gulf and Saudi Arabia</attrdef>
+<attrdefs>none</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Bahrain</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Kuwait</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Oman</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Qatar</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Saudi Arabia</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>United Arab Emirates</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Horn of Africa</attrlabl>
+<attrdef>none</attrdef>
+<attrdefs>none</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Ethiopia</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Sudan</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Somalia</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Djibouti</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Eritrea</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Yemen</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Maghreb/Sahel</attrlabl>
+<attrdef>Northwest section of Africa</attrdef>
+<attrdefs>RADISCON</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Algeria</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Chad</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Libya</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Mali</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Mauritania</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Morocco</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Niger</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Tunisia</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Middle East Sub-region</attrlabl>
+<attrdef>Middle East</attrdef>
+<attrdefs>none</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Egypt</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Palestinian Authority</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Israel</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Jordan</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Iran</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Iraq</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Lebanon</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Syria</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+<edom>
+<edomv>Turkey</edomv>
+<edomvd>none</edomvd>
+<edomvds>none</edomvds>
+</edom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Food and Agriculture Organization</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>Viale delle Terme di Caracalla, 00100</address>
+<city>Rome</city>
+<country>Italy</country>
+</cntaddr>
+<cntvoice>+39 06 5705 1</cntvoice>
+<cntfax>+39 06 5705 3152</cntfax>
+<cntemail>FAO-HQ@fao.org</cntemail>
+<cntinst>Cable Address - FOODAGRI ROME</cntinst>
+</cntinfo>
+</distrib>
+<distliab>Although these data have been processed successfully on a computer system at the Food and Agriculture Organization, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a Food and Agriculture Organization server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The Food and Agriculture Organization shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20020901</metd>
+<metfrd>20020902</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19960601</begdate><enddate>20090328</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_FAO_fao_d_radiscon.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

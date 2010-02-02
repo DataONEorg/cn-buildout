@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_4057.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Bartholow, J., J. Sandelin, B.A.K. Coughlan, J. Laake, and A. Moos</origin>
+<pubdate>1994</pubdate>
+<title>SALMOD: A population model for salmonids/User's Manual</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>89 pp.</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Bartholow, J., J. Sandelin, B.A.K. Coughlan, J. Laake, and A. Moos. 1994. SALMOD: A population model for salmonids/User's Manual. . Fort Collins, CO: U.S. Geological Survey. 89 p.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>1994</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>salmon</themekey>
+<themekey>Salmonids</themekey>
+<themekey>Salmonidae</themekey>
+<themekey>population model</themekey>
+<themekey>salmon modeling</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Bartholow, J.M.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>McCullough, D.A., J.M. Bartholow, H.I. Jager, R.L. Beschta, E.F. Cheslak, M.L. Deas, J.L. Ebersole, J.S. Foott, S.L. Johnson, K.R. Marine, M.G. Mesa, J.H. Petersen, Y. Souchon, K.F. Tiffan, and W.A. Wurtsbaugh</origin>
+<pubdate>2009</pubdate>
+<title>Research in Thermal Biology: Burning Questions for Coldwater Stream Fishes</title>
+<geoform>Unknown</geoform>
+<othercit>Vol. 17(1) pages 90-115</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Bartholow, J.M</origin>
+<pubdate>2005</pubdate>
+<title>Recent water temperature trends in the Lower Klamath River, California</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>North American Journal of Fisheries Management (ISSN 0275-5947)</sername>
+<issue>25(1):152-162</issue>
+</serinfo>
+<othercit>Vol. 25(1) pages 152-162</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Bartholow, J.M</origin>
+<pubdate>2004</pubdate>
+<title>Detecting trends in water temperatures in the Lower Klamath River, California</title>
+<geoform>Proceedings,Meeting, or Workshop</geoform>
+<pubinfo>
+<pubplace>Lake Buena Vista, FL</pubplace>
+<publish>Ecosystems Restoration Conference</publish>
+</pubinfo>
+<othercit>23 pp.</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>2004</pubdate>
+<title>Detecting trends in water temperatures in the Lower Klamath River, California</title>
+<geoform>Proceedings,Meeting, or Workshop</geoform>
+<pubinfo>
+<pubplace>Lake Buena Vista, FL</pubplace>
+<publish>Ecosystems Restoration Conference</publish>
+</pubinfo>
+<othercit>23 pp.</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Bartholow, J.M., S.G. Campbell, and M. Flug</origin>
+<pubdate>2004</pubdate>
+<title>Quantifying the effect of dam removal on water temperatures in the lower Klamath River, California, and implications for salmon recovery</title>
+<geoform>Proceedings,Meeting, or Workshop</geoform>
+<pubinfo>
+<pubplace>Lake Buena Vista, FL</pubplace>
+<publish>Ecosystem Restoration Conference</publish>
+</pubinfo>
+<othercit>24 pp.</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>2004</pubdate>
+<title>Quantifying the effect of dam removal on water temperatures in the lower Klamath River, California, and implications for salmon recovery</title>
+<geoform>Proceedings,Meeting, or Workshop</geoform>
+<pubinfo>
+<pubplace>Lake Buena Vista, FL</pubplace>
+<publish>Ecosystem Restoration Conference</publish>
+</pubinfo>
+<othercit>24 pp.</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Bartholow, J., J. Heasley, J. Laake, J. Sandelin, B.A.K. Coughlan, and A. Moos</origin>
+<pubdate>2002</pubdate>
+<title>SALMOD: a population model for salmonids: user's manual.   Version W3</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>76 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/4046/4046.asp</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Bartholow, J.M.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>SALMOD: A population model for salmonids/User's Manual.  FORT Library Archive Number: 1994/0011 MESC</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19940101</begdate><enddate>19941231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_4057.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

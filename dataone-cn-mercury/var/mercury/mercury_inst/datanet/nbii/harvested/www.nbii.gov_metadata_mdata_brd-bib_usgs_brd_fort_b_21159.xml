@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21159.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Baron, J.S., K.R. Nydick, H.M. Rueth, B.M. Lafrancois, and A.P. Wolfe</origin>
+<pubdate>2005</pubdate>
+<title>High elevation ecosystem responses to atmospheric deposition of nitrogen in the Colorado Rocky Mountains, USA</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Dordrecht, The Netherlands</pubplace>
+<publish>Springer</publish>
+</pubinfo>
+<othercit>pages 429-436</othercit>
+<lworkcit>
+<citeinfo>
+<origin>U.M. Huber, H.K.M. Bugmann, M.A. Reasoner (eds.), ed.</origin>
+<pubdate>2005</pubdate>
+<title>Global change and mountain regions:  an overview of current knowledge. Advances in Global Change Research, Vol. 23</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Dordrecht, The Netherlands</pubplace>
+<publish>Springer</publish>
+</pubinfo>
+<othercit>pages 429-436</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Baron, J.S., K.R. Nydick, H.M. Rueth, B.M. Lafrancois, and A.P. Wolfe. 2005. High elevation ecosystem responses to atmospheric deposition of nitrogen in the Colorado Rocky Mountains, USA. In: U.M. Huber, H.K.M. Bugmann, M.A. Reasoner (eds.). Global change and mountain regions:  an overview of current knowledge. Advances in Global Change Research, Vol. 23. Dordrecht, The Netherlands: Springer. p. 429-436.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2005</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Taken to be the continental US plus Hawaii and Alaska</descgeog>
+<bounding>
+<westbc>-140</westbc>
+<eastbc>-60</eastbc>
+<northbc>75</northbc>
+<southbc>-15</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>nitrogen</themekey>
+<themekey>eutrophication</themekey>
+<themekey>acidification</themekey>
+<themekey>forests</themekey>
+<themekey>lakes</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Baron, J.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Baron, J.S</origin>
+<pubdate>2006</pubdate>
+<title>Hindcasting nitrogen deposition to determine an ecological critical load</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Ecological Applications (ISSN 1051-0761)</sername>
+<issue>16(2):433-439</issue>
+</serinfo>
+<othercit>Vol. 16(2) pages 433-439</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Nydick, K.R., B.M. Lafrancois, J.S. Baron, and B.M. Johnson</origin>
+<pubdate>2004</pubdate>
+<title>Nitrogen regulation of algal biomass, productivity, and composition in shallow mountain lakes, Snowy Range, Wyoming, USA</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Canadian Journal of Fisheries and Aquatic Sciences (ISSN 0706-652X)</sername>
+<issue>61(7):1256-1268</issue>
+</serinfo>
+<othercit>Vol. 61(7) pages 1256-1268</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Lafrancois, B.M., K.R. Nydick, B.M. Johnson, and J.S. Baron</origin>
+<pubdate>2004</pubdate>
+<title>Cumulative effects of nutrients and pH on the plankton of two mountain lakes</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Canadian Journal of Fisheries and Aquatic Sciences (ISSN 0706-652X)</sername>
+<issue>61(7):1153-1165</issue>
+</serinfo>
+<othercit>Vol. 61(7) pages 1153-1165</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Rueth, H.M., J.S. Baron, and E.J. Allstott</origin>
+<pubdate>2003</pubdate>
+<title>Responses of Englemann spruce forests to nitrogen fertilization in the Colorado Rocky Mountains</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Ecological Applications (ISSN 1051-0761)</sername>
+<issue>13(3):664-673</issue>
+</serinfo>
+<othercit>Vol. 13(3) pages 664-673</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Fenn, M.E., J.S. Baron, E.B. Allen, H.M. Rueth, K.R. Nydick, L. Geiser, W.D. Bowman, J.O. Sickman, T. Meixner, D.W. Johnson, and P. Neitlich</origin>
+<pubdate>2003</pubdate>
+<title>Ecological effects of nitrogen deposition in the western United States</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>BioScience (ISSN 0006-3568)</sername>
+<issue>53(4):404-420</issue>
+</serinfo>
+<othercit>Vol. 53(4) pages 404-420</othercit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Baron, J.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>High elevation ecosystem responses to atmospheric deposition of nitrogen in the Colorado Rocky Mountains, USA.  FORT Library Archive Number: 2005/0096 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20050101</begdate><enddate>20051231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21159.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

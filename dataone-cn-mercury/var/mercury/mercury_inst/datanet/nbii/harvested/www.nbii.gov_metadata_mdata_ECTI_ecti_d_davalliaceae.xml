@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/ECTI/ecti_d_davalliaceae.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>H.P. Nooteboom</origin>
+<pubdate>Unknown</pubdate>
+<title>Davalliaceae - A family of Old World (sub) tropical ferns</title>
+<edition>Version 1.0</edition>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Amsterdam, Netherlands</pubplace>
+<publish>Expert Center for Taxonomic Identification</publish>
+</pubinfo>
+<othercit>ISBN: Hyb: 3-540-14818-3</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This CD-ROM contains Nooteboom's complete revision of the Fern Family Davalliaceae, based on his recent series of publications. This family of mostly epiphytic/epilithic (sub-) tropical ferns is distributed from Korea in the north to Eastern Australia and Three Kings Island in the south, and from the Canary Islands in the west to the Marquesas in the Pacific. In the present revision Nooteboom discusses the delimitation of the genera, as well as offering full descriptions for the 43 species and 5 varieties, all taxa with full synonymy and illustrations. For species identification the program offers an illustrated dichotomous Text Key, and a new matrix-based multiple-entry key, Identify It. The Introduction, the illustrated Glossary and the References modules contain important additional information.</abstract>
+<purpose>This CD-ROM provides information about the Fern family Davalliaceae.</purpose>
+<supplinf>This information was obtained from the ETI web site - http://www.eti.uva.nl/Products/CD-catalogue.html.  (previous geoform was 'CD-ROM')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>Unknown</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<spdom>
+<descgeog>From Korea to Eastern Australia and the Three Kings Island in the south and from the Canary Islands in the west to the Marquesas in the Pacific.</descgeog>
+<bounding>
+<westbc>-139</westbc>
+<eastbc>172.4</eastbc>
+<northbc>42</northbc>
+<southbc>-38</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>full descriptions</themekey>
+<themekey>genera</themekey>
+<themekey>5 varieties</themekey>
+<themekey>full synonymy</themekey>
+<themekey>illustrations</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Korea</placekey>
+<placekey>Eastern Australia</placekey>
+<placekey>Three Kings Island</placekey>
+<placekey>Canary Islands</placekey>
+<placekey>Marquesas</placekey>
+<placekey>Pacific</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>Plant</taxonkey>
+<taxonkey>Fern Family</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plant</taxonrv>
+<taxoncl>
+<taxonrn>Subkingdom</taxonrn>
+<taxonrv>Tracheobionta</taxonrv>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Pteridophyta</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Filicopsida</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Polypodiales</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Davalliaceae</taxonrv>
+<common>ferns</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Expert Center for Taxonomic Identification</cntorg>
+<cntper>Webmaster</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>P.O. Box 94766, Mauritskade 61</address>
+<city>Amsterdam</city>
+<postal>NL-1090 GT</postal>
+<country>Netherlands</country>
+</cntaddr>
+<cntvoice>+31-20-5257239</cntvoice>
+<cntfax>+31-20-5257238</cntfax>
+<cntemail>webmaster@eti.uva.nl</cntemail>
+<cntinst>info@eti.uva.nl - general information about ETI. Phone and fax numbers are for general information.  Email adress webmaster@eti.uva.nl may know the most about the online World Biodiversity database.</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<logic>not applicable</logic>
+<complete>Full descriptions are given for the 43 species and 5 varieties, all taxa with full synonymy and illustrations.</complete>
+<lineage>
+<procstep>
+<procdesc>not applicable</procdesc>
+<procdate>not applicable</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<eainfo>
+<overview>
+<eaover>Entity - Ferns; Attributes -all genera, descriptions, full synonymy and illustrations</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Springer</cntorg>
+<cntper>Customer Service</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>Haberstrasse 7</address>
+<city>Heidelberg</city>
+<postal>69126</postal>
+<country>Germany</country>
+</cntaddr>
+<cntvoice>Unknown</cntvoice>
+<cntfax>+49 (0) 6221/345 229;</cntfax>
+<cntemail>orders@springer.de</cntemail>
+</cntinfo>
+</distrib>
+<distliab>ETI is committed to updating its CD-ROM publications in the above mentioned series, including adapting them to hardware configurations and computer operating systems to come (meaning that they will be replaced by new versions when big changes occur). All users of ETI CD-ROM products and the Linnaeus II software can ask for support at our	by a helpdesk [support@eti.uva.nl]. We will do our very best to help you with any questions that may arise.</distliab>
+<stdorder>
+<fees>$59.95</fees>
+<ordering>The Copepods CD-ROM can be ordered at your local bookshop, and the following distributor(s):  Springer Customer Service, Haberstrasse 7, 69126 Heidelberg, Germany; fax: +49 (0) 6221/345 229; e-mail: orders@springer.de; UNESCO Publishing, 7, place de Fontenoy, 75352 Paris 07 SP, France. ETI-partners may order directly at ETI as they receive a discount on the retail prices of all CD's. The Linnaeus II software for Biodiversity Documentation can be purchased only at ETI.</ordering>
+</stdorder>
+<techpreq>Windows: Windows 95/98, Pentium CPU, 16MB RAM, Thousands of colors, 4x speed CD-ROM or higher.  Macintosh: System 7.x/8.x, 680x0/PowerPC CPU, 16MB RAM, Thousands of colors, 4x speed CD-ROM or higher.</techpreq>
+</distinfo>
+<metainfo>
+<metd>20010831</metd>
+<metfrd>20020831</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+<mercury><begdate>Unknown</begdate><enddate>Unknown</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_ECTI_ecti_d_davalliaceae.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

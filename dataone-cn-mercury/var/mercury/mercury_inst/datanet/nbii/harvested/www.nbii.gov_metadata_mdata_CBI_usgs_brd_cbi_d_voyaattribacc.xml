@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_voyaattribacc.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center, 2630 Fanta Reed
+Road, La Crosse, Wisconsin 54603
+</origin>
+<pubdate>2000102</pubdate>
+<title>
+Accuracy Assessment Spatial Database for the
+Voyageurs National Park Vegetation Mapping Project
+</title>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Voyageurs NP Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+The spatial database was prepared by the U.S.
+Geological Survey (USGS) Upper Midwest
+Environmental Sciences Center (UMESC) for the
+USGS-NPS Vegetation Mapping Program.  The Nature
+Conservancy (TNC) and their affiliates
+(Association for Biodiversity Information (ABI)
+and Minnesota County Biological Survey (MCBS) of
+the Minnesota Department of Natural Resources)
+provided vegetation field data collection and
+classification support.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/voya/aa_methods.pdf</onlink>
+<onlink>http://biology.usgs.gov/npsveg/voya/aa_results.pdf</onlink>
+<onlink>http://biology.usgs.gov/npsveg/voya/images/voyaaa.gif</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voyaaa.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voyaaasdts.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/voya/aa_matrix.pdf</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/aa_matrix.xls</onlink>
+<lworkcit>
+<citeinfo>
+<origin>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center
+</origin>
+<pubdate>200102</pubdate>
+<title>
+Voyageurs National Park Vegetation Mapping
+Project, USGS-NPS Vegetation Mapping Program
+</title>
+<geoform>data information for Voyageurs National Park</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Voyageurs NP Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+</pubinfo>
+<othercit>
+The Voyageurs National Park Vegetation Mapping
+Project is part of the USGS-NPS Vegetation Mapping
+Program, which is managed by the USGS Center for
+Biological Informatics.  The USGS UMESC provided
+project coordination and compiled all project data
+for distribution.  The UMESC produced all spatial
+database sets: vegetation spatial database
+coverage, observation points, vegetation field
+plots, accuracy assessment, and various other
+ancillary spatial coverages.  The UMESC also
+performed the accuracy assessment analysis of the
+vegetation spatial database coverage, prepared
+final project documentation discussing methods and
+results, and provided metadata reports.  TNC and
+their affiliates (ABI and MCBS) provided
+ecological and vegetation support, vegetation
+field sampling (plot samples and accuracy
+assessment), data entry, vegetation analysis,
+methods documentation, and classification
+development (including community descriptions)
+based on the U.S. National Vegetation
+Classification (USNVC).  Voyageurs National Park
+provided staff to assist in field efforts, boat
+transportation, and knowledge of the local area.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/voya/</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+Thematic accuracy requirements for the USGS-NPS
+Vegetation Mapping Program specify 80% accuracy
+for each map unit that represents USNVC floristic
+types.  A total of 1288 accuracy assessment (AA)
+sites were selected at Voyageurs National Park and
+environs for a thematic AA analysis of the
+project's vegetation spatial database coverage.
+The field data were collected during the summers
+of 1997 and 1998.  Data from 1251 sites were used
+for the AA analysis.  Sites not used for the
+analysis were due to site inaccessibility,
+insufficient data collected, significant change in
+the landscape, or unmanageable error in the global
+positioning system (GPS) coordinate.  Regardless
+of the data usability to the analysis, all 1288 AA
+sites are represented in the spatial database with
+explanations.  The estimated overall accuracy for
+the vegetation map units is 82.4%.
+</abstract>
+<purpose>
+AA field data were collected and analyzed to
+provide a thematic accuracy assessment of the
+vegetation spatial database coverage for the
+Voyageurs NP Vegetation Mapping Project, USGS-NPS
+Vegetation Mapping Program.
+</purpose>
+<supplinf>
+Information within the spatial point coverage
+includes: ArcInfo default items, Accuracy
+Assessment Site Number, Map Assessment,
+Justification Reason, Type of Match, Assessment
+Comments, Classified Community Name (USNVC
+Association), Provisional Community Name
+(Synonym), Community Element Global (CEGL) Code,
+Map Unit Description Name, Map Unit CEGL Code, Map
+Unit Code, Field Date, AA Method (site selection),
+X-Y Coordinates, and 7.5-minute and 3.75-minute
+Quadrangles.  Complete data for each AA site is
+preserved on hard copy sheets.
+(previous geoform was 'database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>199706</begdate>
+<enddate>199809</enddate>
+</rngdates>
+</timeinfo>
+<current>Range of dates for field data collection</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Voyageurs National Park and environs</descgeog>
+<bounding>
+<westbc>-93.239</westbc>
+<eastbc>-92.436</eastbc>
+<northbc>48.619</northbc>
+<southbc>48.313</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Digital Spatial Database</themekey>
+<themekey>Accuracy Assessment</themekey>
+<themekey>Vegetation</themekey>
+<themekey>US National Vegetation Classification</themekey>
+<themekey>USNVC</themekey>
+<themekey>National Park</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Voyageurs National Park</placekey>
+<placekey>Minnesota</placekey>
+<placekey>USA</placekey>
+<placekey>Ontario</placekey>
+<placekey>Canada</placekey>
+<placekey>Rainy Lake</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>US National Vegetation Classification</taxonkey>
+<taxonkey>USNVC</taxonkey>
+<taxonkey>Vegetation</taxonkey>
+<taxonkey>Plant Community</taxonkey>
+<taxonkey>Association</taxonkey>
+</keywtax>
+<taxonsys>
+<classsys>
+<classcit>
+<citeinfo>
+<origin>
+Anderson, M., P. Bourgeron, M. T. Bryer, R.
+Crawford, L. Engelking, D. Faber-Langendoen, M.
+Gallyoun, K. Goodin, D. H. Grossman, S. Landaal,
+K. Metzler, K. D. Patterson, M. Pyne, M. Reid, L.
+Sneddon, and A. S. Weakley
+</origin>
+<pubdate>1998</pubdate>
+<title>
+International classification of ecological
+communities: terrestrial vegetation of the United
+States.  Volume II.  The National Vegetation
+Classification System: list of types
+</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Arlington, Virginia, USA</pubplace>
+<publish>The Nature Conservancy</publish>
+</pubinfo>
+<othercit>
+U.S. National Vegetation Classification listing of
+physiognomic and floristic levels.
+</othercit>
+<onlink>http://www.natureserve.org/</onlink>
+<onlink>http://www.conserveonline.org/2001/03/p/en/vol1.pdf</onlink>
+</citeinfo>
+</classcit>
+<classmod>
+The Classified Community Name (USNVC Association),
+Provisional Community Name (Synonym), and
+Community Element Global Code were used during the
+thematic AA analysis of the vegetation spatial
+database coverage, and included within the accuracy
+assessment spatial database.
+</classmod>
+</classsys>
+<taxonpro>
+Plot sizes ranged from 20 x 20 m for forests and woodlands
+to 10 x 10 m for shrublands, herbaceous, and nonvascular
+vegetation. Plots were placed subjectively in the most
+representative part of each stand of vegetation. The
+vegetation was visually divided into strata, and height
+and cover abundance of each stratum was estimated. Cover
+of dominant life forms was also estimated to match methods
+used by the Minnesota Natural Heritage Program survey
+methods (e.g. total cover of evergreen trees or shrubs was
+recorded separately from cover of deciduous trees or shrubs
+(Norm Aaseng, personal communication, 1996). All the
+species of each stratum were listed (including mosses and
+lichens) and percent cover estimated using the Braun-Blanquet
+cover scale. Additional species within the vegetation unit
+or polygon that occurred outside of sampled plots
+(generally within 2 m of the plot border) were listed
+separately. Species that were not identifiable in the field
+were collected for later identification. Vegetation plot
+data were entered into the Minnesota Natural Heritage
+Program's plot database. Species were assigned standardized
+codes and names based on the PLANTS database (USDA, NRCS
+1999). These data were transferred to the PLOTS database
+developed by the Nature Conservancy (TNC 1997) for final
+inclusion in this report. For the vegetation analysis, the
+data were analyzed using the PC-ORD Multivariate Analysis
+package (McCune and Mefford 1997). The data were analyzed
+in a series of runs, partitioning the data into smaller
+sets based on clusters found in the larger data sets, until
+sufficient resolution was achieved. Multivariate analysis
+was done using both Non-metric Multidimensional Scaling or
+NMS (Clarke 1993) and Cluster Analysis. A Bray-Curtis
+ordination was used as a starting point for the NMS and
+Ward's Method was used in the Cluster Analysis. These were
+then reviewed and assessed for perceived environmental
+gradients (e.g. moisture gradients, peat depth, soil depth,
+etc.). Indicator Species Analysis (Dufrene and Legendre 1997)
+was used to identify indicator species and to assess the
+reassignment of plots into different cluster analysis groups.
+These groups were compared with the USNVC (Faber-Langendoen
+et al. 1996, Grossman et al. 1998), as well as to
+northwestern Ontario types (Sims et al. 1989 and 1997,
+Harris et al. 1996). Care was taken not to over-emphasize local
+variations found at Voyageurs compared to more extensive
+information compiled at the state or regional level.
+Nevertheless, several types in the USNVC were revised
+based on these analyses. Plot summaries were
+produced for each type.
+</taxonpro>
+</taxonsys>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>
+Those using the database should understand the
+data and determine for themselves the fitness of
+the data prior to use.  For publication and
+dissemination, citations or credit should be given
+to the U.S. Geological Survey Center for
+Biological Informatics, the National Park Service,
+and the U.S. Geological Survey Upper Midwest
+Environmental Sciences Center.  The Nature
+Conservancy and their affiliates (Association for
+Biodiversity Information and Minnesota County
+Biological Survey of the Minnesota Department of
+Natural Resources) should be given credit for
+ecological support.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>U.S. Geological Survey, Center for Biological Informatics</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>U.S. Geological Survey, Center for Biological Informatics, MS 302, Room 8000, Building 810, Denver Federal Center</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/voya/images/voyaaa.gif</browsen>
+<browsed>
+Graphic file showing accuracy assessment site
+locations.  Low resolution for web browser - 1055
+x 815 pixel size, 137 KB file size.
+</browsed>
+<browset>GIF</browset>
+</browse>
+<datacred>USGS UMESC, TNC and their affiliates (ABI and MCBS)</datacred>
+<native>UNIX-ARC/INFO</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+The various attributes within the spatial database
+were reviewed and checked for consistency with
+their original sources (digital data, data
+sheets), using a combination of manual and digital
+means.
+</attraccr>
+</attracc>
+<logic>
+All point features are unique with their own
+site attribute and X-Y coordinates.  There are no
+duplicate points.
+</logic>
+<complete>
+All 1288 AA sites that were selected for field
+assessment are included in the spatial point
+coverage.  Each of the 1251 successful database
+points that were used for the assessment analysis
+are complete with select information about the
+field site, along with X-Y coordinates with
+projection in Universal Transversal Mercator
+(UTM), Zone 15, with datum in North American Datum
+of 1983 (NAD83).  The remaining AA sites not used
+for the analysis are included in the database with
+explanations.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+X-Y coordinates of most data locations were
+collected using a Rockwell Precision Lightweight
+GPS Receiver (PLGR).  A few locations were
+collected using a Trimble GPS unit.  Most points
+were successfully collected with positional
+accuracies ranging from +/- 6 to +/- 20 meters.
+</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<method>
+<methtype>Field</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>Accuracy Assessment</methkey>
+</methodid>
+<methdesc>
+Accuracy Assessment Procedures, modified and
+adapted to unique circumstances with the Voyageurs
+NP Vegetation Mapping Project.  Refer to the
+</methdesc>
+<methcite>
+<citeinfo>
+<origin>
+Environmental Systems Research Institute, National
+Center for Geographic Information and Analysis,
+and The Nature Conservancy
+</origin>
+<pubdate>199411</pubdate>
+<title>
+Accuracy Assessment Procedures.  NBS/NPS
+Vegetation Mapping Program
+</title>
+<edition>Final Draft</edition>
+<geoform>document</geoform>
+<othercit>
+Accuracy assessment methodology modified and
+adapted to match unique characteristics and
+challenges (e.g. remote locations, logistics).
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/aa/aa.html</onlink>
+</citeinfo>
+</methcite>
+</method>
+<method>
+<methtype>Lab</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>Accuracy Assessment</methkey>
+</methodid>
+<methdesc>
+Used during AA analysis to compare and tabulate
+the total number of AA sites and map polygons that
+were in agreement.
+</methdesc>
+<methcite>
+<citeinfo>
+<origin>SAS Institute, Inc.</origin>
+<pubdate>1996</pubdate>
+<title>SAS/STAT</title>
+<edition>Release 6.12 Edition</edition>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Cary, NC</pubplace>
+<publish>SAS Institute, Inc.</publish>
+</pubinfo>
+</citeinfo>
+</methcite>
+</method>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center, 2630 Fanta Reed
+Road, La Crosse, Wisconsin 54603
+</origin>
+<pubdate>200102</pubdate>
+<title>
+Vegetation Spatial Database Coverage for the
+Voyageurs National Park Vegetation Mapping Project
+</title>
+<geoform>database</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Voyageurs NP Vegetation Mapping Project</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, Colorado</pubplace>
+<publish>
+U.S. Geological Survey, Center for Biological
+Informatics
+</publish>
+</pubinfo>
+<othercit>
+The spatial database was prepared by the U.S.
+Geological Survey (USGS) Upper Midwest
+Environmental Sciences Center (UMESC) for the
+USGS-NPS Vegetation Mapping Program.  The Nature
+Conservancy (TNC) and their affiliates
+(Association for Biodiversity Information (ABI)
+and Minnesota County Biological Survey (MCBS) of
+the Minnesota Department of Natural Resources)
+provided ecological and vegetation classification
+support.
+</othercit>
+<onlink>http://biology.usgs.gov/npsveg/voya/</onlink>
+</citeinfo>
+</srccite>
+<typesrc>digital file</typesrc>
+<srctime>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>19950927</caldate>
+</sngdate>
+<sngdate>
+<caldate>19960913</caldate>
+</sngdate>
+<sngdate>
+<caldate>19960914</caldate>
+</sngdate>
+<sngdate>
+<caldate>19961003</caldate>
+</sngdate>
+</mdattim>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>VOYA Vegetation Spatial Database Coverage</srccitea>
+<srccontr>None</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center
+</origin>
+<pubdate>2000</pubdate>
+<title>
+USGS 7.5-minute and 3.75-minute Quadrangle
+Boundaries of Voyageurs National Park and Environs
+</title>
+<geoform>database</geoform>
+<pubinfo>
+<pubplace>La Crosse, Wisconsin</pubplace>
+<publish>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center
+</publish>
+</pubinfo>
+<othercit>
+7.5-minute and 3.75-minute quadrangle polygon
+coverage modified from original source for the
+Voyageurs NP Vegetation Mapping Project.  Coverage
+used to merge quadrangle names into existing
+spatial database.  Projection in Universal
+Transverse Mercator, Zone 15, and datum in North
+American Datum of 1983.  The coverage is available
+on the project's CD-ROM.
+</othercit>
+</citeinfo>
+</srccite>
+<srcscale>12000</srcscale>
+<typesrc>digital file</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>Unknown</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>final version</srccurr>
+</srctime>
+<srccitea>VOYA Quadrangle Boundary Coverage</srccitea>
+<srccontr>None</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>The Nature Conservancy</origin>
+<pubdate>1997</pubdate>
+<title>PLOTS Database System</title>
+<edition>Version 1.1</edition>
+<geoform>database</geoform>
+<pubinfo>
+<pubplace>Arlington, Virginia</pubplace>
+<publish>The Nature Conservancy</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<typesrc>computer program</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>199706</begdate>
+<enddate>199809</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>range of dates for field data collection</srccurr>
+</srctime>
+<srccitea>VOYA AA Observations</srccitea>
+<srccontr>None</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>
+SITE SELECTION &amp; FIELD METHODS: The number of
+sites selected for field assessment depended on
+how common a map unit was, as outlined in the
+Program's "Accuracy Assessment Procedures"
+document (ESRI, NCGI, &amp; TNC 1994).  Site locations
+were stratified as best possible across Voyageurs
+National Park and environs based on vegetation map
+data available at the time of field assessment.  A
+total of 1288 sites were selected for assessment.
+AA field data were collected during the 1997 and
+1998 field seasons.  During 1997 and early 1998, a
+digital database of the polygons was not
+available, thus the AA field team relied on copies
+of interpreted overlays and aerial photographs to
+select sites.  Data for 552 AA sites were
+collected using the &amp;#147;overlay&amp;#148; selection method.
+During 1997, the focus was in the northern
+one-third of the project area.  During early 1998,
+the focus was in the Rat Root Peatland and western
+Kabetogama Lake.  The AA team chose polygons and
+then hiked to them to determine the vegetation
+type.  X-Y coordinates were collected with a PLGR
+and occasionally a Trimble GPS unit, with
+projection in UTM, Zone 15, and datum in North
+American Datum of 1927 (NAD27).  Canopy structure,
+dominant species by strata, environmental
+features, adjacent vegetation types, and rationale
+for classification were also recorded on data
+sheets.  By the 1998 field season, much of the
+polygon data had been digitized, enabling the AA
+teams to have a computer-generated selection of
+sampling points.  Data for 736 AA sites were
+collected using the &amp;#147;digital&amp;#148; selection method.
+The majority of the AA sites were selected in the
+bottom two-thirds of the project area.  3 times
+the number of sites needed were generated so that
+1) point locations falling in close proximity to
+polygon edges could be eliminated (to reduce
+location error due to GPS positional error) and 2)
+remote locations of individual points could be
+eliminated for logistical matters (staff, time,
+and cost issues).  Hard copy 1:12,000-scale
+orthophoto quadrangle maps, produced from USGS
+3.75-minute digital orthophoto quadrangles
+(DOQ's), were plotted with vegetation polygons and
+final selection of AA points overlaying the maps.
+The orthophoto maps were used to help navigate
+across terrain and to help confirm proper site
+location.  X-Y coordinates (UTM, Zone 15, NAD83)
+for each selected AA site were uploaded into PLGR
+units.  Each site was navigated to using PLGR
+units.  Once the site was reached, the vegetation
+type was determined and additional data (as
+described with the prior year's data collection)
+were recorded.  All AA data were entered into the
+PLOTS database (TNC 1997) and reviewed for errors.
+</procdesc>
+<procdate>1997-1998</procdate>
+</procstep>
+<procstep>
+<procdesc>
+ANALYSIS: 1251 of the 1288 AA sites were used for
+the AA analysis.  Some sites could not be reached,
+others offered insufficient field data to classify
+the vegetation accurately, and others had
+unmanageable or missing X-Y coordinates.  A couple
+sites were dropped because of changes in the
+landscape since date of photograph (tree clearing,
+lake drawdown).  Most of the 1997 and some of the
+1998 field X-Y coordinates were collected in
+NAD27.  These were identified and converted to
+NAD83.  The NAD83 X-Y coordinates, along with
+selected AA data fields from the PLOTS database,
+were intersected with the vegetation spatial
+database coverage, producing an output table to
+begin a comparison between field classifications
+and map units of polygons in which the AA X-Y
+coordinate is located.  USNVC associations (using
+Community Element Global (CEGL) codes) were
+compared to map unit codes.  Mismatches were
+investigated to discern true errors from false
+errors.  False errors might be a GPS positional
+error (placing the point into an adjacent polygon
+on the map than the actual field location), a
+transition zone offering expressions of more than
+one vegetation type, or an inclusion area that was
+less than minimum mapping unit within the map
+polygon.  Assessment results along with
+explanations were preserved in a digital
+spreadsheet, and eventually included in the final
+spatial database.  Some map units were grouped
+together because they represented phases of 1
+USNVC association.  Likewise, some CEGL codes were
+grouped together because the map unit represents a
+USNVC alliance (having 2 or more associations, due
+to mapping limitations).  Once a 1:1 relationship
+was established between map units and vegetation
+types, PROC FREQ (SAS 1996) was used to compare
+and tabulate the total number of AA sites and map
+polygons that were in agreement.  The numbers were
+transferred into a contingency table, where user's
+and producer's accuracy percentages were figured
+for each map unit.  Based on the results of this
+thematic accuracy assessment, the estimated
+overall accuracy for vegetation map units is
+82.4%.
+</procdesc>
+<procdate>1999-2000</procdate>
+</procstep>
+<procstep>
+<procdesc>
+SPATIAL DATABASE: The AA sites were collected in
+UTM projection, Zone 15.  Some sites were
+collected with datum in NAD27, others in NAD83.
+The NAD27 X-Y coordinates (most coordinates
+collected in 1997 and a few collected in 1998)
+were converted to UTM, Zone 15, NAD83 using
+ArcInfo (Version 7.2.1 Patch 2).  The look up
+table (LUT) containing the AA analysis data and
+results (from the ANALYSIS step) was originally
+created in Microsoft (R) Excel 97 and then
+converted to dBASE IV format (dbf).  The LUT was
+imported into ArcView (R) GIS (Version 3.1) as an
+Event Theme using the UTM, Zone 15, NAD83 X-Y
+coordinates and then converted to a Shapefile
+coverage.  USGS 7.5-minute and 3.75-minute
+quadrangle boundary names were merged with the AA
+site Shapefile coverage using ArcView software.
+The Shapefile coverage was then converted to an
+ArcInfo coverage using the Shapearc command in
+ArcInfo (Version 8.0.2).  ArcInfo was used to
+produce the ArcInfo Export file.
+</procdesc>
+<procdate>2000</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Kevin D. Hop</cntper>
+<cntorg>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center
+</cntorg>
+</cntperp>
+<cntpos>Project Team Leader - Biologist (Remote Sensing)</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Upper Midwest
+Environmental Sciences Center, 575 Lester Avenue
+</address>
+<city>Onalaska</city>
+<state>Wisconsin</state>
+<postal>54650</postal>
+</cntaddr>
+<cntaddr>
+<addrtype>organization address</addrtype>
+<address>2630 Fanta Reed Road</address>
+<city>La Crosse</city>
+<state>Wisconsin</state>
+<postal>54603</postal>
+</cntaddr>
+<cntvoice>(608) 783-7550 ext 46</cntvoice>
+<cntvoice>(608) 783-6451 (organization)</cntvoice>
+<cntfax>(608) 783-8058</cntfax>
+<cntfax>(608) 783-6066 (org)</cntfax>
+<cntemail>kevin_hop@usgs.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>
+Voyageurs National Park is located in northern
+Minnesota, with the northern extent of the Park
+bordering Ontario, Canada.  The northwest corner
+of the Park is 18 miles east of International
+Falls, Minnesota.  The southwest corner of the
+Park is adjacent the Boundary Waters Canoe Area,
+Superior National Forest.
+</indspref>
+<direct>Point</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>15</utmzone>
+<transmer>
+<sfctrmer>0.9996</sfctrmer>
+<longcm>-93</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>1</absres>
+<ordres>1</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodedic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+Items within the spatial database LUT in addition
+to the ArcInfo default items include: 1) VOYA_AA -
+Accuracy Assessment site number, 2) ASSESS_MAP -
+Assessment of the vegetation spatial database
+coverage based on field assessment data (Correct,
+Justified Correct, Error, Not Assessed), 3) REASON
+- Justifying reason for the assessment call to the
+vegetation spatial database coverage (Match, GPS
+Error, Ecotone, Inclusion, Mismatch, Dropped), 4)
+MATCH_TYPE - Type of match or mismatch supporting
+the REASON Item (Direct Match, Mosaic/Complex
+Match, Mosaic Match, Ecotone Match, Inclusion
+Match, True Mismatch, Not Applicable), 5) COMMENT
+- Explanation of the assessment results to the
+vegetation spatial database coverage, 6) AA_CLASS
+- Classified Community Name (USNVC Association)
+assigned to the field assessment data, 7) AA_PROV
+- Provisional Community Name assigned to the field
+assignment data, 8) AA_CEGL - Community Element
+Global Code (Elcode link to USNVC Association)
+assigned to the field assessment data, 9) MAP_DESC
+- Map Unit Description Name of the vegetation
+spatial database coverage polygon containing the
+field assessment X-Y coordinate, 10) MAP_CEGL -
+Community Element Global Code from the vegetation
+spatial database coverage polygon containing the
+field assessment X-Y coordinate, 12) AA_DATE -
+Date accuracy assessment site was collected
+(yyyymmdd), 13) X_UTM83 - Easting UTM, Zone 15
+coordinate in NAD83 14) Y_UTM83 - Northing UTM,
+Zone 15 coordinate in NAD83 15) QUAD_24K - USGS
+7.5-minute quadrangle (1:24,000-scale) AA site is
+located, 16) QUAD_12K - USGS 3.75-minute
+quadrangle (1:12,000-scale) AA site is located.
+</eaover>
+<eadetcit>
+Names, and Community Element Global Codes
+(AA_CLASS, AA_PROV, AA_CEGL, &amp; MAP_CEGL):
+Anderson, M., P. Bourgeron, M. T. Bryer, R.
+Crawford, L. Engelking, D. Faber-Langendoen, M.
+Gallyoun, K. Goodin, D. H. Grossman, S. Landaal,
+K. Metzler, K. D. Patterson, M. Pyne, M. Reid, L.
+Sneddon, and A. S. Weakley.  1998.  International
+classification of ecological communities:
+terrestrial vegetation of the United States.
+Volume II: The National Vegetation Classification
+System: list of types.  The Nature Conservancy,
+Arlington, Virginia, USA.
+</eadetcit>
+<eadetcit>
+Map Unit Description Names, and Map Unit Codes
+(OBS_DESC &amp; OBS_CODE): Map Units for the Voyageurs
+National Park Vegetation Mapping Project.  March
+2000.  U.S. Geological Survey Upper Midwest
+Environmental Sciences Center, La Crosse,
+Wisconsin.
+</eadetcit>
+<eadetcit>
+USGS 7.5-minute and 3.75-minute quadrangle names
+(QUAD_24K &amp; QUAD_12K): USGS 7.5-minute and
+3.75-minute Quadrangle Boundary Coverage of
+Voyageurs National Park and Environs.  May 2000.
+Upper Midwest Environmental Sciences Center, La
+Crosse, Wisconsin.  Note: coverage modified from
+original source specifically for the Voyageurs NP
+Vegetation Mapping Project.
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>
+U.S. Geological Survey, Center for Biological
+Informatics
+</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological
+Informatics, MS 302, Room 8000, Building 810,
+Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>
+Accuracy Assessment Spatial Database for the
+Voyageurs National Park Vegetation Mapping Project
+</resdesc>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the U.S.
+Geological Survey, no warranty expressed or
+implied is made regarding the accuracy or utility
+of the data on any other system or for general or
+scientific purposes, nor shall the act of
+distribution constitute any such warranty.  This
+disclaimer applies both to individual use of the
+data and aggregate use with other data.  It is
+strongly recommended that these data are directly
+acquired from a U.S. Geological Survey server, and
+not indirectly through other sources which may
+have changed the data in some way.  It is also
+strongly recommended that careful attention be
+paid to the contents of the metadata file
+associated with these data.  The U.S. Geological
+Survey shall not be held liable for improper or
+incorrect use of the data described and/or
+contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>PDF</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/voya/aa_methods.pdf</networkr>
+<networkr>http://biology.usgs.gov/npsveg/voya/aa_results.pdf</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>JPG</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/voya/images/voyaaa.gif</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voyaaa.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/voyaaasdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>PDF</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/voya/aa_matrix.pdf</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>Excel</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/voya/aa_matrix.xls</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>200102</metd>
+<metrd>20050520</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19970601</begdate><enddate>19980931</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_voyaattribacc.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

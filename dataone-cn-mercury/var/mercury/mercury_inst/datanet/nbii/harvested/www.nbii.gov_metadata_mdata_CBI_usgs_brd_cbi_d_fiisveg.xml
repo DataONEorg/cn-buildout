@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_fiisveg.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Conservation Management Institute</origin>
+<origin>NatureServe</origin>
+<origin>New York Natural Heritage Program</origin>
+<pubdate>200204</pubdate>
+<title>NPS Vegetation Mapping Program: Vegetation of Fire Island National Seashore</title>
+<edition>1.0</edition>
+<geoform>maps data</geoform>
+<onlink>http://biology.usgs.gov/npsveg/fiis/fiisveg.html</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/fiis/fiis.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/fiis/fiissdts.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/fiis/fiisbdy.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/fiis/fiisbdysdts.exe</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This dataset is the finished product of the NPS Vegetation Mapping Project at Fire Island National Seashore.  This dataset depicts the association-level vegetation map for the entire length of Fire Island and the William Floyd Estate.  The park islands in the Great South Bay can be found in a separate file included on the disk.  These vegetation polygons were interpreted and delineated from 1:1200-scale true-color aerial photographs taken in April 1997.  They are attributed with NVCS associations as well as height, pattern, and density information.</abstract>
+<purpose>The purpose of this data is to provide the managers and researchers on Fire Island with an accurate spatially referenced dataset to assist in their efforts.</purpose>
+<supplinf>(previous geoform was 'vector digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>199704</caldate>
+</sngdate>
+</timeinfo>
+<current>ground condition as of 1997</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Fire Island National Seashore and environs</descgeog>
+<bounding>
+<westbc>-73.315058</westbc>
+<eastbc>-72.751087</eastbc>
+<northbc>40.785117</northbc>
+<southbc>40.607277</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Fire Island</themekt>
+<themekey>Fire Island</themekey>
+<themekey>barrier island</themekey>
+<themekey>NVCS</themekey>
+<themekey>photointerpretation</themekey>
+<themekey>GPS</themekey>
+<themekey>vegetation classification</themekey>
+<themekey>NPS Vegetation Mapping Project</themekey>
+<themekey>GIS</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Long Island</placekey>
+<placekey>coastal mapping</placekey>
+<placekey>William Floyd Estate</placekey>
+</place>
+</keywords>
+<accconst>There are no access constraints attached to these data.</accconst>
+<useconst>These data were designed to identify and map vegetation polygons only.  They are not appropriate for other uses such as legal property boundary identification, tax assessment, etc.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Conservation Management Institute</cntorg>
+<cntper>Scott Klopfer</cntper>
+</cntorgp>
+<cntpos>GIS &amp; Remote Sensing Division Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>203 West Roanoke Street</address>
+<city>Blacksburg</city>
+<state>Virginia</state>
+<postal>24061</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>540 231 7348</cntvoice>
+<cnttdd>none</cnttdd>
+<cntfax>540 231 7019</cntfax>
+<cntemail>sklopfer@vt.edu</cntemail>
+<hours>8-5 Monday through Friday EST</hours>
+<cntinst>email preferred</cntinst>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/fiis/images/fiisveg.html</browsen>
+<browsed>
+4 Kbyte graphic in map composition
+layout
+</browsed>
+<browset>JPG</browset>
+</browse>
+<native>Microsoft Windows 2000 Version 5.0 (Build 2195) ; ESRI ArcCatalog 8.1.0.642</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+The accuracy of classification to association was completed with both a traditional and a fuzzy-set assessment.  This assessment only determined accuracy for polygons at or above the MMU.  The overall accuracy of the map was determined to be .58 (Kappa).  The subsequent Level 5,4, and 3 level fuzzy accuracy assessment produced values of .64, .77 and .87 respectively.  The Level 4 accuracy assessment value from the fuzzy assessment is provided for each class.
+Accuracy assessments were also performed for polygons below the MMU.  These can be found in the final report.
+</attraccr>
+<qattracc>
+<attraccv>Maritime Holly Forest</attraccv>
+<attracce>
+Producers:88.9%
+Users: 85.7%
+This type was very similar to Maritime Deciduous Scrub Forest and was considered the same at Level 4.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Old Field Red-Cedar Forest</attraccv>
+<attracce>
+Producers:100%
+Users: 100%
+The type was easily identified and limited to two large stands on the Floyd Estate.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Maritime Post Oak Forest</attraccv>
+<attracce>
+Producers: 0%
+Users: 0%
+Only one stand was identified as this type.  That stand was classified as Coastal Oak-Heath Forest during accuracy assessment.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Coastal Oak-Heath Forest</attraccv>
+<attracce>
+Producers: 100%
+Users: 88.9%
+This type was most often confused with Pitch pine - Oak Forest which differs only in amount of Pinus rigida in the canopy.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Japanese Black Pine Forest</attraccv>
+<attracce>
+Producers: 75%
+Users: 78.6%
+This type was most often confused with Pitch Pine Dune Woodland.  The two types were considered the same at Level 4.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Pitch Pine - Oak Forest</attraccv>
+<attracce>
+Producers: 100%
+Users: 85.7%
+The photointerpreters felt that some polygons on the Floyd Estate were more appropriately assigned to this class rather than the Coastal Oak-Heath Forest.  This type was very similar to the Coastal Oak -Heath type and was considered to be the same thing at Level 4.  This type may actually be a product of a more oak dominated canopy with dense Smilax spp. beneath.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Pitch Pine Dune Woodland</attraccv>
+<attracce>
+Producers: 81.3%
+Users: 83.3%
+This type was often found in small, linear, polygons, which may account for confusion with non-coniferous associations.  Considered the same as Japanese Black Pine Forest for Level 4.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Northern Dune Shrubland</attraccv>
+<attracce>
+Producers: 57.1%
+Users: 76.9%
+There is no clear pattern of confusion beyond other shrubs, although some confusion (with herbaceous types) is due to complex polygon interspersion and small polygons.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Maritime Deciduous Scrub Forest</attraccv>
+<attracce>
+Producers: 68.0%
+Users: 64.7%
+Nearly all of the confusion with this type occurs with other shrub associations such as Highbush Blueberry Shrub Forest.  This type was considered the same as Maritime Holly Forest at Level 4.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Maritime Vine Dune</attraccv>
+<attracce>
+Producers: 25.0%
+Users: 25.0%
+This type is difficult to identify both from photography and in the field.  It is closely associated with Northern Dune Shrubland and is often confused with it.  It is also a rare type on Fire Island.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Highbush Blueberry Shrub Forest</attraccv>
+<attracce>
+Producers: 50.0%
+Users: 20.0%
+This type is frequently confused with the other, more common wetland shrub types Maritime Deciduous Scrub Forest and Northern Salt Shrub.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Northern Salt Shrub</attraccv>
+<attracce>
+Producers: 60.0%
+Users: 57.9%
+This type is frequently confused with other wetland types such as Highbush Blueberry Shrub Forest.  Phragmites is found frequently within these stands as well.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Beach Heather Dune</attraccv>
+<attracce>
+Producers: 81.5%
+Users: 86.4%
+This type exists both as an association and with Northern Beach Grass Dune in mosaic.  Errors are thought to occur in smaller polygons juxtaposed with Northern Beach Grass Dune and Northern Dune Shrubland.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Northern Interdunal Cranberry Swale</attraccv>
+<attracce>
+Producers: 100%
+Users: 40%
+No single polygon of this association exists at the 0.25 MMU.  These accuracy estimates are from small polygons.  This type may be over-predicted on the landscape because it is easily confused with small herbaceous wetlands that are also filled with water at the time of photo acquisition.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Northern Beach Grass Dune</attraccv>
+<attracce>
+Producers: 87.5%
+Users: 76.9%
+This is the most prevalent association on Fire Island.  It is part of a mosaic with Beach Heather Dune and most observed confusion is likely due to smaller polygons interspersed with that and Northern Dune Shrubland.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Overwash Dune Grassland</attraccv>
+<attracce>
+Producers: 0%
+Users: 0%
+This type was very limited in distribution on Fire Island.  Although several polygons were labeled as this type, none were identified as such in the field.  This type is easily confused with Beach Heather Dune or Northern Beach Grass Dune which further confounds mapping efforts.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Brackish Interdunal Swale</attraccv>
+<attracce>
+Producers: 66.7%
+Users: 50.0%
+This wetland type was often delineated with adjacent Reedgrass Marsh.  It is also a rare type on
+Fire Island existing in polygons at or below the 0.25 ha MMU.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Brackish Meadow</attraccv>
+<attracce>
+Producers: 100%
+Users: 20.0%
+Although this type occurs all over Fire Island, it is found in narrow bands or small polygons often associated with Reedgrass Marsh.  Only 1 field assessment point was located within this type.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Reedgrass Marsh</attraccv>
+<attracce>
+Producers: 58.8%
+Users: 64.7%
+Low accuracy is likely due to small sample size in the accuracy assessment set.  This type was almost exclusively confused with other wetland types.  Variable coverage density of Phragmites in other types may lead to confusion.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Low Salt Marsh</attraccv>
+<attracce>
+Producers: 97.3%
+Users: 100%
+This type was most often confused with High Salt Marsh.  Photointerpretation was mostly determined by presence of water in the photographs which is highly variable (tides, season).  This type was considered the same as High Salt Marsh for Level 4.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>High Salt Marsh</attraccv>
+<attracce>
+Producers: 81.3%
+Users: 100%
+This type is found in close proximity and intermingled with the Low Salt Marsh type.  These two were considered the same for the Level 4 assessment.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Northern Sandplain Grassland</attraccv>
+<attracce>
+Producers: 0%
+Users: 0%
+This type was only mapped in a single small polygon and was identified elsewhere during accuracy assessment.  It is a very rare type and likely exists in very few small patches.  Further confounding this type is its similarity to Northern Dune Shrubland.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Cultivated Pasture</attraccv>
+<attracce>
+Producers: 100%
+Users: 100%
+This type is easily identified on the Floyd Estate.
+</attracce>
+</qattracc>
+<qattracc>
+<attraccv>Interdune Beachgrass-Beach Heather Mosaic</attraccv>
+<attracce>
+Producers: 100%
+Users: 89.5%This mosaic was considered correct if identified as either Northern Beach Grass Dune or Beach Heather Dune.  There is likely much more of this type on Fire Island, but the sub-0.25 ha polygons make its appearance in the map more rare.
+</attracce>
+</qattracc>
+</attracc>
+<logic>All linework was cleaned before building topology.  All resulting polygons are attributed with the appropriate information.</logic>
+<complete>The minimum mapping unit for this project is 0.25-ha.  There are, however, several polygons in the map that are smaller than this mapping area.  We decided to include these small polygons for several reasons.  The most important of these is that many of the recognizable vegetation and man-made features on Fire Island are smaller than the 0.25 MMU planned in the contract.  Inclusion of smaller mapping units allowed us to capture these features and improve the utility of the vegetation map.  It also allowed us to avoid conglomerating obviously homogeneous blocks of vegetation into "mosaics" or "complexes" at the 0.25-ha unit level.</complete>
+<posacc>
+<horizpa>
+<horizpar>
+We collected a total 89 map points on Fire Island and the William Floyd Estate.  Of these, 21 points were removed because the standard deviation of the differentially corrected location was higher than 10 m.  The resulting 68 points were then overlaid onto the vegetation map and georeferenced aerial photography to assess spatial accuracy of the map.  Each point was examined, and the difference (in meters) between the GPS location and map location was measured using the measuring tool in Arc View.  This value was entered into the appropriate field in the database.  If the exact location of the map point could not be determined or discerned from the aerial photograph, the point was eliminated from consideration.
+A total of 21 points were removed because they could not be accurately measured.  This left 47 points for assessing the spatial accuracy of the vegetation map.  The mean error distance was found to be 4.42 m (&amp;plusmn; 4.94 m).  Errors distances ranged from 0.00 m - 30.0 m.  When the single 30 m error point was removed (assumed to be an outlier), the mean error distance was 3.86 m ((&amp;plusmn; 3.18 m) with a range of 0.00 m - 14.09 m.
+</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Aerographics, Inc.</origin>
+<pubdate>199704</pubdate>
+<title>Aerial Photography</title>
+<geoform>true-color aerial photography</geoform>
+</citeinfo>
+</srccite>
+<typesrc>hard copy stereo pair photographs</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>199707</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>FIIS 1997 CIR Aerial Photographs</srccitea>
+<srccontr>This dataset was used for photointerpretation (with stereoscopes).</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Aerographics, Inc.</origin>
+<pubdate>199704</pubdate>
+<title>Aerial Photography</title>
+<geoform>Georeferenced True Color aerial photography</geoform>
+</citeinfo>
+</srccite>
+<typesrc>digital image</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>199707</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>FIIS 1997 CIR Aerial Photographs</srccitea>
+<srccontr>These are the scanned and georeferenced versions of the true color photography.  These were used to delineate polygon boundaries with on-screen digitizing.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>This vegetation map was created from aerial photographs.  The photos were scanned at 600 dpi and georeferenced using control points gathered from georeferenced digital orthophoto quads from the USGS.  Once the digital photos were georeferenced, they were used to delineate map polygons interpreted from the stereo-paired aerial photographs.  Once the delineation of polygons was complete, each polygon was attributed with it's appropriate map class (or vegetation association), height class, pattern class, and density value.  The final layer was converted to an ARCINFO coverage and topology was built.</procdesc>
+<procdate>199704</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Complete chain</sdtstype>
+<ptvctcnt>15733</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Label point</sdtstype>
+<ptvctcnt>7738</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>7738</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+<ptvctcnt>4</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>18</utmzone>
+<transmer>
+<sfctrmer>0.999600</sfctrmer>
+<longcm>-75.000000</longcm>
+<latprjo>0.000000</latprjo>
+<feast>500000.000000</feast>
+<fnorth>0.000000</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000336</absres>
+<ordres>0.000336</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Vegetation / Land Cover (fiis_veg.pat)</enttypl>
+<enttypd>Association-level vegetation / landcover information for the entire length of Fire Island and the William Floyd Estate.  The park islands in the Great South Bay can be found in a separate file included on the disk.  These vegetation polygons were interpreted and delineated from 1:1200-scale true-color aerial photographs taken in April 1997.  They are attributed with NVCS associations as well as height, pattern, and density information.</enttypd>
+<enttypds>Fire Island National Seashore and the USGS-NPS Vegetation Mapping Program.</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Polygon</edomv>
+<edomvd>A two-dimensional feature representing an area such as a state or county.</edomvd>
+<edomvds>ESRI Glossary definitions.</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AREA</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PERIMETER</attrlabl>
+<attrdef>Perimeter of feature in internal units.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FIIS_VEG#</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FIIS_VEG-ID</attrlabl>
+<attrdef>User-defined feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Whole numbers</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>MAP_CODE</attrlabl>
+<attrdef>numeric code corresponding to map class</attrdef>
+<attrdefs>National Vegetation Classification Standard</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Fire Island Vegetation Map Codeset</codesetn>
+<codesets>Conservation Management Institute</codesets>
+</codesetd>
+</attrdomv>
+<attrdomv>
+<codesetd>
+<codesetn>National Vegetation Classification Standard</codesetn>
+<codesets>Federal Geographic Data Commission</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>MAP_CODE_DESC</attrlabl>
+<attrdef>English (not latin names) textual description of the map class name</attrdef>
+<attrdefs>Fire Island National Seashore</attrdefs>
+<attrdomv>
+<udom>textual class name</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>HEIGHT_CODE</attrlabl>
+<attrdef>numeric code corresponding to height categories</attrdef>
+<attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>0 - 0.5 m</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>0.5 - 1m</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>3</edomv>
+<edomvd>1- 5 m</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>4</edomv>
+<edomvd>5 - 15 m</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>5</edomv>
+<edomvd>15 - 30 m</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>0</edomv>
+<edomvd>Not Applicable</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>HEIGHT_CODE_DESC</attrlabl>
+<attrdef>textual description of the height class name</attrdef>
+<attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+<attrdomv>
+<edom>
+<edomv>"Not Applicable"</edomv>
+<edomvd>Vegetation height is not applicable to this map unit class</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"0 m - 0.5 m"</edomv>
+<edomvd>Vegetation is between 0 meters and 0.5 meters in height</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"0.5 m - 1 m"</edomv>
+<edomvd>Vegetation is between 0.5 meters and 1 meter in height</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"1 m - 5 m"</edomv>
+<edomvd>Vegetation is between 1 meter and 5 meters in height</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"5 m - 15 m"</edomv>
+<edomvd>Vegetation is between 5 meters and 15 meters in height</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"15 m - 30 m"</edomv>
+<edomvd>Vegetation is between 15 meter and 30 meters in height</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DENSITY_CODE</attrlabl>
+<attrdef>code corresponding to the percent coverage of vegetative material covering the plot</attrdef>
+<attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>&gt;60% Vegetation Coverage</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>40%-60% Vegetation Coverage</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>3</edomv>
+<edomvd>10%-40% Vegetation Coverage</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>4</edomv>
+<edomvd>&lt;10% Vegetation Coverage</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>0</edomv>
+<edomvd>Not Applicable</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DENSITY_CODE_DES</attrlabl>
+<attrdef>textual description of Density Code</attrdef>
+<attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+<attrdomv>
+<edom>
+<edomv>"&gt;60% Vegetation Coverage"</edomv>
+<edomvd>Vegetation has a crown closure that is greater than 60%</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"40%-60% Vegetation Coverage"</edomv>
+<edomvd>Vegetation has a crown closure that is between 40% and 60%</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"10%-40% Vegetation Coverage"</edomv>
+<edomvd>Vegetation has a crown closure that is between 10% and 40%</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"&lt;10% Vegetation Coverage"</edomv>
+<edomvd>Vegetation has a crown closure that is less than 10%</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"Not Applicable"</edomv>
+<edomvd>Vegetation density is not applicable to this map class</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LANDUSE_CODE</attrlabl>
+<attrdef>project standard field not used for vegetation mapping at Fire Island National Seashore</attrdef>
+<attrdefs>Fire Island National Seashore</attrdefs>
+<attrdomv>
+<edom>
+<edomv>"0"</edomv>
+<edomvd>Attribute not used for vegetation mapping at Fire Island National Seashore</edomvd>
+<edomvds>Fire Island National Seashore</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LANDUSE_CODE_DES</attrlabl>
+<attrdef>project standard field not used for vegetation mapping at Fire Island National Seashore</attrdef>
+<attrdefs>Fire Island National Seashore</attrdefs>
+<attrdomv>
+<edom>
+<edomv>blank</edomv>
+<edomvd>Attribute not used for vegetation mapping at Fire Island National Seashore</edomvd>
+<edomvds>Fire Island National Seashore</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PATTERN_CODE</attrlabl>
+<attrdef>numeric code corresponding to the vegetation pattern observed in the polygon</attrdef>
+<attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>Evenly dispersed</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>Clumped/Bunched</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>3</edomv>
+<edomvd>Gradational/Transitional</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>4</edomv>
+<edomvd>Alternating</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>0</edomv>
+<edomvd>Not Applicable</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PATTERN_CODE_DES</attrlabl>
+<attrdef>textual description of the pattern code</attrdef>
+<attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+<attrdomv>
+<edom>
+<edomv>"Evenly dispersed"</edomv>
+<edomvd>Vegetation is evenly dispersed across the map unit</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"Clumped/Bunched"</edomv>
+<edomvd>Vegetation has a clumped or bunched pattern across the map unit</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"Gradational/Transitional"</edomv>
+<edomvd>Vegetation has a gradational or transitional pattern across the map unit</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"Alternating"</edomv>
+<edomvd>Vegetation has an alternating pattern across the map unit</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+<edom>
+<edomv>"Not Applicable"</edomv>
+<edomvd>The pattern of the vegetation is not applicable to this map unit</edomvd>
+<edomvds>USGS-NPS Vegetation Mapping Program</edomvds>
+</edom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS Biological Resources Division, Center for Biological Informatics</cntorg>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>Physical Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>Building 810, Room 8000</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>USGS</address>
+<address>Biological Resources Division, CBI</address>
+<address>PO BOX 25046, DFC, MS302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>NPS Vegetation Mapping Program: Vegetation Map of Fire Island National Seashore</resdesc>
+<distliab>The distributor maintains no liability for the use and application of these data beyond it's intended use as a depiction of vegetation.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>HTML</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/fiis/fiisveg.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/fiis/fiis.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/fiis/fiissdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/fiis/fiisbdy.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/fiis/fiisbdysdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20020425</metd>
+<metrd>20050518</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19970401</begdate><enddate>19970431</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_fiisveg.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

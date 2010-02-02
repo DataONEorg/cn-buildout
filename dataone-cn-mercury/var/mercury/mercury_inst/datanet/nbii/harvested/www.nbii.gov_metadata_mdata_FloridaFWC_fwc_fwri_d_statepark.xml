@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_statepark.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Florida Department of Environmental Protection (FDEP)</origin>
+<pubdate>2003</pubdate>
+<title>Florida State Parks</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Unknown</pubplace>
+<publish>FDEP</publish>
+</pubinfo>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This GIS polygon data set represents the state parks of Florida. The Florida Department of Environmental Protection (FDEP) maintains these data and provides biannual updates.  FDEP last updated this data set in January 2003. Attributes were derived from Properties Under the Jurisdiction of Division of Recreation and Parks.</abstract>
+<purpose>This data set represents Florida's State parks in a vector format.</purpose>
+<supplinf>Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The institute name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The institute name has been changed in references to ongoing research, new research, and contact information.  (previous geoform was 'vector digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>200301</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<current>date the data were updated</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-87.307442</westbc>
+<eastbc>-79.887533</eastbc>
+<northbc>30.773828</northbc>
+<southbc>24.521217</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>FWRItheme</themekt>
+<themekey>managed areas</themekey>
+<themekey>boundaries</themekey>
+<themekey>GIS</themekey>
+<themekey>mapping</themekey>
+<themekey>bounds</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>boundaries</themekey>
+</theme>
+<place>
+<placekt>FWRIplace</placekt>
+<placekey>Florida</placekey>
+<placekey>statewide</placekey>
+<placekey>southwest Florida</placekey>
+<placekey>northeast Florida</placekey>
+<placekey>northwest Florida</placekey>
+<placekey>south Florida</placekey>
+<placekey>Florida Keys</placekey>
+<placekey>Florida Panhandle</placekey>
+<placekey>southeast Florida</placekey>
+<placekey>north Florida</placekey>
+<placekey>Florida Peninsula</placekey>
+</place>
+<place>
+<placekt>FWC Region</placekt>
+<placekey>FWC Region-North Central</placekey>
+<placekey>FWC Region-Northeast</placekey>
+<placekey>FWC Region-Northwest</placekey>
+<placekey>FWC Region-South</placekey>
+<placekey>FWC Region-Southwest</placekey>
+</place>
+<place>
+<placekt>Water Management Districts</placekt>
+<placekey>Northwest Florida Water Management District</placekey>
+<placekey>South Florida Water Management District</placekey>
+<placekey>Southwest Florida Water Management District</placekey>
+<placekey>St. Johns River Water Management District</placekey>
+<placekey>Suwannee River Water Management District</placekey>
+</place>
+</keywords>
+<accconst>All data must be verified by Principal Investigator or Group Database Analyst prior to release.  It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the data's suitability for other purposes.</accconst>
+<useconst>FWC-FWRI and the originator of the data must be credited. This is not a survey data set and should not be utilized as such. These data are not to be used for navigation. Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data.  Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.  This is not a survey data set and should not be utilized as such. These data are not to be used for navigation.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</ptcontac>
+<secinfo>
+<secsys>FWRI-DC</secsys>
+<secclass>Available without restriction</secclass>
+<sechandl>Available without restriction</sechandl>
+</secinfo>
+<native>Windows NT Version 5.0 (Build 2195) Service Pack 1; ESRI ArcInfo 8.1.0.415</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>FDEP provided these data.  Contact FDEP for details of attribute accuracy</attraccr>
+</attracc>
+<logic>These data are logically consistent.</logic>
+<complete>These data are logically consistent.</complete>
+<lineage>
+<procstep>
+<procdesc>
+FDEP provided the January 2003 shapefile.  ArcInfo COGO was used whenever bearing and distance calls or northing and easting points where available.  After  completion of thorough research to assure the use of the most accurate source, legal descriptions and property deeds were interpreted and COGOed and/or digitized into an ArcInfo coverage.  FDEP based creation of the FSP (Florida state parks) coverage on a projected USGS quad boundary coverage in State Plane.  Once the coverage was completed, CLEANed and edited, it was projected to NAD-83.  FDEP used ArcView to relate attribute information to their GIS data set.
+FDEP derived information from BTIITF leases, deeds, surveys, plats, or1:24,000 quads.
+</procdesc>
+<procdate>2001</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>FDEP provided this data set in shapefile format.  FWRI projected the data into Albers NAD 83 and loaded the data into ArcSDE.</procdesc>
+<procdate>200306</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>146</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Albers Conical Equal Area</mapprojn>
+<albers>
+<stdparll>24</stdparll>
+<stdparll>31.5</stdparll>
+<longcm>-84</longcm>
+<latprjo>24</latprjo>
+<feast>400000</feast>
+<fnorth>0</fnorth>
+</albers>
+</mapproj>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>0.002095</absres>
+<ordres>0.002095</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>FMRI.stateparks_fl_poly</enttypl>
+<enttypd>This polygon data set depicts the state parks in Florida.  The attribution was derived from the report titled Properties Under the Jurisdiction of Division of Recreation and Parks.  Boundaries were generated at a 1:24,000 scale.</enttypd>
+<enttypds>Producer defined</enttypds>
+</enttyp>
+<attr>
+<attrlabl>ACREAGE</attrlabl>
+<attrdef>Acreage of park</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Acreage of park</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CLASSIFY</attrlabl>
+<attrdef>Type of park</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Type of park</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>COUNTY</attrlabl>
+<attrdef>County in which park resides</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>County in which park resides</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEP_NUM</attrlabl>
+<attrdef>Unique numbering system from FDEP</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Unique numbering system from FDEP</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DISTRICT</attrlabl>
+<attrdef>DEP district of park</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>DEP district of park</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DIVISION_1</attrlabl>
+<attrdef>Acknowledges leased land</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Acknowledges leased land</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FIRST_ACQ</attrlabl>
+<attrdef>Year of park acquisition</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Year of park acquisition</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>JURISDICTI</attrlabl>
+<attrdef>
+Attribute defines agency that has jurisdiction over park
+Division of Recreation and Parks (DRP).
+</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>
+Attribute defines agency that has jurisdiction over park
+Division of Recreation and Parks (DRP).
+</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal ID used by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Internal ID used by SDE</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OWNER</attrlabl>
+<attrdef>Ownership of park</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Ownership of park</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PUBLIC_ACC</attrlabl>
+<attrdef>Describes public acceess to park and notes fee requirement</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Describes public acceess to park and notes fee requirement</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Internal value used by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Internal value used by SDE</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+<attrdef>Area of polygon (in square meters); automatically calculated by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Area of polygon (in square meters); automatically calculated by SDE</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+<attrdef>Length of polygon perimeter (in meters); automatically calculated by SDE</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Length of polygon perimeter (in meters); automatically calculated by SDE</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SITE_NAME</attrlabl>
+<attrdef>Name of park</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Name of park</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>UNIT_ID</attrlabl>
+<attrdef>DEP unit code</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>DEP unit code</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ZONES</attrlabl>
+<attrdef>North, east, and west regional division of parks in Florida</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>North, east, and west regional division of parks in Florida</udom>
+</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>This polygon data set depicts the state parks in Florida.  The attribution was derived from the report titled Properties Under the Jurisdiction of Division of Recreation and Parks.  Boundaries were generated at a 1:24,000 scale.</eaover>
+<eadetcit>Florida Department of Environmental Protection, Division of State Lands.</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</distrib>
+<distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-FWRI produced data set; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://ocean.floridamarine.org/mrgis</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None. However, persons or organizations requesting information must provide transfer media if FTP is not available and must pay express shipping costs if express shipping is required.</fees>
+<ordering>Contact GIS Librarian by e-mail, telephone, or letter explaining which products are needed and providing a brief description of how the products will be used. Also, provide name and address of the person or organization requesting the products.</ordering>
+<turnarnd>Usually within 10 business days, although, complex requests may take longer</turnarnd>
+</stdorder>
+<custom>Contact GIS Librarian</custom>
+</distinfo>
+<metainfo>
+<metd>20030616</metd>
+<metrd>20051129</metrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>Available without restriction</metac>
+<metuc>Metadata must be distributed with the data set.</metuc>
+<metsi>
+<metscs>FWRI-MC</metscs>
+<metsc>Available</metsc>
+<metshd>Metadata must be distributed with the data set.</metshd>
+</metsi>
+</metainfo>
+<mercury><begdate>20030101</begdate><enddate>20030131</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_statepark.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

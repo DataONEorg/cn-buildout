@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/FloridaFWC/fwc_fwri_d_artificalreef.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Florida Fish and Wildlife Conservation Commission (FWC), Division of Marine Fisheries Management (DMFM)</origin>
+<pubdate>2005</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Florida Artificial Reefs</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Tallahassee, FL</pubplace>
+<publish>FWC, DMFM</publish>
+</pubinfo>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Each point in this GIS data set represents a single deployment event (either a uniquely located artificial reef or deployments of the same reef on different days). Division of Marine Fisheries Management maintains and updates the source database. This data set represents deployments through the end of calendar year 2004.</abstract>
+<purpose>This data set is for display purposes only.  Do not use it for navigation.  Each point location is intended to represent a single deployment event, defined as either different location coordinates or the same coordinates but on different days.  It is important to note that DMFM has not independently confirmed most of the reef locations and this data had been supplied form various sources without verification.</purpose>
+<supplinf>
+Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The institute name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The institute name has been changed in references to ongoing research, new research, and contact information.
+These data are also known as "Florida Artificial Reef Deployment Database."
+(previous geoform was 'vector digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20050114</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-87.081682</westbc>
+<eastbc>-79.833713</eastbc>
+<northbc>30.676393</northbc>
+<southbc>24.411288</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>FWRItheme</themekt>
+<themekey>artificial reefs</themekey>
+<themekey>GIS</themekey>
+<themekey>mapping</themekey>
+<themekey>benthic</themekey>
+<themekey>habitat (rivers, estuaries, ecology, hard bottom)</themekey>
+<themekey>marine</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>oceans</themekey>
+</theme>
+<place>
+<placekt>FWRIplace</placekt>
+<placekey>Florida</placekey>
+<placekey>Florida Straits</placekey>
+<placekey>Atlantic Ocean</placekey>
+<placekey>Gulf of Mexico</placekey>
+<placekey>Tampa Bay</placekey>
+<placekey>Charlotte Harbor</placekey>
+<placekey>Estero Bay</placekey>
+<placekey>Florida Keys</placekey>
+<placekey>Biscayne Bay</placekey>
+<placekey>Cape Canaveral National Seashore</placekey>
+<placekey>northeast Florida</placekey>
+<placekey>northwest Florida</placekey>
+<placekey>Big Bend</placekey>
+<placekey>Cedar Keys National Wildlife Refuge</placekey>
+<placekey>south Florida</placekey>
+<placekey>southwest Florida</placekey>
+<placekey>statewide</placekey>
+<placekey>southeast Florida</placekey>
+<placekey>north Florida</placekey>
+<placekey>east coast of Florida</placekey>
+<placekey>west coast of Florida</placekey>
+</place>
+<place>
+<placekt>Florida Waterbodies</placekt>
+<placekey>Gulf of Mexico</placekey>
+<placekey>Atlantic Ocean</placekey>
+<placekey>Florida Bay</placekey>
+</place>
+<place>
+<placekt>FWC Region</placekt>
+<placekey>FWC Region-North Central</placekey>
+<placekey>FWC Region-Northeast</placekey>
+<placekey>FWC Region-Northwest</placekey>
+<placekey>FWC Region-South</placekey>
+<placekey>FWC Region-Southwest</placekey>
+</place>
+<place>
+<placekt>Water Management Districts</placekt>
+<placekey>Northwest Florida Water Management District</placekey>
+<placekey>South Florida Water Management District</placekey>
+<placekey>Southwest Florida Water Management District</placekey>
+<placekey>St. Johns River Water Management District</placekey>
+<placekey>Suwannee River Water Management District</placekey>
+</place>
+</keywords>
+<accconst>Available without restriction. All data must be verified by Principle Investigator or Group Database Analyst prior to release.  It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the data's suitability for other purposes.</accconst>
+<useconst>Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data.  Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.  This is not a survey data set and should not be utilized as such. These data are not to be used for navigation.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>FWC-DMFM (Florida Fish and Wildlife Conservation Commission-Division of Marine Fisheries Management)</cntorg>
+<cntper>Bill Horn</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>3900 Commonwealth Blvd., Ms 240</address>
+<city>Tallahassee</city>
+<state>FL</state>
+<postal>32399</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>850-922-4340</cntvoice>
+<cntemail>bill.horn@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</ptcontac>
+<datacred>FWC Division of Marine Fisheries Management</datacred>
+<secinfo>
+<secsys>FWRI-DC</secsys>
+<secclass>Available without restriction</secclass>
+<sechandl>Available without restriction</sechandl>
+</secinfo>
+<native>Windows NT Version 5.0 (Build 2195) Service Pack 1; ESRI ArcInfo 8.1.0.415</native>
+</idinfo>
+<dataqual>
+<logic>FWC-DMFM has not independently confirmed most of the reef locations, and this data had been supplied from various sources without verification.</logic>
+<complete>Two deployment locations did not have latitude and longitude coordinates in the spreadsheet, so those deployments are not represented in the GIS data. Items of incorrect data type for the fields (such as text data in a date field) were not converted. If an item is questionable, see the original source file from DMFM.</complete>
+<posacc>
+<horizpa>
+<horizpar>Original coordinates were in decimal minutes with 1/1000 minute precision (xx.xxx minutes), but data have not been verified or field checked by DMFM or FWRI.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Florida Fish and Wildlife Conservation Commission (FWC), Division of Marine Fisheries Management (DMFM)</origin>
+<pubdate>20050114</pubdate>
+<pubtime>Unknown</pubtime>
+<title>REEFS-2005-01-14.xls</title>
+<geoform>Excel file containing attributes and coordinates</geoform>
+<pubinfo>
+<pubplace>Tallahassee, FL</pubplace>
+<publish>FWC, DMFM</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<typesrc>Excel file containing attributes and coordinates</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>20050114</caldate>
+<time>Unknown</time>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>DMFM artificial reefs deployment database</srccitea>
+<srccontr>The source data were converted to a shapefile.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>The coordinates in degrees, decimal minutes were converted to decimal degrees in Excel. Then the Excel file was converted to a personal geodatabase feature class using the "connect to OLE DB" functionality in ArcCatalog, and the ArcMap "add X,Y data" tool. This eliminated the need to convert from Excel to dbase, which was not very reliable with these data. The decimal degree attributes were deleted after the data were plotted spatially, keeping the original coordinates in degrees, decimal minutes. The feature class was rePROJECTed to Albers NAD 83 projection and loaded into ArcSDE Geodatabase.</procdesc>
+<srcused>DMFM artificial reefs deployment database</srcused>
+<procdate>200502</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>2133</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Albers Conical Equal Area</mapprojn>
+<albers>
+<stdparll>24</stdparll>
+<stdparll>31.5</stdparll>
+<longcm>-84</longcm>
+<latprjo>24</latprjo>
+<feast>400000</feast>
+<fnorth>0</fnorth>
+</albers>
+</mapproj>
+<planci>
+<plance>Coordinate Pair</plance>
+<coordrep>
+<absres>0.001024</absres>
+<ordres>0.001024</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>FMRI.artificialreef_fl_point</enttypl>
+<enttypd>Each point contains extensive attributes describing the artificial reef.  Many of the fields were developed by DMFM for internal tracking purposes.</enttypd>
+<enttypds>Producer defined</enttypds>
+</enttyp>
+<attr>
+<attrlabl>AMOUNT</attrlabl>
+<attrdef>The amount (in dollars) of the grant if funded by DMFM or federal grants.  No project amount data are available for non-DMFM grant projects.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>N</rdommax>
+<attrunit>dollars</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>COAST</attrlabl>
+<attrdef>This field indicates whether the reef is in the Gulf of Mexico "G" or Atlantic Ocean "A."</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<edom>
+<edomv>A</edomv>
+<edomvd>Atlantic Ocean</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>G</edomv>
+<edomvd>Gulf of Mexico</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>COE_PERMIT</attrlabl>
+<attrdef>This is the Corps of Engineers active permit number for the site.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>This field can contain a permit number, or null values are acceptable.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CONTRACT</attrlabl>
+<attrdef>When the reef is a grant-funded deployment administered by DMFM this field is the FWC-DMFM contract number; otherwise, this field is blank.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Can be either a contact number, or null values are acceptable</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>COUNTY</attrlabl>
+<attrdef>The Florida county nearest to the artificial reef project.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Name of County is a text character field.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEPLOY</attrlabl>
+<attrdef>This is a "yes" or "no" field that indicates whether FWC-DMFM staff were present for the deployment of the materials.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<edom>
+<edomv>0</edomv>
+<edomvd>No</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>1</edomv>
+<edomvd>Yes</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEPLOYDATE</attrlabl>
+<attrdef>This field contains the date the materials were placed offshore, if known.  If only the year is known, then the last day of the year is entered (example 1988 would be 12/31/88).  If only a month and year is known, then the last day of that month is entered (example July 1998 would be 7/31/98).</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Date field.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEPLOYNUM</attrlabl>
+<attrdef>The number of discrete reef deployment; if greater than 1 then it is effectively the same as a previously listed deployment.  A sort for "1" should return discrete reef sites.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>1</rdommin>
+<rdommax>N</rdommax>
+<attrunit>number of discreet reef deployment</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEPTH</attrlabl>
+<attrdef>Depth (in feet) to the bottom at the time of deployment.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>N</rdommax>
+<attrunit>feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DESCRIPTIO</attrlabl>
+<attrdef>This field contains a brief narrative description of the deployment and the name of the ship if available.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Text description of deployment</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DIVEDATE</attrlabl>
+<attrdef>The most recent date that DMFM divers visited the site; data are given in month/day/year format.  This would be updated after the dive event and the previous dive date shifted to the field "PREDIVE1" if applicable.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Date field</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FEDGRANT</attrlabl>
+<attrdef>Federal Aid in Sport Fish Restoration Program grant number, if the project was funded by that source. If not, this field is blank.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Grant number, or null values are acceptable</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FT_PRNT_FT</attrlabl>
+<attrdef>Footprint of the reef materials on the bottom in square feet.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>N</rdommax>
+<attrunit>square feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>GPS</attrlabl>
+<attrdef>
+This field is a code to indicate which sets of coordinates available to DMFM are presumed to be the most accurate, the latitude and longitude or LORAN.  It represents how these more accurate coordinates were generated, if known.  Values are;
+DGPS:  these latitude and longitude coordinates were taken with a DGPS unit on the reef,
+GPS:  these latitude and longitude coordinates were taken with a non-differential GPS unit on the reef,
+LOR:  these LORAN coordinates were taken by LORAN unit on the reef,
+BOTH: Both sets of coordinates were given to DMFM
+If blank, it is unknown how these coordinates were generated and which sets are most accurate. LORAN is assumed to be more accurate prior to about 1995.  DMFM staff used ASF corrections from the 1984 Defense Mapping Agency tables to mathematically calculate most of the non-field generated coordinates using the Andren Software LoranGPS program.
+Please note that all coordinates used to create the shapefile were the latitude and longitude coordinates.
+</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<edom>
+<edomv>DGPS</edomv>
+<edomvd>these latitude and longitude coordinates were taken with a DGPS unit on the reef</edomvd>
+<edomvds>Producer defined.</edomvds>
+</edom>
+<edom>
+<edomv>GPS</edomv>
+<edomvd>these latitude and longitude coordinates were taken with a non-differential GPS unit on the reef</edomvd>
+<edomvds>Producer defined.</edomvds>
+</edom>
+<edom>
+<edomv>LOR</edomv>
+<edomvd>these LORAN coordinates were taken by LORAN unit on the reef</edomvd>
+<edomvds>Producer defined.</edomvds>
+</edom>
+<edom>
+<edomv>BOTH</edomv>
+<edomvd>Both sets of coordinates were given to DMFM</edomvd>
+<edomvds>Producer defined.</edomvds>
+</edom>
+<edom>
+<edomv>&lt;null&gt;</edomv>
+<edomvd>If blank, it is unknown how these coordinates were generated</edomvd>
+<edomvds>Producer defined.</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>GRANTEE</attrlabl>
+<attrdef>This field contains the name of recipient of the DMFM or federal grant.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Text field indicates name of recipient of grant.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LATITUDE</attrlabl>
+<attrdef>North latitude in degrees, decimal minutes (DDMM.MMM)</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>DDMM.MMM (north latitude)</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LONGITUDE</attrlabl>
+<attrdef>West longitude in degrees, decimal minutes (DDMM.MMM)</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>180</rdommax>
+<attrunit>DDMM.MMM (west longitude)</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LORAN1</attrlabl>
+<attrdef>The first set of LORAN time delay coordinates for the reef.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Loran coordinate, or null value are acceptable.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LORAN2</attrlabl>
+<attrdef>The second set of LORAN time delay coordinates for the reef.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Loran coordinate, or null value are acceptable.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>MATERIAL1</attrlabl>
+<attrdef>The type of reef material that makes up the majority of that deployment.  If it is a ship or barge, the size is given in feet (125'), if known.  If the material is a prefabricated modular unit, the number of units is given in parentheses, i.e., Reefballs (80).</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Text description of reef material.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>MATERIAL2</attrlabl>
+<attrdef>The second type of reef materials placed on the reef during that deployment.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Text description of reef material.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>MATERIAL3</attrlabl>
+<attrdef>The third type of reef materials placed on the reef during that deployment.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Text description of reef material.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal ID used by ArcSDE.</attrdef>
+<attrdefs>Producer defined</attrdefs>
+<attrdomv>
+<udom>Numeric ID for each point</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PERMIT_SIT</attrlabl>
+<attrdef>The common name for the permit site as it appears on the U.S. Army Corps of Engineers permits.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Text description of the name of permit site</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PREDIVE1</attrlabl>
+<attrdef>The second most recent date that DMFM divers visited the site; data are given in month/day/year format.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Date field</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PREDIVE2</attrlabl>
+<attrdef>The third most recent date that DMFM divers visited the site; data are given in month/day/year format.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Date field</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PREDIVE3</attrlabl>
+<attrdef>The fourth most recent date that DMFM divers visited the site; data are given in month/day/year format.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Date field</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PREDIVE4</attrlabl>
+<attrdef>The fifth most recent date that DMFM divers visited the site; data are given in month/day/year format.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Date field</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>REEFNAME</attrlabl>
+<attrdef>The common name for the reef site.  This may or may not be the name of the permitted site as several reefs may be within one permitted site. If a site is located within a shallow protected area, the word (BAY) is entered in parenthesis after the name.  If the reef was unintentionally sunk offshore during a storm event or during war, the site is considered a wreck and a (W) is placed beside the name.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Text description of reef name.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>RELIEF</attrlabl>
+<attrdef>The height (in feet) of  the reef materials off the bottom, also known as profile.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>N</rdommax>
+<attrunit>feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Feature geometry</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SOURCE</attrlabl>
+<attrdef>
+Where the current sets of coordinates were originally obtained.
+(1) MPF, the FWC Materials Placement Forms, (Required by Chapter 370.25, Florida Statutes)
+(2) Dive date was an FWC field visit,
+(3) Pybase 97 was the Atlas of Artificial Reefs by Florida Sea grant 1997 (most of the records with blank values in this field also came from this source).
+(4) Various monitoring grants to field truth locations or county staff.
+</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>MPF, the FWC Materials Placement Forms, (Required by Chapter 370.25, Florida Statutes</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>Dive date was an FWC field visit</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>3</edomv>
+<edomvd>Pybase 97 was the Atlas of Artificial Reefs by Florida Sea grant 1997 (most of the records with blank values in this field also came from this source).</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>4</edomv>
+<edomvd>Various monitoring grants to field truth locations or county staff.</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>STATE</attrlabl>
+<attrdef>Whether the reef is in state (S) or federal (F) waters.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<edom>
+<edomv>S</edomv>
+<edomvd>State waters</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>F</edomv>
+<edomvd>Federal waters</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TONS</attrlabl>
+<attrdef>The dry weight (in US tons) of the reef material deployed, if known.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>N</rdommax>
+<attrunit>tons</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TYPE_</attrlabl>
+<attrdef>This is a special type of reef that may be tracked.  Currently there are three types (1) WRECK (not intentionally placed), (2) BAY (inshore Bay waters) and (3) MITIGATION (reefs placed for mitigation purposes).</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>WRECK (not intentionally placed)</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>BAY (inshore Bay waters)</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+<edom>
+<edomv>3</edomv>
+<edomvd>MITIGATION (reefs placed for mitigation purposes)</edomvd>
+<edomvds>Producer defined</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>VOL_DIVE</attrlabl>
+<attrdef>Dates that any non-FWC official dives were done on site.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<udom>Date field</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>VOLUMEFT3</attrlabl>
+<attrdef>Volume of reef material in cubic feet, if known.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>N</rdommax>
+<attrunit>cubic feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>VOLUMEYD3</attrlabl>
+<attrdef>Volume of reef materials in cubic yards, if known.</attrdef>
+<attrdefs>DMFM</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>N</rdommax>
+<attrunit>cubic yards</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</distrib>
+<distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-FWRI produced data set; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://ocean.floridamarine.org/mrgis</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None. However, persons or organizations requesting information must provide transfer media if FTP is not available and must pay express shipping costs if express shipping is required.</fees>
+<ordering>Contact GIS Librarian by e-mail, telephone, or letter explaining which products are needed and providing a brief description of how the products will be used. Also, provide name and address of the person or organization requesting the products.</ordering>
+<turnarnd>Usually within 10 business days, although, complex requests may take longer</turnarnd>
+</stdorder>
+<custom>Contact GIS Librarian</custom>
+</distinfo>
+<metainfo>
+<metd>20010521</metd>
+<metrd>20050930</metrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>GIS Data Librarian</cntper>
+<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+</cntperp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+<city>St. Petersburg</city>
+<state>Florida</state>
+<postal>33701</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>727-896-8626</cntvoice>
+<cntfax>727-893-1679</cntfax>
+<cntemail>GISLibrarian@MyFWC.com</cntemail>
+<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>No restrictions on metadata.</metac>
+<metuc>Metadata must be distributed with the data set.</metuc>
+<metsi>
+<metscs>FWRI-MC</metscs>
+<metsc>Available</metsc>
+<metshd>Metadata must be distributed with the data set.</metshd>
+</metsi>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>20050114</begdate><enddate>20050114</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/ffwc/www.nbii.gov_metadata_mdata_FloridaFWC_fwc_fwri_d_artificalreef.html</htmlurl><LTER-Site>ffwc</LTER-Site></mercury></metadata>

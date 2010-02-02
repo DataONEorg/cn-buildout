@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_wacaattribacc.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Kathryn Thomas</origin>
+<origin>Becci Dale Anderson</origin>
+<origin>Monica Hansen (comp.)</origin>
+<pubdate>2004</pubdate>
+<title>Accuracy Assessment Points: Walnut Canyon National Monument</title>
+<geoform>maps data</geoform>
+<onlink>http://biology.usgs.gov/npsveg/waca/report.pdf#accuracy</onlink>
+<onlink>http://biology.usgs.gov/npsveg/waca/report.pdf#assessment</onlink>
+<onlink>http://biology.usgs.gov/npsveg/waca/images/wacaaa.jpg</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/waca/wacaaa.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/waca/wacaaasdts.exe</onlink>
+<onlink>http://biology.usgs.gov/npsveg/waca/aa_matrix.html</onlink>
+<onlink>http://biology.usgs.gov/npsveg/ftp/vegmapping/waca/aa_matrix.xls</onlink>
+<lworkcit>
+<citeinfo>
+<origin>M. Hansen, J. Coles, K.A. Thomas, D. Cogan, M. Reid, J. Von Loh, K. Schultz</origin>
+<pubdate>2004</pubdate>
+<title>USGS-NPS National Vegetation Mapping Program: Walnut Canyon National Monument, Arizona, Vegetation Classification and Distribution, Final Project Report</title>
+<geoform>report</geoform>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This spatial dataset in ESRI Coverage format maps accuracy assessment point locations for the vegetation map at Walnut Canyon National Monument and in the surrounding environs as part of the National Vegetation Mapping Program.</abstract>
+<purpose>This data set was developed as part of the accuracy assessment sampling design for the vegetation map at Walnut Canyon National Monument and the surrounding environs.  Points were developed to lead the field sampling and to determine if mapped polygons were correctly assigned in the field.</purpose>
+<supplinf>(previous geoform was 'vector digital data')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>200108</caldate>
+</sngdate>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Walnut Canyon National Monument and the environs.</descgeog>
+<bounding>
+<westbc>-111.562630</westbc>
+<eastbc>-111.438317</eastbc>
+<northbc>35.216440</northbc>
+<southbc>35.137473</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>Accuracy assessment points</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>North America</placekey>
+<placekey>United States</placekey>
+<placekey>Southwestern United States</placekey>
+<placekey>Arizona</placekey>
+<placekey>Coconino County</placekey>
+<placekey>Walnut Canyon National Monument</placekey>
+</place>
+</keywords>
+<accconst>Data are available after research results  have been published.</accconst>
+<useconst>This data was compiled for government use and represent the results of data collection/processing for a specific USGS/BRD activity/project.  The USGS/BRD makes no representation as to the suitability or accuracy of this data for any other purpose and disclaims any liability for errors that the data may contain.  As such, it is only valid for its intended use, content, time, and accuracy specifications.  While there are no explicit constraints on the use of this data, please exercise appropriate and professional judgment in the use and interpretation of this data.  Acknowledgement of the originating agencies would be appreciated in products derived from this data.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Kathryn A. Thomas</cntper>
+<cntorg>USGS-SBSC-Colorado Plateau Research Station</cntorg>
+</cntperp>
+<cntpos>Project Leader, Vegetation Scientist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Southwest Biological Science Center</address>
+<address>Colorado Plateau Research Station</address>
+<address>2255 North Gemini Drive, Building 4</address>
+<city>Flagstaff</city>
+<state>Arizona</state>
+<postal>86001</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>928.556.7327</cntvoice>
+<cntfax>928.556.7500</cntfax>
+<cntemail>Kathryn_A_Thomas@usgs.gov</cntemail>
+<hours>8:00 a.m. to 5:00 p.m. (Arizona time), Monday through Friday</hours>
+<cntinst>E-mail</cntinst>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/waca/images/wacaaa.jpg</browsen>
+<browsed>523 kbyte file showing vegetation associations and location of accuracy assessment points</browsed>
+<browset>JPG</browset>
+</browse>
+<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.2.0.700</native>
+<crossref>
+<citeinfo>
+<origin>Kathryn Thomas, U.S. Geological Survey, Southwest Biological Science Center, Colorado Plateau Research Station, Monica Hansen, U.S. Geological Survey, Southwest Biological Science Center, Colorado Plateau Research Station, Janet Coles, Bureau of Reclamation, Remote Sensing and Geographic Information Group, Dan Cogan, Bureau of Reclamation, Remote Sensing and Geographic Information Group</origin>
+<pubdate>2004</pubdate>
+<title>A USGS-NPS Vegetation Mapping Program: Walnut Canyon National Monument, Arizona, Vegetation Classification and Distribution. Technical Report FY 2003.</title>
+<edition>USGS Biological Resources Division Technical Report</edition>
+<geoform>report</geoform>
+</citeinfo>
+</crossref>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>plant communities</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+</taxoncl>
+</taxonomy>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Dataset was quality checked in a spatial environment and through reviewing data entry.</attraccr>
+</attracc>
+<logic>Dataset was quality checked by visually inspecting the dataset in a geographic information system (GIS).</logic>
+<complete>Data collection is complete with no exclusions</complete>
+<posacc>
+<horizpa>
+<horizpar>Visual inspection was preformed on the dataset to ensure accuracy of all sampling locations</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>Prior to the sample selection design, topology and data structure of the coverage were checked by running a check for node errors and label errors in the GIS dataset.  The GIS dataset was also dissolved, removing polygon boundaries when adjoining polygons have the same value using GIS. Reference point locations were then selected for each plant association/map class based on the total cover of each class in the mapping area, where plant associations with more cover had more reference points assigned, and vice versa.  The number of polygons to be sampled was determined by the number of polygons in each vegetation class and the total area of each vegetation class of the spatial vegetation dataset.  A table was built listing all vegetation types, the number of polygons and area in hectares for each vegetation type, and the number of polygons to be sampled.  Randomization was ensured through creating a database table containing random numbers that were randomly assigned to the polygons.   Randomly assigned polygons were sorted in ascending numeric order by the vegetation code and then by random numbers to list all vegetation types together. Only rows of predetermined sample number for each map class were retained.  In addition to the number of polygons that must be sampled of each type, there were from 5 to 10 extra polygons included in the random sample of polygons in the case that the original polygons could not be reached.  Of the 500 reference points initially chosen, 355 points were sampled in the field in the first round of sampling and 131 in the second round of sampling.  Some accuracy assessment points were discarded from the initial round of sampling due to multiple accuracy assessment points occurring within a single polygon in the final vegetation map.  In this case, the accuracy assessment point assessed in the initial round of sampling that contained the largest area of the polygon was selected as the point used for the final round of accuracy assessment.  The first phase of sampling used reference points chosen to sample polygons greater than the minimum mapping unit (MMU) of 0.5 hectares; however, if not enough samples of the map class were available in polygons greater than the MMU, polygons less than the MMU were then sampled. In polygons greater than the MMU, reference point coordinates were assigned randomly in the polygon with a 5-meter buffer to the keep sample points away from stand boundaries. In polygons that were less than the MMU, the centroid of the polygon was used for the sampling coordinates to minimize edge effects from adjacent polygons.  In the second round of sampling all randomized polygons were selected for accuracy assessment.  However, sampling points were allocated differently depending on two types of polygons: polygons that were equal to or greater than 0.5 hectares in area (the MMU) and polygons that were less than 0.5 hectares in area (&lt; the MMU).  Polygons that were equal to or greater than 0.5 hectares contained a 5-meter buffer from the outside polygon edge to be sure that none of the randomly placed points were placed extremely close to the edge of the polygon.   Then, random points were assigned using a random point generator to add one random point to each polygon (Random Point Generator v.1.1, available at www.ESRI.com).  Polygons that were less than 0.5 hectares in area had the centroid selected as the sampling points.  Performing a cross-dataset query ensured the centroid of each polygon even in oddly shaped polygons (such as a crescent moon shape). The MS Excel file of the UTMs was exported as a text file and formatted as an ArcInfo generate file.  The points coverage was then created using ArcToolbox generate.</procdesc>
+<procdate>2001 to 2002</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Kathryn Thomas</cntper>
+<cntorg>USGS-SBSC-Colorado Plateau Research Station</cntorg>
+</cntperp>
+<cntpos>Project leader</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Southwest Biological Science Center</address>
+<address>Colorado Plateau Research Station</address>
+<address>2255 North Gemini Drive, Building 4</address>
+<city>Flagstaff</city>
+<state>Arizona</state>
+<postal>86001</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>928.556.7327</cntvoice>
+<cntfax>928.556.7500</cntfax>
+<cntemail>Kathryn_A_Thomas@usgs.gov</cntemail>
+<hours>8:00 a.m. to 5:00 p.m. (Mountain Standard Time Zone), Monday through Friday</hours>
+<cntinst>E-mail</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>353</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+<ptvctcnt>4</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>12</utmzone>
+<transmer>
+<sfctrmer>0.999600</sfctrmer>
+<longcm>-111.000000</longcm>
+<latprjo>0.000000</latprjo>
+<feast>500000.000000</feast>
+<fnorth>0.000000</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000016</absres>
+<ordres>0.000016</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>waca_aapts.pat</enttypl>
+<enttypd>This is a listing of all accuracy assessment point locations within the Walnut Canyon National Monument project area</enttypd>
+<enttypds>User defined</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AREA</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Area is always zero for point coverages.  Values are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PERIMETER</attrlabl>
+<attrdef>Perimeter of feature in internal units.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Perimeter is always zero for point coverages.  Values are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>WACA_AAPTS#</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>WACA_AAPTS-ID</attrlabl>
+<attrdef>User-defined feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>X-COORD</attrlabl>
+<attrdef>The geographical coordinates for UTM Easting (x-coordinate) collected at each accuracy assessment field point in NAD83 Zone12 using Garmin 45XL.</attrdef>
+<attrdefs>The Universal Transverse Mercator (UTM) Grid USGS Fact Sheet 077-01 (August 2001)( http://mac.usgs.gov/mac/isb/pubs/factsheets/fs07701.html)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>449105</rdommin>
+<rdommax>460171</rdommax>
+<attrunit>meters</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Y-COORD</attrlabl>
+<attrdef>The geographical coordinates for UTM Northing (y-coordinate) collected at each accuracy assessment field point in NAD83 Zone12 using Garmin 45XL.</attrdef>
+<attrdefs>The Universal Transverse Mercator (UTM) Grid USGS Fact Sheet 077-01 (August 2001)( http://mac.usgs.gov/mac/isb/pubs/factsheets/fs07701.html)</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>3888476</rdommin>
+<rdommax>3896681</rdommax>
+<attrunit>meters</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>WACA_AAPTS</attrlabl>
+<attrdef>Accuracy assessment points developed in the sampling design as a unique identifier for each polygon sampled.</attrdef>
+<attrdefs>User Defined</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>1-10</rdommin>
+<rdommax>X15</rdommax>
+<attrunit>letter and number</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>U.S. Geological Survey, Center for Biological Informatics, MS 302, Room 8000, Building 810, Denver Federal Center</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<distliab>Although these data have been processed successfully on a computer system at the USGS-SBSC-Colorado Plateau Research Station, no warranty expressed or implied is made regarding the accuracy or utility of these data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any warranty. This disclaimer applies both to individual use of these data and aggregate use with other data. It is strongly recommended that these data be directly acquired from a U.S. Geological Survey server, and not indirectly through other sources that may have changed these data in some way. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological Survey and the SBSC-Colorado Plateau Research Station shall not be held liable for improper or incorrect use of these data described and/or contained herein.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>PDF</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/waca/report.pdf#accuracy</networkr>
+<networkr>http://biology.usgs.gov/npsveg/waca/report.pdf#assessment</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>JPG</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/waca/images/wacaaa.jpg</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>EXE</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/waca/wacaaa.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SDTS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/waca/wacaaasdts.exe</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>none</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>HTML</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/waca/aa_matrix.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>XLS</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/ftp/vegmapping/waca/aa_matrix.xls</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20040210</metd>
+<metrd>20050620</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>20010801</begdate><enddate>20010831</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_wacaattribacc.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/EPA/epa_t_fatmic.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Environmental Protection Agency, Ground Water and Ecosystems Restoration Research</origin>
+<pubdate>199708</pubdate>
+<title>FATMIC2D and FATMIC3D - Models to Simulate Subsurface Flow, Transport and Fate of Contaminants</title>
+<geoform>tools software</geoform>
+<pubinfo>
+<pubplace>Ada, Oklahoma</pubplace>
+<publish>U.S. Environmental Protection Agency</publish>
+</pubinfo>
+<onlink>http://www.epa.gov/ada/csmos/models.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>FATMIC 2D (2DFATMIC) and FATMIC 3D (3DFATMIC) simulate subsurface flow, transport, and fate of contaminants which are undergoing chemical and/or biological transformations. The model is applicable to transient conditions in both saturated and unsaturated zones. The flow module is a Galerkin finite element solution of Richard's equation. The transport module is a hybrid Lagrangian-Eulerian approach with an adapted zooming and peak capturing algorithm. This model can almost eliminate spurious oscillation, numerical dispersion, and peak clipping due to advective transport.</abstract>
+<purpose>The purpose of FATMIC 2D and FATMIC 3D are to serve as models to simulate subsurface flow, transport and fate of contaminants.</purpose>
+<supplinf>Information was obtained from http://www.epa.gov/ada/csmos/models/2dfatmic.html and from http://www.epa.gov/ada/csmos/models/3dfatmic.html.  (previous geoform was 'model')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>199708</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>subsurface flow</themekey>
+<themekey>transport</themekey>
+<themekey>fate</themekey>
+<themekey>contaminants</themekey>
+<themekey>chemical transformations</themekey>
+<themekey>biological transformations</themekey>
+<themekey>saturated zones</themekey>
+<themekey>unsaturated zones</themekey>
+</theme>
+</keywords>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Groundwater and Ecosystems Restoration Division</cntorg>
+<cntper>Daniel West</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Office of Research and Development
+National Risk Management Research Laboratory
+Ground Water and Ecosystems Restoration Division (GWERD)
+P.O. Box 1198
+</address>
+<city>Ada</city>
+<state>Oklahoma</state>
+<postal>74821</postal>
+</cntaddr>
+<cntvoice>(580) 436-8717, (580) 436-8500</cntvoice>
+<cntemail>west.daniel@epa.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Environmental Protection Agency, Groundwater and Ecosystems Restoration Division</cntorg>
+<cntper>Daniel West</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+Office of Research and Development
+National Risk Management Research Laboratory
+Ground Water and Ecosystems Restoration Division (GWERD)
+P.O. Box 1198
+</address>
+<city>Ada</city>
+<state>Oklahoma</state>
+<postal>74821</postal>
+</cntaddr>
+<cntvoice>(580) 436-8717, (580) 436-8500</cntvoice>
+<cntemail>west.daniel@epa.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>2dfatmic.tar.gz, 2dinout.tar.gz, 2dfatmic.pdf, 3dfatmic.tar.gz,3dinout.tar.gz, 3dfatmic.pdf</resdesc>
+<distliab>Although these data have been processed successfully on a computer system at the U.S. Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.  It is strongly recommended that these data are directly acquired from a U.S. Environmental Protection Agency server, and not indirectly through other sources which may have changed the data in some way.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ASCII</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.epa.gov/ada/csmos/models/3dfatmic.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<digform>
+<digtinfo>
+<formname>ASCII</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.epa.gov/ada/csmos/models/2dfatmic.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None, if available online.</fees>
+</stdorder>
+<techpreq>You will need Adobe Acrobat Reader to view the documentation (PDF) files. This source code was designed for UNIX systems.</techpreq>
+</distinfo>
+<metainfo>
+<metd>20030527</metd>
+<metfrd>20040527</metfrd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Cheryl Solomon</cntper>
+<cntorg>Science Systems and Applications, Inc.</cntorg>
+</cntperp>
+<cntpos>Metadata specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>10210 Greenbelt Road, Suite 500</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301 867-2080</cntvoice>
+<cntfax>301-867-2149.</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19970801</begdate><enddate>19970831</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_EPA_epa_t_fatmic.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

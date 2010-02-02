@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_10004.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Rueth, H.M., and J.S. Baron</origin>
+<pubdate>2002</pubdate>
+<title>Differences in Englemann spruce forest biogeochemistry east and west of the Continental Divide in Colorado, USA</title>
+<geoform>publication</geoform>
+<serinfo>
+<sername>Ecosystems</sername>
+<issue>5(1):45-57</issue>
+</serinfo>
+<othercit>Vol. 5(1) pages 45-57</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Rueth, H.M., and J.S. Baron. 2002. Differences in Englemann spruce forest biogeochemistry east and west of the Continental Divide in Colorado, USA. Ecosystems 5(1): 45-57.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Colorado</descgeog>
+<bounding>
+<westbc>-109.0552</westbc>
+<eastbc>-102.03676</eastbc>
+<northbc>41.00341</northbc>
+<southbc>36.98897</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>nitrogen cycling</themekey>
+<themekey>foliar chemistry</themekey>
+<themekey>nitrogen mineralization</themekey>
+<themekey>forest ecosystems</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Colorado</placekey>
+<placekey>CO</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Baron, J.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Rueth, H.M., J.S. Baron, and E.J. Allstott</origin>
+<pubdate>2003</pubdate>
+<title>Responses of Englemann spruce forests to nitrogen fertilization in the Colorado Rocky Mountains</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Ecological Applications (ISSN 1051-0761)</sername>
+<issue>13(3):664-673</issue>
+</serinfo>
+<othercit>Vol. 13(3) pages 664-673</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Rueth, H.M., and J.S. Baron</origin>
+<pubdate>2001</pubdate>
+<title>Engelmann spruce nitrogen dynamics across a nitrogen deposition gradient in Colorado, USA</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Ekol&amp;oacute;gia (Bratislava)</sername>
+<issue>20 (S2):43-49</issue>
+</serinfo>
+<othercit>Vol. 20 (S2) pages 43-49</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Fenn, M.E., M.A. Poth, J.D. Aber, J.S. Baron,  B.T. Bormann, D.W. Johnson, A.D. Lemly, S.G. McNulty, D.F. Ryan, and R. Stottlemyer</origin>
+<pubdate>1998</pubdate>
+<title>Nitrogen excess in North American ecosystems: predisposing factors, ecosystems responses, and management strategies</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Ecological Applications (ISSN 1051-0761)</sername>
+<issue>8(3):706-7</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Information not in the FORT Publications database</pubplace>
+<publish>Ecological Society of America</publish>
+</pubinfo>
+<othercit>Vol. 8(3) pages 706-7</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/277/277.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Allstott, E.J., and J.S. Baron</origin>
+<pubdate>1997</pubdate>
+<title>Effects of increasing nitrogen deposition on Colorado's Front Range and western slope subalpine forested ecosystems</title>
+<geoform>Proceedings,Meeting, or Workshop</geoform>
+<pubinfo>
+<pubplace>San Francisco, CA</pubplace>
+<publish>American Geophysical Union</publish>
+</pubinfo>
+<othercit>H12G pp.</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Information not in the FORT Publications database</origin>
+<pubdate>1997</pubdate>
+<title>Effects of increasing nitrogen deposition on Colorado's Front Range and western slope subalpine forested ecosystems</title>
+<geoform>Proceedings,Meeting, or Workshop</geoform>
+<pubinfo>
+<pubplace>San Francisco, CA</pubplace>
+<publish>American Geophysical Union</publish>
+</pubinfo>
+<othercit>H12G pp.</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Baron, J.S.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Differences in Englemann spruce forest biogeochemistry east and west of the Continental Divide in Colorado, USA.  FORT Library Archive Number: 2002/0019 FORT</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20020101</begdate><enddate>20021231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_10004.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

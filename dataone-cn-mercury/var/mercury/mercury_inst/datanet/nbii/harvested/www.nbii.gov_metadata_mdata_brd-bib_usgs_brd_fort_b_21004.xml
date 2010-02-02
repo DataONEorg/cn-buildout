@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21004.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Bogan, M.A</origin>
+<pubdate>1998</pubdate>
+<title>Endemic mammals of the Henry Mountains, Utah</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>Vol. 2 580 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/21004/21004.asp</onlink>
+<lworkcit>
+<citeinfo>
+<origin>Mac, M.J., P.A. Opler, C.E. Puckett Haecker, and P.D. Doran (eds.), ed.</origin>
+<pubdate>1998</pubdate>
+<title>Status and trends of the nation's biological resources: vol. 2</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Reston, VA</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>Vol. 2 580 pp.</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Bogan, M.A. 1998. Endemic mammals of the Henry Mountains, Utah. In: Mac, M.J., P.A. Opler, C.E. Puckett Haecker, and P.D. Doran (eds.). Status and trends of the nation's biological resources: vol. 2. Reston, VA: U.S. Geological Survey. p. 580.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>1998</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Utah</descgeog>
+<bounding>
+<westbc>-114.04727</westbc>
+<eastbc>-109.04254</eastbc>
+<northbc>42.00276</northbc>
+<southbc>36.99164</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>endemic species</themekey>
+<themekey>Henry Mountains</themekey>
+<themekey>Southwest ecosystems</themekey>
+<themekey>southwest desert</themekey>
+<themekey>semi-desert grasslands</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Utah</placekey>
+<placekey>UT</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Bogan, M.A.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Bogan, M.A., C.D. Allen, E.H. Muldavin, S.P. Platania,  J.N. Stuart, G.H. Farely, P. Melhop, and J. Belnap</origin>
+<pubdate>1998</pubdate>
+<title>Southwest</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Washington, D.C.</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>Vol. 2 pages 543-592</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/3206/3206.asp</onlink>
+<lworkcit>
+<citeinfo>
+<origin>M.J. Mac, P.A. Opler, C.E. Puckett Haecker, and P.D. Doran (eds.), ed.</origin>
+<pubdate>1998</pubdate>
+<title>Southwest</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Washington, D.C.</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>Vol. 2 pages 543-592</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Bogan, M.A.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Endemic mammals of the Henry Mountains, Utah.  FORT Library Archive Number: 1998/0170 MESC</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19980101</begdate><enddate>19981231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21004.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

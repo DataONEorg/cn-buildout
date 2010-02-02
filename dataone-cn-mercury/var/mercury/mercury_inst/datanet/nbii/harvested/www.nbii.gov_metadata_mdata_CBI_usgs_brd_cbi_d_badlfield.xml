@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/CBI/usgs_brd_cbi_d_badlfield.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>
+Remote Sensing and GIS Group, Technical Service
+Center, US Bureau of Reclamation, Mail Code
+D-8260, POB 25007, Denver CO 80225
+</origin>
+<pubdate>1999</pubdate>
+<title>Badlands National Park Field Data</title>
+<geoform>maps data</geoform>
+<serinfo>
+<sername>USGS-NPS Vegetation Mapping Program</sername>
+<issue>Badlands National Park</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>USGS-BRD</publish>
+</pubinfo>
+<othercit>Created under contract to the USGS-BRD-CBI</othercit>
+<onlink>http://biology.usgs.gov/npsveg/badl/fielddata.html</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+This metadata is for the field data associated with
+the vegetation land cover and land use geospatial
+database for Badlands National Park and
+surrounding areas.  The project is authorized as
+part of the USGS/NPS Vegetation Mapping Program
+(http://biology.usgs.gov/npsveg). The program is
+being administered by the Biological Resources
+Division (BRD) of the United States Geological
+Survey (USGS).  The USGS/BRD is responsible for
+overall management and oversight of all ongoing
+mapping efforts.  This mapping effort was
+performed by the US Bureau of Reclamation's (USBR)
+Remote Sensing and GIS Group, Technical Service
+Center, Denver, CO. The vegetation mapping program
+is part of a larger Inventory and Monitoring (I&amp;M)
+program started by the National Park Service (NPS)
+Their website is :http://www1.nature.nps.gov/im/
+</abstract>
+<purpose>
+The purposes of the mapping effort are varied and
+include the following: Provides support for NPS
+Resources Management; Promotes vegetation-related
+research for both NPS and USGS/BRD; Provides
+support for NPS Planning and Compliance; Adds to
+the information base for NPS Interpretation; and
+Assists in NPS Operations.  The NPS  I&amp;M goals
+are, among others, to map the vegetation of all
+national parks and monuments and provide a
+baseline inventory of vegetation.
+</purpose>
+<supplinf>(previous geoform was 'database')</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>199708</begdate>
+<enddate>199712</enddate>
+</rngdates>
+</timeinfo>
+<current>
+Time frame given in report as "Field surveys began in
+the second week of August 1997 ... " and also described
+as "Summer 1997".  Likely extended past August, but the
+duration is not known at this time.
+</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None Planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-102.943</westbc>
+<eastbc>-101.817</eastbc>
+<northbc>44</northbc>
+<southbc>43.432</southbc>
+</bounding>
+<descgeog>
+Badlands National Park, SD including approx 5 mile
+buffer around park which includes private lands,
+portions of Buffalo Gap National Grassland, and
+Pine Ridge Indian Reservation.
+</descgeog>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Land cover</themekey>
+<themekey>Land use</themekey>
+<themekey>Vegetation</themekey>
+<themekey>National Park Service</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>South Dakota</placekey>
+<placekey>Badlands National Park</placekey>
+<placekey>Pine Ridge Indian Reservation</placekey>
+<placekey>Red Shirt</placekey>
+<placekey>Scenic</placekey>
+<placekey>Cheyenne River</placekey>
+<placekey>Buffalo Gap National Grassland</placekey>
+<placekey>Badlands Wilderness Area</placekey>
+<placekey>White River</placekey>
+<placekey>Interior</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>
+Acknowledgment of the USGS/BRD, National Park Service,
+and the USBR/RSGIS Group would be appreciated in
+products derived from these data.  Any person using
+the information presented here should fully understand
+the data collection and compilation procedures, as
+described in the metadata, before beginning
+analysis.  The burden for determining fitness for
+use lies entirely with the user
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>Center for Biological Informatics, USGS-BRD</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>PO Box 25046, MS-302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://biology.usgs.gov/npsveg/badl/images/badlplot.jpg</browsen>
+<browsed>179 Kbyte</browsed>
+<browset>JPEG</browset>
+</browse>
+<datacred>
+Dan Cogan, Doug Crawford, Trudy Meyer, Jean
+Pennell &amp; Jim Von Loh with RSGIS Group of USBR;
+Jim Drake of TNC; Bruce Bessken and Glenn Plumb of
+Badlands NP, NPS
+</datacred>
+<native>Microsoft Access mdb</native>
+<tool>
+<tooldesc>The Nature Conservancy's PLOTS database</tooldesc>
+<toolacc>
+<onlink>http://biology.usgs.gov/npsveg/tools/plotsdatabase.html</onlink>
+<toolinst>None</toolinst>
+</toolacc>
+</tool>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>Plants</taxonkey>
+<taxonkey>Vegetation</taxonkey>
+<taxonkey>National Vegetation Classification System</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+<common>Plant</common>
+<taxoncl>
+<taxonrn>Division-Phylum</taxonrn>
+<taxonrv>Tracheophyta</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Angiospermai</taxonrv>
+</taxoncl>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Gymnospermae</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+</idinfo>
+<dataqual>
+<logic>Unknown</logic>
+<complete>
+Investigators chose representative stands of plant
+communities to collect 130 data plots.  Plots were
+subjectively placed in vegetation that was representative
+of an area, relatively homogeneous, and covered more than
+1/2 hectare (the minimum mapping unit).  Thus, ecotones
+and small patches of vegetation were avoided.  Forest and
+woodland communities were sampled with 20 x 20-meter plots
+while shrubland and herbaceous communities were sampled with
+10 x 10-meter plots.  Collected data included habitat characteristics
+(e.g. slope, aspect, elevation, and soil characteristics), vegetation
+composition and structure, and other site features such as wildlife
+or human disturbance.  At least three plots were sampled for each
+plant community found in the study area, as long as three stands
+were available.  For a few uncommon plant communities, only one
+or two plots were sampled.  In order to collect large river riparian
+data, investigators selected a few sample sites outside, but near
+Park boundaries.  All sampled data were entered into TNC's "PLOTS"
+database program.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+The UTM coordinates
+and elevation of all plots were logged using a hand-held Precision
+Lightweight Global Positioning  System (GPS) Receiver (PLGR) unit.
+</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>
+See Methodology Description
+In addition, the procedure for classifying vegetation followed
+guidelines set forth in the Vegetation Classification Standard
+(FGDC 1996) which was developed from the Standardized National
+Vegetation Classification System (NVCS) (TNC 1994).  This national
+system contains seven classification levels with the two finest (lowest)
+being the alliance and association (community) levels.  Associations
+are separated from alliances through the use of floristic composition
+and are named by the most dominant and/or indicator species.  If two
+or more dominant species occur in the same stratum a dash symbol is
+used.  If the species occur in different strata then a slash is used.
+Parentheses are used in instances when the diagnostic species are not
+consistently present in the vegetation unit.
+Classification for the Badlands National Park study area involved placing
+all observation point data and plot data into groups based on vegetation
+structure and composition.  From here, extensive floristic knowledge of the
+field team allowed most of the sampled community types to be qualitatively
+evaluated and subjectively assigned to an existing NVCS class.  In a few
+instances, new NVCS classes were discerned and prepared from evaluations
+of the floristic data.  Additional analyses were performed using the plot data
+combined with other similar data to provide a better regional perspective on
+vegetation types.  TNC quantitatively analyzed the plot data using ordination
+techniques (Detrended Correspondence Analysis "CDA" and Non-Metric
+Multidimensional Scales "NMS"), a clustering algorithm, Unweighted Pair-Group
+Method Using Arithmetic Means (UPGMA), and Two-Way Indicator Species
+Analysis (TWINSPAN).  Since, in a number of cases, there were only a few
+sample plots per vegetation type, the above analyses could not be solely relied
+upon for classification.  However, the results of the numerical analyses were
+compared to the subjective classification in order to detect any discrepancies
+between the two.  All analyses were completed using PC-ORD.
+A dichotomous vegetation key for Badlands National Park was prepared
+following the 1997 field season.  The key was tested during the Accuracy
+Assessment process and reviewed by TNC, resulting in some modifications.
+This dichotomous key leading to association descriptions provided guidance
+to researchers in the field during the accuracy assessment.
+</procdesc>
+<procdate>1997 or 1998 following the 1997 field season.</procdate>
+</procstep>
+<method>
+<methtype>Field</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>Field Sample</methkey>
+<methkey>GPS</methkey>
+<methkey>Field Plot</methkey>
+<methkey>releve methodology</methkey>
+<methkey>Daubenmire classification</methkey>
+</methodid>
+<methdesc>
+Field surveys began in the second week of August 1997 after aerial
+photography was acquired.
+Data collection included both plot and observation points, which allowed
+investigators to record typical vegetation types and  also to record variation
+within plant communities across larger areas.  Observation points were used
+to become quickly familiar with community characteristics, ranges of variation,
+and to field check the preliminary classification.  Observation point sampling
+included UTM X-Y coordinates, dominate species cover data, and brief
+environmental characteristics.  Limitations of observation point data included
+no measurement or delineation of the sampling area and cover was only
+estimated for the common species in each stratum.  Data from 137 observation
+points were collected during the field survey.  Points were recorded mainly
+within gradsects, and were chosen to sample the range of habitat and
+vegetation variability observed on aerial photography, on preliminary maps,
+and in the field.
+Investigators chose representative stands of plant communities to collect 130
+data plots.  Plot sample sites were identified in the field within gradsects using
+standard releve methodology (Mueller-Dombois 1974).  Plots were subjectively placed
+in vegetation that was representative of an area, relatively homogeneous,
+and covered more than 1/2 hectare (the minimum mapping unit).  Thus, ecotones
+and small patches of vegetation were avoided.  Forest and woodland communities
+were sampled with 20 x 20-meter plots while shrubland and herbaceous
+communities were sampled with 10 x 10-meter plots.  Collected data included
+habitat characteristics (e.g. slope, aspect, elevation, and soil characteristics),
+vegetation composition and structure, and other site features such as wildlife or
+human disturbance.  At least three plots were sampled for each plant community
+found in the study area, as long as three stands were available.  For a few
+uncommon plant communities, only one or two plots were sampled.  In order to
+collect large river riparian data, investigators selected a few sample sites outside,
+but near Park boundaries.  All sampled data were entered into TNC's "PLOTS"
+database program.
+To characterize vegetation structure, all species found within a plot were noted
+and foliar cover for each species by strata was estimated using a modified
+Daubenmire (1959) classification.  Since cover was estimated independently for
+both species and strata, total coverage for some of the plots was greater than 100%.
+In forests and woodlands, dbh (diameter at breast height) was measured for all trees
+greater than 10-cm dbh.  Various environmental data were also collected for each
+plot to characterize the abiotic conditions under which the sampled vegetation
+occurred.  The UTM coordinates and elevation of all plots were logged using a
+hand-held Precision Lightweight Global Positioning System (GPS) Receiver (PLGR)
+unit.  35 mm slides were taken for each plot and scanned representatives are
+included in the report.
+</methdesc>
+<methcite>
+<citeinfo>
+<origin>D. Mueller-Dombois and H. Ellenberg</origin>
+<pubdate>1974</pubdate>
+<title>Aims and Methods of Vegetation Ecology</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>New York</pubplace>
+<publish>Wiley</publish>
+</pubinfo>
+</citeinfo>
+</methcite>
+<methcite>
+<citeinfo>
+<origin>R. Daubenmire</origin>
+<pubdate>1959</pubdate>
+<title>A canopy-coverage method of vegetational analysis</title>
+<geoform>Journal Article</geoform>
+<serinfo>
+<sername>Northwest Science</sername>
+<issue>23: 69-82</issue>
+</serinfo>
+</citeinfo>
+</methcite>
+</method>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Point</direct>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>13</utmzone>
+<transmer>
+<longcm>-105</longcm>
+<latprjo>0</latprjo>
+<feast>500000</feast>
+<fnorth>0</fnorth>
+<sfctrmer>.9996</sfctrmer>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>1</absres>
+<ordres>1</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodedic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+DEFINITIONS of and/or INSTRUCTIONS for populating Data fields
+This section lists all of the data fields that you will encounter in the Plots Database System.
+Definitions for most of the data fields are provided and/or instructions to: a) locate the
+data field; and b) populate the data field.
+1.	AA Obs Code
+This field is a unique identifier for an AA Observation record.  It is generated by the Plots
+Database when you create a new record.  The AA Obs Code is assembled from two parts:
+the Location Code and a sequential counter field (AA Code Counter) that is increased
+automatically each time a Plot is entered for that Location.
+Examples:
+SHEN.1 	The first AA Observation record entered for Shenandoah NP
+TUZI.8	The eighth AA Observation record entered for Tuzigoot NM
+The AA Code Counter can be reset to any number you would like when the system
+creates the AA Obs Code for a new AA Observation record.  As you select the Location for
+your new AA Observation record, the system will suggest a new AA Obs Code based on the
+current setting of the counter.  You can accept this AA Obs Code, or you can change the
+counter at this point. Changing the counter setting will cause the counter to start numbering
+from the new setting.  This may be desirable if you would like to coordinate data entry with
+another installation, and want to avoid using duplicate AA Obs Codes.  See the How to Get
+Started section: Entering Data from field forms: Creating a new plot record for more detailed
+instructions.  Once you finalize the AA Obs Code, you can not change it directly.  If you
+need to change the AA Obs Code of your record, refer to the Troubleshooting/Helpful
+Hints section: Editing Problems.
+The AA Obs Code is viewed as read-only data in the Identifiers section of the AA
+Observation form.
+2.	Air Photo Number
+The identifying number or code of the aerial photo on which the plot appears.
+The Air Photo Number can be edited in the Identifiers 1 section of the Plots form, and in
+the Identifiers section of the AA Observation form.
+3.	Animal Use Evidence
+Comment on any evidence of use of the plot/polygon by non-domestic animals (i.e., tracks,
+scat, gopher or prairie dog mounds, etc.).  Notes on domestic animals should be made in
+the field Disturbance Comments.
+Animal Use Evidence can be edited in the Misc Comments section of the Plots form.
+4.	Aspect
+Enter slope aspect; use a compass (be sure to correct for the magnetic declination).
+Aspect can be edited in the Environment 1 section of the Plots and AA Observation forms.
+Use the pull-down list to select an appropriate value.
+Values:
+FLAT
+VARIABLE
+N				338-22&amp;Acirc;°
+NE				23-67&amp;Acirc;°
+E				68-112&amp;Acirc;°
+SE				113-157&amp;Acirc;°
+S				158-202&amp;Acirc;°
+SW				203-247&amp;Acirc;°
+W				248-292&amp;Acirc;°
+NW				293-337&amp;Acirc;°
+5.	Classified Community Name
+Once the data are analyzed and the community has been classified, enter the name of the
+community from the National Vegetation Classification System.
+The Classified Community Name can be edited in the Identifiers section of the AA
+Observation form and the Identifiers 1 section of the Plots form.
+6.	Common Name
+The common name for an individual species record within the NRCS PLANTS Database.
+The Common Name can be edited by clicking the 'PLANTS Database Maintenance' button
+from the "Main Menu" window.  Click on one of the 'Edit/View Data' buttons.  Edit
+according to the instructions in the Functions section: Editing Data: Undo/Edit functions.
+NOTE: if you change the contents of the PLANTS Database in any way you can not
+represent it to others as the NRCS PLANTS Database.  Please read the PLANTS copyright
+notice (click the 'Important Copyright Information' button in the "Main Menu" window).
+7.	Corrected Lat
+Enter the post-processing correction for the latitude.
+Corrected Lat can be edited in the Environment 1 section of the Plots and AA Observation
+forms after you click the 'Lat/Long' button.
+8.	Corrected Long
+Enter the post-processing correction for the longitude.
+Corrected Long can be edited in the Environment 1 section of the Plots and AA Observation
+forms after you click the 'Lat/Long' button.
+9.	Corrected X
+X coordinate of Universal Transverse Mercator projection after post-processing correction.
+To be filled in at the office, not in the field.
+The Corrected X can be edited in the Environment 1 section of the Plots and AA Observation
+forms after you click the 'UTM' button.
+10.	Corrected Y
+Y coordinate of Universal Transverse Mercator projection after post-processing correction.
+To be filled in at the office, not in the field.
+The Corrected X can be edited in the Environment 1 section of the Plots and AA Observation
+forms after you click the 'UTM' button.
+11.	Cowardin System
+Cowardin System can be edited in the Environment 1 section of the Plots and AA Observation
+forms.  Use the pull-down list to enter the appropriate term:  If the system is a wetland, enter the
+name of the USFWS system which best describes it's hydrology and landform.  Indicate
+"upland" if the system is not a wetland.
+Values:
+UPLAND - Not a wetland according to the Cowardin System.
+ESTUARINE  - Deepwater tidal habitats and adjacent tidal wetlands that are usually semienclosed
+by land but have open, partly obstructed, or sporadic access to the open ocean, and in which
+ocean water is at least occasionally diluted by freshwater runoff from the land.  The salinity is
+above 0.5 parts per thousand, and may be periodically increased above that of the open ocean
+by evaporation.  Along some low energy coastlines there is appreciable dilution of sea water.
+Offshore areas with typical estuarine plants and animals, such as red mangroves and eastern
+oysters are also included in the Estuarine System.  The presence of halophytic plants may be
+used to differentiate Estuarine from other freshwater systems if there is insufficient data on
+salinity.
+PALUSTRINE - Nontidal wetlands dominated by trees, shrubs, persistent emergents, emergent
+mosses or lichens, and all such wetlands that occur in tidal areas where salinity due to
+ocean derived salts is below 0.5 parts per thousand.  It also includes wetlands lacking
+such vegetation, but with all of the following four characteristics: (1) area less than 8 ha
+(20 acres); (2) active waveformed or bedrock shoreline features lacking; (3) water depth in
+the deepest part of basin less than 2m at low water; and (salinity due to ocean derived salts
+less than 0.5 parts per thousand.
+RIVERINE - Includes all wetlands and deepwater habitats contained within a channel, with two
+exceptions: (1) wetland dominated by trees, shrubs, persistent emergents, emergent mosses,
+or lichens, and (2) habitats with water containing ocean derived salts in excess of 0.5 parts
+per thousand.  A channel is "an open conduit either naturally or artificially created which
+periodically or continuously contains moving water, or which forms a connecting link
+between two bodies of standing water".
+LACUSTRINE - Includes wetlands and deepwater habitats with all of the following characteristics:
+(1) situated in a topographic depression or a dammed river channel; (2) lacking trees, shrubs,
+persistent emergents, emergent mosses or lichens with greater than 30% areal coverage; and
+(3) total area exceeds 8 ha (20 acres).  Similar wetland and deepwater habitats totaling less
+than 8 ha are also included in the Lacustrine System if an active waveformed or bedrock
+shoreline feature makes up all or part of the boundary, or if the water depth in the deepest
+part of the basin exceeds 2 m (6.6 feet) at low water.  Lacustrine waters may be tidal or
+nontidal, but ocean derived salinity is always less than 0.5 parts per thousand.
+12.	DBH
+For forests and woodlands, list for each tree species the DBH of all trees above 10 cm
+diameter.  Separate the measurements with a comma and note whether in cm or inches.
+The DBH field can be edited by clicking the 'View/Edit Species List' button in the
+Identifiers 1 section of the Plots form, then scrolling right by clicking on the right arrow
+button in the lower right section of one of the subwindows.
+The DBH field is not found in the AA-Species form.
+13.	Diagnostic
+This is to be checked if the species is known to be diagnostic of the vegetation type.
+The Diagnostic field can be edited by clicking the 'View/Edit Species List' button in the
+Identifiers section of AA Observation or the Identifiers 1 section of the Plots form, then
+scrolling right by clicking on the right arrow button in the lower right section of one of
+the subwindows.
+Click on the data square labeled Diagnostic to produce an 'x' if it is diagnostic.  Click
+the data square again to remove the 'x'.
+14.	Disturbance Comments
+Comment on any evidence of natural or anthropogenic disturbance and specify the
+source.
+Disturbance Comments can be edited through the Misc Comments section of the Plots
+and AA Observation forms.
+15.	Elevation
+Elevation of the plot.  Using the associated check-offs/data squares, specify whether
+feet or meters (this will depend on the units used on the topographic map/DEM's being
+used).
+Elevation can be edited through the Environment 1 section of the Plots and AA
+Observation forms.  Click on a data square to produce an 'x' to indicate that your
+measurement is in 'm' or 'ft'.
+16.	Environmental Comments
+Enter any additional noteworthy comments on the environmental setting.
+Environmental Comments can be edited in the Environment 2 section of the Plots and
+AA Observation forms.
+17.	Family
+The family name for an individual species record within the NRCS PLANTS Database.
+The plant Family can be edited by clicking the 'PLANTS Database Maintenance' button
+from the "Main Menu" window.  Click on one of the 'Edit/View Data' buttons.  Edit
+according to the instructions in the Functions section: Editing Data: Undo/Edit functions.
+NOTE: if you change the contents of the PLANTS Database in any way you can not
+represent it to others as the NRCS PLANTS Database.  Please read the PLANTS
+copyright notice (click the 'Important Copyright Information' button in the "Main
+Menu" window).
+18.	Field Lat
+If latitude and longitude were used to measure geographic position, enter the latitude
+value read from the GPS at the time of sampling.
+To edit Field Lat click on the 'Lat/Long' button of the Environment 1 section of the
+Plots or AA Observation forms.
+19.	Field Long
+If latitude and longitude were used to measure geographic position, enter the longitude
+value read from the GPS at the time of sampling.
+To edit Field Long click on the 'Lat/Long' button of the Environment 1 section of the
+Plots or AA Observation forms.
+20.	Field X
+X coordinate of Universal Transverse Mercator projection read from the GPS at the
+time of sampling.
+To edit Field X click the 'UTM' button of the Environment 1 section of the Plots or
+AA Observation forms.
+21.	Field Y
+Y coordinate of Universal Transverse Mercator projection read from the GPS at
+the time of sampling.
+To edit Field Y click the 'UTM' button of the Environment 1 section of the Plots
+or AA Observation forms.
+22.	Frame Number
+If photos have been taken at the plot, enter the film frame number to help identify
+the photos after film processing.
+Edit Frame Number in the Identifiers 2 section of the Plots form.  This data field is
+not found in the AA Observation form.
+23.	GPS File
+Enter the filename assigned to the plot when collecting GPS information.  It should
+be in the form XXMMDDHH ( unique plot identifier*, month, day, hour, i.e.
+23071313 - plot 23 collected on July 13 at 1pm).
+* Depending on your own data and situation, the counter portion of the Plot Code
+might serve as a convenient identifier.
+Edit GPS File by clicking the 'UTM' or 'Lat/Long' buttons in the Environment 1
+section of the Plots and AA Observation forms.
+24.	GPS Techniques
+Indicate the projection and GPS datum, plus any noteworthy comments regarding
+equipment and/or techniques used to process the GPS data.
+Edit GPS Techniques by clicking the 'UTM' or 'Lat/Long' buttons in the Environment
+1 section of the Plots and AA Observation forms.
+25.	Hydrologic Regime
+Assess the hydrologic regime of the plot using the descriptions that follow of
+hydrological modifiers used to identify wetland units at the formation level (adapted
+from Cowardin et al. 1979).  Edit Hydrologic Regime in the Environment 1 section of the
+Plots and AA Observation forms.  Select the appropriate term from the pull-down list.
+SEMIPERMANENTLY FLOODED - Surface water persists throughout growing season in
+most years except during periods of drought.  Land surface is normally saturated
+when water level drops below soil surface.  Includes Cowardin's Intermittently
+Exposed and Semipermanently Flooded modifiers.
+SEASONALLY FLOODED - Surface water is present for extended periods during the growing
+season, but is absent by the end of the growing season in most years.  The water table
+after flooding ceases is very variable, extending from saturated to a water table well
+below the ground surface.  Includes Cowardin's Seasonal, Seasonal-Saturated, and
+Seasonal-Well Drained modifiers.
+SATURATED -  Surface water is seldom present, but substrate is saturated to surface for
+extended periods during the growing season.  Equivalent to Cowardin's Saturated modifier.
+TEMPORARILY FLOODED - Surface water present for brief periods during growing season,
+but water table usually lies well below soil surface.  Often characterizes flood-plain
+wetlands.  Equivalent to Cowardin's Temporary modifier.
+INTERMITTENTLY FLOODED - Substrate is usually exposed, but surface water can be present
+for variable periods without detectable seasonal periodicity.  Inundation is not predictable
+to a given season and is dependent upon highly localized rain storms.  This modifier was
+developed for use in the arid West for water regimes of Playa lakes, intermittent streams,
+and dry washes but can be used in other parts of the U.S. where appropriate.  This
+modifier can be applied to both wetland and non-wetland situations.  Equivalent to
+Cowardin's Intermittently Flooded modifier.
+PERMANENTLY FLOODED - Water covers the land surface at all times of the year in all years.
+Equivalent to Cowardin's "permanently flooded".
+PERMANENTLY FLOODED TIDAL - Salt water covers the land surface at all times of the
+year in all years.  This modifier applies only to permanently flooded areas irregularly
+flooded by fresh tidal water.  Equivalent to Cowardin's "permanently flooded/tidal".
+TIDALLY FLOODED - flooded by the alternate rise and fall of the surface of oceans, seas,
+and the bays, rivers, etc. connected to them, caused by the attraction of the moon
+and sun [or by the back-up of water caused by unfavorable winds.
+UNKNOWN -- The water regime of the area is not known.  The unit is simply described as '(wetland).'
+26.	Hydrology Evidence
+Describe the hydrological factors that caused you to assign the type to the hydrologic
+regime that you chose.  What were the clues that caused you to make the call you did?
+Hydrology Evidence can be edited in the Environment 1 section of the Plots and AA
+Observation forms.
+27.	Jurisdiction
+The two-character State or Province code, or the ISO Nation code if appropriate.  To
+edit the Jurisdiction for a particular location, enter the Locations form by clicking on the
+'Supporting Data' button from the "Main Menu" window.  You can use the pull-down
+list to help populate this field, although you can also type in values that are not found
+in the list.
+28.	Landform
+Enter a descriptive term for the landform characteristics of the area.  Landform is edited
+in the Environment 1 section of the Plots and AA Observation forms.
+29.	Landscape Comments
+Describe the landscape context of the community.  What are the adjacent communities?
+Are there any other important landscape features influencing this community?
+Landscape Comments can be edited in the Environment 2 section of the Plots and AA
+Observation forms.
+30.	Leaf Phenology
+Leaf Phenology can be edited in the Lifeforms section of the Plots and AA Observation
+forms. Using the pull-down list, select the value which best describes the leaf phenology
+of the dominant stratum.
+Definitions:
+EVERGREEN - Greater than 75% of the total woody cover is never without green foliage.
+DECIDUOUS - Greater than 75% of the total woody cover sheds its foliage simultaneously in
+connection with the unfavorable season.
+COLD DECIDUOUS - Unfavorable season mainly characterized by winter frost.
+DROUGHT DECIDUOUS - Unfavorable season mainly characterized by drought, in most cases
+winter-drought.  Foliage is shed regularly every year.  Most trees with relatively thick,
+fissured bark.
+MIXED EVERGREEN - DECIDUOUS -  Evergreen and deciduous species generally contribute 25-75%
+of the total woody cover.
+MIXED EVERGREEN / COLD DECIDUOUS - Evergreen and cold-deciduous species admixed.
+MIXED EVERGREEN / DROUGHT DECIDUOUS - Evergreen and drought-deciduous species admixed.
+HERB - PERENNIAL - Herbaceous vegetation composed of more than 50% perennial species.
+HERB - ANNUAL - Herbaceous vegetation composed of more than 50% annual species.
+31.	Leaf Type
+Leaf Type can be edited in the Lifeforms section of the Plots and AA Observation forms.
+Using the pull-down list, select one value which best describes the leaf form of the dominant
+stratum.
+Values:
+BROADLEAF - Woody vegetation primarily broadleaved (generally contribute to greater than 50%
+of the total woody cover).
+NEEDLELEAF - Woody vegetation primarily needleleaved (generally contribute to greater than 50% cover).
+MICROPHYLLOUS - Woody cover primarily microphyllous.
+GRAMINOID - Herbaceous vegetation composed of more than 50% graminoid / stipe leaf species.
+BROADLEAF HERBACEOUS (FORB) - Herbaceous vegetation composed of more than 50% broadleaf
+forb species.
+PTERIDOPHTYE - Herbaceous vegetation composed of more than 50% species with frond or frondlike
+leaves.
+32.	Location Code
+Location Code is the unique record identifier for Location Records held in the Locations table.
+Each location (e.g. Park, Site, etc.) for which you are recording Plot or AA Observation data
+must have a record in the Locations table.   In the case of units of the National Park System, the
+Location Code is the standard 4-character Park Code.  Location Codes for other types of Locations
+should be selected according to standard convention, if one exists.  For example, conservation
+design sites recorded in the Site Basic Record within the BCD System should probably use their
+Site codes as Location Codes.
+The Location Code can be edited in the Locations form by clicking on the 'Supporting Data'
+button from the "Main Menu" window.  It is also found as read-only data in the Identifiers
+section of the AA Observation form and the Identifiers 1 section of the Plots form.
+33.	Location Name
+The name of the location (e.g. Park Name).
+The Location Name can be edited in the Locations form by clicking on the 'Supporting Data'
+button from the "Main Menu" window.  It is also found as read-only data in the Identifiers
+section of the AA Observation form and the Identifiers 1 section of the Plots form.
+34.	Organization
+The abbreviation or name of the organization that owns or manages the location.  These
+should be standardized among all Locations records, such that "NPS" is always used for the
+U.S. National Park Service, "TNC" for The Nature Conservancy, etc.
+The Organization field can be edited in the Locations form by clicking on the 'Supporting
+Data' button from the "Main Menu" window.  It is also found as read-only data in the
+Identifiers section of the AA Observation form and the Identifiers 1 section of the Plots
+form.  There it is identified as 'Location Organization'.
+35.	Other Comments
+Use this field for general comments, or any comments that don't seem to fit elsewhere.
+Other Comments can be edited in the Misc Comments section of the Plots and AA
+Observation forms.
+36.	Other Measure1, Other Measure2, Other Measure1 Defined, Other Measure2 Defined
+If measures other than percent cover were taken,  use these fields to hold the results
+and define the measurements in the Other Measure1 Defined and Other Measure2
+Defined fields.
+These data fields can be edited by clicking on the 'View/Edit Species List' button in
+the Identifiers section of the Plots or AA Observation forms.  To edit Other Measure1
+and Other Measure 2, scroll right by clicking on the right arrow of the subwindow's
+lower right corner.
+37.	Permanent
+Check-off indicating if the plot has been permanently marked.  Click on the data square
+to produce an 'x'.  Click again to remove the 'x'.  Permanent can be accessed in the
+Identifiers 2 section of the Plots form.
+38.	Photos
+Check-off indicating whether photos of the plot have been taken at the time of sampling.
+Click on the data square to produce an 'x'.  Click again to remove the 'x'.  Photos can be
+accessed in the Identifiers 2 section of the Plots form.
+39.	Physiognomic Class
+Physiognomic classes are determined by assessing the relative percent cover and height
+of the lifeform comprising the uppermost strata with cover greater than 10%.  (Note:
+Percent canopy cover and height ranges are provided as guidelines, not strict cutoff points).
+Physiognomic Class is edited in the Lifeforms section of the Plots and AA
+Observation forms. Using the pull-down list, select the value which best describes the
+physiognomy.  Definitions are modified from the 1973 UNESCO and 1984 Driscoll et al.
+Formation Classes and are defined by the relative percent cover of the tree, shrub, dwarf
+shrub, herbaceous, and nonvascular strata.
+FOREST - Trees (&gt; 5m) with crowns interlocking (generally forming 60-100% cover).
+WOODLAND - Trees (&gt; 5m) with crowns not touching (25-60% cover).
+SPARSE WOODLAND - Trees (&gt;5m) with crowns widely spaced (10-25% cover).
+SHRUBLAND - Shrubs/Trees (0.5-5m) with 25-100% cover.
+SPARSE SHRUBLAND - Shrubs/Trees (0.5-5m) with 10-25% cover.
+DWARF SHRUBLAND - Dwarf Shrubs/Shrubs/Trees (&lt;0.5m) with 25-100% cover.
+SPARSE DWARF SHRUBLAND - Dwarf Shrubs/Shrubs/Trees (&lt;0.5m) with 10-25% cover.
+HERBACEOUS - Herbaceous plants with 10-100% cover.
+SPARSE VASCULAR/NON-VASCULAR - 1-10% Vascular Vegetation.
+40.	Plant Symbol
+The Symbol field provides an quick and easy way to search for a species name in the
+PLANTS database.  It is accessed by clicking on the 'View/Edit Species List' button
+of the Identifiers section of the Plots and AA Observation forms.  The Symbol code
+is the identifier for records in PLANTS.  It generally consists of the first two characters
+of the Genus name, plus the first two characters of the Species name.
+Example:  for Pinus ponderosa, the Symbol is PIPO.
+Identical Symbol codes that are for different species names are appended with
+tie-breaker characters.
+Example:   Pinguicula primuliflora  =  PIPR,    Piptochaetium pringlei  =  PIPR1
+To use the Symbol code to search for a species name in PLANTS, type in the
+beginning characters of the code and press Enter (or move to the next field).  You
+will be shown a list of the PLANTS records that have Symbol codes that start with
+the characters you entered.  You can choose the name you are looking for from the list.
+41.	Plot Code
+This field is the unique identifier for a Plot record.  It is generated by the system, at
+the time a new record  is entered into the database.  The Plot Code is assembled from
+two parts: the Location Code and the Plot Code Counter, which is a sequential counter
+field that is increased automatically each time a Plot is entered for that Location.
+Examples:
+SHEN.1 		The first Plot record entered for Shenandoah National Park
+TUZI.8		The eighth Plot record entered for Tuzigoot National Monument
+The sequential counter can be reset to any number you would like when the system
+creates the Plot Code for a new Plot record.  As you select the Location for your new Plot
+record, the system will suggest a new Plot Code based on the current setting of the counter.
+You can accept this Plot Code, or you can change the counter at this point.  Changing the
+counter setting will cause the counter to start numbering from the new setting.  This may be
+desirable if you would like to coordinate data entry with another installation, and want to
+avoid using duplicate Plot Codes. See the How to Get Started section: Entering Data from
+field forms: Creating a new plot record for more detailed instructions.  Once you finalize the
+Plot Code, you can not change it directly.  If you need to change the Plot Code of your
+record, refer to the Troubleshooting/Helpful Hints section: Editing Problems.
+The Plot Code is viewed as read-only data in the Identifiers 1 section of the Plots form.
+42.	Plot Directions
+Precise directions to the site using a readily locatable landmark (e.g., a city, a major
+highway, etc.) as the starting point on a state or local road map.  Use clear sentences that
+will be understandable to someone who is unfamiliar with the area and has only your
+directions to follow.  Give distances as closely as possible to the 0.1 mile and use compass
+directions.  Give additional directions to the plot within the site.
+Plot Directions can be edited in the Identifiers 2 section of the Plots form.
+43.	Plot Representativeness
+Does this plot well represent the average species composition and structure, and
+environmental setting of the polygon?  If not, were additional plots taken to cover the
+range of variability within the polygon?
+Plot Representativeness can be edited in the Identifiers 2 section of the Plots form.
+44.	Plot Shape
+Plot Shape can be edited in the Identifiers 2 section of the Plots form. Using the
+pull-down list, select the plot shape which best describes that used for this sample
+Values:
+Rectangular
+Square
+Circular
+Transect/strip
+Other (type in your own term)
+45.	Polygon Code
+Code indicating the vegetation polygon where the plot was taken.  Fill this out only
+if working from previously delineated photos.
+The Polygon Code can be edited in the Identifiers section of the AA Observation form
+and the Identifiers 1 section of the Plots form.
+46.	Polygon Heterogeneity Comments
+Enter any observations regarding the heterogeneity (or lack thereof) of the community
+and environmental characteristics within the polygon.
+Polygon Heterogeneity Comments can be edited in the Misc Comments section of the
+AA Observation form.
+47.	Polygon Size
+Polygon Size can be edited in the Identifiers section of the AA Observation form.  Using
+the pull-down list, enter the category that corresponds to the size of the polygon.
+48. 	Provisional Community Name
+Using the classification system, assign the name of the vegetation type which most
+closely resembles this type.  Enter the finest level of the classification possible.  This is
+meant to be a field call of the vegetation classification and may change when the data are
+analyzed.  Colloquial names can be used in this field if necessary.
+Provisional Community Name can be edited in the Identifiers section of the AA
+Observation form and the Identifiers 1 section of the Plots form.
+49.	Quad Code
+Code of USGS 7.5 minute quadrangle map.  Quad Code can be edited in the Identifiers
+section of the AA Observation form and the Identifiers 1 section of the Plots form.
+50.	Quad Name
+Appropriate name/scale from survey map used; use 7.5 minute quadrangle if possible.
+Quad Name can be edited in the Identifiers section of the AA Observation form and the
+Identifiers 1 section of the Plots form.
+51.	Range Cover
+Use this field only if you do not use the Real Cover field to specify a true percentage.
+Range Cover can be edited by clicking on the 'View/Edit Species List' button in the
+Identifiers section of the Plots or AA Observation forms, then scrolling right by clicking
+on the right arrow button in the lower right section of one of the subwindows.  Using the
+pull-down list, select the value for estimated cover of this species within the stratum. The
+system will convert the value you select to a single midpoint percent figure for analysis,
+and automatically place that figure in the Real Cover field.
+Values:
+01	&lt;1%
+02	1-5%
+03	2-25%
+04	25-50%
+05	50-75%
+06	75-100%
+52.	Real Cover
+Use this field only if you are not using the Range Cover field to specify a value from
+the cover scale.  Enter the actual percent cover for the species within the stratum. Real
+Cover can be edited by clicking on the 'View/Edit Species List' button in the Identifiers
+section of the Plots or AA Observation forms, then scrolling right by clicking on the
+right arrow button in the lower right section of one of the subwindows.
+53.	Roll Number
+If photos have been taken at the plot, enter the film roll number to help identify the
+photos after film processing.
+Roll Number can be edited in the Identifiers 2 section of the Plots form.
+54.	Salinity/Halinity Modifiers
+Salinity/Halinity Modifiers can be edited in the Environment 1 section of the AA
+Observation and Plot forms.  Using the pull-down list, enter the salinity/halinity
+modifiers of the hydrologic regime.
+Values:
+Designation				Content
+Coastal Tidal: Saltwater - tidal			&gt; 30 ppt
+Coastal Tidal: Brackish			0.5 - 30 ppt
+Coastal Tidal: Freshwater			&lt; 0.5 ppt
+Inland: Saltwater				&gt; 30 ppt
+Inland: Brackish				0.5 - 30 ppt
+55.	Scientific Name
+The scientific name for an individual species record within the NRCS PLANTS
+Database.  As supplied by the NRCS, this field also contains authority information.
+This field is used as validation data when a species' name is entered into the Species
+Scientific Name field in either the Plots or the AA Observations table.
+The Scientific Name can be edited by clicking the 'PLANTS Database Maintenance'
+button from the "Main Menu" window.  Click on one of the 'Edit/View Data' buttons.
+Edit according to the instructions in the Functions section: Editing Data: Undo/Edit
+functions.
+NOTE: if you change the contents of the PLANTS Database in any way you can not
+represent it to others as the NRCS PLANTS Database.  Please read the PLANTS
+copyright notice (click the 'Important Copyright Information' button in the "Main Menu"
+window).
+56.	Slope
+Measure slope degrees using a clinometer.  Slope can be edited in the Environment 1
+section of the AA Observation and Plots forms.  Using the pull-down list, select an
+entry that corresponds to the degree measurement.
+VALUES:
+Degree		Percent
+FLAT				0		0%
+GENTLE				0-5&amp;Acirc;°		1-9%
+MODERATE			6-14&amp;Acirc;°		10-25%
+SOMEWHAT STEEP		15-26&amp;Acirc;°		26-49%
+STEEP				27-45&amp;Acirc;°		50-100%
+VERY STEEP			45-69&amp;Acirc;°		101-275%
+ABRUPT				70E-100&amp;Acirc;°		276-300%
+OVERHANGING/SHELTERED		&gt;100&amp;Acirc;°	       	&gt;300%
+57.	Soil Depth
+Enter the depth of the soil. Using the associated check-offs indicate the units of
+measurement.  Click on the data square to produce an 'x'.  In the Environmental
+Comments field indicate whether this was measured or estimated.
+Soil Depth can be edited in the Environment 2 section of the Plots form.
+58.	Soil Drainage
+Soil Drainage can be edited in the Environment 2 section of the Plots form. Using the
+pull-down list, enter the appropriate term describing soil drainage characteristics, per
+the following discussion:
+The soil drainage classes are defined in terms of (1) actual moisture content (in
+excess of field moisture capacity), and (2) the extent of the period during which excess
+water is present in the plantroot zone.
+It is recognized that permeability, level of groundwater, and seepage are factors
+affecting moisture status.  However, because these are not easily observed or measured
+in the field, they cannot be used generally as criteria of moisture status.  It is further
+recognized that soil profile morphology, for example mottling, normally, but not always,
+reflects soil moisture status.  Although soil morphology may be a valuable field indication
+of moisture status, it should not be the overriding criterion.  Soil drainage classes cannot
+be based solely on the presence or absence of mottling.  Topographic position and
+vegetation as well as soil morphology are useful field criteria for assessing soil moisture
+status.
+RAPIDLY DRAINED - The soil moisture content seldom exceeds field capacity in any horizon
+except immediately after water addition.  Soils are free from any evidence of gleying
+throughout the profile.  Rapidly drained soils are commonly coarse textured or soils on
+steep slopes.
+WELL DRAINED - The soil moisture content does not normally exceed field capacity in any
+horizon (except possibly the C) for a significant part of the year. Soils are usually free
+from mottling in the upper 3 feet, but may be mottled below this depth.  B horizons, if
+present, are reddish, brownish, or yellowish.
+MODERATELY WELL DRAINED - The soil moisture in excess of field capacity remains for a
+small but significant period of the year. Soils are commonly mottled (chroma &lt; 2) in the
+lower B and C horizons or below a depth of 2 feet.  The Ae horizon, if present, may be
+faintly mottled in fine textured soils and in medium textured soils that have a slowly
+permeable layer below the solum.  In grassland soils the B and C horizons may be
+only faintly mottled and the A horizon may be relatively thick and dark.
+SOMEWHAT POORLY DRAINED - The soil moisture in excess of field capacity remains
+in subsurface horizons for moderately long periods during the year. Soils are
+commonly mottled in the B and C horizons; the Ae horizon, if present, may be mottled.
+The matrix generally has a lower chroma than in the well drained soil on similar parent
+material.
+POORLY DRAINED - The soil moisture in excess of field capacity remains in all horizons for
+a large part of the year. The soils are usually very strongly gleyed.  Except in
+highchroma parent materials the B, if present, and upper C horizons usually have
+matrix colors of low chroma.  Faint mottling may occur throughout.
+VERY POORLY DRAINED - Free water remains at or within 12 inches of the surface most
+of the year. The soils are usually very strongly gleyed.  Subsurface horizons usually
+are of low chroma and yellowish to bluish hues.  Mottling may be present but at
+depth in the profile.  Very poorly drained soils usually have a mucky or peaty surface
+horizon. Simplified Key to Soil Texture (Brewer and McCann, 1982).
+59.	Soil Taxon/Description
+Soil Taxon/Description can be edited in the Environment 2 section of the Plots form.
+Provide the soil name and the name of the soil report/map from which the
+information was obtained.  Also provide a basic description of the soils noting the
+most significant features with respect to classifying the vegetation.  A soil core
+should be taken.  Describe the soil horizons and note the depth, texture, and color
+of each.  Note significant changes such as depth to mottling, depth to water table,
+root penetration depth, depth of the organic layer.  Also include general description
+soil depth class (shallow, deep, very deep, etc.) pH, stoniness, erosion potential and
+type, etc.  If it is not possible to take a soil core, as much information as possible
+should be recorded from the soil report and it should be noted that no core was taken.
+60.	Soil Texture
+Soil Texture can be edited in the Environment 2 section of the Plots form. Using the
+pull-down list, enter the appropriate term describing the soil texture.  Use the following
+key to derive the term:
+Simplified Key to Soil Texture (Brewer and McCann, 1982)
+A1		Soil does not remain in a ball when squeezed. . . . .  . .  sand
+A2		Soil remains in a ball when squeezed. . . . . . . . . . . . . . B
+B1		Squeeze the ball between your thumb and forefinger, attempting to make a ribbon
+that you push up over your finger.  Soil makes no ribbon.  . . . .  loamy sand
+B2		Soil makes a ribbon; may be very short. . . . . . . . . . . . . C
+C1		Ribbon extends less than 1 inch before breaking . . . . . . . . D
+C2		Ribbon extends 1 inch or more before breaking . . . . . . . . . E
+D1		Add excess water to small amount of soil;
+soil feels at least slightly gritty . . . . . . . . . . . . . . . . loam or sandy loam
+D2		Soil feels smooth . . . . . . . . . . . . . . . . . . .  silt loam
+E1		Soil makes a ribbon that breaks when 12 inches long;
+cracks if bent into a ring . . . . . . . . . . . . . . . . . . . . . . . . . . F
+E2		Soil makes a ribbon 2+ inches long;
+doesn't crack when bent into a ring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . G
+F1		Add excess water to small amount of soil;
+soil feels at least slightly gritty. . . . . . . . . . . . .sandy clay loam or clay loam
+F2		Soil feels smooth . . .  . . . . . . . . . . silty clay loam or silt
+G1		Add excess water to a small amount of soil;
+soil feels at least slightly gritty . . . . . . . . . . . . . . . . . sandy clay or clay
+G2		Soil feels smooth. . . . . . . . . . . . . . . . . . . . silty clay
+61.	Source
+This field indicates the source of the name record in the PLANTS Database.
+Values:
+SS	Standard Source  (e.g. the NRCS PLANTS list)
+NS	Non-standard Source  (any source other than NRCS)
+SY 	Accepted synonym by NRCS list
+The Source can be edited by clicking the 'PLANTS Database Maintenance'
+button from the "Main Menu" window.  Click on one of the 'Edit/View Data'
+buttons.  Edit according to the instructions in the Functions section: Editing
+Data: Undo/Edit functions.
+NOTE: if you change the contents of the PLANTS Database in any way you can not
+represent it to others as the NRCS PLANTS Database.  Please read the PLANTS
+copyright notice (click the 'Important Copyright Information' button in the "Main
+Menu" window).
+62.	Species Scientific Name
+The scientific name for an individual species found in a Plot or Accuracy
+Assessment observation.
+To edit the Species Scientific Name, click on the 'View/Edit Species List' button
+in the Identifiers 1 section of the Plots form or the Identifiers section of the AA
+Observation form.
+Please see the How to Get Started section: Entering Data from field forms: Entering
+Species Data for a Plot.
+63.	Specimen #
+Enter the Specimen # if a specimen of the species was collected.  Enter the number
+catalogued on the specimen.  If your program doesn't  already have guidelines
+in place for cataloguing specimens, use the plot code + a counter to create
+the specimen number.  (Example: SHEN.1.1).
+To edit the Specimen #, click on the 'View/Edit Species List' button in the Identifiers
+1 section of the Plots form or the Identifiers section of the AA Observation form.
+64.	Standard Source Name
+The Standard Source Name is the Scientific Name accepted by NRCS as the
+standard name to be used in classification.
+The "Specify Plant Species" window is divided into two columns.  The first
+column gives the Scientific Name, while the second gives the Common Name
+OR the Standard Source Name if the Scientific Name is a synonym recognized by
+NRCS.  The Standard Source Name is preceded by an '=' sign.  If you would like
+to avoid entering the Synonym, then return to step 2) and search for the Standard
+Source Name.
+65.	Stratum
+Visually divide the community into vegetation layers (strata).
+To edit the Stratum, click on the 'View/Edit Species List' button in the Identifiers
+1 section of the Plots form or the Identifiers section of the AA Observation form.
+Using the pull-down list, select the identifier abbreviation for the stratum in which
+this species occurs.
+Lifeforms:
+EMERGENT TREE				T1
+TREE CANOPY				T2
+TREE SUBCANOPY				T3
+TALL SHRUB (25m)				S1
+SHORT SHRUB (&lt;2m)			S2
+DWARF-SHRUB				S3
+HERBACEOUS				H
+NONVASCULAR				N
+EPIPHYTE				E
+VINE/LIANA				V
+66.	Stratum Height Class
+Visually divide the community into vegetation layers (strata).  Stratum Height
+Class is the height scale that represents the average height of the stratum.
+To edit the Stratum Height Class, enter the Lifeforms section of the Plots or AA
+Observation forms. Using the pull-down list, select the class that indicates the
+average height of the stratum (the height scale is also shown below).
+TREES are defined as single-stemmed woody plants, generally greater than
+5m in height or greater at maturity and under optimal growing conditions.
+SHRUBS are defined as multiple-stemmed woody plants generally less than
+5m in height at maturity and under optimal growing conditions.
+Height Scale for Strata
+01		&lt;0.5 m
+02		0.5-1m
+03		1-2 m
+04		2-5 m
+05		5-10 m
+06		10-15 m
+07		15-20 m
+08		20-35 m
+09		35 - 50 m
+10		&gt;50 m
+Lifeforms -
+EMERGENT TREE				T1
+TREE CANOPY				T2
+TREE SUBCANOPY				T3
+TALL SHRUB (25m)				S1
+SHORT SHRUB (&lt;2m)			S2
+DWARF-SHRUB				S3
+HERBACEOUS				H
+NONVASCULAR				N
+EPIPHYTE				E
+VINE/LIANA				V
+67.	Stratum Percent Cover
+Visually divide the community into vegetation layers (strata).  Stratum Percent
+Cover is the class value that represents the average percent cover of the whole
+stratum.
+To edit the Stratum Height Class, enter the Lifeforms section of the Plots or AA
+Observation forms.  Using the pull-down list, select the class value indicating
+the average percent cover of the whole stratum.
+TREES are defined as single-stemmed woody plants, generally greater than 5m in
+height or greater at maturity and under optimal growing conditions.  SHRUBS are
+defined as multiple-stemmed woody plants generally less than 5m in height at
+maturity and under optimal growing conditions.
+Lifeforms -
+EMERGENT TREE					T1
+TREE CANOPY					T2
+TREE SUBCANOPY					T3
+TALL SHRUB (25m)					S1
+SHORT SHRUB (&lt;2m)				S2
+DWARF-SHRUB					S3
+HERBACEOUS					H
+NONVASCULAR					N
+EPIPHYTE					E
+VINE/LIANA					V
+68.	Sublocation
+Provisional name assigned by field worker that describes where the data were
+collected; should represent an identifiable feature on topographic map.
+Sublocation can be edited in the Identifiers 1 section of the Plots form and the
+Identifiers section of the AA Observation form.
+69.	SubPlot
+Click on the data square to produce an 'x' if the plot is a subplot of another larger
+plot. Leave blank if the plot is not a subplot of another plot.
+SubPlot can be edited in the Identifiers 1 section of the Plots form.
+70.	SubPlot Parent Code
+Enter the Plot Code for the plot for which this record is a subplot.  Use the pull-down
+list to find the correct Plot Code.
+SubPlot Parent Code can be edited in the Identifiers 1 section of the Plots form.
+71.	Surficial Geology
+Surficial Geology can be edited in the Environment 1 section of the Plots and AA
+Observation forms.  Using the pull-down list, select a term that describes the
+geologic substrate influencing the plant community (bedrock or surficial materials).
+The list provided with the Plots Database software is to serve as an example of the
+kinds of terms you could use.  You can customize this list by clicking on the button
+'Edit Geology List', which will take you to the Surficial Geology Classes form.
+72.	Survey Date
+Date the survey was taken; month, day, year*.  *Year is entered as 4 characters, so
+as to avoid the "Year 2000" computer problem.  After it has been entered, 20th
+century years appear as two characters, 21st century years appear with all four
+characters.
+Survey Date can be edited in the Identifiers 1 section of the Plots form and the
+Identifiers section of the AA Observation form.
+73.	Surveyors
+Names (and addresses, if appropriate) of surveyors, principle surveyor listed first.
+Surveyors can be edited in the Identifiers 1 section of the Plots form and the Identifiers
+section of the AA Observation form.
+74.	Synonym
+The Synonym is the Scientific Name accepted by NRCS as a synonym.
+The "Specify Plant Species" window is divided into two columns.  The first column
+gives the Scientific Name, while the second gives the Common Name OR the Standard
+Source Name if the Scientific Name is a synonym recognized by NRCS.  The Standard
+Source Name is preceded by an "=" sign.  If you would like to avoid entering the
+Synonym, then return to step 2) and search for the Standard Source Name.
+75.	TNC Elcode
+Enter the Elcode (Element Code) for the community element corresponding to the
+Classified Community Name.
+TNC Elcode can be edited in the Identifiers 1 section of the Plots form and the
+Identifiers section of the AA Observation form.
+76.	TNC EONum-Suffix
+Enter the EO Number, State/Province, and Nation portion of the EOCODE (i.e., that
+portion of the EOCODE that follows the ELCODE) that identifies the Element
+Occurrence Record (EOR) for this plot.
+TNC EONum-Suffix can be edited in the Identifiers 1 section of the Plots form and the
+Identifiers section of the AA Observation form.
+77.	Topo Position
+Topographic position of the plot.  Use the pull-down list to select an appropriate value.
+Topo Position can be edited in the Environment 1 section of the Plots and AA
+Observation forms.
+Values:
+INTERFLUVE: (crest, summit, ridge): linear top of ridge, hill, or mountain; the elevated
+area between two fluves (drainageways) that sheds water to the drainageways.
+HIGH SLOPE: (shoulder slope, upper slope, convex creep slope): geomorphic component
+that forms the uppermost inclined surface at the top of a slope. Comprises the
+transition zone from backslope to summit. Surface is dominantly convex in profile
+and erosional in origin.
+HIGH LEVEL (mesa): level top of plateau.
+MIDSLOPE (transportational midslope, middle slope): intermediate slope position
+BACKSLOPE (dipslope): subset of midslopes which are steep, linear, and may include cliff
+segments (fall faces).
+STEP IN SLOPE (ledge, terracette): nearly level shelf interrupting a steep slope, rock wall, or
+cliff face.
+LOWSLOPE (lower slope, foot slope, colluvial footslope): inner gently inclined surface at the
+base of a slope. Surface profile is generally concave and a transition between midslope or
+backslope, and toe slope.
+TOESLOPE (alluvial toeslope): outermost gently inclined surface at base of a slope. In profile,
+commonly gentle and linear and characterized by alluvial deposition.
+LOW LEVEL (terrace): valley floor or shoreline representing the former position of an alluvial
+plain, lake, or shore.
+CHANNEL WALL (bank): sloping side of a channel.
+CHANNEL BED (narrow valley bottom, gully arroyo): bed of single or braided watercourse
+commonly barren of vegetation and formed of modern alluvium.
+BASIN FLOOR (depression): nearly level to gently sloping, bottom surface of a basin.
+78.	Unvegetated Surface categories
+In each category field (e.g. % Bedrock, % Large Rocks, etc.), enter the percentage of
+surface covered by each category.  Include only the categories/fields covering over
+5 percent.
+Use the "% Other" field to note any additional category that may be significant, and
+indicate the name of that category in the "Description" field.
+Unvegetated Surface can be edited in the Environment 2 section of the Plots and
+AA Observation forms.
+Definitions:
+BEDROCK: sheets of bedrock exposed at the surface.
+LARGE ROCKS: includes boulders and cobbles greater than 10 cm diameter.
+SMALL ROCKS: includes gravel, 0.2-10 cm diameter.
+SAND: small particles 0.1 - 2 mm diameter.
+BARE SOIL (mineral / organic): includes small particles less than 0.1 mm diameter.
+LITTER, DUFF: litter includes freshly-fallen leaves, needles, twigs, bark, fruits, and wood
+fragments less than 1 cm.  Duff is fermentation layer and humus layer (organic horizon).
+WOOD: downed fragments greater than 1 cm.
+79.	Used PLANTS
+This field will be automatically checked if the name appearing in the Species Scientific
+Name field is found in the PLANTS database.  Note that the automatic check-off will only
+take place if there is an exact match between the Species Scientific Name and the name as
+listed in PLANTS (which typically lists the authority).
+Used PLANTS can not be edited.
+80.	X Dimension
+Enter the length in meters* of one side of each of the plots in which samples were taken.
+If the plot is circular, enter the length of its radius.  If transects were used, enter their length
+here. The value of X Dimension should correspond to the plot specified in the Plot Shape
+field.  *NOTE:  Dimensions MUST be converted to meters.
+X Dimension can be edited in the Identifiers 2 section of the Plots form.
+81.	Y Dimension
+Enter the length in meters* of the side of the plot adjacent to the side entered in the X
+Dimension field.  The value entered in the Y Dimension field should correspond to the plot
+referred to in the Plot Shape  and X Dimension  fields.  Leave this field blank if the plot is
+circular.  Enter a one if a transect was used.  *NOTE:  Dimensions MUST be converted to meters.
+Y Dimension can be edited in the Identifiers 2 section of the Plots form.
+82.	Zone
+Zone of the Universal Transverse Mercator projection. To be filled in at the office, not
+in the field.
+Zone can be edited in the Environment 1 section of the Plots and Accuracy Assessment forms.
+</eaover>
+<eadetcit>
+See:
+http://biology.usgs.gov/npsveg/ftp/vegmapping/tncplots/USER7.DOC,
+http://biology.usgs.gov/npsveg/badl/report.pdf#appendix6
+and
+http://biology.usgs.gov/npsveg/badl/report.pdf#appendix7
+</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+<cntorg>Center for Biological Informatics, USGS-BRD</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing Address</addrtype>
+<address>PO Box 25046, MS-302</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>303-202-4229</cntfax>
+<cntfax>303-202-4219 (org)</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Badlands National Park Field Data</resdesc>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the
+Biological Resources Division, no warranty
+expressed or implied is made regarding the
+accuracy or utility of the data on any other
+system or for general or scientific purposes, nor
+shall the act of distribution constitute any such
+warranty. This disclaimer applies both to
+individual use of the data and aggregate use with
+other data.  It is strongly recommended that these
+data are directly acquired from a Biological
+Resources Division server, and not indirectly
+through other sources which may have changed the
+data in some way.  It is also strongly recommended
+that careful attention be paid to the contents of
+the metadata file associated with these data.  The
+Biological Resources Division shall not be held
+liable for improper or incorrect use of the data
+described and/or contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>HTML</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://biology.usgs.gov/npsveg/badl/fielddata.html</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>200111</metd>
+<metrd>20050511</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>USGS-NPS Vegetation Mapping Program Coordinator</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+U.S. Geological Survey, Center for Biological Informatics, MS 302,
+Room 8000, Building 810, Denver Federal Center
+</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 202-4220</cntvoice>
+<cntfax>(303) 202-4219</cntfax>
+<cntemail>gs-b-npsveg@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC-STD-001.1-1999 Content Standard for Digital Geospatial Metadata, 1998 Part 1: Biological Data Profile, 1999</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metextns>
+<onlink>http://biology.usgs.gov/fgdc.bio/bionwext.txt</onlink>
+<metprof>Biological Data Profile FGDC-STD-001.1-1999</metprof>
+</metextns>
+</metainfo>
+<mercury><begdate>19970801</begdate><enddate>19971231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_CBI_usgs_brd_cbi_d_badlfield.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>

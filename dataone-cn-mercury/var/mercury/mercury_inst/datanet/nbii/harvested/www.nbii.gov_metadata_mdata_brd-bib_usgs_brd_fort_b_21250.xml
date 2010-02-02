@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fort_b_21250.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Allen, C.D</origin>
+<pubdate>2001</pubdate>
+<title>Runoff, erosion, and restoration studies in pinon-juniper woodlands of the Pajarito Plateau</title>
+<geoform>publication</geoform>
+<pubinfo>
+<pubplace>Socorro, NM</pubplace>
+<publish>New Mexico Bureau of Mines and Mineral Resources</publish>
+</pubinfo>
+<othercit>pages 24-26</othercit>
+<lworkcit>
+<citeinfo>
+<origin>Johnson, P.S., ed.</origin>
+<pubdate>2001</pubdate>
+<title>Water, Watersheds, and Land Use in New Mexico: Impacts of Population Growth on Natural Resources Santa Fe Region 2001</title>
+<geoform>Book</geoform>
+<pubinfo>
+<pubplace>Socorro, NM</pubplace>
+<publish>New Mexico Bureau of Mines and Mineral Resources</publish>
+</pubinfo>
+<othercit>pages 24-26</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This document is the published result, conclusion, or progress report of research performed by the staff of the U.S. Geological Survey, Fort Collins Science Center (FORT).  Information used to prepare the metadata for this document was extracted from FORT's Publications Database.</abstract>
+<purpose>To report the results of research conducted by FORT staff.</purpose>
+<supplinf>Allen, C.D. 2001. Runoff, erosion, and restoration studies in pinon-juniper woodlands of the Pajarito Plateau. In: Johnson, P.S.. Water, Watersheds, and Land Use in New Mexico: Impacts of Population Growth on Natural Resources Santa Fe Region 2001. Socorro, NM: New Mexico Bureau of Mines and Mineral Resources. p. 24-26.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2001</caldate>
+</sngdate>
+</timeinfo>
+<current>Publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>New Mexico</descgeog>
+<bounding>
+<westbc>-109.05141</westbc>
+<eastbc>-102.99692</eastbc>
+<northbc>36.99974</northbc>
+<southbc>31.34335</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>pinon-juniper</themekey>
+<themekey>woodlands</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>New Mexico</placekey>
+<placekey>NM</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Allen, A.W.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</ptcontac>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Wilcox, B.P., D.D. Breshears, and C.D. Allen</origin>
+<pubdate>2003</pubdate>
+<title>Ecohydrology of a resource-conserving semiarid woodland: Effects of scale and disturbance</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Ecological Monographs (ISSN 0012-9615)</sername>
+<issue>73(2):223•239</issue>
+</serinfo>
+<othercit>Vol. 73(2) 223•239 pp.</othercit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Allen, C.D</origin>
+<pubdate>2002</pubdate>
+<title>Runoff, Erosion, and Restoration Studies in Pi&amp;ntilde;on-Juniper Woodlands of the Southeastern Jemez Mountains</title>
+<geoform>Unknown</geoform>
+<pubinfo>
+<pubplace>Los Alamos, NM</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<othercit>8 pp.</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/10001/10001.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Sydoriak, C.A., C.D. Allen, and B.F. Jacobs</origin>
+<pubdate>2000</pubdate>
+<title>Would ecological landscape restoration make the Bandelier Wilderness more or less of a wilderness?</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Wild Earth</sername>
+<issue>10(4):83-90</issue>
+</serinfo>
+<othercit>Vol. 10(4) pages 83-90</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/540/540.asp</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Sydoriak, C.A., C.D. Allen, and B.F. Jacobs</origin>
+<pubdate>2000</pubdate>
+<title>Would ecological landscape restoration make the Bandelier Wilderness more or less of a wilderness?</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S.D.A., Forest Service, Rocky Mountain Research Station, RMRS-P-15-Vol 5</publish>
+</pubinfo>
+<othercit>pages 209-215</othercit>
+<lworkcit>
+<citeinfo>
+<origin>D.N. Cole, S.F. McCool, W.T. Borrie, and J. O'Loughlin (eds.), ed.</origin>
+<pubdate>2000</pubdate>
+<title>Would ecological landscape restoration make the Bandelier Wilderness more or less of a wilderness?</title>
+<geoform>Proceedings</geoform>
+<pubinfo>
+<pubplace>Fort Collins, CO</pubplace>
+<publish>U.S.D.A., Forest Service, Rocky Mountain Research Station, RMRS-P-15-Vol 5</publish>
+</pubinfo>
+<othercit>pages 209-215</othercit>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>U.S. Geological Survey, Fort Collins Science Center (FORT)</origin>
+<origin>Davenport, D.W., D.D. Breshears, B.P. Wilcox, and C.D. Allen</origin>
+<pubdate>1998</pubdate>
+<title>Viewpoint: Sustainability of pinon-juniper ecosystems - a unifying perspective of soil erosion thresholds</title>
+<geoform>Unknown</geoform>
+<serinfo>
+<sername>Journal of Range Management (ISSN 0022-409X)</sername>
+<issue>51(2):231-240</issue>
+</serinfo>
+<othercit>Vol. 51(2) pages 231-240</othercit>
+<onlink>http://www.fort.usgs.gov/products/publications/3294/3294.asp</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Allen, A.W.</cntper>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Runoff, erosion, and restoration studies in pinon-juniper woodlands of the Pajarito Plateau.  FORT Library Archive Number: 2001/0057 MESC</resdesc>
+<distliab>Although this data and information has been processed successfully on a computer system at the USGS Fort Collins Science Center, no warranty expressed or implied is made regarding the accuracy or utility of the data and information on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies both to individual use of the data and information, and aggregate use with other data and information.  It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information.  The USGS shall not be held liable for improper or incorrect use of the data and information described and/or contained herein.</distliab>
+</distinfo>
+<metainfo>
+<metd>20090623</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Geological Survey, Fort Collins Science Center (FORT)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing and Physical</addrtype>
+<address>U.S. Geological Survey</address>
+<address>Fort Collins Science Center</address>
+<address>2150 Centre Avenue Bldg C</address>
+<city>Fort Collins</city>
+<state>CO</state>
+<postal>80526-8118</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 226-9100</cntvoice>
+<cntfax>(970) 226-9230</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20010101</begdate><enddate>20011231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fort_b_21250.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

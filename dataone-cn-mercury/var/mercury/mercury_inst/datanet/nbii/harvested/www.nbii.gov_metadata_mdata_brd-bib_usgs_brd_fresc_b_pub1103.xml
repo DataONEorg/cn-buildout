@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_pub1103.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Rosso, A.L., B. McCune, T. Tonsberg, and C. Printzen</origin>
+<pubdate>1999</pubdate>
+<title>Lichens of an old-growth forest in a little explored area of western Oregon, U.S.A.</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Evansia</sername>
+<issue>16(3): 137-142</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Las Vegas, NV</pubplace>
+<publish>American Bryological and Lichenological Society</publish>
+</pubinfo>
+<othercit>Publication Control #: 1103</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>A list of lichens, some rare or unusual species, found in an old-growth forest in the Umpqua region of southwestern Oregon. The area was surveyed in the summer of 1997 as part of a study of the distribution and habitat of the old-growth-associated lichen "Nephroma occultum Wetm.", within the Rock Creek watershed.</abstract>
+<purpose>Reporting research results</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>1997</caldate>
+</sngdate>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Rock Creek in the Umpqua River basin, Oregon</descgeog>
+<bounding>
+<westbc>-123.67</westbc>
+<eastbc>-123.24</eastbc>
+<northbc>43.8</northbc>
+<southbc>43.27</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Biocomplexity Thesaurus</themekt>
+<themekey>lichen</themekey>
+<themekey>cryptogam</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Oregon</placekey>
+<placekey>OR</placekey>
+<placekey>Umpqua River</placekey>
+<placekey>Rock Creek</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>none</taxonkt>
+<taxonkey>lichen</taxonkey>
+</keywtax>
+<taxongen>A survey of lichen flora of an old growth forest.</taxongen>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Fungi</taxonrv>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Ascomycota</taxonrv>
+<taxoncl>
+<taxonrn>Sub Division</taxonrn>
+<taxonrv>Pezizomycotina</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Lecanoromycetes</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Lecanorales</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Nephromataceae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Nephroma</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Nephroma occultum Wetmore</taxonrv>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>none</accconst>
+<useconst>none</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control # 1103</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20050414</metd>
+<metrd>20040319</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+<cntemail>fresc_outreach@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>19970101</begdate><enddate>19971231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_pub1103.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

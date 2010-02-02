@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/brd-bib/usgs_brd_fresc_b_exoticgrass.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Evans, R., R. Rimer, L. Sperry, and J. Belnap</origin>
+<pubdate>2001</pubdate>
+<title>Exotic plant invasion alters nitrogen dynamics in an arid grassland</title>
+<geoform>Journal article</geoform>
+<serinfo>
+<sername>Ecological Applications</sername>
+<issue>11(5):1301-1310</issue>
+</serinfo>
+<othercit>
+Science Information System Project #: 762
+Publication Control #: 1077
+</othercit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The presence of unwanted weedy plants is a phenomenon experienced by almost all landowners. Unfortunately, the invasion of non-native (exotic) plant species throughout the United States has become a devastating and catastrophic problem in that different exotic plant species, having no natural competitors, have come to dominant and significantly change many natural ecosystems in the last decade. Invasive plant species may cause an imbalance in the way ecosystems function by altering the availability of nitrogen, which is a critical nutrient that plants need for growth. The authors, in collaboration with others at the University of Arkansas, quantified the effects that an invasive annual grass, cheatgrass (Bromus tectorum), had on the cycling of nitrogen in an arid grassland on the Colorado Plateau. The invasion of cheatgrass was found to significantly alter the amount of litter as well as the chemical composition of the litter compared to native vegetation. These changes in sites where cheatgrass was present had the result of significantly decreasing the amount of nitrogen readily available for native plants. Evidence suggests that in the long term, nitrogen loss will be greater in sites invaded by cheatgrass because of the increased fire frequency (fueled by cheatgrass litter) and greater amounts of nitrogen being lost to vapor during fires.</abstract>
+<purpose>Reporting research results</purpose>
+<supplinf>
+Extent of item:9pp
+Illustrative Matter: charts, figures
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2001</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<descgeog>Canyonlands National Park, Utah</descgeog>
+<bounding>
+<westbc>-110.1</westbc>
+<eastbc>-109.68</eastbc>
+<northbc>38.55</northbc>
+<southbc>37.95</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Science Information System Controlled Vocabulary</themekt>
+<themekey>Desert and Arid Lands</themekey>
+<themekey>Ecosystem Science</themekey>
+<themekey>Invasive Species</themekey>
+<themekey>Plants</themekey>
+<themekey>Grassland/Rangeland</themekey>
+</theme>
+<theme>
+<themekt>None</themekt>
+<themekey>denitrification enzyme activity</themekey>
+<themekey>desert vegetation</themekey>
+<themekey>ecosystem carbon</themekey>
+<themekey>ecosystem nitrogen</themekey>
+<themekey>grasslands</themekey>
+<themekey>litter</themekey>
+<themekey>changes in biomass and chemistry</themekey>
+<themekey>N mineralization</themekey>
+<themekey>plant-available N following plant invasion</themekey>
+<themekey>plant invasion</themekey>
+<themekey>litter quality</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Canyonlands National Park</placekey>
+<placekey>Utah</placekey>
+<placekey>UT</placekey>
+</place>
+</keywords>
+<taxonomy>
+<keywtax>
+<taxonkt>None</taxonkt>
+<taxonkey>plants</taxonkey>
+</keywtax>
+<taxoncl>
+<taxonrn>Kingdom</taxonrn>
+<taxonrv>Plantae</taxonrv>
+<taxoncl>
+<taxonrn>Division</taxonrn>
+<taxonrv>Magnoliophyta</taxonrv>
+<taxoncl>
+<taxonrn>Class</taxonrn>
+<taxonrv>Liliopsida</taxonrv>
+<taxoncl>
+<taxonrn>Order</taxonrn>
+<taxonrv>Cyperales</taxonrv>
+<taxoncl>
+<taxonrn>Family</taxonrn>
+<taxonrv>Poaceae</taxonrv>
+<taxoncl>
+<taxonrn>Genus</taxonrn>
+<taxonrv>Bromus</taxonrv>
+<taxoncl>
+<taxonrn>Species</taxonrn>
+<taxonrv>Bromus tectorum</taxonrv>
+<common>cheatgrass</common>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxoncl>
+</taxonomy>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Belnap, Jayne</cntper>
+<cntorg>Forest and Rangeland Ecosystem Science Center (FRESC)</cntorg>
+</cntperp>
+<cntpos>Station Leader</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2290 S. West Resource Blvd.</address>
+<city>Moab</city>
+<state>UT</state>
+<postal>84532</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(435) 719-2333</cntvoice>
+<cntfax>(435) 719-2300</cntfax>
+<cntemail>jayne_belnap@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</distrib>
+<resdesc>Publication Control #: 1077</resdesc>
+<distliab>
+The USGS Forest and Rangeland Ecosystem Science Center and its research partners make every effort to provide and maintain accurate, complete, usable, and timely information. However, some USGS data and information may, of necessity, be preliminary in nature. These data and information are provided with the understanding that they are not guaranteed to be correct or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data and information. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+USGS-authored or produced data and information are in the public domain. Whereas the content of many USGS publications and other information resources are in the public domain, some USGS products contain material that is copyrighted by others and used by the USGS with permission. Users of this information may need to obtain permission from the copyright owner for other uses. Furthermore, some non-USGS data, products, and information referred to may be protected under U.S. and foreign copyright laws. Users may need to obtain permission from the copyright owner to acquire, use, reproduce, or distribute these materials. It is the sole responsibility of the user of the information to secure all necessary permission.
+</distliab>
+<stdorder>
+<nondig>Publications are available as reprints, reports, pamphlets, or brochures.</nondig>
+<fees>None</fees>
+<ordering>Request specific publications by reference number.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20020520</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Olendorff Library</cntorg>
+</cntorgp>
+<cntpos>Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>
+USGS FRESC Snake River Field Station
+970 Lusk Street
+</address>
+<city>Boise</city>
+<state>ID</state>
+<postal>83706</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>208 426-5218</cntvoice>
+<cntfax>208 426-5210</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001.1-1999</metstdv>
+</metainfo>
+<mercury><begdate>20010101</begdate><enddate>20011231</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/brd/www.nbii.gov_metadata_mdata_brd-bib_usgs_brd_fresc_b_exoticgrass.html</htmlurl><LTER-Site>brd</LTER-Site></mercury></metadata>

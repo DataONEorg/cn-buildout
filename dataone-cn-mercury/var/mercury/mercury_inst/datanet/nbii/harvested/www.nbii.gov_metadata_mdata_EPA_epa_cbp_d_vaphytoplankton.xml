@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata><Source>http://www.nbii.gov/metadata/mdata/EPA/epa_cbp_d_vaphytoplankton.sgml</Source>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Harold Marshall, Old Dominion University</origin>
+<pubdate>1999</pubdate>
+<title>
+Virginia Chesapeake Bay Monitoring Program: Lower
+Chesapeake Bay Phytoplankton and Picoplankton
+Study (July 1985 through December 1999)
+</title>
+<geoform>maps data</geoform>
+<pubinfo>
+<pubplace>Annapolis, Maryland</pubplace>
+<publish>
+US Environmental Protection Agency and Virginia
+Department of Environmental Quality program
+administered by Virginia Department of
+Environmental Quality
+</publish>
+</pubinfo>
+<onlink>http://www.chesapeakebay.net</onlink>
+<lworkcit>
+<citeinfo>
+<origin>Jacqueline Johnson</origin>
+<pubdate>19981321</pubdate>
+<title>Chesapeake Bay Program Plankton Database</title>
+<edition>Version 2.0</edition>
+<geoform>database</geoform>
+<pubinfo>
+<pubplace>Annapolis, MD</pubplace>
+<publish>US EPA Chesapeake Bay Program</publish>
+</pubinfo>
+<onlink>www.chesapeakebay.net</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+Phytoplankton and Picoplankton taxon distributions
+were obtained from replicate surface and lower
+water column composite samples at 15 station,
+sampled monthly from January- December  in
+Virginia. Stations were located to characterize
+phytoplankton composition and abundance in the
+lower bay,  Bay mouth system, Virginia tributaries
+and southern branch of the Elizabeth River.
+</abstract>
+<purpose>
+The Commonwealth of Virginia, in cooperation with
+the US EPA Chesapeake Bay Program, has monitored
+plankton species abundance and composition in the
+Virginia Chesapeake Bay mainstem and tributaries
+since 1985.  The current dataset is designed to
+give comprehensive spatial and temporal
+information on phytoplankton.
+</purpose>
+<supplinf>
+Information for this metadata was adapted from the
+Environmental Protection Agency Chesapeake Bay
+Program data page web site -
+www.chesapeakebay.net/data/index.htm.  If above
+web sites change go to www.chesapeakebay.net.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19950708</begdate>
+<enddate>19991213</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>In work</progress>
+<update>Annually</update>
+</status>
+<spdom>
+<descgeog>
+Chesapeake Bay and its Tidal Tributaries in the
+Commonwealth of Virginia
+</descgeog>
+<bounding>
+<westbc>-77.233</westbc>
+<eastbc>-76.0106</eastbc>
+<northbc>38.019</northbc>
+<southbc>36.7697</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>water quality monitoring</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Main Channel, Mid-Bay</placekey>
+<placekey>Main Channel, Mid-Bay</placekey>
+<placekey>Eastern Shore Channel, Southern End</placekey>
+<placekey>Baltimore Channel, Bay Mouth</placekey>
+<placekey>Off Mouth of Rappahannock River</placekey>
+<placekey>Off Mouth of York River</placekey>
+<placekey>Off Mouth of James River</placekey>
+<placekey>South Branch Elizabeth River</placekey>
+<placekey>South Branch Elizabeth River, Off VEPCO</placekey>
+<placekey>Rappahannock River, Buoy N40</placekey>
+<placekey>Rappahannock River, N Buoy R10</placekey>
+<placekey>Pamunkey River, Off White House</placekey>
+<placekey>York River, Buoy C57</placekey>
+<placekey>James River, Red Buoy 107</placekey>
+<placekey>James River, Off Swann's Point</placekey>
+<placekey>VA</placekey>
+<placekey>Virginia</placekey>
+<placekey>Chesapeake Bay</placekey>
+<placekey>USA</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Interstate Commission on Potomac River Basin</cntorg>
+<cntper>Jacqueline Johnson</cntper>
+</cntorgp>
+<cntpos>
+Chesapeake Bay Program Living Resources Data
+Manager
+</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>410 Severn Avenue, Suite 109</address>
+<city>Annapolis</city>
+<state>Maryland</state>
+<postal>21403</postal>
+</cntaddr>
+<cntvoice>1-800-968-7229</cntvoice>
+<cntvoice>410-267-5729</cntvoice>
+<cntfax>410-267-5777</cntfax>
+<cntemail>jjohnson@chesapeakebay.net</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. Monday Through Friday</hours>
+<cntinst>unavailable</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+The phytoplankton field chief is the custodian for
+all samples collected, and verifies proper
+labeling of bottles, complete field data entries,
+the collection of the samples, preservative used
+and transport to the laboratory.  He also
+supervises the calibration and availability of
+field equipment. Samples are turned over to the
+laboratory chief who oversees the sample
+processing, analysis and recording of the raw
+data.  Taxon identifications, raw data sheets and
+other stages of the collection and analysis
+procedures are routinely checked by the principal
+investigator and laboratory chief for quality
+assurance.
+</attraccr>
+</attracc>
+<logic>not applicable</logic>
+<complete>
+Sampling of tributary stations did not begin until
+January 1986. Sampling in the Elizabeth river did
+not begin until January of 1989. Sampling at
+station SBE2 in the Elizabeth River was
+discontinued in January 1998.
+</complete>
+<lineage>
+<method>
+<methtype>Lab</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>phytoplankton counts</methkey>
+</methodid>
+<methdesc>
+Chesapeake Bay Program Sample Analysis Method
+PH102.  Upon return to the lab samples had ten
+milliliter of buffered formaldehyde added to the
+sample and were allowed to settle for 72 hours.  A
+three step series of alternating siphoning and
+settling followed over the next 72 hours to obtain
+twenty to thirty-five milliliter concentrate from
+each sample.  The concentrate was brought to a
+known volume with distilled water and placed in an
+Utermohl settling chamber for examination with an
+inverted plankton microscope. The microscopic
+examination was performed at three powers. At
+magnifications of  X312 and X500 a combined random
+field (10) and minimum cell count (200) procedure
+is followed where all taxa were counted to the
+lowest taxonomic category possible. Cells not
+discernible at the lower magnification were
+counted at 500X.  In addition the entire
+concentrate is scanned at 125X  for net
+phytoplankton.  Identifications are based on
+internationally accepted plankton keys and
+Laboratory voucher specimens. Currently one
+replicate sample is counted and one sample is
+archived for a two year period.
+</methdesc>
+<methtype>Lab</methtype>
+<methodid>
+<methkt>None</methkt>
+<methkey>Picoplankton counts</methkey>
+</methodid>
+<methdesc>
+Chesapeake Bay Program Sample Analysis Method
+PP101. Using a Millipore apparatus , a backing
+0.45 um nuclepore filter was wetted with distilled
+water, was  placed on the Millipore stem.  Then a
+0.20 um nuclepore filter, previously stained in an
+irgalan black solution was placed over the other
+filter. Two milliliters of the shaken water sample
+was added to the filter apparatus. Using a pump,
+and a maximum vacuum of ten centimeter for
+mercury, the sample was filtered until the
+meniscus disappears from the top of the filter.
+The 0.2 um  nucleopore filter was  removed and
+placed immediately on a glass slide previously
+moistened by breath. A drop of immersion oil was
+placed at the center of the filter, then covered
+with a cover slip.  The slide is examined
+immediately with a Zeiss Axioskop epifluorescenct
+microscope  equipped with a 100 watt mercury lamp
+and a 100X oil immersion objective.  The
+autotrophic picoplankton were counted using a
+"green" filter set (g546. FT580, LP590).  Count
+are made on replicate samples and averaged. A
+minimum of 200 cells and a minimum coverage of 20
+field is counted on each slide.
+</methdesc>
+</method>
+<procstep>
+<procdesc>
+The following equation was used to convert raw
+counts to density for each taxon identified for
+both phytoplankton and picoplankton: (#
+cells/#fields
+counted)*constant*(1/concentration*volume)
+</procdesc>
+<procdate>unknown</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>Based on local reference names.</indspref>
+</spdoinfo>
+<eainfo>
+<overview>
+<eaover>
+Phytoplankton in Virginia Chesapeake Bay (Entity);
+Numbers and species identification (Attributes)
+</eaover>
+<eadetcit>unknown</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Interstate Commission on Potomac River Basin</cntorg>
+<cntper>Jacqueline Johnson</cntper>
+</cntorgp>
+<cntpos>
+Chesapeake Bay Program Living Resources Data
+Manager
+</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>410 Severn Avenue, Suite 109</address>
+<city>Annapolis</city>
+<state>Maryland</state>
+<postal>21403</postal>
+</cntaddr>
+<cntvoice>1-800-968-7229</cntvoice>
+<cntvoice>410-267-5729</cntvoice>
+<cntfax>410-267-5777</cntfax>
+<cntemail>jjohnson@chesapeakebay.net</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. Monday Through Friday</hours>
+<cntinst>unavailable</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>
+VAPHTXyy.TXT, VAPPTXyy.TXT, VAPHEVyy.TXT,
+VAPPEVyy.TXT, VAPHKYyy.TXT
+</resdesc>
+<distliab>
+Although these data have been processed
+successfully on a computer system at the
+Chesapeake Bay Program, no warranty expressed or
+implied is made regarding the accuracy or utility
+of the data on any other system or for general or
+scientific purposes, nor shall the act of
+distribution constitute any such warranty. This
+disclaimer applies both to individual use of the
+data and aggregate use with other data. It is
+strongly recommended that careful attention be
+paid to the contents of the metadata file
+associated with these data. The Chesapeake Bay
+Program shall not be held liable for improper or
+incorrect use of the data described and/or
+contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ASCII</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http:/www.chesapeakebay.net/data/index.htm</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>199903</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Raytheon ITSS</cntorg>
+<cntper>Cheryl Solomon</cntper>
+</cntorgp>
+<cntpos>Ecosystem Coordinator</cntpos>
+<cntaddr>
+<addrtype>Mailing and Physical Address</addrtype>
+<address>4500 Forbes Avenue</address>
+<city>Lanham</city>
+<state>Maryland</state>
+<postal>20706</postal>
+</cntaddr>
+<cntvoice>301-794-3049</cntvoice>
+<cntfax>301-794-3164</cntfax>
+<cntemail>solomon@gcmd.nasa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>
+NBII Content Standard for National Biological
+Information Infrastructure Metadata
+</metstdn>
+<metstdv>December 1995</metstdv>
+<metac>None</metac>
+<metuc>None</metuc>
+</metainfo>
+<mercury><begdate>19950708</begdate><enddate>19991213</enddate><htmlurl>http://mercury.ornl.gov/metadata/nbii/html/nbii/www.nbii.gov_metadata_mdata_EPA_epa_cbp_d_vaphytoplankton.html</htmlurl><LTER-Site>nbii</LTER-Site></mercury></metadata>
