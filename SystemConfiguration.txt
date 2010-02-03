@@ -5,7 +5,11 @@ the CN instances.  Many of these settings will be already done for the CN
 virtual machines, but some settings will need to be changed in order to run
 multiple instances of the CN at different sites.
 
-The CN buildout has been automated by creating a series of debian packages that are build and installed using a custom Makefile.  To build a coordinating node from scratch, one should only need to install the base OS, upgrade it to catch security updates, and then run:
+The CN buildout has been automated by creating a series of debian packages
+that are build and installed using a custom Makefile.  To build a
+coordinating node from scratch, one should only need to install the base OS,
+upgrade it to catch security updates, modify the apt sources list, then add
+in the 'dpkg-dev' package, and then run:
 
     make install
 
@@ -21,6 +25,10 @@ install.  The run apt-get update; apt-get dist-upgrade to keep packages in sync.
 Afterwards, need to modify the sources.list to create a new local repository for the packages that we will generate:
 $ sudo mkdir -p /var/dataone/apt
 $ echo "deb file:/var/dataone/apt karmic universe" >> /etc/apt/sources.list
+
+You will also need dpkg-dev for a few dpkg utilities before the Makefile
+will run properly, so use:
+$ sudo apt-get install dpkg-dev
 
 
 HOST, NETWORK AND ACCOUNTS
