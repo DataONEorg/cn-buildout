@@ -11,7 +11,7 @@ SCRIPT_DIR=${SOURCE_DIR}/debian
 MERCURY_VAR=/var/mercury/mercury_inst/datanet
 SOLR_VAR=/var/mercury/solr/datanet
 MERCURY_DEV=/var/mercury/mercury_dev/datanet
-
+SITES="SOLR solr-ssl mercury_3 mercury-ssl"
 
 ###############################################################################
 #
@@ -77,6 +77,28 @@ cd $CURR_DIR
 cp -f ${SCRIPT_DIR}/Mercury3Properties.xml ${TOMCAT_HOME}/webapps/mercury3/WEB-INF/classes/Mercury3Properties.xml
 cp -f ${SCRIPT_DIR}/applicationContext.xml ${TOMCAT_HOME}/webapps/mercury3/WEB-INF/classes/applicationContext.xml
 cp -f ${SCRIPT_DIR}/mercury3.properties ${MERCURY_DEV}/mercury3.properties
+
+## copy in site configuration files
+for SITE in ${SITES}
+do
+    if [ -e ${APACHE_CONF}/sites-available/${SITE} ]
+    then 
+      SITE_DIFF=`diff ${SCRIPT_DIR}/${SITE} ${APACHE_CONF}/sites-available/${SITE}`
+      if [ "${SITE_DIFF}" != "" ]
+      then
+        echo "Backing up ${APACHE_CONF}/sites-available/${SITE} to ${APACHE_CONF}/sites-available/${SITE}.${LONG_DATE}"
+        mv ${APACHE_CONF}/sites-available/${SITE} ${APACHE_CONF}/sites-available/${SITE}.${LONG_DATE}
+      fi
+    fi
+    echo "Copying ${SITE} site file to ${APACHE_CONF}/sites-available/"
+    cp ${SCRIPT_DIR}/${SITE} ${APACHE_CONF}/sites-available/
+
+    ## enable ${SITE} site
+    echo "Enabling ${SITE} site"
+    a2dissite ${SITE}
+    a2ensite ${SITE}
+done
+
 
 # If not present, Configure the solr context
 if [ !  -e ${TOMCAT_HOME}/conf/Catalina/localhost/datanet_solr.xml ]
