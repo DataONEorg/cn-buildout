@@ -1,0 +1,18 @@
+<VirtualHost *:80>
+        DocumentRoot /usr/share/tomcat6/webapps/mercury_3
+        ServerName cn-dev.dataone.org
+
+        ScriptAlias /mercury_3/ /usr/share/tomcat6/webapps/mercury_3/
+        <Directory "/usr/share/tomcat6/webapps/mercury_3/">
+                AllowOverride All
+                Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+                Order allow,deny
+                Allow from all
+        </Directory>
+
+        <IfModule mod_jk.c>
+                JkMount /mercury_3 ajp13_worker
+                JkMount /mercury_3/* ajp13_worker
+                JkMount /*.jsp ajp13_worker
+        </IfModule>
+</VirtualHost>

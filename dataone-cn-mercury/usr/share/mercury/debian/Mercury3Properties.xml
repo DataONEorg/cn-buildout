@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+
+
+<bean id="propertiesBean" class="gov.ornl.mercury3.commands.Configuration">
+    <property name="properties">
+      <map>
+    <!-- harvester / indexer parameters..not needed for web app  --> 
+ <!--      
+        <entry key ="driverClassName" value = "com.mysql.jdbc.Driver" />
+        <entry key ="url" 					value = "jdbc:mysql://mercury3.ornl.gov:3306/" />
+        <entry key ="username" 				value = "giri" />
+        <entry key ="password" 				value = "giri" />
+        <entry key ="instance" 				value = "ornldaac" />
+        <entry key ="solrPostURL" 			value = "http://giri.ornl.gov:8095/ornldaac_solr/update" />
+       
+        <entry key ="mercury"				 value = "d:\Mercury_instances\" />
+        
+        <entry key ="htmlurl" 				value = "daac" />
+        <entry key ="sources" 				value-ref = "sourcesBean" />
+        <entry key ="threads" 				value = "1" />
+ -->
+        
+<!-- web app specific parameters  see  facets .xml for facets and rss parameters-->        
+ 
+        <entry key ="rssMaxSize" 			value = "1000" />
+        <entry key ="metadata_path" 		value = "" />
+        <entry key ="debug" 				value = "true" />
+        <entry key ="fullViewPage" 			value = "full" />
+        <entry key ="buildCartURLs" 		value = "false" />
+        <entry key ="solrdb" 				value = "mercury3_harvests_datanet" />
+        <entry key ="source" 				value = "dataone" /> 
+     <!--    <entry key ="solrSelectURL" 		value = "http://localhost:8180/dataone_solr/select" /> --> 
+         <entry key ="solrSelectURL" 		value = "usr/share/dataone/dataone_solr/select" />
+        <entry key ="delimiter" 			value = "\|\|" />
+        
+        <entry key ="singletonFullView" 	value = "false" />  
+        
+            
+      </map>
+    </property>
+  </bean>
+
+
+
+
+  
+
+</beans>
