@@ -10,6 +10,7 @@ SOURCE_DIR=/usr/share/mercury
 SCRIPT_DIR=${SOURCE_DIR}/debian
 MERCURY_VAR=/var/mercury/mercury_inst/datanet
 SOLR_VAR=/var/mercury/solr/datanet
+MERCURY_DEV=/var/mercury/mercury_dev/datanet
 
 
 ###############################################################################
@@ -33,6 +34,12 @@ echo "Stopping Tomcat"
 
 chown -R ${TOMCAT_USER} ${MERCURY_VAR}
 chown -R ${TOMCAT_USER} ${SOLR_VAR}
+
+# Add permissions needed by mercury and solr 
+# always overwrite 
+cp -f ${SCRIPT_DIR}/52mercury.policy ${TOMCAT_HOME}/conf/policy.d/
+cp -f ${SCRIPT_DIR}/53Solr.policy ${TOMCAT_HOME}/conf/policy.d/
+
 
 ## backup the old war file
 if [ -e ${TOMCAT_HOME}/webapps/mercury3.war ]
@@ -66,6 +73,10 @@ chown -R ${TOMCAT_USER} ${TOMCAT_HOME}/webapps/mercury3
 echo cd to $CURR_DIR
 cd $CURR_DIR
 
+# always overwrite to assure configuration is controlled from the scripts directory
+cp -f ${SCRIPT_DIR}/Mercury3Properties.xml ${TOMCAT_HOME}/webapps/mercury3/WEB-INF/classes/Mercury3Properties.xml
+cp -f ${SCRIPT_DIR}/applicationContext.xml ${TOMCAT_HOME}/webapps/mercury3/WEB-INF/classes/applicationContext.xml
+cp -f ${SCRIPT_DIR}/mercury3.properties ${MERCURY_DEV}/mercury3.properties
 
 # If not present, Configure the solr context
 if [ !  -e ${TOMCAT_HOME}/conf/Catalina/localhost/datanet_solr.xml ]
