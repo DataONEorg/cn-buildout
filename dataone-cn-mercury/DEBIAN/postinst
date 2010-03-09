@@ -1,7 +1,8 @@
 #!/bin/bash
 
+MOD_JK_CONF=/etc/libapache2-mod-jk
 LONG_DATE=`date +%Y%m%d%H%M%S`
-
+APACHE_CONF=/etc/apache2
 TOMCAT=tomcat6
 TOMCAT_USER=tomcat6
 TOMCAT_BASE=/usr/share/tomcat6
@@ -11,8 +12,9 @@ SCRIPT_DIR=${SOURCE_DIR}/debian
 MERCURY_VAR=/var/mercury/mercury_inst/datanet
 SOLR_VAR=/var/mercury/solr/datanet
 MERCURY_DEV=/var/mercury/mercury_dev/datanet
-SITES="SOLR solr-ssl mercury_3 mercury-ssl"
-
+SITES="000-m3-default"
+SITE=000-m3-default
+MERCURY_INSTANCE=mercury3
 ###############################################################################
 #
 # Things it would be useful to do in this script
@@ -31,9 +33,9 @@ SITES="SOLR solr-ssl mercury_3 mercury-ssl"
 echo "Stopping Tomcat"
 /etc/init.d/${TOMCAT} stop
 
-
-chown -R ${TOMCAT_USER} ${MERCURY_VAR}
-chown -R ${TOMCAT_USER} ${SOLR_VAR}
+chown -R ${TOMCAT_USER} /var/mercury/
+#chown -R ${TOMCAT_USER} ${MERCURY_VAR}
+#chown -R ${TOMCAT_USER} ${SOLR_VAR}
 
 # Add permissions needed by mercury and solr 
 # always overwrite 
@@ -41,12 +43,6 @@ cp -f ${SCRIPT_DIR}/52mercury.policy ${TOMCAT_HOME}/conf/policy.d/
 cp -f ${SCRIPT_DIR}/53Solr.policy ${TOMCAT_HOME}/conf/policy.d/
 
 
-## backup the old war file
-if [ -e ${TOMCAT_HOME}/webapps/mercury3.war ]
-then
-  echo "Backing up ${TOMCAT_HOME}/webapps/mercury3.war to ${TOMCAT_HOME}/webapps/mercury3.war.${LONG_DATE}"
-  mv ${TOMCAT_HOME}/webapps/mercury3.war ${TOMCAT_HOME}/webapps/mercury3.war.${LONG_DATE}
-fi  
 
 ## remove the mercury3 application directory
 if [ -d ${TOMCAT_HOME}/webapps/mercury3 ]
@@ -57,7 +53,7 @@ fi
 
 ## copy the new war file into the webapps directory
 echo copying new mercury3.war file to ${TOMCAT_HOME}/webapps/mercury3.war
-cp ${SOURCE_DIR}/mercury3.war ${TOMCAT_HOME}/webapps/mercury3.war
+cp -f ${SOURCE_DIR}/mercury3.war ${TOMCAT_HOME}/webapps/mercury3.war
 
 ## expand the war file
 CURR_DIR=`pwd`
@@ -77,52 +73,29 @@ cd $CURR_DIR
 cp -f ${SCRIPT_DIR}/Mercury3Properties.xml ${TOMCAT_HOME}/webapps/mercury3/WEB-INF/classes/Mercury3Properties.xml
 cp -f ${SCRIPT_DIR}/applicationContext.xml ${TOMCAT_HOME}/webapps/mercury3/WEB-INF/classes/applicationContext.xml
 cp -f ${SCRIPT_DIR}/mercury3.properties ${MERCURY_DEV}/mercury3.properties
-
+cp -f ${SCRIPT_DIR}/googlekey.js ${TOMCAT_HOME}/webapps/${MERCURY_INSTANCE}/scripts/googlekey.js
+cp -f ${SCRIPT_DIR}/server.xml ${TOMCAT_HOME}/conf/server.xml
+/etc/init.d/apache2 stop
 ## copy in site configuration files
-for SITE in ${SITES}
-do
-    if [ -e ${APACHE_CONF}/sites-available/${SITE} ]
-    then 
-      SITE_DIFF=`diff ${SCRIPT_DIR}/${SITE} ${APACHE_CONF}/sites-available/${SITE}`
-      if [ "${SITE_DIFF}" != "" ]
-      then
-        echo "Backing up ${APACHE_CONF}/sites-available/${SITE} to ${APACHE_CONF}/sites-available/${SITE}.${LONG_DATE}"
-        mv ${APACHE_CONF}/sites-available/${SITE} ${APACHE_CONF}/sites-available/${SITE}.${LONG_DATE}
-      fi
-    fi
-    echo "Copying ${SITE} site file to ${APACHE_CONF}/sites-available/"
-    cp ${SCRIPT_DIR}/${SITE} ${APACHE_CONF}/sites-available/
+cp -f ${SCRIPT_DIR}/server.xml ${TOMCAT_HOME}/conf/server.xml
+/etc/init.d/apache2 stop
+#
+cp -f ${SCRIPT_DIR}/${SITE} ${APACHE_CONF}/sites-available/${SITE}
 
     ## enable ${SITE} site
     echo "Enabling ${SITE} site"
     a2dissite ${SITE}
     a2ensite ${SITE}
-done
-
-
-# If not present, Configure the solr context
-if [ !  -e ${TOMCAT_HOME}/conf/Catalina/localhost/datanet_solr.xml ]
-then
-	cp ${SCRIPT_DIR}/datanet_solr.xml ${TOMCAT_HOME}/conf/Catalina/localhost/datanet_solr.xml
-fi
-
-# Drop in jars for tomcat which are not part of distribution, but need to be in lib
-
-if [ !  -e ${TOMCAT_BASE}/lib/commons-collections-3.2.jar ]
-then
-	cp ${SOURCE_DIR}/lib/commons-collections-3.2.jar ${TOMCAT_BASE}/lib/commons-collections-3.2.jar
-fi 
-
-if [ !  -e ${TOMCAT_BASE}/lib/mysql-connector-java-3.1.12-bin.jar ]
-then
-	cp ${SOURCE_DIR}/lib/mysql-connector-java-3.1.12-bin.jar ${TOMCAT_BASE}/lib/mysql-connector-java-3.1.12-bin.jar
-fi  
-
-
-
-
-
-/etc/init.d/${TOMCAT} start
+cp ${SCRIPT_DIR}/jk.conf ${APACHE_CONF}/mods-available/
+cp ${SCRIPT_DIR}/workers.properties ${MOD_JK_CONF}/
+echo "Refreshing Mod JK"
+a2dismod jk
+a2enmod jk
+cp -f ${SCRIPT_DIR}/datanet_solr.xml ${TOMCAT_HOME}/conf/Catalina/localhost/datanet_solr.xml
+cp -f ${SOURCE_DIR}/lib/commons-collections-3.2.jar ${TOMCAT_BASE}/lib/commons-collections-3.2.jar
+cp -f ${SOURCE_DIR}/lib/mysql-connector-java-3.1.12-bin.jar ${TOMCAT_BASE}/lib/mysql-connector-java-3.1.12-bin.jar
+/etc/init.d/tomcat6 start
+/etc/init.d/apache2 start
 
 
 

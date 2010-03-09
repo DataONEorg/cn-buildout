@@ -14,10 +14,10 @@
 			<value>jdbc:mysql://localhost:3306/mercury3_harvests_datanet</value>
 		</property>
 		<property name="username">
-			<value>root</value>
+			<value>mercuryuser</value>
 		</property>
 		<property name="password">
-			<value>pcmss4e</value>
+			<value>mercury3user</value>
 		</property>
 
 	</bean>
