@@ -1,7 +1,7 @@
 Package: dataone-cn-mercury
 Version: 0.0.1
 Section: utils
-Priority: optional
+Priority: all
 Architecture: i386
 Depends: apache2, sun-java6-jdk, tomcat6, tomcat6-admin, libapache2-mod-jk, mysql-server, mysql-client
 Installed-Size: 1 kb
