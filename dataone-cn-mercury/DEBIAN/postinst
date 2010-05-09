@@ -74,7 +74,7 @@ cp -f ${SCRIPT_DIR}/Mercury3Properties.xml ${TOMCAT_HOME}/webapps/mercury3/WEB-I
 cp -f ${SCRIPT_DIR}/applicationContext.xml ${TOMCAT_HOME}/webapps/mercury3/WEB-INF/classes/applicationContext.xml
 cp -f ${SCRIPT_DIR}/mercury3.properties ${MERCURY_DEV}/mercury3.properties
 cp -f ${SCRIPT_DIR}/googlekey.js ${TOMCAT_HOME}/webapps/${MERCURY_INSTANCE}/scripts/googlekey.js
-cp -f ${SCRIPT_DIR}/server.xml ${TOMCAT_HOME}/conf/server.xml
+#cp -f ${SCRIPT_DIR}/server.xml ${TOMCAT_HOME}/conf/server.xml
 /etc/init.d/apache2 stop
 ## copy in site configuration files
 cp -f ${SCRIPT_DIR}/server.xml ${TOMCAT_HOME}/conf/server.xml
