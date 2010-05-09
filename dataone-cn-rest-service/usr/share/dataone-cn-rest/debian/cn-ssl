@@ -3,20 +3,9 @@
         DocumentRoot /usr/share/tomcat6/webapps/cn
         ServerName cn-dev.dataone.org
 
-        ScriptAlias /cn/cgi-bin/ /usr/share/tomcat6/webapps/cn/cgi-bin/
-        <Directory "/usr/share/tomcat6/webapps/cn/cgi-bin/">
-                AllowOverride All
-                Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
-                Order allow,deny
-                Allow from all
-        </Directory>
-
         <IfModule mod_jk.c>
                 JkMount /cn ajp13_worker
                 JkMount /cn/* ajp13_worker
-                JkMount /cn/metacat ajp13_worker
-                JkMount /*.jsp ajp13_worker
-                JkUnMount /cn/cgi-bin/* ajp13_worker
         </IfModule>
 
         #   SSL Engine Switch:

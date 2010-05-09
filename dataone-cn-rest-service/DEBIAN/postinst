@@ -10,8 +10,6 @@ MOD_JK_CONF=/etc/libapache2-mod-jk
 SITES="cn cn-ssl"
 SOURCE_DIR=/usr/share/dataone-cn-rest
 SCRIPT_DIR=${SOURCE_DIR}/debian
-METACAT_VAR=/var/metacat
-
 ###############################################################################
 # Install metacat war file
 ###############################################################################
@@ -21,88 +19,49 @@ echo "Stopping Tomcat"
 /etc/init.d/${TOMCAT} stop
 
 ## backup the old war file
-if [ -e ${TOMCAT_HOME}/webapps/knb.war ]
+if [ -e ${TOMCAT_HOME}/webapps/cn.war ]
 then
-  echo "Backing up ${TOMCAT_HOME}/webapps/knb.war to ${TOMCAT_HOME}/webapps/knb.war.${LONG_DATE}"
-  mv ${TOMCAT_HOME}/webapps/knb.war ${TOMCAT_HOME}/webapps/knb.war.${LONG_DATE}
+  echo "Backing up ${TOMCAT_HOME}/webapps/cn.war to ${TOMCAT_HOME}/webapps/cn.war.${LONG_DATE}"
+  mv ${TOMCAT_HOME}/webapps/cn.war ${TOMCAT_HOME}/webapps/cn.war.${LONG_DATE}
 fi  
 
-## remove the knb application directory
-if [ -d ${TOMCAT_HOME}/webapps/knb ]
+## remove the cn application directory
+if [ -d ${TOMCAT_HOME}/webapps/cn ]
 then
   echo "Removing the old metacat application directories"
-  rm -rf ${TOMCAT_HOME}/webapps/knb
+  rm -rf ${TOMCAT_HOME}/webapps/cn
 fi 
 
 ## copy the new war file into the webapps directory
-echo copying new knb.war file to ${TOMCAT_HOME}/webapps/knb.war
-cp ${SOURCE_DIR}/knb.war ${TOMCAT_HOME}/webapps/knb.war
+echo copying new cn.war file to ${TOMCAT_HOME}/webapps/cn.war
+cp ${SOURCE_DIR}/cn.war ${TOMCAT_HOME}/webapps/cn.war
+chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/cn.war
 
 ## expand the war file
 CURR_DIR=`pwd`
 
-## make knb directory and extract knb.war into it.
-echo "Making knb application directory: ${TOMCAT_HOME}/webapps/knb"
-mkdir ${TOMCAT_HOME}/webapps/knb
-cd ${TOMCAT_HOME}/webapps/knb
+## make knb directory and extract cn.war into it.
+echo "Making knb application directory: ${TOMCAT_HOME}/webapps/cn"
+mkdir ${TOMCAT_HOME}/webapps/cn
+cd ${TOMCAT_HOME}/webapps/cn
 
-echo "extracting knb.war into ${TOMCAT_HOME}/webapps/knb"
-jar -xvf ${TOMCAT_HOME}/webapps/knb.war > /dev/null
-chown -R ${TOMCAT_USER} ${TOMCAT_HOME}/webapps/knb
+echo "extracting knb.war into ${TOMCAT_HOME}/webapps/cn"
+jar -xvf ${TOMCAT_HOME}/webapps/cn.war > /dev/null
+chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/cn
 echo cd to $CURR_DIR
 cd $CURR_DIR
 
-chmod -R  +x ${TOMCAT_HOME}/webapps/knb/cgi-bin
-
-###############################################################################
-# Create Metacat External File Space
-###############################################################################
-
-## Create the /var/metacat directory
-if [ ! -d ${METACAT_VAR} ]
-then
-  echo "Making Metacat utility directory: /var/metacat"
-  mkdir ${METACAT_VAR}
-fi
-
-## Change the ownership of the /var/metacat directory to be the tomcat user.
-echo "changing ownership of /var/metacat to ${TOMCAT_USER}"
-chown -R ${TOMCAT_USER} ${METACAT_VAR}
 
 ###############################################################################
 # Configure Tomcat
 ###############################################################################
 
-## Change ownership of the tomcat directories to be the tomcat user
-#echo "changing ownership of ${TOMCAT_HOME} to ${TOMCAT_USER}"
-#chown -R ${TOMCAT_USER} ${TOMCAT_HOME} 
-#echo "changing ownership of /var/lib/tomcat5.5 to ${TOMCAT_USER}"
-#chown -R ${TOMCAT_USER} /var/lib/tomcat5.5
-#echo "changing ownership of /etc/tomcat5.5 to ${TOMCAT_USER}"
-#chown -R ${TOMCAT_USER} /etc/tomcat5.5
-#
-## If the tomcat5.5 startup script in the package is different than the one
-## in /etc/init.d, then backup the existing one and copy in the package version.
-#TOMCAT_START_SCRIPT_DIFF=`diff ${SOURCE_DIR}/tomcat5.5 /etc/init.d/tomcat5.5`
-#if [ "$TOMCAT_START_SCRIPT_DIFF" != "" ]
-#then
-  #echo "Backing up /etc/init.d/tomcat5.5 to /etc/init.d/tomcat5.5.${LONG_DATE}"
-  #mv /etc/init.d/tomcat5.5 /etc/init.d/tomcat5.5.${LONG_DATE}
-  #echo "Copying new tomcat5.5 script to /etc/init.d/"
-  #cp ${SOURCE_DIR}/tomcat5.5 /etc/init.d/
-  #echo "Making /etc/init.d/tomcat5.5 executable"
-  #chmod +x /etc/init.d/tomcat5.5
-#fi
-
-# Configure the tomcat server
-cp ${SCRIPT_DIR}/server.xml ${TOMCAT_HOME}/conf/
-
 # Configure the context file
-cp ${SCRIPT_DIR}/knb.xml ${TOMCAT_HOME}/conf/Catalina/localhost/
-
-# Add permissions needed by metacat and geoserver
-cp ${SCRIPT_DIR}/51metacat.policy ${TOMCAT_HOME}/conf/policy.d/
-
+cp ${SCRIPT_DIR}/cn.xml ${TOMCAT_HOME}/conf/Catalina/localhost/
+chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/Catalina/localhost/cn.xml
+# Add permissions needed by cn
+cp ${SCRIPT_DIR}/51cn.policy ${TOMCAT_HOME}/conf/policy.d/
+chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/51cn.policy
 ###############################################################################
 # Configure Apache
 ###############################################################################
@@ -110,37 +69,6 @@ cp ${SCRIPT_DIR}/51metacat.policy ${TOMCAT_HOME}/conf/policy.d/
 ## Stop apache
 echo "Stopping Apache"
 /etc/init.d/apache2 stop
-
-## copy in jk.conf file
-if [ -e ${APACHE_CONF}/mods-available/jk.conf ]
-then 
-  JK_CONF_DIFF=`diff ${SCRIPT_DIR}/jk.conf ${APACHE_CONF}/mods-available/jk.conf`
-  if [ "${JK_CONF_DIFF}" != "" ]
-  then
-    echo "Backing up ${APACHE_CONF}/mods-available/jk.conf to ${APACHE_CONF}/mods-available/jk.conf.${LONG_DATE}"
-    mv ${APACHE_CONF}/mods-available/jk.conf ${APACHE_CONF}/mods-available/jk.conf.${LONG_DATE}
-  fi
-fi
-echo "Copying jk.conf to ${APACHE_CONF}/mods-available/"
-cp ${SCRIPT_DIR}/jk.conf ${APACHE_CONF}/mods-available/
-
-## copy in workers.properties file for mod-jk
-if [ -e ${MOD_JK_CONF}/workers.properties ]
-then 
-  WORKERS_PROPS_DIFF=`diff ${SCRIPT_DIR}/workers.properties ${MOD_JK_CONF}/workers.properties`
-  if [ "${WORKERS_PROPS_DIFF}" != "" ]
-  then
-    echo "Backing up ${MOD_JK_CONF}/workers.properties to ${MOD_JK_CONF}/workers.properties.${LONG_DATE}"
-    mv ${MOD_JK_CONF}/workers.properties ${MOD_JK_CONF}/workers.properties.${LONG_DATE}
-  fi
-fi
-echo "Copying workers.properties to ${MOD_JK_CONF}/"
-cp ${SCRIPT_DIR}/workers.properties ${MOD_JK_CONF}/
-
-## disable and then re-enable mod jk to pick up changes
-echo "Refreshing Mod JK"
-a2dismod jk
-a2enmod jk
 
 ## copy in site configuration files
 for SITE in ${SITES}
@@ -168,9 +96,6 @@ echo "Refreshing Mod SSL"
 a2dismod ssl
 a2enmod ssl
 
-## disable the default apache site, which gets in the way of the metacat site 
-a2dissite 000-default
-
 
 ###############################################################################
 # Start Apache and Tomcat
@@ -179,21 +104,11 @@ a2dissite 000-default
 ## Start Apache
 /etc/init.d/apache2 start
 
-## ugly hack to fix circular dependency bug that will keep tomcat
-## from starting within this script
-#if [ ! -f /etc/java-1.5.0-sun/jvm.cfg ]; then
-#  temp_jvm_cfg=/etc/java-1.5.0-sun/jvm.cfg
-#  mkdir -p /etc/java-1.5.0-sun
-#  printf -- "-server KNOWN\n" > $temp_jvm_cfg
-#fi
 
 ## Start Tomcat
 echo "starting Tomcat server"
 
-#export JAVA_HOME=/usr/lib/jvm/java-1.5.0-sun
-#/usr/share/tomcat5.5/bin/startup.sh
 
 /etc/init.d/${TOMCAT} start
-#chmod u+x ${SOURCE_DIR}/delay-tomcat-start
-#${SOURCE_DIR}/delay-tomcat-start &
+
 
