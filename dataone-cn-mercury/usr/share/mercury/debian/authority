@@ -1,4 +1,0 @@
-<IfModule mod_jk.c>
-	JkMount /authority mercury_3
-	JkMount /authority/* mercury_3
-</IfModule>

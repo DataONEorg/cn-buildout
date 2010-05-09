@@ -65,7 +65,7 @@ cd ${TOMCAT_HOME}/webapps/mercury3
 
 echo "extracting mercury3.war into ${TOMCAT_HOME}/webapps/mercury3"
 jar -xvf ${TOMCAT_HOME}/webapps/mercury3.war > /dev/null
-chown -R ${TOMCAT_USER} ${TOMCAT_HOME}/webapps/mercury3
+chown -R ${TOMCAT_USER}.${TOMCAT_USER}  ${TOMCAT_HOME}/webapps/mercury3
 echo cd to $CURR_DIR
 cd $CURR_DIR
 
@@ -86,8 +86,8 @@ cp -f ${SCRIPT_DIR}/${SITE} ${APACHE_CONF}/sites-available/${SITE}
     echo "Enabling ${SITE} site"
     a2dissite ${SITE}
     a2ensite ${SITE}
-cp ${SCRIPT_DIR}/jk.conf ${APACHE_CONF}/mods-available/
-cp ${SCRIPT_DIR}/workers.properties ${MOD_JK_CONF}/
+#cp ${SCRIPT_DIR}/jk.conf ${APACHE_CONF}/mods-available/ -- needs to be moved into common apache post installation
+#cp ${SCRIPT_DIR}/workers.properties ${MOD_JK_CONF}/  -- needs to be moved into common apache post installation
 echo "Refreshing Mod JK"
 a2dismod jk
 a2enmod jk
