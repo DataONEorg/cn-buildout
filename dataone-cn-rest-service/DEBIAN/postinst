@@ -6,7 +6,6 @@ TOMCAT=tomcat6
 TOMCAT_USER=tomcat6
 TOMCAT_HOME=/var/lib/tomcat6
 APACHE_CONF=/etc/apache2
-MOD_JK_CONF=/etc/libapache2-mod-jk
 SITES="cn cn-ssl"
 SOURCE_DIR=/usr/share/dataone-cn-rest
 SCRIPT_DIR=${SOURCE_DIR}/debian
