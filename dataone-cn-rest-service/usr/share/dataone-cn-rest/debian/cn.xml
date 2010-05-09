@@ -1,1 +1,1 @@
-<Context path="/cn/" antiResourceLocking="false" />
+<Context path="/cn/" antiResourceLocking="false" crossContext="true" />
