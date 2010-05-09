@@ -1,0 +1,7 @@
+// ========== dataone-cn-rest-service APPLICATION PERMISSIONS ==================================
+
+// These permissions are granted by default to the Cn Rest application
+//
+grant codeBase "file:${catalina.base}/webapps/cn/-" {
+        permission java.security.AllPermission;
+};
