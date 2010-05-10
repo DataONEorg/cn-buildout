@@ -3,7 +3,7 @@ Version: 0.3.0
 Section: utils
 Priority: optional
 Architecture: any
-Depends: dataone-cn-os-core, apache2, sun-java6-jdk, tomcat6, tomcat6-admin, libapache2-mod-jk
+Depends: dataone-cn-os-core, sun-java6-jdk, tomcat6, tomcat6-admin
 Installed-Size: 1 kb
 Maintainer: Robert Patrick Waltz <rwaltz@utk.edu>
 Description: This is a metapackage that installs the cn-rest-service dependencies that are needed to build a coordinating node instance, and then installs and configures the CN Rest Service itself.

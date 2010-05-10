@@ -1,23 +1,19 @@
 <IfModule mod_ssl.c>
 <VirtualHost *:443>
-        DocumentRoot /usr/share/tomcat6/webapps/mercury3
+        DocumentRoot /var/www
         ServerName cn-dev.dataone.org
 
-        ScriptAlias /mercury3/ /usr/share/tomcat6/webapps/mercury3/
-        <Directory "/usr/share/tomcat6/webapps/mercury3/">
+<!--        
+	ScriptAlias /knb/cgi-bin/ /usr/share/tomcat6/webapps/knb/cgi-bin/
+        <Directory "/usr/share/tomcat6/webapps/knb/cgi-bin/">
                 AllowOverride All
                 Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
                 Order allow,deny
                 Allow from all
-        </Directory>
+        </Directory> 
+-->
 
-        <IfModule mod_jk.c>
-                JkMount /mercury3 ajp13_worker
-                JkMount /mercury3/* ajp13_worker
-                
-                JkMount /*.jsp ajp13_worker
-                
-        </IfModule>
+	Include /etc/apache2/jk_mount	
 
         #   SSL Engine Switch:
         #   Enable/Disable SSL for this virtual host.
@@ -30,4 +26,4 @@
 
 </VirtualHost>
 </IfModule>
-        
+

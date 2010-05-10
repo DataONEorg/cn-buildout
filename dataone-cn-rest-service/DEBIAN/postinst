@@ -6,9 +6,9 @@ TOMCAT=tomcat6
 TOMCAT_USER=tomcat6
 TOMCAT_HOME=/var/lib/tomcat6
 APACHE_CONF=/etc/apache2
-SITES="cn cn-ssl"
 SOURCE_DIR=/usr/share/dataone-cn-rest
 SCRIPT_DIR=${SOURCE_DIR}/debian
+JK_CONF=cn_jk.conf
 ###############################################################################
 # Install metacat war file
 ###############################################################################
@@ -69,31 +69,20 @@ chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/51cn.policy
 echo "Stopping Apache"
 /etc/init.d/apache2 stop
 
-## copy in site configuration files
-for SITE in ${SITES}
-do
-    if [ -e ${APACHE_CONF}/sites-available/${SITE} ]
-    then 
-      SITE_DIFF=`diff ${SCRIPT_DIR}/${SITE} ${APACHE_CONF}/sites-available/${SITE}`
-      if [ "${SITE_DIFF}" != "" ]
-      then
-        echo "Backing up ${APACHE_CONF}/sites-available/${SITE} to ${APACHE_CONF}/sites-available/${SITE}.${LONG_DATE}"
-        mv ${APACHE_CONF}/sites-available/${SITE} ${APACHE_CONF}/sites-available/${SITE}.${LONG_DATE}
-      fi
-    fi
-    echo "Copying ${SITE} site file to ${APACHE_CONF}/sites-available/"
-    cp ${SCRIPT_DIR}/${SITE} ${APACHE_CONF}/sites-available/
+## copy in jk mount configuration file
 
-    ## enable ${SITE} site
-    echo "Enabling ${SITE} site"
-    a2dissite ${SITE}
-    a2ensite ${SITE}
-done
+if [ -e ${APACHE_CONF}/jk_mount/${JK_CONF} ]
+then 
+  JK_DIFF=`diff ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/${JK_CONF}`
+  if [ "${JK_DIFF}" != "" ]
+  then
+    echo "Backing up ${APACHE_CONF}/jk_mount/${JK_CONF} to ${APACHE_CONF}/jk_mount/${JK_CONF}.${LONG_DATE}"
+    mv ${APACHE_CONF}/jk_mount/${JK_CONF} ${APACHE_CONF}/jk_mount/${JK_CONF}.${LONG_DATE}
+  fi
+fi
+echo "Copying ${JK_CONF} site file to ${APACHE_CONF}/jk_mount/"
+cp ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/
 
-# Turn on the ssl module
-echo "Refreshing Mod SSL"
-a2dismod ssl
-a2enmod ssl
 
 
 ###############################################################################
