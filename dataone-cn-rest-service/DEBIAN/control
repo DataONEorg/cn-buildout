@@ -2,7 +2,7 @@ Package: dataone-cn-rest-service
 Version: 0.3.0
 Section: utils
 Priority: optional
-Architecture: any
+Architecture: all
 Depends: dataone-cn-os-core, sun-java6-jdk, tomcat6, tomcat6-admin
 Installed-Size: 1 kb
 Maintainer: Robert Patrick Waltz <rwaltz@utk.edu>
