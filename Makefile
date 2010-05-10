@@ -44,5 +44,5 @@ publish: deb
 install: publish
 	@echo "Let's run apt-get install now."
 	apt-get update
-	apt-get install dataone-cn-metacat dataone-cn-mercury dataone-cn-rest-service
+	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
 
