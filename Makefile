@@ -13,6 +13,10 @@ APTREPOS      = /var/dataone/apt
 # Location of the Packages.gz for this architecture
 APTPKG        = $(APTREPOS)/dists/karmic/universe/binary-amd64
 
+
+TESTCRT = $(shell /bin/sh -c '/usr/bin/test -e /etc/ssl/certs/dataone.org.crt; echo $$?')
+
+#HELLO = $(shell ls /etc)
 # Other settings
 DPKG_DEB      = dpkg-deb
 .SUFFIXES: .deb
@@ -45,4 +49,17 @@ install: publish
 	@echo "Let's run apt-get install now."
 	apt-get update
 	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
+
+install-dev: publish
+	@echo "Let's run apt-get install for dev environment now."
+ifeq ($(TESTCRT), 0)
+	apt-get update
+	apt-get install dataone-cn-os-core
+	cp /etc/ssl/certs/dataone.org.crt /etc/ssl/certs/_.dataone.org.crt
+	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
+else
+	@echo "The self-signed cert procedure has not been followed. apt-get will fail!"
+endif
+
+
 
