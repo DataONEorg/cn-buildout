@@ -14,7 +14,6 @@
         <value>CSV</value>
         <value>TEXT_SINGLE</value>
         <value>LOOKUP</value>
-        <value>DEFAULTING_LOOKUP</value>
       </list>
     </property>
   </bean>
@@ -57,15 +56,6 @@
       	<entry key="site" 			value = "//metadata/mercury/Site_Information/Site/text()"/>
       	<entry key="term" 			value = "//metadata/mercury/Parameter_Description/Term/text()"/>
       	<entry key="topic" 			value = "//metadata/mercury/Parameter_Description/Topic/text()"/>
-      	
-      	<entry key="family" 		value = "//taxoncl[taxonrn[contains(.,'Family')]]/taxonrv/text()"/>
-      	<entry key="kingdom" 		value = "//taxoncl[taxonrn[contains(.,'Kingdom')]]/taxonrv/text()"/>
-      	<entry key="class" 		  value = "//taxoncl[taxonrn[contains(.,'Class')]]/taxonrv/text()"/>
-      	<entry key="phylum" 		value = "//taxoncl[taxonrn[contains(.,'Phylum')]]/taxonrv/text()"/>
-      	<entry key="order" 		  value = "//taxoncl[taxonrn[contains(.,'Order')]]/taxonrv/text()"/>
-      	<entry key="genus" 	  	value = "//taxoncl[taxonrn[contains(.,'Genus')]]/taxonrv/text()"/>
-      	<entry key="species" 		value = "//taxoncl[taxonrn[contains(.,'Species')]]/taxonrv/text()"/>
-      	
         
   	</map>
     </property>
@@ -122,27 +112,18 @@
 <bean id="LOOKUP" class="index_utils.SimpleMapBean">
      <property name="simpleMap">
       <map>
-      	 
+      	  <entry key="presentationCat" 		value = "//metadata/idinfo/citation/citeinfo/geoform/text()"/>
           <entry key="originator" 			value = "//metadata/idinfo/citation/citeinfo/origin/text()"/>
  	</map>
     </property>
   </bean>  
 
-<bean id="DEFAULTING_LOOKUP" class="index_utils.SimpleMapBean">
-     <property name="simpleMap">
-      <map>
-      	  <entry key="presentationCat" 		value = "//metadata/idinfo/citation/citeinfo/geoform/text()"/>
-          
- 	</map>
-    </property>
-  </bean>  
-
 <bean id="presentationCat" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
-	<property name="location" value="/presentationForm_lookup.properties" />
+	<property name="location" value="/lookup_test.properties" />
 </bean>	
 
 <bean id="originator" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
-	<property name="location" value="/originator_test2.properties" />
+	<property name="location" value="/originator_test.properties" />
 </bean>	
   
   
