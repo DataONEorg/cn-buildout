@@ -10,7 +10,7 @@ SOURCE_DIR=/usr/share/dataone-cn-rest
 SCRIPT_DIR=${SOURCE_DIR}/debian
 JK_CONF=cn_jk.conf
 ###############################################################################
-# Install metacat war file
+# Install CN war file
 ###############################################################################
 
 ## Stop tomcat
@@ -27,7 +27,7 @@ fi
 ## remove the cn application directory
 if [ -d ${TOMCAT_HOME}/webapps/cn ]
 then
-  echo "Removing the old metacat application directories"
+  echo "Removing the old CN application directories"
   rm -rf ${TOMCAT_HOME}/webapps/cn
 fi 
 
