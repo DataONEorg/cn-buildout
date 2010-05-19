@@ -4,14 +4,34 @@ Host - 5.0.24-community-nt : Database - mercury3_harvests_datanet
 *********************************************************************
 Server version : 5.0.24-community-nt
 */
+create database if not exists `mercury3_harvests_datanet`;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ANSI';
+USE mercury3_harvests_datanet ;
+DROP PROCEDURE IF EXISTS mercury3_harvests_datanet.drop_user_if_exists ;
+DELIMITER $$
+CREATE PROCEDURE mercury3_harvests_datanet.drop_user_if_exists()
+BEGIN
+  DECLARE foo BIGINT DEFAULT 0 ;
+  SELECT COUNT(*)
+  INTO foo
+    FROM mysql.user
+      WHERE User = 'mercuryuser' and  Host = 'localhost';
+   IF foo = 0 THEN
+	drop user 'mercuryuser'@'localhost';
+	create user 'mercuryuser'@'localhost' identified by 'mercury3user';
+  END IF;
+END ;$$
+DELIMITER ;
+CALL mercury3_harvests_datanet.drop_user_if_exists() ;
+DROP PROCEDURE IF EXISTS mercury3_harvests_datanet.drop_users_if_exists ;
+SET SQL_MODE=@OLD_SQL_MODE ;
+
 
 SET NAMES utf8;
 
 SET SQL_MODE='';
 
-create database if not exists `mercury3_harvests_datanet`;
-create user mercuryuser identified by 'mercury3user';
-grant all privileges on mercury3_harvests_datanet.* to mercuryuser@localhost identified by 'mercury3user' ;
+grant all privileges on *.* to mercuryuser@localhost identified by 'mercury3user' ;
 USE `mercury3_harvests_datanet`;
 
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
