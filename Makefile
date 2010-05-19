@@ -16,6 +16,7 @@ APTPKG        = $(APTREPOS)/dists/karmic/universe/binary-amd64
 
 TESTCRT = $(shell /bin/sh -c '/usr/bin/test -e /etc/ssl/certs/dataone.org.crt; echo $$?')
 
+
 #HELLO = $(shell ls /etc)
 # Other settings
 DPKG_DEB      = dpkg-deb
@@ -30,8 +31,9 @@ help:
 
 clean:
 	-rm -rf $(BUILDDIR)
+	-rm ${APTREPOS}/*.deb
 
-builddir:
+builddir: clean
 	mkdir -p $(BUILDDIR)/sources
 
 deb: builddir $(PKGS)
@@ -42,7 +44,7 @@ $(PKGS):
 	cd $(BUILDDIR)/sources && $(DPKG_DEB) -b $* ..
 
 publish: deb
-	cp $(BUILDDIR)/*.deb $(APTREPOS)
+	cp -f $(BUILDDIR)/*.deb $(APTREPOS)
 	cd $(APTREPOS) && dpkg-scanpackages . /dev/null | gzip -9c > $(APTPKG)/Packages.gz
 
 install: publish
@@ -55,6 +57,26 @@ install-dev: publish
 ifeq ($(TESTCRT), 0)
 	apt-get update
 	apt-get install dataone-cn-os-core
+	cp /etc/ssl/certs/dataone.org.crt /etc/ssl/certs/_.dataone.org.crt
+	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
+else
+	@echo "The self-signed cert procedure has not been followed. apt-get will fail!"
+endif
+
+upgrade-rpw: publish
+ifeq ($(TESTCRT), 0)
+	/etc/init.d/tomcat6 stop
+	/etc/init.d/apache2 stop
+	apt-get remove --purge dataone-cn-os-core
+	apt-get remove --purge mysql-server mysql-client postgresql
+	apt-get autoremove
+	$(shell rm -rf /var/mercury)
+	$(shell rm -rf /var/lib/tomcat6)
+	$(shell rm -rf /var/metacat)
+	apt-get update
+	apt-get install dataone-cn-os-core
+	/etc/init.d/tomcat6 stop
+	/etc/init.d/apache2 stop
 	cp /etc/ssl/certs/dataone.org.crt /etc/ssl/certs/_.dataone.org.crt
 	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
 else
