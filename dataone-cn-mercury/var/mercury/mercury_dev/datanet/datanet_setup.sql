@@ -10,7 +10,8 @@ SET NAMES utf8;
 SET SQL_MODE='';
 
 create database if not exists `mercury3_harvests_datanet`;
-
+create user mercuryuser identified by 'mercury3user';
+grant all privileges on mercury3_harvests_datanet.* to mercuryuser@localhost identified by 'mercury3user' ;
 USE `mercury3_harvests_datanet`;
 
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
