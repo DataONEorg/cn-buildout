@@ -103,10 +103,7 @@ cp -f ${SOURCE_DIR}/lib/mysql-connector-java-3.1.12-bin.jar ${TOMCAT_BASE}/lib/m
 ## expand the war file
 ## here is the kicker update.sh will not work while mercury is still booting up, so sleep for
 ##  a while like a couple of minutes, while mercury starts up
-sleep 120
+sleep 100
 chmod 750 /var/mercury/mercury_dev/datanet/update.sh
 /var/mercury/mercury_dev/datanet/update.sh
-
-
-
 
