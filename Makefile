@@ -71,8 +71,12 @@ ifeq ($(TESTCRT), 0)
 	apt-get remove --purge mysql-server mysql-client postgresql
 	apt-get autoremove
 	$(shell rm -rf /var/mercury)
+	$(shell rm -rf /var/lib/mysql)
+	$(shell rm -rf /etc/mysql)
 	$(shell rm -rf /var/lib/tomcat6)
 	$(shell rm -rf /var/metacat)
+	$(shell rm -rf /var/lib/postgresql)
+	$(shell rm -rf /etc/postgresql)
 	apt-get update
 	apt-get install dataone-cn-os-core
 	/etc/init.d/tomcat6 stop

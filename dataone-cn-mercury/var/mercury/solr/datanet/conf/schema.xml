@@ -111,7 +111,7 @@
           <!-- in this example, we will only use synonyms at query time
           <filter class="solr.SynonymFilterFactory" synonyms="index_synonyms.txt" ignoreCase="true" expand="false"/>
           -->
-          <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1"/>
+          <!--filter class="solr.WordDelimiterFilterFactory" generateWordParts="1"/-->
           <filter class="solr.StopFilterFactory" ignoreCase="true"/>
           <filter class="solr.LowerCaseFilterFactory"/>
       </analyzer>
@@ -170,6 +170,8 @@
                   (this disables length normalization and index-time boosting for the field)
    -->
 
+   <field name="ogc_url" type="text" indexed="true" stored="true"/>
+
    <field name="id" type="string" indexed="true" stored="true"/>
    
    <field name="sku" type="textTight" indexed="true" stored="true"/>
@@ -183,25 +185,75 @@
    <field name="LTERSite" type="string" indexed="true" stored="true"/>
    <field name="origin" type="text" indexed="true" stored="true" multiValued="true"/>
    <field name="pubDate" type="date" indexed="true" stored="true"/> 
-   <field name="title" type="text_all" indexed="true" stored="true"/>
+   
+   <field name="title" type="text" indexed="true" stored="true"/>  
+   <field name="titlestr" type="string" indexed="true" stored="true"/>  
+   
+   
    <field name="geoform" type="string" indexed="true" stored="true"/>
    <field name="presentationCat" type="string" indexed="true" stored="true"/>
    <field name="abstract" type="text" indexed="true" stored="true"/>
    <field name="purpose" type="text" indexed="true" stored="true"/>   
    <field name="beginDate" type="date" indexed="true" stored="true"/>
    <field name="endDate" type="date" indexed="true" stored="true"/>   
-   <field name="fullText" type="text_all" indexed="true" stored="true"/>
+   
    <field name="update_date" type="date" indexed="true" stored="true"/>
+   
+   <field name="fullText" type="text" indexed="true" stored="true"/>
    
    
    <field name="edition" type="text" indexed="true" stored="true"/>
+   <field name="data_url" type="string" indexed="true" stored="true"/>
    <field name="originator"  type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="originatorText" type="text" indexed="true" stored="true" multiValued="true"/>
+   
+     <field name="author_lname"  type="string" indexed="true" stored="true" multiValued="true"/>
+     <field name="family"  type="string" indexed="true" stored="true" multiValued="true"/>
+     <field name="species"  type="string" indexed="true" stored="true" multiValued="true"/>
+     <field name="genus"  type="string" indexed="true" stored="true" multiValued="true"/> 
+     <field name="kingdom"  type="string" indexed="true" stored="true" multiValued="true"/>
+     <field name="phylum"  type="string" indexed="true" stored="true" multiValued="true"/>
+     <field name="order"  type="string" indexed="true" stored="true" multiValued="true"/>
+     <field name="class"  type="string" indexed="true" stored="true" multiValued="true"/>
+           
+     <field name="identifier"  type="string" indexed="true" stored="true" />
+     <field name="objectFormat"  type="string" indexed="true" stored="true" />
+     <field name="size"  type="string" indexed="true" stored="true" />
+     
+     <field name="checksum"  type="string" indexed="true" stored="true" />
+     <field name="checksumAlgorithm"  type="string" indexed="true" stored="true" />
+     <field name="last_modified"  type="date" indexed="true" stored="true" />
+     <field name="derivedFrom"  type="string" indexed="true" stored="true" />
+     <field name="describedBy"  type="string" indexed="true" stored="true" />   
+        
+        
+     <field name="numberReplicas"  type="string" indexed="true" stored="true" />   
+     <field name="replicationAllowed"  type="string" indexed="true" stored="true" />
+     <field name="blockedMemberNode"  type="string" indexed="true" stored="true" />
+     <field name="preferredMemberNode"  type="string" indexed="true" stored="true" />
+     <field name="replicationPolicy"  type="string" indexed="true" stored="true" />
+     <field name="accessRule"  type="string" indexed="true" stored="true" />
+     <field name="embargoExpires"  type="date" indexed="true" stored="true" />
+     <field name="describes"  type="string" indexed="true" stored="true" />
+     <field name="obsoletedBy"  type="string" indexed="true" stored="true" />
+     <field name="obsoletes"  type="string" indexed="true" stored="true" />
+     <field name="rightsHolder"  type="string" indexed="true" stored="true" />
+     <field name="submitter"  type="string" indexed="true" stored="true" />
+     
+        
+        
+    
+      
+      
+      
+   <field name="web_url"  type="string" indexed="true" stored="true" multiValued="true"/>
+   
    <field name="contactOrganization" type="text" indexed="true" stored="true"/>
    <field name="keywords" type="text" indexed="true" stored="true" multiValued="true"/>
    <field name="placeKey" type="text" indexed="true" stored="true" multiValued="true"/>
    
-    <field name="author_lname" type="text" indexed="true" stored="true" multiValued="true"/>
+      <field name="noBoundingBox" type="string" indexed="true" stored="true"/>
+         <field name="isSpatial" type="string" indexed="true" stored="true"/>     
    
   <field name="westBoundCoord" type="sfloat" class="solr.FloatField" indexed="true" stored="true"/>
   <field name="eastBoundCoord" type="sfloat" class="solr.FloatField" indexed="true" stored="true"/>
@@ -210,18 +262,13 @@
   <field name="decade" type="string" indexed="true" stored="true"/>
   <field name="gcmdKeyword" type="text" indexed="true" stored="true" multiValued="true"/>
   
-       <field name="noBoundingBox" type="string" indexed="true" stored="true"/>
-         <field name="isSpatial" type="string" indexed="true" stored="true"/>     
-  
   <!-- these are ornl daac fields, may not be populated for nbii, but are required to be here for indexing purpose
 -->
-<field name="project" type="text" indexed="true" stored="true"/>
+<field name="project" type="string" indexed="true" stored="true"/>
 <field name="projectText" type="text" indexed="true" stored="true"/>
-<field name="site" type="text" indexed="true" stored="true"/>
 
-   <field name="ogc_url" type="text" indexed="true" stored="true" />
-    
-    <field name="web_url" type="text" indexed="true" stored="true" />
+<field name="site" type="string" indexed="true" stored="true" multiValued="true"/>
+<field name="siteText" type="text" indexed="true" stored="true" multiValued="true"/>
     
       <field name="parameter" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="parameterText" type="text" indexed="true" stored="true" multiValued="true"/>
@@ -241,6 +288,7 @@
 
 <field name="investigator" type="string" indexed="true" stored="true" multiValued="true"/>
 <field name="investigatorText" type="text" indexed="true" stored="true" multiValued="true"/>
+
 <field name="fileID" type="string" indexed="true" stored="true"/>
 
 
@@ -291,6 +339,10 @@
    <copyField source="features" dest="text"/>
    <copyField source="includes" dest="text"/>   
    
+   <copyField source="title" dest="text"/> 
+   
+   <copyField source="title" dest="titlestr"/>
+   
    <copyField source="datasource" dest="text"/>
    <copyField source="LTERSite" dest="text"/>
    <copyField source="origin" dest="text"/>
@@ -318,8 +370,6 @@ these are ornldaac related fields, but need to be here for indexing purpose
   <copyField source="term" dest="text"/>
   <copyField source="topic" dest="text"/>
   <copyField source="investigator" dest="text"/>
-  <copyField source="investigator" dest="investigatorText"/>
-  
   <copyField source="fileID" dest="text"/>
    
    <copyField source="manu" dest="manu_exact"/>
