@@ -67,16 +67,14 @@ upgrade-rpw: publish
 ifeq ($(TESTCRT), 0)
 	/etc/init.d/tomcat6 stop
 	/etc/init.d/apache2 stop
-	apt-get remove --purge dataone-cn-os-core
-	apt-get remove --purge mysql-server mysql-client postgresql
+	apt-get purge dataone-cn-os-core
+	apt-get purge postgresql
 	apt-get autoremove
 	$(shell rm -rf /var/mercury)
-	$(shell rm -rf /var/lib/mysql)
-	$(shell rm -rf /etc/mysql)
 	$(shell rm -rf /var/lib/tomcat6)
 	$(shell rm -rf /var/metacat)
-	$(shell rm -rf /var/lib/postgresql)
-	$(shell rm -rf /etc/postgresql)
+	$(shell su postgres -c "psql -c \"DROP USER metacat\"")
+	$(shell su postgres -c "dropdb metacat")
 	apt-get update
 	apt-get install dataone-cn-os-core
 	/etc/init.d/tomcat6 stop
