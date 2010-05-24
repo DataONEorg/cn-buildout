@@ -17,7 +17,6 @@ BEGIN
     FROM mysql.user
       WHERE User = 'mercuryuser' and  Host = 'localhost';
    IF foo = 0 THEN
-	drop user 'mercuryuser'@'localhost';
 	create user 'mercuryuser'@'localhost' identified by 'mercury3user';
   END IF;
 END ;$$

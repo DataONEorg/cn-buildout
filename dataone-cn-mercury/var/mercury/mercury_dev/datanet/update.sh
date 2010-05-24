@@ -5,7 +5,7 @@
 
 ## make knb directory and extract cn.war into it.
 echo "Configuring mysql, importing data to solr and indexing solr"
-mysqladmin -u root password 'dataone'
+#mysqladmin -u root password 'dataone'
 cd /var/mercury/mercury_dev/datanet/
 mysql -u root -pdataone < datanet_setup.sql
 java -Xms512m -Xmx1024m -jar  Harvest_dataone.jar datanet ornldaac nodebug daac
