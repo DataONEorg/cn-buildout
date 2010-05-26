@@ -218,7 +218,7 @@
            
      <field name="identifier"  type="string" indexed="true" stored="true" />
      <field name="objectFormat"  type="string" indexed="true" stored="true" />
-     <field name="size"  type="string" indexed="true" stored="true" />
+     <field name="size"  type="long" indexed="true" stored="true" />
      
      <field name="checksum"  type="string" indexed="true" stored="true" />
      <field name="checksumAlgorithm"  type="string" indexed="true" stored="true" />
