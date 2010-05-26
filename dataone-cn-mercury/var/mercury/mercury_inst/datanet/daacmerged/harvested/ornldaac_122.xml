@@ -276,7 +276,7 @@
 		   <preferredMemberNode>MN B</preferredMemberNode>
 		   <blockedMemberNode>MN C</blockedMemberNode>
 		  </replicationPolicy>
-		  <last_modified></last_modified>
+		  <dateSysMetadataModified>2010-05-04T15:13:51.0Z</dateSysMetadataModified>
 	</systemMetadata>
   </mercury>
 
