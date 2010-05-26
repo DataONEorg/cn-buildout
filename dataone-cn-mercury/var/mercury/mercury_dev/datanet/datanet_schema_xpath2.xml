@@ -122,7 +122,7 @@
           <entry key="enddate" 		value = "//metadata/mercury/enddate/text()"/>
         <!--  <entry key="pubDate" 		value = "//metadata/metainfo/metd/text()"/>  -->
          <entry key="embargoExpires"  value = "//metadata/mercury/systemMetadata/embargoExpires/text()"/>
-         <entry key="last_modified"    value = "//metadata/mercury/systemMetadata/last_modified/text()"/>
+         <entry key="dateSysMetadataModified"    value = "//metadata/mercury/systemMetadata/dateSysMetadataModified/text()"/>
  	</map>
     </property>
   </bean>  
@@ -135,7 +135,7 @@
         <entry key="metd" 			value = "//metadata/metainfo/metd/text()"/> 
         <entry key="metrd" 			value = "//metadata/metainfo/metrd/text()"/> 
         <entry key="enddate" 		value = "//metadata/mercury/enddate/text()"/> 
-        <entry key="last_modified"   value = "//metadata/mercury/systemMetadata/last_modified/text()"/>
+        <entry key="dateSysMetadataModified"   value = "//metadata/mercury/systemMetadata/dateSysMetadataModified/text()"/>
          
  	</map>
     </property>
