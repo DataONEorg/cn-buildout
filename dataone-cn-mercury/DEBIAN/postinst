@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "current directory"
+echo `pwd`
 
 LONG_DATE=`date +%Y%m%d%H%M%S`
 APACHE_CONF=/etc/apache2

@@ -39,12 +39,12 @@ chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/cn.war
 ## expand the war file
 CURR_DIR=`pwd`
 
-## make knb directory and extract cn.war into it.
-echo "Making knb application directory: ${TOMCAT_HOME}/webapps/cn"
+## make cn directory and extract cn.war into it.
+echo "Making cn application directory: ${TOMCAT_HOME}/webapps/cn"
 mkdir ${TOMCAT_HOME}/webapps/cn
 cd ${TOMCAT_HOME}/webapps/cn
 
-echo "extracting knb.war into ${TOMCAT_HOME}/webapps/cn"
+echo "extracting cn.war into ${TOMCAT_HOME}/webapps/cn"
 jar -xvf ${TOMCAT_HOME}/webapps/cn.war > /dev/null
 chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/cn
 echo cd to $CURR_DIR
