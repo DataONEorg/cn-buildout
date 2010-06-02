@@ -52,11 +52,32 @@ install: publish
 	apt-get update
 	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
 
-install-dev: publish
+upgrade: publish
+	@echo $(shell printf "Stopping Tomcat\n")
+	@echo $(shell /etc/init.d/tomcat6 stop)
+	@echo $(shell printf "Stopping Apache\n")
+	@echo $(shell /etc/init.d/apache2 stop)
+	@echo $(shell printf "%b\n" "SLEEP 15 to allow tomcat to stop")
+	@echo $(shell sleep 15)
+	@echo $(shell su postgres -c "dropdb metacat")
+	@echo $(shell su postgres -c "psql --command \"DROP USER metacat\"")
+	apt-get remove dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
+	apt-get autoremove
+	@echo $(shell rm -rf /var/mercury)
+	@echo $(shell rm -rf /var/metacat)
+	apt-get update
+	apt-get install dataone-cn-os-core
+	@echo $(shell /etc/init.d/tomcat6 stop)
+	@echo $(shell /etc/init.d/apache2 stop)
+	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
+
+install-rpw: publish
 	@echo "Let's run apt-get install for dev environment now."
 ifeq ($(TESTCRT), 0)
 	apt-get update
 	apt-get install dataone-cn-os-core
+	/etc/init.d/tomcat6 stop
+	/etc/init.d/apache2 stop
 	cp /etc/ssl/certs/dataone.org.crt /etc/ssl/certs/_.dataone.org.crt
 	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
 else
@@ -65,25 +86,26 @@ endif
 
 upgrade-rpw: publish
 ifeq ($(TESTCRT), 0)
-	/etc/init.d/tomcat6 stop
-	/etc/init.d/apache2 stop
-	apt-get purge dataone-cn-os-core
-	apt-get purge postgresql
+	@echo $(shell printf "%b\n" "-Stopping Tomcat-")
+	@echo $(shell /etc/init.d/tomcat6 stop)
+	@echo $(shell printf "%b\n" "-Stopping Apache-")
+	@echo $(shell /etc/init.d/apache2 stop)
+	@echo $(shell printf "%b\n" "SLEEP 15 to allow tomcat to stop")
+	@echo $(shell sleep 15)
+	@echo $(shell su postgres -c "dropdb metacat")
+	@echo $(shell su postgres -c "psql --command \"DROP USER metacat\"")
+#	apt-get remove dataone-cn-os-core
+	apt-get remove dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
 	apt-get autoremove
-	$(shell rm -rf /var/mercury)
-	$(shell rm -rf /var/lib/tomcat6)
-	$(shell rm -rf /var/metacat)
-	$(shell su postgres -c "psql -c \"DROP USER metacat\"")
-	$(shell su postgres -c "dropdb metacat")
+	@echo $(shell rm -rf /var/mercury)
+	@echo $(shell rm -rf /var/metacat)
 	apt-get update
 	apt-get install dataone-cn-os-core
-	/etc/init.d/tomcat6 stop
-	/etc/init.d/apache2 stop
+	@echo $(shell /etc/init.d/tomcat6 stop)
+	@echo $(shell /etc/init.d/apache2 stop)
 	cp /etc/ssl/certs/dataone.org.crt /etc/ssl/certs/_.dataone.org.crt
 	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
 else
 	@echo "The self-signed cert procedure has not been followed. apt-get will fail!"
 endif
-
-
 
