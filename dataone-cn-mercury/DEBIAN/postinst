@@ -97,6 +97,7 @@ do
 done
 
 cp -f ${SCRIPT_DIR}/datanet_solr.xml ${TOMCAT_HOME}/conf/Catalina/localhost/datanet_solr.xml
+cp -f ${SCRIPT_DIR}/mercury3.xml ${TOMCAT_HOME}/conf/Catalina/localhost/mercury3.xml
 cp -f ${SOURCE_DIR}/lib/commons-collections-3.2.jar ${TOMCAT_BASE}/lib/commons-collections-3.2.jar
 cp -f ${SOURCE_DIR}/lib/mysql-connector-java-3.1.12-bin.jar ${TOMCAT_BASE}/lib/mysql-connector-java-3.1.12-bin.jar
 /etc/init.d/tomcat6 start
