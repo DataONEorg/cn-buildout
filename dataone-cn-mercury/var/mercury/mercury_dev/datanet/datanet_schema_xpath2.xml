@@ -39,25 +39,25 @@
        	<entry key="contactOrganization" 		value = "//metadata/distinfo/distrib/cntinfo/cntperp/cntorg/text()"/>
         <entry key="ogc_url" 					value = "//metadata/mercury/OGC_URL/text()"/>
        <!-- 	<entry key="LTERSite" 					value = "//metadata/mercury/LTER-Site/text()"/> -->
-      	<entry key="identifier"    value = "//mercury/d1:systemMetadata/identifier/text()"/>
-    	  <entry key="objectFormat"  value = "//mercury/d1:systemMetadata/objectFormat/text()"/>
-   	    <entry key="size"          value = "//mercury/d1:systemMetadata/size/text()"/>
-   	    <entry key="submitter"     value = "//mercury/d1:systemMetadata/submitter/text()"/>
-   	    <entry key="rightsHolder"  value = "//mercury/d1:systemMetadata/rightsHolder/text()"/>
-   	    <entry key="obsoletes"     value = "//mercury/d1:systemMetadata/obsoletes/text()"/>
-   	    <entry key="obsoletedBy"   value = "//mercury/d1:systemMetadata/obsoletedBy/text()"/>
-   	    <entry key="derivedFrom"   value = "//mercury/d1:systemMetadata/derivedFrom/text()"/>
-   	    <entry key="describes"     value = "//mercury/d1:systemMetadata/describes/text()"/>
-   	    <entry key="describedBy"   value = "//mercury/d1:systemMetadata/describedBy/text()"/>
-   	    <entry key="checksum"      value = "//mercury/d1:systemMetadata/checksum/text()"/>
-   	    <entry key="checksumAlgorithm"  value = "//mercury/d1:systemMetadata/checksum/@algorithm"/>
+      	<entry key="identifier"    value = "//metadata/mercury/systemMetadata/identifier/text()"/>
+    	  <entry key="objectFormat"  value = "//metadata/mercury/systemMetadata/objectFormat/text()"/>
+   	    <entry key="size"          value = "//metadata/mercury/systemMetadata/size/text()"/>
+   	    <entry key="submitter"     value = "//metadata/mercury/systemMetadata/submitter/text()"/>
+   	    <entry key="rightsHolder"  value = "//metadata/mercury/systemMetadata/rightsHolder/text()"/>
+   	    <entry key="obsoletes"     value = "//metadata/mercury/systemMetadata/obsoletes/text()"/>
+   	    <entry key="obsoletedBy"   value = "//metadata/mercury/systemMetadata/obsoletedBy/text()"/>
+   	    <entry key="derivedFrom"   value = "//metadata/mercury/systemMetadata/derivedFrom/text()"/>
+   	    <entry key="describes"     value = "//metadata/mercury/systemMetadata/describes/text()"/>
+   	    <entry key="describedBy"   value = "//metadata/mercury/systemMetadata/describedBy/text()"/>
+   	    <entry key="checksum"      value = "//metadata/mercury/systemMetadata/checksum/text()"/>
+   	    <entry key="checksumAlgorithm"  value = "//metadata/mercury/systemMetadata/checksum/@algorithm"/>
    		  
-  	    <entry key="accessRule"         value = "//mercury/d1:systemMetadata/accessRule/text()"/>
-   	    <entry key="replicationPolicy"  value = "//mercury/d1:systemMetadata/replicationPolicy/text()"/>
-   	    <entry key="replicationAllowed" value = "//mercury/d1:systemMetadata/replicationPolicy/@replicationAllowed"/>
-   	    <entry key="numberReplicas"     value = "//mercury/d1:systemMetadata/replicationPolicy/@numberReplicas"/>
-   	    <entry key="preferredMemberNode"  value = "//mercury/d1:systemMetadata/replicationPolicy/preferredMemberNode/text()"/>
-   	    <entry key="blockedMemberNode"    value = "//mercury/d1:systemMetadata/replicationPolicy/blockedMemberNode/text()"/>
+  	    <entry key="accessRule"         value = "//metadata/mercury/systemMetadata/accessRule/text()"/>
+   	    <entry key="replicationPolicy"  value = "//metadata/mercury/systemMetadata/replicationPolicy/text()"/>
+   	    <entry key="replicationAllowed" value = "//metadata/mercury/systemMetadata/replicationPolicy/@replicationAllowed"/>
+   	    <entry key="numberReplicas"     value = "//metadata/mercury/systemMetadata/replicationPolicy/@numberReplicas"/>
+   	    <entry key="preferredMemberNode"  value = "//metadata/mercury/systemMetadata/replicationPolicy/preferredMemberNode/text()"/>
+   	    <entry key="blockedMemberNode"    value = "//metadata/mercury/systemMetadata/replicationPolicy/blockedMemberNode/text()"/>
    	    
       
        	
@@ -122,8 +122,8 @@
       	  <entry key="begdate" 		value = "//metadata/mercury/begdate/text()"/>
           <entry key="enddate" 		value = "//metadata/mercury/enddate/text()"/>
         <!--  <entry key="pubDate" 		value = "//metadata/metainfo/metd/text()"/>  -->
-         <entry key="embargoExpires"  value = "//mercury/d1:systemMetadata/embargoExpires/text()"/>
-         <entry key="dateSysMetadataModified"    value = "//mercury/d1:systemMetadata/dateSysMetadataModified/text()"/>
+         <entry key="embargoExpires"  value = "//metadata/mercury/systemMetadata/embargoExpires/text()"/>
+         <entry key="dateSysMetadataModified"    value = "//metadata/mercury/systemMetadata/dateSysMetadataModified/text()"/>
  	</map>
     </property>
   </bean>  
@@ -136,7 +136,7 @@
         <entry key="metd" 			value = "//metadata/metainfo/metd/text()"/> 
         <entry key="metrd" 			value = "//metadata/metainfo/metrd/text()"/> 
         <entry key="enddate" 		value = "//metadata/mercury/enddate/text()"/> 
-        <entry key="dateSysMetadataModified"   value = "//mercury/d1:systemMetadata/dateSysMetadataModified/text()"/>
+        <entry key="dateSysMetadataModified"   value = "//metadata/mercury/systemMetadata/dateSysMetadataModified/text()"/>
          
  	</map>
     </property>
