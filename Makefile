@@ -94,8 +94,8 @@ ifeq ($(TESTCRT), 0)
 	@echo $(shell sleep 15)
 	@echo $(shell su postgres -c "dropdb metacat")
 	@echo $(shell su postgres -c "psql --command \"DROP USER metacat\"")
-#	apt-get remove dataone-cn-os-core
-	apt-get remove dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
+	apt-get remove dataone-cn-os-core
+#	apt-get remove dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
 	apt-get autoremove
 	@echo $(shell rm -rf /var/mercury)
 	@echo $(shell rm -rf /var/metacat)
