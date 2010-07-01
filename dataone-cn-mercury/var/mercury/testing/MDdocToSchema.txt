@@ -1,4 +1,4 @@
-MD	doc	priority	Schema-xpath
+MD_doc	priority	Schema-xpath
 any(abstract)	essential	abstract
 earliestDate	essential	begdate
 dateSysMetadataModified	other	dateSysMetadataModified
