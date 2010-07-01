@@ -24,7 +24,7 @@ exit;
 
 sub main {
     # predict how many tests there are
-    plan tests =>  scalar( keys %d1MercuryConf::mdItem2eKey);
+    plan tests =>  2 * scalar( keys %d1MercuryConf::mdItem2eKey);
 
     # we plan to search the schema file
     my $xp = XML::XPath->new(filename => $d1MercuryConf::solrSchemaFile);
@@ -36,21 +36,17 @@ sub main {
 	my @node = $xp->find($xpath_query)->get_nodelist;
 
 	# there should be 1 and only 1 node returned
-
 	is(scalar(@node), 1, "schema test: assert '$k' from specification is defined ONCE in schema");
 
-
-#	if (@node) {
-#	    print XML::XPath::XMLParser::as_string($node[0]), "\n";
-#	} else {
-#	    print "*****\n";
-#	}
-
-
+	if (@node) {
+	    is($node[0]->getAttribute('indexed'),'true', "    ... and is indexed");
+	} else {
+	  SKIP: {
+	      skip "   Indexed test skipped because field not found";
+	    }
+	}
     }
 }
 
 exit;
 
-#    $mdItemPriority{$mdItem} = $priority;
-#	$mdItem2eKey{$mdItem} = $eKey;
