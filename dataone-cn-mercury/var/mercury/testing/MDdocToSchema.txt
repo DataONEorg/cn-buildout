@@ -1,0 +1,30 @@
+MD	doc	priority	Schema-xpath
+any(abstract)	essential	abstract
+earliestDate	essential	begdate
+dateSysMetadataModified	other	dateSysMetadataModified
+latestDate	essential	endDate
+identifier	other	identifier
+keyWord	essential	keywords
+author	essential	origin
+namedLocation	essential	placeKey
+datePublished	other	pubDate
+size	other	size
+title	desirable	title
+keyConcept	essential
+spatialFeature	essential
+creator	other
+dataDomain	desirable
+dateCreated	other
+dimensions	other
+measurementUnits	other
+objectFormat	desirable
+publication	desirable
+quality	other
+readPrincipal	other
+relatedObject	other
+relatedOrganizations	other
+replicaCount	other
+replicaLocation	other
+scientificName	desirable
+variableName	desirable
+writePrincipal	other

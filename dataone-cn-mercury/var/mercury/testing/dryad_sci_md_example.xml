@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" OBJEDIT="/admin/item?itemID=117" OBJID="/handle/10255/dryad.110" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" ID="hdl:10255/dryad.110">
+  <mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+    <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIM">
+      <mets:xmlData>
+	<dim:dim dspaceType="ITEM">
+	  <dim:field element="contributor" qualifier="author" language="" mdschema="dc">Normark, Benjamin</dim:field>
+	  <dim:field element="contributor" qualifier="author" language="" mdschema="dc">Lanteri, Analia A.</dim:field>
+	  <dim:field element="date" qualifier="accessioned" language="" mdschema="dc">2008-03-21T14:32:39Z</dim:field>
+	  <dim:field element="date" qualifier="available" language="" mdschema="dc">2008-03-21T14:32:39Z</dim:field>
+	  <dim:field element="date" qualifier="issued" language="" mdschema="dc">1998-09-01</dim:field>
+	  <dim:field element="identifier" language="*" mdschema="dc">doi:10.5061/dryad.108/2</dim:field>
+	  <dim:field element="identifier" qualifier="uri" language="" mdschema="dc">http://hdl.handle.net/10255/dryad.110</dim:field>
+	  <dim:field element="publisher" language="en_US" mdschema="dc">Taylor &amp; Francis</dim:field>
+	  <dim:field element="relation" qualifier="ispartof" language="" mdschema="dc">http://hdl.handle.net/10255/dryad.108</dim:field>
+	  <dim:field element="rights" qualifier="uri" language="" mdschema="dc">http://creativecommons.org/publicdomain/zero/1.0/</dim:field>
+	  <dim:field element="subject" language="" mdschema="dc">reticulation</dim:field>
+	  <dim:field element="subject" language="" mdschema="dc">parthenogenesis</dim:field>
+	  <dim:field element="subject" language="" mdschema="dc">ancient asexuals</dim:field>
+	  <dim:field element="subject" language="" mdschema="dc">hybridization</dim:field>
+	  <dim:field element="subject" language="" mdschema="dc">incongruence</dim:field>
+	  <dim:field element="subject" language="" mdschema="dc">root weevils</dim:field>
+	  <dim:field element="title" language="en_US" mdschema="dc">Normark and Lanteri Appendix 2</dim:field>
+	  <dim:field element="type" language="en_US" mdschema="dc">Dataset</dim:field>
+	  <dim:field element="ScientificName" language="" mdschema="dwc">Entiminae</dim:field>
+	  <dim:field element="ScientificName" language="" mdschema="dwc">Naupactini</dim:field>
+	  <dim:field element="status" language="" mdschema="dryad">scanned</dim:field>
+	</dim:dim>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="TEXT">
+      <mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_217" ID="file_1212" MIMETYPE="text/plain" SIZE="1963" CHECKSUM="1d4208bdc7f6cd62dc0c831fa0ff94b9">
+	<mets:FLocat LOCTYPE="URL" xlink:title="10Dappend2.txt.txt" xlink:label="Extracted text" xlink:type="locator" xlink:href="/bitstream/handle/10255/dryad.110/10Dappend2.txt.txt?sequence=2"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="CONTENT">
+      <mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_217" ID="file_217" MIMETYPE="text/plain" SIZE="1982" CHECKSUM="ed387674851ba80bd2d3c6c42f335cf7">
+	<mets:FLocat LOCTYPE="URL" xlink:title="10Dappend2.txt" xlink:type="locator" xlink:href="/bitstream/handle/10255/dryad.110/10Dappend2.txt?sequence=1"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+    <mets:div DMDID="dmd_1" TYPE="DSpace Item">
+      <mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+	<mets:fptr FILEID="file_217"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:METS>

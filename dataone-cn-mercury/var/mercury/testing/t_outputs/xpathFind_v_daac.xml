@@ -1,0 +1,276 @@
+<testsuites>
+  <testsuite failures="25"
+             errors="0"
+             time="0"
+             tests="64"
+             name="make_test"
+             id="1">
+    <testcase time="0"
+              name="Test_01"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 1 - the xpath expression finds something for 'instance'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_02"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_03"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_04"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_05"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 5 - the xpath expression finds something for 'data_url'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_06"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_07"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 7 - the xpath expression finds something for 'ogc_url'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_08"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_09"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_10"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_11"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_12"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_13"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 13 - the xpath expression finds something for 'obsoletes'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_14"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 14 - the xpath expression finds something for 'obsoletedBy'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_15"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 15 - the xpath expression finds something for 'derivedFrom'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_16"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_17"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 17 - the xpath expression finds something for 'describedBy'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_18"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_19"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_20"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 20 - the xpath expression finds something for 'accessRule'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_21"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 21 - the xpath expression finds something for 'replicationPolicy'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_22"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_23"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_24"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_25"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_26"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_27"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 27 - the xpath expression finds something for 'edition'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_28"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 28 - the xpath expression finds something for 'investigator'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_29"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_30"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 30 - the xpath expression finds something for 'purpose'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_31"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_32"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_33"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_34"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_35"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_36"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 36 - the xpath expression finds something for 'site'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_37"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_38"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_39"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_40"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_41"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 41 - the xpath expression finds something for 'begdate'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_42"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 42 - the xpath expression finds something for 'enddate'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_43"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 43 - the xpath expression finds something for 'embargoExpires'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_44"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_45"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 45 - the xpath expression finds something for 'pubDate'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_46"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_47"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 47 - the xpath expression finds something for 'metrd'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_48"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 48 - the xpath expression finds something for 'enddate'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_49"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_50"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 50 - the xpath expression finds something for 'keywords'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_51"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 51 - the xpath expression finds something for 'gcmdkeyword'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_52"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_53"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_54"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_55"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_56"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_57"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 57 - the xpath expression finds something for 'placekeyword'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_58"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 58 - the xpath expression finds something for 'temporalkeyword'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_59"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 59 - the xpath expression finds something for 'pointOfContact'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_60"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_61"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_62"
+              classname="make_test.Tests">
+      <failure type="TAPTestFailed"
+               message="not ok 62 - the xpath expression finds something for 'pubDate'" />
+    </testcase>
+    <testcase time="0"
+              name="Test_63"
+              classname="make_test.Tests" />
+    <testcase time="0"
+              name="Test_64"
+              classname="make_test.Tests" />
+  </testsuite>
+</testsuites>
