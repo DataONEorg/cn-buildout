@@ -19,12 +19,11 @@ APTREPOS      = $(WORKSPACE)/apt
 APTPKG        = $(APTREPOS)/dists/karmic/universe/binary-amd64
 APTPKGL       = $(APTREPOS)/dists/lucid/universe/binary-amd64
 
-TESTCRT = $(shell /bin/sh -c '/usr/bin/test -e /etc/ssl/certs/dataone.org.crt; echo $$?')
-
 #HELLO = $(shell ls /etc)
 # Other settings
 DPKG_DEB      = dpkg-deb
 .SUFFIXES: .deb
+
 
 help:
   @echo "Please use \`make <target>' where <target> is one of"
