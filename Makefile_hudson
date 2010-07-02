@@ -3,6 +3,14 @@
 # build environment and there is no install option
 # run make -f Makefile_hudson publish from Hudson to generate the distribution
 # Creates distros for Karmic Koala 9.10 and Lucid Lynx 10.04
+#
+# To install the packages (for a new CN for example):
+# Add a line to /etc/apt/sources.list (for lucid):
+#
+# deb http://dev-testing.dataone.org/ubuntu lucid universe
+#
+# The sudo apt-get update
+#
 # Dave Vieglais, 2010-07-01
 # 
 
