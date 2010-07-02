@@ -1,30 +1,1 @@
-MD_doc	priority	Schema-xpath
-any(abstract)	essential	abstract
-earliestDate	essential	begdate
-dateSysMetadataModified	other	dateSysMetadataModified
-latestDate	essential	endDate
-identifier	other	identifier
-keyWord	essential	keywords
-author	essential	origin
-namedLocation	essential	placeKey
-datePublished	other	pubDate
-size	other	size
-title	desirable	title
-keyConcept	essential
-spatialFeature	essential
-creator	other
-dataDomain	desirable
-dateCreated	other
-dimensions	other
-measurementUnits	other
-objectFormat	desirable
-publication	desirable
-quality	other
-readPrincipal	other
-relatedObject	other
-relatedOrganizations	other
-replicaCount	other
-replicaLocation	other
-scientificName	desirable
-variableName	desirable
-writePrincipal	other
+MD_doc	priority	datatype	Schema-xpathany(abstract)	essential	text	abstractearliestDate	essential	date	begdatedateSysMetadataModified	other	date	dateSysMetadataModifiedlatestDate	essential	date	endDateidentifier	other	string	identifierkeyWord	essential	string	keywordsauthor	essential	string	originnamedLocation	essential	string	placeKeydatePublished	other	date	pubDatesize	other	float	sizetitle	desirable	string	titlekeyConcept	essential	string	spatialFeature	essential	string	creator	other	string	dataDomain	desirable	string	dateCreated	other	datedimensions	other	longmeasurementUnits	other	stringobjectFormat	desirable	stringpublication	desirable	stringquality	other	stringreadPrincipal	other	stringrelatedObject	other	stringrelatedOrganizations	other	stringreplicaCount	other	integerreplicaLocation	other	stringscientificName	desirable	stringvariableName	desirable	stringwritePrincipal	other	string

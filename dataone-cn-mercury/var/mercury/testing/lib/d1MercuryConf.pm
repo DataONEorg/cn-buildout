@@ -1,6 +1,6 @@
 package d1MercuryConf;
 
-$mdDoc2schema = './MDdocToSchema.txt';
+$mdDoc2schema = './MDdocToSchema.csv';
 $xpathFile  = '../mercury_dev/datanet/datanet_schema_xpath2.xml';
 $solrSchemaFile ='../solr/Solr_Conf/schema.xml';
 
@@ -9,14 +9,18 @@ $solrSchemaFile ='../solr/Solr_Conf/schema.xml';
 
 
 # derived data structures 
+
 open (FILE, $mdDoc2schema) or die("Unable to open file: '$mdDoc2schema'");
-@line = <FILE>;
+while (<FILE>) {
+    push(@line,$_);
+}
 close FILE;
 foreach (@line) {
     next if /MD_doc/;
     chomp;
-    my($mdItem,$priority,$eKey) = split "\t";
+    my($mdItem,$priority,$datatype,$eKey) = split ',';
     $mdItemPriority{$mdItem} = $priority;
+    $mdItemDataType{$mdItem} = $datatype;
     if (defined $eKey) {
 	$mdItem2eKey{$mdItem} = $eKey;
     } else {
