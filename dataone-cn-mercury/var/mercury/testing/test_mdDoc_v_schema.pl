@@ -8,7 +8,7 @@
 #  general xpath search against the SOLR schema xml file
 #  
 # ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-
+use lib "./lib";
 use Test::More;
 use XML::XPath;
 use d1MercuryConf;

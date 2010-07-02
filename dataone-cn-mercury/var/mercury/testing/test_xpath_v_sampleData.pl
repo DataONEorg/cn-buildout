@@ -10,6 +10,7 @@
 #  in the requirements (metadata document) 
 # ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
 
+use lib "./lib";
 use XML::XPath;
 use Test::More;
 use d1MercuryConf;

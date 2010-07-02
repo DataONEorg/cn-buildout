@@ -1,6 +1,6 @@
+use lib "./lib";
 use Test::More;
 use XML::Parser;
-use Test::Exception;
 use d1MercuryConf;
 
 plan tests => 2 + scalar(keys %d1MercuryConf::sampleFiles);
