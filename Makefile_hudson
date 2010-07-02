@@ -10,7 +10,7 @@
 PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb dataone-cn-mercury.deb dataone-cn-rest-service.deb
 
 # The temporary build output directory
-BUILDDIR      = $(WORKSPACE)/build
+BUILDDIR      = $(WORKSPACE)/cn-buildout/build
 
 # The location of the the local APT repository used to store our built debs
 APTREPOS      = $(WORKSPACE)/apt
