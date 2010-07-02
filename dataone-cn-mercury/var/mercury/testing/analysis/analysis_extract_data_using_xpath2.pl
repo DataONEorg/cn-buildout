@@ -1,3 +1,4 @@
+use lib "../lib";
 use XML::XPath;
 use XML::XPath::Node;
 
