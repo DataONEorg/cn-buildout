@@ -1,6 +1,6 @@
 # Makefile for creating the DataONE CN build using Hudson.
 # Same as Makefile except paths and env vars tweaked to work with Hudson
-# build environment and there's no install option
+# build environment and there is no install option
 # run make -f Makefile_hudson publish from Hudson to generate the distribution
 # Creates distros for Karmic Koala 9.10 and Lucid Lynx 10.04
 # Dave Vieglais, 2010-07-01
@@ -26,31 +26,29 @@ DPKG_DEB      = dpkg-deb
 
 
 help:
-  @echo "Please use \`make <target>' where <target> is one of"
-  @echo "  deb       to make debian package files from control files"
-  @echo "  clean     to remove the build directory"
-  @echo "  publish   copy built deb packages to the local apt repository"
-  @echo "  install   install all of the packages needed for the CN"
+	@echo "Please use \`make <target>' where <target> is one of"
+	@echo "  deb       to make debian package files from control files"
+	@echo "  clean     to remove the build directory"
+	@echo "  publish   copy built deb packages to the local apt repository"
 
 clean:
-  -rm -rf $(BUILDDIR)
-  -rm -f ${APTREPOS}/*.deb
+	-rm -rf $(BUILDDIR)
+	-rm -f ${APTREPOS}/*.deb
 
 builddir: clean
-  mkdir -p $(BUILDDIR)/sources
+	mkdir -p $(BUILDDIR)/sources
 
 deb: builddir $(PKGS)
 
 $(PKGS):
-  cp -r $* $(BUILDDIR)/sources/$*
-  find $(BUILDDIR)/sources/$* -name .svn | xargs rm -rf
-  cd $(BUILDDIR)/sources && $(DPKG_DEB) -b $* ..
+	cp -r $* $(BUILDDIR)/sources/$*
+	find $(BUILDDIR)/sources/$* -name .svn | xargs rm -rf
+	cd $(BUILDDIR)/sources && $(DPKG_DEB) -b $* ..
 
 publish: deb
-  mkdir -p $(APTPKG)
-  mkdir -p $(APTPKGL)
-  cp -f $(BUILDDIR)/*.deb $(APTREPOS)
-  cd $(APTREPOS) && dpkg-scanpackages . /dev/null | gzip -9c > $(APTPKG)/Packages.gz
-  cd $(APTREPOS) && dpkg-scanpackages . /dev/null | gzip -9c > $(APTPKGL)/Packages.gz
-
+	mkdir -p $(APTPKG)
+	mkdir -p $(APTPKGL)
+	cp -f $(BUILDDIR)/*.deb $(APTREPOS)
+	cd $(APTREPOS) && dpkg-scanpackages . /dev/null | gzip -9c > $(APTPKG)/Packages.gz
+	cd $(APTREPOS) && dpkg-scanpackages . /dev/null | gzip -9c > $(APTPKGL)/Packages.gz
 
