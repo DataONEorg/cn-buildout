@@ -55,7 +55,7 @@ $(PKGS):
 	cp -r $* $(BUILDDIR)/sources/$*
 	find $(BUILDDIR)/sources/$* -name .svn | xargs rm -rf
 	# update version info in packages with the current subversion revision number
-	sh $(WORKSPACE)/cn-buildout/update-package-revision.sh
+	sh $(WORKSPACE)/cn-buildout/update-package-revision.sh $*
 	cd $(BUILDDIR)/sources && $(DPKG_DEB) -b $* ..
 
 publish: deb

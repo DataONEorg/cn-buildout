@@ -5,12 +5,11 @@
 # with the last changed revision number of the package content.  This ensure 
 # that apt will pick up the new version of content and update as necessary. 
 #
+# Expects package name as first arg
 
-SOURCES="dataone-cn-os-core dataone-cn-metacat dataone-cn-mercury dataone-cn-rest-service"
 SRCDIR="$WORKSPACE/cn-buildout"
 BUILDDIR="$WORKSPACE/cn-buildout/build"
-for f in $SOURCES; do
-  SVNREVISION=`svn info $SRCDIR/$f | awk '/^Last Changed Rev:/{print $4}'`;  
-  echo "$f : $SVNREVISION"
-  sed -i 's/^Version: [.0-9]*/&R'$SVNREVISION'/' $BUILDDIR/sources/$f/DEBIAN/control
-done
+
+SVNREVISION=`svn info $SRCDIR/$1 | awk '/^Last Changed Rev:/{print $4}'`;  
+echo "$1 : $SVNREVISION"
+sed -i 's/^Version: [.0-9]*/&R'$SVNREVISION'/' $BUILDDIR/sources/$1/DEBIAN/control
