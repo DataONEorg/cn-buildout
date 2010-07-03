@@ -8,11 +8,14 @@
 # Add a line to /etc/apt/sources.list (for lucid):
 #
 # deb http://dev-testing.dataone.org/ubuntu lucid universe
-#
+# 
 # The sudo apt-get update
 #
 # Dave Vieglais, 2010-07-01
 # 
+
+#Get the revision number of the repository - appended to version information
+#of the packages so that apt-get upgrade will pick up changed packages.
 
 # The list of packages to build
 PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb dataone-cn-mercury.deb dataone-cn-rest-service.deb
@@ -51,6 +54,8 @@ deb: builddir $(PKGS)
 $(PKGS):
 	cp -r $* $(BUILDDIR)/sources/$*
 	find $(BUILDDIR)/sources/$* -name .svn | xargs rm -rf
+	# update version info in packages with the current subversion revision number
+	sh $(WORKSPACE)/cn-buildout/update-package-revision.sh
 	cd $(BUILDDIR)/sources && $(DPKG_DEB) -b $* ..
 
 publish: deb
