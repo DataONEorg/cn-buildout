@@ -99,6 +99,7 @@ under the same terms as Perl itself.
 use strict;
 use warnings;
 
+use lib './lib';
 use Getopt::Long qw(:config no_ignore_case);
 use Pod::Usage;
 use TAP::Parser;
