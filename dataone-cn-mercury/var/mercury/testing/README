@@ -24,7 +24,7 @@ These modules (with their dependencies listed underneath) are:
 --------------------------------------------------------------
 String::Numeric
 
-TAP::Parser	<libtap-parser-perl>
+TAP::Parser	<libtest-harness-perl>
 XML::Generator	<libxml-generator-perl>
 XML::Parser	<libxml-parser-perl>
     LWP			<<libwww-perl>>
