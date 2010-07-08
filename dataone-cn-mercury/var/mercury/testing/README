@@ -17,7 +17,8 @@ The suite of tests make use of several CPAN modules distributed
 under the GPL.  These need to be installed separately on the
 machine running the tests.
 
-** more info here, perhaps ***
+Exception:  Because there is no debian package for String::Numeric
+(and it is self-contained), it remains in repository for now.
 
 
 These modules (with their dependencies listed underneath) are:
