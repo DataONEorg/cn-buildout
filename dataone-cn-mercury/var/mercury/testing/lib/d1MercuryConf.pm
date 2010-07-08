@@ -1,11 +1,22 @@
 package d1MercuryConf;
 
+
 $mdDoc2schema = './MDdocToSchema.csv';
-$xpathFile  = '../mercury_dev/datanet/datanet_schema_xpath2.xml';
 $solrSchemaFile ='../solr/Solr_Conf/schema.xml';
 
-%sampleFiles = ( #daac => '../mercury_inst/datanet/DataONESamples/harvested/MD_ORNLDAAC_221_03032010095920_MERGED.xml',
-		 daac => './mercury-1out.xml');
+$xpathFile  = '../mercury_dev/datanet/datanet_schema_xpath2.xml';
+
+# assuming the indexer uses different xpath files for each objectFormat
+%xpathFiles  = (daac => '../mercury_dev/datanet/datanet_schema_xpath2.xml',
+		dryad => '',
+		knb => '',
+    );
+
+# used by xml_well_formed test, and xpath_vs_sample
+%sampleFiles = ( daac => '../mercury_inst/datanet/DataONESamples/harvested/MD_ORNLDAAC_221_03032010095920_MERGED.xml',
+		 dryad => './dryad_sci_md_example.xml',
+		 knb => '../mercury_inst/datanet/DataONESamples/harvested/BAYXXX_015ADCP015R00_20051215509_MERGED.xml',
+    );
 
 
 # derived data structures 

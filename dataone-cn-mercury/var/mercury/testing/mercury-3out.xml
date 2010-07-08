@@ -1,3 +1,4 @@
+<doc>
 <xml-fragment xmlns:solr="http://schema.epublishing.com/solr">
   <solr:field name="id">http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=868</solr:field>
   <solr:field name="datasource">DataONESamples</solr:field>
@@ -244,3 +245,4 @@
   <solr:field name="pubDate">2010-03-03T00:00:00Z</solr:field>
   <solr:field name="fileID">625</solr:field>
 </xml-fragment>
+</doc>

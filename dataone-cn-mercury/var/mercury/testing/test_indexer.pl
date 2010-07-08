@@ -19,7 +19,7 @@ use d1MercuryConf;
 use Getopt::Long;
 
 #use Checker;
-use String::Numeric;
+use String::Numeric ':all';
 
 $mercuryOutputXML;
 $verbose;
@@ -76,9 +76,9 @@ sub main {
 		ok (is_int64($node[0]->string_value) ||
 		    is_uint64($node[0]->string_value), "Datatype test - declared v data: Long");
 	    } elsif ($type =~/float/) {
-#		ok (is_float($node[0]->string_value), "Datatype test - declared v data: Float");
+		ok (is_float($node[0]->string_value), "Datatype test - declared v data: Float");
 	    } elsif ($type =~/double/) {
-#		ok (is_float($node[0]->string_value), "Datatype test - declared v data: Double (as float)");
+		ok (is_float($node[0]->string_value), "Datatype test - declared v data: Double (as float)");
 	    } elsif ($type =~/boolean/) {
 		ok ($node[0]->string_value =~/^(true|false|0|1)$/i, "Datatype test - declared v data: Boolean");
 	    } elsif ($type =~/date/) {
