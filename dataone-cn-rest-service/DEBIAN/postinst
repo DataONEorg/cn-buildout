@@ -59,8 +59,8 @@ cd $CURR_DIR
 cp ${SCRIPT_DIR}/cn.xml ${TOMCAT_HOME}/conf/Catalina/localhost/
 chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/Catalina/localhost/cn.xml
 # Add permissions needed by cn
-cp ${SCRIPT_DIR}/51cn.policy ${TOMCAT_HOME}/conf/policy.d/
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/51cn.policy
+cp ${SCRIPT_DIR}/54cn.policy ${TOMCAT_HOME}/conf/policy.d/
+chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/54cn.policy
 ###############################################################################
 # Configure Apache
 ###############################################################################
