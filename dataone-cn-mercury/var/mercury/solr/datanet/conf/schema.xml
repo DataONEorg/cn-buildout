@@ -169,7 +169,12 @@
        omitNorms: (expert) set to true to omit the norms associated with this field
                   (this disables length normalization and index-time boosting for the field)
    -->
-
+   
+   
+  <field name="distribution"  type="string" indexed="true" stored="true" multiValued="true"/>
+  <field name="distributionText" type="text" indexed="true" stored="true" multiValued="true"/>
+   
+   
    <field name="ogc_url" type="text" indexed="true" stored="true"/>
 
    <field name="id" type="string" indexed="true" stored="true"/>
@@ -183,25 +188,27 @@
 
    <field name="datasource" type="string" indexed="true" stored="true"/>
    <field name="LTERSite" type="string" indexed="true" stored="true"/>
-   <field name="origin" type="text" indexed="true" stored="true" multiValued="true"/>
+   <field name="origin" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="originText" type="text" indexed="true" stored="true" multiValued="true"/>
+   
    <field name="pubDate" type="date" indexed="true" stored="true"/> 
    
-   <field name="title" type="text" indexed="true" stored="true"/>  
+   <field name="title" type="string" indexed="true" stored="true"/>  
    <field name="titlestr" type="string" indexed="true" stored="true"/>  
-   
+   <field name="titleText" type="string" indexed="true" stored="true"/>  
    
    <field name="geoform" type="string" indexed="true" stored="true"/>
    <field name="presentationCat" type="string" indexed="true" stored="true"/>
    <field name="abstract" type="text" indexed="true" stored="true"/>
    <field name="purpose" type="text" indexed="true" stored="true"/>   
    <field name="beginDate" type="date" indexed="true" stored="true"/>
-   <field name="endDate" type="date" indexed="true" stored="true"/>   
+   <field name="endDate" type="date" indexed="true" stored="true"/> 
    
-   <field name="update_date" type="date" indexed="true" stored="true"/>
-   
+   <field name="update_date" type="date" indexed="true" stored="true"/>   
+  
    <field name="fullText" type="text" indexed="true" stored="true"/>
    
-   
+  
    <field name="edition" type="text" indexed="true" stored="true"/>
    <field name="data_url" type="string" indexed="true" stored="true"/>
    <field name="originator"  type="string" indexed="true" stored="true" multiValued="true"/>
@@ -218,11 +225,11 @@
            
      <field name="identifier"  type="string" indexed="true" stored="true" />
      <field name="objectFormat"  type="string" indexed="true" stored="true" />
-     <field name="size"  type="long" indexed="true" stored="true" />
+     <field name="size"  type="string" indexed="true" stored="true" />
      
      <field name="checksum"  type="string" indexed="true" stored="true" />
      <field name="checksumAlgorithm"  type="string" indexed="true" stored="true" />
-     <field name="dateSysMetadataModified"  type="date" indexed="true" stored="true" />
+     <field name="last_modified"  type="date" indexed="true" stored="true" />
      <field name="derivedFrom"  type="string" indexed="true" stored="true" />
      <field name="describedBy"  type="string" indexed="true" stored="true" />   
         
@@ -248,8 +255,11 @@
       
    <field name="web_url"  type="string" indexed="true" stored="true" multiValued="true"/>
    
-   <field name="contactOrganization" type="text" indexed="true" stored="true"/>
-   <field name="keywords" type="text" indexed="true" stored="true" multiValued="true"/>
+   <field name="contactOrganization" type="string" indexed="true" stored="true"/>
+   <field name="contactOrganizationText" type="text" indexed="true" stored="true"/>
+   
+   <field name="keywords" type="string" indexed="true" stored="true" multiValued="true"/>
+     <field name="keywordsText" type="text" indexed="true" stored="true" multiValued="true"/>
    <field name="placeKey" type="text" indexed="true" stored="true" multiValued="true"/>
    
       <field name="noBoundingBox" type="string" indexed="true" stored="true"/>
@@ -269,27 +279,35 @@
 
 <field name="site" type="string" indexed="true" stored="true" multiValued="true"/>
 <field name="siteText" type="text" indexed="true" stored="true" multiValued="true"/>
-    
-      <field name="parameter" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="parameterText" type="text" indexed="true" stored="true" multiValued="true"/>
-   
-   <field name="sensor" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="sensorText" type="text" indexed="true" stored="true" multiValued="true"/>
-   
-   <field name="source" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="sourceText" type="text" indexed="true" stored="true" multiValued="true"/>
-   
-   <field name="term" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="termText" type="text" indexed="true" stored="true" multiValued="true"/>
 
-   <field name="topic" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="topicText" type="text" indexed="true" stored="true" multiValued="true"/>
+<field name="parameter" type="string" indexed="true" stored="true" multiValued="true"/>
+<field name="parameterText" type="text" indexed="true" stored="true" multiValued="true"/>
 
+<field name="sensor" type="string" indexed="true" stored="true" multiValued="true"/>
+<field name="sensorText" type="text" indexed="true" stored="true" multiValued="true"/>
 
+<field name="source" type="string" indexed="true" stored="true" multiValued="true"/>
+<field name="sourceText" type="text" indexed="true" stored="true" multiValued="true"/>
+
+<field name="term" type="string" indexed="true" stored="true" multiValued="true"/>
+<field name="termText" type="text" indexed="true" stored="true" multiValued="true"/>
+
+<field name="topic" type="string" indexed="true" stored="true" multiValued="true"/> 
+ <field name="topicText" type="text" indexed="true" stored="true" multiValued="true"/> 
+ 
+ 
 <field name="investigator" type="string" indexed="true" stored="true" multiValued="true"/>
 <field name="investigatorText" type="text" indexed="true" stored="true" multiValued="true"/>
 
 <field name="fileID" type="string" indexed="true" stored="true"/>
+
+
+<!-- Dataone fields, mostly copy fields from existing fields -->
+
+<field name="author"  type="string" indexed="true" stored="true" multiValued="true"/>
+
+<!-- end of dataone specific fields -->
+
 
 
 <!-- catchall field, containing all other searchable text fields (implemented
@@ -337,11 +355,16 @@
    <copyField source="name" dest="text"/>
    <copyField source="manu" dest="text"/>
    <copyField source="features" dest="text"/>
-   <copyField source="includes" dest="text"/>   
+   <copyField source="includes" dest="text"/>
    
    <copyField source="title" dest="text"/> 
    
    <copyField source="title" dest="titlestr"/>
+   
+    <copyField source="distribution" dest="distributionText"/>
+     <copyField source="origin" dest="originText"/>
+      <copyField source="contactOrganization" dest="contactOrganizationText"/>
+      
    
    <copyField source="datasource" dest="text"/>
    <copyField source="LTERSite" dest="text"/>
@@ -362,17 +385,43 @@
 <!--
 these are ornldaac related fields, but need to be here for indexing purpose
 -->
-  <copyField source="project" dest="text"/>
-  <copyField source="site" dest="text"/>
-  <copyField source="parameter" dest="text"/>
-  <copyField source="sensor" dest="text"/>
-  <copyField source="source" dest="text"/>
-  <copyField source="term" dest="text"/>
-  <copyField source="topic" dest="text"/>
-  <copyField source="investigator" dest="text"/>
+  <copyField source="project" dest="projectText"/>
+  <copyField source="projectText" dest="text"/>
+  
+  <copyField source="site" dest="siteText"/>
+  <copyField source="siteText" dest="text"/>
+  
+  <copyField source="parameter" dest="parameterText"/>
+  <copyField source="parameterText" dest="text"/>
+  
+  <copyField source="sensor" dest="sensorText"/>
+   <copyField source="sensorText" dest="text"/>
+   
+  <copyField source="source" dest="sourceText"/>
+  <copyField source="sourceText" dest="text"/>
+  
+  <copyField source="term" dest="termText"/>
+  <copyField source="termText" dest="text"/>
+  
+  <copyField source="topic" dest="topicText"/>
+   <copyField source="topicText" dest="text"/>
+   
+  <copyField source="investigator" dest="investigatorText"/>
+  <copyField source="investigatorText" dest="text"/>
+  
+    <copyField source="keywords" dest="keywordsText"/>
+  <copyField source="keywordsText" dest="text"/>
+  
+    <copyField source="title" dest="titleText"/>
+  
+  
   <copyField source="fileID" dest="text"/>
    
    <copyField source="manu" dest="manu_exact"/>
+   
+   <!-- dataone copy fields -->
+   <copyField source="originator" dest="author"/>   
+   <!-- end dataone copy fields -->
 
  <!-- Similarity is the scoring routine for each document vs a query.
       A custom similarity may be specified here, but the default is fine
