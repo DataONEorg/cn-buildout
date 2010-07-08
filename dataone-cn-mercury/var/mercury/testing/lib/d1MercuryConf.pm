@@ -4,8 +4,8 @@ $mdDoc2schema = './MDdocToSchema.csv';
 $xpathFile  = '../mercury_dev/datanet/datanet_schema_xpath2.xml';
 $solrSchemaFile ='../solr/Solr_Conf/schema.xml';
 
-%sampleFiles = ( daac => '../mercury_inst/datanet/DataONESamples/harvested/MD_ORNLDAAC_221_03032010095920_MERGED.xml',
-		 dryad => './dryad_sci_md_example.xml');
+%sampleFiles = ( #daac => '../mercury_inst/datanet/DataONESamples/harvested/MD_ORNLDAAC_221_03032010095920_MERGED.xml',
+		 daac => './mercury-1out.xml');
 
 
 # derived data structures 
