@@ -51,7 +51,18 @@ sub do_tests {
 
 
     if ($expression=~/\w/) {
-	(@result) = $xpt->find($expression)->get_nodelist;
+	my ($r) = $xpt->find($expression);
+
+	# if $r is ' ', the method call is going to choke, so the fancy checking here
+        #    (surprisingly, if it's '', the method call doesn't complain)
+	if ($r =~/\S/) {
+	    (@result) = $r->get_nodelist;
+	} elsif ($r=~/\s/) {
+	    print ":-)\n";
+	} else {
+	    #empty string
+	    (@result) = $r->get_nodelist;
+	}
     }
 
     # initial test to see if the xpath returns something
