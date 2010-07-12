@@ -9,15 +9,15 @@
 
 mv -f t_outputs/all_tests.xml t_outputs/all_tests.xml.bu;
 perl ./test_xml_config_files_exist.pl  | perl ./tap-to-junit-xml.pl --puretap >t_outputs/all_tests.xml;
-perl ./test_xml_well_formed.pl  | perl ./tap-to-junit-xml.pl --puretap >t_outputs/all_tests.xml;
+perl ./test_xml_well_formed.pl  | perl ./tap-to-junit-xml.pl --puretap >>t_outputs/all_tests.xml;
 
 #       want to make sure there's an xpath for every schema field definition
 #       this also tests for xpaths keys without entries in schema.xml
 
-perl ./test_xpath_v_sampleData.pl  | perl ./tap-to-junit-xml.pl --puretap >>t_outputs/all_tests.xml;
+#perl ./test_xpath_v_sampleData.pl  | perl ./tap-to-junit-xml.pl --puretap >>t_outputs/all_tests.xml;
 
 #       Can't run the indexer because the sample data path is absolute (/var/mercury/...)
 #       so need to run separately and shove the output into svn
-cat merc-3out.xml | grep -v '</add><add xmlns' | perl ./test_indexer.pl  | perl ./tap-to-junit-xml.pl --puretap >>t_outputs/all_tests.xml 
 
+#cat merc-3out.xml | grep -v '</add><add xmlns' | perl ./test_indexer.pl  | perl ./tap-to-junit-xml.pl --puretap >>t_outputs/all_tests.xml 
 #perl ./test_mdDoc_v_schema.pl  | perl ./tap-to-junit-xml.pl --puretap >>t_outputs/all_tests.xml;
