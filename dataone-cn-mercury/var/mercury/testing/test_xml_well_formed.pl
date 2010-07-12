@@ -31,6 +31,7 @@ sub test_XML_well_formed {
     my($file) = @_;
 
     eval { $p1->parsefile($file); }; 
+    # now check the error message - if empty, it's all good
     is ( $@, '' , "XML well-formed test: $file");
 }
 

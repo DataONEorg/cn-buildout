@@ -17,7 +17,7 @@ use Test::More;
 use XML::XPath;
 use d1MercuryConf;
 use Getopt::Long;
-
+#use DateTime::Format::ISO8601
 #use Checker;
 use String::Numeric ':all';
 
@@ -58,8 +58,9 @@ sub main {
 
 	next unless $field=~/\w/;
 
-	my $xpath_query = '//solr:field[@name=' . "'$field']"; 
-#	my $xpath_query = "//$field";
+#	my $xpath_query = '//solr:field[@name=' . "'$field']"; 
+	my $xpath_query = '//field[@name=' . "'$field']"; 
+
 	my @node = $xp->find($xpath_query)->get_nodelist;
 	
 	# there should be at least one node found
@@ -82,7 +83,12 @@ sub main {
 	    } elsif ($type =~/boolean/) {
 		ok ($node[0]->string_value =~/^(true|false|0|1)$/i, "Datatype test - declared v data: Boolean");
 	    } elsif ($type =~/date/) {
-		ok ($node[0]->string_value =~/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.?\d*[A-Z]$/,
+		# format:  YYYY-MM-DDThh:mm:ss[.s]Z  - the 'Z' is a special UTC designator for GMT (coordinated universal time)
+		#   by ISO8601.  otherwise need local-time offset (-/+hh:mm)
+		ok ($node[0]->string_value =~/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z$/ 
+		    or $node[0]->string_value =~/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/ 
+		    or $node[0]->string_value =~/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+[-+]\d{2}:\d{2}$/
+		    or $node[0]->string_value =~/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[-+]\d{2}:\d{2}$/,
 		    "Datatype test - declared v data: Date");
 	    } else {
 		ok (0, "Datatype test - declared v data: $type - NO TEST AVAILABLE");
