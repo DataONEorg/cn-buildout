@@ -6,15 +6,17 @@
 # 
 # ============================================
 
+use lib '../lib';
 use Getopt::Long;
+use d1MercuryConf;
 
 main();
 
 
 sub initialize {
     # yep, these are globals...
-    $xpath_file = 'datanet/datanet_schema_xpath2.xml';
-    $schema_file ='schema.xml';
+    $xpath_file = $d1MercuryConf::xpathFile;
+    $schema_file =$d1MercuryConf::solrSchemaFile;
     $verbose;
     $result = GetOptions ("xpath_file=s"  => \$xpath_file,       # string
 			  "schema_file=s"  => \$schema_file,       # string
