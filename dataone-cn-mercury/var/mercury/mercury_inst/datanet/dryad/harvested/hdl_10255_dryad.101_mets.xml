@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" LABEL="DSpace Item" OBJID="/handle/10255/dryad.101" PROFILE="DSPACE METS SIP Profile 1.0" OBJEDIT="/admin/item?itemID=108" ID="hdl:10255/dryad.101">
+  <mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+    <mets:mdWrap OTHERMDTYPE="DIM" MDTYPE="OTHER">
+      <mets:xmlData>
+        <dim:dim dspaceType="ITEM">
+          <dim:field element="contributor" mdschema="dc" qualifier="author" language="">Davis, Jerrold I.</dim:field>
+          <dim:field element="contributor" mdschema="dc" qualifier="author" language="">Simmons, Mark P.</dim:field>
+          <dim:field element="contributor" mdschema="dc" qualifier="author" language="">Stevenson, Dennis W.</dim:field>
+          <dim:field element="contributor" mdschema="dc" qualifier="author" language="">Wendel, Jonathan F.</dim:field>
+          <dim:field element="date" mdschema="dc" qualifier="accessioned" language="">2008-03-19T18:57:00Z</dim:field>
+          <dim:field element="date" mdschema="dc" qualifier="available" language="">2008-03-19T18:57:00Z</dim:field>
+          <dim:field element="date" mdschema="dc" qualifier="issued" language="">1998-06-01</dim:field>
+          <dim:field element="identifier" mdschema="dc" qualifier="uri" language="">http://hdl.handle.net/10255/dryad.101</dim:field>
+          <dim:field element="publisher" mdschema="dc" language="en_US">Taylor &amp; Francis</dim:field>
+          <dim:field element="relation" mdschema="dc" qualifier="ispartof" language="">http://hdl.handle.net/10255/dryad.100</dim:field>
+          <dim:field element="rights" mdschema="dc" qualifier="uri" language="">http://creativecommons.org/publicdomain/zero/1.0/</dim:field>
+          <dim:field element="subject" mdschema="dc" language="">atp A</dim:field>
+          <dim:field element="subject" mdschema="dc" language="">data decisiveness</dim:field>
+          <dim:field element="subject" mdschema="dc" language="">restriction sites</dim:field>
+          <dim:field element="subject" mdschema="dc" language="">character incongruence</dim:field>
+          <dim:field element="subject" mdschema="dc" language="">plant mitochondrial DNA</dim:field>
+          <dim:field element="subject" mdschema="dc" language="">rbc L</dim:field>
+          <dim:field element="subject" mdschema="dc" language="">cladistics</dim:field>
+          <dim:field element="title" mdschema="dc" language="en_US">Davis et al Data Matrix</dim:field>
+          <dim:field element="type" mdschema="dc" language="en_US">Dataset</dim:field>
+          <dim:field element="ScientificName" mdschema="dwc" language="">Monocotyledons</dim:field>
+          <dim:field element="status" mdschema="dryad" language="">scanned</dim:field>
+        </dim:dim>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="CONTENT">
+      <mets:file GROUPID="group_file_199" SIZE="9357" CHECKSUM="7b19725bc5f96f51617abe0a20014fdf" MIMETYPE="text/plain" CHECKSUMTYPE="MD5" ID="file_199">
+        <mets:FLocat LOCTYPE="URL" xlink:href="/bitstream/handle/10255/dryad.101/davisarc.ss?sequence=1" xlink:title="davisarc.ss" xlink:type="locator" />
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="LOGICAL" LABEL="DSpace">
+    <mets:div TYPE="DSpace Item" DMDID="dmd_1">
+      <mets:div TYPE="DSpace Content Bitstream" ID="div_2">
+        <mets:fptr FILEID="file_199" />
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:amdSec>
+    <mets:techMD>
+      <mets:mdWrap>
+        <mets:xmlData>
+          <D1:systemMetadata xmlns:D1="http://dataone.org/service/types/SystemMetadata/0.1">
+            <identifier>hdl:10255/dryad.101/mets.xml</identifier>
+            <objectFormat>DSPACE METS SIP Profile 1.0</objectFormat>
+            <size>3329</size>
+            <submitter>Dryad</submitter>
+            <rightsHolder>Dryad</rightsHolder>
+            <checksum algorithm="SHA-1">cefdec2361a9d4137830cb7ee3feb584dc80dd94</checksum>
+            <dateUploaded>2010-05-20T00:53:27.008680</dateUploaded>
+            <dateSysMetadataModified>2010-05-20T00:53:27.008680</dateSysMetadataModified>
+            <originMemberNode>Dryad</originMemberNode>
+            <authoritativeMemberNode>Dryad</authoritativeMemberNode>
+          </D1:systemMetadata>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+  </mets:amdSec>
+</mets:METS>
+
