@@ -14,7 +14,7 @@ perl ./test_xml_well_formed.pl  | perl ./tap-to-junit-xml.pl --puretap >t_output
 perl ./test_xpath_duplicates.pl  | perl ./tap-to-junit-xml.pl --puretap >t_outputs/xpath_dupes.xml;
 perl ./test_schema_duplicates.pl  | perl ./tap-to-junit-xml.pl --puretap >t_outputs/schema_dupes.xml;
 
-#perl ./test_xpath_v_schema.pl  | perl ./tap-to-junit-xml.pl --puretap >t_outputs/xp-v-schema.xml;
+perl ./test_xpath_v_schema.pl  | perl ./tap-to-junit-xml.pl --puretap >t_outputs/xp-v-schema.xml;
 
 #       want to make sure there's an xpath for every schema field definition
 #       this also tests for xpaths keys without entries in schema.xml
