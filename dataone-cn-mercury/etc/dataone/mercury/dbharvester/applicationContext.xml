@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+<beans>
+ <bean id="log4jInitialization"
+ class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+ <property name="targetClass"
+  value="org.springframework.util.Log4jConfigurer" />
+   <property name="targetMethod" value="initLogging" />
+    <property name="arguments">
+    <list>
+      <value>file:/etc/dataone/mercury/dbharvester/log4j.properties</value>
+     </list>
+   </property>
+  </bean>
+   <bean id="properties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+      <property name="location">
+         <value>file:/etc/dataone/mercury/dbharvester/mercury3.properties</value>
+      </property>
+   </bean>
+
+<bean id="harvester" class="org.dataone.cn.mercury.Harvester">
+      <property name="source">
+	      <value>${mercury3.source}</value>
+      </property>
+      <property name="instance">
+	      <value>${mercury3.instance}</value>
+      </property>
+      <property name="threads">
+	      <value>${mercury3.threads}</value>
+      </property>
+      <property name="mercury">
+	      <value>${mercury3.mercury}</value>
+      </property>
+      <property name="htmlurl">
+	      <value>${mercury3.htmlurl}</value>
+      </property>
+      <property name="thesaurus">
+	      <value>${mercury3.thesaurus}</value>
+      </property>
+      <property name="log">
+	      <value>true</value>
+      </property>
+</bean>
+
+</beans>
