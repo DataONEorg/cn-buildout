@@ -10,6 +10,9 @@
 mv -f t_outputs/all_tests.xml t_outputs/all_tests.xml.bu;
 perl ./test_xml_config_files_exist.pl  | perl ./tap-to-junit-xml.pl --puretap >t_outputs/all_tests.xml;
 perl ./test_xml_well_formed.pl  | perl ./tap-to-junit-xml.pl --puretap >>t_outputs/all_tests.xml;
+perl ./test_xpath_duplicates.pl  | perl ./tap-to-junit-xml.pl --puretap >>t_outputs/all_tests.xml;
+perl ./test_schema_duplicates.pl  | perl ./tap-to-junit-xml.pl --puretap >>t_outputs/all_tests.xml;
+
 #perl ./test_xpath_v_schema.pl  | perl ./tap-to-junit-xml.pl --puretap >>t_outputs/all_tests.xml;
 
 #       want to make sure there's an xpath for every schema field definition
