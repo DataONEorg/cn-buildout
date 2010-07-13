@@ -113,6 +113,9 @@
         <property name="traceList">
         <ref bean="testFileInfo" />
         </property>
+        <property name="documentDatabase">
+            <ref bean="documentDatabase" />
+        </property>
     </bean>
 
 </beans>
