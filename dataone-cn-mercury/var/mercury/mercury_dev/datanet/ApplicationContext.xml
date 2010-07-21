@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+<beans>
+
+   <bean id="namespaces" class="index_utils.SimpleMapBean" >
+     <property name="simpleMap">
+      <map>
+        <entry key="eml" value="eml://ecoinformatics.org/eml-2.0.1"/>
+        <entry key="mets" value="http://www.loc.gov/METS/"/>
+        <entry key="dim" value="http://www.dspace.org/xmlns/dspace/dim"/>
+        <entry key="D1" value="http://dataone.org/service/types/SystemMetadata/0.1"/>
+               
+     </map>
+    </property>
+   </bean>
+
+<bean id="mercuryTest" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+    <property name="location" value="/Mercury3.properties" />
+</bean> 
+
+   <bean id="properties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+      <property name="location">
+         <value>file:mercury3.properties</value>
+      </property>
+   </bean>
+
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+		<property name="driverClass" value="${mercury3.driverClassName}"/>
+		<property name="jdbcUrl" value="${mercury3.url}"/>
+		<property name="user" value="${mercury3.username}"/>
+		<property name="password" value="${mercury3.password}"/>
+    </bean>
+
+
+
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+    </bean>
+
+
+<bean id="documentDatabaseTarget" class="index_utils.DefaultDocumentDatabase">
+		<property name="dataSource" ref="dataSource"/>
+      <property name="solrPostURL">
+	      <value>${mercury3.solrPostURL}</value>
+      </property>
+      <property name="solrdb">
+	      <value>${mercury3.solrdb}</value>
+      </property>
+      <property name="source">
+	      <value>${mercury3.source}</value>
+      </property>
+      <property name="instance">
+	      <value>${mercury3.instance}</value>
+      </property>
+       <property name="schema">
+	      <value>${mercury3.schema}</value>
+      </property>
+</bean>
+
+
+<bean id="documentDatabase" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+		<property name="transactionManager" ref="transactionManager"/>
+		<property name="target" ref="documentDatabaseTarget"/>
+		<property name="transactionAttributes">
+		<props>
+			<prop key="getSources">PROPAGATION_REQUIRED,readOnly</prop>
+		</props>
+		</property>
+</bean>
+
+
+
+
+
+</beans>

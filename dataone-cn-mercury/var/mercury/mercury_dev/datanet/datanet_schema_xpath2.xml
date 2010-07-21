@@ -5,7 +5,8 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans 
     http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
 
-  <bean id="ornldaac" class="index_utils.SimpleListBean">
+
+   <bean id="fgdc" class="index_utils.SimpleListBean">
      <property name="list">
       <list>
         <value>TEXT</value>
@@ -16,9 +17,59 @@
         <value>LOOKUP</value>
         <value>DEFAULTING_LOOKUP</value>
         <value>DATELIST</value>
+        <value>fileID_CHOOSER</value>
+       <!--  <value>coords_LIST</value>-->
+      <!--   <value>junk_LIST</value>-->
+        <!-- <value>junk_ONE_OF</value> -->
       </list>
     </property>
   </bean>
+
+<bean id="eml" class="index_utils.SimpleListBean">
+     <property name="list">
+      <list>
+        <value>EML_TEXT</value>
+        <value>EML_GEO</value>
+        <value>EML_DATE</value>
+        <value>EML_CSV</value>
+        <value>EML_TEXT_SINGLE</value>
+        <value>EML_LOOKUP</value>
+        <value>EML_DEFAULTING_LOOKUP</value>
+        <value>EML_DATELIST</value>
+        <value>EML_fileID_CHOOSER</value>
+        
+       <!--  <value>coords_LIST</value>-->
+      <!--   <value>junk_LIST</value>-->
+        <!-- <value>junk_ONE_OF</value> -->
+      </list>
+    </property>
+  </bean>
+  
+  <bean id="mets" class="index_utils.SimpleListBean">
+     <property name="list">
+      <list>
+        <value>METS_TEXT</value>
+        
+        <!--  <value>METS_GEO</value> -->
+        
+        <value>METS_DATE</value>
+        
+        <value>METS_CSV</value>
+        
+        <value>METS_TEXT_SINGLE</value>
+        
+       <!--   <value>METS_LOOKUP</value>
+        <value>METS_DEFAULTING_LOOKUP</value>
+        <value>METS_DATELIST</value>
+        <value>METS_fileID_CHOOSER</value> -->
+        
+       <!--  <value>coords_LIST</value>-->
+      <!--   <value>junk_LIST</value>-->
+        <!-- <value>junk_ONE_OF</value> -->
+      </list>
+    </property>
+  </bean>
+
 
 <bean id="instance" class="index_utils.SimpleMapBean">
      <property name="simpleMap">
@@ -38,25 +89,25 @@
        	<entry key="contactOrganization" 		value = "//metadata/distinfo/distrib/cntinfo/cntperp/cntorg/text()"/>
         <entry key="ogc_url" 					value = "//metadata/mercury/OGC_URL/text()"/>
        <!-- 	<entry key="LTERSite" 					value = "//metadata/mercury/LTER-Site/text()"/> -->
-      	<entry key="identifier"    value = "//mercury/systemMetadata/identifier/text()"/>
-    	  <entry key="objectFormat"  value = "//mercury/systemMetadata/objectFormat/text()"/>
-   	    <entry key="size"          value = "//mercury/systemMetadata/size/text()"/>
-   	    <entry key="submitter"     value = "//mercury/systemMetadata/submitter/text()"/>
-   	    <entry key="rightsHolder"  value = "//mercury/systemMetadata/rightsHolder/text()"/>
-   	    <entry key="obsoletes"     value = "//mercury/systemMetadata/obsoletes/text()"/>
-   	    <entry key="obsoletedBy"   value = "//mercury/systemMetadata/obsoletedBy/text()"/>
-   	    <entry key="derivedFrom"   value = "//mercury/systemMetadata/derivedFrom/text()"/>
-   	    <entry key="describes"     value = "//mercury/systemMetadata/describes/text()"/>
-   	    <entry key="describedBy"   value = "//mercury/systemMetadata/describedBy/text()"/>
-   	    <entry key="checksum"      value = "//mercury/systemMetadata/checksum/text()"/>
-   	    <entry key="checksumAlgorithm"  value = "//mercury/systemMetadata/checksum/@algorithm"/>
+      	<entry key="identifier"    value = "//metadata/mercury/systemMetadata/identifier/text()"/>
+    	  <entry key="objectFormat"  value = "//metadata/mercury/systemMetadata/objectFormat/text()"/>
+   	    <entry key="size"          value = "//metadata/mercury/systemMetadata/size/text()"/>
+   	    <entry key="submitter"     value = "//metadata/mercury/systemMetadata/submitter/text()"/>
+   	    <entry key="rightsHolder"  value = "//metadata/mercury/systemMetadata/rightsHolder/text()"/>
+   	    <entry key="obsoletes"     value = "//metadata/mercury/systemMetadata/obsoletes/text()"/>
+   	    <entry key="obsoletedBy"   value = "//metadata/mercury/systemMetadata/obsoletedBy/text()"/>
+   	    <entry key="derivedFrom"   value = "//metadata/mercury/systemMetadata/derivedFrom/text()"/>
+   	    <entry key="describes"     value = "//metadata/mercury/systemMetadata/describes/text()"/>
+   	    <entry key="describedBy"   value = "//metadata/mercury/systemMetadata/describedBy/text()"/>
+   	    <entry key="checksum"      value = "//metadata/mercury/systemMetadata/checksum/text()"/>
+   	    <entry key="checksumAlgorithm"  value = "//metadata/mercury/systemMetadata/checksum/@algorithm"/>
    		  
-  	    <entry key="accessRule"         value = "//mercury/systemMetadata/accessRule/text()"/>
-   	    <entry key="replicationPolicy"  value = "//mercury/systemMetadata/replicationPolicy/text()"/>
-   	    <entry key="replicationAllowed" value = "//mercury/systemMetadata/replicationPolicy/@replicationAllowed"/>
-   	    <entry key="numberReplicas"     value = "//mercury/systemMetadata/replicationPolicy/@numberReplicas"/>
-   	    <entry key="preferredMemberNode"  value = "//mercury/systemMetadata/replicationPolicy/preferredMemberNode/text()"/>
-   	    <entry key="blockedMemberNode"    value = "//mercury/systemMetadata/replicationPolicy/blockedMemberNode/text()"/>
+  	    <entry key="accessRule"         value = "//metadata/mercury/systemMetadata/accessRule/text()"/>
+   	    <entry key="replicationPolicy"  value = "//metadata/mercury/systemMetadata/replicationPolicy/text()"/>
+   	    <entry key="replicationAllowed" value = "//metadata/mercury/systemMetadata/replicationPolicy/@replicationAllowed"/>
+   	    <entry key="numberReplicas"     value = "//metadata/mercury/systemMetadata/replicationPolicy/@numberReplicas"/>
+   	    <entry key="preferredMemberNode"  value = "//metadata/mercury/systemMetadata/replicationPolicy/preferredMemberNode/text()"/>
+   	    <entry key="blockedMemberNode"    value = "//metadata/mercury/systemMetadata/replicationPolicy/blockedMemberNode/text()"/>
    	    
       
        	
@@ -72,24 +123,14 @@
        	<entry key="edition" 		value = "//metadata/idinfo/citeinfo/edition/text()"/>
     <!--   	<entry key="geoform" 		value = "//metadata/idinfo/citeinfo/geoform/text()"/> -->
       	<entry key="investigator" 	value = "//metadata/mercury/Principal_Investigator/Name/text()"/>
-     <!--  	<entry key="parameter" 		value = "//metadata/mercury/Parameter_Description/Parameter/text()"/> -->
+       	<entry key="parameter" 		value = "//metadata/mercury/Parameter_Description/Parameter/text()"/>
       	<entry key="project" 		value = "//metadata/mercury/Project/text()"/>
       	<entry key="purpose" 		value = "//metadata/idinfo/descript/Purpose/text()"/>
-      <!--	<entry key="sensor" 		value = "//metadata/mercury/Parameter_Description/Sensor/text()"/> -->
-      	<!-- <entry key="source" 		value = "//metadata/mercury/Parameter_Description/Source/text()"/> -->
-      	<!-- <entry key="source" 		value = "//metadata/idinfo/keywords/theme/themekt[contains(.,'Source')]/themekey/text()"/> 
-      	<entry key="source" 		value = "//metadata/idinfo/keywords/theme/themekt[contains(.,'Parameter_Description')]/themekey[@name[contains(.,'Source')]]"/>
-
-      	-->
-      	<entry key="source" 		value = "//metadata/idinfo/keywords/theme[themekt[contains(.,'Parameter_Description')]]/themekey[contains(@name,'Source')]/text()"/>
-       	<entry key="sensor" 		value = "//metadata/idinfo/keywords/theme[themekt[contains(.,'Parameter_Description')]]/themekey[contains(@name,'Sensor')]/text()"/>
-      	<entry key="topic" 		value = "//metadata/idinfo/keywords/theme[themekt[contains(.,'Parameter_Description')]]/themekey[contains(@name,'Topic')]/text()"/>
-      	<entry key="term" 		value = "//metadata/idinfo/keywords/theme[themekt[contains(.,'Parameter_Description')]]/themekey[contains(@name,'Term')]/text()"/>
-      	<entry key="parameter" 		value = "//metadata/idinfo/keywords/theme[themekt[contains(.,'Parameter_Description')]]/themekey[contains(@name,'Parameter')]/text()"/>
-
+      	<entry key="sensor" 		value = "//metadata/mercury/Parameter_Description/Sensor/text()"/>
+      	<entry key="source" 		value = "//metadata/mercury/Parameter_Description/Source/text()"/>
       	<entry key="site" 			value = "//metadata/mercury/Site_Information/Site/text()"/>
-      	<!-- <entry key="term" 			value = "//metadata/mercury/Parameter_Description/Term/text()"/>
-      	<entry key="topic" 			value = "//metadata/mercury/Parameter_Description/Topic/text()"/> -->
+      	<entry key="term" 			value = "//metadata/mercury/Parameter_Description/Term/text()"/>
+      	<entry key="topic" 			value = "//metadata/mercury/Parameter_Description/Topic/text()"/>
       	
     <!--  	<entry key="family" 		value = "//taxoncl[taxonrn[contains(.,'Family')]]/taxonrv/text()"/>
       	<entry key="kingdom" 		value = "//taxoncl[taxonrn[contains(.,'Kingdom')]]/taxonrv/text()"/>
@@ -114,15 +155,38 @@
  	</map>
     </property>
   </bean>
+ 
+ 
+ <bean id="coords_LIST" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+      	  <entry key="coords" 	value = "//metadata/idinfo/spdom/bounding/eastbc/text()"/>
+          <entry key="northbc" 		value = "//metadata/idinfo/spdom/bounding/northbc/text()"/>
+          <entry key="southbc" 		value = "//metadata/idinfo/spdom/bounding/southbc/text()"/>
+         <entry key="westbc" 		value = "//metadata/idinfo/spdom/bounding/westbc/text()"/>
+ 	</map>
+    </property>
+  </bean>
+
+<bean id="fileID_CHOOSER" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+      	  <entry key="fileID" 	value = "//metadata/mercury/File_ID/text()"/>
+          <entry key="northbc" 		value = "//metadata/idinfo/datsetid/text()"/>
+  	</map>
+    </property>
+  </bean>
+
+ 
   
 <bean id="DATE" class="index_utils.SimpleMapBean">
      <property name="simpleMap">
       <map>
       	  <entry key="begdate" 		value = "//metadata/mercury/begdate/text()"/>
-          <entry key="enddate" 		value = "//metadata/mercury/enddate/text()"/>
+       <entry key="enddate" 		value = "//metadata/mercury/enddate/text()"/> 
         <!--  <entry key="pubDate" 		value = "//metadata/metainfo/metd/text()"/>  -->
-         <entry key="embargoExpires"  value = "//mercury/systemMetadata/embargoExpires/text()"/>
-         <entry key="dateSysMetadataModified"    value = "//mercury/systemMetadata/dateSysMetadataModified/text()"/>
+         <entry key="embargoExpires"  value = "//metadata/mercury/systemMetadata/embargoExpires/text()"/>
+         <entry key="last_modified"    value = "//metadata/mercury/systemMetadata/last_modified/text()"/>
  	</map>
     </property>
   </bean>  
@@ -134,8 +198,8 @@
       	<entry key="pubDate" 		value = "//metadata/idinfo/citation/citeinfo/pubdate/text()"/> 
         <entry key="metd" 			value = "//metadata/metainfo/metd/text()"/> 
         <entry key="metrd" 			value = "//metadata/metainfo/metrd/text()"/> 
-        <entry key="enddate" 		value = "//metadata/mercury/enddate/text()"/> 
-        <entry key="dateSysMetadataModified"   value = "//mercury/systemMetadata/dateSysMetadataModified/text()"/>
+     <entry key="enddate" 		value = "//metadata/mercury/enddate/text()"/>   
+        <entry key="last_modified"   value = "//metadata/mercury/systemMetadata/last_modified/text()"/>
          
  	</map>
     </property>
@@ -146,7 +210,7 @@
       <map>
           <entry key="keywords" 	value = "//metadata/mercury/Keywords/text()"/>
           <entry key="gcmdkeyword" 	value = "//metadata/idinfo/keywords/theme[themekt[contains(.,'(GCMD) Science Keywords')]]/themekey/text()"/>
- 		  		<entry key="placeKey" 		value = "//metadata/idinfo/keywords/place/placekey/text()"/>			
+ 		  <entry key="placeKey" 		value = "//metadata/idinfo/keywords/place/placekey/text()"/>			
    	</map>
     </property>
   </bean>   
@@ -193,6 +257,240 @@
 <bean id="originator" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
 	<property name="location" value="/originator_test2.properties" />
 </bean>	
+ 
+ 
+ <!-- 
+ 
+ EML section below... structured as above, just with bean names prefixed and new xpath strings
+
+new facets.. include in indexing.
+
+project: //eml:eml/ dataset/ project/ title/text()oko
+keywords: //eml:eml/ dataset/ keywordSet/ keyword/text()  ....already there
+Organization: //eml:eml/ dataset/ creator/ organizationName/text()....already there
+Distribution: //eml:eml/ dataset/ distribution/@scope ok
+originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text()," ",//eml:eml/ dataset/ creator/ individualName/ surName /text())
+ 
+ 
+  --> 
+ 
+   <bean id="EML_TEXT_SINGLE" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+      
+      
+      <entry key="project" 	value = "//eml:eml/ dataset/ project/ title/text()"/>
+      <entry key="distribution" 	value = "//eml:eml/ dataset/ distribution/@scope"/>
+      
+         <entry key="abstract" 	value = "//dataset/abstract/para/text()"/>
+         <entry key="title" 	value = "//dataset/title/text()"/>
+         <entry key="web_url" 	value = "//dataset/distribution/online/url/text()"/>
+       	 <entry key="contactOrganization" 		value = "//dataset/creator/organizationName/text()"/>
+      
+      
+      	<entry key="identifier"    value = "//systemMetadata/identifier/text()"/>
+   	    <entry key="objectFormat"  value = "//systemMetadata/objectFormat/text()"/>
+   	    <entry key="size"          value = "//systemMetadata/size/text()"/>
+   	    <entry key="submitter"     value = "//systemMetadata/submitter/text()"/>
+   	    <entry key="rightsHolder"  value = "//systemMetadata/rightsHolder/text()"/>
+   	    <entry key="obsoletes"     value = "//systemMetadata/obsoletes/text()"/>
+   	    <entry key="obsoletedBy"   value = "//systemMetadata/obsoletedBy/text()"/>
+   	    <entry key="derivedFrom"   value = "//systemMetadata/derivedFrom/text()"/>
+   	    <entry key="describes"     value = "//systemMetadata/describes/text()"/>
+   	    <entry key="describedBy"   value = "//systemMetadata/describedBy/text()"/>
+   	    <entry key="checksum"      value = "//systemMetadata/checksum/text()"/>
+   	    <entry key="checksumAlgorithm"  value = "//systemMetadata/checksum/@algorithm"/>
+   		  
+  	    <entry key="accessRule"         value = "//systemMetadata/accessRule/text()"/>
+   	    <entry key="replicationPolicy"  value = "//systemMetadata/replicationPolicy/text()"/>
+   	    <entry key="replicationAllowed" value = "//systemMetadata/replicationPolicy/@replicationAllowed"/>
+   	    <entry key="numberReplicas"     value = "//systemMetadata/replicationPolicy/@numberReplicas"/>
+   	    <entry key="preferredMemberNode"  value = "//systemMetadata/replicationPolicy/preferredMemberNode/text()"/>
+   	    <entry key="blockedMemberNode"    value = "//systemMetadata/replicationPolicy/blockedMemberNode/text()"/>
+   	</map>
+    </property>
+  </bean>
   
+ <bean id="EML_TEXT" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+       <!--   <entry key="origin" 		value = "//dataset/creator/individualName/surName/text()"/>  --> 
+       <entry key="origin" 		value = "concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text(),' ',//eml:eml/ dataset/ creator/ individualName/ surName /text())"/>  
+         <!-- <entry key="originEML" 		value = "//eml:eml/dataset/creator/individualName/surName/text()"/> -->
+         <!--  <entry key="originEML" 		value = "//eml:eml/ dataset/ creator/ individualName/ givenName /text()"/>  -->
+   
+       	<entry key="investigator" 	value = "//eml:eml/dataset/creator/individualName/surName/text()"/>
+   	</map>
+    </property>
+  </bean>
+
+<bean id="EML_GEO" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+       	 <entry key="eastbc" 		value = "//dataset/coverage/geographicCoverage/boundingCoordinates/eastBoundingCoordinate/text()"/>
+         <entry key="northbc" 		value = "//dataset/coverage/geographicCoverage/boundingCoordinates/northBoundingCoordinate/text()"/>
+         <entry key="southbc" 		value = "//dataset/coverage/geographicCoverage/boundingCoordinates/southBoundingCoordinate/text()"/>
+         <entry key="westbc" 		value = "//dataset/coverage/geographicCoverage/boundingCoordinates/westBoundingCoordinate/text()"/>
+  	</map>
+    </property>
+  </bean>
+  
+<bean id="EML_DATE" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+          <entry key="begdate" 		value = "//dataset/coverage/temporalCoverage/rangeOfDates/beginDate/calendarDate/text()"/>
+          <entry key="enddate" 		value = "//dataset/coverage/temporalCoverage/rangeOfDates/endDate/calendarDate/text()"/>  
+          <entry key="embargoExpires"  value = "//systemMetadata/embargoExpires/text()"/>
+          <entry key="last_modified"    value = "//systemMetadata/last_modified/text()"/>
+  	</map>
+    </property>
+  </bean>  
+ 
+ <bean id="EML_DATELIST" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+       	<entry key="pubDate" 		value = "//dataset/pubDate/text()"/>
+     <entry key="enddate" 		value = "//dataset/coverage/temporalCoverage/rangeOfDates/endDate/calendarDate/text()"/> 
+     <entry key="last_modified"   value = "//systemMetadata/last_modified/text()"/>
+  	</map>
+    </property>
+  </bean>  
+  
+  <bean id="EML_fileID_CHOOSER" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+      	  <entry key="fileID" 	value = "//metadata/mercury/File_ID/text()"/>
+          <entry key="northbc" 		value = "//metadata/idinfo/datsetid/text()"/>
+  	</map>
+    </property>
+  </bean>
+  
+ <bean id="EML_CSV" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+          <entry key="keywords" 	value = "//dataset/keywordSet/keyword/text()"/>
+ 		  <entry key="placeKey" 	value = "//dataset/keywordSet/keyword[@keywordType='place']/text()"/>
+   	</map>
+    </property>
+  </bean>   
+
+<bean id="EML_LOOKUP" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+           <entry key="EML_originator" 			value = "//metadata/idinfo/citation/citeinfo/origin/text()"/>
+ 	</map>
+    </property>
+  </bean>  
+
+<bean id="EML_DEFAULTING_LOOKUP" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+      	  <entry key="EML_presentationCat" 		value = "//metadata/idinfo/citation/citeinfo/geoform/text()"/>
+   	</map>
+    </property>
+  </bean>  
+
+<bean id="EML_presentationCat" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+	<property name="location" value="/presentationForm_lookup.properties" />
+</bean>	
+
+<bean id="EML_originator" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+	<property name="location" value="/originator_test2.properties" />
+</bean>	
+  
+ 
+  
+  <!-- 
+ 
+ METS section below... structured as above, just with bean names prefixed and new xpath strings
+ 
+  --> 
+ <bean id="METS_TEXT" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+        <entry key="origin"      value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@qualifier='author']/text()"/>  
+     
+        <entry key="investigator"   value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@qualifier='author']/text()"/>
+    </map>
+    </property>
+  </bean>
+ 
+ 
+ 
+ <bean id="METS_CSV" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+          <entry key="keywords"     value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='subject']/text()"/>
+         
+    </map>
+    </property>
+  </bean>   
+ 
+    <bean id="METS_TEXT_SINGLE" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+      
+      
+      
+         <entry key="distribution"     value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='type']/text()"/>
+      
+         <entry key="abstract"  value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='subject']/text()"/>
+         <entry key="title"     value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='title']/text()"/>
+         <entry key="web_url"   value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@qualifier='uri']/text()"/>
+         <entry key="contactOrganization"       value = "//mets:METS/ mets:amdSec/ mets:techMD/ mets:mdWrap/ mets:xmlData/ D1:systemMetadata/ originMemberNode/text()"/>
+      
+      
+        <entry key="identifier"    value = "//D1:systemMetadata/identifier/text()"/>
+        <entry key="objectFormat"  value = "//D1:systemMetadata/objectFormat/text()"/>
+        <entry key="size"          value = "//D1:systemMetadata/size/text()"/>
+        <entry key="submitter"     value = "//D1:systemMetadata/submitter/text()"/>
+        <entry key="rightsHolder"  value = "//D1:systemMetadata/rightsHolder/text()"/>
+        <entry key="obsoletes"     value = "//D1:systemMetadata/obsoletes/text()"/>
+        <entry key="obsoletedBy"   value = "//D1:systemMetadata/obsoletedBy/text()"/>
+        <entry key="derivedFrom"   value = "//D1:systemMetadata/derivedFrom/text()"/>
+        <entry key="describes"     value = "//D1:systemMetadata/describes/text()"/>
+        <entry key="describedBy"   value = "//D1:systemMetadata/describedBy/text()"/>
+        <entry key="checksum"      value = "//D1:systemMetadata/checksum/text()"/>
+        <entry key="checksumAlgorithm"  value = "//D1:systemMetadata/checksum/@algorithm"/>
+          
+        <entry key="accessRule"         value = "//D1:systemMetadata/accessRule/text()"/>
+        <entry key="replicationPolicy"  value = "//D1:systemMetadata/replicationPolicy/text()"/>
+        <entry key="replicationAllowed" value = "//D1:systemMetadata/replicationPolicy/@replicationAllowed"/>
+        <entry key="numberReplicas"     value = "//D1:systemMetadata/replicationPolicy/@numberReplicas"/>
+        <entry key="preferredMemberNode"  value = "//D1:systemMetadata/replicationPolicy/preferredMemberNode/text()"/>
+        <entry key="blockedMemberNode"    value = "//D1:systemMetadata/replicationPolicy/blockedMemberNode/text()"/>
+    </map>
+    </property>
+  </bean>
+  
+ <bean id="METS_DATE" class="index_utils.SimpleMapBean">
+     <property name="simpleMap">
+      <map>
+          <entry key="begdate"      value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='date' and @qualifier='issued' ]/text()"/>
+          <entry key="enddate"      value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='date' and @qualifier='available' ]/text()"/>  
+          <entry key="embargoExpires"  value = "//D1:systemMetadata/embargoExpires/text()"/>
+          <entry key="last_modified"    value = "//D1:systemMetadata/last_modified/text()"/>
+    </map>
+    </property>
+  </bean>  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   
 </beans>
