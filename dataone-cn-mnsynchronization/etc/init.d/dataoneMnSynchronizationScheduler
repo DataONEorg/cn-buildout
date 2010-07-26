@@ -1,0 +1,47 @@
+#!/bin/sh
+# 
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Small shell script to show how to start the sample services.
+#
+# Adapt the following lines to your configuration
+JAVA_HOME="/usr/lib/jvm/java-6-sun"
+DAEMON="/usr/share/java/jsvc"
+DAEMON_HOME="/usr/share/java"
+PID_FILE="/var/lib/dataone/MnSynchronizeSchedulerDaemon.pid"
+LOG_DIR="/var/log/dataone"
+CLASSPATH="$DAEMON_HOME/commons-daemon.jar:$DAEMON_HOME/cn-batchscheduler.jar"
+USER_NAME="tomcat6"
+rm "$LOG_DIR"/*
+case  $1  in 
+	"start") $DAEMON \
+		-home "$JAVA_HOME" \
+		-cp "$CLASSPATH" \
+		-debug -outfile "$LOG_DIR/MnSynchronizeSchedulerDaemon.log" \
+		-errfile "$LOG_DIR/MnSynchronizeSchedulerDaemon.err" \
+		-pidfile "$PID_FILE" \
+		-user "$USER_NAME" \
+		"org.dataone.cn.batch.proto.scheduler.SchedulerDaemon"
+		;;
+	"stop") $DAEMON \
+		-home "$JAVA_HOME" \
+		-pidfile "$PID_FILE" \
+		-stop "org.dataone.cn.batch.proto.scheduler.SchedulerDaemon"
+		;;
+	*) echo "type either $0 (start|stop)"
+		;;
+esac
+    

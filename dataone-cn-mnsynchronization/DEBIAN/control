@@ -1,0 +1,9 @@
+Package: dataone-cn-rest-service
+Version: 0.4.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: dataone-cn-os-core, sun-java6-jdk, jsvc, libcommons-daemon-java
+Installed-Size: 1 kb
+Maintainer: Robert Patrick Waltz <rwaltz@utk.edu>
+Description: This is a metapackage that installs the cn-mnsynchronization dependencies that are needed to build a coordinating node instance.

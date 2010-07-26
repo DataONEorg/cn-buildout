@@ -1,0 +1,21 @@
+#!/bin/bash
+
+LONG_DATE=`date +%Y%m%d%H%M%S`
+
+DATAONE_USER=tomcat6
+
+
+chown -R ${DATAONE_USER}.${DATAONE_USER} /etc/dataone
+chown -R ${DATAONE_USER}.${DATAONE_USER} /var/lib/dataone
+
+mkdir /var/log/dataone
+
+chown -R ${DATAONE_USER}.${DATAONE_USER} /var/log/dataone
+## Stop apache
+echo "Start Sychronization"
+/etc/init.d/dataoneMnSynchronizationScheduler start
+
+
+
+
+
