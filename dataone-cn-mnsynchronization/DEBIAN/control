@@ -1,4 +1,4 @@
-Package: dataone-cn-rest-service
+Package: dataone-cn-mnsynchronization
 Version: 0.4.0
 Section: utils
 Priority: optional
