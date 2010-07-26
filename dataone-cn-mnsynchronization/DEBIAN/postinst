@@ -16,7 +16,7 @@ fi
 chown -R ${DATAONE_USER}.${DATAONE_USER} /var/log/dataone
 ## Stop apache
 echo "Start Sychronization"
-##/etc/init.d/d1-synch start
+##/etc/init.d/mn-synchronize start
 
 
 

@@ -21,7 +21,7 @@
 JAVA_HOME="/usr/lib/jvm/java-6-sun"
 DAEMON="/usr/bin/jsvc"
 DAEMON_HOME="/usr/share/java"
-PID_FILE="/var/lib/dataone/MnSynchronizeSchedulerDaemon.pid"
+PID_FILE="/var/lib/dataone/mn-synchronize.pid"
 LOG_DIR="/var/log/dataone"
 CLASSPATH="$DAEMON_HOME/commons-daemon.jar:$DAEMON_HOME/cn-batchscheduler.jar"
 USER_NAME="tomcat6"
@@ -30,8 +30,8 @@ case  $1  in
 	"start") $DAEMON \
 		-home "$JAVA_HOME" \
 		-cp "$CLASSPATH" \
-		-debug -outfile "$LOG_DIR/MnSynchronizeSchedulerDaemon.log" \
-		-errfile "$LOG_DIR/MnSynchronizeSchedulerDaemon.err" \
+		-debug -outfile "$LOG_DIR/mn-synchronize.log" \
+		-errfile "$LOG_DIR/mn-synchronize.err" \
 		-pidfile "$PID_FILE" \
 		-user "$USER_NAME" \
 		"org.dataone.cn.batch.proto.scheduler.SchedulerDaemon"
