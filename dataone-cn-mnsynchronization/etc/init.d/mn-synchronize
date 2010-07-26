@@ -19,7 +19,7 @@
 #
 # Adapt the following lines to your configuration
 JAVA_HOME="/usr/lib/jvm/java-6-sun"
-DAEMON="/usr/share/java/jsvc"
+DAEMON="/usr/bin/jsvc"
 DAEMON_HOME="/usr/share/java"
 PID_FILE="/var/lib/dataone/MnSynchronizeSchedulerDaemon.pid"
 LOG_DIR="/var/log/dataone"
