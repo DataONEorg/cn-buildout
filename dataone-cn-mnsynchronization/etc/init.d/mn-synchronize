@@ -25,22 +25,30 @@ PID_FILE="/var/lib/dataone/mn-synchronize.pid"
 LOG_DIR="/var/log/dataone"
 CLASSPATH="$DAEMON_HOME/commons-daemon.jar:$DAEMON_HOME/cn-batchscheduler.jar"
 USER_NAME="tomcat6"
-rm "$LOG_DIR"/*
+
 case  $1  in 
-	"start") $DAEMON \
-		-home "$JAVA_HOME" \
-		-cp "$CLASSPATH" \
-		-debug -outfile "$LOG_DIR/mn-synchronize.log" \
-		-errfile "$LOG_DIR/mn-synchronize.err" \
-		-pidfile "$PID_FILE" \
-		-user "$USER_NAME" \
-		"org.dataone.cn.batch.proto.scheduler.SchedulerDaemon"
+	"start") if [ -e "$LOG_DIR/mn-synchronize.err"]
+			then
+			 rm "$LOG_DIR/mn-synchronize.err"
+			fi
+			if [ -e "$LOG_DIR/mn-synchronize.log"]
+			then
+				rm "$LOG_DIR/mn-synchronize.log"
+			fi
+			$DAEMON \
+			-home "$JAVA_HOME" \
+			-cp "$CLASSPATH" \
+			-debug -outfile "$LOG_DIR/mn-synchronize.log" \
+			-errfile "$LOG_DIR/mn-synchronize.err" \
+			-pidfile "$PID_FILE" \
+			-user "$USER_NAME" \
+			"org.dataone.cn.batch.proto.scheduler.SchedulerDaemon"
 		;;
 	"stop") $DAEMON \
-		-home "$JAVA_HOME" \
-		-pidfile "$PID_FILE" \
-		-stop "org.dataone.cn.batch.proto.scheduler.SchedulerDaemon"
-		;;
+			-home "$JAVA_HOME" \
+			-pidfile "$PID_FILE" \
+			-stop "org.dataone.cn.batch.proto.scheduler.SchedulerDaemon"
+			;;
 	*) echo "type either $0 (start|stop)"
 		;;
 esac

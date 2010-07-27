@@ -14,7 +14,7 @@
     <node replicate="true" synchronize="true" type="mn">
         <identifier>http://cn-rpw</identifier>
         <name>DataONESamples</name>
-        <baseURL>http://cn-rpw/mn</baseURL>
+        <baseURL>http://cn-rpw/mn/</baseURL>
         <services>
             <service api="mn_crud" method="get" rest="object/${GUID}" available="true"    datechecked="2010-06-21T11:28:00Z" />
             <service api="mn_crud" method="getSystemMetadata" rest="meta/${GUID}" available="true"     datechecked="2010-06-21T11:28:00Z" />
@@ -29,7 +29,7 @@
     <node replicate="true" synchronize="true" type="mn">
         <identifier>http://dev-dryad-mn.dataone.org</identifier>
         <name>dryad</name>
-        <baseURL>http://dev-dryad-mn.dataone.org/mn</baseURL>
+        <baseURL>http://dev-dryad-mn.dataone.org/mn/</baseURL>
         <services>
             <service api="mn_crud" method="get" rest="object/${GUID}" available="true"    datechecked="2010-06-21T11:28:00Z" />
             <service api="mn_crud" method="getSystemMetadata" rest="meta/${GUID}" available="true"     datechecked="2010-06-21T11:28:00Z" />
@@ -44,7 +44,7 @@
     <node replicate="true" synchronize="true" type="mn">
         <identifier>http://daacmn.dataone.utk.edu</identifier>
         <name>daac</name>
-        <baseURL>http://daacmn.dataone.utk.edu/mn</baseURL>
+        <baseURL>http://daacmn.dataone.utk.edu/mn/</baseURL>
         <services>
             <service api="mn_crud" method="get" rest="object/${GUID}" available="true"    datechecked="2010-06-21T11:28:00Z" />
             <service api="mn_crud" method="getSystemMetadata" rest="meta/${GUID}" available="true"     datechecked="2010-06-21T11:28:00Z" />
@@ -59,7 +59,7 @@
     <node replicate="true" synchronize="true" type="mn">
         <identifier>http://knb-mn.ecoinformatics.org</identifier>
         <name>knb</name>
-        <baseURL>http://knb-mn.ecoinformatics.org/mn</baseURL>
+        <baseURL>http://knb-mn.ecoinformatics.org/mn/</baseURL>
         <services>
             <service api="mn_crud" method="get" rest="object/${GUID}" available="true"    datechecked="2010-06-21T11:28:00Z" />
             <service api="mn_crud" method="getSystemMetadata" rest="meta/${GUID}" available="true"     datechecked="2010-06-21T11:28:00Z" />
@@ -74,7 +74,7 @@
     <node replicate="true" synchronize="false" type="cn">
         <identifier>http://cn-unm-1.dataone.org</identifier>
         <name>cn-unm-1</name>
-        <baseURL>http://cn-unm-1.dataone.org/cn</baseURL>
+        <baseURL>http://cn-unm-1.dataone.org/cn/</baseURL>
         <services>
             <service api="cn_crud" method="get" rest="object/${GUID}" available="true"    datechecked="2010-06-21T11:28:00Z" />
             <service api="cn_crud" method="getSystemMetadata" rest="meta/${GUID}" available="true"     datechecked="2010-06-21T11:28:00Z" />
@@ -84,7 +84,7 @@
     <node replicate="true" synchronize="false" type="cn">
         <identifier>http://cn-ucsb-1.dataone.org</identifier>
         <name>cn-ucsb-1</name>
-        <baseURL>http://cn-ucsb-1.dataone.org/cn</baseURL>
+        <baseURL>http://cn-ucsb-1.dataone.org/cn/</baseURL>
         <services>
             <service api="cn_crud" method="get" rest="object/${GUID}" available="true"    datechecked="2010-06-21T11:28:00Z" />
             <service api="cn_crud" method="getSystemMetadata" rest="meta/${GUID}" available="true"     datechecked="2010-06-21T11:28:00Z" />
@@ -94,7 +94,7 @@
     <node replicate="true" synchronize="false" type="cn">
         <identifier>http://cn-orc-1.dataone.org</identifier>
         <name>cn-orc-1</name>
-        <baseURL>http://cn-orc-1.dataone.org/cn</baseURL>
+        <baseURL>http://cn-orc-1.dataone.org/cn/</baseURL>
         <services>
             <service api="cn_crud" method="get" rest="object/${GUID}" available="true"    datechecked="2010-06-21T11:28:00Z" />
             <service api="cn_crud" method="getSystemMetadata" rest="meta/${GUID}" available="true"     datechecked="2010-06-21T11:28:00Z" />

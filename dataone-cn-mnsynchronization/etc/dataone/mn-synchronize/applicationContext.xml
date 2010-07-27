@@ -29,6 +29,9 @@
        </property>
       </bean>
       
+    <bean id="log4jInitializationRedirectStdOutErr"
+     class="org.dataone.cn.batch.proto.scheduler.utils.StdOutErrLog" />
+     
    <bean id="properties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
       <property name="location">
          <value>file:/etc/dataone/mn-synchronize/synchronization.properties</value>

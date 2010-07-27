@@ -8,7 +8,7 @@
         Purpose of the document follows.
 -->
 
-<beans xmlns="http://www.springframework.org/schema/beans"
+<beans default-init-method="init" xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:util="http://www.springframework.org/schema/util"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
@@ -40,6 +40,7 @@
     <bean id="objectListQueue" class="org.dataone.cn.batch.proto.harvest.ObjectListQueueBuilder">
         <property name="mnReader" ref="mnClient"/>
         <property name="token" ref="publicToken" />
+        <property name="nodeReferenceUtility" ref="mnNodeReferenceUtility" />
     </bean>
 
     <bean id="objectListProcessor" class="org.dataone.cn.batch.proto.harvest.ObjectListQueueProcessor">
@@ -52,6 +53,7 @@
         <property name="cnWriter" ref="cnClient" />
         <property name="token" ref="cnToken" />
         <property name="validSciMetaObjectFormats" ref="validScienceMetadataFormats" />
+        <property name="nodeReferenceUtility" ref="mnNodeReferenceUtility" />
     </bean>
 <!-- the last step in this pipeline should be to update the node list so that the synchronized date is set -->
 

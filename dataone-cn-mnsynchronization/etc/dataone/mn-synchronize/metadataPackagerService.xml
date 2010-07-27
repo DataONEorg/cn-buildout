@@ -9,7 +9,7 @@
 -->
 
 
-<beans xmlns="http://www.springframework.org/schema/beans"
+<beans default-init-method="init" xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:util="http://www.springframework.org/schema/util"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
@@ -17,11 +17,15 @@
        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
 
 
+   <bean id="metadataPackageAccess" class="org.dataone.cn.batch.utils.MetadataPackageAccess">
+        <property name="entriesLogFilePersistDataPath" value="${synchronize.logFilePersistDataPath}"/>
+        <property name="entriesLogFilePersistDataName" value="${synchronize.logFilePersistDataName}" />
+   </bean>
+
     <bean id="logReader" class="org.dataone.cn.batch.proto.packager.LogReader">
         <property name="entriesLogFileName" value="${synchronize.metacatEntriesLogFileName}" />
         <property name="entriesLogFilePath" value="${synchronize.metacatEntriesLogFileDirectory}"/>
-        <property name="entriesLogFilePersistDataPath" value="${access.nodeListFileLocation}"/>
-        <property name="entriesLogFilePersistDataName" value="${synchronize.logFilePersistDataPath}" />
+        <property name="metadataPackageAccess" ref="metadataPackageAccess" />
     </bean>
 
     <bean id="metadataPackagerWriter" class="org.dataone.cn.batch.proto.packager.MetadataPackageWriter">
@@ -29,6 +33,7 @@
         <property name="nodeReferenceUtility" ref="mnNodeReferenceUtility" />
         <property name="writeDirectory" value="${synchronize.mercuryDatanetDirectory}" />
         <property name="scienceMetadataFormatPathMap" ref="scienceMetadataFormatPathMap"/>
+        <property name="metadataPackageAccess" ref="metadataPackageAccess" />
     </bean>
 
 </beans>
