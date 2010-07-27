@@ -9,8 +9,10 @@ rm -rf /etc/dataone/mn-synchronize
 chown -R ${DATAONE_USER}.${DATAONE_USER} /etc/dataone
 chown -R ${DATAONE_USER}.${DATAONE_USER} /var/lib/dataone
 
-if [! -e /var/log/dataone ]
+if [ -e "/var/log/dataone" ]
 then
+echo "/var/log/dataone already exists"
+else
 mkdir /var/log/dataone
 fi
 
