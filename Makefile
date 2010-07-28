@@ -2,7 +2,7 @@
 # Matt Jones, 15 Dec 2009
 
 # The list of packages to build
-PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb dataone-cn-mercury.deb dataone-cn-rest-service.deb
+PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb dataone-cn-mercury.deb dataone-cn-rest-service.deb dataone-cn-mnsynchronization.deb
 
 # The temporary build output directory
 BUILDDIR      = build
