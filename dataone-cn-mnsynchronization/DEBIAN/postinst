@@ -2,20 +2,9 @@
 
 LONG_DATE=`date +%Y%m%d%H%M%S`
 
-DATAONE_USER=tomcat6
-
-chown -R ${DATAONE_USER}.${DATAONE_USER} /var/lib/dataone
-
-if [ -e "/var/log/dataone" ]
-then
-echo "/var/log/dataone already exists"
-else
-mkdir /var/log/dataone
-fi
-
-chown -R ${DATAONE_USER}.${DATAONE_USER} /var/log/dataone
 ## Stop apache
-echo "Start Sychronization"
+echo "Start Sychronization with /etc/init.d/mn-synchronize start"
+## should only be run after metacat is running and configured
 ##/etc/init.d/mn-synchronize start
 
 
