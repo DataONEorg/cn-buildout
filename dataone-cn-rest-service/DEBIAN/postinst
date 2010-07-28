@@ -64,8 +64,6 @@ chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/54cn.policy
 
 # this is a bit awkward and will need to be REMOVED!!!!! once nodeList is maintained
 # somewhere sensible 
-# THIS CREATES A DEPENDENCY ON dataone-cn-mnsynchronization
-# THE DEPENDENCY IN CONTROL FILE SHOULD BE REMOVED WHEN THIS LINE IS REMOVED!!!!!
 ln -t ${TOMCAT_HOME}/webapps/cn /var/lib/dataone/nodeList.xml 
 
 ###############################################################################
