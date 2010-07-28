@@ -18,13 +18,13 @@
 
 
    <bean id="metadataPackageAccess" class="org.dataone.cn.batch.utils.MetadataPackageAccess">
-        <property name="entriesLogFilePersistDataPath" value="${synchronize.logFilePersistDataPath}"/>
-        <property name="entriesLogFilePersistDataName" value="${synchronize.logFilePersistDataName}" />
+        <property name="eventLogFilePersistDataPath" value="${synchronize.logFilePersistDataPath}"/>
+        <property name="eventLogFilePersistDataName" value="${synchronize.logFilePersistDataName}" />
    </bean>
 
     <bean id="logReader" class="org.dataone.cn.batch.proto.packager.LogReader">
-        <property name="entriesLogFileName" value="${synchronize.metacatEntriesLogFileName}" />
-        <property name="entriesLogFilePath" value="${synchronize.metacatEntriesLogFileDirectory}"/>
+        <property name="eventLogFileName" value="${synchronize.metacatEventLogFileName}" />
+        <property name="eventLogFilePath" value="${synchronize.metacatEventLogFileDirectory}"/>
         <property name="metadataPackageAccess" ref="metadataPackageAccess" />
     </bean>
 
