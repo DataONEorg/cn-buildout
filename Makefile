@@ -2,7 +2,7 @@
 # Matt Jones, 15 Dec 2009
 
 # The list of packages to build
-PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb dataone-cn-mercury.deb dataone-cn-rest-service.deb dataone-cn-mnsynchronization.deb
+PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb dataone-cn-mercury.deb dataone-cn-mnsynchronization.deb dataone-cn-rest-service.deb 
 
 # The temporary build output directory
 BUILDDIR      = build
@@ -50,7 +50,7 @@ publish: deb
 install: publish
 	@echo "Let's run apt-get install now."
 	apt-get update
-	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
+	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury dataone-cn-mnsynchronization
 
 upgrade: publish
 	@echo $(shell printf "Stopping Tomcat\n")
@@ -61,7 +61,7 @@ upgrade: publish
 	@echo $(shell sleep 15)
 	@echo $(shell su postgres -c "dropdb metacat")
 	@echo $(shell su postgres -c "psql --command \"DROP USER metacat\"")
-	apt-get remove dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
+	apt-get remove dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury dataone-cn-mnsynchronization
 	apt-get autoremove
 	@echo $(shell rm -rf /var/mercury)
 	@echo $(shell rm -rf /var/metacat)
@@ -69,7 +69,7 @@ upgrade: publish
 	apt-get install dataone-cn-os-core
 	@echo $(shell /etc/init.d/tomcat6 stop)
 	@echo $(shell /etc/init.d/apache2 stop)
-	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
+	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury dataone-cn-mnsynchronization
 
 install-rpw: publish
 	@echo "Let's run apt-get install for dev environment now."
@@ -79,7 +79,7 @@ ifeq ($(TESTCRT), 0)
 	/etc/init.d/tomcat6 stop
 	/etc/init.d/apache2 stop
 	cp /etc/ssl/certs/dataone.org.crt /etc/ssl/certs/_.dataone.org.crt
-	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
+	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury dataone-cn-mnsynchronization
 else
 	@echo "The self-signed cert procedure has not been followed. apt-get will fail!"
 endif
@@ -99,12 +99,16 @@ ifeq ($(TESTCRT), 0)
 	apt-get autoremove
 	@echo $(shell rm -rf /var/mercury)
 	@echo $(shell rm -rf /var/metacat)
+	@echo $(shell rm -rf /var/lib/dataone)
+	@echo $(shell rm -rf /etc/dataone)
+	@echo $(shell rm -rf /etc/init.d/mn-sychronize)
+	@echo $(shell rm -rf /var/log/dataone)
 	apt-get update
 	apt-get install dataone-cn-os-core
 	@echo $(shell /etc/init.d/tomcat6 stop)
 	@echo $(shell /etc/init.d/apache2 stop)
 	cp /etc/ssl/certs/dataone.org.crt /etc/ssl/certs/_.dataone.org.crt
-	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury
+	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-mercury dataone-cn-mnsynchronization
 else
 	@echo "The self-signed cert procedure has not been followed. apt-get will fail!"
 endif
