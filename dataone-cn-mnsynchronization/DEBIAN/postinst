@@ -3,11 +3,16 @@
 LONG_DATE=`date +%Y%m%d%H%M%S`
 
 chmod +x /etc/init.d/mn-synchronize
+chmod +x /etc/init.d/mercury-indexer
+
 update-rc.d mn-synchronize defaults 99
-## Stop apache
+update-rc.d mercury-indexer defaults 99
+
+
 echo "Start Sychronization with /etc/init.d/mn-synchronize start"
-## should only be run after metacat is running and configured
+## should only be run after mercury and metacat are running and configured
 ##/etc/init.d/mn-synchronize start
+##/etc/init.d/mercury-indexer start
 
 
 
