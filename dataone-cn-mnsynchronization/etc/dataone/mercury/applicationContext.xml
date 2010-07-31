@@ -65,7 +65,7 @@
     <bean id="cronMercuryDbHarvesterBean" class="org.springframework.scheduling.quartz.CronTriggerBean">
         <property name="jobDetail" ref="runMercuryDbHarvesterJob" />
         <!-- run at every hour of every day -->
-        <property name="cronExpression" value="0 * * * * ?" />
+        <property name="cronExpression" value="0 0/5 * * * ?" />
     </bean>
 
     <bean name="daacIndexerJob" class="org.dataone.cn.batch.proto.scheduler.jobs.MercuryIndexerJob">
@@ -113,7 +113,7 @@
     <bean id="cronDryadIndexerJob" class="org.springframework.scheduling.quartz.CronTriggerBean">
         <property name="jobDetail" ref="runDryadIndexerJob" />
         <!-- run at every hour of every day -->
-        <property name="cronExpression" value="0 4/5 * * * ?" />
+        <property name="cronExpression" value="0 3/5 * * * ?" />
     </bean>
 
     <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">

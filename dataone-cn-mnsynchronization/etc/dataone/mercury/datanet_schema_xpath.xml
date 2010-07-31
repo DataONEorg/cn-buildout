@@ -272,11 +272,11 @@
     </bean>
 
     <bean id="presentationCat" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
-        <property name="location" value="/presentationForm_lookup.properties" />
+        <property name="location" value="file:/etc/dataone/mercury/presentationForm_lookup.properties" />
     </bean>
 
     <bean id="originator" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
-        <property name="location" value="/originator_test2.properties" />
+        <property name="location" value="file:/etc/dataone/mercury/originator_test2.properties" />
     </bean>
      <bean id="fgdcLookupProperties" class="java.util.LinkedHashMap">
         <constructor-arg>
