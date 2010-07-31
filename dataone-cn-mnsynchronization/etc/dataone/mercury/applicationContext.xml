@@ -119,7 +119,7 @@
     <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
         <property name="triggers">
             <list>
-<!--                <ref bean="cronMercuryDbHarvesterBean" /> -->
+                <ref bean="cronMercuryDbHarvesterBean" /> 
                 <ref bean="cronDaacIndexerJob" />
                 <ref bean="cronKnbIndexerJob" />
                 <ref bean="cronDryadIndexerJob" /> 
