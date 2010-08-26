@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" OBJEDIT="/admin/item?itemID=41" OBJID="/handle/10255/dryad.39" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" ID="hdl:10255/dryad.39">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIM">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field element="contributor" qualifier="author" language="" mdschema="dc">Taylor, Michael P.</dim:field>
+<dim:field element="contributor" qualifier="author" language="" mdschema="dc">Naish, Darren</dim:field>
+<dim:field element="date" qualifier="accessioned" language="" mdschema="dc">2008-01-08T20:23:15Z</dim:field>
+<dim:field element="date" qualifier="available" language="" mdschema="dc">2008-01-08T20:23:15Z</dim:field>
+<dim:field element="date" qualifier="issued" language="" mdschema="dc">2008-01-08T20:23:15Z</dim:field>
+<dim:field element="identifier" language="*" mdschema="dc">doi:10.5061/dryad.25/19</dim:field>
+<dim:field element="identifier" qualifier="uri" language="" mdschema="dc">http://hdl.handle.net/10255/dryad.39</dim:field>
+<dim:field element="relation" qualifier="ispartof" language="" mdschema="dc">http://hdl.handle.net/10255/dryad.25</dim:field>
+<dim:field element="rights" qualifier="uri" language="" mdschema="dc">http://creativecommons.org/publicdomain/zero/1.0/</dim:field>
+<dim:field element="title" language="en_US" mdschema="dc">Xenoposeidon Proneneukos Specimen Photo Detail</dim:field>
+<dim:field element="type" language="en_US" mdschema="dc">Image</dim:field>
+<dim:field element="ScientificName" language="" mdschema="dwc">Xenoposeidon Proneneukos</dim:field>
+<dim:field element="status" language="" mdschema="dryad">scanned</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="THUMBNAIL">
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_75" ID="file_1251" MIMETYPE="image/jpeg" SIZE="2343" CHECKSUM="e0088c522bcbcbb3b99d39785598edbd">
+<mets:FLocat LOCTYPE="URL" xlink:title="detail2.jpg.jpg" xlink:label="Generated Thumbnail" xlink:type="locator" xlink:href="/bitstream/handle/10255/dryad.39/detail2.jpg.jpg?sequence=2"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="CONTENT">
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_75" ID="file_75" MIMETYPE="image/jpeg" SIZE="794063" CHECKSUM="dae2224001825de239069e018a117190">
+<mets:FLocat LOCTYPE="URL" xlink:title="detail2.jpg" xlink:type="locator" xlink:href="/bitstream/handle/10255/dryad.39/detail2.jpg?sequence=1"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_75"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>
