@@ -126,5 +126,12 @@
 <dateSysMetadataModified>2010-06-22T01:13:51.0Z</dateSysMetadataModified>
 <size>26533</size>
 </objectInfo>
+<objectInfo>
+<identifier>hdl:10255/dryad.39/mets.xml</identifier>
+<objectFormat>DSPACE METS SIP Profile 1.0</objectFormat>
+<checksum algorithm="SHA-1">23850dbbfdff407367e0845931ab03afbdb71d8d</checksum>
+<dateSysMetadataModified>2010-07-22T19:20:29.0Z</dateSysMetadataModified>
+<size>26533</size>
+</objectInfo>
 </d1:objectList>
 
