@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <D1:systemMetadata xmlns:D1="http://dataone.org/service/types/SystemMetadata/0.1">
   <identifier>hdl:10255/dryad.39/mets.xml</identifier>
-  <objectFormat>DSPACE METS SIP Profile 1.0</objectFormat>
+  <objectFormat>http://www.loc.gov/METS/</objectFormat>
   <size>2960</size>
   <submitter>Dryad</submitter>
   <rightsHolder>Dryad</rightsHolder>
