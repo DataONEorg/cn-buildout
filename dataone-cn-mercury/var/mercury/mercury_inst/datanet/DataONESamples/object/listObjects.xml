@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <d1:objectList xmlns:d1="http://dataone.org/service/types/ObjectList/0.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://dataone.org/service/types/common/0.1" start="0" count="18" total="18">
 <objectInfo>
-<identifier>BAYXXX_015ADCP015R00_20051215509</identifier>
-<objectFormat>eml://ecoinformatics.org/eml-2.0.1</objectFormat>
-<checksum algorithm="MD5">884f1452814899d7ba988d187491f493</checksum>
-<dateSysMetadataModified>2010-07-18T23:13:51.0Z</dateSysMetadataModified>
-<size>34543</size>
+<identifier>hdl:10255/dryad.39/mets.xml</identifier>
+<objectFormat>DSPACE METS SIP Profile 1.0</objectFormat>
+<checksum algorithm="SHA-1">23850dbbfdff407367e0845931ab03afbdb71d8d</checksum>
+<dateSysMetadataModified>2010-07-22T19:20:29.0Z</dateSysMetadataModified>
+<size>26533</size>
 </objectInfo>
 <objectInfo>
 <identifier>knb-lter-gce10911</identifier>
@@ -124,13 +124,6 @@
 <objectFormat>eml://ecoinformatics.org/eml-2.0.1</objectFormat>
 <checksum algorithm="SHA-1">4fbfe9891eb497ce131f114e44bd7be77a7b60a3</checksum>
 <dateSysMetadataModified>2010-06-22T01:13:51.0Z</dateSysMetadataModified>
-<size>26533</size>
-</objectInfo>
-<objectInfo>
-<identifier>hdl:10255/dryad.39/mets.xml</identifier>
-<objectFormat>DSPACE METS SIP Profile 1.0</objectFormat>
-<checksum algorithm="SHA-1">23850dbbfdff407367e0845931ab03afbdb71d8d</checksum>
-<dateSysMetadataModified>2010-07-22T19:20:29.0Z</dateSysMetadataModified>
 <size>26533</size>
 </objectInfo>
 </d1:objectList>
