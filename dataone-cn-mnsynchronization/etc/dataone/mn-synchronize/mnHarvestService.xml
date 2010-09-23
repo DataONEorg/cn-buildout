@@ -54,7 +54,7 @@
         <property name="token" ref="cnToken" />
         <property name="validSciMetaObjectFormats" ref="validScienceMetadataFormats" />
         <property name="nodeReferenceUtility" ref="mnNodeReferenceUtility" />
-	<property name="nodeListAccess" ref="nodeListAccess" />
+        <property name="nodeListAccess" ref="nodeListAccess" />
     </bean>
 <!-- the last step in this pipeline should be to update the node list so that the synchronized date is set -->
 

@@ -28,10 +28,10 @@
          </list>
        </property>
       </bean>
-      
+
     <bean id="log4jInitializationRedirectStdOutErr"
      class="org.dataone.cn.batch.proto.scheduler.utils.StdOutErrLog" />
-     
+
    <bean id="properties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
       <property name="location">
          <value>file:/etc/dataone/mn-synchronize/synchronization.properties</value>
@@ -74,11 +74,11 @@
     <bean id="cronMnHarvesterBean" class="org.springframework.scheduling.quartz.CronTriggerBean">
         <property name="jobDetail" ref="runMnHarvesterJob" />
         <!-- run at every hour of every day -->
-        <property name="cronExpression" value="0 5 * * * ?" />
+        <property name="cronExpression" value="0 0/5 * * * ?" />
     </bean>
 
     <bean name="packagerJob" class="org.dataone.cn.batch.proto.scheduler.jobs.PackagerJob">
-        <property name="logReader" ref="logReader" />
+        <property name="eventLogReader" ref="eventLogReader" />
         <property name="packageWriter" ref="metadataPackagerWriter" />
     </bean>
 
@@ -91,7 +91,7 @@
     <bean id="cronMnPackagerBean" class="org.springframework.scheduling.quartz.CronTriggerBean">
         <property name="jobDetail" ref="runMnPackagerJob" />
         <!-- run at every hour of every day -->
-        <property name="cronExpression" value="0 35 * * * ?" />
+        <property name="cronExpression" value="0 1/5 * * * ?" />
     </bean>
     
     <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
