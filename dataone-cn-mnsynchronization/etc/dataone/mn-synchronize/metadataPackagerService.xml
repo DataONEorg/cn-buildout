@@ -36,7 +36,6 @@
         <property name="writeDirectory" value="${synchronize.mercuryDatanetDirectory}" />
         <property name="scienceMetadataFormatPathMap" ref="scienceMetadataFormatPathMap"/>
         <property name="metadataPackageAccess" ref="metadataPackageAccess" />
-        <property name="validSciMetaObjectFormats" ref="validScienceMetadataFormats" />
     </bean>
 
 </beans>
