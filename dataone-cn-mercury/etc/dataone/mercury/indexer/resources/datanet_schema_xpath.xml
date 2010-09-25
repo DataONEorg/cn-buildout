@@ -292,8 +292,8 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
         <constructor-arg>
             <map>
       
-                <entry key="project" 	value = "//eml:eml/ dataset/ project/ title/text()"/>
-                <entry key="distribution" 	value = "//eml:eml/ dataset/ distribution/@scope"/>
+                <entry key="project" 	value = "//eml:eml/dataset/project/title/text()"/>
+                <entry key="distribution" 	value = "//eml:eml/dataset/distribution/@scope"/>
       
                 <entry key="abstract" 	value = "//dataset/abstract/para/text()"/>
                 <entry key="title" 	value = "//dataset/title/text()"/>
@@ -327,7 +327,7 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
     <bean id="EML_TEXT" class="java.util.LinkedHashMap">
         <constructor-arg>
             <map>
-                <entry key="origin" 		value = "concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text(),' ',//eml:eml/ dataset/ creator/ individualName/ surName /text())"/>
+                <entry key="origin" 		value = "concat(//eml:eml/dataset/creator/individualName/givenName /text(),' ',//eml:eml/dataset/creator/individualName/surName/text())"/>
                 <entry key="investigator" 	value = "//eml:eml/dataset/creator/individualName/surName/text()"/>
             </map>
         </constructor-arg>
@@ -415,9 +415,9 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
     <bean id="METS_TEXT" class="java.util.LinkedHashMap">
         <constructor-arg>
             <map>
-                <entry key="origin"      value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@qualifier='author']/text()"/>
+                <entry key="origin"      value = "//dim:dim/dim:field[@qualifier='author']/text()"/>
      
-                <entry key="investigator"   value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@qualifier='author']/text()"/>
+                <entry key="investigator"   value = "//dim:dim/dim:field[@qualifier='author']/text()"/>
             </map>
         </constructor-arg>
     </bean>
@@ -427,7 +427,7 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
     <bean id="METS_CSV" class="java.util.LinkedHashMap">
         <constructor-arg>
             <map>
-                <entry key="keywords"     value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='subject']/text()"/>
+                <entry key="keywords"     value = "//dim:dim/dim:field[@element='subject']/text()"/>
          
             </map>
         </constructor-arg>
@@ -437,12 +437,12 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
         <constructor-arg>
             <map>
 
-                <entry key="distribution"     value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='type']/text()"/>
+                <entry key="distribution"     value = "//mets:METS/mets:dmdSec/mets:mdWrap/mets:xmlData/dim:dim/dim:field[@element='type']/text()"/>
       
-                <entry key="abstract"  value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='subject']/text()"/>
-                <entry key="title"     value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='title']/text()"/>
-                <entry key="web_url"   value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@qualifier='uri']/text()"/>
-                <entry key="contactOrganization"       value = "//mets:METS/ mets:amdSec/ mets:techMD/ mets:mdWrap/ mets:xmlData/ D1:systemMetadata/ originMemberNode/text()"/>
+                <entry key="abstract"  value = "///dim:dim/dim:field[@element='subject']/text()"/>
+                <entry key="title"     value = "//dim:dim/dim:field[@element='title']/text()"/>
+                <entry key="web_url"   value = "//dim:dim/dim:field[@qualifier='uri']/text()"/>
+                <entry key="contactOrganization"       value = "D1:systemMetadata/originMemberNode/text()"/>
 
                 <entry key="identifier"    value = "//D1:systemMetadata/identifier/text()"/>
                 <entry key="objectFormat"  value = "//D1:systemMetadata/objectFormat/text()"/>
@@ -470,8 +470,8 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
     <bean id="METS_DATE" class="java.util.LinkedHashMap">
         <constructor-arg>
             <map>
-                <entry key="begdate"      value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='date' and @qualifier='issued' ]/text()"/>
-                <entry key="enddate"      value = "//mets:METS/ mets:dmdSec/ mets:mdWrap/ mets:xmlData/ dim:dim/ dim:field[@element='date' and @qualifier='available' ]/text()"/>
+                <entry key="begdate"      value = "//dim:dim/dim:field[@element='date' and @qualifier='issued']/text()"/>
+                <entry key="enddate"      value = "//dim:dim/dim:field[@element='date' and @qualifier='available']/text()"/>
                 <entry key="embargoExpires"  value = "//D1:systemMetadata/embargoExpires/text()"/>
                 <entry key="last_modified"    value = "//D1:systemMetadata/last_modified/text()"/>
             </map>
