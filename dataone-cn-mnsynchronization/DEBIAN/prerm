@@ -1,0 +1,30 @@
+#!/bin/bash
+
+
+LONG_DATE=`date +%Y%m%d%H%M%S`
+
+/etc/init.d/mn-synchronize stop
+/etc/init.d/mercury-indexer stop
+
+
+update-rc.d -f mn-synchronize remove
+update-rc.d -f mercury-indexer remove
+
+rm -f /etc/init.d/mn-synchronize
+rm -f /etc/init.d/mercury-indexer
+
+rm -rf /etc/dataone
+
+rm -f /var/lib/dataone/eventLogReader.cache
+rm -f /var/lib/dataone/replicationLogReader.cache
+rm -f /var/lib/dataone/mn-synchronize.pid
+rm -f /var/lib/dataone/mercury-index.pid
+
+rm -f /usr/share/java/cn-mercuryscheduler.jar
+rm -f /usr/share/java/cn-batchscheduler.jar 
+
+
+
+
+
+
