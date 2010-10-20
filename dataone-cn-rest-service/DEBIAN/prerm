@@ -1,0 +1,23 @@
+#!/bin/bash
+
+LONG_DATE=`date +%Y%m%d%H%M%S`
+
+TOMCAT_HOME=/var/lib/tomcat6
+APACHE_CONF=/etc/apache2
+SOURCE_DIR=/usr/share/dataone-cn-rest
+JK_CONF=cn_jk.conf
+
+/etc/init.d/tomcat stop
+/etc/init.d/apache2 stop
+
+rm -rf ${TOMCAT_HOME}/webapps/cn
+rm -f ${TOMCAT_HOME}/webapps/cn.*
+rm -rf ${SOURCE_DIR}
+rm -f ${TOMCAT_HOME}/conf/Catalina/localhost/cn.xml
+rm -f ${TOMCAT_HOME}/conf/policy.d/54cn.policy
+
+rm -f ${APACHE_CONF}/jk_mount/${JK_CONF}*
+
+/etc/init.d/tomcat start
+/etc/init.d/apache2 start
+

@@ -1,0 +1,45 @@
+#!/bin/bash
+
+TOMCAT_BASE=/usr/share/tomcat6
+TOMCAT_HOME=/var/lib/tomcat6
+LONG_DATE=`date +%Y%m%d%H%M%S`
+APACHE_CONF=/etc/apache2
+SOURCE_DIR=/usr/share/mercury
+MERCURY_DIR=/var/mercury
+JK_CONFS="mercury_jk.conf solr_jk.conf"
+
+/etc/init.d/tomcat6 stop
+/etc/init.d/apache2 stop
+
+## drop metacat schema and user
+## expand the war file
+/etc/init.d/mysql stop
+/etc/init.d/mysql start
+
+## make knb directory and extract cn.war into it.
+echo "Remove datanet mysql database"
+
+cd /var/mercury/mercury_dev/datanet/
+mysql -u root -pdataone < datanet_setup.sql
+
+rm -rf $MERCURY_DIR
+
+rm -rf $SOURCE_DIR
+
+rm -rf $TOMCAT_HOME/webapps/knb
+
+rm -f $TOMCAT_HOME/webapps/knb*
+
+rm -f ${TOMCAT_HOME}/conf/policy.d/52mercury.policy
+rm -f ${TOMCAT_HOME}/conf/policy.d/53Solr.policy
+rm -f ${TOMCAT_HOME}/conf/Catalina/localhost/datanet_solr.xml
+rm -f ${TOMCAT_HOME}/conf/Catalina/localhost/mercury3.xml
+rm -f ${TOMCAT_BASE}/lib/commons-collections-3.2.jar
+rm -f ${TOMCAT_BASE}/lib/mysql-connector-java-3.1.12-bin.jar
+
+rm -r  ${APACHE_CONF}/jk_mount/mercury_jk.*
+rm -r  ${APACHE_CONF}/jk_mount/solr_jk.*
+
+/etc/init.d/tomcat6 start
+/etc/init.d/apache2 start
+
