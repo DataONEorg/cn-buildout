@@ -42,3 +42,4 @@ rm -r  ${APACHE_CONF}/jk_mount/solr_jk.*
 
 /etc/init.d/tomcat6 start
 /etc/init.d/apache2 start
+
