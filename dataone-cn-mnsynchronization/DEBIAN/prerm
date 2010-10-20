@@ -14,7 +14,7 @@ rm -f /etc/init.d/mn-synchronize
 rm -f /etc/init.d/mercury-indexer
 
 rm -rf /etc/dataone
-
+rm -rf /var/log/dataone
 rm -f /var/lib/dataone/eventLogReader.cache
 rm -f /var/lib/dataone/replicationLogReader.cache
 rm -f /var/lib/dataone/mn-synchronize.pid
