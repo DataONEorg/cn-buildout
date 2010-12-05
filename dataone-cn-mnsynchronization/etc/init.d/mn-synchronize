@@ -23,7 +23,7 @@ DAEMON="/usr/bin/jsvc"
 DAEMON_HOME="/usr/share/java"
 PID_FILE="/var/lib/dataone/mn-synchronize.pid"
 LOG_DIR="/var/log/dataone"
-CLASSPATH="$DAEMON_HOME/commons-daemon.jar:$DAEMON_HOME/cn-batchscheduler.jar"
+CLASSPATH="$DAEMON_HOME/commons-daemon.jar:$DAEMON_HOME/d1_synchronization_scheduler.jar"
 USER_NAME="tomcat6"
 
 case  $1  in 
