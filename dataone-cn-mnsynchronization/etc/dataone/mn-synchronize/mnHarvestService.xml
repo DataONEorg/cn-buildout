@@ -30,6 +30,8 @@
         <constructor-arg type="java.lang.String" ref="mnNodeBaseUrl" />
     </bean>
 
+    <!-- this must be set before it can be used in ObjectListWriter -->
+    <!-- currently set in the scheduler -->
     <bean id="cnToken"  class="org.dataone.service.types.AuthToken" />
 
     <bean id="publicToken"  class="org.dataone.service.types.AuthToken">
