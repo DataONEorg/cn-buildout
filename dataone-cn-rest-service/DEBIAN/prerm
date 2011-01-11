@@ -7,7 +7,7 @@ APACHE_CONF=/etc/apache2
 SOURCE_DIR=/usr/share/dataone-cn-rest
 JK_CONF=cn_jk.conf
 
-/etc/init.d/tomcat stop
+/etc/init.d/tomcat6 stop
 /etc/init.d/apache2 stop
 
 rm -rf ${TOMCAT_HOME}/webapps/cn
@@ -18,6 +18,6 @@ rm -f ${TOMCAT_HOME}/conf/policy.d/54cn.policy
 
 rm -f ${APACHE_CONF}/jk_mount/${JK_CONF}*
 
-/etc/init.d/tomcat start
+/etc/init.d/tomcat6 start
 /etc/init.d/apache2 start
 
