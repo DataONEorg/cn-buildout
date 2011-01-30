@@ -8,7 +8,8 @@ chmod +x /etc/init.d/mercury-indexer
 update-rc.d mn-synchronize defaults 99
 update-rc.d mercury-indexer defaults 99
 
-
+mkdir  /var/log/dataone
+chown tomcat6.tomcat6 /var/log/dataone
 echo "Start Sychronization with /etc/init.d/mn-synchronize start"
 
 
