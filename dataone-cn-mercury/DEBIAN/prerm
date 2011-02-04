@@ -26,7 +26,7 @@ rm -rf $MERCURY_DIR
 
 rm -rf $SOURCE_DIR
 
-rm -rf $TOMCAT_HOME/webapps/mercury
+rm -rf $TOMCAT_HOME/webapps/mercury3
 
 rm -f ${TOMCAT_HOME}/conf/policy.d/52mercury.policy
 rm -f ${TOMCAT_HOME}/conf/policy.d/53Solr.policy
