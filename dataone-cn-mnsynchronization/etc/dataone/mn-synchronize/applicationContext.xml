@@ -71,7 +71,7 @@
     <bean id="cronMnHarvesterBean" class="org.springframework.scheduling.quartz.CronTriggerBean">
         <property name="jobDetail" ref="runMnHarvesterJob" />
         <!-- run at every hour of every day -->
-        <property name="cronExpression" value="0 0/5 * * * ?" />
+        <property name="cronExpression" value="0 * * * * ?" />
     </bean>
 
     <bean name="eventPackagerJob" class="org.dataone.cn.batch.proto.scheduler.jobs.PackagerJob">
@@ -88,7 +88,7 @@
     <bean id="cronEventPackagerBean" class="org.springframework.scheduling.quartz.CronTriggerBean">
         <property name="jobDetail" ref="runEventPackagerJob" />
         <!-- run at every hour of every day -->
-        <property name="cronExpression" value="0 1/5 * * * ?" />
+        <property name="cronExpression" value="20 * * * * ?" />
     </bean>
    
        <bean name="replicationPackagerJob" class="org.dataone.cn.batch.proto.scheduler.jobs.PackagerJob">
@@ -105,7 +105,7 @@
     <bean id="cronReplicationPackagerBean" class="org.springframework.scheduling.quartz.CronTriggerBean">
         <property name="jobDetail" ref="runReplicationPackagerJob" />
         <!-- run at every hour of every day -->
-        <property name="cronExpression" value="0 2/5 * * * ?" />
+        <property name="cronExpression" value="40 * * * * ?" />
     </bean>
 
 
