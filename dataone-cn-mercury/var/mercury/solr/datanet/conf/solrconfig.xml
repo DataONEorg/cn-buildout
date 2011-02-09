@@ -221,7 +221,10 @@
   <requestHandler name="mlt" class="solr.MoreLikeThisHandler" >
      <lst  name="defaults"/>
   </requestHandler>
-  
+
+  <!-- enable the LUKE index analysis tool: http://wiki.apache.org/solr/LukeRequestHandler  -->
+  <requestHandler name="/admin/luke" class="org.apache.solr.handler.admin.LukeRequestHandler" />
+
   <!-- queryResponseWriter plugins... query responses will be written using the
     writer specified by the 'wt' request parameter matching the name of a registered
     writer.
