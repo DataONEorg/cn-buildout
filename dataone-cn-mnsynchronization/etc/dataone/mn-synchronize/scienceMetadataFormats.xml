@@ -19,6 +19,7 @@
         <util:constant static-field="org.dataone.service.types.ObjectFormat.EML_2_0_0" />
         <util:constant static-field="org.dataone.service.types.ObjectFormat.EML_2_0_1" />
         <util:constant static-field="org.dataone.service.types.ObjectFormat.EML_2_1_0" />
+        <util:constant static-field="org.dataone.service.types.ObjectFormat.EML_2_1_1" />
         <util:constant static-field="org.dataone.service.types.ObjectFormat.FGDC_STD_001_1_1999" />
         <util:constant static-field="org.dataone.service.types.ObjectFormat.FGDC_STD_001_1998" />
         <util:constant static-field="org.dataone.service.types.ObjectFormat.INCITS_453_2009" />
@@ -41,6 +42,7 @@
         <entry key="eml://ecoinformatics.org/eml-2.0.0" value="EML_2_0_0"/>
         <entry key="eml://ecoinformatics.org/eml-2.0.1" value="EML_2_0_1"/>
         <entry key="eml://ecoinformatics.org/eml-2.1.0" value="EML_2_1_0"/>
+        <entry key="eml://ecoinformatics.org/eml-2.1.1" value="EML_2_1_1"/>
         <entry key="FGDC-STD-001.1-1999" value="FGDC_STD_001_1_1999"/>
         <entry key="FGDC-STD-001-1998" value="FGDC_STD_001_1998"/>
         <entry key="INCITS 453-2009" value="INCITS_453_2009"/>
