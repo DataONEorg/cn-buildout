@@ -61,12 +61,12 @@
         <entry key="http://digir.net/schema/conceptual/darwin/2003/1.0/darwin2.xsd" value="DARWIN_2"/>
     </util:map>
     <util:map id="metacatObjectFormatSkinMap" map-class="java.util.HashMap">
-        <entry key="eml://ecoinformatics.org/eml-2.0.0" value="knb"/>
-        <entry key="eml://ecoinformatics.org/eml-2.0.1" value="knb"/>
-        <entry key="eml://ecoinformatics.org/eml-2.1.0" value="knb"/>
-        <entry key="eml://ecoinformatics.org/eml-2.1.1" value="knb"/>
-        <entry key="FGDC-STD-001.1-1999" value="FGDC_STD_001_1_1999"/>
-        <entry key="FGDC-STD-001-1998" value="FGDC_STD_001_1998"/>
+        <entry key="eml://ecoinformatics.org/eml-2.0.0" value="default"/>
+        <entry key="eml://ecoinformatics.org/eml-2.0.1" value="default"/>
+        <entry key="eml://ecoinformatics.org/eml-2.1.0" value="default"/>
+        <entry key="eml://ecoinformatics.org/eml-2.1.1" value="default"/>
+        <entry key="FGDC-STD-001.1-1999" value="default"/>
+        <entry key="FGDC-STD-001-1998" value="default"/>
         <entry key="INCITS 453-2009" value="default"/>
         <entry key="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" value="default"/>
         <entry key="CF-1.0" value="default"/>
@@ -76,7 +76,7 @@
         <entry key="CF-1.4" value="default"/>
         <entry key="http://www.cuahsi.org/waterML/1.0/" value="default"/>
         <entry key="http://www.cuahsi.org/waterML/1.1/" value="default"/>
-        <entry key="http://www.loc.gov/METS/" value="DSPACE_METS_SIP_1_0"/>
+        <entry key="http://www.loc.gov/METS/" value="default"/>
         <entry key="netCDF-3" value="default"/>
         <entry key="netCDF-4" value="default"/>
         <entry key="http://rs.tdwg.org/dwc/xsd/simpledarwincore/" value="default"/>
