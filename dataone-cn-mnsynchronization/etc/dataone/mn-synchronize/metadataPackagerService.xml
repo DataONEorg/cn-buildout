@@ -29,6 +29,8 @@
         <property name="scienceMetadataFormatPathMap" ref="scienceMetadataFormatPathMap"/>
         <property name="metadataPackageAccess" ref="eventPersistence" />
         <property name="validSciMetaObjectFormats" ref="validScienceMetadataFormats" />
+        <property name="cnWebUrl" value="http://cn.dataone.org/knb/metacat"/>
+        <property name="metacatObjectFormatSkin" ref="metacatObjectFormatSkinMap" />
     </bean>   
 
 
@@ -50,6 +52,8 @@
         <property name="scienceMetadataFormatPathMap" ref="scienceMetadataFormatPathMap"/>
         <property name="metadataPackageAccess" ref="replicationPersistence" />
         <property name="validSciMetaObjectFormats" ref="validScienceMetadataFormats" />
+        <property name="cnWebUrl" value="http://cn.dataone.org/knb/metacat"/>
+        <property name="metacatObjectFormatSkin" ref="metacatObjectFormatSkinMap" />
     </bean>
 
 </beans>

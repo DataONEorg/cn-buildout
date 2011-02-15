@@ -118,7 +118,7 @@
             <map>
                 <entry key="abstract" 	value = "//metadata/idinfo/descript/abstract/text()"/>
                 <entry key="title" 		value = "//metadata/idinfo/citation/citeinfo/title/text()"/>
-                <entry key="web_url" 		value = "//metadata/idinfo/citation/citeinfo/onlink/text()"/>
+                <entry key="web_url" 		value = "//metacatWebUrl/text()"/>
                 <entry key="data_url" 		value = "//metadata/idinfo/distinfo/digopt/onlinopt/computer/networka/networkr/text()"/>
                 <entry key="contactOrganization" 		value = "//metadata/distinfo/distrib/cntinfo/cntperp/cntorg/text()"/>
                 <entry key="ogc_url" 					value = "//metadata/mercury/OGC_URL/text()"/>
@@ -305,12 +305,12 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
         <constructor-arg>
             <map>
       
-                <entry key="project" 	value = "//eml:eml/dataset/project/title/text()"/>
-                <entry key="distribution" 	value = "//eml:eml/dataset/distribution/@scope"/>
+                <entry key="project" 	value = "//project/title/text()"/>
+                <entry key="distribution" 	value = "//distribution/@scope"/>
       
-                <entry key="abstract" 	value = "//dataset/abstract/para/text()"/>
+                <entry key="abstract" 	value = "//abstract/para/text()"/>
                 <entry key="title" 	value = "//dataset/title/text()"/>
-                <entry key="web_url" 	value = "//dataset/distribution/online/url/text()"/>
+                <entry key="web_url" 	value = "//metacatWebUrl/text()"/>
                 <entry key="contactOrganization" 		value = "//dataset/creator/organizationName/text()"/>
       
       
@@ -440,7 +440,7 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
     <bean id="METS_CSV" class="java.util.LinkedHashMap">
         <constructor-arg>
             <map>
-                <entry key="keywords"     value = "//dim:dim/dim:field[@element='subject']/text()"/>
+                <entry key="keywords"     value = "//dim:dim/dim:field[@element='subject']/text() | //dim:dim/dim:field[@element='ScientificName']/text()"/>
          
             </map>
         </constructor-arg>
@@ -452,10 +452,10 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
 
                 <entry key="distribution"     value = "//mets:METS/mets:dmdSec/mets:mdWrap/mets:xmlData/dim:dim/dim:field[@element='type']/text()"/>
       
-                <entry key="abstract"  value = "//dim:dim/dim:field[@element='subject']/text()"/>
+                <entry key="abstract"  value = "//dim:dim/dim:field[@element='subject']/text() | //dim:dim/dim:field[@element='ScientificName']/text() | //dim:dim/dim:field[@element='contributor' and @qualifier='author']/text()"/>
                 <entry key="title"     value = "//dim:dim/dim:field[@element='title']/text()"/>
-                <entry key="web_url"   value = "//dim:dim/dim:field[@qualifier='uri']/text()"/>
-                <entry key="contactOrganization"       value = "//D1:systemMetadata/originMemberNode/text()"/>
+                <entry key="web_url"   value = "//metacatWebUrl/text()"/>
+
 
                 <entry key="identifier"    value = "//D1:systemMetadata/identifier/text()"/>
                 <entry key="objectFormat"  value = "//D1:systemMetadata/objectFormat/text()"/>
