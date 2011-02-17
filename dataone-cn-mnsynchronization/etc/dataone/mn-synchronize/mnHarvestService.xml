@@ -47,6 +47,7 @@
     <bean id="objectListProcessor" class="org.dataone.cn.batch.proto.harvest.ObjectListQueueProcessor">
         <property name="mnReader" ref="mnClient" />
         <property name="token" ref="cnToken" />
+        <property name="validSciMetaObjectFormats" ref="validScienceMetadataFormats" />
         <property name="mnIdentifier" value="${synchronize.mnIdentifier}" />
         <property name="cnIdentifier" value="http://cn.dataone.org" />
     </bean>
