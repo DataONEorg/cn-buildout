@@ -457,25 +457,25 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
                 <entry key="web_url"   value = "//metacatWebUrl/text()"/>
 
 
-                <entry key="identifier"    value = "//d1:systemMetadata/identifier/text()"/>
-                <entry key="objectFormat"  value = "//d1:systemMetadata/objectFormat/text()"/>
-                <entry key="size"          value = "//d1:systemMetadata/size/text()"/>
-                <entry key="submitter"     value = "//d1:systemMetadata/submitter/text()"/>
-                <entry key="rightsHolder"  value = "//d1:systemMetadata/rightsHolder/text()"/>
-                <entry key="obsoletes"     value = "//d1:systemMetadata/obsoletes/text()"/>
-                <entry key="obsoletedBy"   value = "//d1:systemMetadata/obsoletedBy/text()"/>
-                <entry key="derivedFrom"   value = "//d1:systemMetadata/derivedFrom/text()"/>
-                <entry key="describes"     value = "//d1:systemMetadata/describes/text()"/>
-                <entry key="describedBy"   value = "//d1:systemMetadata/describedBy/text()"/>
-                <entry key="checksum"      value = "//d1:systemMetadata/checksum/text()"/>
-                <entry key="checksumAlgorithm"  value = "//d1:systemMetadata/checksum/@algorithm"/>
+                <entry key="identifier"    value = "//systemMetadata/identifier/text()"/>
+                <entry key="objectFormat"  value = "//systemMetadata/objectFormat/text()"/>
+                <entry key="size"          value = "//systemMetadata/size/text()"/>
+                <entry key="submitter"     value = "//systemMetadata/submitter/text()"/>
+                <entry key="rightsHolder"  value = "//systemMetadata/rightsHolder/text()"/>
+                <entry key="obsoletes"     value = "//systemMetadata/obsoletes/text()"/>
+                <entry key="obsoletedBy"   value = "//systemMetadata/obsoletedBy/text()"/>
+                <entry key="derivedFrom"   value = "//systemMetadata/derivedFrom/text()"/>
+                <entry key="describes"     value = "//systemMetadata/describes/text()"/>
+                <entry key="describedBy"   value = "//systemMetadata/describedBy/text()"/>
+                <entry key="checksum"      value = "//systemMetadata/checksum/text()"/>
+                <entry key="checksumAlgorithm"  value = "//systemMetadata/checksum/@algorithm"/>
           
-                <entry key="accessRule"         value = "//d1:systemMetadata/accessRule/text()"/>
-                <entry key="replicationPolicy"  value = "//d1:systemMetadata/replicationPolicy/text()"/>
-                <entry key="replicationAllowed" value = "//d1:systemMetadata/replicationPolicy/@replicationAllowed"/>
-                <entry key="numberReplicas"     value = "//d1:systemMetadata/replicationPolicy/@numberReplicas"/>
-                <entry key="preferredMemberNode"  value = "//d1:systemMetadata/replicationPolicy/preferredMemberNode/text()"/>
-                <entry key="blockedMemberNode"    value = "//d1:systemMetadata/replicationPolicy/blockedMemberNode/text()"/>
+                <entry key="accessRule"         value = "//systemMetadata/accessRule/text()"/>
+                <entry key="replicationPolicy"  value = "//systemMetadata/replicationPolicy/text()"/>
+                <entry key="replicationAllowed" value = "//systemMetadata/replicationPolicy/@replicationAllowed"/>
+                <entry key="numberReplicas"     value = "//systemMetadata/replicationPolicy/@numberReplicas"/>
+                <entry key="preferredMemberNode"  value = "//systemMetadata/replicationPolicy/preferredMemberNode/text()"/>
+                <entry key="blockedMemberNode"    value = "//systemMetadata/replicationPolicy/blockedMemberNode/text()"/>
             </map>
         </constructor-arg>
     </bean>
@@ -485,8 +485,8 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
             <map>
                 <entry key="begdate"      value = "//dim:dim/dim:field[@element='date' and @qualifier='issued']/text()"/>
                 <entry key="enddate"      value = "//dim:dim/dim:field[@element='date' and @qualifier='available']/text()"/>
-                <entry key="embargoExpires"  value = "//d1:systemMetadata/embargoExpires/text()"/>
-                <entry key="last_modified"    value = "//d1:systemMetadata/last_modified/text()"/>
+                <entry key="embargoExpires"  value = "//systemMetadata/embargoExpires/text()"/>
+                <entry key="last_modified"    value = "//systemMetadata/last_modified/text()"/>
             </map>
         </constructor-arg>
     </bean>
