@@ -3,28 +3,24 @@
 
 LONG_DATE=`date +%Y%m%d%H%M%S`
 
-/etc/init.d/mn-synchronize stop
-/etc/init.d/mercury-indexer stop
+/etc/init.d/d1-synchronize stop
+/etc/init.d/d1-indexer stop
 
 
-update-rc.d -f mn-synchronize remove
-update-rc.d -f mercury-indexer remove
+update-rc.d -f d1-synchronize remove
+update-rc.d -f d1-indexer remove
 
-rm -f /etc/init.d/mn-synchronize
-rm -f /etc/init.d/mercury-indexer
+rm -f /etc/init.d/d1-synchronize
+rm -f /etc/init.d/d1-indexer
 
 rm -rf /etc/dataone
 rm -rf /var/log/dataone
 rm -f /var/lib/dataone/eventLogReader.cache
 rm -f /var/lib/dataone/replicationLogReader.cache
-rm -f /var/lib/dataone/mn-synchronize.pid
-rm -f /var/lib/dataone/mercury-index.pid
+rm -f /var/run/d1-synchronize.pid
+rm -f /var/run/d1-indexer.pid
 
+rm -f /usr/share/java/d1_synchronization_scheduler.jar
 rm -f /usr/share/java/cn-mercuryscheduler.jar
-rm -f /usr/share/java/cn-batchscheduler.jar 
-
-
-
-
 
 

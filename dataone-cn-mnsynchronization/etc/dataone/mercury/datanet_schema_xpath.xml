@@ -142,6 +142,7 @@
                 <entry key="numberReplicas"     value = "//metadata/mercury/systemMetadata/replicationPolicy/@numberReplicas"/>
                 <entry key="preferredMemberNode"  value = "//metadata/mercury/systemMetadata/replicationPolicy/preferredMemberNode/text()"/>
                 <entry key="blockedMemberNode"    value = "//metadata/mercury/systemMetadata/replicationPolicy/blockedMemberNode/text()"/>
+                
 
             </map>
         </constructor-arg>
@@ -207,7 +208,8 @@
                 <entry key="enddate" 		value = "//metadata/mercury/enddate/text()"/>
 
                 <entry key="embargoExpires"  value = "//metadata/mercury/systemMetadata/embargoExpires/text()"/>
-                <entry key="last_modified"    value = "//metadata/mercury/systemMetadata/last_modified/text()"/>
+                <entry key="last_modified"    value = "//metadata/mercury/systemMetadata/dateSysMetadataModified/text()"/>
+                <entry key="dateSysMetadataModified"    value = "//metadata/mercury/systemMetadata/dateSysMetadataModified/text()"/>
             </map>
         </constructor-arg>
     </bean>
@@ -220,7 +222,7 @@
                 <entry key="metd" 			value = "//metadata/metainfo/metd/text()"/>
                 <entry key="metrd" 			value = "//metadata/metainfo/metrd/text()"/>
                 <entry key="enddate" 		value = "//metadata/mercury/enddate/text()"/>
-                <entry key="last_modified"   value = "//metadata/mercury/systemMetadata/last_modified/text()"/>
+                <entry key="last_modified"   value = "//metadata/mercury/systemMetadata/dateSysMetadataModified/text()"/>
          
             </map>
         </constructor-arg>
@@ -333,6 +335,7 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
                 <entry key="numberReplicas"     value = "//systemMetadata/replicationPolicy/@numberReplicas"/>
                 <entry key="preferredMemberNode"  value = "//systemMetadata/replicationPolicy/preferredMemberNode/text()"/>
                 <entry key="blockedMemberNode"    value = "//systemMetadata/replicationPolicy/blockedMemberNode/text()"/>
+                
             </map>
         </constructor-arg>
     </bean>
@@ -363,7 +366,8 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
                 <entry key="begdate" 		value = "//dataset/coverage/temporalCoverage/rangeOfDates/beginDate/calendarDate/text()"/>
                 <entry key="enddate" 		value = "//dataset/coverage/temporalCoverage/rangeOfDates/endDate/calendarDate/text()"/>
                 <entry key="embargoExpires"  value = "//systemMetadata/embargoExpires/text()"/>
-                <entry key="last_modified"    value = "//systemMetadata/last_modified/text()"/>
+                <entry key="last_modified"    value = "//systemMetadata/dateSysMetadataModified/text()"/>
+                <entry key="dateSysMetadataModified"    value = "//systemMetadata/dateSysMetadataModified/text()"/>
             </map>
         </constructor-arg>
     </bean>
@@ -373,7 +377,7 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
             <map>
                 <entry key="pubDate" 		value = "//dataset/pubDate/text()"/>
                 <entry key="enddate" 		value = "//dataset/coverage/temporalCoverage/rangeOfDates/endDate/calendarDate/text()"/>
-                <entry key="last_modified"   value = "//systemMetadata/last_modified/text()"/>
+                <entry key="last_modified"   value = "//systemMetadata/dateSysMetadataModified/text()"/>
             </map>
         </constructor-arg>
     </bean>
@@ -476,6 +480,7 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
                 <entry key="numberReplicas"     value = "//systemMetadata/replicationPolicy/@numberReplicas"/>
                 <entry key="preferredMemberNode"  value = "//systemMetadata/replicationPolicy/preferredMemberNode/text()"/>
                 <entry key="blockedMemberNode"    value = "//systemMetadata/replicationPolicy/blockedMemberNode/text()"/>
+                
             </map>
         </constructor-arg>
     </bean>
@@ -486,7 +491,8 @@ originator: concat (//eml:eml/ dataset/ creator/ individualName/ givenName /text
                 <entry key="begdate"      value = "//dim:dim/dim:field[@element='date' and @qualifier='issued']/text()"/>
                 <entry key="enddate"      value = "//dim:dim/dim:field[@element='date' and @qualifier='available']/text()"/>
                 <entry key="embargoExpires"  value = "//systemMetadata/embargoExpires/text()"/>
-                <entry key="last_modified"    value = "//systemMetadata/last_modified/text()"/>
+                <entry key="last_modified"    value = "//systemMetadata/dateSysMetadataModified/text()"/>
+                <entry key="dateSysMetadataModified"    value = "//systemMetadata/dateSysMetadataModified/text()"/>
             </map>
         </constructor-arg>
     </bean>

@@ -225,14 +225,14 @@
            
      <field name="identifier"  type="string" indexed="true" stored="true" />
      <field name="objectFormat"  type="string" indexed="true" stored="true" />
-     <field name="size"  type="string" indexed="true" stored="true" />
+     <field name="size"  type="long" indexed="true" stored="true" />
      
      <field name="checksum"  type="string" indexed="true" stored="true" />
      <field name="checksumAlgorithm"  type="string" indexed="true" stored="true" />
      <field name="last_modified"  type="date" indexed="true" stored="true" />
      <field name="derivedFrom"  type="string" indexed="true" stored="true" />
      <field name="describedBy"  type="string" indexed="true" stored="true" />   
-        
+     <field name="dateSysMetadataModified"  type="date" indexed="true" stored="true" />   
         
      <field name="numberReplicas"  type="string" indexed="true" stored="true" />   
      <field name="replicationAllowed"  type="string" indexed="true" stored="true" />
