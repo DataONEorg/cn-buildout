@@ -13,7 +13,9 @@
     Description:
         Purpose of the document follows.
 -->
-   <bean id="eventPersistence" class="org.dataone.cn.batch.proto.packager.EventPersistence">
+
+
+   <bean id="eventPersistence" class="org.dataone.cn.batch.proto.packager.DataPersistence">
         <property name="persistentDataFileNamePath" value="${synchronize.persistentDataFileNamePath}"/>
         <property name="persistentDataFileName" value="${synchronize.persistentEventDataFileName}" />
    </bean>
@@ -23,8 +25,9 @@
         <property name="eventPersistence" ref="eventPersistence" />
     </bean>
      <bean id="metadataPackagerEventWriter" class="org.dataone.cn.batch.proto.packager.MetadataPackageWriter">
+     	<property name="cnToken" ref="publicToken" />
         <property name="readMetacatDirectory" value="${synchronize.metacatDocumentDirectory}" />
-        <property name="nodeReferenceUtility" ref="mnNodeReferenceUtility" />
+        <property name="coordinatingNodeRegister" ref="cnRegisteryService" />
         <property name="writeDirectory" value="${synchronize.mercuryDatanetDirectory}" />
         <property name="scienceMetadataFormatPathMap" ref="scienceMetadataFormatPathMap"/>
         <property name="metadataPackageAccess" ref="eventPersistence" />
@@ -36,7 +39,7 @@
 
 
 
-   <bean id="replicationPersistence" class="org.dataone.cn.batch.proto.packager.ReplicationPersistence">
+   <bean id="replicationPersistence" class="org.dataone.cn.batch.proto.packager.DataPersistence">
         <property name="persistentDataFileNamePath" value="${synchronize.persistentDataFileNamePath}"/>
         <property name="persistentDataFileName" value="${synchronize.persistentReplicationDataFileName}" />
    </bean>
@@ -46,8 +49,9 @@
         <property name="replicationPersistence" ref="replicationPersistence" />
     </bean>
      <bean id="metadataPackagerReplicationWriter" class="org.dataone.cn.batch.proto.packager.MetadataPackageWriter">
+     	<property name="cnToken" ref="publicToken" />
         <property name="readMetacatDirectory" value="${synchronize.metacatDocumentDirectory}" />
-        <property name="nodeReferenceUtility" ref="mnNodeReferenceUtility" />
+        <property name="coordinatingNodeRegister" ref="cnRegisteryService" />
         <property name="writeDirectory" value="${synchronize.mercuryDatanetDirectory}" />
         <property name="scienceMetadataFormatPathMap" ref="scienceMetadataFormatPathMap"/>
         <property name="metadataPackageAccess" ref="replicationPersistence" />

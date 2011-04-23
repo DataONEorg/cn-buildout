@@ -13,53 +13,36 @@
     Description:
         Purpose of the document follows.
 -->
-
-<!-- the bean to be created via the factory bean -->
-
-    <bean id="biBimBob" class="org.dataone.cn.jjigae.BiBimBob" />
-
-    <bean id="cnClient" class="org.dataone.client.CNode">
-        <constructor-arg type="java.lang.String" value="${cnClient.contextRootUrl}" />
+   <bean id="nodeMapPersistence" class="org.dataone.cn.batch.proto.harvest.persist.NodeMapPersistence" init-method="init">
+        <property name="persistentDataFileName" value="${synchronize.persistentNodeLastModifiedDataFileName}" />
+        <property name="persistentDataFileNamePath" value="${synchronize.persistentDataFileNamePath}" />
     </bean>
 
-    <bean id="mnNodeBaseUrl"
-      factory-bean="mnNodeReferenceUtility"
-      factory-method="getNodeBaseURL"/>
-
-    <bean id="mnClient" class="org.dataone.client.MNode">
-        <constructor-arg type="java.lang.String" ref="mnNodeBaseUrl" />
-    </bean>
-
-    <!-- this must be set before it can be used in ObjectListWriter -->
-    <!-- currently set in the scheduler -->
-    <bean id="cnToken"  class="org.dataone.service.types.AuthToken" />
-
-    <bean id="publicToken"  class="org.dataone.service.types.AuthToken">
-        <constructor-arg type="java.lang.String" value="public"/>
-    </bean>
-
-    <bean id="objectListQueue" class="org.dataone.cn.batch.proto.harvest.ObjectListQueueBuilder">
-        <property name="mnReader" ref="mnClient"/>
-        <property name="token" ref="publicToken" />
-        <property name="nodeReferenceUtility" ref="mnNodeReferenceUtility" />
-    </bean>
-
-    <bean id="objectListProcessor" class="org.dataone.cn.batch.proto.harvest.ObjectListQueueProcessor">
-        <property name="mnReader" ref="mnClient" />
-        <property name="token" ref="cnToken" />
-        <property name="validSciMetaObjectFormats" ref="validScienceMetadataFormats" />
+    <bean id="objectListQueueBuilder" class="org.dataone.cn.batch.proto.harvest.ObjectListQueueBuilder">
+    	<property name="mnReplication" ref="mnReplicationService" />
+    	<property name="nodeMapPersistance" ref="nodeMapPersistence" />
         <property name="mnIdentifier" value="${synchronize.mnIdentifier}" />
-        <property name="cnIdentifier" value="http://cn.dataone.org" />
+        <property name="token" ref="publicToken" />
     </bean>
-    <bean id="objectListWriter" class="org.dataone.cn.batch.proto.harvest.ObjectListQueueWriter">
-        <property name="mnReader" ref="mnClient" />
-        <property name="cnWriter" ref="cnClient" />
-        <property name="cnAuthorization" ref="cnClient" />
-        <property name="token" ref="cnToken" />
+
+    <bean id="objectListQueueProcessor" class="org.dataone.cn.batch.proto.harvest.ObjectListQueueProcessor">
+        <property name="token" ref="publicToken" />
+        <property name="mnReader" ref="mnCrudService" />
+        <property name="mnIdentifier" value="${synchronize.mnIdentifier}" />
+        <property name="cnIdentifier" value="${synchronize.cnIdentifier}" />
         <property name="validSciMetaObjectFormats" ref="validScienceMetadataFormats" />
-        <property name="nodeReferenceUtility" ref="mnNodeReferenceUtility" />
-        <property name="nodeListAccess" ref="nodeListAccess" />
     </bean>
+    
+    <bean id="objectListQueueWriter" class="org.dataone.cn.batch.proto.harvest.ObjectListQueueWriter">
+        <property name="token" ref="cnToken" />
+        <property name="mnReader" ref="mnCrudService" />
+        <property name="cnWriter" ref="cnCrudService" />
+        <property name="cnAuthorization" ref="cnAuthorizationService" />
+        <property name="mnIdentifier" value="${synchronize.mnIdentifier}" />
+        <property name="validSciMetaObjectFormats" ref="validScienceMetadataFormats" />
+        <property name="nodeMapPersistance" ref="nodeMapPersistence" />
+    </bean>
+
 <!-- the last step in this pipeline should be to update the node list so that the synchronized date is set -->
 
 </beans>

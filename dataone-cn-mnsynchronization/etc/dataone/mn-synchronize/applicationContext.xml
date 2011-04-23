@@ -35,19 +35,65 @@
       </property>
    </bean>
 
-   <bean id="nodeListAccess" class="org.dataone.cn.batch.utils.NodeListAccess">
-       <constructor-arg value="${access.nodeListFileLocation}"/>
-   </bean>
-
-   <bean id="nodeList" class="org.dataone.service.types.NodeList"
-        factory-bean="nodeListAccess"
-        factory-method="getNodeList" />
-
-    <bean id="mnNodeReferenceUtility" class="org.dataone.cn.batch.utils.NodeReference">
-        <property name="mnNodeList" ref="nodeList" />
-        <property name="mnNodeIdentifier" value="${synchronize.mnIdentifier}" />
+    <bean id="mnNodeReference" class="org.dataone.service.types.NodeReference">
+    	<property name="value" value="${synchronize.mnIdentifier}" />
     </bean>
 
+<!-- the bean to be created via the factory bean -->
+
+    <bean id="biBimBob" class="org.dataone.cn.jjigae.BiBimBob" />
+
+    <!-- I really don't have to perform a proxy to the service, but i'm placing
+         this here as an example as how to do it so that when aspects, advisors associated
+         with a cutpoint of a crosscutting concern,
+         need to be applied to clients (like auth and authnz), i have  little
+         example of how to start -->
+         
+	<bean id="mnReplicationService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="org.dataone.service.mn.MemberNodeReplication"/>
+		<property name="target" ref="mnClient"/>
+	</bean>
+	<bean id="mnCrudService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="org.dataone.service.mn.MemberNodeCrud"/>
+		<property name="target" ref="mnClient"/>
+	</bean>
+    <bean id="mnClient" class="org.dataone.client.MNode">
+        <constructor-arg type="org.dataone.service.types.NodeReference" ref="mnNodeReference" />
+    </bean>
+    
+	<bean id="cnRegisteryService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="org.dataone.service.cn.CoordinatingNodeRegister"/>
+		<property name="target" ref="cnClient"/>
+	</bean>
+    <bean id="cnClient" class="org.dataone.client.CNode">
+        <constructor-arg type="java.lang.String" value="${cnClient.rootUrl}" />
+    </bean>    
+    
+	<bean id="cnAuthorizationService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="org.dataone.service.cn.CoordinatingNodeAuthorization"/>
+		<property name="target" ref="cnMetacatClient"/>
+	</bean>    
+	<bean id="cnAuthenticationService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="org.dataone.service.cn.CoordinatingNodeAuthentication"/>
+		<property name="target" ref="cnMetacatClient"/>
+	</bean>
+	<bean id="cnCrudService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="org.dataone.service.cn.CoordinatingNodeCrud"/>
+		<property name="target" ref="cnMetacatClient"/>
+	</bean>
+    <bean id="cnMetacatClient" class="org.dataone.client.CNode">
+        <constructor-arg type="java.lang.String" value="${cnClient.knbRootUrl}" />
+    </bean>
+
+    <!-- this must be set before it can be used in ObjectListWriter -->
+    <!-- currently set in the scheduler -->
+    <bean id="cnToken"  class="org.dataone.service.types.AuthToken" />
+
+    <bean id="publicToken"  class="org.dataone.service.types.AuthToken">
+        <constructor-arg type="java.lang.String" value="public"/>
+    </bean>
+    
+    
    <import resource="/scienceMetadataFormats.xml" />
    <import resource="/metadataPackagerService.xml" />
    <import resource="/mnHarvestService.xml" />
@@ -56,10 +102,10 @@
     <bean name="harvesterJob" class="org.dataone.cn.batch.proto.scheduler.jobs.MnHarvesterJob">
         <property name="bob" ref="biBimBob" />
         <property name="cnToken" ref="cnToken" />
-        <property name="cnClient" ref="cnClient" />
-        <property name="queueBuilder" ref="objectListQueue" />
-        <property name="queueProcessor" ref="objectListProcessor" />
-        <property name="queueWriter" ref="objectListWriter" />
+        <property name="cnClient" ref="cnAuthenticationService" />
+        <property name="queueBuilder" ref="objectListQueueBuilder" />
+        <property name="queueProcessor" ref="objectListQueueProcessor" />
+        <property name="queueWriter" ref="objectListQueueWriter" />
     </bean>
 
     <bean id="runMnHarvesterJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
