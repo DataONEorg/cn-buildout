@@ -62,9 +62,6 @@ chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/Catalina/localhost/cn
 cp ${SCRIPT_DIR}/54cn.policy ${TOMCAT_HOME}/conf/policy.d/
 chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/54cn.policy
 
-# this is a bit awkward and will need to be REMOVED!!!!! once nodeList is maintained
-# somewhere sensible 
-ln -t ${TOMCAT_HOME}/webapps/cn /var/lib/dataone/nodeList.xml 
 
 ###############################################################################
 # Configure Apache
