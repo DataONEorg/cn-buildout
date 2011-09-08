@@ -1,0 +1,7 @@
+// ========== cilogon portal APPLICATION PERMISSIONS ==================================
+
+// These permissions are granted by default to the cilogon delegation portal
+//
+grant codeBase "file:${catalina.base}/webapps/portal/-" {
+        permission java.security.AllPermission;
+};

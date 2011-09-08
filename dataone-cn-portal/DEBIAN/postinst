@@ -1,0 +1,99 @@
+#!/bin/bash
+
+LONG_DATE=`date +%Y%m%d%H%M%S`
+
+TOMCAT=tomcat6
+TOMCAT_USER=tomcat6
+TOMCAT_HOME=/var/lib/tomcat6
+APACHE_CONF=/etc/apache2
+JK_CONF=portal_jk.conf
+
+SOURCE_DIR=/usr/share/portal
+SCRIPT_DIR=${SOURCE_DIR}/debian
+###############################################################################
+# Install portal war file
+###############################################################################
+
+## Stop tomcat
+echo "Stopping Tomcat"
+/etc/init.d/${TOMCAT} stop
+
+## backup the old war file
+if [ -e ${TOMCAT_HOME}/webapps/portal.war.current ]
+then
+  echo "Backing up ${TOMCAT_HOME}/webapps/portal.war to ${TOMCAT_HOME}/webapps/portal.war.${LONG_DATE}"
+  mv ${TOMCAT_HOME}/webapps/portal.war.current ${TOMCAT_HOME}/webapps/portal.war.${LONG_DATE}
+fi  
+
+## remove the portal application directory
+if [ -d ${TOMCAT_HOME}/webapps/portal ]
+then
+  echo "Removing the old portal application directories"
+  rm -rf ${TOMCAT_HOME}/webapps/portal
+fi 
+
+## copy the new war file into the webapps directory
+echo copying new portal.war file to ${TOMCAT_HOME}/webapps/portal.war
+cp ${SOURCE_DIR}/portal.war ${TOMCAT_HOME}/webapps/portal.war
+
+## expand the war file
+CURR_DIR=`pwd`
+
+## make portal directory and extract portal.war into it.
+echo "Making portal application directory: ${TOMCAT_HOME}/webapps/portal"
+mkdir ${TOMCAT_HOME}/webapps/portal
+cd ${TOMCAT_HOME}/webapps/portal
+
+echo "extracting portal.war into ${TOMCAT_HOME}/webapps/portal"
+jar -xvf ${TOMCAT_HOME}/webapps/portal.war > /dev/null
+
+mv ${TOMCAT_HOME}/webapps/portal.war ${TOMCAT_HOME}/webapps/portal.war.current
+
+cp ${SOURCE_DIR}/debian/log4j.properties ${TOMCAT_HOME}/webapps/portal/WEB-INF/
+chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/portal
+echo cd to $CURR_DIR
+cd $CURR_DIR
+
+
+###############################################################################
+# Configure Tomcat
+###############################################################################
+
+# Configure the context file
+cp ${SCRIPT_DIR}/portal.xml ${TOMCAT_HOME}/conf/Catalina/localhost/
+
+# Add permissions needed by portal
+cp ${SCRIPT_DIR}/56portal.policy ${TOMCAT_HOME}/conf/policy.d/
+
+###############################################################################
+# Configure Apache
+###############################################################################
+
+## Stop apache
+echo "Stopping Apache"
+/etc/init.d/apache2 stop
+
+## copy in jk mount configuration file
+
+if [ -e ${APACHE_CONF}/jk_mount/${JK_CONF} ]
+then 
+  JK_DIFF=`diff ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/${JK_CONF}`
+  if [ "${JK_DIFF}" != "" ]
+  then
+    echo "Backing up ${APACHE_CONF}/jk_mount/${JK_CONF} to ${APACHE_CONF}/jk_mount/${JK_CONF}.${LONG_DATE}"
+    mv ${APACHE_CONF}/jk_mount/${JK_CONF} ${APACHE_CONF}/jk_mount/${JK_CONF}.${LONG_DATE}
+  fi
+fi
+echo "Copying ${JK_CONF} site file to ${APACHE_CONF}/jk_mount/"
+cp ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/
+
+###############################################################################
+# Start Apache and Tomcat
+###############################################################################
+
+## Start Apache
+/etc/init.d/apache2 start
+
+## Start Tomcat
+echo "starting Tomcat server"
+/etc/init.d/${TOMCAT} start

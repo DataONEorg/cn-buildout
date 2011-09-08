@@ -1,0 +1,21 @@
+#!/bin/bash
+
+LONG_DATE=`date +%Y%m%d%H%M%S`
+
+/etc/init.d/tomcat6 stop
+/etc/init.d/apache2 stop
+
+TOMCAT_USER=tomcat6
+TOMCAT_HOME=/var/lib/tomcat6
+APACHE_CONF=/etc/apache2
+#SOURCE_DIR=/usr/share/portal
+#rm -rf ${SOURCE_DIR}
+
+rm -rf ${TOMCAT_HOME}/webapps/portal
+rm -f ${TOMCAT_HOME}/webapps/portal*
+rm -f ${TOMCAT_HOME}/conf/Catalina/localhost/portal.xml
+rm -f ${TOMCAT_HOME}/conf/policy.d/56portal.policy
+rm -f ${APACHE_CONF}/jk_mount/portal_jk.*
+
+/etc/init.d/tomcat6 start
+/etc/init.d/apache2 start
