@@ -21,7 +21,7 @@ echo "Stopping Tomcat"
 ## backup the old war file
 if [ -e ${TOMCAT_HOME}/webapps/portal.war.current ]
 then
-  echo "Backing up ${TOMCAT_HOME}/webapps/portal.war to ${TOMCAT_HOME}/webapps/portal.war.${LONG_DATE}"
+  echo "Backing up ${TOMCAT_HOME}/webapps/portal.war.current to ${TOMCAT_HOME}/webapps/portal.war.${LONG_DATE}"
   mv ${TOMCAT_HOME}/webapps/portal.war.current ${TOMCAT_HOME}/webapps/portal.war.${LONG_DATE}
 fi  
 
@@ -60,9 +60,11 @@ cd $CURR_DIR
 ###############################################################################
 
 # Configure the context file
+echo "Copying ${SCRIPT_DIR}/portal.xml to ${TOMCAT_HOME}/conf/Catalina/localhost/"
 cp ${SCRIPT_DIR}/portal.xml ${TOMCAT_HOME}/conf/Catalina/localhost/
 
 # Add permissions needed by portal
+echo "Copying ${SCRIPT_DIR}/56portal.policy to ${TOMCAT_HOME}/conf/policy.d/"
 cp ${SCRIPT_DIR}/56portal.policy ${TOMCAT_HOME}/conf/policy.d/
 
 ###############################################################################
@@ -74,7 +76,6 @@ echo "Stopping Apache"
 /etc/init.d/apache2 stop
 
 ## copy in jk mount configuration file
-
 if [ -e ${APACHE_CONF}/jk_mount/${JK_CONF} ]
 then 
   JK_DIFF=`diff ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/${JK_CONF}`
