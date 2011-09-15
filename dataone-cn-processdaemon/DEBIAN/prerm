@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+LONG_DATE=`date +%Y%m%d%H%M%S`
+
+#/etc/init.d/d1-processing stop
+
+#update-rc.d -f d1-processing remove
+
+#rm -f /etc/init.d/d1-processing
+
+rm -rf /etc/dataone/process
+rm -rf /var/log/dataone
+rm -f /var/run/d1-processing.pid
+
+#rm -f /usr/share/java/d1_process_daemon.jar
+#rm -f /usr/share/java/d1_synchronization.jar
+#rm -f /usr/share/java/d1_replication.jar
+
+
