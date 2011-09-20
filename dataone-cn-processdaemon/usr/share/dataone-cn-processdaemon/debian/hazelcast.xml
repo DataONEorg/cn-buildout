@@ -29,6 +29,7 @@
                 <hz:symmetric-encryption enabled="true" algorithm="PBEWithMD5AndDES" salt="430asdfjweofgasdADF68978230jfh2012378asgfadfhweifASDFQWFDGAF" password="^fksos$@fA9829" iteration-count="25"/>
             </hz:network>
             <hz:queue name="hzSyncObjectQueue" max-size-per-jvm="0" />
+            <hz:queue name="hzReplicationTasks" max-size-per-jvm="0" />
             <hz:map name="hzNodes"
                     backup-count="1"
                     max-size="0"
@@ -39,6 +40,7 @@
                     merge-policy="hz.LATEST_UPDATE">
                 <hz:map-store enabled="true" implementation="hazelcastLdapStore" write-delay-seconds="0" />
             </hz:map>
+            
         </hz:config>
 
 	<bean id="hazelcastInstance" class="com.hazelcast.core.Hazelcast" factory-method="init" destroy-method="shutdown">
