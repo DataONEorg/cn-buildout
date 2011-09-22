@@ -34,10 +34,10 @@ DESC="DataONE Synchronization Scheduler"
 DAEMON="/usr/bin/jsvc"
 DAEMON_HOME="/usr/share/java"
 LOG_DIR="/var/log/dataone"
-CLASSPATH="$DAEMON_HOME/commons-daemon.jar:$DAEMON_HOME/d1_synchronization_scheduler.jar"
+CLASSPATH="$DAEMON_HOME/commons-daemon.jar:$DAEMON_HOME/d1_synchronization.jar"
 USER_NAME="tomcat6"
 JVM_TMP="/tmp/$NAME-temp"
-BOOTSTRAP_CLASS="org.dataone.cn.batch.proto.scheduler.SchedulerDaemon"
+BOOTSTRAP_CLASS="org.dataone.cn.batch.daemon.SchedulerDaemon"
 OUTPUT_FILE="$LOG_DIR/d1-synchronize-jsvc.log"
 ERROR_FILE="$LOG_DIR/d1-synchronize-jsvc.err"
 
@@ -46,17 +46,17 @@ if [ `id -u` -ne 0 ]; then
 	exit 1
 fi
 
-if [ ! -f "$DAEMON_HOME/d1_synchronization_scheduler.jar" ]; then
+if [ ! -f "$DAEMON_HOME/d1_synchronization.jar" ]; then
 	log_failure_msg "$NAME is not installed"
 	exit 1
 fi
 
 # The first existing directory is used for JAVA_HOME (if JAVA_HOME is not
 # defined in $DEFAULT)
-JDK_DIRS="/usr/lib/jvm/java-6-openjdk /usr/lib/jvm/java-6-sun /usr/lib/jvm/java-1.5.0-sun /usr/lib/j2sdk1.5-sun /usr/lib/j2sdk1.5-ibm"
+JDK_DIRS="/usr/lib/jvm/java-6-sun"
 
 if [ -z "$JAVA_OPTS" ]; then
-	JAVA_OPTS="-Djava.awt.headless=true -Xmx256M -Xms128M"
+	JAVA_OPTS="-Djava.awt.headless=true -Xmx4096M -Xms1024"
 fi
 
 
