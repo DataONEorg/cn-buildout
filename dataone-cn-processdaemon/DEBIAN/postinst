@@ -2,9 +2,9 @@
 
 LONG_DATE=`date +%Y%m%d%H%M%S`
 
-#chmod +x /etc/init.d/d1-processing
+chmod +x /etc/init.d/d1-processing
 
-#update-rc.d d1-processing defaults 99
+update-rc.d d1-processing defaults 99
 
 #this will need to be configured per environment
 cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml /etc/dataone/process/hazelcast.xml
@@ -12,6 +12,8 @@ chown -R tomcat6.tomcat6 /etc/dataone/process
 
 mkdir  /var/log/dataone
 chown tomcat6.tomcat6 /var/log/dataone
+
+ufw allow 5702 
 echo "Start Sychronization with /etc/init.d/d1-processing start"
 
 
