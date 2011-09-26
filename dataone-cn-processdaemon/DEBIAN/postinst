@@ -10,6 +10,9 @@ update-rc.d d1-processing defaults 99
 cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml /etc/dataone/process/hazelcast.xml
 chown -R tomcat6.tomcat6 /etc/dataone/process
 
+cp /usr/share/dataone-cn-processdaemon/d1_process_daemon.jar /usr/share/java
+chown -R tomcat6.tomcat6 /usr/share/java/d1_process_daemon.jar
+
 mkdir  /var/log/dataone
 chown tomcat6.tomcat6 /var/log/dataone
 
