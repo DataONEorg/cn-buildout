@@ -46,6 +46,6 @@
 	        <constructor-arg ref="hazelcastConfig" />
 	</bean>
     
-    <hz:idGenerator instance-ref="hazelcastInstance" name="idGenerator" />
+    <hz:idGenerator  id="idGenerator" instance-ref="hazelcastInstance" name="idGenerator" />
     
 </beans>
