@@ -6,8 +6,9 @@ chmod +x /etc/init.d/d1-processing
 
 update-rc.d d1-processing defaults 99
 
-#this will need to be configured per environment
+#these will need to be configured per environment
 cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml /etc/dataone/process/hazelcast.xml
+cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties /etc/dataone/process/synchronization.properties
 chown -R tomcat6.tomcat6 /etc/dataone/process
 
 cp /usr/share/dataone-cn-processdaemon/d1_process_daemon.jar /usr/share/java
