@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#grant executable to script
+chmod +x /usr/local/bin/dataone-cn-version-tool
+
+#generate initial html output
+/usr/local/bin/dataone-cn-version-tool -html > /usr/share/dataone-cn-version-tool/cn-version.html

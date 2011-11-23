@@ -1,0 +1,9 @@
+Package: dataone-cn-version-tool
+Version: 0.0.1
+Section: utils
+Priority: optional
+Architecture: all
+Depends: sun-java6-jdk
+Installed-Size: 1 kb
+Maintainer: Skye Roseboom <sroseboo@dataone.unm.edu>
+Description: This is a metapackage that installs a tool for reporting version and build information for components of a dataONE coordinating node installation.

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar $1 $2
