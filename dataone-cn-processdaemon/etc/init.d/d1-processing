@@ -56,7 +56,7 @@ fi
 JDK_DIRS="/usr/lib/jvm/java-6-sun"
 
 if [ -z "$JAVA_OPTS" ]; then
-	JAVA_OPTS="-Djava.awt.headless=true -Xmx4096M -Xms1024M"
+	JAVA_OPTS="-Djava.awt.headless=true -XX:UseParallelGC -Xmx4096M -Xms1024M"
 fi
 
 
