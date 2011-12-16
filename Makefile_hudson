@@ -18,7 +18,7 @@
 #of the packages so that apt-get upgrade will pick up changed packages.
 
 # The list of packages to build
-PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb dataone-cn-mercury.deb dataone-cn-rest-service.deb  dataone-cn-portal.deb dataone-cn-processdaemon.deb dataone-cn-version-tool.deb
+PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb dataone-cn-mercury.deb dataone-cn-rest-service.deb  dataone-cn-portal.deb dataone-cn-processdaemon.deb dataone-cn-version-tool.deb dataone-cn-solr-dep.deb
 
 # The temporary build output directory
 BUILDDIR      = $(WORKSPACE)/cn-buildout/build
