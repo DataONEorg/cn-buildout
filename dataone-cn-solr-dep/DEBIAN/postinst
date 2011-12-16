@@ -1,4 +1,3 @@
 #!/bin/bash
 
 add-apt-repository ppa:trevor/solr-3.4
-apt-get update
