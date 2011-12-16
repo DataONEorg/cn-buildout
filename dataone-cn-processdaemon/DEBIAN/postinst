@@ -17,7 +17,9 @@ chown -R tomcat6.tomcat6 /usr/share/java/d1_process_daemon.jar
 mkdir  /var/log/dataone
 chown tomcat6.tomcat6 /var/log/dataone
 
+#open up the correct port for hazelcast
 ufw allow 5702 
+
 echo "Start Sychronization with /etc/init.d/d1-processing start"
 
 
