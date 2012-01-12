@@ -10,7 +10,9 @@ update-rc.d -f d1-processing remove
 rm -f /etc/init.d/d1-processing
 
 rm -rf /etc/dataone/process
-rm -rf /var/log/dataone
+rm -rf /var/log/dataone/daemon
+rm -rf /var/log/dataone/synchronize
+rm -rf //var/log/dataone/replicate
 rm -f /var/run/d1-processing.pid
 
 rm -f /usr/share/java/d1_process_daemon.jar
