@@ -30,7 +30,7 @@
             <hz:queue name="hzSyncObjectQueue" max-size-per-jvm="0" />
             <hz:queue name="hzReplicationTasks" max-size-per-jvm="0" />
             <hz:map name="hzNodes"
-                    backup-count="1"
+                    backup-count="3"
                     max-size="0"
                     eviction-percentage="30"
                     read-backup-data="true"
@@ -39,13 +39,23 @@
                     merge-policy="hz.LATEST_UPDATE">
                 <hz:map-store enabled="true" implementation="hazelcastLdapStore" write-delay-seconds="0" />
             </hz:map>
-            
+            <hz:map name="hzLogAggregatorLock"
+                    backup-count="3"
+                    max-size="0"
+                    eviction-percentage="30"
+                    read-backup-data="true"
+                    cache-value="true"
+                    eviction-policy="NONE"
+                    merge-policy="hz.LATEST_UPDATE">
+            </hz:map>
         </hz:config>
     
 	<bean id="hazelcastInstance" class="com.hazelcast.core.Hazelcast" factory-method="init" destroy-method="shutdown">
 	        <constructor-arg ref="hazelcastConfig" />
 	</bean>
-    
-    <hz:idGenerator  id="idGenerator" instance-ref="hazelcastInstance" name="idGenerator" />
+	
+    <hz:topic id="hzLogEntryTopic" instance-ref="hazelcastInstance" name="hzLogEntryTopic"/>
+
+    <hz:atomicNumber id="hzLogEntrySequence" instance-ref="hazelcastInstance" name="hzLogEntrySequence"/>
     
 </beans>
