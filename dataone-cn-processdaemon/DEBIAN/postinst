@@ -14,11 +14,34 @@ chown -R tomcat6.tomcat6 /etc/dataone/process
 cp /usr/share/dataone-cn-processdaemon/d1_process_daemon.jar /usr/share/java
 chown -R tomcat6.tomcat6 /usr/share/java/d1_process_daemon.jar
 
-mkdir  /var/log/dataone
-chown tomcat6.tomcat6 /var/log/dataone
+##################################################################
+# Set up logging for background processes
+##################################################################
+if [ ! -e /var/log/dataone/daemon ]
+	mkdir  /var/log/dataone/daemon
+	chown tomcat6.tomcat6 /var/log/dataone/daemon
+fi
 
+if [ ! -e /var/log/dataone/synchronize ]
+	mkdir  /var/log/dataone/synchronize
+	chown tomcat6.tomcat6 /var/log/dataone/synchronize
+fi
+
+if [ ! -e /var/log/dataone/replicate ]
+	mkdir  /var/log/dataone/replicate
+	chown tomcat6.tomcat6 /var/log/dataone/replicate
+fi
 #open up the correct port for hazelcast
 ufw allow 5702 
+
+######## Update solr index schema
+/etc/init.d/tomcat6 stop
+
+mv /usr/share/solr/d1-cn-log/conf/schema.xml /usr/share/solr/d1-cn-log/schema.xml.bak
+cp /usr/share/dataone-cn-processdaemon/debian/log-solr-schema.xml /usr/share/solr/d1-cn-log/conf/schema.xml
+chown -R tomcat6.tomcat6 /usr/share/solr/d1-cn-index/conf/schema.xml
+
+/etc/init.d/tomcat6 start
 
 echo "Start Sychronization with /etc/init.d/d1-processing start"
 
