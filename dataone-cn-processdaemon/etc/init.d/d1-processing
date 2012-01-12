@@ -33,7 +33,7 @@ NAME="d1-processing"
 DESC="DataONE Processing Daemon"
 DAEMON="/usr/bin/jsvc"
 DAEMON_HOME="/usr/share/java"
-LOG_DIR="/var/log/dataone"
+LOG_DIR="/var/log/dataone/daemon"
 CLASSPATH="$DAEMON_HOME/commons-daemon.jar:$DAEMON_HOME/d1_process_daemon.jar"
 USER_NAME="tomcat6"
 JVM_TMP="/tmp/$NAME-temp"
@@ -56,7 +56,7 @@ fi
 JDK_DIRS="/usr/lib/jvm/java-6-sun"
 
 if [ -z "$JAVA_OPTS" ]; then
-	JAVA_OPTS="-Djava.awt.headless=true -XX:UseParallelGC -Xmx4096M -Xms1024M"
+	JAVA_OPTS="-Djava.awt.headless=true -XX:UseParallelGC -Xmx4096M -Xms1024M -XX:MaxPermSize=512M"
 fi
 
 
