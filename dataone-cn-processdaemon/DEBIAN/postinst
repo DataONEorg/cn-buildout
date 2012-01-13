@@ -17,7 +17,8 @@ chown -R tomcat6.tomcat6 /usr/share/java/d1_process_daemon.jar
 ##################################################################
 # Set up logging for background processes
 ##################################################################
-if [ ! -e /var/log/dataone/daemon ]
+if [ ! -e "/var/log/dataone/daemon" ]
+then
 	mkdir  /var/log/dataone/daemon
 	chown tomcat6.tomcat6 /var/log/dataone/daemon
 fi
