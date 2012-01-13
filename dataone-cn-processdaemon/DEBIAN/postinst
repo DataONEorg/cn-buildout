@@ -22,12 +22,14 @@ if [ ! -e /var/log/dataone/daemon ]
 	chown tomcat6.tomcat6 /var/log/dataone/daemon
 fi
 
-if [ ! -e /var/log/dataone/synchronize ]
+if [ ! -e "/var/log/dataone/synchronize" ]
+then
 	mkdir  /var/log/dataone/synchronize
 	chown tomcat6.tomcat6 /var/log/dataone/synchronize
 fi
 
-if [ ! -e /var/log/dataone/replicate ]
+if [ ! -e "/var/log/dataone/replicate" ]
+then
 	mkdir  /var/log/dataone/replicate
 	chown tomcat6.tomcat6 /var/log/dataone/replicate
 fi
