@@ -275,7 +275,7 @@
        best performance.
    -->
 
-   <field name="id" type="double" indexed="true" stored="true" required="true" />
+   <field name="id" type="string" indexed="true" stored="true" required="true" />
    <field name="dateAggregated" type="date" indexed="true" stored="true" required="true" /> 
    <field name="entryid" type="string" indexed="true" stored="true" required="true" />
    <field name="pid" type="string" indexed="true" stored="true" required="true" />
