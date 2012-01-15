@@ -9,6 +9,7 @@ update-rc.d d1-processing defaults 99
 #these will need to be configured per environment
 cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml /etc/dataone/process/hazelcast.xml
 cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties /etc/dataone/process/synchronization.properties
+cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties /etc/dataone/process/logAggregation.properties
 chown -R tomcat6.tomcat6 /etc/dataone/process
 
 cp /usr/share/dataone-cn-processdaemon/d1_process_daemon.jar /usr/share/java
@@ -38,13 +39,13 @@ fi
 ufw allow 5702 
 
 ######## Update solr index schema
-/etc/init.d/tomcat6 stop
+#/etc/init.d/tomcat6 stop
 
-mv /usr/share/solr/d1-cn-log/conf/schema.xml /usr/share/solr/d1-cn-log/schema.xml.bak
-cp /usr/share/dataone-cn-processdaemon/debian/log-solr-schema.xml /usr/share/solr/d1-cn-log/conf/schema.xml
-chown -R tomcat6.tomcat6 /usr/share/solr/d1-cn-index/conf/schema.xml
+#mv /usr/share/solr/d1-cn-log/conf/schema.xml /usr/share/solr/d1-cn-log/schema.xml.bak
+#cp /usr/share/dataone-cn-processdaemon/debian/log-solr-schema.xml /usr/share/solr/d1-cn-log/conf/schema.xml
+#chown -R tomcat6.tomcat6 /usr/share/solr/d1-cn-index/conf/schema.xml
 
-/etc/init.d/tomcat6 start
+#/etc/init.d/tomcat6 start
 
 echo "Start Sychronization with /etc/init.d/d1-processing start"
 
