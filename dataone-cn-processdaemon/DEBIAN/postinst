@@ -35,6 +35,13 @@ then
 	mkdir  /var/log/dataone/replicate
 	chown tomcat6.tomcat6 /var/log/dataone/replicate
 fi
+
+if [ ! -e "/var/log/dataone/logAggregate" ]
+then
+	mkdir  /var/log/dataone/logAggregate
+	chown tomcat6.tomcat6 /var/log/dataone/logAggregate
+fi
+
 #open up the correct port for hazelcast
 ufw allow 5702 
 
