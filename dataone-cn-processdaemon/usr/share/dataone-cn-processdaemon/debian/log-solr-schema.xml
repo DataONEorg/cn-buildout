@@ -277,7 +277,7 @@
 
    <field name="id" type="string" indexed="true" stored="true" required="true" />
    <field name="dateAggregated" type="date" indexed="true" stored="true" required="true" /> 
-   <field name="entryid" type="string" indexed="true" stored="true" required="true" />
+   <field name="entryId" type="string" indexed="true" stored="true" required="true" />
    <field name="pid" type="string" indexed="true" stored="true" required="true" />
    <field name="ipAddress" type="string" indexed="true" stored="true" required="true" />
    <field name="userAgent" type="string" indexed="true" stored="true" required="true"/>
