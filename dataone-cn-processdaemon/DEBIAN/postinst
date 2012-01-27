@@ -9,7 +9,7 @@ update-rc.d d1-processing defaults 99
 #these will need to be configured per environment
 cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml /etc/dataone/process/hazelcast.xml
 cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties /etc/dataone/process/synchronization.properties
-cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties /etc/dataone/process/logAggregation.properties
+cp /usr/share/dataone-cn-processdaemon/debian/logAggregation.properties /etc/dataone/process/logAggregation.properties
 chown -R tomcat6.tomcat6 /etc/dataone/process
 
 cp /usr/share/dataone-cn-processdaemon/d1_process_daemon.jar /usr/share/java
