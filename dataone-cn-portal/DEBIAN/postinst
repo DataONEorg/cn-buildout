@@ -55,11 +55,15 @@ echo cd to $CURR_DIR
 cd $CURR_DIR
 
 ## replace the CN URL in the web.xml file to use a hostname as found by issuing a hostname -f
+## replace the CILogon callback URLs for the portal in the rdf config file
 HOSTNAME=`/bin/hostname -f`
 
 if [ "$HOSTNAME" != "" ]
 then
 	sed -i.bak  's/\(<param-value>https:\/\/\)cn\.dataone\.org/\1'${HOSTNAME}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml
+	sed -i.bak  's/\(<d:callbackUri rdf:resource="https:\/\/\)cn\.dataone\.org/\1'${HOSTNAME}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
+	sed -i.bak  's/\(<d:failureUri rdf:resource="https:\/\/\)cn\.dataone\.org/\1'${HOSTNAME}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
+	sed -i.bak  's/\(<d:successUri rdf:resource="https:\/\/\)cn\.dataone\.org/\1'${HOSTNAME}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
 else
 	echo "HOSTNAME can not be set in ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml"
 fi
