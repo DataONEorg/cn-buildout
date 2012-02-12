@@ -45,14 +45,6 @@ fi
 #open up the correct port for hazelcast
 ufw allow 5702 
 
-######## Update solr index schema
-/etc/init.d/tomcat6 stop
-
-mv /usr/share/solr/d1-cn-log/conf/schema.xml /usr/share/solr/d1-cn-log/schema.xml.bak
-cp /usr/share/dataone-cn-processdaemon/debian/log-solr-schema.xml /usr/share/solr/d1-cn-log/conf/schema.xml
-chown -R tomcat6.tomcat6 /usr/share/solr/d1-cn-index/conf/schema.xml
-
-/etc/init.d/tomcat6 start
 
 echo "Start Sychronization with /etc/init.d/d1-processing start"
 
