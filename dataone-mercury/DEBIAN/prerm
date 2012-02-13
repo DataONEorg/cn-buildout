@@ -1,0 +1,18 @@
+#!/bin/bash
+
+TOMCAT_USER=tomcat6
+
+TOMCAT_HOME=/var/lib/tomcat6
+APACHE_CONF=/etc/apache2
+
+/etc/init.d/apache2 stop
+/etc/init.d/tomcat6 stop
+
+rm -rf ${TOMCAT_HOME}/webapps/mercury3
+rm -f ${TOMCAT_HOME}/webapps/mercury3*
+rm -f ${TOMCAT_HOME}/conf/Catalina/localhost/mercury3.xml
+rm -f ${TOMCAT_HOME}/conf/policy.d/52mercury.policy
+rm -f ${APACHE_CONF}/jk_mount/mercury3_jk.*
+
+/etc/init.d/tomcat6 start
+/etc/init.d/apache2 start
