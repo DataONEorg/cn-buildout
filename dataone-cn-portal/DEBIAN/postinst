@@ -8,6 +8,14 @@ TOMCAT_HOME=/var/lib/tomcat6
 APACHE_CONF=/etc/apache2
 JK_CONF=portal_jk.conf
 
+PG=postgresql-8.4
+PG_CONF=/etc/postgresql/8.4/main
+
+PG_USER=postgres
+DB_NAME=csd
+DB_USER=cilogon
+DB_PASS=cilogon
+
 SOURCE_DIR=/usr/share/portal
 SCRIPT_DIR=${SOURCE_DIR}/debian
 ###############################################################################
@@ -99,6 +107,47 @@ then
 fi
 echo "Copying ${JK_CONF} site file to ${APACHE_CONF}/jk_mount/"
 cp ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/
+
+###############################################################################
+# Configure Postgres
+###############################################################################
+## create CSD schema and user
+echo "Creating ${DB_NAME} database schema"
+su ${PG_USER} -c "createdb ${DB_NAME}"
+
+echo "Creating ${DB_USER} user" 
+su ${PG_USER} -c "psql -c \"CREATE USER ${DB_USER} WITH UNENCRYPTED PASSWORD '${DB_PASS}'\""
+
+# run the script to create CSD user and tables
+su ${PG_USER} -c "psql -f ${SCRIPT_DIR}/portal-tables.sql ${DB_NAME}"
+
+## modify pg_hba.conf
+PG_HBA_IS_MODIFIED=`grep "${DB_NAME} ${DB_USER}" ${PG_CONF}/pg_hba.conf`
+if [ "${PG_HBA_IS_MODIFIED}" == "" ]
+then
+  echo "backing up ${PG_CONF}/pg_hba.conf to ${PG_CONF}/pg_hba.conf.bak"
+  cp ${PG_CONF}/pg_hba.conf ${PG_CONF}/pg_hba.conf.bak
+  chown postgres ${PG_CONF}/pg_hba.conf
+  chgrp postgres ${PG_CONF}/pg_hba.conf
+
+  echo "appending 'host ${DB_NAME} ${DB_USER} 127.0.0.1 255.255.255.255 password' to ${PG_CONF}/pg_hba.conf"
+  echo "host ${DB_NAME} ${DB_USER} 127.0.0.1 255.255.255.255 password" >> ${PG_CONF}/pg_hba.conf
+fi
+
+## Restart the postgres db
+echo "Restarting postgres database"
+/etc/init.d/${PG} restart
+
+###############################################################################
+# Configure pgpool2
+###############################################################################
+# modify /etc/pgpool.conf to add entries for the CN hosts to replicate with
+
+# modify the pg_hba.conf to allow connections from the different CN hosts
+
+# restart postgres
+
+# restart pgpool
 
 ###############################################################################
 # Start Apache and Tomcat
