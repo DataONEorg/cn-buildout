@@ -164,9 +164,14 @@ cp ${SCRIPT_DIR}/${PGPOOL_CONF} ${PGPOOL_CONF_DIR}/${PGPOOL_CONF}
 
 # modify /etc/postgresql/8.4/main/postgresql.conf to listen on more than 'localhost'
 
-# restart postgres
+## Restart the postgres db
+echo "Restarting postgres database"
+/etc/init.d/${PG} restart
 
-# restart pgpool
+## Restart the pgpool
+echo "Restarting pgpool"
+pgpool stop
+pgpool
 
 ###############################################################################
 # Start Apache and Tomcat
