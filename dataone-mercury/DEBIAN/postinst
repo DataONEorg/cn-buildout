@@ -8,7 +8,7 @@ TOMCAT_HOME=/var/lib/tomcat6
 APACHE_CONF=/etc/apache2
 JK_CONF=mercury3_jk.conf
 
-SOURCE_DIR=/usr/share/portal
+SOURCE_DIR=/usr/share/dataone-mercury
 SCRIPT_DIR=${SOURCE_DIR}/debian
 
 
