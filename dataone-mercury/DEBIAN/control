@@ -3,7 +3,7 @@ Version: 0.0.1
 Section: utils
 Priority: optional
 Architecture: all
-Depends: sun-java6-jdk, dataone-cn-solr
+Depends: dataone-cn-solr
 Installed-Size: 1 kb
 Maintainer: Skye Roseboom <sroseboo@dataone.unm.edu>
 Description: This is a metapackage that installs the dataONE variant of the Mercury search component.  Mercury is developed and maintained by Oak Ridge National Laboratory which has provided dataONE this variant.  See http://mercury.ornl.gov/ for more information about the Mercury search component.  This installation of mercury is intended to make use of the apache solr index created by the dataone-cn-index component.
