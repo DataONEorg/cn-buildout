@@ -29,10 +29,10 @@ CREATE SCHEMA :cilogonSchema;
 CREATE USER :cilogonServerUser with PASSWORD :cilogonServerUserPassword;
 
 create table :cilogonSchema.:cilogonTransactionTable  (
-   temp_cred text NOT NULL,
+   temp_token text NOT NULL,
    temp_cred_ss text,
    certrequest bytea,
-   verifier text,
+   oauth_verifier text,
    access_token text,
    access_token_ss text,
    certificate text,
