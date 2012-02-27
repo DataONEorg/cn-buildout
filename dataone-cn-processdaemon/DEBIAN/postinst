@@ -1,15 +1,28 @@
 #!/bin/bash
 
 LONG_DATE=`date +%Y%m%d%H%M%S`
+D1_CONF=/etc/dataone
+NODE_PROPS="$D1_CONF/node.properties"
 
 chmod +x /etc/init.d/d1-processing
 
 update-rc.d d1-processing defaults 99
 
+
+
 #these will need to be configured per environment
-cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml /etc/dataone/process/hazelcast.xml
-cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties /etc/dataone/process/synchronization.properties
-cp /usr/share/dataone-cn-processdaemon/debian/logAggregation.properties /etc/dataone/process/logAggregation.properties
+cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml ${D1_CONF}/process/hazelcast.xml
+cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties ${D1_CONF}/process/synchronization.properties
+cp /usr/share/dataone-cn-processdaemon/debian/logAggregation.properties ${D1_CONF}/process/logAggregation.properties
+
+# replace the IPs of the cn.iplist in node.properties so as to set them in hazelcast.xml
+CN_IPLIST=`egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+#add in commas
+CN_IPLIST=${CN_IPLIST// /, }
+
+sed -i.bak --regexp-extended "s/127\.0\.0\.1/${CN_IPLIST}/;" ${D1_CONF}/process/hazelcast.xml
+ 
+
 chown -R tomcat6.tomcat6 /etc/dataone/process
 
 cp /usr/share/dataone-cn-processdaemon/d1_process_daemon.jar /usr/share/java
