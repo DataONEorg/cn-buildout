@@ -39,8 +39,7 @@ fi
 ## copy the new war file into the webapps directory
 echo copying new mercury3.war file to ${TOMCAT_HOME}/webapps/mercury3.war
 cp ${SOURCE_DIR}/mercury3.war ${TOMCAT_HOME}/webapps/
-
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/mercury3
+chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/mercury3.war
 
 ########################
 # Configure Tomcat
