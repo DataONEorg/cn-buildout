@@ -13,13 +13,13 @@ SCRIPT_DIR=${SOURCE_DIR}/debian
 
 
 ############## 
-Stop tomcat
+# Stop tomcat
 ##############
 echo "Stopping Tomcat"
 /etc/init.d/${TOMCAT} stop
 
 ######################
-Install mercury war
+# Install mercury war
 ######################
 
 ## backup the old war file
