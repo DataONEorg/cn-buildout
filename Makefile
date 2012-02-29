@@ -50,7 +50,7 @@ publish: deb
 install: publish
 	@echo "Let's run apt-get install now."
 	apt-get update
-	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-processdaemon dataone-cn-portal dataone-cn-version-tool dataone-cn-solr dataone-cn-index
+	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-processdaemon dataone-cn-portal dataone-cn-version-tool dataone-cn-solr dataone-cn-index dataone-mercury
 
 upgrade: publish
 	@echo $(shell printf "Stopping Tomcat\n")
