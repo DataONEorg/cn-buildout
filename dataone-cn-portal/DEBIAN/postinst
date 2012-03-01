@@ -189,6 +189,19 @@ do
 	fi
 done
 
+## modify /etc/postgresql/8.4/main/postgresql.conf to listen on more than 'localhost'
+## original line looks like this:
+## #listen_addresses = 'localhost'
+## we want this:
+## listen_addresses = '*'
+
+PG_LISTEN_IS_MODIFIED=`egrep "listen_addresses *= *'\*'" ${PG_CONF}/postgresql.conf`
+if [ "${PG_LISTEN_IS_MODIFIED}" == "" ]
+then
+	sed -i.bak  "s/\(listen_addresses\s*\=\s*\)'localhost'/\1 '*'/;" ${PG_CONF}/postgresql.conf
+fi
+# make sure it is not commented out
+sed -i.bak  "s/#\(listen_addresses\)/\1 /;" ${PG_CONF}/postgresql.conf
 
 ## Restart the postgres db
 log "Restarting postgres database"
@@ -215,7 +228,6 @@ cp ${SCRIPT_DIR}/${PGPOOL_CONF} ${PGPOOL_CONF_DIR}/${PGPOOL_CONF}
 
 # modify the pg_hba.conf to allow connections from the different CN hosts
 
-# modify /etc/postgresql/8.4/main/postgresql.conf to listen on more than 'localhost'
 
 ## Restart the postgres db
 log "Restarting postgres database"
