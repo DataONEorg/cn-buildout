@@ -16,9 +16,6 @@ DB_NAME=csd
 DB_USER=cilogon
 DB_PASS=cilogon
 
-PGPOOL_CONF_DIR=/etc
-PGPOOL_CONF=pgpool.conf
-
 SOURCE_DIR=/usr/share/portal
 SCRIPT_DIR=${SOURCE_DIR}/debian
 
@@ -206,37 +203,6 @@ sed -i.bak  "s/#\(listen_addresses\)/\1 /;" ${PG_CONF}/postgresql.conf
 ## Restart the postgres db
 log "Restarting postgres database"
 /etc/init.d/${PG} restart
-
-###############################################################################
-# Configure pgpool2
-###############################################################################
-# put pgpool.conf in place
-## copy configuration file
-if [ -e ${PGPOOL_CONF_DIR}/${PGPOOL_CONF} ]
-then 
-  PGPOOL_DIFF=`diff ${SCRIPT_DIR}/${PGPOOL_CONF} ${PGPOOL_CONF_DIR}/${PGPOOL_CONF}`
-  if [ "${PGPOOL_DIFF}" != "" ]
-  then
-    log "Backing up ${PGPOOL_CONF_DIR}/${PGPOOL_CONF} to ${PGPOOL_CONF_DIR}/${PGPOOL_CONF}.${LONG_DATE}"
-    mv ${PGPOOL_CONF_DIR}/${PGPOOL_CONF} ${PGPOOL_CONF_DIR}/${PGPOOL_CONF}.${LONG_DATE}
-  fi
-fi
-log "Copying ${PGPOOL_CONF} file to ${PGPOOL_CONF_DIR}/"
-cp ${SCRIPT_DIR}/${PGPOOL_CONF} ${PGPOOL_CONF_DIR}/${PGPOOL_CONF}
-
-# modify /etc/pgpool.conf to add entries for the CN hosts to replicate with
-
-# modify the pg_hba.conf to allow connections from the different CN hosts
-
-
-## Restart the postgres db
-log "Restarting postgres database"
-/etc/init.d/${PG} restart
-
-## Restart the pgpool
-log "Restarting pgpool"
-pgpool stop
-pgpool
 
 ###############################################################################
 # Start Apache and Tomcat
