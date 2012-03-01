@@ -105,8 +105,8 @@ fi
 for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
 do
     PG_HOST=${ip}
-   	sed -i.bak  's/\(<sqlc:adminHost>)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
-   	sed -i.bak  's/\(<sqlc:host>)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
+   	sed -i.bak  's/\(<sqlc:adminHost>\)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
+   	sed -i.bak  's/\(<sqlc:host>\)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
     break # just use the first
 done
 
@@ -123,7 +123,7 @@ if [[ "${CONTEXT_LABEL}" == "SANDBOX" ]]; then
 	CILOGON_SKIN=DataONESandbox
 fi
 ## replace in the config file
-sed -i.bak  's/\(<d:portalSkin>)DataONE\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
+sed -i.bak  's/\(<d:portalSkin>\)DataONE\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
 
 ###############################################################################
 # Configure Tomcat
