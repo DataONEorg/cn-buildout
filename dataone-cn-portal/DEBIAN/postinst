@@ -123,7 +123,7 @@ if [[ "${CONTEXT_LABEL}" == "SANDBOX" ]]; then
 	CILOGON_SKIN=DataONESandbox
 fi
 ## replace in the config file
-sed -i.bak  's/\(<d:portalSkin>\)DataONE\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
+sed -i.bak  's/\(<d:portalSkin>\)DataONE/\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
 
 ###############################################################################
 # Configure Tomcat
