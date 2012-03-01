@@ -101,8 +101,29 @@ else
 	log "HOSTNAME (cn.router.hostname) cannot be set in ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml or ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf"
 fi
 
-## TODO: configure to hit only a single PG instance
+## configure to hit only a single PG instance - defualt to first in ip list
+for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+do
+    PG_HOST=${ip}
+   	sed -i.bak  's/\(<sqlc:adminHost>)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
+   	sed -i.bak  's/\(<sqlc:host>)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
+    break # just use the first
+done
 
+## configure the CILogon skin, default to PRODUCTION
+CILOGON_SKIN=DataONE
+CONTEXT_LABEL=`egrep 'cn.context.label=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+if [[ "${CONTEXT_LABEL}" == "DEV" ]]; then
+	CILOGON_SKIN=DataONEDev
+fi
+if [[ "${CONTEXT_LABEL}" == "STAGE" ]]; then
+	CILOGON_SKIN=DataONEStage
+fi
+if [[ "${CONTEXT_LABEL}" == "SANDBOX" ]]; then
+	CILOGON_SKIN=DataONESandbox
+fi
+## replace in the config file
+sed -i.bak  's/\(<d:portalSkin>)DataONE\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
 
 ###############################################################################
 # Configure Tomcat
