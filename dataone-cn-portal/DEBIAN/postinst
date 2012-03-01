@@ -37,7 +37,7 @@ logError () {
 }
 
 log () {
-    echo -e "$@" >> ${D1_LOG_DIR}/dataone-cn-os-core.install.log
+    echo -e "$@" >> ${D1_LOG_DIR}/dataone-cn-portal.install.log
 }
 
 ###############################################################################
@@ -98,7 +98,7 @@ then
 	sed -i.bak  's/\(<d:failureUri rdf:resource="https:\/\/\)cn\.dataone\.org/\1'${HOSTNAME}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
 	sed -i.bak  's/\(<d:successUri rdf:resource="https:\/\/\)cn\.dataone\.org/\1'${HOSTNAME}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
 else
-	log "HOSTNAME can not be set in ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml"
+	log "HOSTNAME (cn.router.hostname) cannot be set in ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml or ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf"
 fi
 
 ## TODO: configure to hit only a single PG instance
