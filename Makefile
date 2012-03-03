@@ -11,7 +11,7 @@ BUILDDIR      = build
 APTREPOS      = /var/dataone/apt
 
 # Location of the Packages.gz for this architecture
-APTPKG        = $(APTREPOS)/dists/karmic/universe/binary-amd64
+APTPKG        = $(APTREPOS)/dists/lucid/universe/binary-amd64
 
 
 TESTCRT = $(shell /bin/sh -c '/usr/bin/test -e /etc/ssl/certs/dataone.org.crt; echo $$?')
