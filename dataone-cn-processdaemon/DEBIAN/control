@@ -1,5 +1,5 @@
 Package: dataone-cn-processdaemon
-Version: 0.4.0
+Version: 1.0.0-RC2~unstable
 Section: utils
 Priority: optional
 Architecture: all
