@@ -1,7 +1,0 @@
-// ========== Mercury_3 APPLICATION PERMISSIONS ==================================
-
-// These permissions are granted by default to the Mercury application
-//
-grant codeBase "file:${catalina.base}/webapps/datanet_solr/-" {
-        permission java.security.AllPermission;
-};

@@ -1,9 +1,0 @@
-Package: dataone-cn-mercury
-Version: 0.0.1
-Section: utils
-Priority: optional
-Architecture: all
-Depends: dataone-cn-os-core, sun-java6-jdk, tomcat6, tomcat6-admin, mysql-server, mysql-client
-Installed-Size: 1 kb
-Maintainer: Robert Patrick Waltz <rwaltz@utk.edu>
-Description: This is a metapackage that installs the mercury dependencies that are needed to build a coordinating node instance, and then installs and configures the Mercury system itself.
