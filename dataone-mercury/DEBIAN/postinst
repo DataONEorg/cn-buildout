@@ -21,14 +21,6 @@ echo "Stopping Tomcat"
 ######################
 # Install mercury war
 ######################
-
-## backup the old war file
-if [ -e ${TOMCAT_HOME}/webapps/mercury3.war ]
-then
-  echo "Backing up ${TOMCAT_HOME}/webapps/mercury3.war to ${TOMCAT_HOME}/webapps/mercury3.war.${LONG_DATE}"
-  mv ${TOMCAT_HOME}/webapps/mercury3.war ${TOMCAT_HOME}/webapps/mercury3.war.${LONG_DATE}
-fi  
-
 ## remove the mercury application directory
 if [ -d ${TOMCAT_HOME}/webapps/mercury3 ]
 then
