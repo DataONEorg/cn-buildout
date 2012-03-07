@@ -29,7 +29,7 @@ then
 fi 
 
 ## copy the new war file into the webapps directory
-echo copying new mercury3.war file to ${TOMCAT_HOME}/webapps/mercury3.war
+echo "Copying new mercury3.war file to ${TOMCAT_HOME}/webapps/mercury3.war"
 cp ${SOURCE_DIR}/mercury3.war ${TOMCAT_HOME}/webapps/
 chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/mercury3.war
 
@@ -56,15 +56,6 @@ echo "Stopping Apache"
 /etc/init.d/apache2 stop
 
 ## copy in jk mount configuration file
-if [ -e ${APACHE_CONF}/jk_mount/${JK_CONF} ]
-then 
-  JK_DIFF=`diff ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/${JK_CONF}`
-  if [ "${JK_DIFF}" != "" ]
-  then
-    echo "Backing up ${APACHE_CONF}/jk_mount/${JK_CONF} to ${APACHE_CONF}/jk_mount/${JK_CONF}.${LONG_DATE}"
-    mv ${APACHE_CONF}/jk_mount/${JK_CONF} ${APACHE_CONF}/jk_mount/${JK_CONF}.${LONG_DATE}
-  fi
-fi
 echo "Copying ${JK_CONF} site file to ${APACHE_CONF}/jk_mount/"
 cp ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/
 

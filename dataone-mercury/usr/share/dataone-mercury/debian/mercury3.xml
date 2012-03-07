@@ -1,1 +1,1 @@
-<Context path="/mercury3/" antiResourceLocking="false" crossContext="true" />
+<Context path="/mercury3/" crossContext="false" />
