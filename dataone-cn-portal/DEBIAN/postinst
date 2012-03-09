@@ -16,6 +16,8 @@ DB_NAME=csd
 DB_USER=cilogon
 DB_PASS=cilogon
 
+HAZELCAST_PORT=5703
+
 SOURCE_DIR=/usr/share/portal
 SCRIPT_DIR=${SOURCE_DIR}/debian
 
@@ -36,6 +38,28 @@ logError () {
 log () {
     echo -e "$@" >> ${D1_LOG_DIR}/dataone-cn-portal.install.log
 }
+
+###############################################################################
+# Set up hazelcast configuration
+###############################################################################
+
+HAZELCAST_INTERFACE=""
+SPACER="        "
+for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+do
+    IP_XML_NODE="<interface>${ip}<\/interface>"
+    HAZELCAST_INTERFACE=${HAZELCAST_INTERFACE}${IP_XML_NODE}'\n'${SPACER}
+done
+
+## replace the string <interface>127.0.0.1</interface> with the environment's iplist
+## <interface>127.0.0.1</interface>
+sed -i.bak --regexp-extended "s/<interface>127\.0\.0\.1<\/interface>/${HAZELCAST_INTERFACE}/;" ${D1_CONF}/portal/hazelcast.xml
+
+## open up the correct port for hazelcast
+for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+do
+    ufw allow to any port ${HAZELCAST_PORT} from ${ip}
+done
 
 ###############################################################################
 # Install portal war file
