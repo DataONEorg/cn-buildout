@@ -3,5 +3,5 @@
 #grant executable to script
 chmod +x /usr/local/bin/dataone-cn-version-tool
 
-#generate initial html output
-/usr/local/bin/dataone-cn-version-tool -html > /usr/share/dataone-cn-version-tool/cn-version.html
+## Update DateONE Version Info Doc
+java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html
