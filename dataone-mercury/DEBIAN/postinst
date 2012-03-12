@@ -44,7 +44,7 @@ chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/Catalina/localhost/on
 
 # Add permissions needed by mercury
 echo "Copying ${SCRIPT_DIR}/52mercury.policy to ${TOMCAT_HOME}/conf/policy.d/"
-cp ${SCRIPT_DIR}/52mercury.policy ${TOMCAT_HOME}/conf/policy.d/
+cp ${SCRIPT_DIR}/52onemercury.policy ${TOMCAT_HOME}/conf/policy.d/
 chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/52onemercury.policy
 
 ###########################
