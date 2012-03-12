@@ -6,7 +6,7 @@ TOMCAT=tomcat6
 TOMCAT_USER=tomcat6
 TOMCAT_HOME=/var/lib/tomcat6
 APACHE_CONF=/etc/apache2
-JK_CONF=mercury3_jk.conf
+JK_CONF=onemercury_jk.conf
 
 SOURCE_DIR=/usr/share/dataone-mercury
 SCRIPT_DIR=${SOURCE_DIR}/debian
@@ -22,30 +22,30 @@ echo "Stopping Tomcat"
 # Install mercury war
 ######################
 ## remove the mercury application directory
-if [ -d ${TOMCAT_HOME}/webapps/mercury3 ]
+if [ -d ${TOMCAT_HOME}/webapps/onemercury ]
 then
   echo "Removing the old mercury application directories"
-  rm -rf ${TOMCAT_HOME}/webapps/mercury3
+  rm -rf ${TOMCAT_HOME}/webapps/onemercury
 fi 
 
 ## copy the new war file into the webapps directory
-echo "Copying new mercury3.war file to ${TOMCAT_HOME}/webapps/mercury3.war"
-cp ${SOURCE_DIR}/mercury3.war ${TOMCAT_HOME}/webapps/
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/mercury3.war
+echo "Copying new onemercury.war file to ${TOMCAT_HOME}/webapps/onemercury.war"
+cp ${SOURCE_DIR}/onemercury.war ${TOMCAT_HOME}/webapps/
+chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/onemercury.war
 
 ########################
 # Configure Tomcat
 ########################
 
 # Configure the context file
-echo "Copying ${SCRIPT_DIR}/mercury3.xml to ${TOMCAT_HOME}/conf/Catalina/localhost/"
-cp ${SCRIPT_DIR}/mercury3.xml ${TOMCAT_HOME}/conf/Catalina/localhost/
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/Catalina/localhost/mercury3.xml
+echo "Copying ${SCRIPT_DIR}/onemercury.xml to ${TOMCAT_HOME}/conf/Catalina/localhost/"
+cp ${SCRIPT_DIR}/onemercury.xml ${TOMCAT_HOME}/conf/Catalina/localhost/
+chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/Catalina/localhost/onemercury.xml
 
 # Add permissions needed by mercury
 echo "Copying ${SCRIPT_DIR}/52mercury.policy to ${TOMCAT_HOME}/conf/policy.d/"
 cp ${SCRIPT_DIR}/52mercury.policy ${TOMCAT_HOME}/conf/policy.d/
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/52mercury.policy
+chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/52onemercury.policy
 
 ###########################
 # Configure Apache

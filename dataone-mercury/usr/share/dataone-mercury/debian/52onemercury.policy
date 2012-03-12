@@ -2,6 +2,6 @@
 
 // These permissions are granted by default to the Mercury application
 //
-grant codeBase "file:${catalina.base}/webapps/mercury3/-" {
+grant codeBase "file:${catalina.base}/webapps/onemercury/-" {
         permission java.security.AllPermission;
 };

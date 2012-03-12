@@ -8,11 +8,11 @@ APACHE_CONF=/etc/apache2
 /etc/init.d/apache2 stop
 /etc/init.d/tomcat6 stop
 
-rm -rf ${TOMCAT_HOME}/webapps/mercury3
-rm -f ${TOMCAT_HOME}/webapps/mercury3*
-rm -f ${TOMCAT_HOME}/conf/Catalina/localhost/mercury3.xml
-rm -f ${TOMCAT_HOME}/conf/policy.d/52mercury.policy
-rm -f ${APACHE_CONF}/jk_mount/mercury3_jk.*
+rm -rf ${TOMCAT_HOME}/webapps/onemercury
+rm -f ${TOMCAT_HOME}/webapps/onemercury*
+rm -f ${TOMCAT_HOME}/conf/Catalina/localhost/onemercury.xml
+rm -f ${TOMCAT_HOME}/conf/policy.d/52onemercury.policy
+rm -f ${APACHE_CONF}/jk_mount/onemercury_jk.*
 
 /etc/init.d/tomcat6 start
 /etc/init.d/apache2 start
