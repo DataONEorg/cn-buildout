@@ -3,7 +3,7 @@ Version: 1.0.0-RC4
 Section: utils
 Priority: optional
 Architecture: all
-Depends: dataone-cn-os-core, sun-java6-jdk, tomcat6, tomcat6-admin
+Depends: dataone-cn-os-core, sun-java6-jdk, tomcat6, tomcat6-admin, dataone-cn-version-tool
 Installed-Size: 1 kb
 Maintainer: Ben Leinfelder <leinfelder@nceas.ucsb.edu>
 Description: This is a metapackage that installs the portal dependencies that are needed to build a coordinating node instance, and then installs and configures the portal system itself.

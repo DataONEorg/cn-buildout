@@ -58,6 +58,8 @@ fi
 #open up the correct port for hazelcast
 ufw allow 5702 
 
+## Update DateONE Version Info Doc
+java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html
 
 echo "Start Sychronization with /etc/init.d/d1-processing start"
 
