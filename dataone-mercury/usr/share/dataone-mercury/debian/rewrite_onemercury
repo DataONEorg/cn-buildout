@@ -1,0 +1,9 @@
+<IfModule rewrite_module>
+  RewriteEngine On
+  
+  RewriteLog /var/log/apache2/rewrite.log
+  RewriteLogLevel 1
+
+  RewriteRule ^/$  /onemercury/ [R]
+
+</IfModule>

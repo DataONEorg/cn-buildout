@@ -57,8 +57,9 @@ echo "Stopping Apache"
 
 ## copy in jk mount configuration file
 echo "Copying ${JK_CONF} site file to ${APACHE_CONF}/jk_mount/"
-cp ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/
 
+cp ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/
+cp ${SCRIPT_DIR}/rewrite_onemercury ${APACHE_CONF}/conf.d/
 
 ##################################
 # Start Apache and Tomcat
