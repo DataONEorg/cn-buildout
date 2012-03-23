@@ -32,6 +32,8 @@
             <hz:queue name="hzReplicationTasks" max-size-per-jvm="0" />
             <!-- A queue for SystemMetadata map change events to be processed -->
             <hz:queue name="hzReplicationEvents" max-size-per-jvm="0" />
+            <!-- A set for tracking replication events being processed -->
+            <hz:queue name="hzHandledReplicationEvents" max-size-per-jvm="0" />
             <hz:map name="hzNodes"
                     backup-count="3"
                     max-size="0"
