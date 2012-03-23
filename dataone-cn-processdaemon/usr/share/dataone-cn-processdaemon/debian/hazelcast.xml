@@ -33,7 +33,16 @@
             <!-- A queue for SystemMetadata map change events to be processed -->
             <hz:queue name="hzReplicationEvents" max-size-per-jvm="0" />
             <!-- A set for tracking replication events being processed -->
-            <hz:queue name="hzHandledReplicationEvents" max-size-per-jvm="0" />
+            <!-- 
+                Note: The hzHandledReplicationEvents set is created 
+                programmatically when the cluster is started. If it were 
+                configurable in this XML file, it would look something like 
+                the element below. This is just added for documentation 
+                purposes. 
+            
+            <hz:set name="hzHandledReplicationEvents" /> 
+            -->
+            
             <hz:map name="hzNodes"
                     backup-count="3"
                     max-size="0"
