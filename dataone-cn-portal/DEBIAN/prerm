@@ -17,6 +17,8 @@ rm -f ${TOMCAT_HOME}/conf/Catalina/localhost/portal.xml
 rm -f ${TOMCAT_HOME}/conf/policy.d/56portal.policy
 rm -f ${APACHE_CONF}/jk_mount/portal_jk.*
 
+rm -rf /etc/dataone/portal
+
 /etc/init.d/tomcat6 start
 /etc/init.d/apache2 start
 
