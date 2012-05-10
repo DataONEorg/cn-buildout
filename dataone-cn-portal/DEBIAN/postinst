@@ -245,9 +245,9 @@ sed -i.bak  "s/#\(listen_addresses\)/\1 /;" ${PG_CONF}/postgresql.conf
 db_get dataone-cn-os-core/cn.server.privatekey.filepath
 KEY_FILE=${RET}
 KEY_FILENAME=$(basename $KEY_FILE)
-rm ${KEY_DIR}/${KEY_FILENAME}
+rm ${PG_DATA}/server.key
 ln -s ${KEY_DIR}/${KEY_FILENAME} ${PG_DATA}/server.key
-rm ${CERT_DIR}/${CERT_FILENAME}
+rm ${PG_DATA}/server.crt
 ln -s ${CERT_DIR}/${CERT_FILENAME} ${PG_DATA}/server.crt
 
 ## Restart the postgres db
@@ -268,4 +268,5 @@ log "starting Tomcat server"
 ## Update DateONE Version Info Doc
 #java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html
 
+db_stop
 exit 0
