@@ -201,13 +201,13 @@ cp ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/
 ###############################################################################
 ## create CSD schema and user
 log "Creating ${DB_NAME} database schema"
-#su ${PG_USER} -c "createdb ${DB_NAME}"
+su ${PG_USER} -c "createdb ${DB_NAME}"
 
 log "Creating ${DB_USER} user" 
-#su ${PG_USER} -c "psql -c \"CREATE USER ${DB_USER} WITH UNENCRYPTED PASSWORD '${DB_PASS}'\""
+su ${PG_USER} -c "psql -c \"CREATE USER ${DB_USER} WITH UNENCRYPTED PASSWORD '${DB_PASS}'\""
 
 # run the script to create CSD user and tables
-#su ${PG_USER} -c "psql -f ${SCRIPT_DIR}/portal-tables.sql ${DB_NAME}"
+su ${PG_USER} -c "psql -f ${SCRIPT_DIR}/portal-tables.sql ${DB_NAME}"
 
 ## modify pg_hba.conf to allow traffic from each CN
 IP_ADDRESS=127.0.0.1
@@ -242,13 +242,13 @@ fi
 sed -i.bak  "s/#\(listen_addresses\)/\1 /;" ${PG_CONF}/postgresql.conf
 
 # enable SSL access for the server
-#db_get dataone-cn-os-core/cn.server.privatekey.filepath
-#KEY_FILE=${RET}
-#KEY_FILENAME=$(basename $KEY_FILE)
-#rm ${KEY_DIR}/${KEY_FILENAME}
-#ln -s ${KEY_DIR}/${KEY_FILENAME} ${PG_DATA}/server.key
-#rm ${CERT_DIR}/${CERT_FILENAME}
-#ln -s ${CERT_DIR}/${CERT_FILENAME} ${PG_DATA}/server.crt
+db_get dataone-cn-os-core/cn.server.privatekey.filepath
+KEY_FILE=${RET}
+KEY_FILENAME=$(basename $KEY_FILE)
+rm ${KEY_DIR}/${KEY_FILENAME}
+ln -s ${KEY_DIR}/${KEY_FILENAME} ${PG_DATA}/server.key
+rm ${CERT_DIR}/${CERT_FILENAME}
+ln -s ${CERT_DIR}/${CERT_FILENAME} ${PG_DATA}/server.crt
 
 ## Restart the postgres db
 log "Restarting postgres database"
@@ -267,3 +267,5 @@ log "starting Tomcat server"
 
 ## Update DateONE Version Info Doc
 #java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html
+
+exit 0
