@@ -245,10 +245,12 @@ sed -i.bak  "s/#\(listen_addresses\)/\1 /;" ${PG_CONF}/postgresql.conf
 db_get dataone-cn-os-core/cn.server.privatekey.filepath
 KEY_FILE=${RET}
 KEY_FILENAME=$(basename $KEY_FILE)
-rm ${PG_DATA}/server.key
-ln -s ${KEY_DIR}/${KEY_FILENAME} ${PG_DATA}/server.key
-rm ${PG_DATA}/server.crt
-ln -s ${CERT_DIR}/${CERT_FILENAME} ${PG_DATA}/server.crt
+#rm ${PG_DATA}/server.key
+cp ${KEY_DIR}/${KEY_FILENAME} ${PG_DATA}/server.key
+chown postgres.postgres ${PG_DATA}/server.key
+chmod 0600 ${PG_DATA}/server.key
+#rm ${PG_DATA}/server.crt
+cp ${CERT_DIR}/${CERT_FILENAME} ${PG_DATA}/server.crt
 
 ## Restart the postgres db
 log "Restarting postgres database"
