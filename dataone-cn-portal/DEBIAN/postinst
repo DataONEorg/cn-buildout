@@ -201,13 +201,13 @@ cp ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/
 ###############################################################################
 ## create CSD schema and user
 log "Creating ${DB_NAME} database schema"
-su ${PG_USER} -c "createdb ${DB_NAME}"
+#su ${PG_USER} -c "createdb ${DB_NAME}"
 
 log "Creating ${DB_USER} user" 
-su ${PG_USER} -c "psql -c \"CREATE USER ${DB_USER} WITH UNENCRYPTED PASSWORD '${DB_PASS}'\""
+#su ${PG_USER} -c "psql -c \"CREATE USER ${DB_USER} WITH UNENCRYPTED PASSWORD '${DB_PASS}'\""
 
 # run the script to create CSD user and tables
-su ${PG_USER} -c "psql -f ${SCRIPT_DIR}/portal-tables.sql ${DB_NAME}"
+#su ${PG_USER} -c "psql -f ${SCRIPT_DIR}/portal-tables.sql ${DB_NAME}"
 
 ## modify pg_hba.conf to allow traffic from each CN
 IP_ADDRESS=127.0.0.1
