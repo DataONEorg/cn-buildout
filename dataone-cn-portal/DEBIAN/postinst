@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# source the debconf library
+if [ -e "/usr/share/debconf/confmodule" ]; then
+    . /usr/share/debconf/confmodule
+else
+    echo "debconf must be installed. Exiting."
+    exit 1
+fi
+
 LONG_DATE=`date +%Y%m%d%H%M%S`
 
 TOMCAT=tomcat6
@@ -10,11 +18,16 @@ JK_CONF=portal_jk.conf
 
 PG=postgresql-8.4
 PG_CONF=/etc/postgresql/8.4/main
+PG_DATA=/var/lib/postgresql/8.4/main
 
 PG_USER=postgres
 DB_NAME=csd
 DB_USER=cilogon
 DB_PASS=cilogon
+
+KEY_DIR=/etc/ssl/private
+CERT_DIR=/etc/ssl/certs
+CERT_FILENAME=_.dataone.org.crt
 
 HAZELCAST_PORT=5703
 
@@ -223,6 +236,13 @@ then
 fi
 # make sure it is not commented out
 sed -i.bak  "s/#\(listen_addresses\)/\1 /;" ${PG_CONF}/postgresql.conf
+
+# enable SSL access for the server
+db_get dataone-cn-os-core/cn.server.privatekey.filepath
+KEY_FILE=${RET}
+KEY_FILENAME=$(basename $KEY_FILE)
+ln -s ${PG_DATA}/server.key ${KEY_DIR}/${KEY_FILENAME}
+ln -s ${PG_DATA}/server.crt ${CERT_DIR}/${CERT_FILENAME}
 
 ## Restart the postgres db
 log "Restarting postgres database"
