@@ -14,6 +14,7 @@ update-rc.d d1-processing defaults 99
 cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml ${D1_CONF}/process/hazelcast.xml
 cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties ${D1_CONF}/process/synchronization.properties
 cp /usr/share/dataone-cn-processdaemon/debian/logAggregation.properties ${D1_CONF}/process/logAggregation.properties
+cp /usr/share/dataone-cn-processdaemon/debian/replication.properties ${D1_CONF}/process/replication.properties
 
 # replace the IPs of the cn.iplist in node.properties so as to set them in hazelcast.xml
 CN_IPLIST=`egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
