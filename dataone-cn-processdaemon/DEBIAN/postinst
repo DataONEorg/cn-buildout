@@ -9,7 +9,6 @@ chmod +x /etc/init.d/d1-processing
 update-rc.d d1-processing defaults 99
 
 
-
 #these will need to be configured per environment
 cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml ${D1_CONF}/process/hazelcast.xml
 cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties ${D1_CONF}/process/synchronization.properties
@@ -21,7 +20,6 @@ HOSTNAME=$(/bin/hostname -f)
 
 if [ "$HOSTNAME" != "" ]
 then
-  sed -i.bak  's/SERVER_NAME/'${HOSTNAME}'/' ${D1_CONF}/process/synchronization.properties
   sed -i.bak  's/SERVER_NAME/'${HOSTNAME}'/' ${D1_CONF}/process/logAggregation.properties
   sed -i.bak  's/SERVER_NAME/'${HOSTNAME}'/' ${D1_CONF}/process/d1client.properties
 else

@@ -27,7 +27,7 @@
                 </hz:join>
                 <hz:symmetric-encryption enabled="false" algorithm="PBEWithMD5AndDES" salt="430asdfjweofgasdADF68978230jfh2012378asgfadfhweifASDFQWFDGAF" password="^fksos$@fA9829" iteration-count="25"/>
             </hz:network>
-            <hz:queue name="hzSyncObjectQueue" max-size-per-jvm="0" />
+            <hz:queue name="hzSyncObjectQueue" max-size-per-jvm="100000" />
             <!-- A queue for MNreplicationTasks to be processed -->
             <hz:queue name="hzReplicationTasks" max-size-per-jvm="0" />
             <!-- A queue for SystemMetadata map change events to be processed -->
