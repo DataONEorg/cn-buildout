@@ -224,6 +224,10 @@ do
 	
 	  log "appending 'host ${DB_NAME} ${DB_USER} ${IP_ADDRESS} 255.255.255.255 password' to ${PG_CONF}/pg_hba.conf"
 	  echo "host ${DB_NAME} ${DB_USER} ${IP_ADDRESS} 255.255.255.255 password" >> ${PG_CONF}/pg_hba.conf
+	  
+	  # open postgres port for this IP
+	  log "Adding 'ufw allow to any port 5432 from ${IP_ADDRESS}' rule"	  
+	  ufw allow to any port 5432 from ${IP_ADDRESS}
 	fi
 done
 
