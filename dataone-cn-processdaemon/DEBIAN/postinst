@@ -28,6 +28,8 @@ fi
 
 # replace the IPs of the cn.iplist in node.properties so as to set them in hazelcast.xml
 CN_IPLIST=`egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+
+
 #add in commas
 CN_IPLIST=${CN_IPLIST// /, }
 
@@ -67,7 +69,12 @@ then
 fi
 
 #open up the correct port for hazelcast
-ufw allow 5702 
+for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+do
+	IP_ADDRESS=${ip}
+	log "Adding 'ufw allow to any port 5702 from ${IP_ADDRESS}' rule"	  
+	ufw allow to any port 5702 from ${IP_ADDRESS}
+done
 
 ## Update DateONE Version Info Doc
 java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html
