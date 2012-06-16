@@ -79,7 +79,7 @@ do
     ufw allow to any port ${HAZELCAST_PORT} from ${ip}
 	# open postgres port for this IP
 	log "Adding 'ufw allow to any port 5432 from ${IP_ADDRESS}' rule"	  
-	ufw allow to any port 5432 from ${IP_ADDRESS}
+	ufw allow to any port 5432 from ${ip}
 done
 
 ###############################################################################
