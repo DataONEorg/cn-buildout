@@ -75,7 +75,11 @@ sed -i.bak --regexp-extended "s/<interface>127\.0\.0\.1<\/interface>/${HAZELCAST
 ## open up the correct port for hazelcast
 for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
 do
+    log "Adding 'ufw allow to any port ${HAZELCAST_PORT} from ${IP_ADDRESS}' rule"
     ufw allow to any port ${HAZELCAST_PORT} from ${ip}
+	# open postgres port for this IP
+	log "Adding 'ufw allow to any port 5432 from ${IP_ADDRESS}' rule"	  
+	ufw allow to any port 5432 from ${IP_ADDRESS}
 done
 
 ###############################################################################
@@ -225,9 +229,6 @@ do
 	  log "appending 'host ${DB_NAME} ${DB_USER} ${IP_ADDRESS} 255.255.255.255 password' to ${PG_CONF}/pg_hba.conf"
 	  echo "host ${DB_NAME} ${DB_USER} ${IP_ADDRESS} 255.255.255.255 password" >> ${PG_CONF}/pg_hba.conf
 	  
-	  # open postgres port for this IP
-	  log "Adding 'ufw allow to any port 5432 from ${IP_ADDRESS}' rule"	  
-	  ufw allow to any port 5432 from ${IP_ADDRESS}
 	fi
 done
 
