@@ -167,6 +167,13 @@ fi
 ## replace in the config file
 sed -i.bak  's/\(<d:portalSkin>\)DataONE/\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
 
+## set the CILogon server correctly
+CILOGON_SERVER=test.cilogon.org
+if [[ "${CONTEXT_LABEL}" == "PRODUCTION" ]]; then
+	CILOGON_SERVER=cilogon.org
+fi
+sed -i.bak  's/\(<param-value>https:\/\/\)test\.cilogon\.org/\1'${CILOGON_SERVER}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml
+
 ###############################################################################
 # Configure Tomcat
 ###############################################################################
