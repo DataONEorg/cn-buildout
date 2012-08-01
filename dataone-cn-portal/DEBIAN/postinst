@@ -45,7 +45,6 @@ DB_PASS=cilogon
 
 KEY_DIR=/etc/ssl/private
 CERT_DIR=/etc/ssl/certs
-CERT_FILENAME=_.dataone.org.crt
 
 HAZELCAST_PORT=5703
 
@@ -254,6 +253,11 @@ fi
 sed -i.bak  "s/#\(listen_addresses\)/\1 /;" ${PG_CONF}/postgresql.conf
 
 # enable SSL access for the server
+# get the correct public server cert value for the env
+db_get dataone-cn-os-core/cn.server.publiccert.filepath
+PUBLIC_SERVER_CERT=${RET}
+PUBLIC_SERVER_CERT=$(basename ${PUBLIC_SERVER_CERT})
+# get the private key
 db_get dataone-cn-os-core/cn.server.privatekey.filepath
 KEY_FILE=${RET}
 KEY_FILENAME=$(basename $KEY_FILE)
@@ -262,7 +266,7 @@ cp ${KEY_DIR}/${KEY_FILENAME} ${PG_DATA}/server.key
 chown postgres.postgres ${PG_DATA}/server.key
 chmod 0600 ${PG_DATA}/server.key
 rm ${PG_DATA}/server.crt
-cp ${CERT_DIR}/${CERT_FILENAME} ${PG_DATA}/server.crt
+cp ${CERT_DIR}/${PUBLIC_SERVER_CERT} ${PG_DATA}/server.crt
 
 ## Restart the postgres db
 log "Restarting postgres database"
