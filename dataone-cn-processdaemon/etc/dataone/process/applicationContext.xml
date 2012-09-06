@@ -58,6 +58,7 @@
     <bean id="longConnectionManagerTimeout" class="java.lang.Long">
         <constructor-arg index="0"  value="300000" />
     </bean>
+    
     <bean id="localhostSolrServer" class="org.dataone.solr.client.solrj.impl.LocalhostCommonsHttpSolrServer">
         <constructor-arg index="0"  value="${LogAggregator.solrUrl}" />
         <property name="maxRetries" value="1" />
@@ -90,6 +91,7 @@
     
     <bean id="systemMetadataEntryListener" class="org.dataone.cn.batch.logging.listener.SystemMetadataEntryListener">
         <property name="hazelcast" ref="hazelcastInstance" />
+        <property name="indexLogEntryQueue" ref="indexLogEntryQueue" />
     </bean>
 
     <bean id="logAggregationScheduler" class="org.dataone.cn.batch.logging.LogAggregationScheduleManager" init-method="init" >
