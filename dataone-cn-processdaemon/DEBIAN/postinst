@@ -6,7 +6,8 @@ NODE_PROPS="$D1_CONF/node.properties"
 
 chmod +x /etc/init.d/d1-processing
 
-update-rc.d d1-processing defaults 99
+update-rc.d -f d1-processing remove
+#update-rc.d d1-processing defaults 99
 
 
 #these will need to be configured per environment
