@@ -128,8 +128,9 @@
     <bean name="nodeCommFactory" class="org.dataone.cn.batch.synchronization.NodeCommD1ClientFactory" />
     <bean id="syncThreadPoolTaskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
         <property name="corePoolSize" value="50" />
-        <property name="maxPoolSize" value="500" />
+        <property name="maxPoolSize" value="100" />
         <property name="keepAliveSeconds" value="120" />
+        <property name="queueCapacity" value="50" />
         <property name="allowCoreThreadTimeOut" value="true" />
         <property name="rejectedExecutionHandler" ref="rejectionExecutionHander" />
         <property name="daemon" value="true" />
