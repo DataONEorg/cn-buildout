@@ -75,6 +75,7 @@
         <property name="corePoolSize" value="5" />
         <property name="maxPoolSize" value="10" />
         <property name="keepAliveSeconds" value="120" />
+        <property name="queueCapacity" value="5" />
         <property name="allowCoreThreadTimeOut" value="true" />
         <property name="rejectedExecutionHandler" ref="rejectionExecutionHander" />
         <property name="daemon" value="true" />
