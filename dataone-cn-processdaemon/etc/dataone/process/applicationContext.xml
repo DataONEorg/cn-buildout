@@ -142,7 +142,6 @@
     <bean id="syncObjectTask" class="org.dataone.cn.batch.synchronization.tasks.SyncObjectTask">
         <property name="threadPoolTaskExecutor" ref="syncThreadPoolTaskExecutor" />
         <property name="hazelcast" ref="hazelcastInstance" />
-        <property name="nodeCommunicationsFactory" ref="nodeCommFactory" />
         <property name="maxNumberOfClientsPerMemberNode" value="4" />
     </bean>
     <bean id="syncObjectTaskManager" class="org.dataone.cn.batch.synchronization.SyncObjectTaskManager" init-method="init" >
