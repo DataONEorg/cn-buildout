@@ -126,7 +126,6 @@
         <property name="hazelcastLdapStore" ref="hazelcastLdapStore" />
     </bean>
 
-    <bean name="nodeCommFactory" class="org.dataone.cn.batch.synchronization.NodeCommD1ClientFactory" />
     <bean id="syncThreadPoolTaskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
         <property name="corePoolSize" value="50" />
         <property name="maxPoolSize" value="100" />
