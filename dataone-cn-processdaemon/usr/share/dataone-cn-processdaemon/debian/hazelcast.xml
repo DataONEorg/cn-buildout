@@ -9,7 +9,8 @@
        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
        http://www.hazelcast.com/schema/spring http://www.hazelcast.com/schema/spring/hazelcast-spring-2.4.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd" >
-        
+       
+      <hz:hazelcast id="hazelcastInstance">
         <hz:config id="hazelcastConfig">
             <hz:instance-name>hzProcessInstance</hz:instance-name>
             <hz:group name="hzProcess" password="dataone"/>
@@ -63,10 +64,7 @@
                     merge-policy="hz.LATEST_UPDATE">
             </hz:map>
         </hz:config>
-    
-	<bean id="hazelcastInstance" class="com.hazelcast.core.Hazelcast" factory-method="newHazelcastInstance" destroy-method="shutdownAll">
-	        <constructor-arg ref="hazelcastConfig" />
-	</bean>
+    </hz:hazelcast>
 	
     <hz:topic id="hzLogEntryTopic" instance-ref="hazelcastInstance" name="hzLogEntryTopic"/>
 
