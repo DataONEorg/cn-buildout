@@ -64,7 +64,7 @@
             </hz:map>
         </hz:config>
     
-	<bean id="hazelcastInstance" class="com.hazelcast.core.Hazelcast" factory-method="init" destroy-method="shutdown">
+	<bean id="hazelcastInstance" class="com.hazelcast.core.Hazelcast" factory-method="newHazelcastInstance" destroy-method="shutdownAll">
 	        <constructor-arg ref="hazelcastConfig" />
 	</bean>
 	
