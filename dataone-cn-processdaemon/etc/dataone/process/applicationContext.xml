@@ -94,6 +94,7 @@
     <bean id="systemMetadataEntryListener" class="org.dataone.cn.batch.logging.listener.SystemMetadataEntryListener">
         <property name="hazelcast" ref="hazelcastInstance" />
         <property name="indexLogEntryQueue" ref="indexLogEntryQueue" />
+        <property name="localhostSolrServer" ref="localhostSolrServer" />
     </bean>
 
     <bean id="logAggregationScheduler" class="org.dataone.cn.batch.logging.LogAggregationScheduleManager" init-method="init" >
