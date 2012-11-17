@@ -10,10 +10,16 @@
        http://www.hazelcast.com/schema/spring http://www.hazelcast.com/schema/spring/hazelcast-spring-2.4.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd" >
        
+    <bean id="hazelcastProperties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    	<property name="ignoreUnresolvablePlaceholders" value="true"/>
+        <property name="location">
+            <value>file:/etc/dataone/process/dataoneHazelcast.properties</value>
+        </property>
+    </bean> 
       <hz:hazelcast id="hazelcastInstance">
         <hz:config id="hazelcastConfig">
-            <hz:instance-name>hzProcessInstance</hz:instance-name>
-            <hz:group name="hzProcess" password="dataone"/>
+            <hz:instance-name>${dataone.hazelcast.process.instanceName}</hz:instance-name>
+            <hz:group name="${dataone.hazelcast.process.groupName}" password="${dataone.hazelcast.process.groupPassword}"/>
             
             <hz:properties>
                 <hz:property name="hazelcast.merge.first.run.delay.seconds">120</hz:property>
@@ -30,9 +36,10 @@
                 </hz:join>
                 <hz:symmetric-encryption enabled="false" algorithm="PBEWithMD5AndDES" salt="430asdfjweofgasdADF68978230jfh2012378asgfadfhweifASDFQWFDGAF" password="^fksos$@fA9829" iteration-count="25"/>
             </hz:network>
-            <hz:queue name="hzSyncObjectQueue" max-size-per-jvm="100000" />
+            
+            <hz:queue name="${dataone.hazelcast.synchronizationObjectQueue}" max-size-per-jvm="100000" />
             <!-- A queue for SystemMetadata map change events to be processed -->
-            <hz:queue name="hzReplicationEvents" max-size-per-jvm="0" />
+            <hz:queue name="${dataone.hazelcast.replicationQueuedEvents}" max-size-per-jvm="0" />
             <!-- A set for tracking replication events being processed -->
             <!-- 
                 Note: The hzHandledReplicationEvents set is created 
@@ -44,7 +51,7 @@
             <hz:set name="hzHandledReplicationEvents" /> 
             -->
             
-            <hz:map name="hzNodes"
+            <hz:map name="${dataone.hazelcast.nodes}"
                     backup-count="3"
                     max-size="0"
                     eviction-percentage="30"
@@ -54,7 +61,7 @@
                     merge-policy="hz.LATEST_UPDATE">
                 <hz:map-store enabled="true" implementation="hazelcastLdapStore" write-delay-seconds="0" />
             </hz:map>
-            <hz:map name="hzLogAggregatorLock"
+            <hz:map name="${dataone.hazelcast.logAggregatorLock}"
                     backup-count="3"
                     max-size="0"
                     eviction-percentage="30"
@@ -63,11 +70,12 @@
                     eviction-policy="NONE"
                     merge-policy="hz.LATEST_UPDATE">
             </hz:map>
+            <hz:executor-service name="${dataone.hazelcast.synchronizationExecutorService}" core-pool-size="50" max-pool-size="100" keep-alive-seconds="300" />
         </hz:config>
     </hz:hazelcast>
 	
-    <hz:topic id="hzLogEntryTopic" instance-ref="hazelcastInstance" name="hzLogEntryTopic"/>
+    <hz:topic id="${dataone.hazelcast.logEntryTopic}" instance-ref="hazelcastInstance" name="${dataone.hazelcast.logEntryTopic}"/>
 
-    <hz:atomicNumber id="hzLogEntrySequence" instance-ref="hazelcastInstance" name="hzLogEntrySequence"/>
+    <hz:atomicNumber id="${dataone.hazelcast.atomicNumberSequence}" instance-ref="hazelcastInstance" name="${dataone.hazelcast.atomicNumberSequence}"/>
     
 </beans>
