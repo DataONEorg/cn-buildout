@@ -36,7 +36,7 @@
                 </hz:join>
                 <hz:symmetric-encryption enabled="false" algorithm="PBEWithMD5AndDES" salt="430asdfjweofgasdADF68978230jfh2012378asgfadfhweifASDFQWFDGAF" password="^fksos$@fA9829" iteration-count="25"/>
             </hz:network>
-            
+            <hz:executor-service name="${dataone.hazelcast.synchronizationExecutorService}" core-pool-size="50" max-pool-size="100" keep-alive-seconds="300" />
             <hz:queue name="${dataone.hazelcast.synchronizationObjectQueue}" max-size-per-jvm="100000" />
             <!-- A queue for SystemMetadata map change events to be processed -->
             <hz:queue name="${dataone.hazelcast.replicationQueuedEvents}" max-size-per-jvm="0" />
@@ -70,7 +70,7 @@
                     eviction-policy="NONE"
                     merge-policy="hz.LATEST_UPDATE">
             </hz:map>
-            <hz:executor-service name="${dataone.hazelcast.synchronizationExecutorService}" core-pool-size="50" max-pool-size="100" keep-alive-seconds="300" />
+            
         </hz:config>
     </hz:hazelcast>
 	
