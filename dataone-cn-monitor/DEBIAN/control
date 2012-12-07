@@ -1,0 +1,9 @@
+Package: dataone-cn-monitor
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: dataone-cn-os-core, sun-java6-jdk, jsvc, libcommons-daemon-java, dataone-cn-version-tool
+Installed-Size: 1 kb
+Maintainer: Skye Roseboom <sroseboo@dataone.unm.edu>
+Description: This is a metapackage that installs the a CN monitor component.  It handles detecting when connections between hazelcast cluster members is interrupted.

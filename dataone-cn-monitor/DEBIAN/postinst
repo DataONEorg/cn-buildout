@@ -1,0 +1,32 @@
+#!/bin/bash
+
+LONG_DATE=`date +%Y%m%d%H%M%S`
+
+chmod +x /etc/init.d/d1-cn-monitor
+
+if [ ! -d "/etc/dataone/monitor" ]; then
+  mkdir /etc/dataone/monitor
+fi
+
+#provide context properties files for postgres, log4j, solr location
+cp /usr/share/dataone-cn-monitor/log4j.properties /etc/dataone/monitor/log4j.properties
+
+chown -R tomcat6.tomcat6 /etc/dataone/monitor
+
+cp /usr/share/dataone-cn-monitor/d1_cn_monitor_daemon.jar /usr/share/java
+
+chown -R tomcat6.tomcat6 /usr/share/java/d1_cn_monitor_daemon.jar
+
+if [ ! -d "/var/log/dataone/monitor" ]; then
+  mkdir  /var/log/dataone/monitor
+fi
+chown tomcat6.tomcat6 /var/log/dataone/monitor
+
+######### Finished! inform user how to start daemons
+echo ""
+echo "CN Monitor has finished installing. "
+echo ""
+echo "Start the monitor daemon with /etc/init.d/d1-cn-monitor start"
+
+## Update DateONE Version Info Doc
+java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html

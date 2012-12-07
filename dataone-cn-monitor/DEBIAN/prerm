@@ -1,0 +1,18 @@
+#!/bin/bash
+
+LONG_DATE=`date +%Y%m%d%H%M%S`
+
+## handle monitor daemon
+/etc/init.d/d1-cn-monitor stop
+update-rc.d -f d1-cn-monitor remove
+rm -f /etc/init.d/d1-cn-monitor
+
+## clean up log and config directory
+rm -rf /etc/dataone/monitor/log4j.properties
+#rm -rf /var/log/dataone/monitor
+
+rm -f /var/run/d1-cn-monitor.pid
+rm -f /usr/share/java/d1_cn_monitor_daemon.jar
+
+## Update DateONE Version Info Doc
+java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html
