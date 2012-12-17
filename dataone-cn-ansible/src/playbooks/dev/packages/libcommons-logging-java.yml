@@ -1,0 +1,8 @@
+- include: default-jre-headless.yml
+
+- include: java1-runtime-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- name: Installing libcommons-logging-java package
+  action: apt pkg=libcommons-logging-java install_recommends=no

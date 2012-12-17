@@ -1,0 +1,2 @@
+- name: Installing zlib1g package
+  action: apt pkg=zlib1g=1:1.2.3.3.dfsg-15ubuntu1 install_recommends=no

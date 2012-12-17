@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- include: libslang2.yml
+
+- name: Installing libnewt0.52 package
+  action: apt pkg=libnewt0.52 install_recommends=no

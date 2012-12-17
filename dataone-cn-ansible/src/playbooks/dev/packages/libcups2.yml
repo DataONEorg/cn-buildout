@@ -1,0 +1,2 @@
+- name: Installing libcups2 package
+  action: apt pkg=libcups2=1.4.0 install_recommends=no

@@ -1,0 +1,8 @@
+- include: libaprutil1.yml
+
+- include: libc6.yml
+
+- include: libsybdb5.yml
+
+- name: Installing libaprutil1-dbd-freetds package
+  action: apt pkg=libaprutil1-dbd-freetds install_recommends=no

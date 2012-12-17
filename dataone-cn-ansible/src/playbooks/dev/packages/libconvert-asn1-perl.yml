@@ -1,0 +1,4 @@
+- include: perl.yml
+
+- name: Installing libconvert-asn1-perl package
+  action: apt pkg=libconvert-asn1-perl install_recommends=no

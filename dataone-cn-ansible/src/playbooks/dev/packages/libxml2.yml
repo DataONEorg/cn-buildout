@@ -1,0 +1,2 @@
+- name: Installing libxml2 package
+  action: apt pkg=libxml2=2.7.6.dfsg-1ubuntu1.7 install_recommends=no

@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libxdmcp6 package
+  action: apt pkg=libxdmcp6 install_recommends=no

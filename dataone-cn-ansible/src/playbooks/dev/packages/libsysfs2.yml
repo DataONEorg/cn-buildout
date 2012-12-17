@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libsysfs2 package
+  action: apt pkg=libsysfs2 install_recommends=no

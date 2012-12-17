@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libnspr4-0d package
+  action: apt pkg=libnspr4-0d install_recommends=no

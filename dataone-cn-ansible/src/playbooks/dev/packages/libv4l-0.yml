@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libv4l-0 package
+  action: apt pkg=libv4l-0 install_recommends=no

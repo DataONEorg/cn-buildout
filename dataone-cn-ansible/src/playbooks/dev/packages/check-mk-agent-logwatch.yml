@@ -1,0 +1,2 @@
+- name: Installing check-mk-agent-logwatch package
+  action: apt pkg=check-mk-agent-logwatch install_recommends=no force=yes

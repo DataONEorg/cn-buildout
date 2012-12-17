@@ -1,0 +1,7 @@
+- name: Installing dataone-cn-processdaemon
+  hosts: dev
+  user: localadmin
+  tasks:
+
+   - include: packages/dataone-cn-processdaemon.yml
+

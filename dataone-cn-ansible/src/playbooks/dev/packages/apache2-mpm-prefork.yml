@@ -1,0 +1,6 @@
+- include: apache2.2-bin.yml
+
+- include: apache2.2-common.yml
+
+- name: Installing apache2-mpm-prefork package
+  action: apt pkg=apache2-mpm-prefork install_recommends=no

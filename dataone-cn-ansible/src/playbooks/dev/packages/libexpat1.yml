@@ -1,0 +1,2 @@
+- name: Installing libexpat1 package
+  action: apt pkg=libexpat1=1.95.8 install_recommends=no

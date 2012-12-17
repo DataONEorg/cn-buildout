@@ -1,0 +1,8 @@
+- include: debconf.yml
+
+- include: passwd.yml
+
+- include: perl-base.yml
+
+- name: Installing adduser package
+  action: apt pkg=adduser install_recommends=no

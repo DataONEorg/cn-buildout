@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libssl0.9.8.yml
+
+- include: python2.6.yml
+
+- include: zlib1g.yml
+
+- name: Installing libpython2.6 package
+  action: apt pkg=libpython2.6 install_recommends=no

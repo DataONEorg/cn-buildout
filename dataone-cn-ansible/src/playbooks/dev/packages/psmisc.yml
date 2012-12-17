@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- include: libncurses5.yml
+
+- name: Installing psmisc package
+  action: apt pkg=psmisc install_recommends=no

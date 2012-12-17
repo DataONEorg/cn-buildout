@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libkeyutils1 package
+  action: apt pkg=libkeyutils1 install_recommends=no

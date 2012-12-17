@@ -1,0 +1,6 @@
+- include: dpkg.yml
+
+- include: python2.6-minimal.yml
+
+- name: Installing python-minimal package
+  action: apt pkg=python-minimal install_recommends=no

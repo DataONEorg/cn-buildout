@@ -1,0 +1,4 @@
+- include: x11-common.yml
+
+- name: Installing xfonts-encodings package
+  action: apt pkg=xfonts-encodings install_recommends=no

@@ -1,0 +1,4 @@
+- include: debconf.yml
+
+- name: Installing tzdata package
+  action: apt pkg=tzdata install_recommends=no

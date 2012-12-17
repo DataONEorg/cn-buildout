@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libx11-6.yml
+
+- include: libxext6.yml
+
+- include: libxfixes3.yml
+
+- name: Installing libxcomposite1 package
+  action: apt pkg=libxcomposite1 install_recommends=no

@@ -1,0 +1,2 @@
+- name: Installing libuuid1 package
+  action: apt pkg=libuuid1=2.16-1 install_recommends=no

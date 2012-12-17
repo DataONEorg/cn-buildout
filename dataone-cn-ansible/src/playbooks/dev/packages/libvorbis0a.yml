@@ -1,0 +1,2 @@
+- name: Installing libvorbis0a package
+  action: apt pkg=libvorbis0a=1.1.2 install_recommends=no

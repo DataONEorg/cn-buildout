@@ -1,0 +1,12 @@
+- include: libc6.yml
+
+- include: libwrap0.yml
+
+- include: lsb-base.yml
+
+- include: netbase.yml
+
+- include: update-inetd.yml
+
+- name: Installing xinetd package
+  action: apt pkg=xinetd install_recommends=no

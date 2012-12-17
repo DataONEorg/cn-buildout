@@ -1,0 +1,2 @@
+- name: Installing solr-common package
+  action: apt pkg=solr-common=3.4.0~blubolt2~lucid1 install_recommends=no

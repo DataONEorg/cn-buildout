@@ -1,0 +1,20 @@
+- include: libaccess-bridge-java.yml
+
+- include: libatk1.0-0.yml
+
+- include: libc6.yml
+
+- include: libcairo2.yml
+
+- include: libfontconfig1.yml
+
+- include: libfreetype6.yml
+
+- include: libglib2.0-0.yml
+
+- include: libgtk2.0-0.yml
+
+- include: libpango1.0-0.yml
+
+- name: Installing libaccess-bridge-java-jni package
+  action: apt pkg=libaccess-bridge-java-jni install_recommends=no

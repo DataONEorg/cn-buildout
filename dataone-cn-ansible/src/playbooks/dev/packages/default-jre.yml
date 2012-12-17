@@ -1,0 +1,6 @@
+- include: default-jre-headless.yml
+
+- include: openjdk-6-jre.yml
+
+- name: Installing default-jre package
+  action: apt pkg=default-jre install_recommends=no

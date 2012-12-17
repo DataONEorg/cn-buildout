@@ -1,0 +1,4 @@
+- include: debconf.yml
+
+- name: Installing debconf-utils package
+  action: apt pkg=debconf-utils install_recommends=no

@@ -1,0 +1,8 @@
+- include: gcc-4.4-base.yml
+
+- include: libc6.yml
+
+- include: libgcc1.yml
+
+- name: Installing libstdc++6 package
+  action: apt pkg=libstdc++6 install_recommends=no

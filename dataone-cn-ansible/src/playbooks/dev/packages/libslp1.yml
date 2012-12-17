@@ -1,0 +1,6 @@
+- include: debconf.yml
+
+- include: libc6.yml
+
+- name: Installing libslp1 package
+  action: apt pkg=libslp1 install_recommends=no

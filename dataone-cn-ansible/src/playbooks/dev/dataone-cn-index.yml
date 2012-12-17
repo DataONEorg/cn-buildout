@@ -1,0 +1,7 @@
+- name: Installing dataone-cn-index
+  hosts: dev
+  user: localadmin
+  tasks:
+
+   - include: packages/dataone-cn-index.yml
+

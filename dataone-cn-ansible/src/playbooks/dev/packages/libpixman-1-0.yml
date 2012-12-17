@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libpixman-1-0 package
+  action: apt pkg=libpixman-1-0 install_recommends=no

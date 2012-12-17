@@ -1,0 +1,12 @@
+- include: libc6.yml
+
+- include: libhtml-tagset-perl.yml
+
+- include: liburi-perl.yml
+
+- include: perl.yml
+
+- include: perl-base.yml 
+
+- name: Installing libhtml-parser-perl package
+  action: apt pkg=libhtml-parser-perl install_recommends=no

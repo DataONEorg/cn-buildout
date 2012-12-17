@@ -1,0 +1,8 @@
+- include: libconvert-asn1-perl.yml
+
+- include: perl.yml
+
+- include: libwww-perl.yml
+
+- name: Installing libnet-ldap-perl package
+  action: apt pkg=libnet-ldap-perl install_recommends=no

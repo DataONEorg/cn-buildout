@@ -1,0 +1,2 @@
+- name: Installing libogg0 package
+  action: apt pkg=libogg0=1.1.0 install_recommends=no

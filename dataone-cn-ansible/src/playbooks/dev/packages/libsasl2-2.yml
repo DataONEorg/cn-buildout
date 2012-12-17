@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- include: libdb4.8.yml
+
+- name: Installing libsasl2-2 package
+  action: apt pkg=libsasl2-2 install_recommends=no

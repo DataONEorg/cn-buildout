@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libx11-6.yml
+
+- include: libxfixes3.yml
+
+- name: Installing libxdamage1 package
+  action: apt pkg=libxdamage1 install_recommends=no

@@ -1,0 +1,8 @@
+- include: default-jre.yml
+
+- include: openjdk-6-jre.yml
+
+- include: sun-java6-jre.yml
+
+- name: Installing libaccess-bridge-java package
+  action: apt pkg=libaccess-bridge-java install_recommends=no

@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libx11-6.yml
+
+- include: libxext6.yml
+
+- name: Installing libxi6 package
+  action: apt pkg=libxi6 install_recommends=no

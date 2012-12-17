@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libx11-data.yml
+
+- include: libxcb1.yml
+
+- name: Installing libx11-6 package
+  action: apt pkg=libx11-6 install_recommends=no

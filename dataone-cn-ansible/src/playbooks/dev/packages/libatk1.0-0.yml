@@ -1,0 +1,2 @@
+- name: Installing libatk1.0-0 package
+  action: apt pkg=libatk1.0-0=1.29.3 install_recommends=no

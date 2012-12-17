@@ -1,0 +1,2 @@
+- name: Installing upstart package
+  action: apt pkg=upstart install_recommends=no

@@ -1,0 +1,6 @@
+- include: default-jre-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- name: Installing libcommons-io-java package
+  action: apt pkg=libcommons-io-java install_recommends=no

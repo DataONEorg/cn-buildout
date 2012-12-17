@@ -1,0 +1,2 @@
+- name: Installing tsconf package
+  action: apt pkg=tsconf install_recommends=no

@@ -1,0 +1,8 @@
+- include: dpkg.yml
+
+- include: install-info.yml
+
+- include: libc6.yml
+
+- name: Installing libgdbm3 package
+  action: apt pkg=libgdbm3 install_recommends=no

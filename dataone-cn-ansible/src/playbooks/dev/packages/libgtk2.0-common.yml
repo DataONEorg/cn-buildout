@@ -1,0 +1,2 @@
+- name: Installing libgtk2.0-common package
+  action: apt pkg=libgtk2.0-common install_recommends=no

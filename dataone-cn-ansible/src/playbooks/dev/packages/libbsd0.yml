@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libbsd0 package
+  action: apt pkg=libbsd0 install_recommends=no

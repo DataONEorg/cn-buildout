@@ -1,0 +1,6 @@
+- include: solr-common.yml
+
+- include: tomcat6.yml
+
+- name: Installing solr-tomcat package
+  action: apt pkg=solr-tomcat install_recommends=no force=yes

@@ -1,0 +1,10 @@
+- include: default-jre-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- include: libcommons-codec-java.yml
+
+- include: libcommons-logging-java.yml
+
+- name: Installing libcommons-httpclient-java package
+  action: apt pkg=libcommons-httpclient-java install_recommends=no

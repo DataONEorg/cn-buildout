@@ -1,0 +1,2 @@
+- name: Installing libc6.1 package
+  action: apt pkg=libc6.1 install_recommends=no

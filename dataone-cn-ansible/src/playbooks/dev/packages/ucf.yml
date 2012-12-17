@@ -1,0 +1,2 @@
+- name: Installing ucf package
+  action: apt pkg=ucf=3.0025 install_recommends=no

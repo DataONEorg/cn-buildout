@@ -1,0 +1,4 @@
+- include: perl.yml
+
+- name: Installing libfile-copy-recursive-perl package
+  action: apt pkg=libfile-copy-recursive-perl install_recommends=no

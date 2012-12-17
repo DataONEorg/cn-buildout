@@ -1,0 +1,6 @@
+- include: libattr1.yml
+
+- include: libc6.yml
+
+- name: Installing libacl1 package
+  action: apt pkg=libacl1 install_recommends=no

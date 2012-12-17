@@ -1,0 +1,2 @@
+- name: Installing libavahi-common-data package
+  action: apt pkg=libavahi-common-data install_recommends=no

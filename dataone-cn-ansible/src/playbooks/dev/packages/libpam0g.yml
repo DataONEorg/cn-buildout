@@ -1,0 +1,2 @@
+- name: Installing libpam0g package
+  action: apt pkg=libpam0g=1.1.1-2ubuntu5.4 install_recommends=no

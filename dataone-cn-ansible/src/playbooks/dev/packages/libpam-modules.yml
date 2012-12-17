@@ -1,0 +1,2 @@
+- name: Installing libpam-modules package
+  action: apt pkg=libpam-modules=0.79-3ubuntu3 install_recommends=no

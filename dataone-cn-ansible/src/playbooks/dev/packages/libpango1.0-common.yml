@@ -1,0 +1,8 @@
+- include: debconf.yml
+
+- include: defoma.yml
+
+- include: fontconfig.yml
+
+- name: Installing libpango1.0-common package
+  action: apt pkg=libpango1.0-common install_recommends=no

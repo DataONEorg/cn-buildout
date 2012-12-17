@@ -1,0 +1,2 @@
+- name: Installing libcomerr2 package
+  action: apt pkg=libcomerr2=1.41.11-1ubuntu2.1 install_recommends=no

@@ -1,0 +1,2 @@
+- name: Installing libmagic1 package
+  action: apt pkg=libmagic1=5.03-5ubuntu1 install_recommends=no

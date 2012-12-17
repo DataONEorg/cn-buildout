@@ -1,0 +1,6 @@
+- include: default-jre-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- name: Installing libcommons-collections-java package
+  action: apt pkg=libcommons-collections-java install_recommends=no

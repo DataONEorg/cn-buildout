@@ -1,0 +1,10 @@
+- include: gcc-4.4-base.yml
+
+- include: ia32-libs.yml
+
+- include: lib32gcc1.yml
+
+- include: libc6-i386.yml
+
+- name: Installing lib32stdc++6 package
+  action: apt pkg=lib32stdc++6 install_recommends=no

@@ -1,0 +1,2 @@
+- name: Installing apache2.2-bin package
+  action: apt pkg=apache2.2-bin=2.2.14-5ubuntu8.10 install_recommends=no

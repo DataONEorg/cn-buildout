@@ -1,0 +1,2 @@
+- name: Installing postgresql-client-common package
+  action: apt pkg=postgresql-client-common=106ubuntu1 install_recommends=no

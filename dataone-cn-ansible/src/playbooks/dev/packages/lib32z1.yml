@@ -1,0 +1,4 @@
+- include: libc6-i386.yml
+
+- name: Installing lib32z1 package
+  action: apt pkg=lib32z1 install_recommends=no

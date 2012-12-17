@@ -1,0 +1,7 @@
+- name: Installing dataone-cn-os-core
+  hosts: dev
+  user: localadmin
+  tasks:
+
+   - include: packages/dataone-cn-os-core.yml
+

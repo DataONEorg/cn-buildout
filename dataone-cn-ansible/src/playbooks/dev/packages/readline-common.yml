@@ -1,0 +1,6 @@
+- include: dpkg.yml
+
+- include: install-info.yml
+
+- name: Installing readline-common package
+  action: apt pkg=readline-common install_recommends=no

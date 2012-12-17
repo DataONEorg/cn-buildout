@@ -1,0 +1,2 @@
+- name: Installing ttf-freefont package
+  action: apt pkg=ttf-freefont install_recommends=no

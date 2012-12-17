@@ -1,0 +1,2 @@
+- name: Installing libc6-i386 package
+  action: apt pkg=libc6-i386=2.11 install_recommends=no

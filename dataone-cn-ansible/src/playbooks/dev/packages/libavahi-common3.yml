@@ -1,0 +1,6 @@
+- include: libavahi-common-data.yml
+
+- include: libc6.yml
+
+- name: Installing libavahi-common3 package
+  action: apt pkg=libavahi-common3 install_recommends=no

@@ -1,0 +1,14 @@
+- include: default-jre-headless.yml
+
+- include: java6-runtime-headless.yml
+
+- include: libcommons-dbcp-java.yml
+
+- include: libcommons-pool-java.yml
+
+- include: libecj-java.yml
+
+- include: libservlet2.5-java.yml
+
+- name: Installing libtomcat6-java package
+  action: apt pkg=libtomcat6-java install_recommends=no

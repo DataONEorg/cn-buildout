@@ -1,0 +1,8 @@
+- include: libbsd0.yml
+
+- include: libc6.yml
+
+- include: libncurses5.yml
+
+- name: Installing libedit2 package
+  action: apt pkg=libedit2 install_recommends=no

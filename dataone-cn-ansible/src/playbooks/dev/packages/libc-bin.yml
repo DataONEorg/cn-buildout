@@ -1,0 +1,2 @@
+- name: Installing libc-bin package
+  action: apt pkg=libc-bin install_recommends=no

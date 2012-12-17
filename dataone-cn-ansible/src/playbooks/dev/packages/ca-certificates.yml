@@ -1,0 +1,6 @@
+- include: debconf.yml
+
+- include: openssl.yml
+
+- name: Installing ca-certificates package
+  action: apt pkg=ca-certificates install_recommends=no

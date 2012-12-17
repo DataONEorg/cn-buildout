@@ -1,0 +1,2 @@
+- name: Installing sun-java6-bin package
+  action: apt pkg=sun-java6-bin=6.34-1~lucid1 install_recommends=no

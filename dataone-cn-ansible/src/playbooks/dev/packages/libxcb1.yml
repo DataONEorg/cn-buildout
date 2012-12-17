@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libxau6.yml
+
+- include: libxdmcp6.yml
+
+- name: Installing libxcb1 package
+  action: apt pkg=libxcb1 install_recommends=no

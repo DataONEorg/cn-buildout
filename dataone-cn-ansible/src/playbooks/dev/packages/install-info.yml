@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing install-info package
+  action: apt pkg=install-info install_recommends=no

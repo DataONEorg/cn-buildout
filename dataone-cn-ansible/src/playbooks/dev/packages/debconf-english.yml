@@ -1,0 +1,4 @@
+- include: debconf.yml
+
+- name: Installing debconf-english package
+  action: apt pkg=debconf-english install_recommends=no

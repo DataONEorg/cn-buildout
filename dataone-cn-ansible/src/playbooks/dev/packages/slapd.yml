@@ -1,0 +1,34 @@
+- include: adduser.yml
+
+- include: coreutils.yml
+
+- include: libc6.yml
+
+- include: libdb4.7.yml
+
+- include: libgnutls26.yml
+
+- include: libgssapi-krb5-2.yml
+
+- include: libldap-2.4-2.yml
+
+- include: libltdl7.yml
+
+- include: perl.yml
+
+- include: libperl5.10.yml
+
+- include: libsasl2-2.yml
+
+- include: libslp1.yml
+
+- include: libwrap0.yml
+
+- include: psmisc.yml
+
+- include: unixodbc.yml
+
+- include: debconf.yml
+
+- name: Installing slapd package
+  action: apt pkg=slapd install_recommends=no

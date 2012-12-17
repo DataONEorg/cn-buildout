@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- include: libpython2.6.yml
+
+- name: Installing libasound2 package
+  action: apt pkg=libasound2 install_recommends=no

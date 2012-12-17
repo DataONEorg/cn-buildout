@@ -1,0 +1,2 @@
+- name: Installing libwrap0 package
+  action: apt pkg=libwrap0=7.6.q-18 install_recommends=no

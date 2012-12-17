@@ -1,0 +1,12 @@
+- include: debconf.yml
+
+- include: liblocale-gettext-perl.yml
+
+- include: libtext-charwidth-perl.yml
+
+- include: libtext-iconv-perl.yml
+
+- include: libtext-wrapi18n-perl.yml
+
+- name: Installing debconf-i18n package
+  action: apt pkg=debconf-i18n install_recommends=no

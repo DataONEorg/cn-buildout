@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing locales package
+  action: apt pkg=locales install_recommends=no

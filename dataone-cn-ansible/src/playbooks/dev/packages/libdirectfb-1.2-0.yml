@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libsysfs2.yml
+
+- include: libts-0.0-0.yml
+
+- name: Installing libdirectfb-1.2-0 package
+  action: apt pkg=libdirectfb-1.2-0 install_recommends=no

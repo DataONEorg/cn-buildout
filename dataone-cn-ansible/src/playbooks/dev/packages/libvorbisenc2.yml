@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libogg0.yml
+
+- include: libvorbis0a.yml
+
+- name: Installing libvorbisenc2 package
+  action: apt pkg=libvorbisenc2 install_recommends=no

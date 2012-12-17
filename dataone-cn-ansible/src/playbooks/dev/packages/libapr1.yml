@@ -1,0 +1,2 @@
+- name: Installing libapr1 package
+  action: apt pkg=libapr1=1.2.7 install_recommends=no

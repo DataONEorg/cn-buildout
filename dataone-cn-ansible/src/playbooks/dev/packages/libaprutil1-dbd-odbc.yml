@@ -1,0 +1,8 @@
+- include: libaprutil1.yml
+
+- include: libc6.yml
+
+- include: unixodbc.yml
+
+- name: Installing libaprutil1-dbd-odbc package
+  action: apt pkg=libaprutil1-dbd-odbc install_recommends=no

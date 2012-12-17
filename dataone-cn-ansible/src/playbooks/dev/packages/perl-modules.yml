@@ -1,0 +1,4 @@
+- include: perl.yml
+
+- name: Installing perl-modules package
+  action: apt pkg=perl-modules install_recommends=no

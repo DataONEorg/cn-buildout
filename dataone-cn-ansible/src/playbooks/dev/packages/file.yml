@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libmagic1.yml
+
+- include: zlib1g.yml
+
+- name: Installing file package
+  action: apt pkg=file install_recommends=no

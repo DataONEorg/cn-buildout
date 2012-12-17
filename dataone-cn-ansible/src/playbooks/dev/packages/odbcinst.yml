@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libltdl7.yml
+
+- include: odbcinst1debian1.yml
+
+- name: Installing odbcinst package
+  action: apt pkg=odbcinst install_recommends=no

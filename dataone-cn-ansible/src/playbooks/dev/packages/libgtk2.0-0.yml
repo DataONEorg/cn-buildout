@@ -1,0 +1,56 @@
+- include: libatk1.0-0.yml
+
+- include: libc6.yml
+
+- include: libcairo2.yml
+
+- include: libcups2.yml
+
+- include: libfontconfig1.yml
+
+- include: libfreetype6.yml
+
+- include: libglib2.0-0.yml
+
+- include: libgnutls26.yml
+
+- include: libgssapi-krb5-2.yml
+
+- include: libgtk2.0-common.yml
+
+- include: libjasper1.yml
+
+- include: libjpeg62.yml
+
+- include: libpango1.0-0.yml
+
+- include: libpng12-0.yml
+
+- include: libtiff4.yml
+
+- include: libx11-6.yml
+
+- include: libxcomposite1.yml
+
+- include: libxcursor1.yml
+
+- include: libxdamage1.yml
+
+- include: libxext6.yml
+
+- include: libxfixes3.yml
+
+- include: libxi6.yml
+
+- include: libxinerama1.yml
+
+- include: libxrandr2.yml
+
+- include: libxrender1.yml
+
+- include: shared-mime-info.yml
+
+- include: zlib1g.yml
+
+- name: Installing libgtk2.0-0 package
+  action: apt pkg=libgtk2.0-0 install_recommends=no

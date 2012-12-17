@@ -1,0 +1,2 @@
+- name: Installing python2.6-minimal package
+  action: apt pkg=python2.6-minimal=2.6.5 install_recommends=no

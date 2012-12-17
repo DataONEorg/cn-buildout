@@ -1,0 +1,12 @@
+- include: libbz2-1.0.yml
+
+- include: libc6.yml
+
+- include: libfontenc1.yml
+
+- include: libfreetype6.yml
+
+- include: zlib1g.yml
+
+- name: Installing libxfont1 package
+  action: apt pkg=libxfont1 install_recommends=no

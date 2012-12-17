@@ -1,0 +1,8 @@
+- include: base-passwd.yml
+
+- include: libpam-modules.yml
+
+- include: awk.yml
+
+- name: Installing base-files package
+  action: apt pkg=base-files install_recommends=no

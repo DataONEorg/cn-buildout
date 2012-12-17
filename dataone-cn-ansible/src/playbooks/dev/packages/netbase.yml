@@ -1,0 +1,6 @@
+- include: lsb-base.yml
+
+- include: upstart.yml
+
+- name: Installing netbase package
+  action: apt pkg=netbase install_recommends=no

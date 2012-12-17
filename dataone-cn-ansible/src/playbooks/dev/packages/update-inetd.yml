@@ -1,0 +1,8 @@
+- include: debconf.yml
+
+- include: libfile-copy-recursive-perl.yml
+
+- include: libfile-temp-perl.yml
+
+- name: Installing update-inetd package
+  action: apt pkg=update-inetd install_recommends=no

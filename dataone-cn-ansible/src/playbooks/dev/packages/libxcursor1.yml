@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libx11-6.yml
+
+- include: libxfixes3.yml
+
+- include: libxrender1.yml
+
+- name: Installing libxcursor1 package
+  action: apt pkg=libxcursor1 install_recommends=no

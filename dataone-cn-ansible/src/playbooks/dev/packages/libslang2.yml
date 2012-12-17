@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libslang2 package
+  action: apt pkg=libslang2 install_recommends=no

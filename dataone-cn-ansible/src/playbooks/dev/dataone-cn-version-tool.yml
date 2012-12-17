@@ -1,0 +1,7 @@
+- name: Installing dataone-cn-version-tool
+  hosts: dev
+  user: localadmin
+  tasks:
+
+   - include: packages/dataone-cn-version-tool.yml
+

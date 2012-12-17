@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libjpeg62 package
+  action: apt pkg=libjpeg62 install_recommends=no

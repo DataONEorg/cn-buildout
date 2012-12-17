@@ -1,0 +1,8 @@
+- include: libaprutil1.yml
+
+- include: libc6.yml
+
+- include: libsqlite3-0.yml
+
+- name: Installing libaprutil1-dbd-sqlite3 package
+  action: apt pkg=libaprutil1-dbd-sqlite3 install_recommends=no

@@ -1,0 +1,2 @@
+- name: Installing debianutils package
+  action: apt pkg=debianutils=1.13 install_recommends=no

@@ -1,0 +1,6 @@
+- include: gcc-4.4-base.yml
+
+- include: libc6.yml
+
+- name: Installing libgcc1 package
+  action: apt pkg=libgcc1 install_recommends=no

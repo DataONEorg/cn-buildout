@@ -1,0 +1,8 @@
+- include: ca-certificates.yml
+
+- include: java6-runtime-headless.yml
+
+- include: openjdk-6-jre-headless.yml
+
+- name: Installing ca-certificates-java package
+  action: apt pkg=ca-certificates-java install_recommends=no

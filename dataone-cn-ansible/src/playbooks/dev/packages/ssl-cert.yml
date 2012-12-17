@@ -1,0 +1,8 @@
+- include: adduser.yml
+
+- include: debconf.yml
+
+- include: openssl.yml
+
+- name: Installing ssl-cert package
+  action: apt pkg=ssl-cert install_recommends=no

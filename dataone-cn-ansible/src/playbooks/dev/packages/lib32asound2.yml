@@ -1,0 +1,6 @@
+- include: libasound2.yml
+
+- include: libc6-i386.yml
+
+- name: Installing lib32asound2 package
+  action: apt pkg=lib32asound2 install_recommends=no

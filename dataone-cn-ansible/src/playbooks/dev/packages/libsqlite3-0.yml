@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libsqlite3-0 package
+  action: apt pkg=libsqlite3-0 install_recommends=no

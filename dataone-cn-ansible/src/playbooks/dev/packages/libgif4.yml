@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libgif4 package
+  action: apt pkg=libgif4 install_recommends=no

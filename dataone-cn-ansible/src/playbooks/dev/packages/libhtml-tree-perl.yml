@@ -1,0 +1,8 @@
+- include: libhtml-parser-perl.yml
+
+- include: libhtml-tagset-perl.yml
+
+- include: perl.yml
+
+- name: Installing libhtml-tree-perl package
+  action: apt pkg=libhtml-tree-perl install_recommends=no

@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- include: libgpg-error0.yml
+
+- name: Installing libgcrypt11 package
+  action: apt pkg=libgcrypt11 install_recommends=no

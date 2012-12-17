@@ -1,0 +1,2 @@
+- name: Installing lsb-base package
+  action: apt pkg=lsb-base=4.0-0ubuntu8.1 install_recommends=no

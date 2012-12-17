@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- include: libx11-6.yml
+
+- name: Installing libxrender1 package
+  action: apt pkg=libxrender1 install_recommends=no

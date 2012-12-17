@@ -1,0 +1,2 @@
+- name: Installing libx11-data package
+  action: apt pkg=libx11-data install_recommends=no

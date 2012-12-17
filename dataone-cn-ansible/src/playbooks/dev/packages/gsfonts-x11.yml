@@ -1,0 +1,6 @@
+- include: gsfonts.yml
+
+- include: xfonts-utils.yml
+
+- name: Installing gsfonts-x11 package
+  action: apt pkg=gsfonts-x11 install_recommends=no

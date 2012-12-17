@@ -1,0 +1,2 @@
+- name: Installing libfreetype6 package
+  action: apt pkg=libfreetype6=2.3.5 install_recommends=no

@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing findutils package
+  action: apt pkg=findutils install_recommends=no

@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libselinux1 package
+  action: apt pkg=libselinux1 install_recommends=no

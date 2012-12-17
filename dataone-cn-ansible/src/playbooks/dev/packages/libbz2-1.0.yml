@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libbz2-1.0 package
+  action: apt pkg=libbz2-1.0 install_recommends=no

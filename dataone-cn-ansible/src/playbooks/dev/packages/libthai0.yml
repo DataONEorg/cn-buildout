@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libdatrie1.yml
+
+- include: libthai-data.yml
+
+- name: Installing libthai0 package
+  action: apt pkg=libthai0 install_recommends=no

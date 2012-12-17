@@ -1,0 +1,4 @@
+- include: tomcat6-common.yml
+
+- name: Installing tomcat6-admin package
+  action: apt pkg=tomcat6-admin install_recommends=no

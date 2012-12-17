@@ -1,0 +1,8 @@
+- include: libavahi-common3.yml
+
+- include: libc6.yml
+
+- include: libdbus-1-3.yml
+
+- name: Installing libavahi-client3 package
+  action: apt pkg=libavahi-client3 install_recommends=no

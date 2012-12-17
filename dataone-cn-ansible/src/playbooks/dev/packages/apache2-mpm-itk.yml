@@ -1,0 +1,6 @@
+- include: apache2.2-bin.yml
+
+- include: apache2.2-common.yml
+
+- name: Installing apache2-mpm-itk package
+  action: apt pkg=apache2-mpm-itk install_recommends=no

@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- include: tsconf.yml
+
+- name: Installing libts-0.0-0 package
+  action: apt pkg=libts-0.0-0 install_recommends=no

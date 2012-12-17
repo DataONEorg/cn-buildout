@@ -1,0 +1,34 @@
+- include: apache2.yml
+
+- include: check-mk-agent.yml
+
+- include: check-mk-agent-logwatch.yml
+
+- include: debconf.yml
+
+- include: debconf-utils.yml
+
+- include: ldap-utils.yml
+
+- include: libapache2-mod-jk.yml
+
+- include: libio-socket-ssl-perl.yml
+
+- include: libnet-ldap-perl.yml
+
+- include: nagios-plugins-basic.yml
+
+- include: ntp.yml
+
+- include: slapd.yml
+
+- include: sun-java6-jdk.yml
+
+- include: tomcat6.yml
+
+- include: tomcat6-admin.yml
+
+- include: xinetd.yml
+
+- name: Installing dataone-cn-os-core package
+  action: apt pkg=dataone-cn-os-core install_recommends=no force=yes

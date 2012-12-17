@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libtasn1-3 package
+  action: apt pkg=libtasn1-3 install_recommends=no

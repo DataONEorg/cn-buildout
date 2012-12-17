@@ -1,0 +1,7 @@
+- name: Installing dataone-mercury
+  hosts: dev
+  user: localadmin
+  tasks:
+
+   - include: packages/dataone-mercury.yml
+

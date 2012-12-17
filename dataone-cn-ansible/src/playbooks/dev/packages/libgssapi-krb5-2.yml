@@ -1,0 +1,2 @@
+- name: Installing libgssapi-krb5-2 package
+  action: apt pkg=libgssapi-krb5-2=1.8.1+dfsg-2ubuntu0.11 install_recommends=no

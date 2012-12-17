@@ -1,0 +1,2 @@
+- name: Installing ttf-dejavu-core package
+  action: apt pkg=ttf-dejavu-core install_recommends=no

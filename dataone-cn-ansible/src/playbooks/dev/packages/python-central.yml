@@ -1,0 +1,4 @@
+- include: python.yml
+
+- name: Installing python-central package
+  action: apt pkg=python-central install_recommends=no

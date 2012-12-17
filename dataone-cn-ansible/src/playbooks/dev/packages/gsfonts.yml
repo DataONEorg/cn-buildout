@@ -1,0 +1,4 @@
+- include: defoma.yml
+
+- name: Installing gsfonts package
+  action: apt pkg=gsfonts install_recommends=no

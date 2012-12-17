@@ -1,0 +1,2 @@
+- name: Installing mime-support package
+  action: apt pkg=mime-support install_recommends=no

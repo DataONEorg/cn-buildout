@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libncurses5.yml
+
+- include: lsb-base.yml
+
+- include: upstart.yml
+
+- name: Installing procps package
+  action: apt pkg=procps install_recommends=no

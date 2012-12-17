@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing iputils-ping package
+  action: apt pkg=iputils-ping install_recommends=no

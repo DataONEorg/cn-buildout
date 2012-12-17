@@ -1,0 +1,18 @@
+- include: adduser.yml
+
+- include: libc6.yml
+
+- include: libcap2.yml
+
+- include: libedit2.yml
+
+- include: libncurses5.yml
+
+- include: libssl0.9.8.yml
+
+- include: lsb-base.yml
+
+- include: netbase.yml
+
+- name: Installing ntp package
+  action: apt pkg=ntp install_recommends=no

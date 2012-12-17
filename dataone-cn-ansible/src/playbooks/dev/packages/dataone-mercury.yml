@@ -1,0 +1,6 @@
+- include: dataone-cn-solr.yml
+
+- include: dataone-cn-version-tool.yml
+
+- name: Installing dataone-mercury package
+  action: apt pkg=dataone-mercury install_recommends=no force=yes

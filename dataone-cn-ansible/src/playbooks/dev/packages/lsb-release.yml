@@ -1,0 +1,6 @@
+- include: python.yml
+
+- include: python-central.yml
+
+- name: Installing lsb-release package
+  action: apt pkg=lsb-release install_recommends=no

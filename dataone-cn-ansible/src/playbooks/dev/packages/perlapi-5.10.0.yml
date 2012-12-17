@@ -1,0 +1,2 @@
+- name: Installing perlapi-5.10.0 package
+  action: apt pkg=perlapi-5.10.0 install_recommends=no

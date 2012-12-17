@@ -1,0 +1,8 @@
+- include: libaprutil1.yml
+
+- include: libc6.yml
+
+- include: libpq5.yml
+
+- name: Installing libaprutil1-dbd-pgsql package
+  action: apt pkg=libaprutil1-dbd-pgsql install_recommends=no

@@ -1,0 +1,12 @@
+- include: dataone-cn-os-core.yml
+
+- include: dataone-cn-version-tool.yml
+
+- include: sun-java6-jdk.yml
+
+- include: tomcat6.yml
+
+- include: tomcat6-admin.yml
+
+- name: Installing dataone-cn-rest-service package
+  action: apt pkg=dataone-cn-rest-service install_recommends=no force=yes

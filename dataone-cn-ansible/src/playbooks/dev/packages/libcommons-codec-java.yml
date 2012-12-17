@@ -1,0 +1,6 @@
+- include: default-jre-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- name: Installing libcommons-codec-java package
+  action: apt pkg=libcommons-codec-java install_recommends=no

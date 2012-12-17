@@ -1,0 +1,2 @@
+- name: Installing tomcat6-common package
+  action: apt pkg=tomcat6-common=6.0.24-2ubuntu1.11 install_recommends=no

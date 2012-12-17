@@ -1,0 +1,10 @@
+- include: debconf.yml
+
+- include: debianutils.yml
+
+- include: lsb-base.yml
+
+- include: upstart.yml
+
+- name: Installing x11-common package
+  action: apt pkg=x11-common install_recommends=no

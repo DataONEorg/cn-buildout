@@ -1,0 +1,14 @@
+- include: fontconfig-config.yml
+
+- include: libc6.yml
+
+- include: libexpat1.yml
+
+- include: libfontconfig1.yml
+
+- include: libfreetype6.yml
+
+- include: zlib1g.yml
+
+- name: Installing fontconfig package
+  action: apt pkg=fontconfig install_recommends=no

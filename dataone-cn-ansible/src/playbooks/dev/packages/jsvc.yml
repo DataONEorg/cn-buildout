@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- include: libcommons-daemon-java.yml
+
+- name: Installing jsvc package
+  action: apt pkg=jsvc install_recommends=no

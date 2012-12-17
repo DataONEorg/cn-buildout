@@ -1,0 +1,6 @@
+- include: perl.yml
+
+- include: perl-modules.yml
+
+- name: Installing liburi-perl package
+  action: apt pkg=liburi-perl install_recommends=no

@@ -1,0 +1,2 @@
+- name: Installing java6-runtime-headless package
+  action: apt pkg=sun-java6-jre install_recommends=no

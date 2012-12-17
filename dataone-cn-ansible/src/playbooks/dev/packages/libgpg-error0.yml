@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libgpg-error0 package
+  action: apt pkg=libgpg-error0 install_recommends=no

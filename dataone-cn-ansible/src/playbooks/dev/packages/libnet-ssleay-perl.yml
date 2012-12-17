@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libssl0.9.8.yml
+
+- include: perl.yml
+
+- include: perl-base.yml 
+
+- name: Installing libnet-ssleay-perl package
+  action: apt pkg=libnet-ssleay-perl install_recommends=no

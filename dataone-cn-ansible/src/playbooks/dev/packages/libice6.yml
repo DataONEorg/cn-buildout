@@ -1,0 +1,2 @@
+- name: Installing libice6 package
+  action: apt pkg=libice6=1:1.0.0 install_recommends=no

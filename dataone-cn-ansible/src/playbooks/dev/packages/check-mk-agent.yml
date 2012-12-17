@@ -1,0 +1,2 @@
+- name: Installing check-mk-agent package
+  action: apt pkg=check-mk-agent install_recommends=no force=yes

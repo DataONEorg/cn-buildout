@@ -1,0 +1,12 @@
+- include: gsfonts-x11.yml
+
+- include: ttf-bitstream-vera.yml
+
+- include: ttf-dejavu-core.yml
+
+- include: ttf-freefont.yml
+
+- include: ucf.yml
+
+- name: Installing fontconfig-config package
+  action: apt pkg=fontconfig-config install_recommends=no

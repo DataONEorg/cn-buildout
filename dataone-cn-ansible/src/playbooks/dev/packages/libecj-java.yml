@@ -1,0 +1,4 @@
+- include: java-common.yml
+
+- name: Installing libecj-java package
+  action: apt pkg=libecj-java install_recommends=no

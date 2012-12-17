@@ -1,0 +1,2 @@
+- name: Installing java-common package
+  action: apt pkg=java-common install_recommends=no

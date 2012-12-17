@@ -1,0 +1,2 @@
+- name: Installing perl package
+  action: apt pkg=perl=5.10.1-8ubuntu2.2 install_recommends=no

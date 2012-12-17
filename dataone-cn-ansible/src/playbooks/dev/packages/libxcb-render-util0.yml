@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libxcb-render0.yml
+
+- include: libxcb1.yml
+
+- name: Installing libxcb-render-util0 package
+  action: apt pkg=libxcb-render-util0 install_recommends=no

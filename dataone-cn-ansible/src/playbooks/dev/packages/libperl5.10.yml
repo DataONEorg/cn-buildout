@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- include: perl-base.yml
+
+- name: Installing libperl5.10 package
+  action: apt pkg=libperl5.10 install_recommends=no

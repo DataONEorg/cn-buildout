@@ -1,0 +1,26 @@
+- hosts: dev
+  user: localadmin
+  tasks:
+    - name:   Ensure that apt_repository is installed
+      action: apt pkg=python-software-properties state=installed
+      
+    - name:   Set up the partner repo
+      action: apt_repository repo='deb http://archive.canonical.com/ubuntu lucid partner'
+      
+    - name:   Set up the partner src repo
+      action: apt_repository repo='deb-src http://archive.canonical.com/ubuntu lucid partner'
+
+    - name:   Set up the dev testing stable repo
+      action: apt_repository repo='deb http://dev-testing.dataone.org/ubuntu-stable lucid universe'
+
+    - name:   Set up the ubuntu extras repo
+      action: apt_repository repo='deb http://dev-testing.dataone.org/ubuntu-extra lucid universe'
+
+    - name:   Set up the ubuntu java repo
+      action: apt_repository repo='deb http://mule1.dataone.org/ubuntu-java lucid universe'
+      
+    - name:   Update the repo cache
+      action: apt update-cache=yes
+      
+    
+    

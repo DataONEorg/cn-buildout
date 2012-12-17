@@ -1,0 +1,2 @@
+- name: Installing libfontconfig1 package
+  action: apt pkg=libfontconfig1=2.8.0 install_recommends=no

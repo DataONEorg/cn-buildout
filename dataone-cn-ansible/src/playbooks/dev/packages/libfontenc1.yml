@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- include: zlib1g.yml
+
+- name: Installing libfontenc1 package
+  action: apt pkg=libfontenc1 install_recommends=no

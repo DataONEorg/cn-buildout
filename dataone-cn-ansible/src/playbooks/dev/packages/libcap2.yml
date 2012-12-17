@@ -1,0 +1,2 @@
+- name: Installing libcap2 package
+  action: apt pkg=libcap2=1:2.17-2ubuntu1.1 install_recommends=no

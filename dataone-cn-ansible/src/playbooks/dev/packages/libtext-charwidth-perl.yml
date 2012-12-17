@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- include: perl-base.yml
+
+- name: Installing libtext-charwidth-perl package
+  action: apt pkg=libtext-charwidth-perl install_recommends=no

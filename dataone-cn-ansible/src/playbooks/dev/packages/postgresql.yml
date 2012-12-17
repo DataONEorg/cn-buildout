@@ -1,0 +1,4 @@
+- include: postgresql-8.4.yml
+
+- name: Installing postgresql package
+  action: apt pkg=postgresql install_recommends=no

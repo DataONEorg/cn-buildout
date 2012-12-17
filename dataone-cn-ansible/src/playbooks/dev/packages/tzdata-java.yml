@@ -1,0 +1,4 @@
+- include: tzdata.yml
+
+- name: Installing tzdata-java package
+  action: apt pkg=tzdata-java install_recommends=no

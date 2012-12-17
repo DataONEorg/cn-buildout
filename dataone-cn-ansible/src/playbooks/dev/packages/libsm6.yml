@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libice6.yml
+
+- include: libuuid1.yml
+
+- name: Installing libsm6 package
+  action: apt pkg=libsm6 install_recommends=no

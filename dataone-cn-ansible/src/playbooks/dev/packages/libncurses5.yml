@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libncurses5 package
+  action: apt pkg=libncurses5 install_recommends=no

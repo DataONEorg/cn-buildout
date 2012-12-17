@@ -1,0 +1,8 @@
+- include: debianutils.yml
+
+- include: libc6.yml
+
+- include: libncursesw5.yml
+
+- name: Installing dialog package
+  action: apt pkg=dialog install_recommends=no

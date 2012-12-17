@@ -1,0 +1,2 @@
+- name: Installing java2-runtime package
+  action: apt pkg=java2-runtime install_recommends=no

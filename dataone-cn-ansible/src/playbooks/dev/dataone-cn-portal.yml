@@ -1,0 +1,7 @@
+- name: Installing dataone-cn-portal
+  hosts: dev
+  user: localadmin
+  tasks:
+
+   - include: packages/dataone-cn-portal.yml
+

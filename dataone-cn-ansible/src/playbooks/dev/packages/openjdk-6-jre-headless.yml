@@ -1,0 +1,2 @@
+- name: Installing openjdk-6-jre-headless package
+  action: apt pkg=openjdk-6-jre-headless=6b18-1.8-0ubuntu1 install_recommends=no

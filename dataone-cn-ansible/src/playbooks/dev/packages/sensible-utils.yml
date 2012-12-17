@@ -1,0 +1,2 @@
+- name: Installing sensible-utils package
+  action: apt pkg=sensible-utils install_recommends=no

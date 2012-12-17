@@ -1,0 +1,8 @@
+- include: libaprutil1.yml
+
+- include: libc6.yml
+
+- include: libmysqlclient16.yml
+
+- name: Installing libaprutil1-dbd-mysql package
+  action: apt pkg=libaprutil1-dbd-mysql install_recommends=no

@@ -1,0 +1,4 @@
+- include: sun-java6-jdk.yml
+
+- name: Installing dataone-cn-version-tool package
+  action: apt pkg=dataone-cn-version-tool install_recommends=no force=yes

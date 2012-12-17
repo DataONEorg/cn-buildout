@@ -1,0 +1,2 @@
+- name: Installing libldap-2.4-2 package
+  action: apt pkg=libldap-2.4-2=2.4.21-0ubuntu5.7 install_recommends=no

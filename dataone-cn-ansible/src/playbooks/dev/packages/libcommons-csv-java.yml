@@ -1,0 +1,6 @@
+- include: java2-runtime.yml
+
+- include: openjdk-6-jre.yml
+
+- name: Installing libcommons-csv-java package
+  action: apt pkg=libcommons-csv-java install_recommends=no

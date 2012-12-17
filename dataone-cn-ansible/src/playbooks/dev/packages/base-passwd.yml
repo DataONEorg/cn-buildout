@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing base-passwd package
+  action: apt pkg=base-passwd install_recommends=no

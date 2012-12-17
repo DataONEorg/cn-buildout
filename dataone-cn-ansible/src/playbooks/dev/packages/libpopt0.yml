@@ -1,0 +1,4 @@
+- include: libc6.yml
+
+- name: Installing libpopt0 package
+  action: apt pkg=libpopt0 install_recommends=no

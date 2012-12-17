@@ -1,0 +1,2 @@
+- name: Installing openjdk-6-jre package
+  action: apt pkg=openjdk-6-jre=6b14 install_recommends=no
