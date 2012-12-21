@@ -10,6 +10,7 @@ fi
 
 #provide context properties files for postgres, log4j, solr location
 cp /usr/share/dataone-cn-monitor/log4j.properties /etc/dataone/monitor/log4j.properties
+cp /usr/share/dataone-cn-monitor/cn-monitor.properties /etc/dataone/monitor/cn-monitor.properties
 
 chown -R tomcat6.tomcat6 /etc/dataone/monitor
 
