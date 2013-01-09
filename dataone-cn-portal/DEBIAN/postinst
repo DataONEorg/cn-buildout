@@ -253,6 +253,14 @@ fi
 sed -i.bak  "s/#\(listen_addresses\)/\1 /;" ${PG_CONF}/postgresql.conf
 
 # enable SSL access for the server
+PG_SSL_IS_MODIFIED=`egrep "ssl *= *on" ${PG_CONF}/postgresql.conf`
+if [ "${PG_SSL_IS_MODIFIED}" == "" ]
+then
+	sed -i.bak  "s/\(ssl\s*\=\s*\)off/\1 on/;" ${PG_CONF}/postgresql.conf
+fi
+# make sure it is not commented out
+sed -i.bak  "s/#\(ssl\)/\1 /;" ${PG_CONF}/postgresql.conf
+
 # get the correct public server cert value for the env
 db_get dataone-cn-os-core/cn.server.publiccert.filepath
 PUBLIC_SERVER_CERT=${RET}
