@@ -25,13 +25,13 @@
                 <hz:property name="hazelcast.merge.first.run.delay.seconds">120</hz:property>
                 <hz:property name="hazelcast.merge.next.run.delay.seconds">60</hz:property>
             </hz:properties>
-            <hz:network port="5702" port-auto-increment="false">
+            <hz:network port="${dataone.hazelcast.process.port}" port-auto-increment="false">
                 <hz:join>
                     <hz:multicast enabled="false"
                                   multicast-group="224.2.2.3"
                                   multicast-port="54327"/>
                     <hz:tcp-ip enabled="true">
-                        <hz:members>127.0.0.1</hz:members>
+                        <hz:members>${dataone.hazelcast.iplist}</hz:members>
                     </hz:tcp-ip>
                 </hz:join>
                 <hz:symmetric-encryption enabled="false" algorithm="PBEWithMD5AndDES" salt="430asdfjweofgasdADF68978230jfh2012378asgfadfhweifASDFQWFDGAF" password="^fksos$@fA9829" iteration-count="25"/>
