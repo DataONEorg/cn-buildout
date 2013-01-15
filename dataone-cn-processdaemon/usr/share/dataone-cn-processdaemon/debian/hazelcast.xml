@@ -24,6 +24,7 @@
             <hz:properties>
                 <hz:property name="hazelcast.merge.first.run.delay.seconds">120</hz:property>
                 <hz:property name="hazelcast.merge.next.run.delay.seconds">60</hz:property>
+                <hz:property name="hazelcast.logging.type">log4j</hz:property>
             </hz:properties>
             <hz:network port="${dataone.hazelcast.process.port}" port-auto-increment="false">
                 <hz:join>
