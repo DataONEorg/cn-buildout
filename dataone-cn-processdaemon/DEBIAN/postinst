@@ -44,8 +44,6 @@ CN_IPLIST=`egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print
 #add in commas
 CN_IPLIST=${CN_IPLIST// /, }
 
-#sed -i.bak --regexp-extended "s/127\.0\.0\.1/${CN_IPLIST}/;" ${D1_CONF}/process/hazelcast.xml
-
 #place iplist value into dataoneHazelcast.properties at dataone.hazelcast.iplist
 sed -i.bak "s/\(dataone\.hazelcast\.iplist *=\).*/\1${CN_IPLIST}/" ${D1_CONF}/process/dataoneHazelcast.properties
 
