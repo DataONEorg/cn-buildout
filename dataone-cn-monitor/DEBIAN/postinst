@@ -23,6 +23,10 @@ if [ ! -d "/var/log/dataone/monitor" ]; then
 fi
 chown tomcat6.tomcat6 /var/log/dataone/monitor
 
+#Deploy the nagios plugin local script to /usr/lib/check_mk_agent/local
+cp /usr/share/dataone-cn/monitor/hz_membership.sh /usr/lib/check_mk_agent/local/hz_membership.sh
+chmod +x /usr/lib/check_mk_agent/local/hz_membership.sh
+
 ######### Finished! inform user how to start daemons
 echo ""
 echo "CN Monitor has finished installing. "
