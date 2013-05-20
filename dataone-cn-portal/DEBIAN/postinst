@@ -184,7 +184,9 @@ chmod 0650 ${PK8_KEY_FILE}
 db_get dataone-cn-os-core/cn.server.publiccert.filepath
 PUBLIC_SERVER_CERT=${RET}
 # set these in the configuration
+PK8_KEY_FILE=${PK8_KEY_FILE//\//\\\/}
 sed -i.bak  's/\(<privateKeyFile>\)PRIVATE_KEY_PATH/\1'${PK8_KEY_FILE}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+PUBLIC_SERVER_CERT=${PUBLIC_SERVER_CERT//\//\\\/}
 sed -i.bak  's/\(<publicKeyFile>\)PUBLIC_CERT_PATH/\1'${PUBLIC_SERVER_CERT}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 # TODO: get the correct MyProxy id
