@@ -144,7 +144,7 @@ fi
 for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
 do
     PG_HOST=${ip}
-   	sed -i.bak  's/\(host=")cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+   	sed -i.bak  's/\(host="\)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
     break # just use the first
 done
 
@@ -161,7 +161,7 @@ if [[ "${CONTEXT_LABEL}" == "SANDBOX" ]]; then
 	CILOGON_SKIN=DataONESandbox
 fi
 ## replace in the config file
-sed -i.bak  's/\(<skin>)DataONE/\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+sed -i.bak  's/\(<skin>\)DataONE/\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 ## set the CILogon server correctly
 CILOGON_SERVER=test.cilogon.org
@@ -184,14 +184,14 @@ chmod 0650 ${PK8_KEY_FILE}
 db_get dataone-cn-os-core/cn.server.publiccert.filepath
 PUBLIC_SERVER_CERT=${RET}
 # set these in the configuration
-sed -i.bak  's/\(<privateKeyFile>)PRIVATE_KEY_PATH/\1'${PK8_KEY_FILE}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
-sed -i.bak  's/\(<publicKeyFile>)PUBLIC_CERT_PATH/\1'${PUBLIC_SERVER_CERT}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+sed -i.bak  's/\(<privateKeyFile>\)PRIVATE_KEY_PATH/\1'${PK8_KEY_FILE}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+sed -i.bak  's/\(<publicKeyFile>\)PUBLIC_CERT_PATH/\1'${PUBLIC_SERVER_CERT}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 # TODO: get the correct MyProxy id
 #db_get dataone-cn-portal/myproxy.id
 #MYPROXY_ID=${RET}
 MYPROXY_ID=needtopromptforthis
-sed -i.bak  's/\(<id>)MYPROXY_ID/\1'${MYPROXY_ID}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+sed -i.bak  's/\(<id>\)MYPROXY_ID/\1'${MYPROXY_ID}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 ###############################################################################
 # Configure Tomcat
