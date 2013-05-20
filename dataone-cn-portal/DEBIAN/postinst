@@ -164,11 +164,11 @@ fi
 sed -i.bak  's/\(<skin>\)DataONE/\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 ## set the CILogon server correctly
-CILOGON_SERVER=test.cilogon.org
+CILOGON_SERVER=cilogon.org
 if [[ "${CONTEXT_LABEL}" == "PRODUCTION" ]]; then
 	CILOGON_SERVER=cilogon.org
 fi
-sed -i.bak  's/\(<serviceUri>https:\/\/\)test\.cilogon\.org/\1'${CILOGON_SERVER}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+sed -i.bak  's/\(<serviceUri>https:\/\/\)cilogon\.org/\1'${CILOGON_SERVER}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 ## set up the MyProxy certificates
 # get the private key
@@ -193,6 +193,7 @@ sed -i.bak  's/\(<publicKeyFile>\)PUBLIC_CERT_PATH/\1'${PUBLIC_SERVER_CERT}'/;' 
 #db_get dataone-cn-portal/myproxy.id
 #MYPROXY_ID=${RET}
 MYPROXY_ID=needtopromptforthis
+MYPROXY_ID=${MYPROXY_ID//\//\\\/}
 sed -i.bak  's/\(<id>\)MYPROXY_ID/\1'${MYPROXY_ID}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 ###############################################################################
