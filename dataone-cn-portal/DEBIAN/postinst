@@ -39,9 +39,9 @@ PG_CONF=/etc/postgresql/8.4/main
 PG_DATA=/var/lib/postgresql/8.4/main
 
 PG_USER=postgres
-DB_NAME=csd
-DB_USER=cilogon
-DB_PASS=cilogon
+DB_NAME=oauth
+DB_USER=oa4mp
+DB_PASS=oa4mp
 
 KEY_DIR=/etc/ssl/private
 CERT_DIR=/etc/ssl/certs
@@ -126,7 +126,7 @@ log cd to $CURR_DIR
 cd $CURR_DIR
 
 ## replace the CN URL in the web.xml file to use a hostname as found by issuing a hostname -f
-## replace the CILogon callback URLs for the portal in the rdf config file
+## replace the CILogon callback URLs for the portal in the config file
 #HOSTNAME=`/bin/hostname -f`
 #db_get dataone-cn-os-core/cn.router.hostname
 #HOSTNAME=${RET}
@@ -135,19 +135,16 @@ HOSTNAME=`egrep 'cn.router.hostname=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ;
 if [ "$HOSTNAME" != "" ]
 then
 	sed -i.bak  's/\(<param-value>https:\/\/\)cn\.dataone\.org/\1'${HOSTNAME}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml
-	sed -i.bak  's/\(<d:callbackUri rdf:resource="https:\/\/\)cn\.dataone\.org/\1'${HOSTNAME}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
-	sed -i.bak  's/\(<d:failureUri rdf:resource="https:\/\/\)cn\.dataone\.org/\1'${HOSTNAME}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
-	sed -i.bak  's/\(<d:successUri rdf:resource="https:\/\/\)cn\.dataone\.org/\1'${HOSTNAME}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
+	sed -i.bak  's/\(<callbackUri>https:\/\/\)cn\.dataone\.org/\1'${HOSTNAME}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 else
-	log "HOSTNAME (cn.router.hostname) cannot be set in ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml or ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf"
+	log "HOSTNAME (cn.router.hostname) cannot be set in ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml or ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml"
 fi
 
 ## configure to hit only a single PG instance - defualt to first in ip list
 for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
 do
     PG_HOST=${ip}
-   	sed -i.bak  's/\(<sqlc:adminHost>\)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
-   	sed -i.bak  's/\(<sqlc:host>\)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
+   	sed -i.bak  's/\(host="\)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
     break # just use the first
 done
 
@@ -164,14 +161,37 @@ if [[ "${CONTEXT_LABEL}" == "SANDBOX" ]]; then
 	CILOGON_SKIN=DataONESandbox
 fi
 ## replace in the config file
-sed -i.bak  's/\(<d:portalSkin>\)DataONE/\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/cfg.rdf
+sed -i.bak  's/\(<skin>\)DataONE/\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 ## set the CILogon server correctly
 CILOGON_SERVER=test.cilogon.org
 if [[ "${CONTEXT_LABEL}" == "PRODUCTION" ]]; then
 	CILOGON_SERVER=cilogon.org
 fi
-sed -i.bak  's/\(<param-value>https:\/\/\)test\.cilogon\.org/\1'${CILOGON_SERVER}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml
+sed -i.bak  's/\(<serviceUri>https:\/\/\)test\.cilogon\.org/\1'${CILOGON_SERVER}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+
+## set up the MyProxy certificates
+# get the private key
+db_get dataone-cn-os-core/cn.server.privatekey.filepath
+KEY_FILE=${RET}
+KEY_FILENAME=$(basename $KEY_FILE)
+PK8_KEY_FILE=${KEY_FILE}.pk8
+# make PK8 format for private key
+openssl pkcs8 -topk8 -in ${KEY_FILE} -nocrypt -out ${PK8_KEY_FILE}
+chown tomcat6 ssl-cert ${PK8_KEY_FILE}
+chmod 0650 ${PK8_KEY_FILE}
+# get the correct public server cert value for the env
+db_get dataone-cn-os-core/cn.server.publiccert.filepath
+PUBLIC_SERVER_CERT=${RET}
+# set these in the configuration
+sed -i.bak  's/\(<privateKeyFile>)PRIVATE_KEY_PATH/\1'${PK8_KEY_FILE}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+sed -i.bak  's/\(<publicKeyFile>)PUBLIC_CERT_PATH/\1'${PUBLIC_SERVER_CERT}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+
+# TODO: get the correct MyProxy id
+#db_get dataone-cn-portal/myproxy.id
+#MYPROXY_ID=${RET}
+MYPROXY_ID=needtopromptforthis
+sed -i.bak  's/\(<id>)MYPROXY_ID/\1'${MYPROXY_ID}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 ###############################################################################
 # Configure Tomcat
@@ -209,14 +229,14 @@ cp ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/
 ###############################################################################
 # Configure Postgres
 ###############################################################################
-## create CSD schema and user
+## create portal database and user
 log "Creating ${DB_NAME} database schema"
 su ${PG_USER} -c "createdb ${DB_NAME}"
 
 log "Creating ${DB_USER} user" 
 su ${PG_USER} -c "psql -c \"CREATE USER ${DB_USER} WITH UNENCRYPTED PASSWORD '${DB_PASS}'\""
 
-# run the script to create CSD user and tables
+# run the script to create user and tables
 su ${PG_USER} -c "psql -f ${SCRIPT_DIR}/portal-tables.sql ${DB_NAME}"
 
 ## modify pg_hba.conf to allow traffic from each CN
