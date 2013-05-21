@@ -149,21 +149,29 @@ do
 done
 
 ## configure the CILogon skin, default to PRODUCTION
+MYPROXY_ID=myproxy:oa4mp,2012:/client/42afd3477fac2eb9bfe99d0b409f6cc6
 CILOGON_SKIN=DataONE
 CONTEXT_LABEL=`egrep 'cn.context.label=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
 if [[ "${CONTEXT_LABEL}" == "DEV" ]]; then
 	CILOGON_SKIN=DataONEDev
+	MYPROXY_ID=myproxy:oa4mp,2012:/client/24a10c2cd8bda4e6b5cf244ab7532b2
 fi
 if [[ "${CONTEXT_LABEL}" == "STAGE" ]]; then
 	CILOGON_SKIN=DataONEStage
+	MYPROXY_ID=myproxy:oa4mp,2012:/client/7a4c0539fc9eb5c066f1619d73f35c37
 fi
 if [[ "${CONTEXT_LABEL}" == "SANDBOX" ]]; then
 	CILOGON_SKIN=DataONESandbox
+	MYPROXY_ID=myproxy:oa4mp,2012:/client/2f533133f3e70b26e60492479aa8f0ef
 fi
 ## replace in the config file
 sed -i.bak  's/\(<skin>\)DataONE/\1'${CILOGON_SKIN}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
-## set the CILogon server correctly
+## set MyProxy id in the config file
+MYPROXY_ID=${MYPROXY_ID//\//\\\/}
+sed -i.bak  's/\(<id>\)MYPROXY_ID/\1'${MYPROXY_ID}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+
+## set the CILogon server correctly (they only have production now)
 CILOGON_SERVER=cilogon.org
 if [[ "${CONTEXT_LABEL}" == "PRODUCTION" ]]; then
 	CILOGON_SERVER=cilogon.org
@@ -190,13 +198,6 @@ PK8_KEY_FILE=${PK8_KEY_FILE//\//\\\/}
 sed -i.bak  's/\(<privateKeyFile>\)PRIVATE_KEY_PATH/\1'${PK8_KEY_FILE}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 PUBLIC_KEY_FILE=${PUBLIC_KEY_FILE//\//\\\/}
 sed -i.bak  's/\(<publicKeyFile>\)PUBLIC_KEY_PATH/\1'${PUBLIC_KEY_FILE}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
-
-# TODO: get the correct MyProxy id
-#db_get dataone-cn-portal/myproxy.id
-#MYPROXY_ID=${RET}
-MYPROXY_ID=needtopromptforthis
-MYPROXY_ID=${MYPROXY_ID//\//\\\/}
-sed -i.bak  's/\(<id>\)MYPROXY_ID/\1'${MYPROXY_ID}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 ###############################################################################
 # Configure Tomcat
