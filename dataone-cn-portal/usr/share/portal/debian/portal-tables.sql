@@ -24,7 +24,7 @@
 \set oa4mpSchema oauth
 \set oa4mpAssetTable assets
 \set oa4mpUser oa4mp
-\set oa4mpUserPassword '\'setpassword\''
+\set oa4mpUserPassword '\'oa4mp\''
 
 /*
   Nothing needs to be edited from here down, unless you have a very specific reason to do so.
