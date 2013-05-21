@@ -117,8 +117,8 @@
 
     <bean id="replicationEventListener" class="org.dataone.service.cn.replication.v1.ReplicationEventListener" init-method="init"/>
     
-    <bean id="scheduledReplicationAuditController" class="org.dataone.service.cn.replication.v1.audit.ScheduledReplicationAuditController" />
-    
+    <bean id="scheduledReplicationAuditController" class="org.dataone.service.cn.replication.auditor.v1.ScheduledReplicationAuditController" />
+    														
     <bean id="harvester" class="org.dataone.cn.batch.synchronization.HarvestSchedulingManager" init-method="init" >
         <property name="hazelcast" ref="hazelcastInstance" />
         <property name="hazelcastLdapStore" ref="hazelcastLdapStore" />
