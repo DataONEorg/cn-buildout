@@ -236,9 +236,11 @@ cp ${SCRIPT_DIR}/${JK_CONF} ${APACHE_CONF}/jk_mount/
 ###############################################################################
 ## create portal database and user
 log "Creating ${DB_NAME} database schema"
+su ${PG_USER} -c "dropdb ${DB_NAME}"
 su ${PG_USER} -c "createdb ${DB_NAME}"
 
 log "Creating ${DB_USER} user" 
+su ${PG_USER} -c "dropuser ${DB_USER}"
 su ${PG_USER} -c "psql -c \"CREATE USER ${DB_USER} WITH UNENCRYPTED PASSWORD '${DB_PASS}'\""
 
 # run the script to create user and tables
