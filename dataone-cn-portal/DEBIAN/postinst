@@ -193,7 +193,7 @@ chmod 0650 ${PK8_KEY_FILE}
 # get the correct public key (NOT the cert) for the env
 db_get dataone-cn-os-core/cn.server.publiccert.filename
 SERVER_CERT_FILENAME=${RET}
-PUBLIC_SERVER_CERT={$CERT_DIR}'/'${SERVER_CERT_FILENAME}
+PUBLIC_SERVER_CERT=${CERT_DIR}'/'${SERVER_CERT_FILENAME}
 
 PUBLIC_KEY_FILE=${PUBLIC_SERVER_CERT}.publickey
 openssl x509 -in ${PUBLIC_SERVER_CERT} -pubkey -noout > ${PUBLIC_KEY_FILE}
