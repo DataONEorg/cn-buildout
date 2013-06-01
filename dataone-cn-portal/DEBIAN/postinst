@@ -52,7 +52,6 @@ SOURCE_DIR=/usr/share/portal
 SCRIPT_DIR=${SOURCE_DIR}/debian
 
 D1_CONF=/etc/dataone
-NODE_PROPS="$D1_CONF/node.properties"
 
 
 ###############################################################################
@@ -61,7 +60,9 @@ NODE_PROPS="$D1_CONF/node.properties"
 
 HAZELCAST_INTERFACE=""
 SPACER="        "
-for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+db_get dataone-cn-os-core/cn.iplist
+IP_LIST=(${RET})
+for ip in ${IPLIST[@]}
 do
     IP_XML_NODE="<interface>${ip}<\/interface>"
     HAZELCAST_INTERFACE=${HAZELCAST_INTERFACE}${IP_XML_NODE}'\n'${SPACER}
@@ -72,7 +73,7 @@ done
 sed -i.bak --regexp-extended "s/<interface>127\.0\.0\.1<\/interface>/${HAZELCAST_INTERFACE}/;" ${D1_CONF}/portal/hazelcast.xml
 
 ## open up the correct port for hazelcast
-for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+for ip in ${IPLIST[@]}
 do
     log "Adding 'ufw allow to any port ${HAZELCAST_PORT} from ${IP_ADDRESS}' rule"
     ufw allow to any port ${HAZELCAST_PORT} from ${ip}
@@ -127,10 +128,9 @@ cd $CURR_DIR
 
 ## replace the CN URL in the web.xml file to use a hostname as found by issuing a hostname -f
 ## replace the CILogon callback URLs for the portal in the config file
-#HOSTNAME=`/bin/hostname -f`
-#db_get dataone-cn-os-core/cn.router.hostname
-#HOSTNAME=${RET}
-HOSTNAME=`egrep 'cn.router.hostname=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+
+db_get "dataone-cn-os-core/cn.hostname"
+HOSTNAME=$RET
 
 if [ "$HOSTNAME" != "" ]
 then
@@ -141,7 +141,7 @@ else
 fi
 
 ## configure to hit only a single PG instance - defualt to first in ip list
-for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+for ip in ${IPLIST[@]}
 do
     PG_HOST=${ip}
    	sed -i.bak  's/\(host="\)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
@@ -151,7 +151,8 @@ done
 ## configure the CILogon skin, default to PRODUCTION
 MYPROXY_ID=myproxy:oa4mp,2012:/client/42afd3477fac2eb9bfe99d0b409f6cc6
 CILOGON_SKIN=DataONE
-CONTEXT_LABEL=`egrep 'cn.context.label=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+db_get "dataone-cn-os-core/cn.context.label"
+CONTEXT_LABEL=$RET
 if [[ "${CONTEXT_LABEL}" == "DEV" ]]; then
 	CILOGON_SKIN=DataONEDev
 	MYPROXY_ID=myproxy:oa4mp,2012:/client/24a10c2cd8bda4e6b5cf244ab7532b2
@@ -180,17 +181,20 @@ sed -i.bak  's/\(<serviceUri>https:\/\/\)cilogon\.org/\1'${CILOGON_SERVER}'/;' $
 
 ## set up the MyProxy certificates
 # get the private key
-db_get dataone-cn-os-core/cn.server.privatekey.filepath
-KEY_FILE=${RET}
-KEY_FILENAME=$(basename $KEY_FILE)
+db_get dataone-cn-os-core/cn.server.privatekey.filename
+KEY_FILENAME=${RET}
+KEY_FILE=${KEY_DIR}'/'${KEY_FILENAME}
+
 PK8_KEY_FILE=${KEY_FILE}.pk8
 # make PK8 format for private key
 openssl pkcs8 -topk8 -in ${KEY_FILE} -nocrypt -out ${PK8_KEY_FILE}
 chown tomcat6.ssl-cert ${PK8_KEY_FILE}
 chmod 0650 ${PK8_KEY_FILE}
 # get the correct public key (NOT the cert) for the env
-db_get dataone-cn-os-core/cn.server.publiccert.filepath
-PUBLIC_SERVER_CERT=${RET}
+db_get dataone-cn-os-core/cn.server.publiccert.filename
+SERVER_CERT_FILENAME=${RET}
+PUBLIC_SERVER_CERT={$CERT_DIR}'/'${SERVER_CERT_FILENAME}
+
 PUBLIC_KEY_FILE=${PUBLIC_SERVER_CERT}.publickey
 openssl x509 -in ${PUBLIC_SERVER_CERT} -pubkey -noout > ${PUBLIC_KEY_FILE}
 # set these in the configuration
@@ -249,7 +253,7 @@ su ${PG_USER} -c "psql -f ${SCRIPT_DIR}/portal-tables.sql ${DB_NAME}"
 
 ## modify pg_hba.conf to allow traffic from each CN
 IP_ADDRESS=127.0.0.1
-for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+for ip in ${IPLIST[@]}
 do
     IP_ADDRESS=${ip}
     PG_HBA_IS_MODIFIED=`grep "${DB_NAME} ${DB_USER} ${IP_ADDRESS} 255.255.255.255 password" ${PG_CONF}/pg_hba.conf`
@@ -289,20 +293,15 @@ fi
 # make sure it is not commented out
 sed -i.bak  "s/#\(ssl\s*\=.\)/\1/;" ${PG_CONF}/postgresql.conf
 
-# get the correct public server cert value for the env
-db_get dataone-cn-os-core/cn.server.publiccert.filepath
-PUBLIC_SERVER_CERT=${RET}
-PUBLIC_SERVER_CERT=$(basename ${PUBLIC_SERVER_CERT})
-# get the private key
-db_get dataone-cn-os-core/cn.server.privatekey.filepath
-KEY_FILE=${RET}
-KEY_FILENAME=$(basename $KEY_FILE)
+
+
 rm ${PG_DATA}/server.key
-cp ${KEY_DIR}/${KEY_FILENAME} ${PG_DATA}/server.key
+cp ${KEY_FILE} ${PG_DATA}/server.key
 chown postgres.postgres ${PG_DATA}/server.key
 chmod 0600 ${PG_DATA}/server.key
 rm ${PG_DATA}/server.crt
-cp ${CERT_DIR}/${PUBLIC_SERVER_CERT} ${PG_DATA}/server.crt
+cp ${PUBLIC_SERVER_CERT} ${PG_DATA}/server.crt
+chown postgres.postgres ${PG_DATA}/server.crt
 
 ## Restart the postgres db
 log "Restarting postgres database"
