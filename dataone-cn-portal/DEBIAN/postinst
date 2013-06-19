@@ -1,4 +1,4 @@
-#!/bin/bash +x
+#!/bin/bash -x
 
 # source the debconf library
 if [ -e "/usr/share/debconf/confmodule" ]; then
@@ -61,7 +61,7 @@ D1_CONF=/etc/dataone
 HAZELCAST_INTERFACE=""
 SPACER="        "
 db_get dataone-cn-os-core/cn.iplist
-IP_LIST=(${RET})
+IPLIST=(${RET})
 for ip in ${IPLIST[@]}
 do
     IP_XML_NODE="<interface>${ip}<\/interface>"
