@@ -129,7 +129,7 @@ cd $CURR_DIR
 ## replace the CN URL in the web.xml file to use a hostname as found by issuing a hostname -f
 ## replace the CILogon callback URLs for the portal in the config file
 
-db_get "dataone-cn-os-core/cn.hostname"
+db_get "dataone-cn-os-core/cn.router.hostname"
 HOSTNAME=$RET
 
 if [ "$HOSTNAME" != "" ]
