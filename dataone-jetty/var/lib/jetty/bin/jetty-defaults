@@ -1,0 +1,3 @@
+JETTY_HOME=/var/lib/jetty
+JETTY_USER=jetty
+JETTY_LOGS=/var/log/jetty

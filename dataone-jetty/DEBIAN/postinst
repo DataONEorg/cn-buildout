@@ -1,0 +1,29 @@
+#!/bin/bash
+
+JETTY_HOME=/var/lib/jetty
+JETTY_USER=jetty
+JETTY_LOGS=/var/log/jetty
+
+# Deploy init script to /etc/init.d from bin/jetty.sh
+cp ${JETTY_HOME}/bin/jetty.sh /etc/init.d/jetty
+
+# Deploy jetty.sh defaults to /etc/default
+cp ${JETTY_HOME}/bin/jetty-defaults /etc/default/jetty
+
+# Create jetty user
+if id -u ${JETTY_USER} >/dev/null 2>${JETTY_USER}; then
+	# jetty user exists....continue
+else
+	# jetty user does not exist....add
+	useradd -d ${JETTY_HOME} -s /sbin/false ${JETTY_USER}
+fi
+
+# grant jetty directories to jetty user
+chown ${JETTY_USER}:${JETTY_USER} -R ${JETTY_HOME}
+
+# Create jetty log dir and grant to jetty user
+if [ ! -d "${JETTY_LOGS}" ]; then
+  mkdir  ${JETTY_LOGS}
+fi
+chown  ${JETTY_USER}:${JETTY_USER} ${JETTY_LOGS}
+
