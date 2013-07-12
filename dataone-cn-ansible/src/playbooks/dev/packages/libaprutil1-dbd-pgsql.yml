@@ -5,4 +5,6 @@
 - include: libpq5.yml
 
 - name: Installing libaprutil1-dbd-pgsql package
-  action: apt pkg=libaprutil1-dbd-pgsql install_recommends=no
+  action: apt pkg=libaprutil1-dbd-pgsql state=latest install_recommends=no
+  register: libaprutil1_dbd_pgsql_installed
+  when: libaprutil1_dbd_pgsql_installed is not defined

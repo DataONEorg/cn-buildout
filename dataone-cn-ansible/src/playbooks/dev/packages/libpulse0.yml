@@ -15,4 +15,6 @@
 - include: libxtst6.yml
 
 - name: Installing libpulse0 package
-  action: apt pkg=libpulse0 install_recommends=no
+  action: apt pkg=libpulse0 state=latest install_recommends=no
+  register: libpulse0_installed
+  when: libpulse0_installed is not defined

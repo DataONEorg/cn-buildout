@@ -3,4 +3,6 @@
 - include: dataone-cn-version-tool.yml
 
 - name: Installing dataone-mercury package
-  action: apt pkg=dataone-mercury install_recommends=no force=yes
+  action: apt pkg=dataone-mercury state=latest install_recommends=no force=yes
+  register: dataone_mercury_installed
+  when: dataone_mercury_installed is not defined

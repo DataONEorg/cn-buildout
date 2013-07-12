@@ -1,2 +1,4 @@
 - name: Installing libpq5 package
-  action: apt pkg=libpq5=8.4.14-0ubuntu10.04 install_recommends=no
+  action: apt pkg=libpq5 state=latest install_recommends=no
+  register: libpq5_installed
+  when: libpq5_installed is not defined

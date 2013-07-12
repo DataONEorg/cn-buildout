@@ -3,4 +3,6 @@
 - include: libx11-6.yml
 
 - name: Installing libxrender1 package
-  action: apt pkg=libxrender1 install_recommends=no
+  action: apt pkg=libxrender1 state=latest install_recommends=no
+  register: libxrender1_installed
+  when: libxrender1_installed is not defined

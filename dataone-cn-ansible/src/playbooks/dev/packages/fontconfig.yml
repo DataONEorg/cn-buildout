@@ -11,4 +11,6 @@
 - include: zlib1g.yml
 
 - name: Installing fontconfig package
-  action: apt pkg=fontconfig install_recommends=no
+  action: apt pkg=fontconfig state=latest install_recommends=no
+  register: fontconfig_installed
+  when: fontconfig_installed is not defined

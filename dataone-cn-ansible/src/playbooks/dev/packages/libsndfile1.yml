@@ -9,4 +9,6 @@
 - include: libvorbisenc2.yml
 
 - name: Installing libsndfile1 package
-  action: apt pkg=libsndfile1 install_recommends=no
+  action: apt pkg=libsndfile1 state=latest install_recommends=no
+  register: libsndfile1_installed
+  when: libsndfile1_installed is not defined

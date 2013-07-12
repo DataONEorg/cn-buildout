@@ -3,4 +3,6 @@
 - include: libc6.yml
 
 - name: Installing libacl1 package
-  action: apt pkg=libacl1 install_recommends=no
+  action: apt pkg=libacl1 state=latest install_recommends=no
+  register: libacl1_installed
+  when: libacl1_installed is not defined

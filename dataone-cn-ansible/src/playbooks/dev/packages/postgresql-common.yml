@@ -11,4 +11,6 @@
 - include: ssl-cert.yml
 
 - name: Installing postgresql-common package
-  action: apt pkg=postgresql-common install_recommends=no
+  action: apt pkg=postgresql-common state=latest install_recommends=no
+  register: postgresql_common_installed
+  when: postgresql_common_installed is not defined

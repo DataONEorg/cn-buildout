@@ -3,4 +3,6 @@
 - include: openjdk-6-jre.yml
 
 - name: Installing libcommons-csv-java package
-  action: apt pkg=libcommons-csv-java install_recommends=no
+  action: apt pkg=libcommons-csv-java state=latest install_recommends=no
+  register: libcommons_csv_java_installed
+  when: libcommons_csv_java_installed is not defined

@@ -3,4 +3,6 @@
 - include: libc6.yml
 
 - name: Installing libsybdb5 package
-  action: apt pkg=libsybdb5 install_recommends=no
+  action: apt pkg=libsybdb5 state=latest install_recommends=no
+  register: libsybdb5_installed
+  when: libsybdb5_installed is not defined

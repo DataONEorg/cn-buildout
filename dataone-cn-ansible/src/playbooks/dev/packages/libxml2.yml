@@ -1,2 +1,4 @@
 - name: Installing libxml2 package
-  action: apt pkg=libxml2=2.7.6.dfsg-1ubuntu1.7 install_recommends=no
+  action: apt pkg=libxml2 state=latest install_recommends=no
+  register: libxml2_installed
+  when: libxml2_installed is not defined

@@ -21,4 +21,6 @@
 - include: zlib1g.yml
 
 - name: Installing libpango1.0-0 package
-  action: apt pkg=libpango1.0-0 install_recommends=no
+  action: apt pkg=libpango1.0-0 state=latest install_recommends=no
+  register: libpango1_installed
+  when: libpango1_installed is not defined

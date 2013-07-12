@@ -3,4 +3,6 @@
 - include: python-central.yml
 
 - name: Installing lsb-release package
-  action: apt pkg=lsb-release install_recommends=no
+  action: apt pkg=lsb-release state=latest install_recommends=no
+  register: lsb_release_installed
+  when: lsb_release_installed is not defined

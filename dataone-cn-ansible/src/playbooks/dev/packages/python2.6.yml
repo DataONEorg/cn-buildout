@@ -1,2 +1,4 @@
 - name: Installing python2.6 package
-  action: apt pkg=python2.6=2.6.5 install_recommends=no
+  action: apt pkg=python2.6 state=latest install_recommends=no
+  register: python2_installed
+  when: python2_installed is not defined

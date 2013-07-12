@@ -1,2 +1,4 @@
 - name: Installing sensible-utils package
-  action: apt pkg=sensible-utils install_recommends=no
+  action: apt pkg=sensible-utils state=latest install_recommends=no
+  register: sensible_utils_installed
+  when: sensible_utils_installed is not defined

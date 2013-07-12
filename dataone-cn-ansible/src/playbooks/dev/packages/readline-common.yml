@@ -3,4 +3,6 @@
 - include: install-info.yml
 
 - name: Installing readline-common package
-  action: apt pkg=readline-common install_recommends=no
+  action: apt pkg=readline-common state=latest install_recommends=no
+  register: readline_common_installed
+  when: readline_common_installed is not defined

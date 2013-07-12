@@ -1,2 +1,4 @@
 - name: Installing libfontconfig1 package
-  action: apt pkg=libfontconfig1=2.8.0 install_recommends=no
+  action: apt pkg=libfontconfig1 state=latest install_recommends=no
+  register: libfontconfig1_installed
+  when: libfontconfig1_installed is not defined

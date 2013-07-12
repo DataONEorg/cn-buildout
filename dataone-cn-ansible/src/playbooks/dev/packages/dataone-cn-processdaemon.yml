@@ -13,4 +13,6 @@
 - include: sun-java6-jdk.yml
 
 - name: Installing dataone-cn-processdaemon package
-  action: apt pkg=dataone-cn-processdaemon install_recommends=no force=yes
+  action: apt pkg=dataone-cn-processdaemon state=latest install_recommends=no force=yes
+  register: dataone_cn_processdaemon_installed
+  when: dataone_cn_processdaemon_installed is not defined

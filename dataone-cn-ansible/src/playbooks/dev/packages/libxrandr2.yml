@@ -7,4 +7,6 @@
 - include: libxrender1.yml
 
 - name: Installing libxrandr2 package
-  action: apt pkg=libxrandr2 install_recommends=no
+  action: apt pkg=libxrandr2 state=latest install_recommends=no
+  register: libxrandr2_installed
+  when: libxrandr2_installed is not defined

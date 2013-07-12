@@ -1,2 +1,4 @@
 - name: Installing libc6-i386 package
-  action: apt pkg=libc6-i386=2.11 install_recommends=no
+  action: apt pkg=libc6-i386 state=latest install_recommends=no
+  register: libc6_i386_installed
+  when: libc6_i386_installed is not defined

@@ -1,2 +1,4 @@
 - name: Installing java2-runtime package
-  action: apt pkg=java2-runtime install_recommends=no
+  action: apt pkg=java2-runtime state=latest install_recommends=no
+  register: java2_runtime_installed
+  when: java2_runtime_installed is not defined

@@ -1,4 +1,6 @@
 - include: debconf.yml
 
 - name: Installing debconf-english package
-  action: apt pkg=debconf-english install_recommends=no
+  action: apt pkg=debconf-english state=latest install_recommends=no
+  register: debconf_english_installed
+  when: debconf_english_installed is not defined

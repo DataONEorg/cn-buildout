@@ -1,2 +1,4 @@
 - name: Installing ttf-freefont package
-  action: apt pkg=ttf-freefont install_recommends=no
+  action: apt pkg=ttf-freefont state=latest install_recommends=no
+  register: ttf_freefont_installed
+  when: ttf_freefont_installed is not defined

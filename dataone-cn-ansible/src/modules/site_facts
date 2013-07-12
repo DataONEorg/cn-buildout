@@ -1,0 +1,554 @@
+#!/usr/bin/python
+
+
+import platform
+import socket
+import lxml.etree
+
+
+def getInterfaces():
+    
+    from ctypes import CDLL, Structure, Union, c_uint8, c_uint16, c_uint32, c_char, c_char_p, c_void_p, c_uint, c_int, POINTER,pointer, byref, cast, create_string_buffer
+    from ctypes.util import find_library
+    
+    class sin_addr(Structure):
+        
+        _fields_ = [
+                      ('s_addr', c_uint32)
+                   ]
+        
+        def toString(self):
+            
+         
+            return socket.inet_ntop(socket.AF_INET, cast(byref(c_uint32(self.s_addr)), POINTER(c_char * 4)))
+    
+    
+    class in6_addr(Structure):
+        
+        class __u6_addr(Union):
+            
+            _fields_ = [
+                         ('__u6_addr8', c_uint8 * 16),
+                         ('__u6_addr16', c_uint16 * 8),
+                         ('__u6_addr32', c_uint32 * 4),
+                       ]
+        
+        _fields_ = [
+                     ('__u6_addr', __u6_addr),
+                   ]
+        
+        def toString(self):
+            
+            return socket.inet_ntop(socket.AF_INET6, self.__u6_addr);
+    
+    
+    class sockaddr(Structure):
+        
+        _fields_ = platform.uname()[0] == 'Darwin' and \
+                    [
+                     ('sa_len', c_uint8),
+                     ('sa_family', c_uint8),
+                     ('sa_data', c_char * 14),
+                    ] \
+                    or \
+                    [
+                     ('sa_family', c_uint8),
+                     ('sa_data', c_char * 14),
+                    ]
+    
+            
+        def isIPv4(self):
+
+            return self.sa_family == socket.AF_INET 
+        
+        def isIPv6(self):
+            
+            return self.sa_family == socket.AF_INET6
+        
+        def asSockaddr_in(self):
+            
+            return cast(byref(self), POINTER(sockaddr_in)).contents
+        
+        def asSockaddr_in6(self):
+            
+            return cast(byref(self), POINTER(sockaddr_in6)).contents
+        
+    
+    class sockaddr_in(Structure):
+        
+        _fields_ = [ 
+                      #('sin_len',  c_uint8),
+                      ('sin_family', c_uint8),
+                      ('sin_port', c_uint16),
+                      ('sin_addr', sin_addr),
+                      ('sin_zero', c_char * 8),
+                   ]
+        
+    class sockaddr_in6(Structure):
+        
+        _fields_ = [
+                     # ('sin6_len', c_uint8),
+                      ('sin6_family', c_uint8),
+                      ('sin6_port', c_uint16),
+                      ('sin6_flowinfo', c_uint32),
+                      ('sin6_addr', in6_addr),
+                      ('sin6_scope_id', c_uint32),
+                   ]
+    
+    
+    # Ifaddrs struct
+    class ifaddrs(Structure):
+        pass
+    
+    # ifaddrs fields
+    ifaddrs._fields_ = [ 
+                            ('ifa_next',    POINTER(ifaddrs)),
+                            ('ifa_name',    c_char_p),
+                            ('ifa_flags',   c_uint),
+                            ('ifa_addr',    POINTER(sockaddr)),
+                            ('ifa_netmask', POINTER(sockaddr)),
+                            ('ifa_dstaddr', POINTER(sockaddr)),
+                            ('ifa_data',    c_void_p)
+                       ]
+    
+    # Gets a function pointer to the getifaddrs function
+    getifaddrs = CDLL(find_library('c')).getifaddrs
+    getifaddrs.argtypes = [POINTER(POINTER(ifaddrs))]
+  
+    # Gets a function pointer to the inet_ntop function
+    inet_ntop = CDLL(find_library('c')).inet_ntop
+    inet_ntop.argtypes = [c_int, c_void_p, c_char_p, c_int]
+     
+    # Creates an instance of a pointer to ifaddrs_p
+    ifaddrs_p = POINTER(ifaddrs)()
+
+    getifaddrs(byref(ifaddrs_p))
+    
+    interfaceMap = dict()
+    
+    # While the ifaddrs_p is not null
+    while ifaddrs_p:
+    
+        if ifaddrs_p.contents.ifa_addr:
+            
+            if ifaddrs_p.contents.ifa_name not in interfaceMap:
+                interfaceMap[ifaddrs_p.contents.ifa_name] = list()
+            
+            if ifaddrs_p.contents.ifa_addr.contents.isIPv4():
+                
+                interface = dict()
+                
+                paddr = create_string_buffer(32)
+                
+                
+                inet_ntop(socket.AF_INET, 
+                          byref(c_uint32(ifaddrs_p.contents.ifa_addr.contents.asSockaddr_in().sin_addr.s_addr)),
+                          paddr,
+                          32)
+               
+                interface['address'] = str(paddr.value)
+                
+                inet_ntop(socket.AF_INET, 
+                          byref(c_uint32(ifaddrs_p.contents.ifa_netmask.contents.asSockaddr_in().sin_addr.s_addr)),
+                          paddr,
+                          32)
+                
+                interface['netmask'] = str(paddr.value)
+                
+                inet_ntop(socket.AF_INET, 
+                          byref(c_uint32(ifaddrs_p.contents.ifa_dstaddr.contents.asSockaddr_in().sin_addr.s_addr)),
+                          paddr,
+                          32)
+                
+                interface['broadcast'] = str(paddr.value)
+                
+                interfaceMap[ifaddrs_p.contents.ifa_name].append(interface)
+                
+                
+            elif ifaddrs_p.contents.ifa_addr.contents.isIPv6():
+                
+                interface = dict()
+                
+                paddr = create_string_buffer(32)
+                
+                
+                inet_ntop(socket.AF_INET6, 
+                          ifaddrs_p.contents.ifa_addr.contents.asSockaddr_in6().sin6_addr.__u6_addr.__u6_addr8,
+                          paddr,
+                          32)
+                
+                interface['address'] = str(paddr.value)
+                 
+                inet_ntop(socket.AF_INET6, 
+                          ifaddrs_p.contents.ifa_netmask.contents.asSockaddr_in6().sin6_addr.__u6_addr.__u6_addr8,
+                          paddr,
+                          32)
+                
+                interface['netmask'] = str(paddr.value)
+            
+                
+                
+                interfaceMap[ifaddrs_p.contents.ifa_name].append(interface)
+                
+        
+        ifaddrs_p = ifaddrs_p.contents.ifa_next
+        
+    return interfaceMap
+
+
+def getSitesTree(url, schema):
+
+    import urllib2
+    
+    # Loads the xml schema
+    xmlschema = lxml.etree.XMLSchema(
+                            lxml.etree.parse(urllib2.urlopen(url=schema)))   
+    
+    # Parses the xml url and vaildates it against the schema
+    siteTree = lxml.etree.parse(urllib2.urlopen(url=url), 
+                                lxml.etree.XMLParser(schema=xmlschema))
+    
+    # return the sites xml tree
+    return siteTree
+   
+    
+    
+class DebconfTemplate(object):
+     
+    def __init__(self, key, description, type, seen, derived_value, 
+                  user_entered_value, configured_value, choices=None, 
+                  default=None):
+         
+         self.key = key
+         self.description = description 
+         self.type = type 
+         self.seen = seen
+         self.derived_value = derived_value
+         self.user_entered_value = user_entered_value 
+         self.configured_value = configured_value
+         self.choices = choices 
+         self.default = default
+         
+    def toJSON(self):
+        
+         return { 'key' : self.key, 
+                  'description' : self.description, 
+                  'type' : self.type, 
+                  'seen' : self.seen, 
+                  'derived_value' : self.derived_value, 
+                  'user_entered_value' : self.user_entered_value,
+                  'configured_value' : self.configured_value,
+                  'choices' : self.choices,
+                  'default' : self.default,
+                }
+    
+        
+
+class DebConfEntry(object):
+    
+    def __init__(self, key):
+        
+        self._key = key
+        self._value              = None
+        self._derived_value      = False
+        self._user_entered_value = False
+        self._configured_value   = False
+      
+    def getKey(self):
+        return self._key
+      
+    def setValue(self, value, derived_value=False, user_entered_value=False, 
+                 configured_value=False):
+    
+        self._value              = value
+        self._derived_value      = derived_value
+        self._user_entered_value = user_entered_value
+        self._configured_value   = configured_value
+          
+    def isValueSet(self):
+         return not self._value is None
+    
+    def getValue(self):
+        return { 'value' : self._value, 
+                 'derived_value' : self._derived_value,
+                 'user_entered_value' : self._user_entered_value,
+                 'configured_value' : self._configured_value,
+               }
+
+
+
+def createTemplates(siteTree):
+    
+   # Gets the template settings
+    templates = siteTree.xpath('/dpc:debconf/templates/template', 
+                   namespaces={
+                            'dpc':'http://ns.dataone.org/debian/conf/types/v1'
+                              }) 
+
+    debconfTemplates = dict()
+    
+    # Moves through the list of templates extracting the information to
+    # the list of debconf entries
+    for template in templates:
+        key = template.xpath('@key')[0]
+        description = template.xpath('description')[0].text
+        type = template.xpath('type')[0].text
+        
+        seen = bool(template.xpath("flag[@name='seen']")[0].text)
+        derived_value = bool(template.xpath("flag[@name='derived-value']")[0].text)
+        user_entered_value = bool(template.xpath("flag[@name='user-entered-value']")[0].text)
+        configured_value = bool(template.xpath("flag[@name='configured-value']")[0].text)
+        
+    
+        # List of choices or None if there are no choices
+        choices = len(template.xpath('choices/choice')) > 0 and \
+                    [choice.text for choice in template.xpath('choices/choice')] or None
+                    
+        
+        # Default value or None 
+        default = len(template.xpath('default')) > 0 and \
+                    template.xpath('default')[0].text or None
+                    
+       
+        # Adds the debconf entry into the list of entries by key
+        debconfTemplates[key] = DebconfTemplate(key=key, 
+                                           description=description, 
+                                           type=type, 
+                                           seen=seen, 
+                                           derived_value=derived_value,
+                                           user_entered_value=user_entered_value,
+                                           configured_value=configured_value)
+        
+    return debconfTemplates
+
+
+
+class questionHandlerDecorator(object):
+    
+    def __init__(self, f):
+        self._f = f
+        
+    def __call__(self, question, machine, *args, **kwargs):
+        
+        if question.text is not None:
+            return question.text
+        
+        return self._f(question, machine, *args, **kwargs)
+
+
+@questionHandlerDecorator
+def getHostname(question, machine):
+    pass
+
+@questionHandlerDecorator
+def getCNNodeID(question, machine):
+    pass
+ 
+@questionHandlerDecorator   
+def getClientCertificateFilename(question, machine):
+    pass
+
+@questionHandlerDecorator   
+def getReplicationCertficateFilename(question, machine):
+    pass
+
+@questionHandlerDecorator   
+def getReplicationPrivateKeyFilename(question, machine):
+    pass
+    
+@questionHandlerDecorator
+def getOpenLDAPServerID(question, machine):
+    pass
+    
+@questionHandlerDecorator
+def getContextLabel(question, machine):
+    return machine.getparent().xpath('@context')[0]
+ 
+@questionHandlerDecorator
+def getIPList(question, machine):
+    return ' '.join([machine.xpath('@ip')[0] 
+                     for machine in machine.getparent().xpath('machine')])
+
+@questionHandlerDecorator
+def getHostnameList(question, machine):
+    return ' '.join([
+        getHostname(machine.xpath('question[@keyref="dataone-cn-os-core/cn.hostname"]')[0], machine) 
+        for machine in machine.getparent().xpath('machine') ])
+
+@questionHandlerDecorator
+def getNodeIDs(question, machine):
+    return ' '.join([
+        getCNNodeID(machine.xpath('question[@keyref="dataone-cn-os-core/cn.nodeid"]')[0], machine) 
+        for machine in machine.getparent().xpath('machine') ])
+ 
+@questionHandlerDecorator   
+def getRouterHostname(question, machine):
+    pass
+
+@questionHandlerDecorator  
+def getRouterNodeID(question, machine):
+    pass
+
+@questionHandlerDecorator  
+def getCAFilename(question, machine):
+    pass
+
+@questionHandlerDecorator  
+def getServerPublicCertficiateFilename(question, machine):
+    pass
+
+@questionHandlerDecorator  
+def getServerPrivateKeyFilename(question, machine):
+    pass
+
+@questionHandlerDecorator  
+def getClientCertificateDir(question, machine):
+    pass
+
+@questionHandlerDecorator  
+def getClientKeyDir(question, machine):
+    pass
+
+@questionHandlerDecorator  
+def getOpenLDAPSynchronzied(question, machine):
+    pass
+
+
+
+@questionHandlerDecorator  
+def getKeystorePassword(question, machine):
+    pass
+
+@questionHandlerDecorator  
+def getOpenLDAPPassword(question, machine):
+    pass
+
+@questionHandlerDecorator  
+def getOpenLDAPFirstCN(question, machine):
+    pass
+
+
+questionHandlers = \
+{
+    'dataone-cn-os-core/cn.hostname' : getHostname,
+    'dataone-cn-os-core/cn.nodeid' : getCNNodeID,
+    'dataone-cn-os-core/cn.client.certificate.filename' : getClientCertificateFilename,
+    'dataone-cn-os-core/cn.replication.certificate.filename' : getReplicationCertficateFilename,
+    'dataone-cn-os-core/cn.replication.privatekey.filename' : getReplicationPrivateKeyFilename,
+    'dataone-cn-os-core/cn.openldap.serverID' : getOpenLDAPServerID, 
+    'dataone-cn-os-core/cn.context.label' : getContextLabel,
+    'dataone-cn-os-core/cn.iplist' : getIPList,
+    'dataone-cn-os-core/cn.hostnamelist' : getHostnameList,
+    'dataone-cn-os-core/cn.nodeids' : getNodeIDs,
+    'dataone-cn-os-core/cn.router.hostname' : getRouterHostname,
+    'dataone-cn-os-core/cn.router.nodeId' : getRouterNodeID,
+    'dataone-cn-os-core/cn.dataone.ca.filename' : getCAFilename,
+    'dataone-cn-os-core/cn.server.publiccert.filename' : getServerPublicCertficiateFilename,
+    'dataone-cn-os-core/cn.server.privatekey.filename' : getServerPrivateKeyFilename,
+    'dataone-cn-os-core/cn.client.certificate.dir' : getClientCertificateDir,
+    'dataone-cn-os-core/cn.client.key.dir' : getClientKeyDir,
+    'dataone-cn-os-core/cn.openldap.synchronized': getOpenLDAPSynchronzied,
+    'dataone-cn-os-core/cn.keystore.password' : getKeystorePassword,
+    'dataone-cn-os-core/cn.openldap.password' : getOpenLDAPPassword,
+    'dataone-cn-os-core/cn.openldap.firstcn' : getOpenLDAPFirstCN
+}
+
+
+def readMatchineConfiguration(siteTree, ipAddrs, debconfTemplates):
+
+    debconfEntries = dict()
+     
+    # Finds the matching machine entry
+    machine = siteTree.xpath("/dpc:debconf/environment/machine[{0}]".format(
+                " or ".join(['@ip="{0}"'.format(ipAddr) for ipAddr in ipAddrs])),
+                namespaces={
+                             'dpc':'http://ns.dataone.org/debian/conf/types/v1'
+                           })
+
+    if len(machine) != 1:
+        sys.exit("Error no matching machine configuration")
+
+    for question in machine[0].xpath('question|../question'):
+        
+        value = questionHandlers[question.xpath("@keyref")[0]](question, machine[0])
+        
+        if value is not None:
+        
+            debconfEntries[question.xpath("@keyref")[0]] = \
+                debconfEntry = DebConfEntry(question.xpath("@keyref")[0])
+            
+            
+            debconfEntry.setValue(value)
+    
+    
+    
+    
+   
+    # Returns the debconf entries
+    return debconfEntries
+    
+    
+
+
+def main():
+    #https://raw.github.com/rpwaltz/deb-cn-core/master/src/etc/dataone/d1DebConfig.xml
+    # Declares the module
+    module = AnsibleModule(
+                argument_spec = dict(
+                    url = dict(default='https://repository.dataone.org/software/cicore/trunk/cn-buildout/dataone-cn-os-core/etc/dataone/d1DebConfig.xml'),
+                   # url = dict(default='https://repository.dataone.org/software/cicore/trunk/cn-buildout/dataone-cn-os-core/etc/dataone/d1DebConfig.xml'),
+                    schema = dict(default='https://repository.dataone.org/software/cicore/trunk/d1_schemas/dataoneDebPkgConfigTypes.xsd'))
+                )
+    
+  
+    # Gets a list of the IP addresses
+    ipAddrs = [entry['address'] for interface in getInterfaces().values() 
+                    for entry in interface if 'address' in entry]
+
+                        
+        #ipAddrs.append('128.111.36.78')
+    
+    # Gets the site configuration
+    siteTree = getSitesTree(url=module.params['url'], schema=module.params['schema'])
+
+
+    # Reads in the templates 
+    debconfTemplates = createTemplates(siteTree)
+        
+    # Reads in the machine entries for the machine that matches the IP.    
+    debconfEntries = readMatchineConfiguration(siteTree, ipAddrs, debconfTemplates)
+    
+    
+    for field in set(debconfTemplates.keys()) - set(debconfEntries.keys()):
+       
+        if field == 'dataone-cn-os-core/cn.router.nodeId':
+            debconfEntries[field] = DebConfEntry(field)
+            debconfEntries[field].setValue(
+                debconfEntries['dataone-cn-os-core/cn.nodeid'].getValue(), 
+                derived_value=True, user_entered_value=False, 
+                configured_value=True)
+            
+        elif field == 'dataone-cn-os-core/cn.router.hostname':
+            debconfEntries[field] = DebConfEntry(field)
+            debconfEntries[field].setValue(
+                debconfEntries['dataone-cn-os-core/cn.hostname'].getValue(), 
+                derived_value=True, user_entered_value=False, 
+                configured_value=True)
+    
+    
+    #sys.exit(-1)
+    
+    # Return the debconf entries
+    module.exit_json(changed=False, 
+                     ansible_facts = {
+                        'debconf_templates' : 
+                            dict([(key, template.toJSON()) 
+                              for key, template in debconfTemplates.items()]), 
+                        'debconf_entries'   : 
+                            dict([(key, debconfEntry.getValue()) 
+                                  for key, debconfEntry in debconfEntries.items()])})
+    
+
+# include magic from lib/ansible/module_common.py
+#<<INCLUDE_ANSIBLE_MODULE_COMMON>>
+main()

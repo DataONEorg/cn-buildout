@@ -5,4 +5,6 @@
 - include: libxdmcp6.yml
 
 - name: Installing libxcb1 package
-  action: apt pkg=libxcb1 install_recommends=no
+  action: apt pkg=libxcb1 state=latest install_recommends=no
+  register: libxcb1_installed
+  when: libxcb1_installed is not defined

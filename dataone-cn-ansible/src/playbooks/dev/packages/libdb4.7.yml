@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing libdb4.7 package
-  action: apt pkg=libdb4.7 install_recommends=no
+  action: apt pkg=libdb4.7 state=latest install_recommends=no
+  register: libdb4_7_installed
+  when: libdb4_7_installed is not defined

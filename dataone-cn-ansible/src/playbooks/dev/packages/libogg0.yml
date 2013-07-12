@@ -1,2 +1,4 @@
 - name: Installing libogg0 package
-  action: apt pkg=libogg0=1.1.0 install_recommends=no
+  action: apt pkg=libogg0 state=latest install_recommends=no
+  register: libogg0_installed
+  when: libogg0_installed is not defined

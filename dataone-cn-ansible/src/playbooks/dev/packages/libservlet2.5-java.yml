@@ -1,2 +1,4 @@
 - name: Installing libservlet2.5-java package
-  action: apt pkg=libservlet2.5-java=6.0.20 install_recommends=no
+  action: apt pkg=libservlet2.5-java state=latest install_recommends=no
+  register: libservlet2_installed
+  when: libservlet2_installed is not defined

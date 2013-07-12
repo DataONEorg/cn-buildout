@@ -5,4 +5,6 @@
 - include: libts-0.0-0.yml
 
 - name: Installing libdirectfb-1.2-0 package
-  action: apt pkg=libdirectfb-1.2-0 install_recommends=no
+  action: apt pkg=libdirectfb-1.2-0 state=latest install_recommends=no
+  register: libdirectfb_1_installed
+  when: libdirectfb_1_installed is not defined

@@ -31,4 +31,6 @@
 - include: debconf.yml
 
 - name: Installing slapd package
-  action: apt pkg=slapd install_recommends=no
+  action: apt pkg=slapd state=latest install_recommends=no
+  register: slapd_installed
+  when: slapd_installed is not defined

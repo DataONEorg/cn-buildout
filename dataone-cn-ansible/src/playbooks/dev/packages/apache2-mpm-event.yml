@@ -3,4 +3,6 @@
 - include: apache2.2-common.yml
 
 - name: Installing apache2-mpm-event package
-  action: apt pkg=apache2-mpm-event install_recommends=no
+  action: apt pkg=apache2-mpm-event state=latest install_recommends=no
+  register: apache2_mpm_event_installed
+  when: apache2_mpm_event_installed is not defined

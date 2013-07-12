@@ -5,4 +5,6 @@
 - include: unixodbc.yml
 
 - name: Installing libaprutil1-dbd-odbc package
-  action: apt pkg=libaprutil1-dbd-odbc install_recommends=no
+  action: apt pkg=libaprutil1-dbd-odbc state=latest install_recommends=no
+  register: libaprutil1_dbd_odbc_installed
+  when: libaprutil1_dbd_odbc_installed is not defined

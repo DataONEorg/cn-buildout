@@ -3,4 +3,6 @@
 - include: libjpeg62.yml
 
 - name: Installing libjasper1 package
-  action: apt pkg=libjasper1 install_recommends=no
+  action: apt pkg=libjasper1 state=latest install_recommends=no
+  register: libjasper1_installed
+  when: libjasper1_installed is not defined

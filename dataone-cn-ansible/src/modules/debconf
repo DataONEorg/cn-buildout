@@ -1,0 +1,373 @@
+#!/usr/bin/python
+
+import tempfile
+
+class Debconf(object):
+    
+    def __init__(self, module, package):
+        
+        self._module = module
+        self._package = package
+        self._debconf_comm = self._module.get_bin_path('debconf-communicate', True)
+        self._debconf_template = self._module.get_bin_path('debconf-loadtemplate', True)
+    
+    def _communicate(self, command, *args):
+        
+        # Run debconf-communciate
+        rc, out, err = self._module.run_command(
+                                args = [self._debconf_comm, self._package], 
+                                data = command + ' ' + ' '.join(args))
+
+        # Error
+        if rc != 0 and len(out) == 0:
+            self._module.fail_json(msg='Error communicating with debconf')
+            
+        # Split the result into the status code and the any additional data
+        results = out.strip().split(' ', 1)
+        results[0] = int(results[0])
+        
+        
+        '''
+        0    success
+        1-9    reserved
+        10-19    invalid parameters
+        20-29    syntax errors
+        30-99    command-specific return codes
+        100-109    internal errors
+        110-255    reserved
+        '''
+        
+        # success
+        if results[0] == 0 or 30 <= results[0] <= 99:
+            return results
+        
+        # Invalid parameters
+        elif 10 <= results[0] <= 19:
+            raise ValueError("Invalid parameters: "+results[1])
+        
+        # Syntax error
+        elif 20 <= results[0] <= 29:
+            raise SyntaxError("Syntax error")
+        
+        # Internal error
+        elif 100 <= results[1] <=109:
+            raise RuntimeError("Internal debconf error")
+        
+        # Reserved return code
+        else:
+            raise RuntimeError("Reserved return code")
+        
+    
+    def version(self):
+        
+        # Request version information from debconf, should return 2.0
+        status, version = self._communicate('VERSION', '2.0')
+        
+        return float(version);
+        
+        
+    def capb(self):
+        
+        # Request value for question
+        results = self._communicate('CAPB')
+        
+        status = results[0]
+        
+        if len(results) == 2:
+            value = results[1]
+        else:
+            value = None
+
+        return value
+        
+        
+    def get(self, question):
+
+        # Request value for question
+        results = self._communicate('GET', question)
+        
+        status = results[0]
+        
+        if len(results) == 2:
+            value = results[1]
+        else:
+            value = None
+
+        return value
+    
+    
+    def set(self, question, value):
+        
+        return self._communicate('SET', question, value)
+        
+    def reset(self, question):
+        
+        self._communicate('RESET', question)
+        
+    
+    def subst(self, question, key, value):
+        raise NotImplementedError("subst command not implemented")
+    
+    def fget(self, question, flag):
+        
+        # Issue fget on the question and flag
+        results = self._communicate('FGET', question, flag)
+
+        status = results[0]
+        
+        if len(results) == 2:
+            value = results[1]
+        else:
+            value = None
+
+        return value
+        
+    
+    def fset(self, question, flag, value):
+        
+        # Issue the fset 
+        self._communicate('FSET', question, flag, value)
+    
+    def metaget(self, question, field):
+    
+        # Request value for question
+        results = self._communicate('METAGET', question, field)
+        
+        status = results[0]
+        
+        if len(results) == 2:
+            value = results[1]
+        else:
+            value = None
+
+        return value
+    
+    def register(template, question):
+        self._communicate('REGISTER', question)
+    
+    def unregister(self, question):
+        self._communicate('UNREGISTER', question)
+    
+    
+    def loadTemplate(self, name, type, description, default=None):
+        
+        # Opens a temp file and writes the template to it before
+        # passing it to debconf-loadtemplate
+        with tempfile.NamedTemporaryFile() as file:
+       
+            file.write('Template: '+name+'\n')
+            file.write('Type: '+type+'\n')
+
+            if default is not None:
+                file.write('Default: '+default+'\n')
+                
+            file.write('Description: '+description+'\n')
+        
+            file.flush()
+            
+            # Run debconf-communciate
+            rc, out, err = self._module.run_command(
+                                    args = [self._debconf_template, 
+                                            self._package,
+                                            file.name])
+            
+            return rc, out, err
+            
+def main():
+    
+    # Declares the module
+    module = AnsibleModule(
+                argument_spec = dict(
+                        command     = dict(required=True, 
+                                           choices=[
+                                                    'version',
+                                                    'capb',
+                                                    'get',
+                                                    'set',
+                                                    'reset',
+                                                    'fget',
+                                                    'fset',
+                                                    'metaget',
+                                                    'loadtemplate',
+                                                   ]),
+                        package     = dict(required=True),
+                        question    = dict(required=False),
+                        flag        = dict(required=False),
+                        description = dict(required=False),
+                        default     = dict(required=False),
+                        type        = dict(required=False, 
+                                           choices=[ 'string', 'boolean', 
+                                                     'select', 'multiselect', 
+                                                     'note', 'text', 
+                                                     'password'
+                                                   ]),
+                        value       = dict(required=False)
+                )
+             )
+
+  
+
+    # Creates the debconf object
+    debconf = Debconf(module, module.params['package'])
+    
+    # Gets the debconf version
+    if module.params['command'] == 'version':
+        
+        # Successful result
+        module.exit_json(changed=False, version=debconf.version())
+    
+    
+    # Gets the debconf version
+    if module.params['command'] == 'capb':
+        
+        # Successful result
+        module.exit_json(changed=False, capb=debconf.capb())
+    
+    
+    # Gets the value for a question
+    elif module.params['command'] == 'get':
+   
+        # Checks that question is defined
+        if 'question' not in module.params or module.params['question'] is None:
+            module.fail_json(msg='question parameter required for get command')
+        
+        # Successful result
+        module.exit_json(changed=False, 
+                         value=debconf.get(module.params['question']))
+        
+        
+    # Sets the value for a question
+    elif module.params['command'] == 'set':
+   
+        # Checks that question is defined
+        if 'question' not in module.params or module.params['question'] is None:
+            module.fail_json(msg='question parameter required for set command')
+        
+        # Checks that field is defined
+        elif 'value' not in module.params or module.params['value'] is None:
+            module.fail_json(msg='value parameter required for set command')
+            
+        # Set debconf value for question
+        result = debconf.set(module.params['question'], module.params['value'])
+                         
+        # Successful result
+        module.exit_json(changed=True, rc=result[0], output=result[1])
+      
+    # Gets the value for a question
+    elif module.params['command'] == 'reset':
+   
+        # Checks that question is defined
+        if 'question' not in module.params or module.params['question'] is None:
+            module.fail_json(msg='question parameter required for reset command')
+        
+         # Set debconf value for question
+        debconf.reset(module.params['question'])
+        
+        # Successful result
+        module.exit_json(changed=True)
+        
+    # Fgets the flag for the question
+    elif module.params['command'] == 'fget':
+   
+        # Checks that question is defined
+        if 'question' not in module.params or module.params['question'] is None:
+            module.fail_json(msg='question parameter required for fget command')
+        
+        # Checks that field is defined
+        elif 'flag' not in module.params or module.params['flag'] is None:
+            module.fail_json(msg='flag parameter required for fget command')
+           
+        # Successful result 
+        module.exit_json(changed=False, 
+                         value=debconf.fget(module.params['question'],
+                                            module.params['flag']))
+      
+    # Fgets the flag for the question
+    elif module.params['command'] == 'fset':
+   
+        # Checks that question is defined
+        if 'question' not in module.params or module.params['question'] is None:
+            module.fail_json(msg='question parameter required for fset command')
+        
+        # Checks that field is defined
+        elif 'flag' not in module.params or module.params['flag'] is None:
+            module.fail_json(msg='flag parameter required for fset command')
+            
+         # Checks that field is defined
+        elif 'value' not in module.params or module.params['value'] is None:
+            module.fail_json(msg='value parameter required for fset command')
+            
+        # Call fset
+        debconf.fset(module.params['question'],
+                     module.params['flag'],
+                     module.params['value'])
+        
+        # Successful result
+        module.exit_json(changed=True)
+        
+    elif module.params['command'] == 'metaget':  
+    
+        # Checks that question is defined
+        if 'question' not in module.params or module.params['question'] is None:
+            module.fail_json(msg='question parameter required for metaget command')
+            
+        # Checks that field is defined
+        elif 'field' not in module.params or module.params['field'] is None:
+            module.fail_json(msg='field parameter required for metaget command')
+    
+        # Successful result
+        module.exit_json(changed=False, 
+                         value=debconf.metaget(module.params['question'],
+                                               module.params['field'])) 
+    
+    elif module.params['command'] == 'loadtemplate':
+        
+        # Checks that question is defined
+        if 'question' not in module.params or module.params['question'] is None:
+            module.fail_json(msg='question parameter required for loadtemplate command')
+        
+        # Checks that type is defined
+        elif 'type' not in module.params or module.params['type'] is None:
+            module.fail_json(msg='type parameter required for loadtemplate command')
+        
+        # Checks that description is defined
+        elif 'description' not in module.params or module.params['description'] is None:
+            module.fail_json(msg='description parameter required for loadtemplate command')
+        
+        # Loads the template
+        rc, out, err = debconf.loadTemplate(name=module.params['question'], 
+                             type=module.params['type'], 
+                             description=module.params['description'])
+        
+        # Successful result
+        module.exit_json(changed=True, rc=rc, out=out, err=err)
+    
+    # Set a debconf value
+#    if module.params['action'] == 'set':
+#        
+#        if 'key' not in module.params or module.params['key'] is None:
+#            module.fail_json(msg='No key is specified')
+#            
+        # Checks that a type is specified
+#        if 'type' not in module.params or module.params['type'] is None:
+#            module.fail_json(msg='No type is specified')
+            
+        # Checks that a value is set
+#        if 'value' not in module.params or module.params['value'] is None:
+#            module.fail_json(msg='No value to set')
+        
+#        debconf.setValue(module.params['packagename'], module.params['key'], 
+#                         module.params['type'], module.params['value'])    
+        
+        # Successful result
+ #       module.exit_json(changed=True)
+        
+    
+    
+
+   
+
+
+# include magic from lib/ansible/module_common.py
+#<<INCLUDE_ANSIBLE_MODULE_COMMON>>
+main()

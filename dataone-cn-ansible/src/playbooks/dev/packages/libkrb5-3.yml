@@ -1,2 +1,4 @@
 - name: Installing libkrb5-3 package
-  action: apt pkg=libkrb5-3=1.8.1+dfsg-2ubuntu0.11 install_recommends=no
+  action: apt pkg=libkrb5-3 state=latest install_recommends=no
+  register: libkrb5_3_installed
+  when: libkrb5_3_installed is not defined

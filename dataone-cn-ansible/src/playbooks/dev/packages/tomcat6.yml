@@ -1,2 +1,4 @@
 - name: Installing tomcat6 package
-  action: apt pkg=tomcat6=6.0.24-2ubuntu1.11 install_recommends=no
+  action: apt pkg=tomcat6 state=latest install_recommends=no
+  register: tomcat6_installed
+  when: tomcat6_installed is not defined

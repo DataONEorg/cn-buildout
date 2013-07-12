@@ -9,4 +9,6 @@
 - include: apache2.2-common.yml
 
 - name: Installing apache2 package
-  action: apt pkg=apache2 install_recommends=no
+  action: apt pkg=apache2 state=latest install_recommends=no
+  register: apache2_installed
+  when: apache2_installed is not defined

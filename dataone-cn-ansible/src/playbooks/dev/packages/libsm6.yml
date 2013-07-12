@@ -5,4 +5,6 @@
 - include: libuuid1.yml
 
 - name: Installing libsm6 package
-  action: apt pkg=libsm6 install_recommends=no
+  action: apt pkg=libsm6 state=latest install_recommends=no
+  register: libsm6_installed
+  when: libsm6_installed is not defined

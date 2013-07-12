@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing libselinux1 package
-  action: apt pkg=libselinux1 install_recommends=no
+  action: apt pkg=libselinux1 state=latest install_recommends=no
+  register: libselinux1_installed
+  when: libselinux1_installed is not defined

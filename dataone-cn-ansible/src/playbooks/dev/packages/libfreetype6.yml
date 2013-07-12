@@ -1,2 +1,4 @@
 - name: Installing libfreetype6 package
-  action: apt pkg=libfreetype6=2.3.5 install_recommends=no
+  action: apt pkg=libfreetype6 state=latest install_recommends=no
+  register: libfreetype6_installed
+  when: libfreetype6_installed is not defined

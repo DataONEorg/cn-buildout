@@ -5,4 +5,6 @@
 - include: java2-runtime-headless.yml
 
 - name: Installing libcommons-collections3-java package
-  action: apt pkg=libcommons-collections3-java install_recommends=no
+  action: apt pkg=libcommons-collections3-java state=latest install_recommends=no
+  register: libcommons_collections3_java_installed
+  when: libcommons_collections3_java_installed is not defined

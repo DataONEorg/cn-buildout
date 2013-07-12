@@ -5,4 +5,6 @@
 - include: libxml2.yml
 
 - name: Installing shared-mime-info package
-  action: apt pkg=shared-mime-info install_recommends=no
+  action: apt pkg=shared-mime-info state=latest install_recommends=no
+  register: shared_mime_info_installed
+  when: shared_mime_info_installed is not defined

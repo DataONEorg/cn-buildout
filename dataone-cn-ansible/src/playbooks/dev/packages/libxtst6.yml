@@ -9,4 +9,6 @@
 - include: x11-common.yml
 
 - name: Installing libxtst6 package
-  action: apt pkg=libxtst6 install_recommends=no
+  action: apt pkg=libxtst6 state=latest install_recommends=no
+  register: libxtst6_installed
+  when: libxtst6_installed is not defined

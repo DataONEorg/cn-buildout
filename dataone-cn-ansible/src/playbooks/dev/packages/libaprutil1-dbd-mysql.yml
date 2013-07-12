@@ -5,4 +5,6 @@
 - include: libmysqlclient16.yml
 
 - name: Installing libaprutil1-dbd-mysql package
-  action: apt pkg=libaprutil1-dbd-mysql install_recommends=no
+  action: apt pkg=libaprutil1-dbd-mysql state=latest install_recommends=no
+  register: libaprutil1_dbd_mysql_installed
+  when: libaprutil1_dbd_mysql_installed is not defined

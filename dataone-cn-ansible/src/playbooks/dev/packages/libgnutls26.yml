@@ -1,2 +1,4 @@
 - name: Installing libgnutls26 package
-  action: apt pkg=libgnutls26=2.8.5-2ubuntu0.2 install_recommends=no
+  action: apt pkg=libgnutls26 state=latest install_recommends=no
+  register: libgnutls26_installed
+  when: libgnutls26_installed is not defined

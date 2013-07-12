@@ -9,4 +9,6 @@
 - include: ucf.yml
 
 - name: Installing fontconfig-config package
-  action: apt pkg=fontconfig-config install_recommends=no
+  action: apt pkg=fontconfig-config state=latest install_recommends=no
+  register: fontconfig_config_installed
+  when: fontconfig_config_installed is not defined

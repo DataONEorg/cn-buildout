@@ -1,2 +1,4 @@
 - name: Installing libxext6 package
-  action: apt pkg=libxext6=0 install_recommends=no
+  action: apt pkg=libxext6 state=latest install_recommends=no
+  register: libxext6_installed
+  when: libxext6_installed is not defined

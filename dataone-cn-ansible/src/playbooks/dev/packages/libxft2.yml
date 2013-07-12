@@ -9,4 +9,6 @@
 - include: libxrender1.yml
 
 - name: Installing libxft2 package
-  action: apt pkg=libxft2 install_recommends=no
+  action: apt pkg=libxft2 state=latest install_recommends=no
+  register: libxft2_installed
+  when: libxft2_installed is not defined

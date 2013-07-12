@@ -1,2 +1,4 @@
 - name: Installing passwd package
-  action: apt pkg=passwd=1:4.1.4.2-1ubuntu2.2 install_recommends=no
+  action: apt pkg=passwd state=latest install_recommends=no
+  register: passwd_installed
+  when: passwd_installed is not defined

@@ -1,4 +1,6 @@
 - include: perl.yml
 
 - name: Installing libfile-copy-recursive-perl package
-  action: apt pkg=libfile-copy-recursive-perl install_recommends=no
+  action: apt pkg=libfile-copy-recursive-perl state=latest install_recommends=no
+  register: libfile_copy_recursive_perl_installed
+  when: libfile_copy_recursive_perl_installed is not defined

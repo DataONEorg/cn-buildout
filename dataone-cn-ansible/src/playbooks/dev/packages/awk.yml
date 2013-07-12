@@ -1,2 +1,4 @@
 - name: Installing awk package
-  action: apt pkg=awk install_recommends=no
+  action: apt pkg=awk state=latest install_recommends=no
+  register: awk_installed
+  when: awk_installed is not defined

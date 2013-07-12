@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing libtasn1-3 package
-  action: apt pkg=libtasn1-3 install_recommends=no
+  action: apt pkg=libtasn1-3 state=latest install_recommends=no
+  register: libtasn1_3_installed
+  when: libtasn1_3_installed is not defined

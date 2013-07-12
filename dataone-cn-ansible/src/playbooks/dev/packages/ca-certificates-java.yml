@@ -5,4 +5,6 @@
 - include: openjdk-6-jre-headless.yml
 
 - name: Installing ca-certificates-java package
-  action: apt pkg=ca-certificates-java install_recommends=no
+  action: apt pkg=ca-certificates-java state=latest install_recommends=no
+  register: ca_certificates_java_installed
+  when: ca_certificates_java_installed is not defined

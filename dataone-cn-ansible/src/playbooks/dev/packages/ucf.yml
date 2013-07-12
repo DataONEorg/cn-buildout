@@ -1,2 +1,4 @@
 - name: Installing ucf package
-  action: apt pkg=ucf=3.0025 install_recommends=no
+  action: apt pkg=ucf state=latest install_recommends=no
+  register: ucf_installed
+  when: ucf_installed is not defined

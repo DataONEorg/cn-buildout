@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing iputils-ping package
-  action: apt pkg=iputils-ping install_recommends=no
+  action: apt pkg=iputils-ping state=latest install_recommends=no
+  register: iputils_ping_installed
+  when: iputils_ping_installed is not defined

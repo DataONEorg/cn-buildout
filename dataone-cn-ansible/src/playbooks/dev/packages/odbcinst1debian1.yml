@@ -1,2 +1,4 @@
 - name: Installing odbcinst1debian1 package
-  action: apt pkg=odbcinst1debian1=2.2.11-21 install_recommends=no
+  action: apt pkg=odbcinst1debian1 state=latest install_recommends=no
+  register: odbcinst1debian1_installed
+  when: odbcinst1debian1_installed is not defined

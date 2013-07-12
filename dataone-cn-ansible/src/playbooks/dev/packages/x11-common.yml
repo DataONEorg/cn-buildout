@@ -7,4 +7,6 @@
 - include: upstart.yml
 
 - name: Installing x11-common package
-  action: apt pkg=x11-common install_recommends=no
+  action: apt pkg=x11-common state=latest install_recommends=no
+  register: x11_common_installed
+  when: x11_common_installed is not defined

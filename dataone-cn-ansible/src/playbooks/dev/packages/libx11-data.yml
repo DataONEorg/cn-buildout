@@ -1,2 +1,4 @@
 - name: Installing libx11-data package
-  action: apt pkg=libx11-data install_recommends=no
+  action: apt pkg=libx11-data state=latest install_recommends=no
+  register: libx11_data_installed
+  when: libx11_data_installed is not defined

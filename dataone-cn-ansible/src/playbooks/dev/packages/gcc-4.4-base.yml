@@ -1,2 +1,4 @@
 - name: Installing gcc-4.4-base package
-  action: apt pkg=gcc-4.4-base=4.4.3-4ubuntu5 install_recommends=no
+  action: apt pkg=gcc-4.4-base state=latest install_recommends=no
+  register: gcc_4_installed
+  when: gcc_4_installed is not defined

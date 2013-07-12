@@ -11,4 +11,6 @@
 - include: libservlet2.5-java.yml
 
 - name: Installing libtomcat6-java package
-  action: apt pkg=libtomcat6-java install_recommends=no
+  action: apt pkg=libtomcat6-java state=latest install_recommends=no
+  register: libtomcat6_java_installed
+  when: libtomcat6_java_installed is not defined

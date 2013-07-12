@@ -9,4 +9,6 @@
 - include: perl-base.yml 
 
 - name: Installing libhtml-parser-perl package
-  action: apt pkg=libhtml-parser-perl install_recommends=no
+  action: apt pkg=libhtml-parser-perl state=latest install_recommends=no
+  register: libhtml_parser_perl_installed
+  when: libhtml_parser_perl_installed is not defined

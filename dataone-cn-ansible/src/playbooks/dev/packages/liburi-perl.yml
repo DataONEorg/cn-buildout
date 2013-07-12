@@ -3,4 +3,6 @@
 - include: perl-modules.yml
 
 - name: Installing liburi-perl package
-  action: apt pkg=liburi-perl install_recommends=no
+  action: apt pkg=liburi-perl state=latest install_recommends=no
+  register: liburi_perl_installed
+  when: liburi_perl_installed is not defined

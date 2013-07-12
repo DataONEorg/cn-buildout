@@ -5,4 +5,6 @@
 - include: sun-java6-bin.yml
 
 - name: Installing sun-java6-jdk package
-  action: apt pkg=sun-java6-jdk install_recommends=no
+  action: apt pkg=sun-java6-jdk state=latest install_recommends=no
+  register: sun_java6_jdk_installed
+  when: sun_java6_jdk_installed is not defined

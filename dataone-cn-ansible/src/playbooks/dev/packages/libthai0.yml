@@ -5,4 +5,6 @@
 - include: libthai-data.yml
 
 - name: Installing libthai0 package
-  action: apt pkg=libthai0 install_recommends=no
+  action: apt pkg=libthai0 state=latest install_recommends=no
+  register: libthai0_installed
+  when: libthai0_installed is not defined

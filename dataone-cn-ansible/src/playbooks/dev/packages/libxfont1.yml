@@ -9,4 +9,6 @@
 - include: zlib1g.yml
 
 - name: Installing libxfont1 package
-  action: apt pkg=libxfont1 install_recommends=no
+  action: apt pkg=libxfont1 state=latest install_recommends=no
+  register: libxfont1_installed
+  when: libxfont1_installed is not defined

@@ -7,4 +7,6 @@
 - include: odbcinst1debian1.yml
 
 - name: Installing unixodbc package
-  action: apt pkg=unixodbc install_recommends=no
+  action: apt pkg=unixodbc state=latest install_recommends=no
+  register: unixodbc_installed
+  when: unixodbc_installed is not defined

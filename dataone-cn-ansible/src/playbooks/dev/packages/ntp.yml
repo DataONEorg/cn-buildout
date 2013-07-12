@@ -15,4 +15,6 @@
 - include: netbase.yml
 
 - name: Installing ntp package
-  action: apt pkg=ntp install_recommends=no
+  action: apt pkg=ntp state=latest install_recommends=no
+  register: ntp_installed
+  when: ntp_installed is not defined

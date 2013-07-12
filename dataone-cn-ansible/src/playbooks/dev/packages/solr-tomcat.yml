@@ -3,4 +3,6 @@
 - include: tomcat6.yml
 
 - name: Installing solr-tomcat package
-  action: apt pkg=solr-tomcat install_recommends=no force=yes
+  action: apt pkg=solr-tomcat state=latest install_recommends=no force=yes
+  register: solr_tomcat_installed
+  when: solr_tomcat_installed is not defined

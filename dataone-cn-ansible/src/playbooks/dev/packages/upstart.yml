@@ -1,2 +1,4 @@
 - name: Installing upstart package
-  action: apt pkg=upstart install_recommends=no
+  action: apt pkg=upstart state=latest install_recommends=no
+  register: upstart_installed
+  when: upstart_installed is not defined

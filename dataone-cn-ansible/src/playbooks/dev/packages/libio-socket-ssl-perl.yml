@@ -5,4 +5,6 @@
 - include: perl.yml
 
 - name: Installing libio-socket-ssl-perl package
-  action: apt pkg=libio-socket-ssl-perl install_recommends=no
+  action: apt pkg=libio-socket-ssl-perl state=latest install_recommends=no
+  register: libio_socket_ssl_perl_installed
+  when: libio_socket_ssl_perl_installed is not defined

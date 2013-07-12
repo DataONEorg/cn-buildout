@@ -5,4 +5,6 @@
 - include: sun-java6-jre.yml
 
 - name: Installing libaccess-bridge-java package
-  action: apt pkg=libaccess-bridge-java install_recommends=no
+  action: apt pkg=libaccess-bridge-java state=latest install_recommends=no
+  register: libaccess_bridge_java_installed
+  when: libaccess_bridge_java_installed is not defined

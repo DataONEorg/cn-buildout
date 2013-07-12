@@ -5,4 +5,6 @@
 - include: libgcc1.yml
 
 - name: Installing libstdc++6 package
-  action: apt pkg=libstdc++6 install_recommends=no
+  action: apt pkg=libstdc++6 state=latest install_recommends=no
+  register: libstdc++6_installed
+  when: libstdc++6_installed is not defined

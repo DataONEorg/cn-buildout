@@ -1,2 +1,4 @@
 - name: Installing python package
-  action: apt pkg=python=2.4.3-10 install_recommends=no
+  action: apt pkg=python state=latest install_recommends=no
+  register: python_installed
+  when: python_installed is not defined

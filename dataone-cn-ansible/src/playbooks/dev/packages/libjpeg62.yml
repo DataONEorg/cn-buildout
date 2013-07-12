@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing libjpeg62 package
-  action: apt pkg=libjpeg62 install_recommends=no
+  action: apt pkg=libjpeg62 state=latest install_recommends=no
+  register: libjpeg62_installed
+  when: libjpeg62_installed is not defined

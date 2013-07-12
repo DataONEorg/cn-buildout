@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing libgpg-error0 package
-  action: apt pkg=libgpg-error0 install_recommends=no
+  action: apt pkg=libgpg-error0 state=latest install_recommends=no
+  register: libgpg_error0_installed
+  when: libgpg_error0_installed is not defined

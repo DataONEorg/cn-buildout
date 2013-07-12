@@ -5,4 +5,6 @@
 - include: sun-java6-jre.yml
 
 - name: Installing ia32-sun-java6-bin package
-  action: apt pkg=ia32-sun-java6-bin install_recommends=no
+  action: apt pkg=ia32-sun-java6-bin state=latest install_recommends=no
+  register: ia32_sun_java6_bin_installed
+  when: ia32_sun_java6_bin_installed is not defined

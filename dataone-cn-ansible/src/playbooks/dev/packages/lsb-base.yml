@@ -1,2 +1,4 @@
 - name: Installing lsb-base package
-  action: apt pkg=lsb-base=4.0-0ubuntu8.1 install_recommends=no
+  action: apt pkg=lsb-base state=latest install_recommends=no
+  register: lsb_base_installed
+  when: lsb_base_installed is not defined

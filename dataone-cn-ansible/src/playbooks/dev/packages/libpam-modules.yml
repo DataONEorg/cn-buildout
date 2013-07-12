@@ -1,2 +1,4 @@
 - name: Installing libpam-modules package
-  action: apt pkg=libpam-modules=0.79-3ubuntu3 install_recommends=no
+  action: apt pkg=libpam-modules state=latest install_recommends=no
+  register: libpam_modules_installed
+  when: libpam_modules_installed is not defined

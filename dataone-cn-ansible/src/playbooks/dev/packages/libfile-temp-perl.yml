@@ -3,4 +3,6 @@
 - include: perl-modules.yml
 
 - name: Installing libfile-temp-perl package
-  action: apt pkg=libfile-temp-perl install_recommends=no
+  action: apt pkg=libfile-temp-perl state=latest install_recommends=no
+  register: libfile_temp_perl_installed
+  when: libfile_temp_perl_installed is not defined

@@ -5,4 +5,6 @@
 - include: fontconfig.yml
 
 - name: Installing libpango1.0-common package
-  action: apt pkg=libpango1.0-common install_recommends=no
+  action: apt pkg=libpango1.0-common state=latest install_recommends=no
+  register: libpango1_common_installed
+  when: libpango1_common_installed is not defined

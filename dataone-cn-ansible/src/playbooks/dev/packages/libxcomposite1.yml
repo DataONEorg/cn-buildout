@@ -7,4 +7,6 @@
 - include: libxfixes3.yml
 
 - name: Installing libxcomposite1 package
-  action: apt pkg=libxcomposite1 install_recommends=no
+  action: apt pkg=libxcomposite1 state=latest install_recommends=no
+  register: libxcomposite1_installed
+  when: libxcomposite1_installed is not defined

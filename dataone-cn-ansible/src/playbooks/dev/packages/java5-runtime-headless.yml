@@ -1,2 +1,4 @@
 - name: Installing java5-runtime-headless package
-  action: apt pkg=sun-java6-jre install_recommends=no
+  action: apt pkg=sun-java6-jre state=latest install_recommends=no
+  register: java5_runtime_headless_installed
+  when: java5_runtime_headless_installed is not defined

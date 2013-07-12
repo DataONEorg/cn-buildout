@@ -15,4 +15,6 @@
 - include: sun-java6-jdk.yml
 
 - name: Installing dataone-cn-index package
-  action: apt pkg=dataone-cn-index install_recommends=no force=yes
+  action: apt pkg=dataone-cn-index state=latest install_recommends=no force=yes
+  register: dataone_cn_index_installed
+  when: dataone_cn_index_installed is not defined

@@ -7,4 +7,6 @@
 - include: zlib1g.yml
 
 - name: Installing libpython2.6 package
-  action: apt pkg=libpython2.6 install_recommends=no
+  action: apt pkg=libpython2.6 state=latest install_recommends=no
+  register: libpython2_installed
+  when: libpython2_installed is not defined

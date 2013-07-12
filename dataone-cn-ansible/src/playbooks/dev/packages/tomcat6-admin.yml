@@ -1,4 +1,6 @@
 - include: tomcat6-common.yml
 
 - name: Installing tomcat6-admin package
-  action: apt pkg=tomcat6-admin install_recommends=no
+  action: apt pkg=tomcat6-admin state=latest install_recommends=no
+  register: tomcat6_admin_installed
+  when: tomcat6_admin_installed is not defined

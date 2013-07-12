@@ -3,4 +3,6 @@
 - include: libc6.yml
 
 - name: Installing libavahi-common3 package
-  action: apt pkg=libavahi-common3 install_recommends=no
+  action: apt pkg=libavahi-common3 state=latest install_recommends=no
+  register: libavahi_common3_installed
+  when: libavahi_common3_installed is not defined

@@ -3,4 +3,6 @@
 - include: libc6-i386.yml
 
 - name: Installing lib32asound2 package
-  action: apt pkg=lib32asound2 install_recommends=no
+  action: apt pkg=lib32asound2 state=latest install_recommends=no
+  register: lib32asound2_installed
+  when: lib32asound2_installed is not defined

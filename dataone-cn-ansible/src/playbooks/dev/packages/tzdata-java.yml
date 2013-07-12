@@ -1,4 +1,6 @@
 - include: tzdata.yml
 
 - name: Installing tzdata-java package
-  action: apt pkg=tzdata-java install_recommends=no
+  action: apt pkg=tzdata-java state=latest install_recommends=no
+  register: tzdata_java_installed
+  when: tzdata_java_installed is not defined

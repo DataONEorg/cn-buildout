@@ -1,0 +1,42 @@
+- name: Installing and configuring ldap
+  hosts: dev
+  user: localadmin
+  tasks:
+
+  - name: Install libnss-ldap
+    action: apt pkg=libnss-ldap
+    
+  - name: Install nscd
+    action: apt pkg=nscd
+    
+  - name: Install the ca-certificates
+    action: apt pkg=ca-certificates
+    
+  - name: Install the ldap.conf file
+    action: template src=templates/ldap.conf.j2 dest=/etc/ldap.conf backup=no
+    
+  - name: Enable pam_ldap
+    action: command /usr/sbin/auth-client-config -t nss -p lac_ldap
+
+  - name: Update pam auth
+    action: command /usr/sbin/pam-auth-update
+    
+  - name: Install d1_mkhomedir file
+    action: template src=src/d1_mkhomedir.j2 dest=/usr/share/pam-configs/d1_mkhomedir
+    
+  - name: Add rule to group.conf
+    action: shell echo '*;*;*;A10000-2400;adm,dialout,cdrom,plugdev,sambashare' >> /etc/security/group.conf  
+  
+  - name: Install d1_groups file
+    action: template src=src/d1_groups.j2 dest=/usr/share/pam-configs/d1_groups
+    
+  - name: Update pam auth
+    action: command /usr/sbin/pam-auth-update
+    
+  - name: Restart nscd
+    action: command /etc/init.d/nscd restart
+    
+  - name: Restart libnss-ldap
+    action: command /etc/init.d/libnss-ldap restart
+    
+  

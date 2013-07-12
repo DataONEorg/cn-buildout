@@ -5,4 +5,6 @@
 - include: libxfixes3.yml
 
 - name: Installing libxdamage1 package
-  action: apt pkg=libxdamage1 install_recommends=no
+  action: apt pkg=libxdamage1 state=latest install_recommends=no
+  register: libxdamage1_installed
+  when: libxdamage1_installed is not defined

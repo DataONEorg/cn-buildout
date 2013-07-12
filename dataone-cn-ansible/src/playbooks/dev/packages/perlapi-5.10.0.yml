@@ -1,2 +1,4 @@
 - name: Installing perlapi-5.10.0 package
-  action: apt pkg=perlapi-5.10.0 install_recommends=no
+  action: apt pkg=perlapi-5.10.0 state=latest install_recommends=no
+  register: perlapi_5_installed
+  when: perlapi_5_installed is not defined

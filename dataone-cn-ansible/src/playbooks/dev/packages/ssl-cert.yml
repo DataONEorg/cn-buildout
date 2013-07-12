@@ -5,4 +5,6 @@
 - include: openssl.yml
 
 - name: Installing ssl-cert package
-  action: apt pkg=ssl-cert install_recommends=no
+  action: apt pkg=ssl-cert state=latest install_recommends=no
+  register: ssl_cert_installed
+  when: ssl_cert_installed is not defined

@@ -7,4 +7,6 @@
 - include: libcommons-logging-java.yml
 
 - name: Installing libcommons-httpclient-java package
-  action: apt pkg=libcommons-httpclient-java install_recommends=no
+  action: apt pkg=libcommons-httpclient-java state=latest install_recommends=no
+  register: libcommons_httpclient_java_installed
+  when: libcommons_httpclient_java_installed is not defined

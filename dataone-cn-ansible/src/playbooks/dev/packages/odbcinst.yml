@@ -5,4 +5,6 @@
 - include: odbcinst1debian1.yml
 
 - name: Installing odbcinst package
-  action: apt pkg=odbcinst install_recommends=no
+  action: apt pkg=odbcinst state=latest install_recommends=no
+  register: odbcinst_installed
+  when: odbcinst_installed is not defined

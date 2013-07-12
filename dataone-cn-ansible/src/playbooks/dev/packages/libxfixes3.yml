@@ -1,2 +1,4 @@
 - name: Installing libxfixes3 package
-  action: apt pkg=libxfixes3=1:4.0.1 install_recommends=no
+  action: apt pkg=libxfixes3 state=latest install_recommends=no
+  register: libxfixes3_installed
+  when: libxfixes3_installed is not defined

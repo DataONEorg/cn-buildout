@@ -5,4 +5,6 @@
 - include: libc6.yml
 
 - name: Installing libgdbm3 package
-  action: apt pkg=libgdbm3 install_recommends=no
+  action: apt pkg=libgdbm3 state=latest install_recommends=no
+  register: libgdbm3_installed
+  when: libgdbm3_installed is not defined

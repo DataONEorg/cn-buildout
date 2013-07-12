@@ -27,4 +27,6 @@
 - include: tzdata.yml
 
 - name: Installing postgresql-8.4 package
-  action: apt pkg=postgresql-8.4 install_recommends=no
+  action: apt pkg=postgresql-8.4 state=latest install_recommends=no
+  register: postgresql_8_installed
+  when: postgresql_8_installed is not defined

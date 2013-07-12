@@ -11,4 +11,6 @@
 - include: zlib1g.yml
 
 - name: Installing postgresql-client-8.4 package
-  action: apt pkg=postgresql-client-8.4 install_recommends=no
+  action: apt pkg=postgresql-client-8.4 state=latest install_recommends=no
+  register: postgresql_client_8_installed
+  when: postgresql_client_8_installed is not defined

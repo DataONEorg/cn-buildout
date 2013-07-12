@@ -5,4 +5,6 @@
 - include: libfile-temp-perl.yml
 
 - name: Installing update-inetd package
-  action: apt pkg=update-inetd install_recommends=no
+  action: apt pkg=update-inetd state=latest install_recommends=no
+  register: update_inetd_installed
+  when: update_inetd_installed is not defined

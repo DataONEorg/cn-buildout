@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing libgif4 package
-  action: apt pkg=libgif4 install_recommends=no
+  action: apt pkg=libgif4 state=latest install_recommends=no
+  register: libgif4_installed
+  when: libgif4_installed is not defined

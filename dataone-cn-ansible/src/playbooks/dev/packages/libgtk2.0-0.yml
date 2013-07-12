@@ -53,4 +53,6 @@
 - include: zlib1g.yml
 
 - name: Installing libgtk2.0-0 package
-  action: apt pkg=libgtk2.0-0 install_recommends=no
+  action: apt pkg=libgtk2.0-0 state=latest install_recommends=no
+  register: libgtk2_installed
+  when: libgtk2_installed is not defined

@@ -9,4 +9,6 @@
 - include: tomcat6-admin.yml
 
 - name: Installing dataone-cn-rest-service package
-  action: apt pkg=dataone-cn-rest-service install_recommends=no force=yes
+  action: apt pkg=dataone-cn-rest-service state=latest install_recommends=no force=yes
+  register: dataone_cn_rest_service_installed
+  when: dataone_cn_rest_service_installed is not defined

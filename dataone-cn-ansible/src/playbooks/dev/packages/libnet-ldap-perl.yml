@@ -5,4 +5,6 @@
 - include: libwww-perl.yml
 
 - name: Installing libnet-ldap-perl package
-  action: apt pkg=libnet-ldap-perl install_recommends=no
+  action: apt pkg=libnet-ldap-perl state=latest install_recommends=no
+  register: libnet_ldap_perl_installed
+  when: libnet_ldap_perl_installed is not defined

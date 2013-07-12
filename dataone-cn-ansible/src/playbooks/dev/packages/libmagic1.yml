@@ -1,2 +1,4 @@
 - name: Installing libmagic1 package
-  action: apt pkg=libmagic1=5.03-5ubuntu1 install_recommends=no
+  action: apt pkg=libmagic1 state=latest install_recommends=no
+  register: libmagic1_installed
+  when: libmagic1_installed is not defined

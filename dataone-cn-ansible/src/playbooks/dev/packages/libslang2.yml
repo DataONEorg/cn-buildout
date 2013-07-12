@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing libslang2 package
-  action: apt pkg=libslang2 install_recommends=no
+  action: apt pkg=libslang2 state=latest install_recommends=no
+  register: libslang2_installed
+  when: libslang2_installed is not defined

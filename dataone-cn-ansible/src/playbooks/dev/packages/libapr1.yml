@@ -1,2 +1,4 @@
 - name: Installing libapr1 package
-  action: apt pkg=libapr1=1.2.7 install_recommends=no
+  action: apt pkg=libapr1 state=latest install_recommends=no
+  register: libapr1_installed
+  when: libapr1_installed is not defined

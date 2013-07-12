@@ -1,4 +1,6 @@
 - include: libtext-charwidth-perl.yml
 
 - name: Installing libtext-wrapi18n-perl package
-  action: apt pkg=libtext-wrapi18n-perl install_recommends=no
+  action: apt pkg=libtext-wrapi18n-perl state=latest install_recommends=no
+  register: libtext_wrapi18n_perl_installed
+  when: libtext_wrapi18n_perl_installed is not defined

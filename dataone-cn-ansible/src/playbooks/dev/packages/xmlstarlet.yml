@@ -1,0 +1,13 @@
+- include: libc6.yml
+
+- include: libxml2.yml
+
+- include: libxslt1.1.yml
+
+- name: Installing xmlstarlet package
+  action: apt pkg=xmlstarlet state=latest install_recommends=no
+  register: xmlstarlet_installed
+  when: xmlstarlet_installed is not defined
+  
+- name: Creating soft link to xmlstarlet as /usr/bin/xml
+  file: src=/usr/bin/xmlstarlet dest=/usr/bin/xml owner=root group=root state=link

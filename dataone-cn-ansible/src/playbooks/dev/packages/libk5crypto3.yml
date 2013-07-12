@@ -1,2 +1,4 @@
 - name: Installing libk5crypto3 package
-  action: apt pkg=libk5crypto3=1.8+dfsg install_recommends=no
+  action: apt pkg=libk5crypto3 state=latest install_recommends=no
+  register: libk5crypto3_installed
+  when: libk5crypto3_installed is not defined

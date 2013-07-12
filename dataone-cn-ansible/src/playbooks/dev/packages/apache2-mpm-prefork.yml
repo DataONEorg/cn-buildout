@@ -3,4 +3,6 @@
 - include: apache2.2-common.yml
 
 - name: Installing apache2-mpm-prefork package
-  action: apt pkg=apache2-mpm-prefork install_recommends=no
+  action: apt pkg=apache2-mpm-prefork state=latest install_recommends=no
+  register: apache2_mpm_prefork_installed
+  when: apache2_mpm_prefork_installed is not defined

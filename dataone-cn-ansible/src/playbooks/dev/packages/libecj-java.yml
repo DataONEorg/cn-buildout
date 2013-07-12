@@ -1,4 +1,6 @@
 - include: java-common.yml
 
 - name: Installing libecj-java package
-  action: apt pkg=libecj-java install_recommends=no
+  action: apt pkg=libecj-java state=latest install_recommends=no
+  register: libecj_java_installed
+  when: libecj_java_installed is not defined

@@ -3,4 +3,6 @@
 - include: libslang2.yml
 
 - name: Installing libnewt0.52 package
-  action: apt pkg=libnewt0.52 install_recommends=no
+  action: apt pkg=libnewt0.52 state=latest install_recommends=no
+  register: libnewt0_installed
+  when: libnewt0_installed is not defined

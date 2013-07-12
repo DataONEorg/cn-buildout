@@ -1,2 +1,4 @@
 - name: Installing zlib1g package
-  action: apt pkg=zlib1g=1:1.2.3.3.dfsg-15ubuntu1 install_recommends=no
+  action: apt pkg=zlib1g state=latest install_recommends=no
+  register: zlib1g_installed
+  when: zlib1g_installed is not defined

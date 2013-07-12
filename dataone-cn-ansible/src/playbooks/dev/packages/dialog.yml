@@ -5,4 +5,6 @@
 - include: libncursesw5.yml
 
 - name: Installing dialog package
-  action: apt pkg=dialog install_recommends=no
+  action: apt pkg=dialog state=latest install_recommends=no
+  register: dialog_installed
+  when: dialog_installed is not defined

@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing libidn11 package
+  action: apt pkg=libidn11 state=latest install_recommends=no
+  register: libidn11_installed
+  when: libidn11_installed is not defined

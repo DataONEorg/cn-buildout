@@ -3,4 +3,6 @@
 - include: python2.6-minimal.yml
 
 - name: Installing python-minimal package
-  action: apt pkg=python-minimal install_recommends=no
+  action: apt pkg=python-minimal state=latest install_recommends=no
+  register: python_minimal_installed
+  when: python_minimal_installed is not defined

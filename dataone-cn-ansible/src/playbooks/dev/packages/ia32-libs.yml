@@ -19,4 +19,6 @@
 - include: dpkg.yml
 
 - name: Installing ia32-libs package
-  action: apt pkg=ia32-libs install_recommends=no
+  action: apt pkg=ia32-libs state=latest install_recommends=no
+  register: ia32_libs_installed
+  when: ia32_libs_installed is not defined

@@ -9,4 +9,6 @@
 - include: update-inetd.yml
 
 - name: Installing xinetd package
-  action: apt pkg=xinetd install_recommends=no
+  action: apt pkg=xinetd state=latest install_recommends=no
+  register: xinetd_installed
+  when: xinetd_installed is not defined

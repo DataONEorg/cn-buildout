@@ -1,4 +1,6 @@
 - include: debconf.yml
 
 - name: Installing tzdata package
-  action: apt pkg=tzdata install_recommends=no
+  action: apt pkg=tzdata state=latest install_recommends=no
+  register: tzdata_installed
+  when: tzdata_installed is not defined

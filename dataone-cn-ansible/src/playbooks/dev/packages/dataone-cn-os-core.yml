@@ -4,9 +4,13 @@
 
 - include: check-mk-agent-logwatch.yml
 
+- include: curl.yml
+
 - include: debconf.yml
 
 - include: debconf-utils.yml
+
+- include: gawk.yml
 
 - include: ldap-utils.yml
 
@@ -30,5 +34,12 @@
 
 - include: xinetd.yml
 
+- include: xmlstarlet.yml
+
 - name: Installing dataone-cn-os-core package
-  action: apt pkg=dataone-cn-os-core install_recommends=no force=yes
+  action: apt pkg=dataone-cn-os-core state=latest state=latest install_recommends=no force=yes
+  register: dataone_cn_os_core_installed
+  when: dataone_cn_os_core_installed is not defined
+
+  
+  

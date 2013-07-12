@@ -5,4 +5,6 @@
 - include: perl.yml
 
 - name: Installing libhtml-tree-perl package
-  action: apt pkg=libhtml-tree-perl install_recommends=no
+  action: apt pkg=libhtml-tree-perl state=latest install_recommends=no
+  register: libhtml_tree_perl_installed
+  when: libhtml_tree_perl_installed is not defined

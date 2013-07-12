@@ -1,2 +1,4 @@
 - name: Installing perl-base package
-  action: apt pkg=perl-base=5.10.1-8ubuntu2.2 install_recommends=no
+  action: apt pkg=perl-base state=latest install_recommends=no
+  register: perl_base_installed
+  when: perl_base_installed is not defined

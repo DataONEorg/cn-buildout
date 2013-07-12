@@ -1,4 +1,6 @@
 - include: perl.yml
 
 - name: Installing perl-modules package
-  action: apt pkg=perl-modules install_recommends=no
+  action: apt pkg=perl-modules state=latest install_recommends=no
+  register: perl_modules_installed
+  when: perl_modules_installed is not defined

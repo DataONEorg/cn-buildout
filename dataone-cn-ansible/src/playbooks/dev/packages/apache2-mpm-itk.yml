@@ -3,4 +3,6 @@
 - include: apache2.2-common.yml
 
 - name: Installing apache2-mpm-itk package
-  action: apt pkg=apache2-mpm-itk install_recommends=no
+  action: apt pkg=apache2-mpm-itk state=latest install_recommends=no
+  register: apache2_mpm_itk_installed
+  when: apache2_mpm_itk_installed is not defined

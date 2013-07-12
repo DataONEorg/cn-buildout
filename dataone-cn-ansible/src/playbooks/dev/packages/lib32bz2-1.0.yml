@@ -1,4 +1,6 @@
 - include: libc6-i386.yml
 
 - name: Installing lib32bz2-1.0 package
-  action: apt pkg=lib32bz2-1.0 install_recommends=no
+  action: apt pkg=lib32bz2-1.0 state=latest install_recommends=no
+  register: lib32bz2_1_installed
+  when: lib32bz2_1_installed is not defined

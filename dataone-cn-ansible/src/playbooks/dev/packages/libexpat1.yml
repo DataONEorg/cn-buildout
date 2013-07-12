@@ -1,2 +1,4 @@
 - name: Installing libexpat1 package
-  action: apt pkg=libexpat1=1.95.8 install_recommends=no
+  action: apt pkg=libexpat1 state=latest install_recommends=no
+  register: libexpat1_installed
+  when: libexpat1_installed is not defined

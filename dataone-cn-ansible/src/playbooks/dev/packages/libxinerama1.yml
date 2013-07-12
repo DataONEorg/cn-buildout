@@ -5,4 +5,6 @@
 - include: libxext6.yml
 
 - name: Installing libxinerama1 package
-  action: apt pkg=libxinerama1 install_recommends=no
+  action: apt pkg=libxinerama1 state=latest install_recommends=no
+  register: libxinerama1_installed
+  when: libxinerama1_installed is not defined

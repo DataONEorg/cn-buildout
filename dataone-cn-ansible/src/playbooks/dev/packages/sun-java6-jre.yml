@@ -1,2 +1,4 @@
 - name: Installing sun-java6-jre package
-  action: apt pkg=sun-java6-jre=6.34-1~lucid1 install_recommends=no
+  action: apt pkg=sun-java6-jre state=latest install_recommends=no
+  register: sun_java6_jre_installed
+  when: sun_java6_jre_installed is not defined

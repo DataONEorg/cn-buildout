@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing libxau6 package
-  action: apt pkg=libxau6 install_recommends=no
+  action: apt pkg=libxau6 state=latest install_recommends=no
+  register: libxau6_installed
+  when: libxau6_installed is not defined

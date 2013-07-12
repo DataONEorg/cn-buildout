@@ -7,4 +7,6 @@
 - include: perl-base.yml 
 
 - name: Installing libnet-ssleay-perl package
-  action: apt pkg=libnet-ssleay-perl install_recommends=no
+  action: apt pkg=libnet-ssleay-perl state=latest install_recommends=no
+  register: libnet_ssleay_perl_installed
+  when: libnet_ssleay_perl_installed is not defined

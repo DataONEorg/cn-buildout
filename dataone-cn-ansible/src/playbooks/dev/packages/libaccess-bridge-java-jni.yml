@@ -17,4 +17,6 @@
 - include: libpango1.0-0.yml
 
 - name: Installing libaccess-bridge-java-jni package
-  action: apt pkg=libaccess-bridge-java-jni install_recommends=no
+  action: apt pkg=libaccess-bridge-java-jni state=latest install_recommends=no
+  register: libaccess_bridge_java_jni_installed
+  when: libaccess_bridge_java_jni_installed is not defined

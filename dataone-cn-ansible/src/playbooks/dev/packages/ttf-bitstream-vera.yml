@@ -1,2 +1,4 @@
 - name: Installing ttf-bitstream-vera package
-  action: apt pkg=ttf-bitstream-vera install_recommends=no
+  action: apt pkg=ttf-bitstream-vera state=latest install_recommends=no
+  register: ttf_bitstream_vera_installed
+  when: ttf_bitstream_vera_installed is not defined

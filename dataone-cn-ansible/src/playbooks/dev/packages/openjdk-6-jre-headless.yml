@@ -1,2 +1,4 @@
 - name: Installing openjdk-6-jre-headless package
-  action: apt pkg=openjdk-6-jre-headless=6b18-1.8-0ubuntu1 install_recommends=no
+  action: apt pkg=openjdk-6-jre-headless state=latest install_recommends=no
+  register: openjdk_6_jre_headless_installed
+  when: openjdk_6_jre_headless_installed is not defined

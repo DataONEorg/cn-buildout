@@ -3,4 +3,6 @@
 - include: tsconf.yml
 
 - name: Installing libts-0.0-0 package
-  action: apt pkg=libts-0.0-0 install_recommends=no
+  action: apt pkg=libts-0.0-0 state=latest install_recommends=no
+  register: libts_0_installed
+  when: libts_0_installed is not defined

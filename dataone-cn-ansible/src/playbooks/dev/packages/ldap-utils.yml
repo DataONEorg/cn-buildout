@@ -9,4 +9,6 @@
 - include: libsasl2-2.yml
 
 - name: Installing ldap-utils package
-  action: apt pkg=ldap-utils install_recommends=no
+  action: apt pkg=ldap-utils state=latest install_recommends=no
+  register: ldap_utils_installed
+  when: ldap_utils_installed is not defined

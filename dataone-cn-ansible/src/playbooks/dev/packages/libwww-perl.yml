@@ -11,4 +11,6 @@
 - include: perl.yml
 
 - name: Installing libwww-perl package
-  action: apt pkg=libwww-perl install_recommends=no
+  action: apt pkg=libwww-perl state=latest install_recommends=no
+  register: libwww_perl_installed
+  when: libwww_perl_installed is not defined

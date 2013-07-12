@@ -1,4 +1,6 @@
 - include: debconf.yml
 
 - name: Installing debconf-utils package
-  action: apt pkg=debconf-utils install_recommends=no
+  action: apt pkg=debconf-utils state=latest install_recommends=no
+  register: debconf_utils_installed
+  when: debconf_utils_installed is not defined

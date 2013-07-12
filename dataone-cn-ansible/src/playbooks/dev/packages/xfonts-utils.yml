@@ -13,4 +13,6 @@
 - include: zlib1g.yml
 
 - name: Installing xfonts-utils package
-  action: apt pkg=xfonts-utils install_recommends=no
+  action: apt pkg=xfonts-utils state=latest install_recommends=no
+  register: xfonts_utils_installed
+  when: xfonts_utils_installed is not defined

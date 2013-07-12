@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing libncurses5 package
-  action: apt pkg=libncurses5 install_recommends=no
+  action: apt pkg=libncurses5 state=latest install_recommends=no
+  register: libncurses5_installed
+  when: libncurses5_installed is not defined

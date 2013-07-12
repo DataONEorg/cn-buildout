@@ -1,2 +1,4 @@
 - name: Installing libavahi-common-data package
-  action: apt pkg=libavahi-common-data install_recommends=no
+  action: apt pkg=libavahi-common-data state=latest install_recommends=no
+  register: libavahi_common_data_installed
+  when: libavahi_common_data_installed is not defined

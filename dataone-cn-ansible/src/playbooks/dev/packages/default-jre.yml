@@ -3,4 +3,6 @@
 - include: openjdk-6-jre.yml
 
 - name: Installing default-jre package
-  action: apt pkg=default-jre install_recommends=no
+  action: apt pkg=default-jre state=latest install_recommends=no
+  register: default_jre_installed
+  when: default_jre_installed is not defined

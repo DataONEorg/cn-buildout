@@ -5,4 +5,6 @@
 - include: libncurses5.yml
 
 - name: Installing libedit2 package
-  action: apt pkg=libedit2 install_recommends=no
+  action: apt pkg=libedit2 state=latest install_recommends=no
+  register: libedit2_installed
+  when: libedit2_installed is not defined

@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing install-info package
-  action: apt pkg=install-info install_recommends=no
+  action: apt pkg=install-info state=latest install_recommends=no
+  register: install_info_installed
+  when: install_info_installed is not defined

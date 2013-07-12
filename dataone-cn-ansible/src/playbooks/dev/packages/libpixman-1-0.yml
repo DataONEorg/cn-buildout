@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing libpixman-1-0 package
-  action: apt pkg=libpixman-1-0 install_recommends=no
+  action: apt pkg=libpixman-1-0 state=latest install_recommends=no
+  register: libpixman_1_0_installed
+  when: libpixman_1_0_installed is not defined

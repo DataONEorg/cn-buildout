@@ -5,4 +5,6 @@
 - include: libvorbis0a.yml
 
 - name: Installing libvorbisenc2 package
-  action: apt pkg=libvorbisenc2 install_recommends=no
+  action: apt pkg=libvorbisenc2 state=latest install_recommends=no
+  register: libvorbisenc2_installed
+  when: libvorbisenc2_installed is not defined

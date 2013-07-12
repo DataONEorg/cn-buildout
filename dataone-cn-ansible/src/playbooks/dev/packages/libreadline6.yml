@@ -5,4 +5,6 @@
 - include: readline-common.yml
 
 - name: Installing libreadline6 package
-  action: apt pkg=libreadline6 install_recommends=no
+  action: apt pkg=libreadline6 state=latest install_recommends=no
+  register: libreadline6_installed
+  when: libreadline6_installed is not defined

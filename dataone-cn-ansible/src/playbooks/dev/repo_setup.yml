@@ -1,6 +1,10 @@
 - hosts: dev
   user: localadmin
   tasks:
+  
+    - name:   Update the repo cache
+      action: apt update-cache=yes
+      
     - name:   Ensure that apt_repository is installed
       action: apt pkg=python-software-properties state=installed
       
@@ -10,8 +14,12 @@
     - name:   Set up the partner src repo
       action: apt_repository repo='deb-src http://archive.canonical.com/ubuntu lucid partner'
 
+    #- name: Set up Waltz' repo
+    #  action: apt_repository repo='deb http://dev-testing.dataone.org/ubuntu-rpw lucid universe'
+
+
     - name:   Set up the dev testing stable repo
-      action: apt_repository repo='deb http://dev-testing.dataone.org/ubuntu-stable lucid universe'
+      action: apt_repository repo='deb http://dev-testing.dataone.org/ubuntu-unstable lucid universe'
 
     - name:   Set up the ubuntu extras repo
       action: apt_repository repo='deb http://dev-testing.dataone.org/ubuntu-extra lucid universe'

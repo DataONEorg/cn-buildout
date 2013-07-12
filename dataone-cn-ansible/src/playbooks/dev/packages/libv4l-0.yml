@@ -1,4 +1,6 @@
 - include: libc6.yml
 
 - name: Installing libv4l-0 package
-  action: apt pkg=libv4l-0 install_recommends=no
+  action: apt pkg=libv4l-0 state=latest install_recommends=no
+  register: libv4l_0_installed
+  when: libv4l_0_installed is not defined

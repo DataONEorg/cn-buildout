@@ -1,2 +1,4 @@
 - name: Installing libvorbis0a package
-  action: apt pkg=libvorbis0a=1.1.2 install_recommends=no
+  action: apt pkg=libvorbis0a state=latest install_recommends=no
+  register: libvorbis0a_installed
+  when: libvorbis0a_installed is not defined

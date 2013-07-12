@@ -7,4 +7,6 @@
 - include: libselinux1.yml
 
 - name: Installing coreutils package
-  action: apt pkg=coreutils install_recommends=no
+  action: apt pkg=coreutils state=latest install_recommends=no
+  register: coreutils_installed
+  when: coreutils_installed is not defined

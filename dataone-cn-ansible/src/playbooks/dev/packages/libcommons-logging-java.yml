@@ -5,4 +5,6 @@
 - include: java2-runtime-headless.yml
 
 - name: Installing libcommons-logging-java package
-  action: apt pkg=libcommons-logging-java install_recommends=no
+  action: apt pkg=libcommons-logging-java state=latest install_recommends=no
+  register: libcommons_logging_java_installed
+  when: libcommons_logging_java_installed is not defined

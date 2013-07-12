@@ -7,4 +7,6 @@
 - include: libxrender1.yml
 
 - name: Installing libxcursor1 package
-  action: apt pkg=libxcursor1 install_recommends=no
+  action: apt pkg=libxcursor1 state=latest install_recommends=no
+  register: libxcursor1_installed
+  when: libxcursor1_installed is not defined

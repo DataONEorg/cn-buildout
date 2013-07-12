@@ -1,2 +1,4 @@
 - name: Installing postgresql-client-common package
-  action: apt pkg=postgresql-client-common=106ubuntu1 install_recommends=no
+  action: apt pkg=postgresql-client-common state=latest install_recommends=no
+  register: postgresql_client_common_installed
+  when: postgresql_client_common_installed is not defined

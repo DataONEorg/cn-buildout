@@ -3,4 +3,6 @@
 - include: perl-base.yml
 
 - name: Installing libtext-iconv-perl package
-  action: apt pkg=libtext-iconv-perl install_recommends=no
+  action: apt pkg=libtext-iconv-perl state=latest install_recommends=no
+  register: libtext_iconv_perl_installed
+  when: libtext_iconv_perl_installed is not defined

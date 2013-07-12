@@ -5,4 +5,6 @@
 - include: libc6.yml
 
 - name: Installing libapache2-mod-jk package
-  action: apt pkg=libapache2-mod-jk install_recommends=no
+  action: apt pkg=libapache2-mod-jk state=latest install_recommends=no
+  register: libapache2_mod_jk_installed
+  when: libapache2_mod_jk_installed is not defined

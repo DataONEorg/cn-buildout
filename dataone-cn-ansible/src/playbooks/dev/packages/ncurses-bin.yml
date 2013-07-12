@@ -3,4 +3,6 @@
 - include: libncurses5.yml
 
 - name: Installing ncurses-bin package
-  action: apt pkg=ncurses-bin install_recommends=no
+  action: apt pkg=ncurses-bin state=latest install_recommends=no
+  register: ncurses_bin_installed
+  when: ncurses_bin_installed is not defined
