@@ -1,0 +1,11 @@
+#!/bin/bash
+
+/etc/init.d/zookeeper stop
+update-rc.d -f zookeeper remove
+rm -f /etc/init.d/zookeeper
+
+rm -rf /var/lib/zookeeper/bin
+rm -rf /var/lib/zookeeper/conf
+rm -rf /var/lib/zookeeper/contrib
+rm -rf /var/lib/zookeeper/lib
+rm -rf /var/lib/zookeeper/zookeeper*.jar

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ZK_USER=tomcat6
+ZK_ROOT=/var/lib/zookeeper
+
+# grant jetty directories to jetty user
+chown ${ZK_USER}:${ZK_USER} -R ${ZK_ROOT}
+
+chmod +x /etc/init.d/zookeeper
