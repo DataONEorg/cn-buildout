@@ -6,6 +6,7 @@ JETTY_LOGS=/var/log/jetty
 
 # Deploy init script to /etc/init.d from bin/jetty.sh
 cp ${JETTY_HOME}/bin/jetty.sh /etc/init.d/jetty
+chmod +x /etc/init.d/jetty
 
 # Deploy jetty.sh defaults to /etc/default
 cp ${JETTY_HOME}/bin/jetty-defaults /etc/default/jetty
