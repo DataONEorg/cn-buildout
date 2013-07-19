@@ -394,6 +394,10 @@ def getCAFilename(question, machine):
     pass
 
 @questionHandlerDecorator  
+def getCAChainFilename(question, machine):
+    pass
+
+@questionHandlerDecorator  
 def getServerPublicCertficiateFilename(question, machine):
     pass
 
@@ -443,6 +447,7 @@ questionHandlers = \
     'dataone-cn-os-core/cn.router.hostname' : getRouterHostname,
     'dataone-cn-os-core/cn.router.nodeId' : getRouterNodeID,
     'dataone-cn-os-core/cn.dataone.ca.filename' : getCAFilename,
+	'dataone-cn-os-core/cn.server.cachain.filename' : getCAChainFilename,
     'dataone-cn-os-core/cn.server.publiccert.filename' : getServerPublicCertficiateFilename,
     'dataone-cn-os-core/cn.server.privatekey.filename' : getServerPrivateKeyFilename,
     'dataone-cn-os-core/cn.client.certificate.dir' : getClientCertificateDir,
