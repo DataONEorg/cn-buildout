@@ -1,6 +1,5 @@
 - name: Installing dataone-cn-solr
   hosts: dev
-  user: localadmin
   tasks:
 
    - include: packages/dataone-cn-solr.yml

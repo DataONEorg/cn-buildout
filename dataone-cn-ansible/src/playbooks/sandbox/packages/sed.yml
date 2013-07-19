@@ -1,0 +1,12 @@
+- include: dpkg.yml
+
+- include: install-info.yml
+
+- include: libc6.yml
+
+- include: libselinux1.yml
+
+- name: Installing sed package
+  action: apt pkg=sed state=latest install_recommends=no
+  register: sed_installed
+  when: sed_installed is not defined

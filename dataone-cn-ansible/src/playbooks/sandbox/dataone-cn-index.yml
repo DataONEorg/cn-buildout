@@ -1,0 +1,6 @@
+- name: Installing dataone-cn-index
+  hosts: sandbox
+  tasks:
+
+   - include: packages/dataone-cn-index.yml
+

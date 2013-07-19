@@ -1,0 +1,6 @@
+- name: Installing dataone-cn-processdaemon
+  hosts: sandbox
+  tasks:
+
+   - include: packages/dataone-cn-processdaemon.yml
+

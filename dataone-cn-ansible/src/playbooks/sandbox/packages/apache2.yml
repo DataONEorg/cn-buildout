@@ -1,0 +1,14 @@
+- include: apache2-mpm-event.yml
+
+- include: apache2-mpm-itk.yml
+
+- include: apache2-mpm-prefork.yml
+
+- include: apache2-mpm-worker.yml
+
+- include: apache2.2-common.yml
+
+- name: Installing apache2 package
+  action: apt pkg=apache2 state=latest install_recommends=no
+  register: apache2_installed
+  when: apache2_installed is not defined

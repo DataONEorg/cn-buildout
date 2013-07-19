@@ -1,0 +1,4 @@
+- name: Installing libgssapi-krb5-2 package
+  action: apt pkg=libgssapi-krb5-2 state=latest install_recommends=no
+  register: libgssapi_krb5_2_installed
+  when: libgssapi_krb5_2_installed is not defined

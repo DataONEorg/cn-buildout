@@ -1,0 +1,4 @@
+- name: Installing libssl0.9.8 package
+  action: apt pkg=libssl0.9.8 state=latest install_recommends=no
+  register: libssl0_installed
+  when: libssl0_installed is not defined

@@ -1,0 +1,6 @@
+- name: Installing dataone-cn-rest-service
+  hosts: sandbox
+  tasks:
+
+   - include: packages/dataone-cn-rest-service.yml
+

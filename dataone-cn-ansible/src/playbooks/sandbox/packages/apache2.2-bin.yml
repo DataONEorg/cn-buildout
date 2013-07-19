@@ -1,0 +1,4 @@
+- name: Installing apache2.2-bin package
+  action: apt pkg=apache2.2-bin state=latest install_recommends=no
+  register: apache2_2_bin_installed
+  when: apache2_2_bin_installed is not defined

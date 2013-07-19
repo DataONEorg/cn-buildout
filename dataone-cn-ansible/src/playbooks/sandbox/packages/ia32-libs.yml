@@ -1,0 +1,24 @@
+- include: lib32asound2.yml
+
+- include: lib32bz2-1.0.yml
+
+- include: lib32gcc1.yml
+
+- include: lib32ncurses5.yml
+
+- include: lib32stdc++6.yml
+
+- include: lib32v4l-0.yml
+
+- include: lib32z1.yml
+
+- include: libc6-i386.yml
+
+- include: lsb-release.yml
+
+- include: dpkg.yml
+
+- name: Installing ia32-libs package
+  action: apt pkg=ia32-libs state=latest install_recommends=no
+  register: ia32_libs_installed
+  when: ia32_libs_installed is not defined

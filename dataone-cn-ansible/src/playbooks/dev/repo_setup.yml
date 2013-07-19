@@ -1,5 +1,4 @@
 - hosts: dev
-  user: localadmin
   tasks:
   
     - name:   Update the repo cache

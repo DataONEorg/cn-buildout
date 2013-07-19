@@ -1,5 +1,4 @@
  - hosts: dev
-   user: localadmin
    tasks:
    
     - name:   Install Sun's JDK version 6

@@ -1,0 +1,4 @@
+- name: Installing mysql-common package
+  action: apt pkg=mysql-common state=latest install_recommends=no
+  register: mysql_common_installed
+  when: mysql_common_installed is not defined

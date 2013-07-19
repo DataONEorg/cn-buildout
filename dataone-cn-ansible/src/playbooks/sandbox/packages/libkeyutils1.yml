@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing libkeyutils1 package
+  action: apt pkg=libkeyutils1 state=latest install_recommends=no
+  register: libkeyutils1_installed
+  when: libkeyutils1_installed is not defined

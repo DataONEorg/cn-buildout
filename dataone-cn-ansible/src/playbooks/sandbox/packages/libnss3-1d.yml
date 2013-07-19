@@ -1,0 +1,12 @@
+- include: libc6.yml
+
+- include: libnspr4-0d.yml
+
+- include: libsqlite3-0.yml
+
+- include: zlib1g.yml
+
+- name: Installing libnss3-1d package
+  action: apt pkg=libnss3-1d state=latest install_recommends=no
+  register: libnss3_1d_installed
+  when: libnss3_1d_installed is not defined

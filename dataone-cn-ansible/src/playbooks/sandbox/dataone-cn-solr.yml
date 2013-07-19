@@ -1,0 +1,6 @@
+- name: Installing dataone-cn-solr
+  hosts: sandbox
+  tasks:
+
+   - include: packages/dataone-cn-solr.yml
+

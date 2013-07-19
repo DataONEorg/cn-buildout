@@ -1,6 +1,5 @@
 - name: Installing dataone-cn-os-core
   hosts: dev
-  user: cbrumgard
 
   vars_prompt:
   

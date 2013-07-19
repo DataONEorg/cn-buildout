@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: mysql-common.yml
+
+- include: zlib1g.yml
+
+- name: Installing libmysqlclient16 package
+  action: apt pkg=libmysqlclient16 state=latest install_recommends=no
+  register: libmysqlclient16_installed
+  when: libmysqlclient16_installed is not defined

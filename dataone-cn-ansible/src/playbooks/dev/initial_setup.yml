@@ -1,6 +1,5 @@
 - name: Initial installation
   hosts: dev
-  user: localadmin
   
 - name: 'h1'
   include: ssl.yml

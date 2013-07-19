@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing libxdmcp6 package
+  action: apt pkg=libxdmcp6 state=latest install_recommends=no
+  register: libxdmcp6_installed
+  when: libxdmcp6_installed is not defined

@@ -1,0 +1,14 @@
+- include: iputils-ping.yml
+
+- include: libc6.yml
+
+- include: libssl0.9.8.yml
+
+- include: procps.yml
+
+- include: ucf.yml
+
+- name: Installing nagios-plugins-basic package
+  action: apt pkg=nagios-plugins-basic state=latest install_recommends=no
+  register: nagios_plugins_basic_installed
+  when: nagios_plugins_basic_installed is not defined

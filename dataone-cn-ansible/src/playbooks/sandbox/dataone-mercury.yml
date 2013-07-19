@@ -1,0 +1,6 @@
+- name: Installing dataone-mercury
+  hosts: sandbox
+  tasks:
+
+   - include: packages/dataone-mercury.yml
+

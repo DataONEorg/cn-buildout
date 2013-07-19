@@ -1,0 +1,6 @@
+- name: Installing dataone-cn-portal
+  hosts: sandbox
+  tasks:
+
+   - include: packages/dataone-cn-portal.yml
+

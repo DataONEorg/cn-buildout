@@ -1,0 +1,4 @@
+- name: Installing libpcre3 package
+  action: apt pkg=libpcre3 state=latest install_recommends=no
+  register: libpcre3_installed
+  when: libpcre3_installed is not defined

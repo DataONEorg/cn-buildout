@@ -1,0 +1,4 @@
+- name: Installing openjdk-6-jre package
+  action: apt pkg=openjdk-6-jre state=latest install_recommends=no
+  register: openjdk_6_jre_installed
+  when: openjdk_6_jre_installed is not defined

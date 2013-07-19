@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing libattr1 package
+  action: apt pkg=libattr1 state=latest install_recommends=no
+  register: libattr1_installed
+  when: libattr1_installed is not defined

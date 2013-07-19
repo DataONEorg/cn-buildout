@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: perl-base.yml
+
+- name: Installing libperl5.10 package
+  action: apt pkg=libperl5.10 state=latest install_recommends=no
+  register: libperl5_installed
+  when: libperl5_installed is not defined

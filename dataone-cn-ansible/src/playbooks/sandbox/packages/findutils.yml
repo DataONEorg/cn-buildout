@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing findutils package
+  action: apt pkg=findutils state=latest install_recommends=no
+  register: findutils_installed
+  when: findutils_installed is not defined

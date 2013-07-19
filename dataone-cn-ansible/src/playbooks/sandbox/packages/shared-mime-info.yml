@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libglib2.0-0.yml
+
+- include: libxml2.yml
+
+- name: Installing shared-mime-info package
+  action: apt pkg=shared-mime-info state=latest install_recommends=no
+  register: shared_mime_info_installed
+  when: shared_mime_info_installed is not defined

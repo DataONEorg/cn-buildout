@@ -1,0 +1,4 @@
+- name: Installing freetds-common package
+  action: apt pkg=freetds-common state=latest install_recommends=no
+  register: freetds_common_installed
+  when: freetds_common_installed is not defined

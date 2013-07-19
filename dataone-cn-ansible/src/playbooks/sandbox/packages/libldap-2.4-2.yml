@@ -1,0 +1,4 @@
+- name: Installing libldap-2.4-2 package
+  action: apt pkg=libldap-2.4-2 state=latest install_recommends=no
+  register: libldap_2_installed
+  when: libldap_2_installed is not defined

@@ -1,0 +1,14 @@
+- include: libc6.yml
+
+- include: libflac8.yml
+
+- include: libogg0.yml
+
+- include: libvorbis0a.yml
+
+- include: libvorbisenc2.yml
+
+- name: Installing libsndfile1 package
+  action: apt pkg=libsndfile1 state=latest install_recommends=no
+  register: libsndfile1_installed
+  when: libsndfile1_installed is not defined

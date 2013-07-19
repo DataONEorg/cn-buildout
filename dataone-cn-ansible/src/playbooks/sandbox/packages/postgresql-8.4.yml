@@ -1,0 +1,32 @@
+- include: libc6.yml
+
+- include: libcomerr2.yml
+
+- include: libgssapi-krb5-2.yml
+
+- include: libkrb5-3.yml
+
+- include: libldap-2.4-2.yml
+
+- include: libpam0g.yml
+
+- include: libpq5.yml
+
+- include: libssl0.9.8.yml
+
+- include: libxml2.yml
+
+- include: locales.yml
+
+- include: postgresql-client-8.4.yml
+
+- include: postgresql-common.yml
+
+- include: ssl-cert.yml
+
+- include: tzdata.yml
+
+- name: Installing postgresql-8.4 package
+  action: apt pkg=postgresql-8.4 state=latest install_recommends=no
+  register: postgresql_8_installed
+  when: postgresql_8_installed is not defined

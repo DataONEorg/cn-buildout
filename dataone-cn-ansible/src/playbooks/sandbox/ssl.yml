@@ -1,0 +1,6 @@
+- hosts: sandbox
+  tasks:
+    - name: Install the ssl certificates
+      action: apt pkg=ssl-cert
+      
+      

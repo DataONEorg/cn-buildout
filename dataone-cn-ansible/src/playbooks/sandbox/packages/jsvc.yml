@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libcommons-daemon-java.yml
+
+- name: Installing jsvc package
+  action: apt pkg=jsvc state=latest install_recommends=no
+  register: jsvc_installed
+  when: jsvc_installed is not defined

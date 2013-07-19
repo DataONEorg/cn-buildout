@@ -1,0 +1,4 @@
+- name: Installing libxml2 package
+  action: apt pkg=libxml2 state=latest install_recommends=no
+  register: libxml2_installed
+  when: libxml2_installed is not defined

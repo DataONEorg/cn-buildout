@@ -1,0 +1,12 @@
+- include: default-jre-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- include: libcommons-collections3-java.yml
+
+- include: libcommons-logging-java.yml
+
+- name: Installing libcommons-beanutils-java package
+  action: apt pkg=libcommons-beanutils-java  state=latest install_recommends=no
+  register: libcommons_beanutils_java_installed
+  when: libcommons_beanutils_java_installed is not defined

@@ -1,0 +1,37 @@
+ - hosts: sandbox
+   tasks:
+   
+    - name:   Install Sun's JDK version 6
+      action: apt pkg=java-common install_recommends=no
+ 
+    - name:   Install Sun's JDK version 6
+      action: apt pkg=libltdl7 install_recommends=no
+      
+    - name:   Install Sun's JDK version 6
+      action: apt pkg=odbcinst install_recommends=no
+      
+    - name:   Install Sun's JDK version 6
+      action: apt pkg=odbcinst1debian1 install_recommends=no  
+  
+    - name:   Install Sun's JDK version 6
+      action: apt pkg=unixodbc install_recommends=no
+      
+    - name:   Install Sun's JDK version 6
+      action: apt pkg=sun-java6-bin force=yes install_recommends=no
+      
+    - name:   Install Sun's JDK version 6
+      action: apt pkg=sun-java6-jre install_recommends=no
+      
+    - name:   Install Sun's JDK version 6
+      action: apt pkg=sun-java6-jdk force=yes install_recommends=no
+  
+    - name:   Install libjax1.3-java
+      action: apt pkg=libjaxp1.3-java install_recommends=no
+      
+    - name:   Install libxerces2
+      action: apt pkg=libxerces2-java install_recommends=no
+      
+    - name:   Install ant
+      action: apt pkg=ant install_recommends=no
+      
+  

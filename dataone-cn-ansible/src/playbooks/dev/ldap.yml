@@ -1,6 +1,5 @@
 - name: Installing and configuring ldap
   hosts: dev
-  user: localadmin
   tasks:
 
   - name: Install libnss-ldap

@@ -1,0 +1,14 @@
+- include: default-jre-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- include: libcommons-beanutils-java.yml
+
+- include: libcommons-io-java.yml
+
+- include: libservlet2.5-java.yml
+
+- name: Installing libcommons-fileupload-java package
+  action: apt pkg=libcommons-fileupload-java state=latest install_recommends=no
+  register: libcommons_fileupload_java_installed
+  when: libcommons_fileupload_java_installed is not defined

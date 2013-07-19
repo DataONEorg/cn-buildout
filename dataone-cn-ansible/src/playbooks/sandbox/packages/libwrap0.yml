@@ -1,0 +1,4 @@
+- name: Installing libwrap0 package
+  action: apt pkg=libwrap0 state=latest install_recommends=no
+  register: libwrap0_installed
+  when: libwrap0_installed is not defined

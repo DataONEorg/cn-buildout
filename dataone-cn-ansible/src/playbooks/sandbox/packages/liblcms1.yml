@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing liblcms1 package
+  action: apt pkg=liblcms1 state=latest install_recommends=no
+  register: liblcms1_installed
+  when: liblcms1_installed is not defined

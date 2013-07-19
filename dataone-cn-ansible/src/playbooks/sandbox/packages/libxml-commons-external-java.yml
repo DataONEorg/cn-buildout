@@ -1,0 +1,8 @@
+- include: default-jre-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- name: Installing libxml-commons-external-java package
+  action: apt pkg=libxml-commons-external-java state=latest install_recommends=no
+  register: libxml_commons_external_java_installed
+  when: libxml_commons_external_java_installed is not defined

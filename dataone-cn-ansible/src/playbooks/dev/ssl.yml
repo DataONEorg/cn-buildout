@@ -1,5 +1,4 @@
 - hosts: dev
-  user: localadmin
   tasks:
     - name: Install the ssl certificates
       action: apt pkg=ssl-cert

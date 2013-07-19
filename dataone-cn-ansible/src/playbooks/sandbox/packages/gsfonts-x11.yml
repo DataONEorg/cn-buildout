@@ -1,0 +1,8 @@
+- include: gsfonts.yml
+
+- include: xfonts-utils.yml
+
+- name: Installing gsfonts-x11 package
+  action: apt pkg=gsfonts-x11 state=latest install_recommends=no
+  register: gsfonts_x11_installed
+  when: gsfonts_x11_installed is not defined

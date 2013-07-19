@@ -1,0 +1,8 @@
+- include: default-jre-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- name: Installing libcommons-pool-java package
+  action: apt pkg=libcommons-pool-java state=latest install_recommends=no
+  register: libcommons_pool_java_installed
+  when: libcommons_pool_java_installed is not defined

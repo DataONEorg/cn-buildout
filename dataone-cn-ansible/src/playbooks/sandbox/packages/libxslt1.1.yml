@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libgcrypt11.yml
+
+- include: libxml2.yml
+
+- name: Installing libxslt1.1 package
+  action: apt pkg=libxslt1.1 state=latest install_recommends=no
+  register: libxslt1_1_installed
+  when: libxslt1_1_installed is not defined

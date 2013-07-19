@@ -1,0 +1,4 @@
+- name: Installing libpam0g package
+  action: apt pkg=libpam0g  state=latest install_recommends=no
+  register: libpam0g_installed
+  when: libpam0g_installed is not defined
