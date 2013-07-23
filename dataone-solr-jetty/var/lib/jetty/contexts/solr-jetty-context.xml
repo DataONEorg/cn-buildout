@@ -4,7 +4,7 @@
   <Set name="contextPath"><SystemProperty name="hostContext" default="/solr"/></Set>
   <Set name="war"><SystemProperty name="jetty.home"/>/webapps/solr.war</Set>
   <Set name="defaultsDescriptor"><SystemProperty name="jetty.home"/>/etc/webdefault.xml</Set>
-  <Set name="tempDirectory"><Property name="jetty.home" default="."/>/webapp-temp</Set>
+  <Set name="tempDirectory"><Property name="jetty.home" default="."/>/webapps-temp</Set>
   <Call name="setProperty" class="java.lang.System">
   	<Arg type="String">solr.solr.home</Arg>
   	<Arg type="String">/var/solr/home</Arg>
