@@ -129,7 +129,7 @@ cd $CURR_DIR
 ## replace the CN URL in the web.xml file to use a hostname as found by issuing a hostname -f
 ## replace the CILogon callback URLs for the portal in the config file
 
-db_get "dataone-cn-os-core/cn.router.hostname"
+db_get dataone-cn-os-core/cn.router.hostname
 HOSTNAME=$RET
 
 if [ "$HOSTNAME" != "" ]
@@ -151,7 +151,7 @@ done
 ## configure the CILogon skin, default to PRODUCTION
 MYPROXY_ID=myproxy:oa4mp,2012:/client/42afd3477fac2eb9bfe99d0b409f6cc6
 CILOGON_SKIN=DataONE
-db_get "dataone-cn-os-core/cn.context.label"
+db_get dataone-cn-os-core/cn.context.label
 CONTEXT_LABEL=$RET
 if [[ "${CONTEXT_LABEL}" == "DEV" ]]; then
 	CILOGON_SKIN=DataONEDev
