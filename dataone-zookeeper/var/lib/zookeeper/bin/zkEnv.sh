@@ -23,7 +23,7 @@
 # or the conf directory that is
 # a sibling of this script's directory
 
-ZOOBINDIR=${ZOOBINDIR:-/usr/bin}
+ZOOBINDIR=${ZOOBINDIR:-/var/lib/zookeeper/bin}
 ZOOKEEPER_PREFIX=${ZOOBINDIR}/..
 
 if [ "x$ZOOCFGDIR" = "x" ]
