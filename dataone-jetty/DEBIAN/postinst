@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# JETTY HOME AND USER ARE ALSO SPECIFIED IN jetty/bin/jetty-defaults and should match these values.
 JETTY_HOME=/var/lib/jetty
 JETTY_USER=tomcat6
 JETTY_LOGS=/var/log/jetty

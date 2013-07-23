@@ -30,9 +30,9 @@ set -e
 
 umask 022
 
-. /usr/libexec/zkEnv.sh
+. /var/lib/zookeeper/bin/zkEnv.sh
 
-. /lib/lsb/init-functions
+#. /lib/lsb/init-functions
 
 ZOOPIDDIR=/var/lib/zookeeper/data
 ZOOPIDFILE=${ZOOPIDDIR}/zookeeper_server.pid
@@ -61,7 +61,7 @@ case "$1" in
   start)
 	check_for_no_start
 	log_daemon_msg "Starting Apache ZooKeeper server" "zookeeper"
-	if start-stop-daemon --start --quiet --oknodo --pidfile ${ZOOPIDFILE} -c zookeeper -x ${ZOOKEEPER_PREFIX}/sbin/zkServer.sh start; then
+	if start-stop-daemon --start --quiet --oknodo --pidfile ${ZOOPIDFILE} -c zookeeper -x ${ZOOKEEPER_PREFIX}/bin/zkServer.sh start; then
 	    log_end_msg 0
 	else
 	    log_end_msg 1
@@ -80,7 +80,7 @@ case "$1" in
 	log_daemon_msg "Restarting Apache ZooKeeper server" "zookeeper"
 	start-stop-daemon --stop --quiet --oknodo --retry 30 --pidfile ${ZOOPIDFILE}
 	check_for_no_start log_end_msg
-	if start-stop-daemon --start --quiet --oknodo --pidfile ${ZOOPIDFILE} -c zookeeper -x ${ZOOKEEPER_PREFIX}/sbin/zkServer.sh start; then
+	if start-stop-daemon --start --quiet --oknodo --pidfile ${ZOOPIDFILE} -c zookeeper -x ${ZOOKEEPER_PREFIX}/bin/zkServer.sh start; then
 	    log_end_msg 0
 	else
 	    log_end_msg 1
@@ -97,7 +97,7 @@ case "$1" in
 	    0)
 		# old daemon stopped
 		check_for_no_start log_end_msg
-		if start-stop-daemon --start --quiet --oknodo --pidfile ${ZOOPIDFILE} -c zookeeper -x ${ZOOKEEPER_PREFIX}/sbin/zkServer.sh start; then
+		if start-stop-daemon --start --quiet --oknodo --pidfile ${ZOOPIDFILE} -c zookeeper -x ${ZOOKEEPER_PREFIX}/bin/zkServer.sh start; then
 		    log_end_msg 0
 		else
 		    log_end_msg 1
