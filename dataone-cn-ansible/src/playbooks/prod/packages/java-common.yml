@@ -1,0 +1,4 @@
+- name: Installing java-common package
+  action: apt pkg=java-common state=latest install_recommends=no
+  register: java_common_installed
+  when: java_common_installed is not defined

@@ -1,0 +1,18 @@
+- include: libc6.yml
+
+- include: libfontenc1.yml
+
+- include: libfreetype6.yml
+
+- include: libxfont1.yml
+
+- include: x11-common.yml
+
+- include: xfonts-encodings.yml
+
+- include: zlib1g.yml
+
+- name: Installing xfonts-utils package
+  action: apt pkg=xfonts-utils state=latest install_recommends=no
+  register: xfonts_utils_installed
+  when: xfonts_utils_installed is not defined

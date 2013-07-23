@@ -1,0 +1,4 @@
+- name: Installing libice6 package
+  action: apt pkg=libice6 state=latest install_recommends=no
+  register: libice6_installed
+  when: libice6_installed is not defined

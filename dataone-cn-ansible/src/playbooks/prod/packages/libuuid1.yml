@@ -1,0 +1,4 @@
+- name: Installing libuuid1 package
+  action: apt pkg=libuuid1 state=latest install_recommends=no
+  register: libuuid1_installed
+  when: libuuid1_installed is not defined

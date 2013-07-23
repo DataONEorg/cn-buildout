@@ -1,0 +1,4 @@
+- name: Installing libhtml-tagset-perl package
+  action: apt pkg=libhtml-tagset-perl state=latest install_recommends=no
+  register: libhtml_tagset_perl_installed
+  when: libhtml_tagset_perl_installed is not defined

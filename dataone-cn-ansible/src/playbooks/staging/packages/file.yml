@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libmagic1.yml
+
+- include: zlib1g.yml
+
+- name: Installing file package
+  action: apt pkg=file state=latest install_recommends=no
+  register: file_installed
+  when: file_installed is not defined

@@ -1,0 +1,4 @@
+- name: Installing defoma package
+  action: apt pkg=defoma state=latest install_recommends=no
+  register: defoma_installed
+  when: defoma_installed is not defined

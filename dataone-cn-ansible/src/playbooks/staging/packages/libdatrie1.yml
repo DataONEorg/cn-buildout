@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing libdatrie1 package
+  action: apt pkg=libdatrie1 state=latest install_recommends=no
+  register: libdatrie1_installed
+  when: libdatrie1_installed is not defined

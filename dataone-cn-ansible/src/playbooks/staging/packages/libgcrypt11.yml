@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libgpg-error0.yml
+
+- name: Installing libgcrypt11 package
+  action: apt pkg=libgcrypt11 state=latest install_recommends=no
+  register: libgcrypt11_installed
+  when: libgcrypt11_installed is not defined

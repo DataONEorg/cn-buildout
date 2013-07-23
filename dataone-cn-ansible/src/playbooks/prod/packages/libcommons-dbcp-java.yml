@@ -1,0 +1,12 @@
+- include: default-jre-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- include: libcommons-collections-java.yml
+
+- include: libcommons-pool-java.yml
+
+- name: Installing libcommons-dbcp-java package
+  action: apt pkg=libcommons-dbcp-java state=latest install_recommends=no
+  register: libcommons_dbcp_java_installed
+  when: libcommons_dbcp_java_installed is not defined

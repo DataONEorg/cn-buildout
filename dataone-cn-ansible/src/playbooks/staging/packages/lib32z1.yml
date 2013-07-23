@@ -1,0 +1,6 @@
+- include: libc6-i386.yml
+
+- name: Installing lib32z1 package
+  action: apt pkg=lib32z1 state=latest install_recommends=no
+  register: lib32z1_installed
+  when: lib32z1_installed is not defined

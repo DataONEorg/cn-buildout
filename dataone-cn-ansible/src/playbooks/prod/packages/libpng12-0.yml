@@ -1,0 +1,4 @@
+- name: Installing libpng12-0 package
+  action: apt pkg=libpng12-0 state=latest install_recommends=no
+  register: libpng12_0_installed
+  when: libpng12_0_installed is not defined

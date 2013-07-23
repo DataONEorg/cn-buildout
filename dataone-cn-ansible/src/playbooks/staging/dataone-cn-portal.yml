@@ -1,0 +1,6 @@
+- name: Installing dataone-cn-portal
+  hosts: staging
+  tasks:
+
+   - include: packages/dataone-cn-portal.yml
+

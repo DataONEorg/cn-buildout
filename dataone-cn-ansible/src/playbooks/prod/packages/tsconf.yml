@@ -1,0 +1,4 @@
+- name: Installing tsconf package
+  action: apt pkg=tsconf state=latest install_recommends=no
+  register: tsconf_installed
+  when: tsconf_installed is not defined

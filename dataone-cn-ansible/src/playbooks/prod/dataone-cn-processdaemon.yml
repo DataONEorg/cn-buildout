@@ -1,0 +1,6 @@
+- name: Installing dataone-cn-processdaemon
+  hosts: prod
+  tasks:
+
+   - include: packages/dataone-cn-processdaemon.yml
+

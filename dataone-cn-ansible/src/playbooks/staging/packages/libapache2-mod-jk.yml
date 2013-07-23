@@ -1,0 +1,10 @@
+- include: apache2.yml
+
+- include: apache2.2-common.yml
+
+- include: libc6.yml
+
+- name: Installing libapache2-mod-jk package
+  action: apt pkg=libapache2-mod-jk state=latest install_recommends=no
+  register: libapache2_mod_jk_installed
+  when: libapache2_mod_jk_installed is not defined

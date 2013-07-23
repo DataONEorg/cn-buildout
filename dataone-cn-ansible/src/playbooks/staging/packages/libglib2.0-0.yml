@@ -1,0 +1,4 @@
+- name: Installing libglib2.0-0 package
+  action: apt pkg=libglib2.0-0 state=latest install_recommends=no
+  register: libglib2_installed
+  when: libglib2_installed is not defined

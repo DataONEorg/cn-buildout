@@ -1,0 +1,4 @@
+- name: Installing libaprutil1 package
+  action: apt pkg=libaprutil1 state=latest install_recommends=no
+  register: libaprutil1_installed
+  when: libaprutil1_installed is not defined

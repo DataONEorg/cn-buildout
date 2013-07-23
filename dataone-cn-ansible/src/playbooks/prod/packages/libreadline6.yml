@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libncurses5.yml
+
+- include: readline-common.yml
+
+- name: Installing libreadline6 package
+  action: apt pkg=libreadline6 state=latest install_recommends=no
+  register: libreadline6_installed
+  when: libreadline6_installed is not defined

@@ -1,0 +1,8 @@
+- include: libc6-i386.yml
+
+- include: libv4l-0.yml
+
+- name: Installing lib32v4l-0 package
+  action: apt pkg=lib32v4l-0 state=latest install_recommends=no
+  register: lib32v4l_0_installed
+  when: lib32v4l_0_installed is not defined

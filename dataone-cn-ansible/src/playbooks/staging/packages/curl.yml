@@ -1,0 +1,11 @@
+- include: libc6.yml
+
+- include: libcurl3.yml
+
+- include: zlib1g.yml
+
+- name: Installing curl package
+  action: apt pkg=curl state=latest install_recommends=no
+  register: curl_installed
+  when: curl_installed is not defined
+  

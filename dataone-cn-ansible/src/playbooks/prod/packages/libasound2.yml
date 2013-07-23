@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libpython2.6.yml
+
+- name: Installing libasound2 package
+  action: apt pkg=libasound2 state=latest install_recommends=no
+  register: libasound2_installed
+  when: libasound2_installed is not defined

@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing base-passwd package
+  action: apt pkg=base-passwd state=latest install_recommends=no
+  register: base_passwd_installed
+  when: base_passwd_installed is not defined

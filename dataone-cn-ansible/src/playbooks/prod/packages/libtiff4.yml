@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libjpeg62.yml
+
+- include: zlib1g.yml
+
+- name: Installing libtiff4 package
+  action: apt pkg=libtiff4 state=latest install_recommends=no
+  register: libtiff4_installed
+  when: libtiff4_installed is not defined

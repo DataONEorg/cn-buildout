@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing libbsd0 package
+  action: apt pkg=libbsd0 state=latest install_recommends=no
+  register: libbsd0_installed
+  when: libbsd0_installed is not defined

@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: perl-base.yml
+
+- name: Installing liblocale-gettext-perl package
+  action: apt pkg=liblocale-gettext-perl state=latest install_recommends=no
+  register: liblocale_gettext_perl_installed
+  when: liblocale_gettext_perl_installed is not defined

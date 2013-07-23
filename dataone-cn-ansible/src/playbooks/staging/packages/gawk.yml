@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing gawk package
+  action: apt pkg=gawk state=latest install_recommends=no
+  register: gawk_installed
+  when: gawk_installed is not defined

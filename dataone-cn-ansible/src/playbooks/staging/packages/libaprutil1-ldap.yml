@@ -1,0 +1,10 @@
+- include: libaprutil1.yml
+
+- include: libc6.yml
+
+- include: libldap-2.4-2.yml
+
+- name: Installing libaprutil1-ldap package
+  action: apt pkg=libaprutil1-ldap state=latest install_recommends=no
+  register: libaprutil1_ldap_installed
+  when: libaprutil1_ldap_installed is not defined

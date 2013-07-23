@@ -1,0 +1,4 @@
+- name: Installing libcups2 package
+  action: apt pkg=libcups2 state=latest install_recommends=no
+  register: libcups2_installed
+  when: libcups2_installed is not defined

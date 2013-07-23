@@ -1,0 +1,6 @@
+- include: python.yml
+
+- name: Installing python-central package
+  action: apt pkg=python-central state=latest install_recommends=no
+  register: python_central_installed
+  when: python_central_installed is not defined

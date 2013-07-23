@@ -1,0 +1,8 @@
+- include: java5-runtime-headless.yml
+
+- include: openjdk-6-jre-headless.yml
+
+- name: Installing liblucene2-java package
+  action: apt pkg=liblucene2-java state=latest install_recommends=no
+  register: liblucene2_java_installed
+  when: liblucene2_java_installed is not defined

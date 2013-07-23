@@ -1,0 +1,6 @@
+- name: Installing dataone-cn-metacat
+  hosts: prod
+  tasks:
+
+   - include: packages/dataone-cn-metacat.yml
+

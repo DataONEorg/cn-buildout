@@ -1,0 +1,4 @@
+- name: Installing check-mk-agent-logwatch package
+  action: apt pkg=check-mk-agent-logwatch state=latest install_recommends=no force=yes
+  register: check_mk_agent_logwatch_installed
+  when: check_mk_agent_logwatch_installed is not defined

@@ -1,0 +1,4 @@
+- name: Installing libthai-data package
+  action: apt pkg=libthai-data state=latest install_recommends=no
+  register: libthai_data_installed
+  when: libthai_data_installed is not defined

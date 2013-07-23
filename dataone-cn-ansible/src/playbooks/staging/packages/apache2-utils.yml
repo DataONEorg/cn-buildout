@@ -1,0 +1,12 @@
+- include: libapr1.yml
+
+- include: libaprutil1.yml
+
+- include: libc6.yml
+
+- include: libssl0.9.8.yml
+
+- name: Installing apache2-utils package
+  action: apt pkg=apache2-utils state=latest install_recommends=no
+  register: apache2_utils_installed
+  when: apache2_utils_installed is not defined

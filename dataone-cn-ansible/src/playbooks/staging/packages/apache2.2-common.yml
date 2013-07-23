@@ -1,0 +1,4 @@
+- name: Installing apache2.2-common package
+  action: apt pkg=apache2.2-common state=latest install_recommends=no
+  register: apache2_2_common_installed
+  when: apache2_2_common_installed is not defined

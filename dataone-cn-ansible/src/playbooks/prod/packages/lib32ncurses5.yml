@@ -1,0 +1,6 @@
+- include: libc6-i386.yml
+
+- name: Installing lib32ncurses5 package
+  action: apt pkg=lib32ncurses5 state=latest install_recommends=no
+  register: lib32ncurses5_installed
+  when: lib32ncurses5_installed is not defined

@@ -1,0 +1,14 @@
+- include: dataone-cn-os-core.yml
+
+- include: dataone-cn-version-tool.yml
+
+- include: sun-java6-jdk.yml
+
+- include: tomcat6.yml
+
+- include: tomcat6-admin.yml
+
+- name: Installing dataone-cn-portal package
+  action: apt pkg=dataone-cn-portal state=latest install_recommends=no force=yes
+  register: dataone_cn_portal_installed
+  when: dataone_cn_portal_installed is not defined

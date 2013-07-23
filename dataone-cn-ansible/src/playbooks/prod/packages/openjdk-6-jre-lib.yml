@@ -1,0 +1,6 @@
+- include: openjdk-6-jre-headless.yml
+
+- name: Installing openjdk-6-jre-lib package
+  action: apt pkg=openjdk-6-jre-lib state=latest install_recommends=no
+  register: openjdk_6_jre_lib_installed
+  when: openjdk_6_jre_lib_installed is not defined

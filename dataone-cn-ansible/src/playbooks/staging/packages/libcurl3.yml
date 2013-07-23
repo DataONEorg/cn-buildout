@@ -1,0 +1,18 @@
+- include: ca-certificates.yml
+
+- include: libc6.yml
+
+- include: libgssapi-krb5-2.yml
+
+- include: libidn11.yml
+
+- include: libldap-2.4-2.yml
+
+- include: libssl0.9.8.yml
+
+- include: zlib1g.yml
+
+- name: Installing libcurl3 package
+  action: apt pkg=libcurl3 state=latest install_recommends=no
+  register: libcurl3_installed
+  when: libcurl3_installed is not defined

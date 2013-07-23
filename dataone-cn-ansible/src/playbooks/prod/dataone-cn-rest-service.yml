@@ -1,0 +1,6 @@
+- name: Installing dataone-cn-rest-service
+  hosts: prod
+  tasks:
+
+   - include: packages/dataone-cn-rest-service.yml
+

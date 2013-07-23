@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing libbz2-1.0 package
+  action: apt pkg=libbz2-1.0 state=latest install_recommends=no
+  register: libbz2_1_installed
+  when: libbz2_1_installed is not defined

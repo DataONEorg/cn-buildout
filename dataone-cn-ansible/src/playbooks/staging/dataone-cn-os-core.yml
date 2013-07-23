@@ -1,0 +1,130 @@
+- name: Installing dataone-cn-os-core
+  hosts: staging
+
+  vars_prompt:
+  
+    keystore_passwd: "What is the Java keystore password?"
+    first_cn: "Is this the first CN in the environment to be deployed?"
+    ldap_admin_passwd: "What is the LDAP database admin password?"
+  
+  
+    #environment: "Which deployment environment?"
+    #node_id: "What is the unique node id of this CN?"
+    #client_cert_file: "What is the path to the CN client certificate file?"
+    #private_key_file: "What is the path to the CN server private SSL key file?"
+    #replication_cert_file: "What is the path to the CN replication certificate file?"
+    #replication_private_key_file: "What is the path to the CN replication privatekey file?"
+    #keystore_passwd: "What is the Java keystore password?"
+    #ldap_admin_passwd: "What is the LDAP database admin password?"
+    #ldap_sync: "Synchronize the LDAP database across CNs?"
+    #ldap_server_id: "What is the unique LDAP serverID for this CN?"
+    #first_ldap: "Is this the first CN in the environment to be deployed?"
+    
+  tasks:
+  
+   - name:   Update the repo cache
+     action: apt update-cache=yes
+      
+   - name: Install debconf-utils
+     action: apt pkg=debconf-utils
+   
+   - name: Install python lxml
+     action: apt pkg=python-lxml
+   
+   - name: gather site specific fact data
+     action: site_facts
+     
+   - action: debug msg='{{ debconf_entries[item]["value"] }}'
+     with_items: debconf_entries.keys()
+     
+     
+#   - debug: msg="not in"
+#     with_items: debconf_templates.keys() 
+#     when: item not in debconf_entries
+     
+     
+   - name: Seeding debconf with templates
+     action: debconf package=dataone-cn-os-core command=loadtemplate question={{ debconf_templates[item]['key'] }} type={{ debconf_templates[item]['type'] }} description="{{ debconf_templates[item]['description'] }}"
+     with_items: debconf_templates.keys() 
+    
+    
+    
+   - name: Setting nc.openldap.firstcn in debconf
+     action: debconf package=dataone-cn-os-core command=set question=dataone-cn-os-core/cn.openldap.firstcn  value='{{ first_cn }}'
+        
+   - name: Setting seen flag for nc.openldap.firstcn in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.openldap.firstcn flag=seen  value=true
+    
+   - name: Setting derived-value flag for nc.openldap.firstcn in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.openldap.firstcn flag=derived-value  value=false
+     
+   - name: Setting configured-value flag for nc.openldap.firstcn in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.openldap.firstcn flag=configured-value  value=false
+     
+   - name: Setting user-entered-value flag for nc.openldap.firstcn in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.openldap.firstcn flag=user-entered-value  value=true
+     
+     
+     
+     
+   - name: Setting keystore password in debconf
+     action: debconf package=dataone-cn-os-core command=set question=dataone-cn-os-core/cn.keystore.password  value='{{ keystore_passwd }}'
+
+   - name: Setting seen flag for cn.keystore.password in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.keystore.password flag=seen  value=true
+    
+   - name: Setting derived-value flag for cn.keystore.password in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.keystore.password flag=derived-value  value=false
+     
+   - name: Setting configured-value flag cn.keystore.password in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.keystore.password flag=configured-value  value=false
+     
+   - name: Setting user-entered-value flag for cn.keystore.password in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.keystore.password flag=user-entered-value  value=true
+     
+       
+  
+           
+   - name: Setting cn.openldap.password in debconf
+     action: debconf package=dataone-cn-os-core command=set question=dataone-cn-os-core/cn.openldap.password  value='{{ ldap_admin_passwd }}'
+
+   - name: Setting seen flag for cn.openldap.password in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.openldap.password flag=seen  value=true
+    
+   - name: Setting derived-value flag for cn.openldap.password in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.openldap.password flag=derived-value value=false
+     
+   - name: Setting configured-value flag cn.openldap.password in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.openldap.password flag=configured-value  value=false
+     
+   - name: Setting user-entered-value flag for cn.openldap.password in debconf
+     action: debconf package=dataone-cn-os-core command=fset question=dataone-cn-os-core/cn.openldap.password flag=user-entered-value  value=true
+       
+    
+  
+  
+  
+       
+   - name: Setting dataone-cn-os-core debconf entries
+     action: debconf package=dataone-cn-os-core command=set question={{ item }}  value='{{ debconf_entries[item]["value"] }}'
+     with_items: debconf_entries.keys()
+       
+   - name: Setting seen flag for debconf entries
+     action: debconf package=dataone-cn-os-core command=fset question=$item flag=seen  value=true 
+     with_items: debconf_entries.keys()
+      
+   - name: Setting derived value for debconf entries
+     action: debconf package=dataone-cn-os-core command=fset question=$item flag=derived-value  value='{{ debconf_entries[item][derived_value] }}'
+     with_items: debconf_entries.keys()
+       
+   - name: Setting configured value for debconf entries
+     action: debconf package=dataone-cn-os-core command=fset question=$item flag=configured-value  value='{{ debconf_entries[item][configured_value] }}'
+     with_items: debconf_entries.keys()
+          
+   - name: Setting user-entered-value for debconf entries
+     action: debconf package=dataone-cn-os-core command=fset question=$item flag=user-entered-value  value='{{ debconf_entries[item][user_entered_value] }}'
+     with_items: debconf_entries.keys()
+  
+      
+   - include: packages/dataone-cn-os-core.yml
+

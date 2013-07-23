@@ -1,0 +1,6 @@
+- include: perl.yml
+
+- name: Installing libconvert-asn1-perl package
+  action: apt pkg=libconvert-asn1-perl state=latest install_recommends=no
+  register: libconvert_asn1_perl_installed
+  when: libconvert_asn1_perl_installed is not defined

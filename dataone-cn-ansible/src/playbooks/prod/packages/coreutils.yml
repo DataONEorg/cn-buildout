@@ -1,0 +1,12 @@
+- include: libacl1.yml
+
+- include: libattr1.yml
+
+- include: libc6.yml
+
+- include: libselinux1.yml
+
+- name: Installing coreutils package
+  action: apt pkg=coreutils state=latest install_recommends=no
+  register: coreutils_installed
+  when: coreutils_installed is not defined

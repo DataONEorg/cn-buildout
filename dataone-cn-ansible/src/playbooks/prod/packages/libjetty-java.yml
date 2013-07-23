@@ -1,0 +1,12 @@
+- include: default-jre-headless.yml
+
+- include: java5-runtime-headless.yml
+
+- include: libservlet2.5-java.yml
+
+- include: libslf4j-java.yml
+
+- name: Installing libjetty-java package
+  action: apt pkg=libjetty-java state=latest install_recommends=no
+  register: libjetty_java_installed
+  when: libjetty_java_installed is not defined

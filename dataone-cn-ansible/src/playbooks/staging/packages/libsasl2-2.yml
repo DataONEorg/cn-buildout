@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libdb4.8.yml
+
+- name: Installing libsasl2-2 package
+  action: apt pkg=libsasl2-2 state=latest install_recommends=no
+  register: libsasl2_2_installed
+  when: libsasl2_2_installed is not defined

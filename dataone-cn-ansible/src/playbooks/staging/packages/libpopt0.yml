@@ -1,0 +1,6 @@
+- include: libc6.yml
+
+- name: Installing libpopt0 package
+  action: apt pkg=libpopt0 state=latest install_recommends=no
+  register: libpopt0_installed
+  when: libpopt0_installed is not defined

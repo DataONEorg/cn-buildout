@@ -1,0 +1,14 @@
+- include: libc6.yml
+
+- include: libx11-6.yml
+
+- include: libxext6.yml
+
+- include: libxi6.yml
+
+- include: x11-common.yml
+
+- name: Installing libxtst6 package
+  action: apt pkg=libxtst6 state=latest install_recommends=no
+  register: libxtst6_installed
+  when: libxtst6_installed is not defined

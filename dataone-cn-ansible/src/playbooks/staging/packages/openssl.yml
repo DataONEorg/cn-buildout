@@ -1,0 +1,4 @@
+- name: Installing openssl package
+  action: apt pkg=openssl state=latest install_recommends=no
+  register: openssl_installed
+  when: openssl_installed is not defined

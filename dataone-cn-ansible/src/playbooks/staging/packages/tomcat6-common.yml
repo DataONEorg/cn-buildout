@@ -1,0 +1,4 @@
+- name: Installing tomcat6-common package
+  action: apt pkg=tomcat6-common state=latest install_recommends=no
+  register: tomcat6_common_installed
+  when: tomcat6_common_installed is not defined

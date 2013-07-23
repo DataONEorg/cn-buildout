@@ -1,0 +1,16 @@
+- include: libc6.yml
+
+- include: libpq5.yml
+
+- include: libreadline6.yml
+
+- include: libssl0.9.8.yml
+
+- include: postgresql-client-common.yml
+
+- include: zlib1g.yml
+
+- name: Installing postgresql-client-8.4 package
+  action: apt pkg=postgresql-client-8.4 state=latest install_recommends=no
+  register: postgresql_client_8_installed
+  when: postgresql_client_8_installed is not defined

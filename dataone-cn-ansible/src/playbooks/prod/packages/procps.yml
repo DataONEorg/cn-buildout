@@ -1,0 +1,12 @@
+- include: libc6.yml
+
+- include: libncurses5.yml
+
+- include: lsb-base.yml
+
+- include: upstart.yml
+
+- name: Installing procps package
+  action: apt pkg=procps state=latest install_recommends=no
+  register: procps_installed
+  when: procps_installed is not defined

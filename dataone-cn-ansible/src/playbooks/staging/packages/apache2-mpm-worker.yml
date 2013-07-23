@@ -1,0 +1,8 @@
+- include: apache2.2-bin.yml
+
+- include: apache2.2-common.yml
+
+- name: Installing apache2-mpm-worker package
+  action: apt pkg=apache2-mpm-worker state=latest install_recommends=no
+  register: apache2_mpm_worker_installed
+  when: apache2_mpm_worker_installed is not defined

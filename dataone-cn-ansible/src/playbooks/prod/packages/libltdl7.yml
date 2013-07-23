@@ -1,0 +1,4 @@
+- name: Installing libltdl7 package
+  action: apt pkg=libltdl7 state=latest install_recommends=no
+  register: libltdl7_installed
+  when: libltdl7_installed is not defined

@@ -1,0 +1,4 @@
+- name: Installing libkrb5support0 package
+  action: apt pkg=libkrb5support0 state=latest install_recommends=no
+  register: libkrb5support0_installed
+  when: libkrb5support0_installed is not defined

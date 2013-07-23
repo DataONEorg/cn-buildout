@@ -1,0 +1,4 @@
+- name: Installing libgtk2.0-common package
+  action: apt pkg=libgtk2.0-common state=latest install_recommends=no
+  register: libgtk2_common_installed
+  when: libgtk2_common_installed is not defined

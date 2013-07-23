@@ -1,0 +1,4 @@
+- name: Installing mime-support package
+  action: apt pkg=mime-support state=latest install_recommends=no
+  register: mime_support_installed
+  when: mime_support_installed is not defined

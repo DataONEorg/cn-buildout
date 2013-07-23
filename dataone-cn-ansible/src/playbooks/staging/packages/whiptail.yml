@@ -1,0 +1,12 @@
+- include: libc6.yml
+
+- include: libnewt0.52.yml
+
+- include: libpopt0.yml
+
+- include: libslang2.yml
+
+- name: Installing whiptail package
+  action: apt pkg=whiptail state=latest install_recommends=no
+  register: whiptail_installed
+  when: whiptail_installed is not defined

@@ -1,0 +1,4 @@
+- name: Installing sun-java6-bin package
+  action: apt pkg=sun-java6-bin state=latest install_recommends=no
+  register: sun_java6_bin_installed
+  when: sun_java6_bin_installed is not defined

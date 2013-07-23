@@ -1,0 +1,16 @@
+- include: libhtml-parser-perl.yml
+
+- include: libhtml-tagset-perl.yml
+
+- include: libhtml-tree-perl.yml
+
+- include: liburi-perl.yml
+
+- include: netbase.yml
+
+- include: perl.yml
+
+- name: Installing libwww-perl package
+  action: apt pkg=libwww-perl state=latest install_recommends=no
+  register: libwww_perl_installed
+  when: libwww_perl_installed is not defined

@@ -1,0 +1,4 @@
+- name: Installing libcap2 package
+  action: apt pkg=libcap2 state=latest install_recommends=no
+  register: libcap2_installed
+  when: libcap2_installed is not defined

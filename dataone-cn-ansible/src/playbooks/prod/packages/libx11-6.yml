@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libx11-data.yml
+
+- include: libxcb1.yml
+
+- name: Installing libx11-6 package
+  action: apt pkg=libx11-6 state=latest install_recommends=no
+  register: libx11_6_installed
+  when: libx11_6_installed is not defined

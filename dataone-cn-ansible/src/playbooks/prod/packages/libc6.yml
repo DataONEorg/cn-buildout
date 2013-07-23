@@ -1,0 +1,4 @@
+- name: Installing libc6 package
+  action: apt pkg=libc6 state=latest install_recommends=no
+  register: libc6_installed
+  when: libc6_installed is not defined

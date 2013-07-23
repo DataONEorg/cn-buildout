@@ -1,0 +1,4 @@
+- name: Installing libc-bin package
+  action: apt pkg=libc-bin state=latest install_recommends=no
+  register: libc_bin_installed
+  when: libc_bin_installed is not defined

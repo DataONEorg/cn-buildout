@@ -1,0 +1,26 @@
+- include: libc6.yml
+
+- include: libcairo2.yml
+
+- include: libfontconfig1.yml
+
+- include: libfreetype6.yml
+
+- include: libglib2.0-0.yml
+
+- include: libpango1.0-common.yml
+
+- include: libthai0.yml
+
+- include: libx11-6.yml
+
+- include: libxft2.yml
+
+- include: libxrender1.yml
+
+- include: zlib1g.yml
+
+- name: Installing libpango1.0-0 package
+  action: apt pkg=libpango1.0-0 state=latest install_recommends=no
+  register: libpango1_installed
+  when: libpango1_installed is not defined

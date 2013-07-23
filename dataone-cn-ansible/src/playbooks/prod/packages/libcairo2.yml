@@ -1,0 +1,4 @@
+- name: Installing libcairo2 package
+  action: apt pkg=libcairo2 state=latest install_recommends=no
+  register: libcairo2_installed
+  when: libcairo2_installed is not defined

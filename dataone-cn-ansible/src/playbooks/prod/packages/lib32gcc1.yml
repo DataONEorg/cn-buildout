@@ -1,0 +1,8 @@
+- include: gcc-4.4-base.yml
+
+- include: libc6-i386.yml
+
+- name: Installing lib32gcc1 package
+  action: apt pkg=lib32gcc1 state=latest install_recommends=no
+  register: lib32gcc1_installed
+  when: lib32gcc1_installed is not defined

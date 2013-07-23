@@ -1,0 +1,8 @@
+- include: gcc-4.4-base.yml
+
+- include: libc6.yml
+
+- name: Installing libgcc1 package
+  action: apt pkg=libgcc1 state=latest install_recommends=no
+  register: libgcc1_installed
+  when: libgcc1_installed is not defined

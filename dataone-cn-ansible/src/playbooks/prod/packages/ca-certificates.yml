@@ -1,0 +1,8 @@
+- include: debconf.yml
+
+- include: openssl.yml
+
+- name: Installing ca-certificates package
+  action: apt pkg=ca-certificates state=latest install_recommends=no
+  register: ca_certificates_installed
+  when: ca_certificates_installed is not defined

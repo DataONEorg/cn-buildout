@@ -1,0 +1,4 @@
+- name: Installing zlib1g package
+  action: apt pkg=zlib1g state=latest install_recommends=no
+  register: zlib1g_installed
+  when: zlib1g_installed is not defined

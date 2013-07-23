@@ -1,0 +1,10 @@
+- include: debconf.yml
+
+- include: passwd.yml
+
+- include: perl-base.yml
+
+- name: Installing adduser package
+  action: apt pkg=adduser state=latest install_recommends=no
+  register: adduser_installed
+  when: adduser_installed is not defined

@@ -1,0 +1,8 @@
+- include: libc6.yml
+
+- include: libogg0.yml
+
+- name: Installing libflac8 package
+  action: apt pkg=libflac8 state=latest install_recommends=no
+  register: libflac8_installed
+  when: libflac8_installed is not defined

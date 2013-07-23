@@ -1,0 +1,10 @@
+- include: libc6.yml
+
+- include: libgcc1.yml
+
+- include: libstdc++6.yml
+
+- name: Installing lzma package
+  action: apt pkg=lzma state=latest install_recommends=no
+  register: lzma_installed
+  when: lzma_installed is not defined

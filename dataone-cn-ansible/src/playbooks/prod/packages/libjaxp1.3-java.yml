@@ -1,0 +1,10 @@
+- include: default-jre-headless.yml
+
+- include: java1-runtime-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- name: Installing libjaxp1.3-java package
+  action: apt pkg=libjaxp1.3-java state=latest install_recommends=no
+  register: libjaxp1_installed
+  when: libjaxp1_installed is not defined

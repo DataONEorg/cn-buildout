@@ -1,0 +1,4 @@
+- name: Installing dpkg package
+  action: apt pkg=dpkg state=latest install_recommends=no
+  register: dpkg_installed
+  when: dpkg_installed is not defined

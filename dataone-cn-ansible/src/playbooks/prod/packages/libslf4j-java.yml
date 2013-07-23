@@ -1,0 +1,8 @@
+- include: default-jre-headless.yml
+
+- include: java2-runtime-headless.yml
+
+- name: Installing libslf4j-java package
+  action: apt pkg=libslf4j-java state=latest install_recommends=no
+  register: libslf4j_java_installed
+  when: libslf4j_java_installed is not defined
