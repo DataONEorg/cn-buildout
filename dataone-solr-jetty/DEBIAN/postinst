@@ -1,0 +1,11 @@
+#!/bin/bash
+
+JETTY_HOME=/var/lib/jetty
+SOLR_ROOT=/var/solr
+SOLR_HOME=/var/solr/home
+
+/etc/init.d/jetty stop
+
+cp ${SOLR_ROOT}/solr.war ${JETTY_HOME}/webapps
+
+/etc/init.d/jetty start
