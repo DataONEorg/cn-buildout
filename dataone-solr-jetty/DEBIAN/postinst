@@ -7,5 +7,6 @@ SOLR_HOME=/var/solr/home
 /etc/init.d/jetty stop
 
 cp ${SOLR_ROOT}/solr.war ${JETTY_HOME}/webapps
+cp /usr/share/dataone-solr-jetty/debian/log4j.properties ${JETTY_HOME}/resources/
 
 /etc/init.d/jetty start
