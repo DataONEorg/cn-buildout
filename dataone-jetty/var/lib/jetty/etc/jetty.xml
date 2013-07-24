@@ -7,11 +7,6 @@
 <!-- Documentation of this file format can be found at:              -->
 <!-- http://wiki.eclipse.org/Jetty/Reference/jetty.xml_syntax        -->
 <!--                                                                 -->
-<!-- Additional configuration files are available in $JETTY_HOME/etc -->
-<!-- and can be mixed in.  For example:                              -->
-<!--   java -jar start.jar etc/jetty-ssl.xml                         -->
-<!--                                                                 -->
-<!-- See start.ini file for the default configuraton files           -->
 <!-- =============================================================== -->
 
 
@@ -33,21 +28,23 @@
     <!-- Set connectors                                              -->
     <!-- =========================================================== -->
 
+    <!-- This connector is currently being used for Solr because it
+          showed better performance than nio.SelectChannelConnector
+          for typical Solr requests.  -->
     <Call name="addConnector">
       <Arg>
-          <New class="org.eclipse.jetty.server.nio.SelectChannelConnector">
-            <Set name="host"><Property name="jetty.host" /></Set>
-            <Set name="port"><Property name="jetty.port" default="8983"/></Set>
-            <Set name="maxIdleTime">300000</Set>
+          <New class="org.eclipse.jetty.server.bio.SocketConnector">
+            <Call class="java.lang.System" name="setProperty"> <Arg>log4j.configuration</Arg> <Arg>etc/log4j.properties</Arg> </Call>
+            <Set name="host"><SystemProperty name="jetty.host" /></Set>
+            <Set name="port"><SystemProperty name="jetty.port" default="8983"/></Set>
             <Set name="Acceptors">2</Set>
+            <Set name="maxIdleTime">50000</Set>
+            <Set name="lowResourceMaxIdleTime">5000</Set>
             <Set name="statsOn">false</Set>
-            <Set name="confidentialPort">8443</Set>
-	    <Set name="lowResourcesConnections">20000</Set>
-	    <Set name="lowResourcesMaxIdleTime">5000</Set>
           </New>
       </Arg>
     </Call>
-
+    
     <!-- =========================================================== -->
     <!-- Set handler Collection Structure                            --> 
     <!-- =========================================================== -->
@@ -61,19 +58,50 @@
            <Item>
              <New id="DefaultHandler" class="org.eclipse.jetty.server.handler.DefaultHandler"/>
            </Item>
+           <Item>
+             <New id="RequestLog" class="org.eclipse.jetty.server.handler.RequestLogHandler"/>
+           </Item>
          </Array>
         </Set>
       </New>
     </Set>
-
+    
     <!-- =========================================================== -->
     <!-- extra options                                               -->
     <!-- =========================================================== -->
     <Set name="stopAtShutdown">true</Set>
-    <Set name="sendServerVersion">true</Set>
-    <Set name="sendDateHeader">true</Set>
+    <Set name="sendServerVersion">false</Set>
+    <Set name="sendDateHeader">false</Set>
     <Set name="gracefulShutdown">1000</Set>
     <Set name="dumpAfterStart">false</Set>
     <Set name="dumpBeforeStop">false</Set>
+
+
+
+
+    <Call name="addBean">
+      <Arg>
+        <New id="DeploymentManager" class="org.eclipse.jetty.deploy.DeploymentManager">
+          <Set name="contexts">
+            <Ref id="Contexts" />
+          </Set>
+          <Call name="setContextAttribute">
+            <Arg>org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern</Arg>
+            <Arg>.*/servlet-api-[^/]*\.jar$</Arg>
+          </Call>
+        </New>
+      </Arg>
+    </Call>
+    
+    <Ref id="DeploymentManager">
+      <Call name="addAppProvider">
+        <Arg>
+          <New class="org.eclipse.jetty.deploy.providers.ContextProvider">
+            <Set name="monitoredDirName"><SystemProperty name="jetty.home" default="."/>/contexts</Set>
+            <Set name="scanInterval">0</Set>
+          </New>
+        </Arg>
+      </Call>
+    </Ref>
 
 </Configure>
