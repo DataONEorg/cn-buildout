@@ -22,13 +22,13 @@ cp /usr/share/dataone-cn-audit-index/debian/schema.xml ${AUDIT_CORE_DIR}/conf/sc
 cp /usr/share/dataone-cn-audit-index/debian/solrconfig.xml ${AUDIT_CORE_DIR}/conf/solrconfig.xml
 
 if [ -n "$FRESH_INSTALL" ]; then
-	curl 'http://localhost:8983/solr/admin/cores?action=CREATE&name=${AUDIT_CORE_NAME}&instanceDir=${AUDIT_CORE_DIR}&dataDir=data'
+	curl "http://localhost:8983/solr/admin/cores?action=CREATE&name=$AUDIT_CORE_NAME&instanceDir=$AUDIT_CORE_DIR&dataDir=data"
 	# Bootstrap zookeeper config		
 fi
 
 if [ -z "$FRESH_INSTALL" ]; then
 	# Copy new core config to zookeeper?
-	curl http://localhost:8983/solr/admin/cores?action=RELOAD&core=${AUDIT_CORE_NAME}
+	curl "http://localhost:8983/solr/admin/cores?action=RELOAD&core=$AUDIT_CORE_NAME"
 fi
 
 # grant jetty directories to jetty user
