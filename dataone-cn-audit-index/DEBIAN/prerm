@@ -1,0 +1,6 @@
+#!/bin/bash
+
+SOLR_HOME=/var/solr/home
+AUDIT_CORE_NAME=cn-audit
+AUDIT_CORE_DIR=${SOLR_HOME}/${AUDIT_CORE_NAME}
+

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Installer assumes jetty is running.  Deploys core while jetty is running.
+
+# stop jetty and zookeeper?
+
+SOLR_HOME=/var/solr/home
+AUDIT_CORE_NAME=cn-audit
+AUDIT_CORE_DIR=${SOLR_HOME}/${AUDIT_CORE_NAME}
+
+if [ ! -d "$AUDIT_CORE_DIR" ]; then
+	FRESH_INSTALL="true"	
+	mkdir ${AUDIT_CORE_DIR}
+	cp -rf ${SOLR_HOME}/core-template/conf/ ${AUDIT_CORE_DIR}/conf/
+fi
+
+cp /usr/share/dataone-cn-audit-index/debian/schema.xml ${AUDIT_CORE_DIR}/conf/schema.xml
+cp /usr/share/dataone-cn-audit-index/debian/solrconfig.xml ${AUDIT_CORE_DIR}/conf/solrconfig.xml
+
+if [ -n "$FRESH_INSTALL" ]; then
+	curl 'http://localhost:8983/solr/admin/cores?action=CREATE&name=${AUDIT_CORE_NAME}&instanceDir=${AUDIT_CORE_DIR}&dataDir=data'
+	# Bootstrap zookeeper config		
+fi
+
+if [ -z "$FRESH_INSTALL" ]; then
+	# Copy new core config to zookeeper?
+	curl http://localhost:8983/solr/admin/cores?action=RELOAD&core=${AUDIT_CORE_NAME}
+fi
+
+# restart jetty and ?zookeeper? with cloud config.
