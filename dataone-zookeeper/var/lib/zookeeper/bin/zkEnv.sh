@@ -25,6 +25,7 @@
 
 ZOOBINDIR=${ZOOBINDIR:-/var/lib/zookeeper/bin}
 ZOOKEEPER_PREFIX=${ZOOBINDIR}/..
+ZOOPIDFILE=/var/lib/zookeeper/zookeeper_server.pid
 
 if [ "x$ZOOCFGDIR" = "x" ]
 then

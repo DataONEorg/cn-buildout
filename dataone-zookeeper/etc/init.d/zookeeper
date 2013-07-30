@@ -38,7 +38,7 @@ umask 022
 . /lib/lsb/init-functions
 
 ZOOPIDDIR=/var/lib/zookeeper/data
-ZOOPIDFILE=${ZOOPIDDIR}/zookeeper_server.pid
+ZOOPIDFILE=/var/lib/zookeeper/zookeeper_server.pid
 
 # Are we running from init?
 run_by_init() {
