@@ -1,0 +1,10 @@
+ProxyPreserveHost On
+ProxyPass /solr http://localhost:8983/solr
+
+<LocationMatch /solr/cn-audit/(admin|update|get|replication)>
+    Order Deny,Allow
+    Deny from all
+    Allow from 64.106.40.9
+    Allow from 160.36.13.153
+    Allow from 128.111.36.78
+</LocationMatch>

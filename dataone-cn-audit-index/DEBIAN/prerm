@@ -4,3 +4,12 @@ SOLR_HOME=/var/solr/home
 AUDIT_CORE_NAME=cn-audit
 AUDIT_CORE_DIR=${SOLR_HOME}/${AUDIT_CORE_NAME}
 
+ZK_CONF_HOME=/var/lib/zookeeper/conf
+APACHE_CONF_HOME=/etc/apache2/conf.d
+JETTY_HOME=/var/lib/jetty
+
+mv ${JETTY_HOME}/start.ini.bak ${JETTY_HOME}/start.ini
+mv ${ZK_CONF_HOME}/zoo.cfg.bak ${ZK_CONF_HOME}/zoo.cfg
+
+rm ${APACHE_CONF_HOME}/modproxy_cnaudit
+/etc/init.d/apache2 restart

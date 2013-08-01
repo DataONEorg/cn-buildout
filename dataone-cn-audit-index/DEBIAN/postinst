@@ -9,7 +9,8 @@ AUDIT_CORE_NAME=cn-audit
 AUDIT_CORE_DIR=${SOLR_HOME}/${AUDIT_CORE_NAME}
 
 JETTY_HOME=/var/lib/jetty
-ZK_HOME=/var/lib/zookeeper
+ZK_CONF_HOME=/var/lib/zookeeper/conf
+APACHE_CONF_HOME=/etc/apache2/conf.d
 
 /etc/init.d/jetty stop
 
@@ -23,19 +24,37 @@ cp /usr/share/dataone-cn-audit-index/debian/schema.xml ${AUDIT_CORE_DIR}/conf/sc
 cp /usr/share/dataone-cn-audit-index/debian/solrconfig.xml ${AUDIT_CORE_DIR}/conf/solrconfig.xml
 chown ${SOLR_USER}:${SOLR_USER} -R ${AUDIT_CORE_DIR}
 
+mv ${JETTY_HOME}/start.ini ${JETTY_HOME}/start.ini.bak
 cp /usr/share/dataone-cn-audit-index/debian/jetty.start.ini ${JETTY_HOME}/start.ini
 chown ${SOLR_USER}:${SOLR_USER} -R ${JETTY_HOME}
 
-cp /usr/share/dataone-cn-audit-index/debian/zoo.cfg ${ZK_HOME}/conf/zoo.cfg
+mv ${ZK_CONF_HOME}/zoo.cfg ${ZK_CONF_HOME}/zoo.cfg.bak
+cp /usr/share/dataone-cn-audit-index/debian/zoo.cfg ${ZK_CONF_HOME}/zoo.cfg
 chown ${SOLR_USER}:${SOLR_USER} -R ${ZK_HOME} 
+
+cp /usr/share/dataone-cn-audit-index/debian/modproxy_cnaudit ${APACHE_CONF_HOME}/modproxy_cnaudit
+/etc/init.d/apache2 restart
 
 /etc/init.d/jetty start
 
 if [ -n "$FRESH_INSTALL" ]; then
 	curl "http://localhost:8983/solr/admin/cores?action=CREATE&name=$AUDIT_CORE_NAME&instanceDir=$AUDIT_CORE_DIR&dataDir=data"
-	# Bootstrap zookeeper config		
+
+	### Firewall configuration to allow zookeeper communication
+	ufw allow from 64.106.40.9 to any port 9983
+	ufw allow from 128.111.36.78 to any port 9983
+	ufw allow from 160.36.13.153 to any port 9983
+	
+	ufw allow from 64.106.40.9 to any port 7632
+	ufw allow from 128.111.36.78 to any port 7632
+	ufw allow from 160.36.13.153 to any port 7632
+	
+	ufw allow from 64.106.40.9 to any port 7612
+	ufw allow from 128.111.36.78 to any port 7612
+	ufw allow from 160.36.13.153 to any port 7612
 fi
 
 if [ -z "$FRESH_INSTALL" ]; then
 	curl "http://localhost:8983/solr/admin/cores?action=RELOAD&core=$AUDIT_CORE_NAME"
 fi
+
