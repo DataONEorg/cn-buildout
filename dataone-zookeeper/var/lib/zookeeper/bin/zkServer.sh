@@ -79,19 +79,17 @@ fi
 
 echo "Using config: $ZOOCFG" >&2
 
+ZOO_DATADIR=$(grep "^[[:space:]]*dataDir" "$ZOOCFG" | sed -e 's/.*=//')
+if [ ! -d "$ZOO_DATADIR" ]; then
+	mkdir -p "$ZOO_DATADIR"
+fi
+    
 if [ -z $ZOOPIDFILE ]; then
-    ZOO_DATADIR=$(grep "^[[:space:]]*dataDir" "$ZOOCFG" | sed -e 's/.*=//')
-    if [ ! -d "$ZOO_DATADIR" ]; then
-        mkdir -p "$ZOO_DATADIR"
-    fi
-    ZOOPIDFILE="$ZOO_DATADIR/zookeeper_server.pid"
-else
-    # ensure it exists, otw stop will fail
-    mkdir -p $(dirname "$ZOOPIDFILE")
+    ZOOPIDFILE=/var/lib/zookeeper/zookeeper_server.pid
 fi
 
 if [ ! -w "$ZOO_LOG_DIR" ] ; then
-mkdir -p "$ZOO_LOG_DIR"
+	mkdir -p "$ZOO_LOG_DIR"
 fi
 
 _ZOO_DAEMON_OUT="$ZOO_LOG_DIR/zookeeper.out"
