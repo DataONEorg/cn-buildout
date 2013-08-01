@@ -3,7 +3,6 @@
 # Stop jetty
 /etc/init.d/jetty stop
 update-rc.d -f jetty remove
-rm -f /etc/init.d/jetty
 
 # Clean out the jetty init script and defaults
 rm -f /etc/init.d/jetty
