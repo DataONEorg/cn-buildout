@@ -1,21 +1,36 @@
 #!/bin/bash
 
 SOLR_USER=tomcat6
+
+APACHE_CONF_HOME=/etc/apache2/conf.d
+JETTY_HOME=/var/lib/jetty
+
 SOLR_ROOT=/var/solr
 SOLR_HOME=${SOLR_ROOT}/home
 SOLR_CORE_TEMPLATE_CONF_DIR=${SOLR_ROOT}/core-template/conf/
-
 AUDIT_CORE_NAME=cn-audit
 AUDIT_CORE_DIR=${SOLR_HOME}/${AUDIT_CORE_NAME}
 
-JETTY_HOME=/var/lib/jetty
+# Zookeeper configuration
 ZK_CONF_HOME=/var/lib/zookeeper/conf
-APACHE_CONF_HOME=/etc/apache2/conf.d
+ZK_CLIENT_PORT=9983
+ZK_SERVER_PORT_1=7612
+ZK_SERVER_PORT_2=7632
+ZK_SERVER_ID_FILE="/var/lib/zookeeper/data/myid"
+
+# Substitution tokens used in config files like zoo.cfg, start.ini,etc
+SERVER_1_TOKEN="D1_CN_IP_1"
+SERVER_2_TOKEN="D1_CN_IP_2"
+SERVER_3_TOKEN="D1_CN_IP_3"
+ZK_CLIENT_PORT_TOKEN="D1_ZK_CLIENT_PORT"
+ZK_SERVER_PORT_TOKEN_1="D1_ZK_SERVER_PORT_1"
+ZK_SERVER_PORT_TOKEN_2="D1_ZK_SERVER_PORT_2"
 
 /etc/init.d/jetty stop
+/etc/init.d/zookeeper stop
 
 if [ ! -d "$AUDIT_CORE_DIR" ]; then
-	FRESH_INSTALL="true"	
+	FRESH_INSTALL="true"
 	mkdir ${AUDIT_CORE_DIR}
 	cp -rf ${SOLR_CORE_TEMPLATE_CONF_DIR} ${AUDIT_CORE_DIR}/conf/
 fi
@@ -24,37 +39,81 @@ cp /usr/share/dataone-cn-audit-index/debian/schema.xml ${AUDIT_CORE_DIR}/conf/sc
 cp /usr/share/dataone-cn-audit-index/debian/solrconfig.xml ${AUDIT_CORE_DIR}/conf/solrconfig.xml
 chown ${SOLR_USER}:${SOLR_USER} -R ${AUDIT_CORE_DIR}
 
+if [ -n "$FRESH_INSTALL" ]; then
+	/etc/init.d/jetty start
+	curl "http://localhost:8983/solr/admin/cores?action=CREATE&name=$AUDIT_CORE_NAME&instanceDir=$AUDIT_CORE_DIR&dataDir=data"
+	/etc/init.d/jetty stop
+fi
+
+## Deploy and configure files that need variable subsitution
+##### Parse node.properties to derive CN IP list.
+NODE_PROPS="/etc/dataone/node.properties"
+IP_LIST=`egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+IP_ARRAY=($IP_LIST)
+SERVER_1=${IP_ARRAY[0]}
+SERVER_2=${IP_ARRAY[1]}
+SERVER_3=${IP_ARRAY[2]}
+##### Use hostname command to derive local IP, used to set zookeeper server myid file.
+LOCAL_IP=$(/bin/hostname -I | cut -d' ' -f1)
+
+### Substitute server IP and PORT numbers in config files at token locations
+##### Configure apache mod proxy for to allow solr communication between CN nodes
+cp /usr/share/dataone-cn-audit-index/debian/modproxy_cnaudit ${APACHE_CONF_HOME}/modproxy_cnaudit
+sed -i "s/$SERVER_1_TOKEN/$SERVER_1/g" ${APACHE_CONF_HOME}/modproxy_cnaudit
+sed -i "s/$SERVER_2_TOKEN/$SERVER_2/g" ${APACHE_CONF_HOME}/modproxy_cnaudit
+sed -i "s/$SERVER_3_TOKEN/$SERVER_3/g" ${APACHE_CONF_HOME}/modproxy_cnaudit
+
+##### Configure jetty's start.ini with zookeeper server configuration
+##### and bootstrap example for cn-audit index core
 mv ${JETTY_HOME}/start.ini ${JETTY_HOME}/start.ini.bak
 cp /usr/share/dataone-cn-audit-index/debian/jetty.start.ini ${JETTY_HOME}/start.ini
 chown ${SOLR_USER}:${SOLR_USER} -R ${JETTY_HOME}
+sed -i "s/$SERVER_1_TOKEN/$SERVER_1/g" ${JETTY_HOME}/start.ini
+sed -i "s/$SERVER_2_TOKEN/$SERVER_2/g" ${JETTY_HOME}/start.ini
+sed -i "s/$SERVER_3_TOKEN/$SERVER_3/g" ${JETTY_HOME}/start.ini
+sed -i "s/$ZK_CLIENT_PORT_TOKEN/$ZK_CLIENT_PORT/g" ${JETTY_HOME}/start.ini
 
+##### Configure zookeeper server configuration
 mv ${ZK_CONF_HOME}/zoo.cfg ${ZK_CONF_HOME}/zoo.cfg.bak
 cp /usr/share/dataone-cn-audit-index/debian/zoo.cfg ${ZK_CONF_HOME}/zoo.cfg
-chown ${SOLR_USER}:${SOLR_USER} -R ${ZK_HOME} 
+chown ${SOLR_USER}:${SOLR_USER} -R ${ZK_HOME}
+sed -i "s/$SERVER_1_TOKEN/$SERVER_1/g" ${ZK_CONF_HOME}/zoo.cfg
+sed -i "s/$SERVER_2_TOKEN/$SERVER_2/g" ${ZK_CONF_HOME}/zoo.cfg
+sed -i "s/$SERVER_3_TOKEN/$SERVER_3/g" ${ZK_CONF_HOME}/zoo.cfg
+sed -i "s/$ZK_CLIENT_PORT_TOKEN/$ZK_CLIENT_PORT/g" ${ZK_CONF_HOME}/zoo.cfg
+sed -i "s/$ZK_SERVER_PORT_TOKEN_1/$ZK_SERVER_PORT_1/g" ${ZK_CONF_HOME}/zoo.cfg
+sed -i "s/$ZK_SERVER_PORT_TOKEN_2/$ZK_SERVER_PORT_2/g" ${ZK_CONF_HOME}/zoo.cfg
 
-cp /usr/share/dataone-cn-audit-index/debian/modproxy_cnaudit ${APACHE_CONF_HOME}/modproxy_cnaudit
-/etc/init.d/apache2 restart
-
-/etc/init.d/jetty start
+##### Create zookeeper myid file for server 1, etc
+if [[ $LOCAL_IP == $SERVER_1 ]]; then
+  echo "1" > $ZK_SERVER_ID_FILE
+elif [[ $LOCAL_IP == $SERVER_2 ]]; then
+  echo "2" > $ZK_SERVER_ID_FILE
+elif [[ $LOCAL_IP == $SERVER_3 ]]; then
+  echo "3" > $ZK_SERVER_ID_FILE
+else
+  echo "Unknown server IP, does not match IP form node.properties.  No zookeeper server myid file set."
+fi
 
 if [ -n "$FRESH_INSTALL" ]; then
-	curl "http://localhost:8983/solr/admin/cores?action=CREATE&name=$AUDIT_CORE_NAME&instanceDir=$AUDIT_CORE_DIR&dataDir=data"
-
 	### Firewall configuration to allow zookeeper communication
-	ufw allow from 64.106.40.9 to any port 9983
-	ufw allow from 128.111.36.78 to any port 9983
-	ufw allow from 160.36.13.153 to any port 9983
-	
-	ufw allow from 64.106.40.9 to any port 7632
-	ufw allow from 128.111.36.78 to any port 7632
-	ufw allow from 160.36.13.153 to any port 7632
-	
-	ufw allow from 64.106.40.9 to any port 7612
-	ufw allow from 128.111.36.78 to any port 7612
-	ufw allow from 160.36.13.153 to any port 7612
+	ufw allow from $SERVER_1 to any port $ZK_CLIENT_PORT
+	ufw allow from $SERVER_2 to any port $ZK_CLIENT_PORT
+	ufw allow from $SERVER_3 to any port $ZK_CLIENT_PORT
+
+	ufw allow from $SERVER_1 to any port $ZK_SERVER_PORT_1
+	ufw allow from $SERVER_2 to any port $ZK_SERVER_PORT_1
+	ufw allow from $SERVER_3 to any port $ZK_SERVER_PORT_1
+
+	ufw allow from $SERVER_1 to any port $ZK_SERVER_PORT_2
+	ufw allow from $SERVER_2 to any port $ZK_SERVER_PORT_2
+	ufw allow from $SERVER_3 to any port $ZK_SERVER_PORT_2
 fi
+
+/etc/init.d/zookeeper start
+/etc/init.d/apache2 restart
 
 if [ -z "$FRESH_INSTALL" ]; then
+	/etc/init.d/jetty start
 	curl "http://localhost:8983/solr/admin/cores?action=RELOAD&core=$AUDIT_CORE_NAME"
 fi
-
