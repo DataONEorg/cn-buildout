@@ -96,20 +96,18 @@ else
 fi
 chown -R ${SOLR_USER}:${SOLR_USER} ${ZK_HOME}
 
-if [ -n "$FRESH_INSTALL" ]; then
-	### Firewall configuration to allow zookeeper communication
-	ufw allow from $SERVER_1 to any port $ZK_CLIENT_PORT
-	ufw allow from $SERVER_2 to any port $ZK_CLIENT_PORT
-	ufw allow from $SERVER_3 to any port $ZK_CLIENT_PORT
+### Firewall configuration to allow zookeeper communication
+ufw allow from $SERVER_1 to any port $ZK_CLIENT_PORT
+ufw allow from $SERVER_2 to any port $ZK_CLIENT_PORT
+ufw allow from $SERVER_3 to any port $ZK_CLIENT_PORT
 
-	ufw allow from $SERVER_1 to any port $ZK_SERVER_PORT_1
-	ufw allow from $SERVER_2 to any port $ZK_SERVER_PORT_1
-	ufw allow from $SERVER_3 to any port $ZK_SERVER_PORT_1
+ufw allow from $SERVER_1 to any port $ZK_SERVER_PORT_1
+ufw allow from $SERVER_2 to any port $ZK_SERVER_PORT_1
+ufw allow from $SERVER_3 to any port $ZK_SERVER_PORT_1
 
-	ufw allow from $SERVER_1 to any port $ZK_SERVER_PORT_2
-	ufw allow from $SERVER_2 to any port $ZK_SERVER_PORT_2
-	ufw allow from $SERVER_3 to any port $ZK_SERVER_PORT_2
-fi
+ufw allow from $SERVER_1 to any port $ZK_SERVER_PORT_2
+ufw allow from $SERVER_2 to any port $ZK_SERVER_PORT_2
+ufw allow from $SERVER_3 to any port $ZK_SERVER_PORT_2
 
 /etc/init.d/zookeeper start
 /etc/init.d/apache2 restart

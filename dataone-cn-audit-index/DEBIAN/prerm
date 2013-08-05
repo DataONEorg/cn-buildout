@@ -8,8 +8,34 @@ ZK_CONF_HOME=/var/lib/zookeeper/conf
 APACHE_CONF_HOME=/etc/apache2/conf.d
 JETTY_HOME=/var/lib/jetty
 
+/etc/init.d/zookeeper stop
+/etc/init.d/jetty stop
+
 mv ${JETTY_HOME}/start.ini.bak ${JETTY_HOME}/start.ini
 mv ${ZK_CONF_HOME}/zoo.cfg.bak ${ZK_CONF_HOME}/zoo.cfg
 
 rm ${APACHE_CONF_HOME}/modproxy_cnaudit
 /etc/init.d/apache2 restart
+
+NODE_PROPS="/etc/dataone/node.properties"
+IP_LIST=`egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+IP_ARRAY=($IP_LIST)
+SERVER_1=${IP_ARRAY[0]}
+SERVER_2=${IP_ARRAY[1]}
+SERVER_3=${IP_ARRAY[2]}
+
+ZK_CLIENT_PORT=9983
+ZK_SERVER_PORT_1=7612
+ZK_SERVER_PORT_2=7632
+
+ufw delete allow from $SERVER_1 to any port $ZK_CLIENT_PORT
+ufw delete allow from $SERVER_2 to any port $ZK_CLIENT_PORT
+ufw delete allow from $SERVER_3 to any port $ZK_CLIENT_PORT
+
+ufw delete allow from $SERVER_1 to any port $ZK_SERVER_PORT_1
+ufw delete allow from $SERVER_2 to any port $ZK_SERVER_PORT_1
+ufw delete allow from $SERVER_3 to any port $ZK_SERVER_PORT_1
+
+ufw delete allow from $SERVER_1 to any port $ZK_SERVER_PORT_2
+ufw delete allow from $SERVER_2 to any port $ZK_SERVER_PORT_2
+ufw delete allow from $SERVER_3 to any port $ZK_SERVER_PORT_2
