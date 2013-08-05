@@ -12,6 +12,7 @@ AUDIT_CORE_NAME=cn-audit
 AUDIT_CORE_DIR=${SOLR_HOME}/${AUDIT_CORE_NAME}
 
 # Zookeeper configuration
+ZK_HOME=/var/lib/zookeeper
 ZK_CONF_HOME=/var/lib/zookeeper/conf
 ZK_CLIENT_PORT=9983
 ZK_SERVER_PORT_1=7612
@@ -76,7 +77,6 @@ sed -i "s/$ZK_CLIENT_PORT_TOKEN/$ZK_CLIENT_PORT/g" ${JETTY_HOME}/start.ini
 ##### Configure zookeeper server configuration
 mv ${ZK_CONF_HOME}/zoo.cfg ${ZK_CONF_HOME}/zoo.cfg.bak
 cp /usr/share/dataone-cn-audit-index/debian/zoo.cfg ${ZK_CONF_HOME}/zoo.cfg
-chown -R ${SOLR_USER}:${SOLR_USER} ${ZK_HOME}
 sed -i "s/$SERVER_1_TOKEN/$SERVER_1/g" ${ZK_CONF_HOME}/zoo.cfg
 sed -i "s/$SERVER_2_TOKEN/$SERVER_2/g" ${ZK_CONF_HOME}/zoo.cfg
 sed -i "s/$SERVER_3_TOKEN/$SERVER_3/g" ${ZK_CONF_HOME}/zoo.cfg
@@ -94,6 +94,7 @@ elif [[ $LOCAL_IP == $SERVER_3 ]]; then
 else
   echo "Unknown server IP, does not match IP form node.properties.  No zookeeper server myid file set."
 fi
+chown -R ${SOLR_USER}:${SOLR_USER} ${ZK_HOME}
 
 if [ -n "$FRESH_INSTALL" ]; then
 	### Firewall configuration to allow zookeeper communication
