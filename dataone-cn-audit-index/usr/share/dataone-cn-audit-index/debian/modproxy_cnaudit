@@ -1,5 +1,5 @@
 ProxyPreserveHost On
-ProxyPass /solr http://localhost:8983/solr
+ProxyPass /solr4 http://localhost:8983/solr4
 
 <LocationMatch /solr/cn-audit/(admin|update|get|replication)>
     Order Deny,Allow
