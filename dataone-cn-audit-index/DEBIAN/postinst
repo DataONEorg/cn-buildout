@@ -16,7 +16,7 @@ ZK_CONF_HOME=/var/lib/zookeeper/conf
 ZK_CLIENT_PORT=9983
 ZK_SERVER_PORT_1=7612
 ZK_SERVER_PORT_2=7632
-ZK_SERVER_ID_FILE="/var/lib/zookeeper/data/myid"
+ZK_SERVER_ID_FILE=/var/lib/zookeeper/data/myid
 
 # Substitution tokens used in config files like zoo.cfg, start.ini,etc
 SERVER_1_TOKEN="D1_CN_IP_1"
@@ -37,7 +37,7 @@ fi
 
 cp /usr/share/dataone-cn-audit-index/debian/schema.xml ${AUDIT_CORE_DIR}/conf/schema.xml
 cp /usr/share/dataone-cn-audit-index/debian/solrconfig.xml ${AUDIT_CORE_DIR}/conf/solrconfig.xml
-chown ${SOLR_USER}:${SOLR_USER} -R ${AUDIT_CORE_DIR}
+chown -R ${SOLR_USER}:${SOLR_USER} ${AUDIT_CORE_DIR}
 
 if [ -n "$FRESH_INSTALL" ]; then
 	/etc/init.d/jetty start
@@ -67,7 +67,7 @@ sed -i "s/$SERVER_3_TOKEN/$SERVER_3/g" ${APACHE_CONF_HOME}/modproxy_cnaudit
 ##### and bootstrap example for cn-audit index core
 mv ${JETTY_HOME}/start.ini ${JETTY_HOME}/start.ini.bak
 cp /usr/share/dataone-cn-audit-index/debian/jetty.start.ini ${JETTY_HOME}/start.ini
-chown ${SOLR_USER}:${SOLR_USER} -R ${JETTY_HOME}
+chown -R ${SOLR_USER}:${SOLR_USER} ${JETTY_HOME}
 sed -i "s/$SERVER_1_TOKEN/$SERVER_1/g" ${JETTY_HOME}/start.ini
 sed -i "s/$SERVER_2_TOKEN/$SERVER_2/g" ${JETTY_HOME}/start.ini
 sed -i "s/$SERVER_3_TOKEN/$SERVER_3/g" ${JETTY_HOME}/start.ini
@@ -76,7 +76,7 @@ sed -i "s/$ZK_CLIENT_PORT_TOKEN/$ZK_CLIENT_PORT/g" ${JETTY_HOME}/start.ini
 ##### Configure zookeeper server configuration
 mv ${ZK_CONF_HOME}/zoo.cfg ${ZK_CONF_HOME}/zoo.cfg.bak
 cp /usr/share/dataone-cn-audit-index/debian/zoo.cfg ${ZK_CONF_HOME}/zoo.cfg
-chown ${SOLR_USER}:${SOLR_USER} -R ${ZK_HOME}
+chown -R ${SOLR_USER}:${SOLR_USER} ${ZK_HOME}
 sed -i "s/$SERVER_1_TOKEN/$SERVER_1/g" ${ZK_CONF_HOME}/zoo.cfg
 sed -i "s/$SERVER_2_TOKEN/$SERVER_2/g" ${ZK_CONF_HOME}/zoo.cfg
 sed -i "s/$SERVER_3_TOKEN/$SERVER_3/g" ${ZK_CONF_HOME}/zoo.cfg
