@@ -1,4 +1,30 @@
-#!/bin/bash
+#!/bin/bash -x
+
+# source the debconf library
+if [ -e "/usr/share/debconf/confmodule" ]; then
+    . /usr/share/debconf/confmodule
+else
+    echo "debconf must be installed. Exiting."
+    exit 1
+fi
+# Reminder: don't echo to stdout, it messes up debconf
+
+D1_LOG_DIR=/var/log/dataone
+D1_LOG_FILE=dataone-cn-audit-index.debian.log
+if [ ! -e ${D1_LOG_DIR} ]; then
+    mkdir -p ${D1_LOG_DIR}
+    chown tomcat6:tomcat6 ${D1_LOG_DIR}
+fi
+
+# functions to echo to STDERR or the install log instead of STDOUT
+logError () {
+    echo -e "$@" 1>&2
+}
+
+log () {
+    now=$(date "+%Y-%m-%d %H:%M:%S %Z:")
+    echo -e "${now} prerm $@" >> ${D1_LOG_DIR}/${D1_LOG_FILE}
+}
 
 SOLR_HOME=/var/solr/home
 AUDIT_CORE_NAME=cn-audit
@@ -7,6 +33,8 @@ AUDIT_CORE_DIR=${SOLR_HOME}/${AUDIT_CORE_NAME}
 ZK_CONF_HOME=/var/lib/zookeeper/conf
 APACHE_CONF_HOME=/etc/apache2/conf.d
 JETTY_HOME=/var/lib/jetty
+
+log "start"
 
 /etc/init.d/zookeeper stop
 /etc/init.d/jetty stop
@@ -17,25 +45,45 @@ mv ${ZK_CONF_HOME}/zoo.cfg.bak ${ZK_CONF_HOME}/zoo.cfg
 rm ${APACHE_CONF_HOME}/modproxy_cnaudit
 /etc/init.d/apache2 restart
 
-NODE_PROPS="/etc/dataone/node.properties"
-IP_LIST=`egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
-IP_ARRAY=($IP_LIST)
-SERVER_1=${IP_ARRAY[0]}
-SERVER_2=${IP_ARRAY[1]}
-SERVER_3=${IP_ARRAY[2]}
+db_get dataone-cn-os-core/cn.iplist
+IP_LIST=(${RET})
+
+SERVER_1=${IP_LIST[0]}
+SERVER_2=${IP_LIST[1]}
+SERVER_3=${IP_LIST[2]}
 
 ZK_CLIENT_PORT=9983
 ZK_SERVER_PORT_1=7612
 ZK_SERVER_PORT_2=7632
 
-ufw delete allow from $SERVER_1 to any port $ZK_CLIENT_PORT
-ufw delete allow from $SERVER_2 to any port $ZK_CLIENT_PORT
-ufw delete allow from $SERVER_3 to any port $ZK_CLIENT_PORT
+if ! (ufw delete allow from $SERVER_1 to any port $ZK_CLIENT_PORT >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to delete ufw port $ZK_CLIENT_PORT for $SERVER_1 "
+fi
+if ! (ufw delete allow from $SERVER_2 to any port $ZK_CLIENT_PORT >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to delete ufw port $ZK_CLIENT_PORT for $SERVER_2 "
+fi
+if ! (ufw delete allow from $SERVER_3 to any port $ZK_CLIENT_PORT >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to delete ufw port $ZK_CLIENT_PORT for $SERVER_3 "
+fi
 
-ufw delete allow from $SERVER_1 to any port $ZK_SERVER_PORT_1
-ufw delete allow from $SERVER_2 to any port $ZK_SERVER_PORT_1
-ufw delete allow from $SERVER_3 to any port $ZK_SERVER_PORT_1
+if ! (ufw delete allow from $SERVER_1 to any port $ZK_SERVER_PORT_1 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to delete ufw port $ZK_SERVER_PORT_1 for $SERVER_1 "
+fi
+if ! (ufw delete allow from $SERVER_2 to any port $ZK_SERVER_PORT_1 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to delete ufw port $ZK_SERVER_PORT_1 for $SERVER_2 "
+fi
+if ! (ufw delete allow from $SERVER_3 to any port $ZK_SERVER_PORT_1 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to delete ufw port $ZK_SERVER_PORT_1 for $SERVER_3 "
+fi
 
-ufw delete allow from $SERVER_1 to any port $ZK_SERVER_PORT_2
-ufw delete allow from $SERVER_2 to any port $ZK_SERVER_PORT_2
-ufw delete allow from $SERVER_3 to any port $ZK_SERVER_PORT_2
+if ! (ufw delete allow from $SERVER_1 to any port $ZK_SERVER_PORT_2 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to delete ufw port $ZK_SERVER_PORT_2  for $SERVER_1"
+fi
+if ! (ufw delete allow from $SERVER_2 to any port $ZK_SERVER_PORT_2 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to delete ufw port $ZK_SERVER_PORT_2  for $SERVER_2"
+fi
+if ! (ufw delete allow from $SERVER_3 to any port $ZK_SERVER_PORT_2 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to delete ufw port $ZK_SERVER_PORT_2  for $SERVER_3"
+fi
+
+log "complete"
