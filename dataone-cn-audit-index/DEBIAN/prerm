@@ -87,3 +87,4 @@ if ! (ufw delete allow from $SERVER_3 to any port $ZK_SERVER_PORT_2 >> ${D1_LOG_
 fi
 
 log "complete"
+exit 0
