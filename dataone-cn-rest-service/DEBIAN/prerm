@@ -23,3 +23,5 @@ rm -f ${APACHE_CONF}/jk_mount/${JK_CONF}*
 
 ## Update DateONE Version Info Doc
 java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html
+
+exit 0
