@@ -9,3 +9,5 @@ rm -rf /var/lib/zookeeper/conf
 rm -rf /var/lib/zookeeper/contrib
 rm -rf /var/lib/zookeeper/lib
 rm -rf /var/lib/zookeeper/zookeeper*.jar
+
+exit 0

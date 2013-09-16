@@ -8,3 +8,5 @@ ZK_ROOT=/var/lib/zookeeper
 chown ${ZK_USER}:${ZK_USER} -R ${ZK_ROOT}
 
 chmod +x /etc/init.d/zookeeper
+
+exit 0
