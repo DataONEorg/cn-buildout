@@ -8,3 +8,5 @@ update-rc.d -f jetty remove
 rm -f /etc/init.d/jetty
 rm -f /etc/default/jetty
 rm -f /var/run/jetty.pid
+
+exit 0

@@ -29,3 +29,5 @@ if [ ! -d "${JETTY_LOGS}" ]; then
 fi
 chown  ${JETTY_USER}:${JETTY_USER} ${JETTY_LOGS}
 
+exit 0
+
