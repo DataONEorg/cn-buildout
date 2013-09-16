@@ -207,3 +207,5 @@ if [ -z "$FRESH_INSTALL" ]; then
 	fi
 fi
 log "complete"
+db_stop
+exit 0
