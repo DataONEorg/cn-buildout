@@ -1,8 +1,18 @@
 #!/bin/bash
 
+# source the debconf library
+if [ -e "/usr/share/debconf/confmodule" ]; then
+    . /usr/share/debconf/confmodule
+else
+    echo "debconf must be installed. Exiting."
+    exit 1
+fi
+
 LONG_DATE=`date +%Y%m%d%H%M%S`
 D1_CONF=/etc/dataone
 NODE_PROPS="$D1_CONF/node.properties"
+D1_HZ_PROCESS_PROPS="${D1_CONF}/process/dataoneHazelcast.properties"
+PROCESS_PORT=5702
 
 # functions to echo to STDERR or the install log instead of STDOUT
 logError () {
@@ -11,7 +21,7 @@ logError () {
 
 log () {
     now=$(date "+%Y-%m-%d %H:%M:%S %Z: ")
-    echo -e "${now}$@" >> ${D1_LOG_DIR}/dataone-cn-os-core.install.log
+    echo -e "${now}$@" >> ${D1_LOG_DIR}/dataone-cn-processdaemon.install.log
 }
 
 chmod +x /etc/init.d/d1-processing
@@ -38,14 +48,29 @@ else
 fi
 
 # replace the IPs of the cn.iplist in node.properties so as to set them in hazelcast.xml
-CN_IPLIST=`egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+#CN_IPLIST=`egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+# set the properties associated with this context
+IPLIST_LABEL="cn.iplist"
+IPLIST=""
+if [ -e ${NODE_PROPS} ]; then
+	# Fetch the context's ip list from the debconf database
+	db_get dataone-cn-os-core/${IPLIST_LABEL}
+	IPLIST=${RET}
 
-
+else
+	log "Couldn't set the IP list correctly."
+	IPLIST="127.0.0.1"
+fi
+# add in ports for the hazelcast client, NOTE THE PORT IS HARDCODED, probably should be configured
+IPLISTwPORT=$(sed  --regexp-extended "s/(([0-9]{1,3}\.){3}[0-9]{1,3})/\0:${PROCESS_PORT}/g" <<< $IPLIST)
+	
 #add in commas
-CN_IPLIST=${CN_IPLIST// /, }
+CN_IPLIST=${IPLIST// /, }
+CN_IPLISTwPORT=${IPLISTwPORT// /, }
 
 #place iplist value into dataoneHazelcast.properties at dataone.hazelcast.iplist
-sed -i.bak "s/\(dataone\.hazelcast\.iplist *=\).*/\1${CN_IPLIST}/" ${D1_CONF}/process/dataoneHazelcast.properties
+sed -i.bak "s/\(dataone\.hazelcast\.iplist *=\).*/\1${CN_IPLIST}/" ${D1_HZ_PROCESS_PROPS}
+sed -i.bak "s/\(dataone\.hazelcast\.process\.clientiplist *=\).*/\1${CN_IPLIST}/" ${D1_HZ_PROCESS_PROPS}
 
 chown -R tomcat6.tomcat6 /etc/dataone/process
 
@@ -79,12 +104,11 @@ then
 	chown tomcat6.tomcat6 /var/log/dataone/logAggregate
 fi
 
-#open up the correct port for hazelcast
-for ip in `egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
-do
+iplistArray=($IPLIST)
+for ip in "${iplistArray[@]}"; do
 	IP_ADDRESS=${ip}
-	log "Adding 'ufw allow to any port 5702 from ${IP_ADDRESS}' rule"	  
-	ufw allow to any port 5702 from ${IP_ADDRESS}
+	log "Adding 'ufw allow to any port ${PROCESS_PORT} from ${IP_ADDRESS}' rule"	  
+	ufw allow to any port ${PROCESS_PORT} from ${IP_ADDRESS}
 done
 
 ## Update DateONE Version Info Doc
