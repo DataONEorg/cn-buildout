@@ -2,7 +2,7 @@
 
 - include: dataone-cn-version-tool.yml
 
-- include: postgresql.yml
+#- include: postgresql.yml
 
 - include: sun-java6-jdk.yml
 
@@ -11,6 +11,6 @@
 - include: tomcat6-admin.yml
 
 - name: Installing dataone-cn-metacat package
-  action: apt pkg=dataone-cn-metacat state=latest install_recommends=no force=yes
+  action: apt pkg=dataone-cn-metacat state=latest install_recommends=yes force=yes
   register: dataone_cn_metacat_installed
   when: dataone_cn_metacat_installed is not defined

@@ -1,0 +1,10 @@
+- include: dataone-cn-os-core.yml
+
+- include: dataone-solr-jetty.yml
+
+- include: dataone-zookeeper.yml
+
+- name: Installing dataone-cn-audit-index package
+  action: apt pkg=dataone-cn-audit-index state=latest install_recommends=yes force=yes
+  register: dataone_cn_audit_index_installed
+  when: dataone_cn_audit_index_installed is not defined

@@ -1,0 +1,11 @@
+- name: Installing dataone-cn-monitor
+  hosts: dev
+  #accelerate: true
+  #accelerate_port: 2222
+  sudo: true
+  tasks:
+
+   - include: routines/pin_packages.yml
+   
+   - include: packages/dataone-cn-monitor.yml
+

@@ -492,26 +492,120 @@ def readMatchineConfiguration(siteTree, ipAddrs, debconfTemplates):
     # Returns the debconf entries
     return debconfEntries
     
+   
+packageInfoURLs = { 
+    'DEV': 'http://dev-testing.dataone.org/ubuntu-unstable/dists/lucid/universe/binary-amd64/Packages.gz',
+    'SANDBOX': 'http://dev-testing.dataone.org/ubuntu-unstable/dists/lucid/universe/binary-amd64/Packages.gz',
+    'STAGE': 'http://dev-testing.dataone.org/ubuntu-stable/dists/lucid/universe/binary-amd64/Packages.gz',
+    'STAGE2': 'http://dev-testing.dataone.org/ubuntu-stage/dists/lucid/universe/binary-amd64/Packages.gz',
+    'PRODUCTION': 'http://dev-testing.dataone.org/ubuntu-stable/dists/lucid/universe/binary-amd64/Packages.gz', 
+                   }
     
+def getPackagesVersions(contextLabel, packageInfoURL=None):
+    
+    from contextlib import closing
+    import urllib2
+    import gzip
+    import StringIO
+    import re
+    
+    # Initializes the list of package versions keyed on package name
+    versions = dict()
+    
+    # Builds the match pattern
+    pattern = re.compile('Package:\s+(.*?)\nVersion:\s+(.*?)\n', re.MULTILINE|re.DOTALL)
+    
+    # If a packageInfoURL is  not set get the one from packageInfoURLs based on
+    # context
+    if packageInfoURL is None:
+        packageInfoURL = packageInfoURLs[contextLabel]
+    
+    # Pulls in the package data from the url and parses out the package
+    # version info
+    with closing(urllib2.urlopen(url=packageInfoURL)) as f:
+        with closing(StringIO.StringIO(''.join(f.readlines())) )as s:
+            with closing(gzip.GzipFile(fileobj=s, mode='r')) as g:
+                for m in pattern.finditer(''.join(g.readlines())):
+                    versions[m.group(1)] = m.group(2)
+    
+    pattern = re.compile('^(?:(?:\s*(?P<package>[^\s#]+)\s*:\s*(?P<version>[^\s#]+)\s*)?\s*)?(?P<comment>#.*)?')
+    
+    with closing(urllib2.urlopen(url='file:///etc/dataone/ansible/pkg_versions.conf')) as f:
+        for line in f:
+            m = pattern.match(line)
+
+            if m.group('package') is not None and m.group('version') is not None:
+                versions[m.group('package')] = m.group('version')
+
+    # Returns the dictionary of packages and versions      
+    return versions
+
+
+def getFirewallRules(contextLabel, ipAddrs):
+    
+    import urllib2
+    
+    FILE = 'file:///etc/dataone/ansible/firewall-rules.xml'
+    
+     # Parses the xml url and vaildates it against the schema
+    firewallTree = lxml.etree.parse(urllib2.urlopen(url=FILE))
+    
+    rules = list()
+    
+    for ipAddr in ipAddrs:
+        
+        # Gets the top of the machine subtree for the context label and ip specified
+        machineTree = firewallTree.xpath("/environment[@context='{0}']/machine[@ip='{1}']".format(contextLabel, ipAddr))
+    
+        # Skips non matches
+        if len(machineTree) == 0: continue
+    
+        
+    
+        for allowNode in machineTree[0].xpath('allows/allow'):
+            attributes = allowNode.attrib
+            
+            rule = dict()
+            
+            if attributes.has_key('src_ip'):
+                rule['src_ip'] = attributes.get('src_ip')
+            else:
+                rule['src_ip'] = 'any'
+                
+            if attributes.has_key('dst_port'):
+                rule['dst_port'] = attributes.get('dst_port')
+           
+                
+            if attributes.has_key('protocol'):
+                rule['protocol'] = attributes.get('protocol')
+            else:
+                rule['protocol'] = 'any'
+            
+            if attributes.has_key('src_port'):
+                rule['src_port'] = attributes.get('src_port')
+            
+            rule['dst_ip'] = ipAddr
+            
+            rules.append(rule)
+        
+    return rules
 
 
 def main():
-    #https://raw.github.com/rpwaltz/deb-cn-core/master/src/etc/dataone/d1DebConfig.xml
+   
     # Declares the module
     module = AnsibleModule(
                 argument_spec = dict(
                     url = dict(default='https://repository.dataone.org/software/cicore/trunk/cn-buildout/dataone-cn-os-core/etc/dataone/d1DebConfig.xml'),
                    # url = dict(default='https://repository.dataone.org/software/cicore/trunk/cn-buildout/dataone-cn-os-core/etc/dataone/d1DebConfig.xml'),
-                    schema = dict(default='https://repository.dataone.org/software/cicore/trunk/d1_schemas/dataoneDebPkgConfigTypes.xsd'))
+                    schema = dict(default='https://repository.dataone.org/software/cicore/trunk/d1_schemas/dataoneDebPkgConfigTypes.xsd'),
+                    packageInfoURL = dict(default=None))
                 )
     
   
     # Gets a list of the IP addresses
     ipAddrs = [entry['address'] for interface in getInterfaces().values() 
                     for entry in interface if 'address' in entry]
-
-                        
-        #ipAddrs.append('128.111.36.78')
     
     # Gets the site configuration
     siteTree = getSitesTree(url=module.params['url'], schema=module.params['schema'])
@@ -523,6 +617,10 @@ def main():
     # Reads in the machine entries for the machine that matches the IP.    
     debconfEntries = readMatchineConfiguration(siteTree, ipAddrs, debconfTemplates)
     
+    # Gets the firewall rules
+    #firewallRules = getFirewallRules(
+    #    debconfEntries['dataone-cn-os-core/cn.context.label'].getValue()['value'], 
+    #    ipAddrs)
     
     for field in set(debconfTemplates.keys()) - set(debconfEntries.keys()):
        
@@ -540,12 +638,16 @@ def main():
                 derived_value=True, user_entered_value=False, 
                 configured_value=True)
     
-    
-    #sys.exit(-1)
+    # Get package versions
+    packageVersions = getPackagesVersions(
+                debconfEntries['dataone-cn-os-core/cn.context.label'].getValue()['value'], 
+                module.params['packageInfoURL'])
     
     # Return the debconf entries
     module.exit_json(changed=False, 
                      ansible_facts = {
+                        #'firewall_rules' : firewallRules,
+                        'package_versions' : packageVersions,
                         'debconf_templates' : 
                             dict([(key, template.toJSON()) 
                               for key, template in debconfTemplates.items()]), 

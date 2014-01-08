@@ -1,0 +1,4 @@
+- name: Installing dataone-zookeeper package
+  action: apt pkg=dataone-zookeeper state=latest install_recommends=yes force=yes
+  register: dataone_zookeeper_installed
+  when: dataone_zookeeper_installed is not defined

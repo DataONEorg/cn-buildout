@@ -1,28 +1,28 @@
 - include: apache2.yml
 
-- include: check-mk-agent.yml
+#- include: check-mk-agent.yml
 
-- include: check-mk-agent-logwatch.yml
+#- include: check-mk-agent-logwatch.yml
 
-- include: curl.yml
+#- include: curl.yml
 
-- include: debconf.yml
+#- include: debconf.yml
 
-- include: debconf-utils.yml
+#- include: debconf-utils.yml
 
-- include: gawk.yml
+#- include: gawk.yml
 
 - include: ldap-utils.yml
 
 - include: libapache2-mod-jk.yml
 
-- include: libio-socket-ssl-perl.yml
+#- include: libio-socket-ssl-perl.yml
 
-- include: libnet-ldap-perl.yml
+#- include: libnet-ldap-perl.yml
 
-- include: nagios-plugins-basic.yml
+#- include: nagios-plugins-basic.yml
 
-- include: ntp.yml
+#- include: ntp.yml
 
 - include: slapd.yml
 
@@ -32,12 +32,12 @@
 
 - include: tomcat6-admin.yml
 
-- include: xinetd.yml
+#- include: xinetd.yml
 
 - include: xmlstarlet.yml
 
 - name: Installing dataone-cn-os-core package
-  action: apt pkg=dataone-cn-os-core state=latest state=latest install_recommends=no force=yes
+  action: apt pkg=dataone-cn-os-core state=latest state=latest install_recommends=yes force=yes
   register: dataone_cn_os_core_installed
   when: dataone_cn_os_core_installed is not defined
 

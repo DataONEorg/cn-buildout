@@ -1,11 +1,11 @@
-- include: libc6.yml
+#- include: libc6.yml
 
-- include: libxml2.yml
+#- include: libxml2.yml
 
-- include: libxslt1.1.yml
+#- include: libxslt1.1.yml
 
 - name: Installing xmlstarlet package
-  action: apt pkg=xmlstarlet state=latest install_recommends=no
+  action: apt pkg=xmlstarlet state=latest install_recommends=yes
   register: xmlstarlet_installed
   when: xmlstarlet_installed is not defined
   

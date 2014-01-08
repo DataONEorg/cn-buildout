@@ -1,0 +1,26 @@
+- name: Running initial setup
+  hosts: dev
+  sudo: true
+  
+  tasks:
+    
+    - name: 'apt update'
+      action: apt update_cache=yes
+      
+    - name: 'Add pip'
+      action: apt pkg=python-pip
+    
+    - name: 'Add build essentials'
+      action: apt pkg=build-essential
+     
+    - name: 'Add python dev'
+      action: apt pkg=python-dev
+      
+    - name: 'Install python-keyczar'
+      action: command pip install python-keyczar
+      
+    - name: 'Create directory'
+      action: file state=directory path=/etc/dataone/ansible owner=root group=root mode=0755
+      
+    - name: 'Install packages'
+      action: copy src=conf/pkg_versions.conf dest=/etc/dataone/ansible/pkg_versions.conf owner=root group=root mode=0644

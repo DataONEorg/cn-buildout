@@ -1,0 +1,6 @@
+- include: sun-java6-jdk.yml
+
+- name: Installing dataone-jetty package
+  action: apt pkg=dataone-jetty state=latest install_recommends=yes force=yes
+  register: dataone_jetty_installed
+  when: dataone_jetty_installed is not defined

@@ -1,0 +1,9 @@
+
+# Run site_facts for package info
+- include: site_facts.yml
+   
+# Pin the package versions specified from the site_facts module     
+- action: template src=../templates/apt_pin.j2 dest=/etc/apt/preferences.d/{{item}} owner=root group=root mode=0644
+  with_items: package_versions.keys()
+  register: pin_packages_ran
+  when: pin_packages_ran is not defined

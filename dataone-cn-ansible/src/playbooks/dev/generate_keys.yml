@@ -1,0 +1,22 @@
+- name: Installing self signed ssl cert
+  hosts: dev
+  #accelerate: true
+  #accelerate_port: 2222
+  tasks:
+
+#  /etc/dataone/client/private
+# /etc/dataone/client/certs
+
+    - action: file path=/etc/dataone/client/private state=directory owner=root group=ssl-cert mode=0750
+    - action: file path=/etc/dataone/client/certs  state=directory owner=root group=ssl-cert mode=0755
+    
+    - name: create self-signed SSL cert
+      action: command openssl req -new -nodes -x509 
+              -subj "/C=US/ST=Tennessee/L=Knoxville/O=DataONE.org/CN=cn-dev.utk.edu/emailAddress=rwaltz@cn-dev.utk.edu" 
+              -days 3650 -keyout /etc/dataone/client/private/cn-dev-orc-1.test.dataone.org.key
+              -out /etc/dataone/client/private/urn:node:cnDevORC1.pem
+              -extensions v3_ca creates=/etc/dataone/client/private/urn:node:cnDevORC1.pem
+              
+              
+              
+              

@@ -16,7 +16,7 @@ class Debconf(object):
         # Run debconf-communciate
         rc, out, err = self._module.run_command(
                                 args = [self._debconf_comm, self._package], 
-                                data = command + ' ' + ' '.join(args))
+                                data = command + ' ' + ' '.join(args) + '\\n')
 
         # Error
         if rc != 0 and len(out) == 0:

@@ -1,20 +1,15 @@
-- include: dataone-cn-metacat.yml
 
 - include: dataone-cn-os-core.yml
+
+- include: dataone-cn-metacat.yml
 
 - include: dataone-cn-solr.yml
 
 - include: dataone-cn-version-tool.yml
 
-- include: jsvc.yml
-
-- include: libcommons-daemon-java.yml
-
-- include: postgresql.yml
-
 - include: sun-java6-jdk.yml
 
 - name: Installing dataone-cn-index package
-  action: apt pkg=dataone-cn-index state=latest install_recommends=no force=yes
+  action: apt pkg=dataone-cn-index state=latest install_recommends=yes force=yes
   register: dataone_cn_index_installed
   when: dataone_cn_index_installed is not defined

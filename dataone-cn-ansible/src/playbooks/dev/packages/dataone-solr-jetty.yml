@@ -1,0 +1,8 @@
+- include: dataone-solr.yml
+
+- include: dataone-jetty.yml
+
+- name: Installing dataone-solr-jetty package
+  action: apt pkg=dataone-solr-jetty state=latest install_recommends=yes force=yes
+  register: dataone_solr-jetty_installed
+  when: dataone_solr_jetty_installed is not defined

@@ -1,4 +1,4 @@
 - name: Installing debconf package
-  action: apt pkg=debconf state=latest install_recommends=no
+  action: apt pkg=debconf state=latest install_recommends=yes
   register: debconf_installed
   when: debconf_installed is not defined

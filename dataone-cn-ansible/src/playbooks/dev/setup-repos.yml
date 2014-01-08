@@ -1,4 +1,7 @@
 - hosts: dev
+  #accelerate: true
+  #accelerate_port: 2222
+  sudo: true
   tasks:
   
     - name:   Update the repo cache
@@ -12,10 +15,6 @@
       
     - name:   Set up the partner src repo
       action: apt_repository repo='deb-src http://archive.canonical.com/ubuntu lucid partner'
-
-    #- name: Set up Waltz' repo
-    #  action: apt_repository repo='deb http://dev-testing.dataone.org/ubuntu-rpw lucid universe'
-
 
     - name:   Set up the dev testing stable repo
       action: apt_repository repo='deb http://dev-testing.dataone.org/ubuntu-unstable lucid universe'

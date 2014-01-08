@@ -1,0 +1,8 @@
+- include: dataone-cn-os-core.yml
+
+- include: dataone-cn-version-tool.yml
+
+- name: Installing dataone-cn-monitor package
+  action: apt pkg=dataone-cn-monitor state=latest install_recommends=yes force=yes
+  register: dataone_cn_monitor_installed
+  when: dataone_cn_monitor_installed is not defined

@@ -1,4 +1,4 @@
 - name: Installing debianutils package
-  action: apt pkg=debianutils state=latest install_recommends=no
+  action: apt pkg=debianutils state=latest install_recommends=yes
   register: debianutils_installed
   when: debianutils_installed is not defined

@@ -9,6 +9,6 @@
 - include: tomcat6-admin.yml
 
 - name: Installing dataone-cn-portal package
-  action: apt pkg=dataone-cn-portal state=latest install_recommends=no force=yes
+  action: apt pkg=dataone-cn-portal state=latest install_recommends=yes force=yes
   register: dataone_cn_portal_installed
   when: dataone_cn_portal_installed is not defined

@@ -1,6 +1,11 @@
  - hosts: dev
+   #accelerate: true
+   #accelerate_port: 2222
+   sudo: true
    tasks:
    
+    - include: routines/pin_packages.yml
+    
     - name:   Install Sun's JDK version 6
       action: apt pkg=java-common install_recommends=no
  

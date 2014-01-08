@@ -1,0 +1,15 @@
+- name:   Update the repo cache
+  action: apt update-cache=yes
+      
+- name: Install debconf-utils
+  action: apt pkg=debconf-utils
+   
+- name: Install python lxml
+  action: apt pkg=python-lxml
+   
+
+# Get site facts
+- name: gather site specific fact data
+  action: site_facts
+  register: site_facts_ran
+  when: site_facts_ran is not defined

@@ -1,0 +1,14 @@
+- name: Running upgrade
+  hosts: dev
+  #accelerate: true
+  #accelerate_port: 2222
+  sudo: true
+  tasks:
+      
+   - include: pin_packages.yml
+   
+   - name: Update cache
+     action: apt update-cache=yes 
+     
+   - name: Install upgrades
+     action: apt force=yes upgrade=dist 

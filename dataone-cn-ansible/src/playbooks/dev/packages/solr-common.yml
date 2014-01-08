@@ -1,4 +1,4 @@
 - name: Installing solr-common package
-  action: apt pkg=solr-common state=latest install_recommends=no
+  action: apt pkg=solr-common state=latest install_recommends=yes
   register: solr_common_installed
   when: solr_common_installed is not defined
