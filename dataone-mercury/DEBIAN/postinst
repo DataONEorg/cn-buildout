@@ -2,9 +2,9 @@
 
 LONG_DATE=`date +%Y%m%d%H%M%S`
 
-TOMCAT=tomcat6
-TOMCAT_USER=tomcat6
-TOMCAT_HOME=/var/lib/tomcat6
+TOMCAT=tomcat7
+TOMCAT_USER=tomcat7
+TOMCAT_HOME=/var/lib/tomcat7
 APACHE_CONF=/etc/apache2
 JK_CONF=onemercury_jk.conf
 

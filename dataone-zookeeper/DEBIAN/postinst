@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # zk_user also defined in /etc/init.d/zookeeper and needs to match this value
-ZK_USER=tomcat6
+ZK_USER=tomcat7
 ZK_ROOT=/var/lib/zookeeper
 
 # grant jetty directories to jetty user

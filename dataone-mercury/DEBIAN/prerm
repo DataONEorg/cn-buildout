@@ -1,12 +1,12 @@
 #!/bin/bash
 
-TOMCAT_USER=tomcat6
+TOMCAT_USER=tomcat7
 
-TOMCAT_HOME=/var/lib/tomcat6
+TOMCAT_HOME=/var/lib/tomcat7
 APACHE_CONF=/etc/apache2
 
 /etc/init.d/apache2 stop
-/etc/init.d/tomcat6 stop
+/etc/init.d/tomcat7 stop
 
 rm -rf ${TOMCAT_HOME}/webapps/onemercury
 rm -f ${TOMCAT_HOME}/webapps/onemercury*
@@ -16,7 +16,7 @@ rm -f ${TOMCAT_HOME}/conf/policy.d/52onemercury.policy
 rm -f ${APACHE_CONF}/jk_mount/onemercury_jk.*
 rm -f ${APACHE_CONF}/conf.d/rewrite_onemercury
 
-/etc/init.d/tomcat6 start
+/etc/init.d/tomcat7 start
 /etc/init.d/apache2 start
 
 ## Update DateONE Version Info Doc

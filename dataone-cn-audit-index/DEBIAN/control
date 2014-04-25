@@ -3,7 +3,7 @@ Version: 0.0.1
 Section: utils
 Priority: optional
 Architecture: all
-Depends: sun-java6-jdk, dataone-cn-os-core, dataone-solr-jetty, dataone-zookeeper
+Depends: openjdk-7-jdk, dataone-cn-os-core, dataone-solr-jetty, dataone-zookeeper
 Installed-Size: 1 kb
 Maintainer: Skye Roseboom <sroseboo@dataone.unm.edu>
 Description: This is a metapackage that configures a solr core used for logging cn audit messages.
