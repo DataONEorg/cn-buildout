@@ -572,8 +572,8 @@ function build_xml_template_data_structures()
     	 do
 			# log "build_xml_template_data_structures found $template_name"
 			eval local -A FLAG_VALUES=(`xmlstarlet sel -t --match "//templates/template[@key='${template_name}']/flag"  \
-			--value-of "string('[')" --value-of "@name"  --value-of "string(']=&quot;')" \
-			--value-of "node()" --value-of "string('&quot; ')" \
+			--value-of "string('[')" --value-of "@name"  --value-of "string(']=\"')" \
+			--value-of "node()" --value-of "string('\"')" \
 			"${D1_CONF_DIR}/${D1_DEB_CONF_XML}"`)
 
 			# log "build_xml_template_data_structures found $template_name ${!FLAG_VALUES[@]} ${FLAG_VALUES[@]}"
@@ -589,8 +589,8 @@ function build_xml_template_data_structures()
 		# build the datastructure to hold information from the questions section of the xml file. or the value of 
 		OLD_IFS=$IFS
 		IFS=$'\n'
-		eval XML_QUESTION_VALUES+=(`xmlstarlet sel -t --match "//environment[@context='${CONTEXT}']/question" --value-of "string('[')"  --value-of "@keyref" --value-of "string(']=&quot;')" --value-of "node()" --value-of "string('&quot;&#xA;')" "$D1_CONF_DIR/${D1_DEB_CONF_XML}"`)
-		eval XML_QUESTION_VALUES+=(`xmlstarlet sel -t --match "//machine[@ip='${IP_ADDRESS}']/question" --value-of "string('[')" --value-of "@keyref" --value-of "string(']=&quot;')" --value-of "node()" --value-of "string('&quot;&#xA;')" "$D1_CONF_DIR/${D1_DEB_CONF_XML}"`)
+		eval XML_QUESTION_VALUES+=(`xmlstarlet sel -t --match "//environment[@context='${CONTEXT}']/question" --value-of "string('[')"  --value-of "@keyref" --value-of "string(']=\"')" --value-of "node()" --value-of "string('\"\n')" "$D1_CONF_DIR/${D1_DEB_CONF_XML}"`)
+		eval XML_QUESTION_VALUES+=(`xmlstarlet sel -t --match "//machine[@ip='${IP_ADDRESS}']/question" --value-of "string('[')" --value-of "@keyref" --value-of "string(']=\"')" --value-of "node()" --value-of "string('\"\n')" "$D1_CONF_DIR/${D1_DEB_CONF_XML}"`)
 		IFS=$OLD_IFS
 	else
 		# The IP ADDRESS was not found within the xml config file, therefore, we will build a CUSTOM installation in which the user must answer all the template questions
