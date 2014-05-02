@@ -149,7 +149,7 @@ do
 done
 
 ## configure the CILogon skin, default to PRODUCTION
-MYPROXY_ID=myproxy:oa4mp,2012:/client/501a796b5dab878f71665731028bd8a9 
+MYPROXY_ID=myproxy:oa4mp,2012:/client/42afd3477fac2eb9bfe99d0b409f6cc6 
 CILOGON_SKIN=DataONE
 db_get dataone-cn-os-core/cn.context.label
 CONTEXT_LABEL=$RET
