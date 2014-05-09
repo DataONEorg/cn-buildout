@@ -1114,7 +1114,7 @@ function configure_tomcat()
 	fi
 	
 	if [ -e "/etc/default/tomcat7" ]; then
-		if ! (egrep -q '^\#?JAVA_OPTS\=".\{JAVA_OPTS\}.+\-XX\:\+UseConcMarkSweepGC"' /etc/default/tomcat7); then
+		if ! (egrep -q '^\#?JAVA_OPTS\=".+\-XX\:\+UseConcMarkSweepGC"' /etc/default/tomcat7); then
 			if ! (egrep -q 'JAVA_OPTS\=.+\-XX\:\+UseParallelGC' /etc/default/tomcat7); then
 				echo "JAVA_OPTS=\"\${JAVA_OPTS} -XX:+UseParallelGC\"" >> /etc/default/tomcat7
 			fi
@@ -1129,6 +1129,8 @@ function configure_tomcat()
 				if ! (rm /etc/default/tomcat7.bak >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
 					log "Unable to remove /etc/default/tomcat7.bak"
 				fi
+			else 
+				sed -i --regexp-extended s/UseConcMarkSweepGC/UseParallelGC/ /etc/default/tomcat7
 			fi
 		fi
 	fi
