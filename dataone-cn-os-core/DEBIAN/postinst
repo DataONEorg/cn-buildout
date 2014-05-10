@@ -1123,14 +1123,12 @@ function configure_tomcat()
 				## XXX   XXX   XXX   -RPW
 				## What happens if UseConcMarkSweepGC is not a part of JAVA_OPTS, but we still want to include
 				## UseParallelGC as our main garbage collection method
-				if ! (sed -i.bak --regexp-extended 's/^\#?JAVA_OPTS=\".\{JAVA_OPTS\}.+\-XX\:\+UseConcMarkSweepGC\"/JAVA_OPTS="\$\{JAVA_OPTS\} \-XX\:\+UseParallelGC"/;' /etc/default/tomcat7 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+				if ! (sed -i.bak --regexp-extended s/UseConcMarkSweepGC/UseParallelGC/ /etc/default/tomcat7 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
 					log "Unable to modify UseConcMarkSweepGC in /etc/init.d/tomcat7"
 				fi
 				if ! (rm /etc/default/tomcat7.bak >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
 					log "Unable to remove /etc/default/tomcat7.bak"
 				fi
-			else 
-				sed -i --regexp-extended s/UseConcMarkSweepGC/UseParallelGC/ /etc/default/tomcat7
 			fi
 		fi
 	fi
