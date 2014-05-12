@@ -54,7 +54,7 @@ install: publish
 
 upgrade: publish
 	@echo $(shell printf "Stopping Tomcat\n")
-	@echo $(shell /etc/init.d/tomcat6 stop)
+	@echo $(shell /etc/init.d/tomcat7 stop)
 	@echo $(shell printf "Stopping Apache\n")
 	@echo $(shell /etc/init.d/apache2 stop)
 	@echo $(shell printf "%b\n" "SLEEP 15 to allow tomcat to stop")
@@ -67,7 +67,7 @@ upgrade: publish
 	@echo $(shell rm -rf /var/metacat)
 	apt-get update
 	apt-get install dataone-cn-os-core
-	@echo $(shell /etc/init.d/tomcat6 stop)
+	@echo $(shell /etc/init.d/tomcat7 stop)
 	@echo $(shell /etc/init.d/apache2 stop)
 	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-processdaemon dataone-cn-portal dataone-cn-version-tool dataone-cn-solr dataone-cn-index dataone-mercury
 
@@ -76,7 +76,7 @@ install-rpw: publish
 ifeq ($(TESTCRT), 0)
 	apt-get update
 	apt-get install dataone-cn-os-core
-	/etc/init.d/tomcat6 stop
+	/etc/init.d/tomcat7 stop
 	/etc/init.d/apache2 stop
 	cp /etc/ssl/certs/dataone.org.crt /etc/ssl/certs/_.dataone.org.crt
 	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-processdaemon dataone-cn-portal dataone-cn-version-tool dataone-cn-solr dataone-cn-index dataone-mercury
@@ -87,7 +87,7 @@ endif
 upgrade-rpw: publish
 ifeq ($(TESTCRT), 0)
 	@echo $(shell printf "%b\n" "-Stopping Tomcat-")
-	@echo $(shell /etc/init.d/tomcat6 stop)
+	@echo $(shell /etc/init.d/tomcat7 stop)
 	@echo $(shell printf "%b\n" "-Stopping Apache-")
 	@echo $(shell /etc/init.d/apache2 stop)
 	@echo $(shell printf "%b\n" "SLEEP 15 to allow tomcat to stop")
@@ -105,7 +105,7 @@ ifeq ($(TESTCRT), 0)
 	@echo $(shell rm -rf /var/log/dataone)
 	apt-get update
 	apt-get install dataone-cn-os-core
-	@echo $(shell /etc/init.d/tomcat6 stop)
+	@echo $(shell /etc/init.d/tomcat7 stop)
 	@echo $(shell /etc/init.d/apache2 stop)
 	cp /etc/ssl/certs/dataone.org.crt /etc/ssl/certs/_.dataone.org.crt
 	apt-get install dataone-cn-rest-service dataone-cn-metacat dataone-cn-processdaemon dataone-cn-portal dataone-cn-version-tool dataone-cn-solr dataone-cn-index dataone-mercury
