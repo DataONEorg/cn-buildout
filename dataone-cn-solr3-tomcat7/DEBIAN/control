@@ -7,6 +7,7 @@ Depends: solr-common (= 3.4.0~blubolt2~lucid1), tomcat7
 Conflicts: solr-jetty
 Section: java
 Priority: optional
+Maintainer: Jing Tao <tao@dataone.unm.edu>
 Homepage: http://lucene.apache.org/solr/
 Description: enterprise search server based on Lucene - Tomcat integration
  Solr is an open source enterprise search server based on the Lucene
