@@ -2,7 +2,7 @@
 # Matt Jones, 15 Dec 2009
 
 # The list of packages to build
-PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb dataone-cn-processdaemon.deb dataone-cn-rest-service.deb dataone-cn-portal.deb dataone-cn-version-tool.deb dataone-cn-solr.deb dataone-cn-index.deb dataone-mercury.deb 
+PKGS          = dataone-cn-os-core.deb dataone-cn-metacat.deb dataone-cn-processdaemon.deb dataone-cn-rest-service.deb dataone-cn-portal.deb dataone-cn-version-tool.deb dataone-cn-solr.deb dataone-cn-index.deb dataone-mercury.deb dataone-cn-solr3-tomcat7.deb 
 
 # The temporary build output directory
 BUILDDIR      = build
@@ -11,7 +11,7 @@ BUILDDIR      = build
 APTREPOS      = /var/dataone/apt
 
 # Location of the Packages.gz for this architecture
-APTPKG        = $(APTREPOS)/dists/lucid/universe/binary-amd64
+APTPKG        = $(APTREPOS)/dists/precise/universe/binary-amd64
 
 
 TESTCRT = $(shell /bin/sh -c '/usr/bin/test -e /etc/ssl/certs/dataone.org.crt; echo $$?')
