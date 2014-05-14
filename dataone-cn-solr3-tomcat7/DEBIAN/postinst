@@ -15,7 +15,7 @@ case "$1" in
         chown -R tomcat7:tomcat7 /var/lib/solr/data
         chmod -R 770 /var/lib/solr/data
 
-        ln -sf /etc/solr/tomcat.policy /etc/tomcat6/policy.d/05solr.policy
+        ln -sf /etc/solr/tomcat.policy /etc/tomcat7/policy.d/05solr.policy
 
     ;;
 
@@ -30,9 +30,9 @@ case "$1" in
 
 esac
 
-invoke-rc.d --quiet tomcat6 restart || {
+invoke-rc.d --quiet tomcat7 restart || {
     RESULT=$?
-    # Ignore if tomcat6 init script does not exist (yet)
+    # Ignore if tomcat7 init script does not exist (yet)
     if [ $RESULT != 100 ]; then
 	exit $RESULT
     fi
