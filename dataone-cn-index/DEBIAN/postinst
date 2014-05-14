@@ -41,8 +41,8 @@ chown tomcat7.tomcat7 /var/log/dataone/index
 ###############################################################################
 # Configure Postgres
 ###############################################################################
-PG=postgresql-8.4
-PG_CONF=/etc/postgresql/8.4/main
+PG=postgresql
+PG_CONF=/etc/postgresql/9.1/main
 PG_USER=postgres
 
 INDEX_DB=d1-index-queue
