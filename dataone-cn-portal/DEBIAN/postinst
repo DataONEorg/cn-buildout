@@ -270,7 +270,7 @@ do
 	fi
 done
 
-## modify /etc/postgresql/8.4/main/postgresql.conf to listen on more than 'localhost'
+## modify /etc/postgresql/9.1/main/postgresql.conf to listen on more than 'localhost'
 ## original line looks like this:
 ## #listen_addresses = 'localhost'
 ## we want this:
