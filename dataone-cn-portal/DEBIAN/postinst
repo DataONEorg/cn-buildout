@@ -34,7 +34,7 @@ TOMCAT_HOME=/var/lib/tomcat7
 APACHE_CONF=/etc/apache2
 JK_CONF=portal_jk.conf
 
-PG=postgresql-9.1
+PG=postgresql
 PG_CONF=/etc/postgresql/9.1/main
 PG_DATA=/var/lib/postgresql/9.1/main
 
