@@ -38,7 +38,7 @@ APACHE_CONF=/etc/apache2
 JK_CONF=metacat_jk.conf
 
 SYSCTL_CONF=/etc/sysctl.conf
-PG=postgresql-9.1
+PG=postgresql
 PG_CONF=/etc/postgresql/9.1/main
 PG_USER=postgres
 DB_USER=metacat
