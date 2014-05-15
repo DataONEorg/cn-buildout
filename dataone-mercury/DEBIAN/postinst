@@ -31,7 +31,7 @@ fi
 ## copy the new war file into the webapps directory
 echo "Copying new onemercury.war file to ${TOMCAT_HOME}/webapps/onemercury.war"
 cp ${SOURCE_DIR}/onemercury.war ${TOMCAT_HOME}/webapps/
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/onemercury.war
+chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/webapps/onemercury.war
 
 ########################
 # Configure Tomcat
@@ -40,12 +40,12 @@ chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/onemercury.war
 # Configure the context file
 echo "Copying ${SCRIPT_DIR}/onemercury.xml to ${TOMCAT_HOME}/conf/Catalina/localhost/"
 cp ${SCRIPT_DIR}/onemercury.xml ${TOMCAT_HOME}/conf/Catalina/localhost/
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/Catalina/localhost/onemercury.xml
+chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/conf/Catalina/localhost/onemercury.xml
 
 # Add permissions needed by mercury
 echo "Copying ${SCRIPT_DIR}/52mercury.policy to ${TOMCAT_HOME}/conf/policy.d/"
 cp ${SCRIPT_DIR}/52onemercury.policy ${TOMCAT_HOME}/conf/policy.d/
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/52onemercury.policy
+chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/52onemercury.policy
 
 ###########################
 # Configure Apache

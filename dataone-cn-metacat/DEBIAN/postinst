@@ -199,7 +199,7 @@ case "${ACTION}" in
         # the CN has its own log4j configuration
         
         cp ${SCRIPT_DIR}/log4j.properties ${TOMCAT_HOME}/webapps/metacat/WEB-INF/
-        chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/metacat
+        chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/webapps/metacat
         log "cd to $CURR_DIR"
         cd $CURR_DIR
         
@@ -221,7 +221,7 @@ case "${ACTION}" in
         
         ## Change the ownership of the /var/metacat directory to be the tomcat user.
         log "changing ownership of /var/metacat to ${TOMCAT_USER}"
-        chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${METACAT_VAR}
+        chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${METACAT_VAR}
         
         ## Create the dataone logging directory
         for SUBDIR in ${METACAT_VAR_SUBDIRS}
@@ -232,7 +232,7 @@ case "${ACTION}" in
               log "Making Metacat application directory: ${FULL_VAR_SUBDIR}"
               mkdir ${FULL_VAR_SUBDIR}
               log "changing ownership of ${FULL_VAR_SUBDIR}  to ${TOMCAT_USER}"
-              chown ${TOMCAT_USER}.${TOMCAT_USER} ${FULL_VAR_SUBDIR}
+              chown ${TOMCAT_USER}:${TOMCAT_USER} ${FULL_VAR_SUBDIR}
             fi
         done
         ###############################################################################
