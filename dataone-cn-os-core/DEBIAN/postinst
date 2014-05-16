@@ -845,11 +845,11 @@ function configure_keystore()
 	local INTERMEDIATE_BUNDLE="${DEB_QUESTION_VALUES[dataone-cn-os-core/cn.server.cachain.filename]}"
 	
 	log "Adding ${SSL_CERT_DIR}/${INTERMEDIATE_BUNDLE} to Java keystore: ${JAVA_KEYSTORE}"
-	(keytool -import -noprompt -alias ${INTERMEDIATE_BUNDLE} -file ${SSL_CERT_DIR}/${INTERMEDIATE_BUNDLE} -keystore ${JAVA_KEYSTORE} -storepass ${JAVA_KEYSTORE_PASSWORD} >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 | exit 0)
+	(keytool -importcert -noprompt -alias ${INTERMEDIATE_BUNDLE} -file ${SSL_CERT_DIR}/${INTERMEDIATE_BUNDLE} -keystore ${JAVA_KEYSTORE} -storepass ${JAVA_KEYSTORE_PASSWORD} >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 | exit 0)
 	
 	# get the DataONE CA
 	
-	(keytool -import -noprompt -alias DataONECA -file ${SSL_CERT_DIR}/${DEB_QUESTION_VALUES[dataone-cn-os-core/cn.dataone.ca.filename]} -keystore ${JAVA_KEYSTORE} -storepass ${JAVA_KEYSTORE_PASSWORD}  >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 | exit 0)
+	(keytool -importcert -noprompt -alias DataONECA -file ${SSL_CERT_DIR}/${DEB_QUESTION_VALUES[dataone-cn-os-core/cn.dataone.ca.filename]} -keystore ${JAVA_KEYSTORE} -storepass ${JAVA_KEYSTORE_PASSWORD}  >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 | exit 0)
 	log "Adding ${SSL_CERT_DIR}/${DEB_QUESTION_VALUES[dataone-cn-os-core/cn.dataone.ca.filename]} to Java keystore: ${JAVA_KEYSTORE} -$RTN_KEYTOOL"
 	# Always clear the cached keystore password
 	db_set dataone-cn-os-core/cn.keystore.password "" # clear the cached pw
