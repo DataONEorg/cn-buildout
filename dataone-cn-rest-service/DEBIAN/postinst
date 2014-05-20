@@ -2,9 +2,9 @@
 
 LONG_DATE=`date +%Y%m%d%H%M%S`
 
-TOMCAT=tomcat6
-TOMCAT_USER=tomcat6
-TOMCAT_HOME=/var/lib/tomcat6
+TOMCAT=tomcat7
+TOMCAT_USER=tomcat7
+TOMCAT_HOME=/var/lib/tomcat7
 APACHE_CONF=/etc/apache2
 SOURCE_DIR=/usr/share/dataone-cn-rest
 SCRIPT_DIR=${SOURCE_DIR}/debian
@@ -34,7 +34,7 @@ fi
 ## copy the new war file into the webapps directory
 echo copying new cn.war file to ${TOMCAT_HOME}/webapps/cn.war
 cp ${SOURCE_DIR}/cn.war ${TOMCAT_HOME}/webapps/cn.war
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/cn.war
+chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/webapps/cn.war
 
 ## expand the war file
 CURR_DIR=`pwd`
@@ -46,7 +46,7 @@ cd ${TOMCAT_HOME}/webapps/cn
 
 echo "extracting cn.war into ${TOMCAT_HOME}/webapps/cn"
 jar -xvf ${TOMCAT_HOME}/webapps/cn.war > /dev/null
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/cn
+chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/webapps/cn
 echo cd to $CURR_DIR
 cd $CURR_DIR
 
@@ -57,10 +57,10 @@ cd $CURR_DIR
 
 # Configure the context file
 cp ${SCRIPT_DIR}/cn.xml ${TOMCAT_HOME}/conf/Catalina/localhost/
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/Catalina/localhost/cn.xml
+chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/conf/Catalina/localhost/cn.xml
 # Add permissions needed by cn
 cp ${SCRIPT_DIR}/54cn.policy ${TOMCAT_HOME}/conf/policy.d/
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/54cn.policy
+chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/conf/policy.d/54cn.policy
 
 
 ###############################################################################
