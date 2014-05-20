@@ -13,7 +13,7 @@ D1_LOG_DIR=/var/log/dataone
 D1_LOG_FILE=dataone-cn-audit-index.debian.log
 if [ ! -e ${D1_LOG_DIR} ]; then
     mkdir -p ${D1_LOG_DIR}
-    chown tomcat6:tomcat6 ${D1_LOG_DIR}
+    chown tomcat7:tomcat7 ${D1_LOG_DIR}
 fi
 
 # functions to echo to STDERR or the install log instead of STDOUT
@@ -26,7 +26,7 @@ log () {
     echo -e "${now} postint $@" >> ${D1_LOG_DIR}/${D1_LOG_FILE}
 }
 
-SOLR_USER=tomcat6
+SOLR_USER=tomcat7
 
 APACHE_CONF_HOME=/etc/apache2/conf.d
 JETTY_HOME=/var/lib/jetty
