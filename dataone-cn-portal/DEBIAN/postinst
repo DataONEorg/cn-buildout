@@ -13,7 +13,7 @@ fi
 D1_LOG_DIR=/var/log/dataone
 if [ ! -e ${D1_LOG_DIR} ]; then
     mkdir -p ${D1_LOG_DIR}
-    chown tomcat6:tomcat6 ${D1_LOG_DIR}
+    chown tomcat7:tomcat7 ${D1_LOG_DIR}
 fi
 
 # functions to echo to STDERR or the install log instead of STDOUT
@@ -28,15 +28,15 @@ log () {
 
 LONG_DATE=`date +%Y%m%d%H%M%S`
 
-TOMCAT=tomcat6
-TOMCAT_USER=tomcat6
-TOMCAT_HOME=/var/lib/tomcat6
+TOMCAT=tomcat7
+TOMCAT_USER=tomcat7
+TOMCAT_HOME=/var/lib/tomcat7
 APACHE_CONF=/etc/apache2
 JK_CONF=portal_jk.conf
 
-PG=postgresql-8.4
-PG_CONF=/etc/postgresql/8.4/main
-PG_DATA=/var/lib/postgresql/8.4/main
+PG=postgresql
+PG_CONF=/etc/postgresql/9.1/main
+PG_DATA=/var/lib/postgresql/9.1/main
 
 PG_USER=postgres
 DB_NAME=oauth
@@ -122,7 +122,7 @@ jar -xvf ${TOMCAT_HOME}/webapps/portal.war > /dev/null
 mv ${TOMCAT_HOME}/webapps/portal.war ${TOMCAT_HOME}/webapps/portal.war.current
 
 cp ${SOURCE_DIR}/debian/log4j.properties ${TOMCAT_HOME}/webapps/portal/WEB-INF/
-chown -R ${TOMCAT_USER}.${TOMCAT_USER} ${TOMCAT_HOME}/webapps/portal
+chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/webapps/portal
 log cd to $CURR_DIR
 cd $CURR_DIR
 
@@ -149,7 +149,7 @@ do
 done
 
 ## configure the CILogon skin, default to PRODUCTION
-MYPROXY_ID=myproxy:oa4mp,2012:/client/42afd3477fac2eb9bfe99d0b409f6cc6 
+MYPROXY_ID=myproxy:oa4mp,2012:/client/42afd3477fac2eb9bfe99d0b409f6cc6
 CILOGON_SKIN=DataONE
 db_get dataone-cn-os-core/cn.context.label
 CONTEXT_LABEL=$RET
@@ -188,7 +188,7 @@ KEY_FILE=${KEY_DIR}'/'${KEY_FILENAME}
 PK8_KEY_FILE=${KEY_FILE}.pk8
 # make PK8 format for private key
 openssl pkcs8 -topk8 -in ${KEY_FILE} -nocrypt -out ${PK8_KEY_FILE}
-chown tomcat6.ssl-cert ${PK8_KEY_FILE}
+chown tomcat7:ssl-cert ${PK8_KEY_FILE}
 chmod 0650 ${PK8_KEY_FILE}
 # get the correct public key (NOT the cert) for the env
 db_get dataone-cn-os-core/cn.server.publiccert.filename
@@ -270,7 +270,7 @@ do
 	fi
 done
 
-## modify /etc/postgresql/8.4/main/postgresql.conf to listen on more than 'localhost'
+## modify /etc/postgresql/9.1/main/postgresql.conf to listen on more than 'localhost'
 ## original line looks like this:
 ## #listen_addresses = 'localhost'
 ## we want this:
@@ -297,11 +297,11 @@ sed -i.bak  "s/#\(ssl\s*\=.\)/\1/;" ${PG_CONF}/postgresql.conf
 
 rm ${PG_DATA}/server.key
 cp ${KEY_FILE} ${PG_DATA}/server.key
-chown postgres.postgres ${PG_DATA}/server.key
+chown postgres:postgres ${PG_DATA}/server.key
 chmod 0600 ${PG_DATA}/server.key
 rm ${PG_DATA}/server.crt
 cp ${PUBLIC_SERVER_CERT} ${PG_DATA}/server.crt
-chown postgres.postgres ${PG_DATA}/server.crt
+chown postgres:postgres ${PG_DATA}/server.crt
 
 ## Restart the postgres db
 log "Restarting postgres database"

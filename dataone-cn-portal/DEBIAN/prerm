@@ -2,11 +2,11 @@
 
 LONG_DATE=`date +%Y%m%d%H%M%S`
 
-/etc/init.d/tomcat6 stop
+/etc/init.d/tomcat7 stop
 /etc/init.d/apache2 stop
 
-TOMCAT_USER=tomcat6
-TOMCAT_HOME=/var/lib/tomcat6
+TOMCAT_USER=tomcat7
+TOMCAT_HOME=/var/lib/tomcat7
 APACHE_CONF=/etc/apache2
 #SOURCE_DIR=/usr/share/portal
 #rm -rf ${SOURCE_DIR}
@@ -19,7 +19,7 @@ rm -f ${APACHE_CONF}/jk_mount/portal_jk.*
 
 rm -rf /etc/dataone/portal
 
-/etc/init.d/tomcat6 start
+/etc/init.d/tomcat7 start
 /etc/init.d/apache2 start
 
 ## Update DateONE Version Info Doc
