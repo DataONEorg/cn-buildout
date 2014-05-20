@@ -12,16 +12,16 @@ fi
 cp /usr/share/dataone-cn-monitor/log4j.properties /etc/dataone/monitor/log4j.properties
 cp /usr/share/dataone-cn-monitor/cn-monitor.properties /etc/dataone/monitor/cn-monitor.properties
 
-chown -R tomcat6.tomcat6 /etc/dataone/monitor
+chown -R tomcat7:tomcat7 /etc/dataone/monitor
 
 cp /usr/share/dataone-cn-monitor/d1_cn_monitor_daemon.jar /usr/share/java
 
-chown -R tomcat6.tomcat6 /usr/share/java/d1_cn_monitor_daemon.jar
+chown -R tomcat7:tomcat7 /usr/share/java/d1_cn_monitor_daemon.jar
 
 if [ ! -d "/var/log/dataone/monitor" ]; then
   mkdir  /var/log/dataone/monitor
 fi
-chown tomcat6.tomcat6 /var/log/dataone/monitor
+chown tomcat7:tomcat7 /var/log/dataone/monitor
 
 #Deploy the nagios plugin local script to /usr/lib/check_mk_agent/local
 cp /usr/share/dataone-cn-monitor/hz_membership.sh /usr/lib/check_mk_agent/local/hz_membership.sh
