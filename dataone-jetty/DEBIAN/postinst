@@ -2,7 +2,7 @@
 
 # JETTY HOME AND USER ARE ALSO SPECIFIED IN jetty/bin/jetty-defaults and should match these values.
 JETTY_HOME=/var/lib/jetty
-JETTY_USER=tomcat6
+JETTY_USER=tomcat7
 JETTY_LOGS=/var/log/jetty
 
 # Deploy init script to /etc/init.d from bin/jetty.sh
