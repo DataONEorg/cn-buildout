@@ -25,7 +25,7 @@
 ### END INIT INFO
 
 
-ZK_USER=tomcat6
+ZK_USER=tomcat7
 
 set -e
 
