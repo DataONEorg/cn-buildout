@@ -140,6 +140,9 @@ else
 	log "HOSTNAME (cn.router.hostname) cannot be set in ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml or ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml"
 fi
 
+###########replace the "tomcat6" by "tomcat7" on the web.xml###################
+sed -i.bak  's/\(<param-value>\/var\/lib\/\)tomcat6/\1'tomcat7'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml
+
 ## configure to hit only a single PG instance - defualt to first in ip list
 for ip in ${IPLIST[@]}
 do
