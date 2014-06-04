@@ -37,7 +37,11 @@ cp /usr/share/dataone-cn-processdaemon/debian/logAggregation.properties ${D1_CON
 cp /usr/share/dataone-cn-processdaemon/debian/replication.properties ${D1_CONF}/process/replication.properties
 cp /usr/share/dataone-cn-processdaemon/debian/d1client.properties ${D1_CONF}/process/d1client.properties
 
-HOSTNAME=$(/bin/hostname -f)
+#HOSTNAME=$(/bin/hostname -f)
+
+## replace the token HOSTNAME in the site file to a hostname as found in debian backend db
+db_get dataone-cn-os-core/cn.hostname
+HOSTNAME=$RET
 
 if [ "$HOSTNAME" != "" ]
 then
