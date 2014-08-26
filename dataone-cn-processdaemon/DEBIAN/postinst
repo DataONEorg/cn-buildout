@@ -108,6 +108,43 @@ then
 	chown tomcat7:tomcat7 /var/log/dataone/logAggregate
 fi
 
+
+###############################################################################
+# Configure Postgres
+###############################################################################
+PG=postgresql
+PG_CONF=/etc/postgresql/9.1/main
+PG_USER=postgres
+
+REPLICATION_HISTORY_DB=d1-replication-history
+REPLICATION_HISTORY_DB_USER=replicationHistory
+REPLICATION_HISTORY_DB_PASS=replicationHistory
+
+## modify pg_hba.conf
+PG_HBA_IS_MODIFIED=`grep "${REPLICATION_HISTORY_DB} ${REPLICATION_HISTORY_DB_USER}" ${PG_CONF}/pg_hba.conf`
+if [ "${PG_HBA_IS_MODIFIED}" == "" ]
+then
+  echo "backing up ${PG_CONF}/pg_hba.conf to ${PG_CONF}/pg_hba.conf.bak.replication.history"
+  cp ${PG_CONF}/pg_hba.conf ${PG_CONF}/pg_hba.conf.bak.replication.history
+  chown ${PG_USER} ${PG_CONF}/pg_hba.conf
+  chgrp ${PG_USER} ${PG_CONF}/pg_hba.conf
+
+  echo "appending 'host ${REPLICATION_HISTORY_DB} ${REPLICATION_HISTORY_DB_USER} 127.0.0.1 255.255.255.255 password' to ${PG_CONF}/pg_hba.conf"
+  echo "host ${REPLICATION_HISTORY_DB} ${REPLICATION_HISTORY_DB_USER} 127.0.0.1 255.255.255.255 password" >> ${PG_CONF}/pg_hba.conf
+fi
+
+## create replication history  schema and user
+echo "Creating replication history database schema"
+su ${PG_USER} -c "createdb ${REPLICATION_HISTORY_DB}"
+
+echo "Creating replication history db user - replicationHistory" 
+su ${PG_USER} -c "psql -c \"CREATE USER ${REPLICATION_HISTORY_DB_USER} WITH UNENCRYPTED PASSWORD '${REPLICATION_HISTORY_DB_PASS}'\""
+
+## Restart the postgres db
+echo "Restarting postgres database"
+/etc/init.d/${PG} restart
+######################################################
+
 iplistArray=($IPLIST)
 for ip in "${iplistArray[@]}"; do
 	IP_ADDRESS=${ip}
