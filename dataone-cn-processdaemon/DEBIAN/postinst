@@ -225,10 +225,8 @@ REPLICATION_HISTORY_DB_USER=replicationHistory
 REPLICATION_HISTORY_DB_PASS=replicationHistory
 
 ## modify pg_hba.conf
-PG_HBA_IS_MODIFIED=`grep "${REPLICATION_HISTORY_DB} ${REPLICATION_HISTORY_DB_USER}" ${PG_CONF}/pg_hba.conf`
-if [ "${PG_HBA_IS_MODIFIED}" == "" ]
-then
-  echo "backing up ${PG_CONF}/pg_hba.conf to ${PG_CONF}/pg_hba.conf.bak.replication.history"
+if ! (grep --silent --no-messages "${REPLICATION_HISTORY_DB} ${REPLICATION_HISTORY_DB_USER}" ${PG_CONF}/pg_hba.conf >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+  log "backing up ${PG_CONF}/pg_hba.conf to ${PG_CONF}/pg_hba.conf.bak.replication.history"
   if ! (cp ${PG_CONF}/pg_hba.conf ${PG_CONF}/pg_hba.conf.bak.replication.history >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
       logError "Unable to cp ${PG_CONF}/pg_hba.conf ${PG_CONF}/pg_hba.conf.bak.replication.history "
       # None fail error
