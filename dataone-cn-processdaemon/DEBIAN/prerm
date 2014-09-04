@@ -19,6 +19,23 @@ rm -f /var/run/d1-processing.pid
 
 rm -f /usr/share/java/d1_process_daemon.jar
 
+### Handle postgres cleanup
+PG=postgresql
+PG_CONF=/etc/postgresql/9.1/main
+PG_USER=postgres
+
+REPLICATION_HISTORY_DB=d1-replication-history
+REPLICATION_HISTORY_DB_USER=replicationHistory
+
+## drop replication history schema and user
+echo "Dropping replication history database"
+su ${PG_USER} -c "dropdb ${REPLICATION_HISTORY_DB}"
+echo "Droping replication history user"
+su ${PG_USER} -c "psql --command \"DROP USER ${REPLICATION_HISTORY_DB_USER}\""
+
+## Restart the postgres db
+echo "Restarting postgres database"
+/etc/init.d/${PG} restart
 
 ## Update DateONE Version Info Doc
 java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html
