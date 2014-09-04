@@ -1,4 +1,14 @@
-#!/bin/bash
+#!/bin/bash -x
+
+set -e
+
+#####
+##### Read the commandline options
+##### Only 'configure' is handled with processing, other actions
+##### are ignored for now
+#####
+ACTION=${1}
+ARG_VERSION=${2}
 
 # source the debconf library
 if [ -e "/usr/share/debconf/confmodule" ]; then
@@ -13,29 +23,75 @@ D1_CONF=/etc/dataone
 NODE_PROPS="$D1_CONF/node.properties"
 D1_HZ_PROCESS_PROPS="${D1_CONF}/process/dataoneHazelcast.properties"
 PROCESS_PORT=5702
+D1_LOG_DIR=/var/log/dataone
+D1_LOG_FILE=dataone-cn-processdaemon.install.log
 
 # functions to echo to STDERR or the install log instead of STDOUT
 logError () {
-    echo -e "$@" 1>&2
+    log "ERROR $@" 
 }
 
-log () {
+#####
+##### log()
+##### append stdout to a logfile
+#####
+function log() 
+{
+	#
+	# Set Up logging
+	# Reminder: don't echo to stdout, it messes up debconf
+	#
+    if [ ! -e ${D1_LOG_DIR} ]; then
+        mkdir -p ${D1_LOG_DIR}
+        chown tomcat7:tomcat7 ${D1_LOG_DIR}
+    fi
     now=$(date "+%Y-%m-%d %H:%M:%S %Z: ")
-    echo -e "${now}$@" >> ${D1_LOG_DIR}/dataone-cn-processdaemon.install.log
+    echo -e "${now} postinst $@" >> ${D1_LOG_DIR}/${D1_LOG_FILE}
+}
+#####
+##### exitWithFailureCode( ERROR_CODE )
+##### Ensures that passwords are wiped, database is stopped and exit is called with an error code
+##### 
+
+function exitWithFailureCode()
+{
+		local errorCode=$1
+	
+		db_stop
+		exit $errorCode
 }
 
-chmod +x /etc/init.d/d1-processing
 
-update-rc.d -f d1-processing remove
-#update-rc.d d1-processing defaults 99
-
+if ! (chmod +x /etc/init.d/d1-processing >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to chmod on /etc/init.d/d1-processing"
+      exitWithFailureCode 1
+fi
 
 #these will need to be configured per environment
-cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml ${D1_CONF}/process/hazelcast.xml
-cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties ${D1_CONF}/process/synchronization.properties
-cp /usr/share/dataone-cn-processdaemon/debian/logAggregation.properties ${D1_CONF}/process/logAggregation.properties
-cp /usr/share/dataone-cn-processdaemon/debian/replication.properties ${D1_CONF}/process/replication.properties
-cp /usr/share/dataone-cn-processdaemon/debian/d1client.properties ${D1_CONF}/process/d1client.properties
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml ${D1_CONF}/process/hazelcast.xml >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml ${D1_CONF}/process/hazelcast.xml"
+      exitWithFailureCode 2
+fi
+
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties ${D1_CONF}/process/synchronization.properties >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties ${D1_CONF}/process/synchronization.properties"
+      exitWithFailureCode 3
+fi
+
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/logAggregation.properties ${D1_CONF}/process/logAggregation.properties >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/logAggregation.properties ${D1_CONF}/process/logAggregation.properties"
+      exitWithFailureCode 4
+fi
+
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/replication.properties ${D1_CONF}/process/replication.properties >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/replication.properties ${D1_CONF}/process/replication.properties"
+      exitWithFailureCode 5
+fi
+
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/d1client.properties ${D1_CONF}/process/d1client.properties >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/d1client.properties ${D1_CONF}/process/d1client.properties"
+      exitWithFailureCode 6
+fi
 
 #HOSTNAME=$(/bin/hostname -f)
 
@@ -45,8 +101,14 @@ HOSTNAME=$RET
 
 if [ "$HOSTNAME" != "" ]
 then
-  sed -i.bak  's/SERVER_NAME/'${HOSTNAME}'/' ${D1_CONF}/process/logAggregation.properties
-  sed -i.bak  's/SERVER_NAME/'${HOSTNAME}'/' ${D1_CONF}/process/d1client.properties
+  if ! (sed -i.bak  's/SERVER_NAME/'${HOSTNAME}'/' ${D1_CONF}/process/logAggregation.properties >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to modify SERVER_NAME in logAggregation.properties with sed"
+      exitWithFailureCode 7
+  fi
+  if ! (sed -i.bak  's/SERVER_NAME/'${HOSTNAME}'/' ${D1_CONF}/process/d1client.properties >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to modify SERVER_NAME in d1client.properties with sed"
+      exitWithFailureCode 8
+  fi
 else
   log "HOSTNAME can not be set in ${D1_CONF}/process synchronization.properties,d1client.properties  or logAggregation.properties"
 fi
@@ -65,47 +127,89 @@ else
 	log "Couldn't set the IP list correctly."
 	IPLIST="127.0.0.1"
 fi
-# add in ports for the hazelcast client, NOTE THE PORT IS HARDCODED, probably should be configured
-IPLISTwPORT=$(sed  --regexp-extended "s/(([0-9]{1,3}\.){3}[0-9]{1,3})/\0:${PROCESS_PORT}/g" <<< $IPLIST)
-	
+
 #add in commas
 CN_IPLIST=${IPLIST// /, }
-CN_IPLISTwPORT=${IPLISTwPORT// /, }
 
 #place iplist value into dataoneHazelcast.properties at dataone.hazelcast.iplist
-sed -i.bak "s/\(dataone\.hazelcast\.iplist *=\).*/\1${CN_IPLIST}/" ${D1_HZ_PROCESS_PROPS}
-sed -i.bak "s/\(dataone\.hazelcast\.process\.clientiplist *=\).*/\1${CN_IPLIST}/" ${D1_HZ_PROCESS_PROPS}
+if ! (sed -i.bak "s/\(dataone\.hazelcast\.iplist *=\).*/\1${CN_IPLIST}/" ${D1_HZ_PROCESS_PROPS} >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to modify iplist in ${D1_HZ_PROCESS_PROPS} with sed"
+      exitWithFailureCode 9
+fi
 
-chown -R tomcat7:tomcat7 /etc/dataone/process
+if ! (sed -i.bak "s/\(dataone\.hazelcast\.process\.clientiplist *=\).*/\1${CN_IPLIST}/" ${D1_HZ_PROCESS_PROPS} >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to modify clientiplist in ${D1_HZ_PROCESS_PROPS} with sed"
+      exitWithFailureCode 10
+fi
 
-cp /usr/share/dataone-cn-processdaemon/d1_process_daemon.jar /usr/share/java
-chown -R tomcat7:tomcat7 /usr/share/java/d1_process_daemon.jar
+if ! (chown -R tomcat7:tomcat7 /etc/dataone/process >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to chown /etc/dataone/process"
+      exitWithFailureCode 11
+fi
+
+if ! (cp /usr/share/dataone-cn-processdaemon/d1_process_daemon.jar /usr/share/java >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/d1_process_daemon.jar to /usr/share/java"
+      exitWithFailureCode 12
+fi
+
+if ! (chown -R tomcat7:tomcat7 /usr/share/java/d1_process_daemon.jar >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to chown /usr/share/java/d1_process_daemon.jar "
+      exitWithFailureCode 13
+fi
 
 ##################################################################
 # Set up logging for background processes
 ##################################################################
 if [ ! -e "/var/log/dataone/daemon" ]
 then
-	mkdir  /var/log/dataone/daemon
-	chown tomcat7:tomcat7 /var/log/dataone/daemon
+	if ! (mkdir  /var/log/dataone/daemon >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to mkdir /var/log/dataone/daemon "
+      exitWithFailureCode 14
+    fi
+    
+	if ! (chown tomcat7:tomcat7 /var/log/dataone/daemon >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to chown /var/log/dataone/daemon "
+      exitWithFailureCode 15
+    fi
 fi
 
 if [ ! -e "/var/log/dataone/synchronize" ]
 then
-	mkdir  /var/log/dataone/synchronize
-	chown tomcat7:tomcat7 /var/log/dataone/synchronize
+	if ! (mkdir  /var/log/dataone/synchronize >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to mkdir /var/log/dataone/synchronize "
+      exitWithFailureCode 16
+    fi
+ 
+	if ! (chown tomcat7:tomcat7 /var/log/dataone/synchronize >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to chown /var/log/dataone/synchronize "
+      exitWithFailureCode 17
+    fi
 fi
 
 if [ ! -e "/var/log/dataone/replicate" ]
 then
-	mkdir  /var/log/dataone/replicate
-	chown tomcat7:tomcat7 /var/log/dataone/replicate
+	if ! (mkdir  /var/log/dataone/replicate >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to mkdir /var/log/dataone/replicate "
+      exitWithFailureCode 18
+    fi
+ 
+	if ! (chown tomcat7:tomcat7 /var/log/dataone/replicate >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to chown /var/log/dataone/replicate "
+      exitWithFailureCode 19
+    fi
 fi
 
 if [ ! -e "/var/log/dataone/logAggregate" ]
 then
-	mkdir  /var/log/dataone/logAggregate
-	chown tomcat7:tomcat7 /var/log/dataone/logAggregate
+	if ! (mkdir  /var/log/dataone/logAggregate >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to mkdir /var/log/dataone/logAggregate "
+      exitWithFailureCode 20
+    fi
+ 
+	if ! (chown tomcat7:tomcat7 /var/log/dataone/logAggregate >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to chown /var/log/dataone/logAggregate "
+      exitWithFailureCode 21
+    fi
 fi
 
 
@@ -125,39 +229,63 @@ PG_HBA_IS_MODIFIED=`grep "${REPLICATION_HISTORY_DB} ${REPLICATION_HISTORY_DB_USE
 if [ "${PG_HBA_IS_MODIFIED}" == "" ]
 then
   echo "backing up ${PG_CONF}/pg_hba.conf to ${PG_CONF}/pg_hba.conf.bak.replication.history"
-  cp ${PG_CONF}/pg_hba.conf ${PG_CONF}/pg_hba.conf.bak.replication.history
-  chown ${PG_USER} ${PG_CONF}/pg_hba.conf
-  chgrp ${PG_USER} ${PG_CONF}/pg_hba.conf
+  if ! (cp ${PG_CONF}/pg_hba.conf ${PG_CONF}/pg_hba.conf.bak.replication.history >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp ${PG_CONF}/pg_hba.conf ${PG_CONF}/pg_hba.conf.bak.replication.history "
+      # None fail error
+  fi
+  if ! (chown ${PG_USER} ${PG_CONF}/pg_hba.conf >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to chown ${PG_USER} ${PG_CONF}/pg_hba.conf "
+      exitWithFailureCode 22
+    fi
+  if ! (chgrp ${PG_USER} ${PG_CONF}/pg_hba.conf >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to chown ${PG_USER} ${PG_CONF}/pg_hba.conf "
+      exitWithFailureCode 23
+  fi
 
-  echo "appending 'host ${REPLICATION_HISTORY_DB} ${REPLICATION_HISTORY_DB_USER} 127.0.0.1 255.255.255.255 password' to ${PG_CONF}/pg_hba.conf"
+  log "appending 'host ${REPLICATION_HISTORY_DB} ${REPLICATION_HISTORY_DB_USER} 127.0.0.1 255.255.255.255 password' to ${PG_CONF}/pg_hba.conf"
   echo "host ${REPLICATION_HISTORY_DB} ${REPLICATION_HISTORY_DB_USER} 127.0.0.1 255.255.255.255 password" >> ${PG_CONF}/pg_hba.conf
 fi
 
 ## create replication history  schema and user
-echo "Creating replication history database schema"
-su ${PG_USER} -c "createdb ${REPLICATION_HISTORY_DB}"
+log "Creating replication history database schema"
+if ! (su ${PG_USER} -c "createdb ${REPLICATION_HISTORY_DB}" >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to createdb ${REPLICATION_HISTORY_DB}"
+      exitWithFailureCode 24
+fi
 
-echo "Creating replication history db user - replicationHistory" 
-su ${PG_USER} -c "psql -c \"CREATE USER ${REPLICATION_HISTORY_DB_USER} WITH UNENCRYPTED PASSWORD '${REPLICATION_HISTORY_DB_PASS}'\""
+log "Creating replication history db user - replicationHistory" 
+if ! (su ${PG_USER} -c "psql -c \"CREATE USER ${REPLICATION_HISTORY_DB_USER} WITH UNENCRYPTED PASSWORD '${REPLICATION_HISTORY_DB_PASS}'\"" >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to CREATE USER ${REPLICATION_HISTORY_DB_USER}"
+      exitWithFailureCode 25
+fi
 
 ## Restart the postgres db
-echo "Restarting postgres database"
-/etc/init.d/${PG} restart
+log "Restarting postgres database"
+if ! (/etc/init.d/${PG} restart >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 );  then
+    logError "${PG}  failed to restart"
+    exitWithFailureCode 26
+fi
+
+
 ######################################################
 
 iplistArray=($IPLIST)
 for ip in "${iplistArray[@]}"; do
 	IP_ADDRESS=${ip}
 	log "Adding 'ufw allow to any port ${PROCESS_PORT} from ${IP_ADDRESS}' rule"	  
-	ufw allow to any port ${PROCESS_PORT} from ${IP_ADDRESS}
+	if ! (ufw allow to any port ${PROCESS_PORT} from ${IP_ADDRESS} >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 );  then
+      logError "ufw allow to any port ${PROCESS_PORT} from ${IP_ADDRESS} . Nonfatal."
+    fi
 done
 
 ## Update DateONE Version Info Doc
-java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html
+if ! (java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html  2>&1 );  then
+	logError "dataone-cn-version-tool.jar. Nonfatal."
+fi
 
-echo "Start Sychronization with /etc/init.d/d1-processing start"
+log "Start Sychronization with /etc/init.d/d1-processing start"
 
+db_stop
 
-
-
+exit 0
 
