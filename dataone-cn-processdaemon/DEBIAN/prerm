@@ -25,7 +25,7 @@ PG_CONF=/etc/postgresql/9.1/main
 PG_USER=postgres
 
 REPLICATION_HISTORY_DB=d1-replication-history
-REPLICATION_HISTORY_DB_USER=replicationHistory
+REPLICATION_HISTORY_DB_USER=replicationhistory
 
 ## drop replication history schema and user
 echo "Dropping replication history database"

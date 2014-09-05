@@ -93,6 +93,11 @@ if ! (cp /usr/share/dataone-cn-processdaemon/debian/d1client.properties ${D1_CON
       exitWithFailureCode 6
 fi
 
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/GeoLiteCity.dat ${D1_CONF}/process/GeoLiteCity.dat >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/GeoLiteCity.dat ${D1_CONF}/process/GeoLiteCity.dat"
+      exitWithFailureCode 6
+fi
+
 #HOSTNAME=$(/bin/hostname -f)
 
 ## replace the token HOSTNAME in the site file to a hostname as found in debian backend db
@@ -221,8 +226,8 @@ PG_CONF=/etc/postgresql/9.1/main
 PG_USER=postgres
 
 REPLICATION_HISTORY_DB=d1-replication-history
-REPLICATION_HISTORY_DB_USER=replicationHistory
-REPLICATION_HISTORY_DB_PASS=replicationHistory
+REPLICATION_HISTORY_DB_USER=replicationhistory
+REPLICATION_HISTORY_DB_PASS=replicationhistory
 
 ## modify pg_hba.conf
 if ! (grep --silent --no-messages "${REPLICATION_HISTORY_DB} ${REPLICATION_HISTORY_DB_USER}" ${PG_CONF}/pg_hba.conf >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
