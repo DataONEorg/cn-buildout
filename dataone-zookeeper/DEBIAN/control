@@ -1,9 +1,9 @@
 Package: dataone-zookeeper
-Version: 0.0.1
+Version: 1.0.0
 Section: utils
 Priority: optional
 Architecture: all
 Depends: openjdk-7-jdk
 Installed-Size: 1 kb
 Maintainer: Skye Roseboom <sroseboo@dataone.unm.edu>
-Description: This is a metapackage that installs the apache zookeeper. Currently installs version 3.4.5.
+Description: This is a metapackage that installs the apache zookeeper. Currently installs version 3.4.6.

@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/bash
 
 # Licensed to the Apache Software Foundation (ASF) under one or more
 # contributor license agreements.  See the NOTICE file distributed with
@@ -24,7 +24,6 @@
 # Short-Description:	Apache ZooKeeper server
 ### END INIT INFO
 
-
 ZK_USER=tomcat7
 
 set -e
@@ -37,8 +36,14 @@ umask 022
 
 . /lib/lsb/init-functions
 
-ZOOPIDDIR=/var/lib/zookeeper/data
-ZOOPIDFILE=/var/lib/zookeeper/zookeeper_server.pid
+check_privsep_dir() {
+    # Create the PrivSep empty dir if necessary
+    if [ ! -d ${ZOOPIDDIR} ]; then
+	mkdir -p ${ZOOPIDDIR}
+        chown zookeeper:hadoop ${ZOOPIDDIR}
+	chmod 0775 ${ZOOPIDDIR} 
+    fi
+}
 
 # Are we running from init?
 run_by_init() {
@@ -63,6 +68,7 @@ export PATH="${PATH:+$PATH:}/usr/sbin:/usr/bin"
 case "$1" in
   start)
 	check_for_no_start
+	check_privsep_dir
 	log_daemon_msg "Starting Apache ZooKeeper server" "zookeeper"
 	if start-stop-daemon --start --quiet --oknodo --pidfile ${ZOOPIDFILE} -c ${ZK_USER} -x ${ZOOKEEPER_PREFIX}/bin/zkServer.sh start; then
 	    log_end_msg 0
@@ -80,6 +86,7 @@ case "$1" in
 	;;
 
   restart)
+	check_privsep_dir
 	log_daemon_msg "Restarting Apache ZooKeeper server" "zookeeper"
 	start-stop-daemon --stop --quiet --oknodo --retry 30 --pidfile ${ZOOPIDFILE}
 	check_for_no_start log_end_msg
@@ -91,6 +98,7 @@ case "$1" in
 	;;
 
   try-restart)
+	check_privsep_dir
 	log_daemon_msg "Restarting Apache ZooKeeper server" "zookeeper"
 	set +e
 	start-stop-daemon --stop --quiet --retry 30 --pidfile ${ZOOPIDFILE}
