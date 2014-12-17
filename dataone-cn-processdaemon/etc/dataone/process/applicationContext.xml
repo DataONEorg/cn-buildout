@@ -117,7 +117,7 @@
         <property name="logEntryQueueTask" ref="logEntryQueueTask" />
     </bean>
 
-    <bean id="replicationEventListener" class="org.dataone.service.cn.replication.v1.ReplicationEventListener" init-method="init"/>
+    <bean id="replicationEventListener" class="org.dataone.service.cn.replication.ReplicationEventListener" init-method="init"/>
     
     <bean id="scheduledReplicationAuditController" class="org.dataone.service.cn.replication.auditor.v1.ScheduledReplicationAuditController" />
     														
