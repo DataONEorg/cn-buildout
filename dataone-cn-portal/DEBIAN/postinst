@@ -169,7 +169,7 @@ if [[ "${CONTEXT_LABEL}" == "SANDBOX" ]]; then
 	CILOGON_SKIN=DataONESandbox
 	MYPROXY_ID=myproxy:oa4mp,2012:/client/2f533133f3e70b26e60492479aa8f0ef
 fi
-if [[ "${CONTEXT_LABEL}" == "SANDBOX-2" ]]; then
+if [[ "${CONTEXT_LABEL}" == "SANDBOX2" ]]; then
 	CILOGON_SKIN=DataONESandbox
 	MYPROXY_ID=myproxy:oa4mp,2012:/client/66a303882b6e4bec1e91cbf2ccda1e86
 fi
