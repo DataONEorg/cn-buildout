@@ -98,6 +98,16 @@ if ! (cp /usr/share/dataone-cn-processdaemon/debian/GeoLiteCity.dat ${D1_CONF}/p
       exitWithFailureCode 6
 fi
 
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/webRobotsStrict.txt ${D1_CONF}/process/webRobotsStrict.txt >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/webRobotsStrict.txt ${D1_CONF}/process/webRobotsStrict.txt"
+      exitWithFailureCode 6
+fi
+
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/webRobotsLoose.txt ${D1_CONF}/process/webRobotsLoose.txt >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/webRobotsLoose.txt ${D1_CONF}/process/webRobotsLoose.txt"
+      exitWithFailureCode 6
+fi
+
 #HOSTNAME=$(/bin/hostname -f)
 
 ## replace the token HOSTNAME in the site file to a hostname as found in debian backend db
