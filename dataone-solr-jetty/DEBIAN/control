@@ -1,5 +1,5 @@
 Package: dataone-solr-jetty
-Version: 0.0.1
+Version: 2.0.0
 Section: utils
 Priority: optional
 Architecture: all
