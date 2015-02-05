@@ -100,7 +100,7 @@
         <property name="hazelcastLdapStore" ref="hazelcastLdapStore" />
         <property name="localhostSolrServer" ref="localhostSolrServer" />
         <!-- <property name="logEntryTopicListener" ref="logEntryTopicListener" /> -->
-        <property name="indexLogEntryQueue" ref="indexLogEntryQueue" />
+        <!-- <property name="indexLogEntryQueue" ref="indexLogEntryQueue" /> -->
         <property name="systemMetadataEntryListener" ref="systemMetadataEntryListener" />
     </bean>
     
