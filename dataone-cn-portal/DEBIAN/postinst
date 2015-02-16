@@ -163,7 +163,10 @@ fi
 if [[ "${CONTEXT_LABEL}" == "STAGE" ]]; then
 	CILOGON_SKIN=DataONEStage
 	MYPROXY_ID=myproxy:oa4mp,2012:/client/7a4c0539fc9eb5c066f1619d73f35c37
-	## TODO: cn-stage-2 would be MYPROXY_ID=myproxy:oa4mp,2012:/client/3f5b88459d880f550e31f485458fc459
+fi
+if [[ "${CONTEXT_LABEL}" == "STAGE2" ]]; then
+	CILOGON_SKIN=DataONEStage
+	MYPROXY_ID=myproxy:oa4mp,2012:/client/3f5b88459d880f550e31f485458fc459
 fi
 if [[ "${CONTEXT_LABEL}" == "SANDBOX" ]]; then
 	CILOGON_SKIN=DataONESandbox
