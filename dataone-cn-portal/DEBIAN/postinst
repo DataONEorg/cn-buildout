@@ -216,6 +216,8 @@ PUBLIC_KEY_FILE=${PUBLIC_KEY_FILE//\//\\\/}
 sed -i.bak  's/\(<publicKeyFile>\)PUBLIC_KEY_PATH/\1'${PUBLIC_KEY_FILE}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 ## configure the portal to use public cert and private key for token generation/verification
+PUBLIC_SERVER_CERT=${PUBLIC_SERVER_CERT//\//\\\/}
+KEY_FILE=${KEY_FILE//\//\\\/}
 sed -i.bak --regexp-extended  "s/(cn\.server\.publiccert\.filename=).*/\1${PUBLIC_SERVER_CERT}/;" ${TOMCAT_HOME}/webapps/portal/WEB-INF/portal.properties
 sed -i.bak --regexp-extended  "s/(cn\.server\.privatekey\.filename=).*/\1${KEY_FILE}/;" ${TOMCAT_HOME}/webapps/portal/WEB-INF/portal.properties
 
