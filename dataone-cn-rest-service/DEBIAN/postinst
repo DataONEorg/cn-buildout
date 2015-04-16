@@ -9,6 +9,8 @@ APACHE_CONF=/etc/apache2
 SOURCE_DIR=/usr/share/dataone-cn-rest
 SCRIPT_DIR=${SOURCE_DIR}/debian
 JK_CONF=cn_jk.conf
+KEY_DIR=/etc/ssl/private
+CERT_DIR=/etc/ssl/certs
 ###############################################################################
 # Install CN war file
 ###############################################################################
@@ -49,6 +51,25 @@ jar -xvf ${TOMCAT_HOME}/webapps/cn.war > /dev/null
 chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/webapps/cn
 echo cd to $CURR_DIR
 cd $CURR_DIR
+
+###############################################################################
+# Configure authentication
+###############################################################################
+## configure to use public cert and private key for token generation/verification
+# get the private key
+db_get dataone-cn-os-core/cn.server.privatekey.filename
+KEY_FILENAME=${RET}
+KEY_FILE=${KEY_DIR}'/'${KEY_FILENAME}
+
+# get the cert
+db_get dataone-cn-os-core/cn.server.publiccert.filename
+SERVER_CERT_FILENAME=${RET}
+PUBLIC_SERVER_CERT=${CERT_DIR}'/'${SERVER_CERT_FILENAME}
+
+PUBLIC_SERVER_CERT_ESC=${PUBLIC_SERVER_CERT//\//\\\/}
+KEY_FILE_ESC=${KEY_FILE//\//\\\/}
+sed -i.bak --regexp-extended  "s/(cn\.server\.publiccert\.filename=).*/\1${PUBLIC_SERVER_CERT_ESC}/;" ${TOMCAT_HOME}/webapps/cn/WEB-INF/classes/org/dataone/configuration/portal.properties
+sed -i.bak --regexp-extended  "s/(cn\.server\.privatekey\.filename=).*/\1${KEY_FILE_ESC}/;" ${TOMCAT_HOME}/webapps/cn/WEB-INF/classes/org/dataone/configuration/portal.properties
 
 
 ###############################################################################
