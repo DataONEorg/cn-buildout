@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# source the debconf library
+if [ -e "/usr/share/debconf/confmodule" ]; then
+    . /usr/share/debconf/confmodule
+else
+    echo "debconf must be installed. Exiting."
+    exit 1
+fi
+
 LONG_DATE=`date +%Y%m%d%H%M%S`
 
 TOMCAT=tomcat7
