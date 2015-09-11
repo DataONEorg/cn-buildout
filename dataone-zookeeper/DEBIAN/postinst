@@ -106,48 +106,36 @@ if ! (ufw allow from $SERVER_1 to any port $ZK_CLIENT_PORT >> ${D1_LOG_DIR}/${D1
 	log "Unable to open ufw port $ZK_CLIENT_PORT for $SERVER_1 "
 fi
 
-if [ -z "$SERVER_2" ]; then
-	if ! (ufw allow from $SERVER_2 to any port $ZK_CLIENT_PORT >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
-		log "Unable to open ufw port $ZK_CLIENT_PORT for $SERVER_2 "
-	fi
+if ! (ufw allow from $SERVER_2 to any port $ZK_CLIENT_PORT >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to open ufw port $ZK_CLIENT_PORT for $SERVER_2 "
 fi
 
-if [ -z "$SERVER_3" ]; then
-	if ! (ufw allow from $SERVER_3 to any port $ZK_CLIENT_PORT >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
-		log "Unable to open ufw port $ZK_CLIENT_PORT for $SERVER_3 "
-	fi
+if ! (ufw allow from $SERVER_3 to any port $ZK_CLIENT_PORT >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to open ufw port $ZK_CLIENT_PORT for $SERVER_3 "
 fi
 
 if ! (ufw allow from $SERVER_1 to any port $ZK_SERVER_PORT_1 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
 	log "Unable to open ufw port $ZK_SERVER_PORT_1 for $SERVER_1 "
 fi
 
-if [ -z "$SERVER_2" ]; then
-	if ! (ufw allow from $SERVER_2 to any port $ZK_SERVER_PORT_1 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
-		log "Unable to open ufw port $ZK_SERVER_PORT_1 for $SERVER_2 "
-	fi
+if ! (ufw allow from $SERVER_2 to any port $ZK_SERVER_PORT_1 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to open ufw port $ZK_SERVER_PORT_1 for $SERVER_2 "
 fi
 
-if [ -z "$SERVER_3" ]; then
-	if ! (ufw allow from $SERVER_3 to any port $ZK_SERVER_PORT_1 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
-		log "Unable to open ufw port $ZK_SERVER_PORT_1 for $SERVER_3 "
-	fi
+if ! (ufw allow from $SERVER_3 to any port $ZK_SERVER_PORT_1 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to open ufw port $ZK_SERVER_PORT_1 for $SERVER_3 "
 fi
 
 if ! (ufw allow from $SERVER_1 to any port $ZK_SERVER_PORT_2 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
 	log "Unable to open ufw port $ZK_SERVER_PORT_2 for $SERVER_1 "
 fi
 
-if [ -z "$SERVER_2" ]; then
-	if ! (ufw allow from $SERVER_2 to any port $ZK_SERVER_PORT_2 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
-		log "Unable to open ufw port $ZK_SERVER_PORT_2 for $SERVER_2 "
-	fi
+if ! (ufw allow from $SERVER_2 to any port $ZK_SERVER_PORT_2 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to open ufw port $ZK_SERVER_PORT_2 for $SERVER_2 "
 fi
 
-if [ -z "$SERVER_3" ]; then
-	if ! (ufw allow from $SERVER_3 to any port $ZK_SERVER_PORT_2 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
-		log "Unable to open ufw port $ZK_SERVER_PORT_2 for $SERVER_3 "
-	fi
+if ! (ufw allow from $SERVER_3 to any port $ZK_SERVER_PORT_2 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+	log "Unable to open ufw port $ZK_SERVER_PORT_2 for $SERVER_3 "
 fi
 
 ##### Configure log output directory if not there
