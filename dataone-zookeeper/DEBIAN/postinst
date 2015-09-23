@@ -152,7 +152,10 @@ fi
 ######
 
 chown -R ${ZK_USER}:${ZK_USER} ${ZK_HOME}
+
 chmod +x /etc/init.d/zookeeper
+update-rc.d zookeeper defaults
+update-rc.d zookeeper enable
 
 /etc/init.d/zookeeper start
 
