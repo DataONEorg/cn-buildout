@@ -160,12 +160,16 @@ if [[ "${CONTEXT_LABEL}" == "DEV" ]]; then
 	CILOGON_SKIN=DataONEDev
 	MYPROXY_ID=myproxy:oa4mp,2012:/client/24a10c2cd8bda4e6b5cf244ab7532b2
 fi
+if [[ "${CONTEXT_LABEL}" == "DEV2" ]]; then
+	CILOGON_SKIN=DataONEDev2
+	MYPROXY_ID=myproxy:oa4mp,2012:/client/24a10c2cd8bda4e6b5cf244ab7532b2
+fi
 if [[ "${CONTEXT_LABEL}" == "STAGE" ]]; then
 	CILOGON_SKIN=DataONEStage
 	MYPROXY_ID=myproxy:oa4mp,2012:/client/7a4c0539fc9eb5c066f1619d73f35c37
 fi
 if [[ "${CONTEXT_LABEL}" == "STAGE2" ]]; then
-	CILOGON_SKIN=DataONEStage
+	CILOGON_SKIN=DataONEStage2
 	MYPROXY_ID=myproxy:oa4mp,2012:/client/3f5b88459d880f550e31f485458fc459
 fi
 if [[ "${CONTEXT_LABEL}" == "SANDBOX" ]]; then
@@ -173,7 +177,7 @@ if [[ "${CONTEXT_LABEL}" == "SANDBOX" ]]; then
 	MYPROXY_ID=myproxy:oa4mp,2012:/client/2f533133f3e70b26e60492479aa8f0ef
 fi
 if [[ "${CONTEXT_LABEL}" == "SANDBOX2" ]]; then
-	CILOGON_SKIN=DataONESandbox
+	CILOGON_SKIN=DataONESandbox2
 	MYPROXY_ID=myproxy:oa4mp,2012:/client/66a303882b6e4bec1e91cbf2ccda1e86
 fi
 
