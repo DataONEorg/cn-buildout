@@ -19,6 +19,9 @@ SCRIPT_DIR=${SOURCE_DIR}/debian
 JK_CONF=cn_jk.conf
 KEY_DIR=/etc/ssl/private
 CERT_DIR=/etc/ssl/certs
+D1_CONF=/etc/dataone
+D1_HZ_PROCESS_PROPS="${D1_CONF}/cn/dataoneHazelcast.properties"
+
 ###############################################################################
 # Install CN war file
 ###############################################################################
@@ -59,6 +62,34 @@ jar -xvf ${TOMCAT_HOME}/webapps/cn.war > /dev/null
 chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/webapps/cn
 echo cd to $CURR_DIR
 cd $CURR_DIR
+
+################################################################################
+# Configure hazelcast properties
+################################################################################
+# replace the IPs of the cn.iplist in node.properties so as to set them in hazelcast.xml
+#CN_IPLIST=`egrep 'cn.iplist=' ${NODE_PROPS}  | awk 'BEGIN { FS = "=" } ; { print $2 }'`
+# set the properties associated with this context
+IPLIST_LABEL="cn.iplist"
+IPLIST=""
+if [ -e ${NODE_PROPS} ]; then
+	# Fetch the context's ip list from the debconf database
+	db_get dataone-cn-os-core/${IPLIST_LABEL}
+	IPLIST=${RET}
+
+else
+	log "Couldn't set the IP list correctly."
+	IPLIST="127.0.0.1"
+fi
+
+#add in commas
+CN_IPLIST=${IPLIST// /, }
+
+#place iplist value into dataoneHazelcast.properties at dataone.hazelcast.iplist
+if ! (sed -i.bak "s/\(dataone\.hazelcast\.iplist *=\).*/\1${CN_IPLIST}/" ${D1_HZ_PROCESS_PROPS} >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to modify iplist in ${D1_HZ_PROCESS_PROPS} with sed"
+      exitWithFailureCode 9
+fi
+
 
 ###############################################################################
 # Configure authentication
