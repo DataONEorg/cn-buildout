@@ -21,10 +21,34 @@ KEY_DIR=/etc/ssl/private
 CERT_DIR=/etc/ssl/certs
 D1_CONF=/etc/dataone
 D1_HZ_PROCESS_PROPS="${D1_CONF}/cn/dataoneHazelcast.properties"
-
+D1_LOG_DIR=/var/log/dataone
+D1_LOG_FILE=dataone-cn-rest_service.install.log
 ###############################################################################
 # Install CN war file
 ###############################################################################
+
+# functions to echo to STDERR or the install log instead of STDOUT
+logError () {
+    log "ERROR $@" 
+}
+
+#####
+##### log()
+##### append stdout to a logfile
+#####
+function log() 
+{
+	#
+	# Set Up logging
+	# Reminder: don't echo to stdout, it messes up debconf
+	#
+    if [ ! -e ${D1_LOG_DIR} ]; then
+        mkdir -p ${D1_LOG_DIR}
+        chown tomcat7:tomcat7 ${D1_LOG_DIR}
+    fi
+    now=$(date "+%Y-%m-%d %H:%M:%S %Z: ")
+    echo -e "${now} postinst $@" >> ${D1_LOG_DIR}/${D1_LOG_FILE}
+}
 
 ## Stop tomcat
 echo "Stopping Tomcat"
