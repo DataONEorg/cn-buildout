@@ -59,13 +59,6 @@
         <property name="soTimeout" value="300000" />
     </bean>
 
-    <bean id="logEntryQueue" class="java.util.concurrent.ArrayBlockingQueue">
-        <constructor-arg index="0"  value="50000" />
-        <constructor-arg index="1"  value="true" />
-    </bean>
-    <bean id="logEntryQueueManager" class="org.dataone.cn.batch.logging.LogEntryQueueManager">
-        <property name="logEntryQueue" ref="logEntryQueue" />
-    </bean>
     <bean id="logIndexingThreadPoolTaskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
         <property name="corePoolSize" value="5" />
         <property name="maxPoolSize" value="10" />
@@ -80,9 +73,8 @@
     </bean>
 
     
-    <bean id="systemMetadataEntryListener" class="org.dataone.cn.batch.logging.listener.SystemMetadataEntryListener">
-        <property name="logEntryQueue" ref="logEntryQueue" />
-    </bean>
+    <bean id="systemMetadataEntryListener" class="org.dataone.cn.batch.logging.listener.SystemMetadataEntryListener" />
+
 
     <bean id="logAggregationScheduler" class="org.dataone.cn.batch.logging.LogAggregationScheduleManager" init-method="init" >
         <property name="systemMetadataEntryListener" ref="systemMetadataEntryListener" />
@@ -91,7 +83,6 @@
     
     <bean id="logEntryQueueTask" class="org.dataone.cn.batch.logging.tasks.LogEntryQueueTask" init-method="init">
         <property name="taskExecutor" ref="logIndexingThreadPoolTaskExecutor" />
-        <property name="logEntryQueue" ref="logEntryQueue" />
         <property name="localhostSolrClient" ref="localhostSolrClient" />
         <property name="pollingQueueTimeout" value="60" />
     </bean>
