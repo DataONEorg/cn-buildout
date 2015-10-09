@@ -2,12 +2,11 @@
 <beans default-init-method="init" xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:util="http://www.springframework.org/schema/util"
-       xmlns:hz="http://www.hazelcast.com/schema/config"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
-       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
-       http://www.hazelcast.com/schema/config http://www.hazelcast.com/schema/config/hazelcast-spring.xsd
+       http://www.springframework.org/schema/util 			   http://www.springframework.org/schema/util/spring-util-3.0.xsd
+
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd" >
 
 
@@ -37,9 +36,7 @@
 
     <bean name="rejectionExecutionHander" class="java.util.concurrent.ThreadPoolExecutor$AbortPolicy" />
 
-    <bean id="hazelcastLdapStore" class="org.dataone.cn.hazelcast.HazelcastLdapStore">
-        <qualifier value="hazelcastLdapStore"/>
-    </bean>
+
     <context:annotation-config/>
     <bean id="properties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
     	<property name="ignoreUnresolvablePlaceholders" value="true"/>
@@ -47,7 +44,6 @@
             <value>file:/etc/dataone/process/logAggregation.properties</value>
         </property>
     </bean>
-    <import resource="file:/etc/dataone/process/hazelcast.xml" />
 
     <!-- Use this Executor for long running thread management -->
     <bean id="simpleAsyncTaskExecutor" class="org.springframework.core.task.SimpleAsyncTaskExecutor">
@@ -56,22 +52,20 @@
         <property name="daemon" value="true" />
     </bean>
     
-    <bean id="longConnectionManagerTimeout" class="java.lang.Long">
-        <constructor-arg index="0"  value="300000" />
-    </bean>
-    
-    <bean id="localhostSolrServer" class="org.dataone.solr.client.solrj.impl.LocalhostCommonsHttpSolrServer">
+    <bean id="localhostSolrClient" class="org.apache.solr.client.solrj.impl.HttpSolrClient">
         <constructor-arg index="0"  value="${LogAggregator.solrUrl}" />
         <property name="maxRetries" value="1" />
-        <property name="connectManagerTimeout"  ref="longConnectionManagerTimeout" />
+        <property name="connectionTimeout"  value="300000" />
         <property name="soTimeout" value="300000" />
     </bean>
 
-    <bean id="indexLogEntryQueue" class="java.util.concurrent.ArrayBlockingQueue">
+    <bean id="logEntryQueue" class="java.util.concurrent.ArrayBlockingQueue">
         <constructor-arg index="0"  value="50000" />
         <constructor-arg index="1"  value="true" />
     </bean>
-
+    <bean id="logEntryQueueManager" class="org.dataone.cn.batch.logging.LogEntryQueueManager">
+        <property name="logEntryQueue" ref="logEntryQueue" />
+    </bean>
     <bean id="logIndexingThreadPoolTaskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
         <property name="corePoolSize" value="5" />
         <property name="maxPoolSize" value="10" />
@@ -85,33 +79,24 @@
         <property name="threadNamePrefix" value="LogIndexingTask" />
     </bean>
 
-
-   <bean id="logEntryTopicListener" class="org.dataone.cn.batch.logging.listener.LogEntryTopicListener">
-        <property name="hazelcast" ref="hazelcastInstance" />
-        <property name="indexLogEntryQueue" ref="indexLogEntryQueue" />
-    </bean>
     
     <bean id="systemMetadataEntryListener" class="org.dataone.cn.batch.logging.listener.SystemMetadataEntryListener">
-        <property name="indexLogEntryQueue" ref="indexLogEntryQueue" />
+        <property name="logEntryQueue" ref="logEntryQueue" />
     </bean>
 
     <bean id="logAggregationScheduler" class="org.dataone.cn.batch.logging.LogAggregationScheduleManager" init-method="init" >
-        <property name="hazelcast" ref="hazelcastInstance" />
-        <property name="hazelcastLdapStore" ref="hazelcastLdapStore" />
-        <property name="localhostSolrServer" ref="localhostSolrServer" />
-        <property name="logEntryTopicListener" ref="logEntryTopicListener" />
         <property name="systemMetadataEntryListener" ref="systemMetadataEntryListener" />
     </bean>
     
+    
     <bean id="logEntryQueueTask" class="org.dataone.cn.batch.logging.tasks.LogEntryQueueTask" init-method="init">
-        <property name="hazelcast" ref="hazelcastInstance" />
         <property name="taskExecutor" ref="logIndexingThreadPoolTaskExecutor" />
-        <property name="indexLogEntryQueue" ref="indexLogEntryQueue" />
-        <property name="localhostSolrServer" ref="localhostSolrServer" />
+        <property name="logEntryQueue" ref="logEntryQueue" />
+        <property name="localhostSolrClient" ref="localhostSolrClient" />
         <property name="pollingQueueTimeout" value="60" />
     </bean>
     
-    <bean id="logEntryQueueManager" class="org.dataone.cn.batch.logging.LogEntryQueueManager" init-method="init">
+    <bean id="logEntryQueueJob" class="org.dataone.cn.batch.logging.jobs.LogEntryQueueJob" init-method="init">
         <property name="taskExecutor" ref="simpleAsyncTaskExecutor" />
         <property name="logEntryQueueTask" ref="logEntryQueueTask" />
     </bean>
@@ -120,10 +105,8 @@
     
     <bean id="scheduledReplicationAuditController" class="org.dataone.service.cn.replication.auditor.v1.ScheduledReplicationAuditController" />
     														
-    <bean id="harvester" class="org.dataone.cn.batch.synchronization.HarvestSchedulingManager" init-method="init" >
-        <property name="hazelcast" ref="hazelcastInstance" />
-        <property name="hazelcastLdapStore" ref="hazelcastLdapStore" />
-    </bean>
+    <bean id="harvestSchedulingManager" class="org.dataone.cn.batch.synchronization.HarvestSchedulingManager" init-method="init" />
+
 
     <bean id="syncThreadPoolTaskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
         <property name="corePoolSize" value="50" />
@@ -137,12 +120,16 @@
         <property name="threadGroupName" value="SynchronizationPool" />
         <property name="threadNamePrefix" value="SynchronizeTask" />
     </bean>
-
+    
+    <bean id="nodeTopicListener" class="org.dataone.cn.batch.synchronization.listener.NodeTopicListener">
+		<property name="harvestSchedulingManager" ref="harvestSchedulingManager"/>
+	</bean>
+	
     <bean id="syncObjectTask" class="org.dataone.cn.batch.synchronization.tasks.SyncObjectTask">
         <property name="threadPoolTaskExecutor" ref="syncThreadPoolTaskExecutor" />
-        <property name="hazelcast" ref="hazelcastInstance" />
         <property name="maxNumberOfClientsPerMemberNode" value="4" />
     </bean>
+    
     <bean id="syncObjectTaskManager" class="org.dataone.cn.batch.synchronization.SyncObjectTaskManager" init-method="init" >
         <property name="taskExecutor" ref="simpleAsyncTaskExecutor" />
         <property name="syncObjectTask" ref="syncObjectTask" />
