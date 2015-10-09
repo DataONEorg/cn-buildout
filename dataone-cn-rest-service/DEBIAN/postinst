@@ -115,6 +115,10 @@ if ! (sed -i.bak "s/\(dataone\.hazelcast\.iplist *=\).*/\1${CN_IPLIST}/" ${D1_HZ
 fi
 
 
+if ! (sed -i.bak "s/\(dataone\.hazelcast\.process\.clientiplist *=\).*/\1${CN_IPLIST}/" ${D1_HZ_PROCESS_PROPS} >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to modify clientiplist in ${D1_HZ_PROCESS_PROPS} with sed"
+      exitWithFailureCode 10
+fi
 ###############################################################################
 # Configure authentication
 ###############################################################################
