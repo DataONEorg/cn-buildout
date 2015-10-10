@@ -112,7 +112,7 @@
         <property name="threadNamePrefix" value="SynchronizeTask" />
     </bean>
     
-    <bean id="nodeTopicListener" class="org.dataone.cn.batch.synchronization.listener.NodeTopicListener">
+    <bean id="nodeTopicListener" class="org.dataone.cn.batch.synchronization.listener.NodeTopicListener" init-method="addListener">
 		<property name="harvestSchedulingManager" ref="harvestSchedulingManager"/>
 	</bean>
 	
