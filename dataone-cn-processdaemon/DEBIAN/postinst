@@ -66,12 +66,13 @@ if ! (chmod +x /etc/init.d/d1-processing >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 );
       exitWithFailureCode 1
 fi
 
-#these will need to be configured per environment
-if ! (cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml ${D1_CONF}/process/hazelcast.xml >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
-      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/hazelcast.xml ${D1_CONF}/process/hazelcast.xml"
-      exitWithFailureCode 2
-fi
 
+if [ -e ${D1_CONF}/process/hazelcast.xml ]; then
+    if ! (rm  ${D1_CONF}/process/hazelcast.xml >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+        logError "Unable to delete ${D1_CONF}/process/hazelcast.xml"
+    fi
+fi
+#these will need to be configured per environment
 if ! (cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties ${D1_CONF}/process/synchronization.properties >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
       logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/synchronization.properties ${D1_CONF}/process/synchronization.properties"
       exitWithFailureCode 3
