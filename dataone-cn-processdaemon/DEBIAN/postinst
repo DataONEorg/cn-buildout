@@ -98,13 +98,23 @@ if ! (cp /usr/share/dataone-cn-processdaemon/debian/GeoLiteCity.dat ${D1_CONF}/p
       exitWithFailureCode 6
 fi
 
-if ! (cp /usr/share/dataone-cn-processdaemon/debian/webRobotsStrict.txt ${D1_CONF}/process/webRobotsStrict.txt >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
-      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/webRobotsStrict.txt ${D1_CONF}/process/webRobotsStrict.txt"
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/fullWebRobotList.txt ${D1_CONF}/process/fullWebRobotList.txt >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/fullWebRobotList.txt ${D1_CONF}/process/fullWebRobotList.txt"
       exitWithFailureCode 6
 fi
 
-if ! (cp /usr/share/dataone-cn-processdaemon/debian/webRobotsLoose.txt ${D1_CONF}/process/webRobotsLoose.txt >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
-      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/webRobotsLoose.txt ${D1_CONF}/process/webRobotsLoose.txt"
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/partialWebRobotList.txt ${D1_CONF}/process/partialWebRobotList.txt >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/partialWebRobotList.txt ${D1_CONF}/process/partialWebRobotList.txt"
+      exitWithFailureCode 6
+fi
+
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/webRobotIPs.csv ${D1_CONF}/process/webRobotIPs.csv >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/webRobotIPs.csv ${D1_CONF}/process/webRobotIPs.csv"
+      exitWithFailureCode 6
+fi
+
+if ! (cp /usr/share/dataone-cn-processdaemon/debian/DataONE_IPs.csv ${D1_CONF}/process/DataONE_IPs.csv >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+      logError "Unable to cp /usr/share/dataone-cn-processdaemon/debian/DataONE_IPs.csv ${D1_CONF}/process/DataONE_IPs.csv"
       exitWithFailureCode 6
 fi
 
