@@ -38,12 +38,20 @@
 
 
     <context:annotation-config/>
-    <bean id="properties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-    	<property name="ignoreUnresolvablePlaceholders" value="true"/>
-        <property name="location">
-            <value>file:/etc/dataone/process/logAggregation.properties</value>
-        </property>
+    
+    <bean id="systemMetadataEntryListener" class="org.dataone.cn.batch.logging.listener.SystemMetadataEntryListener" />
+
+    <bean id="logAggregationScheduler" class="org.dataone.cn.batch.logging.LogAggregationScheduleManager" init-method="init" >
+        <property name="systemMetadataEntryListener" ref="systemMetadataEntryListener" />
     </bean>
+    
+    
+
+    <bean id="replicationEventListener" class="org.dataone.service.cn.replication.ReplicationEventListener" init-method="init"/>
+    
+    <bean id="scheduledReplicationAuditController" class="org.dataone.service.cn.replication.auditor.v1.ScheduledReplicationAuditController" />
+    														
+    <bean id="harvestSchedulingManager" class="org.dataone.cn.batch.synchronization.HarvestSchedulingManager" init-method="init" />
 
     <!-- Use this Executor for long running thread management -->
     <bean id="simpleAsyncTaskExecutor" class="org.springframework.core.task.SimpleAsyncTaskExecutor">
@@ -52,53 +60,6 @@
         <property name="daemon" value="true" />
     </bean>
     
-    <bean id="localhostSolrClient" class="org.apache.solr.client.solrj.impl.HttpSolrClient">
-        <constructor-arg index="0"  value="${LogAggregator.solrUrl}" />
-        <property name="maxRetries" value="1" />
-        <property name="connectionTimeout"  value="300000" />
-        <property name="soTimeout" value="300000" />
-    </bean>
-
-    <bean id="logIndexingThreadPoolTaskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
-        <property name="corePoolSize" value="5" />
-        <property name="maxPoolSize" value="10" />
-        <property name="keepAliveSeconds" value="120" />
-        <property name="queueCapacity" value="5" />
-        <property name="allowCoreThreadTimeOut" value="true" />
-        <property name="rejectedExecutionHandler" ref="rejectionExecutionHander" />
-        <property name="daemon" value="true" />
-        <property name="waitForTasksToCompleteOnShutdown" value="true" />
-        <property name="threadGroupName" value="LogIndexingPool" />
-        <property name="threadNamePrefix" value="LogIndexingTask" />
-    </bean>
-
-    
-    <bean id="systemMetadataEntryListener" class="org.dataone.cn.batch.logging.listener.SystemMetadataEntryListener" />
-
-
-    <bean id="logAggregationScheduler" class="org.dataone.cn.batch.logging.LogAggregationScheduleManager" init-method="init" >
-        <property name="systemMetadataEntryListener" ref="systemMetadataEntryListener" />
-    </bean>
-    
-    
-    <bean id="logEntryQueueTask" class="org.dataone.cn.batch.logging.tasks.LogEntryQueueTask" init-method="init">
-        <property name="taskExecutor" ref="logIndexingThreadPoolTaskExecutor" />
-        <property name="localhostSolrClient" ref="localhostSolrClient" />
-        <property name="pollingQueueTimeout" value="60" />
-    </bean>
-    
-    <bean id="logEntryQueueJob" class="org.dataone.cn.batch.logging.jobs.LogEntryQueueJob" init-method="init">
-        <property name="taskExecutor" ref="simpleAsyncTaskExecutor" />
-        <property name="logEntryQueueTask" ref="logEntryQueueTask" />
-    </bean>
-
-    <bean id="replicationEventListener" class="org.dataone.service.cn.replication.ReplicationEventListener" init-method="init"/>
-    
-    <bean id="scheduledReplicationAuditController" class="org.dataone.service.cn.replication.auditor.v1.ScheduledReplicationAuditController" />
-    														
-    <bean id="harvestSchedulingManager" class="org.dataone.cn.batch.synchronization.HarvestSchedulingManager" init-method="init" />
-
-
     <bean id="syncThreadPoolTaskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
         <property name="corePoolSize" value="50" />
         <property name="maxPoolSize" value="100" />
