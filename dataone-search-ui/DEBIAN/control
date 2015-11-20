@@ -1,0 +1,10 @@
+Package: dataone-search-ui
+Version: 1.8.2
+Section: utils
+Priority: optional
+Architecture: all
+Depends: apache2, openssl, ssl-cert
+Installed-Size: 94 MB
+Maintainer: Christopher Jones <cjones@nceas.ucsb.edu>
+Description: This is a metapackage that installs the DataONE Search UI. Currently installs version 1.8.2.
+

@@ -1,0 +1,171 @@
+#!/bin/bash
+
+set -e
+
+# Read the commandline options
+# Only 'configure' is handled with processing, other actions
+# are ignored for now
+ACTION=${1}
+ARG_VERSION=${2}
+
+# Local variables
+APACHE_USER="www-data";
+APACHE_CONF_DIR="/etc/apache2";
+APACHE_WWW_DIR="/var/www";
+SEARCH_SSL_CONF_PATH="${APACHE_CONF_DIR}/sites-available/search.dataone.org-ssl.conf";
+SSL_CERT_PATH="/etc/ssl/certs/_.dataone.org.crt";
+SSL_KEY_PATH="/etc/ssl/private/_.dataone.org.key";
+SSL_INTCERT_PATH="/etc/ssl/certs/geotrust_intermediate.crt";
+D1_LOG_DIR="/var/log/dataone";
+D1_LOG_FILE="dataone-search-ui.install.log";
+FQDN=$(hostname -f);
+TEST_ENV="false";
+if [[ FQDN =~ "test" ]]; then
+    let TEST_ENV="true";
+fi
+
+# logError()
+# redirect stdout to stderr
+function logError() 
+{
+    echo -e "$@" 1>&2
+}
+
+# log()
+# append stdout to a logfile
+function log() 
+{
+	#
+	# Set Up logging
+	# Reminder: don't echo to stdout, it messes up debconf
+	#
+    if [ ! -e ${D1_LOG_DIR} ]; then
+        mkdir -p ${D1_LOG_DIR}
+        chown www-data:ssl-cert ${D1_LOG_DIR}
+    fi
+    now=$(date "+%Y-%m-%d %H:%M:%S %Z: ")
+    echo -e "${now} postinst $@" >> ${D1_LOG_DIR}/${D1_LOG_FILE}
+}
+
+# configure_firewall()
+# Configure the UFW firewall to open HTTP/S
+function configure_firewall() {
+    log "configure_firewall() called.";
+    
+    ufw allow ssh;
+    ufw allow http;
+    ufw allow https;
+    ufw --force enable;
+    
+}
+
+# verify_ssl_configuration()
+# Ensure SSL certs/key are in place
+function verify_ssl_configuration() {
+    log "verify_ssl_configuration() called.";
+
+    let verified=0;
+    
+    # Switch to verifying test certs in test environments
+    if [[ "${TEST_ENV}" == "true" ]]; then
+        SSL_KEY_PATH="/etc/ssl/private/_.test.dataone.org.key";
+        SSL_CERT_PATH="/etc/ssl/certs/_.test.dataone.org.crt";
+        
+    fi
+    
+    # Missing the SSL server key?
+    if [[ ! -e ${SSL_KEY_PATH} ]]; then
+        log "The expected SSL key file ${SSL_KEY_PATH} is missing.";
+        verified=1;
+    else
+        chmod go-rwx ${SSL_KEY_PATH}; # Ensure the key is private
+        chmod u-wx ${SSL_KEY_PATH}; # Ensure the key is read-only
+        
+    fi
+    
+    # Missing the SSL server cert?
+    if [[ ! -e ${SSL_CERT_PATH} ]]; then
+        log "The expected SSL cert file ${SSL_CERT_PATH} is missing.";
+        verified=1;
+        
+    fi
+    
+    # Missing the SSL intermediate servers cert?
+    if [[ ! -e ${SSL_INTCERT_PATH} ]]; then
+        log "The expected SSL intermediate cert file ${SSL_INTCERT_PATH} is missing.";
+        verified=1;
+        
+    else
+        c_rehash $(dirname ${SSL_CERT_PATH}); # Index the certs directory
+        
+    fi
+    
+    if [[ ! verified ]]; then
+        echo -e \
+            "SSL configuration error: \nPlease ensure the following files are in place and have correct permissions:\n${SSL_KEY_PATH}\n${SSL_CERT_PATH}\n${SSL_INTCERT_PATH}";
+    
+    fi
+    
+    verified; # Return the verified value as an exit code
+    
+}
+
+# enable_apache_modules()
+# Enable Apache modules needed for the installation
+function enable_apache_modules() {
+    log "enable_apache_modules() called.";
+
+    a2enmod headers;
+    a2enmod proxy;
+    a2enmod proxy_http;
+    a2enmod ssl;
+    
+}
+
+# configure_servername()
+# Configure the Apache virtual host name based on the system hostname
+function configure_servername() {
+    sed -i.bak -e 's/HOSTNAME/${FQDN}/' SEARCH_SSL_CONF_PATH;
+}
+
+# main()
+# simulate a main function
+function main() {
+	log "dataone-search-ui.postinst called  with action: ${ACTION} and version: ${ARG_VERSION}"
+
+	case "${ACTION}" in
+		abort-remove)
+		log "Removal aborted."
+		;;
+		abort-upgrade)
+		log "Upgrade aborted."
+		;;
+		abort-deconfigure)
+		log "Deconfigure aborted."
+		;;
+		configure)
+		log "Configure called."
+        
+		if [ -z "$ARG_VERSION" ]; then
+		  FIRSTINST="yes"
+		else 
+		  UPGRADE="yes"
+		fi
+
+        if [[ "${FIRSTINST}" == "yes" ]]; then
+            configure_firewall
+            verify_ssl_configuration
+            enable_apache_modules
+            configure_server_name
+        else
+            # Handle upgrade tasks here
+            
+        fi
+        
+		;;
+	esac
+	exit 0
+}
+
+# Entry point: Call the main function
+main
