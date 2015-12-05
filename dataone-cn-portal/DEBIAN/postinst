@@ -225,6 +225,12 @@ KEY_FILE_ESC=${KEY_FILE//\//\\\/}
 sed -i.bak --regexp-extended  "s/(cn\.server\.publiccert\.filename=).*/\1${PUBLIC_SERVER_CERT_ESC}/;" ${TOMCAT_HOME}/webapps/portal/WEB-INF/portal.properties
 sed -i.bak --regexp-extended  "s/(cn\.server\.privatekey\.filename=).*/\1${KEY_FILE_ESC}/;" ${TOMCAT_HOME}/webapps/portal/WEB-INF/portal.properties
 
+## configure the portal to use ORCID API credentials
+db_get dataone-cn-os-core/orcid.client.secret
+ORCID_CLIENT_SECRET=${RET}
+ORCID_CLIENT_SECRET_ESC=${ORCID_CLIENT_SECRET//\//\\\/}
+sed -i.bak --regexp-extended  "s/(orcid\.client\.secret=).*/\1${ORCID_CLIENT_SECRET_ESC}/;" ${TOMCAT_HOME}/webapps/portal/WEB-INF/portal.properties
+
 
 ###############################################################################
 # Configure Tomcat
