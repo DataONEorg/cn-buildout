@@ -21,7 +21,6 @@ rm -f /usr/share/java/d1_process_daemon.jar
 
 ### Handle postgres cleanup
 PG=postgresql
-PG_CONF=/etc/postgresql/9.1/main
 PG_USER=postgres
 
 REPLICATION_HISTORY_DB=d1-replication-history

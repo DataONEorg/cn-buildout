@@ -35,9 +35,14 @@ APACHE_CONF=/etc/apache2
 JK_CONF=portal_jk.conf
 
 PG=postgresql
-PG_CONF=/etc/postgresql/9.1/main
-PG_DATA=/var/lib/postgresql/9.1/main
-
+PG_USER=postgres
+if [ -e "/etc/postgresql/9.3/main" ]; then
+    PG_CONF=/etc/postgresql/9.3/main
+    PG_DATA=/var/lib/postgresql/9.3/main
+else
+    PG_CONF=/etc/postgresql/9.1/main
+    PG_DATA=/var/lib/postgresql/9.1/main
+fi
 PG_USER=postgres
 DB_NAME=oauth
 DB_USER=oa4mp
@@ -299,7 +304,7 @@ do
 	fi
 done
 
-## modify /etc/postgresql/9.1/main/postgresql.conf to listen on more than 'localhost'
+## modify /etc/postgresql/9.3/main/postgresql.conf to listen on more than 'localhost'
 ## original line looks like this:
 ## #listen_addresses = 'localhost'
 ## we want this:

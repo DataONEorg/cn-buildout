@@ -213,8 +213,12 @@ fi
 # Configure Postgres
 ###############################################################################
 PG=postgresql
-PG_CONF=/etc/postgresql/9.1/main
 PG_USER=postgres
+if [ -e "/etc/postgresql/9.3/main" ]; then
+    PG_CONF=/etc/postgresql/9.3/main
+else
+    PG_CONF=/etc/postgresql/9.1/main
+fi
 
 REPLICATION_HISTORY_DB=d1-replication-history
 REPLICATION_HISTORY_DB_USER=replicationhistory

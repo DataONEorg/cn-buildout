@@ -3,7 +3,7 @@ Version: 2.2.0
 Section: utils
 Priority: optional
 Architecture: all
-Depends: dataone-cn-os-core, dataone-cn-metacat, openjdk-7-jdk, jsvc, libcommons-daemon-java, dataone-cn-solr, dataone-cn-version-tool
+Depends: dataone-cn-os-core, dataone-cn-metacat, postgresql, openjdk-7-jdk, jsvc, libcommons-daemon-java, dataone-cn-solr, dataone-cn-version-tool
 Installed-Size: 1 kb
 Maintainer: Robert Patrick Waltz <rwaltz@utk.edu>
 Description: This is a metapackage that installs the process daemon that runs mnsynchronization and mnreplication processes and is needed to configure a coordinating node instance.
