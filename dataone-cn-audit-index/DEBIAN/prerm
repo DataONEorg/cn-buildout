@@ -31,7 +31,7 @@ AUDIT_CORE_NAME=cn-audit
 AUDIT_CORE_DIR=${SOLR_HOME}/${AUDIT_CORE_NAME}
 
 ZK_CONF_HOME=/var/lib/zookeeper/conf
-APACHE_CONF_HOME=/etc/apache2/conf.d
+APACHE_CONF_HOME=/etc/apache2/conf-available
 JETTY_HOME=/var/lib/jetty
 
 log "start"
@@ -42,7 +42,8 @@ log "start"
 mv ${JETTY_HOME}/start.ini.bak ${JETTY_HOME}/start.ini
 mv ${ZK_CONF_HOME}/zoo.cfg.bak ${ZK_CONF_HOME}/zoo.cfg
 
-rm ${APACHE_CONF_HOME}/modproxy_cnaudit
+a2disconf modproxy_cnaudit
+rm ${APACHE_CONF_HOME}/modproxy_cnaudit.conf
 /etc/init.d/apache2 restart
 
 db_get dataone-cn-os-core/cn.iplist

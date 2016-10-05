@@ -28,7 +28,7 @@ log () {
 
 SOLR_USER=tomcat7
 
-APACHE_CONF_HOME=/etc/apache2/conf.d
+APACHE_CONF_HOME=/etc/apache2/conf-available
 JETTY_HOME=/var/lib/jetty
 
 SOLR_ROOT=/var/solr
@@ -104,16 +104,18 @@ done
 
 ### Substitute server IP and PORT numbers in config files at token locations
 ##### Configure apache mod proxy for to allow solr communication between CN nodes
-cp /usr/share/dataone-cn-audit-index/debian/modproxy_cnaudit ${APACHE_CONF_HOME}/modproxy_cnaudit
-if ! (sed -i "s/$SERVER_1_TOKEN/$SERVER_1/g" ${APACHE_CONF_HOME}/modproxy_cnaudit >> ${D1_LOG_DIR}/${D1_LOG_FILE}  2>&1); then
-	log "unable to set $SERVER_1 in modproxy_cnaudit"
+cp /usr/share/dataone-cn-audit-index/debian/modproxy_cnaudit.conf ${APACHE_CONF_HOME}/modproxy_cnaudit.conf
+if ! (sed -i "s/$SERVER_1_TOKEN/$SERVER_1/g" ${APACHE_CONF_HOME}/modproxy_cnaudit.conf >> ${D1_LOG_DIR}/${D1_LOG_FILE}  2>&1); then
+	log "unable to set $SERVER_1 in modproxy_cnaudit.conf"
 fi
-if ! (sed -i "s/$SERVER_2_TOKEN/$SERVER_2/g" ${APACHE_CONF_HOME}/modproxy_cnaudit >> ${D1_LOG_DIR}/${D1_LOG_FILE}  2>&1); then
-	log "unable to set $SERVER_2 in modproxy_cnaudit"
+if ! (sed -i "s/$SERVER_2_TOKEN/$SERVER_2/g" ${APACHE_CONF_HOME}/modproxy_cnaudit.conf >> ${D1_LOG_DIR}/${D1_LOG_FILE}  2>&1); then
+	log "unable to set $SERVER_2 in modproxy_cnaudit.conf"
 fi
-if ! (sed -i "s/$SERVER_3_TOKEN/$SERVER_3/g" ${APACHE_CONF_HOME}/modproxy_cnaudit >> ${D1_LOG_DIR}/${D1_LOG_FILE}  2>&1); then
-	log "unable to set $SERVER_3 in modproxy_cnaudit"
+if ! (sed -i "s/$SERVER_3_TOKEN/$SERVER_3/g" ${APACHE_CONF_HOME}/modproxy_cnaudit.conf >> ${D1_LOG_DIR}/${D1_LOG_FILE}  2>&1); then
+	log "unable to set $SERVER_3 in modproxy_cnaudit.conf"
 fi
+
+a2enconf modproxy_cnaudit
 
 ##### Configure jetty's start.ini with zookeeper server configuration
 ##### and bootstrap example for cn-audit index core

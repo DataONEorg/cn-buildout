@@ -14,7 +14,7 @@ rm -f ${TOMCAT_HOME}/conf/Catalina/localhost/onemercury.xml
 rm -f ${TOMCAT_HOME}/conf/policy.d/52onemercury.policy
 
 rm -f ${APACHE_CONF}/jk_mount/onemercury_jk.*
-rm -f ${APACHE_CONF}/conf.d/rewrite_onemercury
+rm -f ${APACHE_CONF}/conf-available/rewrite_onemercury
 
 /etc/init.d/tomcat7 start
 /etc/init.d/apache2 start
