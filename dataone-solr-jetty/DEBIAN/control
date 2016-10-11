@@ -3,7 +3,7 @@ Version: 2.0.0
 Section: utils
 Priority: optional
 Architecture: all
-Depends: openjdk-7-jdk, dataone-solr, dataone-jetty
+Depends: openjdk-8-jdk, dataone-solr, dataone-jetty
 Installed-Size: 1 kb
 Maintainer: Skye Roseboom <sroseboo@dataone.unm.edu>
 Description: This is a metapackage that configures a jetty servlet container at /var/lib/jetty for running a solr instance.

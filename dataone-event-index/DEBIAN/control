@@ -3,7 +3,7 @@ Version: 1.0.0
 Section: utils
 Priority: optional
 Architecture: all
-Depends: openjdk-7-jdk, dataone-cn-os-core, dataone-cn-solr, dataone-solr, dataone-jetty, dataone-zookeeper
+Depends: openjdk-8-jdk, dataone-cn-os-core, dataone-cn-solr, dataone-solr, dataone-jetty, dataone-zookeeper
 Installed-Size: 1 kb
 Maintainer: Skye Roseboom <sroseboo@dataone.unm.edu>
 Description: This is a metapackage that configures a solr core used for logging CN and MN event messages.
