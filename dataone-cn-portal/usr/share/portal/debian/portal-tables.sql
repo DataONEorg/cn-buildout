@@ -53,6 +53,8 @@ create table :oa4mpSchema.:oa4mpAssetTable  (
     username text,
     private_key text,
     certificate text,
+    cert_req text,
+    token text,
     creation_ts TIMESTAMP);
 
 
