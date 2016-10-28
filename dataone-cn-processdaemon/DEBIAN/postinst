@@ -246,16 +246,31 @@ fi
 
 ## create replication history  schema and user
 log "Creating replication history database schema"
-if ! (su ${PG_USER} -c "createdb ${REPLICATION_HISTORY_DB}" >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+if su ${PG_USER} -c "psql -lqt | cut -d \| -f 1 | grep -qw $REPLICATION_HISTORY_DB" ; then
+  log "DB $REPLICATION_HISTORY_DB exists and we will not create it"
+else
+  log "DB $REPLICATION_HISTORY_DB does not exist and we will create it"
+  if ! (su ${PG_USER} -c "createdb ${REPLICATION_HISTORY_DB}" >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
       logError "Unable to createdb ${REPLICATION_HISTORY_DB}"
       exitWithFailureCode 24
+  fi
 fi
 
+
+
 log "Creating replication history db user - replicationHistory" 
-if ! (su ${PG_USER} -c "psql -c \"CREATE USER ${REPLICATION_HISTORY_DB_USER} WITH UNENCRYPTED PASSWORD '${REPLICATION_HISTORY_DB_PASS}'\"" >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+if su - $PG_USER -c "psql -t -c '\du'| cut -d \| -f 1 | grep -qw $REPLICATION_HISTORY_DB_USER" ; then
+  log "User $REPLICATION_HISTORY_DB_USER exists and we will not create it"
+else
+  log "User $REPLICATION_HISTORY_DB_USER does not exist and we will create it"
+  if ! (su ${PG_USER} -c "psql -c \"CREATE USER ${REPLICATION_HISTORY_DB_USER} WITH UNENCRYPTED PASSWORD '${REPLICATION_HISTORY_DB_PASS}'\"" >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
       logError "Unable to CREATE USER ${REPLICATION_HISTORY_DB_USER}"
       exitWithFailureCode 25
+  fi
 fi
+
+
+
 
 ## Restart the postgres db
 log "Restarting postgres database"
