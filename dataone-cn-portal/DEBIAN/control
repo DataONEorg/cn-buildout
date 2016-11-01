@@ -3,7 +3,7 @@ Version: 2.3.0
 Section: utils
 Priority: optional
 Architecture: all
-Depends: dataone-cn-os-core, openjdk-7-jdk, tomcat7, tomcat7-admin, dataone-cn-version-tool
+Depends: dataone-cn-os-core, openjdk-8-jdk, tomcat7, tomcat7-admin, dataone-cn-version-tool
 Installed-Size: 1 kb
 Maintainer: Ben Leinfelder <leinfelder@nceas.ucsb.edu>
 Description: This is a metapackage that installs the portal dependencies that are needed to build a coordinating node instance, and then installs and configures the portal system itself.
