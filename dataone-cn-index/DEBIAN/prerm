@@ -40,14 +40,14 @@ INDEX_DB_USER=indexer
 INDEX_DB_PASS=indexer
 
 ## drop index task schema and user
-echo "Dropping index task database"
-su ${PG_USER} -c "dropdb ${INDEX_DB}"
-echo "Droping index task database user indexer"
-su ${PG_USER} -c "psql --command \"DROP USER ${INDEX_DB_USER}\""
+#echo "Dropping index task database"
+#su ${PG_USER} -c "dropdb ${INDEX_DB}"
+#echo "Droping index task database user indexer"
+#su ${PG_USER} -c "psql --command \"DROP USER ${INDEX_DB_USER}\""
 
 ## Restart the postgres db
-echo "Restarting postgres database"
-/etc/init.d/${PG} restart
+#echo "Restarting postgres database"
+#/etc/init.d/${PG} restart
 
 ## Update DateONE Version Info Doc
 java -jar /usr/share/dataone-cn-version-tool/dataone-cn-version-tool.jar -F/usr/share/dataone-cn-version-tool/version-tool.properties -html > /var/www/cn-version.html
