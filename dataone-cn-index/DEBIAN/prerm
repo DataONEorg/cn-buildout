@@ -2,6 +2,7 @@
 
 LONG_DATE=`date +%Y%m%d%H%M%S`
 
+echo "running the prerm of dataone-cn-index"
 ## Handle the index build tool
 rm -f /usr/share/java/d1_index_build_tool.jar
 
