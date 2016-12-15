@@ -148,13 +148,14 @@ fi
 ###########replace the "tomcat6" by "tomcat7" on the web.xml###################
 sed -i.bak  's/\(<param-value>\/var\/lib\/\)tomcat6/\1'tomcat7'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml
 
+## switched postgresql host property to localhost (redmine 7943) so this config is not needed anymore
 ## configure to hit only a single PG instance - defualt to first in ip list
-for ip in ${IPLIST[@]}
-do
-    PG_HOST=${ip}
-   	sed -i.bak  's/\(host="\)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
-    break # just use the first
-done
+#for ip in ${IPLIST[@]}
+#do
+#    PG_HOST=${ip}
+#   	sed -i.bak  's/\(host="\)cn\.dataone\.org/\1'${PG_HOST}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+#    break # just use the first
+#done
 
 ## configure the CILogon skin, default to PRODUCTION
 MYPROXY_ID=myproxy:oa4mp,2012:/client/42afd3477fac2eb9bfe99d0b409f6cc6
