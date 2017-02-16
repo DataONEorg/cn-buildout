@@ -1,14 +1,15 @@
-<hazelcast-client xsi:schemaLocation="http://www.hazelcast.com/schema/client-config hazelcast-client-config-3.8.xsd"
-                  xmlns="http://www.hazelcast.com/schema/client-config"
-                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8"?>
+<hazelcast xsi:schemaLocation="http://www.hazelcast.com/schema/config http://www.hazelcast.com/schema/config/hazelcast-config-2.4.xsd"
+           xmlns="http://www.hazelcast.com/schema/config"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <group>
+    <name>DataONE</name>
+    <password>password</password>
+  </group>
 
-    <group>
-        <name>DataONE</name>
-        <password>password</password>
-    </group>
-    <network>
-        <cluster-members>
-            <address>127.0.0.1</address>
-        </cluster-members>
-    </network>
-</hazelcast-client>
+  <network>
+    <port auto-increment="false">5703</port>
+    <interfaces enabled="false">
+      <interface>127.0.0.1</interface>
+    </interfaces>
+</hazelcast>
