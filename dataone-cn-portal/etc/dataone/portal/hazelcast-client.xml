@@ -12,4 +12,5 @@
     <interfaces enabled="false">
       <interface>127.0.0.1</interface>
     </interfaces>
+  </network>
 </hazelcast>
