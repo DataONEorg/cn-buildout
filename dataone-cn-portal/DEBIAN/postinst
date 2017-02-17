@@ -126,7 +126,7 @@ jar -xvf ${TOMCAT_HOME}/webapps/portal.war > /dev/null
 
 mv ${TOMCAT_HOME}/webapps/portal.war ${TOMCAT_HOME}/webapps/portal.war.current
 
-cp ${SOURCE_DIR}/debian/log4j.properties ${TOMCAT_HOME}/webapps/portal/WEB-INF/
+cp ${SOURCE_DIR}/debian/log4j.properties ${TOMCAT_HOME}/webapps/portal/WEB-INF/class
 chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${TOMCAT_HOME}/webapps/portal
 log cd to $CURR_DIR
 cd $CURR_DIR
