@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+
+ACTION=${1}
+
+if [ "$ACTION" = "purge" ]; then
+    db_purge
+fi
+db_stop
+exit 0
