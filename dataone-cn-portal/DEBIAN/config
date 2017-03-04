@@ -1,0 +1,20 @@
+#!/bin/bash -x
+
+set -e
+
+# source the debconf library
+if [ -e "/usr/share/debconf/confmodule" ]; then
+    . /usr/share/debconf/confmodule
+else
+    echo "debconf must be installed. Exiting."
+    exit 1
+fi
+
+
+# ask the ORCID client id
+db_input high dataone-cn-portal/orcid.client.id
+db_go
+
+# ask the ORCID client secret 
+db_input high dataone-cn-portal/orcid.client.secret
+db_go
