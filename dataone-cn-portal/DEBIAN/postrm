@@ -1,9 +1,18 @@
 #!/bin/bash
 set -e
 
+# Source the debconf library
+if [ -e "/usr/share/debconf/confmodule" ]; then
+    . /usr/share/debconf/confmodule
+else
+    echo "debconf must be installed. Exiting."
+    exit 1
+fi
+
 ACTION=${1}
 
 if [ "$ACTION" = "purge" ]; then
     db_purge
 fi
+db_stop
 exit 0
