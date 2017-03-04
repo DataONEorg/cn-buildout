@@ -1,0 +1,10 @@
+Template: dataone-cn-portal/orcid.client.id
+Description: What is the ORCHID APP client id?
+  Provide the ORCHID APP client id.
+Default: APP-UIUI5SHN520E75HA
+Type: string
+
+Template: dataone-cn-portal/orcid.client.secret
+Description: What is the ORCID API secret?
+  Provide the ORCID client API secret key.
+Type: password
