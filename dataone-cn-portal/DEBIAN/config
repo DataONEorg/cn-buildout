@@ -13,8 +13,8 @@ fi
 
 # ask the ORCID client id
 db_input high dataone-cn-portal/orcid.client.id || true
-db_go
+db_go || true
 
 # ask the ORCID client secret 
 db_input high dataone-cn-portal/orcid.client.secret || true
-db_go
+db_go || true
