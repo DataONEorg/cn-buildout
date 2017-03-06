@@ -148,13 +148,14 @@ fi
 ############# replace the java key store password in the client.xml file ######################
 
 #first we will try to read it from the dataone-cn-os-core/cn.keystore.password
-db_get dataone-cn-os-core/cn.router.hostname
+db_get dataone-cn-os-core/cn.keystore.password
 
 #if it is blank, we will read it from the input form from the template
 JAVA_KEYSTORE_PASSWORD=$RET
 if [ "$JAVA_KEYSTORE_PASSWORD" = "" ] ;then
     db_get dataone-cn-portal/cn.keystore.password
     $JAVA_KEYSTORE_PASSWORD = $RET
+    db_reset dataone-cn-portal/cn.keystore.password
 fi
 sed -i.bak  's/\(password=")JAVA_KEYSTORE_PASSWORD\1'${JAVA_KEYSTORE_PASSWORD}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
