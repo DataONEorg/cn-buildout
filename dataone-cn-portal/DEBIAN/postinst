@@ -145,6 +145,21 @@ else
 	log "HOSTNAME (cn.router.hostname) cannot be set in ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml or ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml"
 fi
 
+############# replace the java key store password in the client.xml file ######################
+
+#first we will try to read it from the dataone-cn-os-core/cn.keystore.password
+db_get dataone-cn-os-core/cn.router.hostname
+
+#if it is blank, we will read it from the input form from the template
+JAVA_KEYSTORE_PASSWORD=$RET
+if [ "$JAVA_KEYSTORE_PASSWORD" = "" ] ;then
+    db_get dataone-cn-portal/cn.keystore.password
+    $JAVA_KEYSTORE_PASSWORD = $RET
+fi
+sed -i.bak  's/\(password=")JAVA_KEYSTORE_PASSWORD\1'${JAVA_KEYSTORE_PASSWORD}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+
+
+
 ###########replace the "tomcat6" by "tomcat7" on the web.xml###################
 sed -i.bak  's/\(<param-value>\/var\/lib\/\)tomcat6/\1'tomcat7'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/web.xml
 

@@ -18,3 +18,13 @@ db_go || true
 # ask the ORCID client secret 
 db_input high dataone-cn-portal/orcid.client.secret || true
 db_go || true
+
+
+# ask the java key store password if it can't be got from dataone-cn-os-core/cn.keystore.password
+db_get dataone-cn-os-core/cn.keystore.password
+KEYSTOREPASSWORD=$RET
+
+if [ "$KEYSTOREPASSWORD" = "" ]; then
+    db_input high dataone-cn-portal/cn.keystore.password || true
+    db_go || true
+fi

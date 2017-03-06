@@ -8,3 +8,8 @@ Template: dataone-cn-portal/orcid.client.secret
 Description: What is the ORCID API secret?
   Provide the ORCID client API secret key.
 Type: password
+
+Template: dataone-cn-portal/cn.keystore.password
+Description: What is the Java keystore password?
+  Provide the Java keystore password for the default Java keystore.
+Type: password
