@@ -242,8 +242,8 @@ ORCID_CLIENT_SECRET=${RET}
 ORCID_CLIENT_SECRET_ESC=${ORCID_CLIENT_SECRET//\//\\\/}
 sed -i.bak --regexp-extended  "s/(orcid\.client\.secret=).*/\1${ORCID_CLIENT_SECRET_ESC}/;" ${TOMCAT_HOME}/webapps/portal/WEB-INF/portal.properties
 
-db_set dataone-cn-portal/orcid.client.id "" # clear the cached orcid id
-db_set dataone-cn-portal/orcid.client.secret "" # clear the cached orcid secret
+db_reset dataone-cn-portal/orcid.client.id  # clear the cached orcid id
+db_reset dataone-cn-portal/orcid.client.secret  # clear the cached orcid secret
 
 ###############################################################################
 # Configure Tomcat
