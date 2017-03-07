@@ -154,10 +154,10 @@ db_get dataone-cn-os-core/cn.keystore.password
 JAVA_KEYSTORE_PASSWORD=$RET
 if [ "$JAVA_KEYSTORE_PASSWORD" = "" ] ;then
     db_get dataone-cn-portal/cn.keystore.password
-    $JAVA_KEYSTORE_PASSWORD = $RET
+    JAVA_KEYSTORE_PASSWORD = $RET
     db_reset dataone-cn-portal/cn.keystore.password
 fi
-sed -i.bak  's/\(password=")JAVA_KEYSTORE_PASSWORD\1'${JAVA_KEYSTORE_PASSWORD}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
+sed -i.bak  's/\(password=\"\)JAVA_KEYSTORE_PASSWORD/\1'${JAVA_KEYSTORE_PASSWORD}'/;' ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml
 
 
 
