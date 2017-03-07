@@ -261,6 +261,10 @@ sed -i.bak --regexp-extended  "s/(orcid\.client\.secret=).*/\1${ORCID_CLIENT_SEC
 db_reset dataone-cn-portal/orcid.client.id  # clear the cached orcid id
 db_reset dataone-cn-portal/orcid.client.secret  # clear the cached orcid secret
 
+## make client.xml and portal.property and backup file only readable by the owner
+chmod 600 ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml*
+chmod 600 ${TOMCAT_HOME}/webapps/portal/WEB-INF/portal.properties*
+
 ###############################################################################
 # Configure Tomcat
 ###############################################################################
