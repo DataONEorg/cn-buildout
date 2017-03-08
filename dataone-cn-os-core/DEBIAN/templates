@@ -171,5 +171,3 @@ Description: Is this the first CN in the environment to be deployed?
  replication.
 Default: false
 Type: boolean
-
-
