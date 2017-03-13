@@ -283,7 +283,7 @@ if [ ! -d ${VAR_DATAONE}/portal/storage ]; then
   mkdir ${VAR_DATAONE}/portal/storage
   chown ${TOMCAT_USER}:${TOMCAT_USER} ${VAR_DATAONE}/portal/storage
   chmod 700 ${VAR_DATAONE}/portal/storage
-  setfacl -d -m u::rw ${VAR_DATAONE}/portal/storage
+  setfacl -d -m u::rwx ${VAR_DATAONE}/portal/storage
 fi
 
 ###############################################################################
