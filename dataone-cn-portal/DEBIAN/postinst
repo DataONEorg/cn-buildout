@@ -58,6 +58,8 @@ SCRIPT_DIR=${SOURCE_DIR}/debian
 
 D1_CONF=/etc/dataone
 
+VAR_DATAONE=/var/dataone
+
 
 ###############################################################################
 # Set up hazelcast configuration
@@ -264,6 +266,25 @@ db_reset dataone-cn-portal/orcid.client.secret  # clear the cached orcid secret
 ## make client.xml and portal.property and backup file only readable by the owner
 chmod 600 ${TOMCAT_HOME}/webapps/portal/WEB-INF/client.xml*
 chmod 600 ${TOMCAT_HOME}/webapps/portal/WEB-INF/portal.properties*
+
+####################################################################################
+# Create the /var/dataone/portal/storage directory as the asset file system storage
+####################################################################################
+if [ ! -d ${VAR_DATAONE} ]; then
+	mkdir ${VAR_DATAONE}
+fi 
+
+if [ ! -d ${VAR_DATAONE}/portal ]; then
+  mkdir ${VAR_DATAONE}/portal
+  chown ${TOMCAT_USER}:${TOMCAT_USER} ${VAR_DATAONE}/portal
+fi 
+
+if [ ! -d ${VAR_DATAONE}/portal/storage ]; then
+  mkdir ${VAR_DATAONE}/portal/storage
+  chown ${TOMCAT_USER}:${TOMCAT_USER} ${VAR_DATAONE}/portal/storage
+  chmod 700 ${VAR_DATAONE}/portal/storage
+  setfacl -d -m u::rw ${VAR_DATAONE}/portal/storage
+fi
 
 ###############################################################################
 # Configure Tomcat
