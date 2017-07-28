@@ -201,7 +201,9 @@
 		<constructor-arg value="${solr.index.uri}"/>
 	</bean>
 	
-    <bean id="httpConnectionManager" class="org.apache.http.impl.conn.SingleClientConnManager"/>
+    <!--<bean id="httpConnectionManager" class="org.apache.http.impl.conn.SingleClientConnManager"/> -->
+    <bean id="httpConnectionManager" class="org.apache.http.impl.conn.PoolingClientConnectionManager"  p:defaultMaxPerRoute="12" />
+    
     
     <bean id="httpClient" class="org.apache.http.impl.client.DefaultHttpClient">
     	<constructor-arg ref="httpConnectionManager"/>
@@ -211,8 +213,8 @@
     	p:connectTimeout="5000" >
     	<constructor-arg ref="httpClient" />
     </bean>
-
-	<bean id="httpService" class="org.dataone.cn.indexer.solrhttp.HTTPService">
+		
+	<bean id="d1IndexerSolrClient" class="org.dataone.cn.indexer.solrhttp.HTTPService">
 		<constructor-arg ref="httpClientFactory" />
 		<property name="solrSchemaPath" value="${solr.schema.path}" />
 		<property name="solrIndexUri" value="${solr.index.uri}" />
