@@ -23,6 +23,7 @@ rm -f /etc/dataone/index/jdbc.properties
 rm -f /etc/dataone/index/log4j-generator.properties
 rm -f /etc/dataone/index/log4j-processor.properties
 rm -f /etc/dataone/index/solr.properties
+rm -f /etc/dataone/index/messaging.properties
 
 #rm -rf /var/log/dataone/index
 
