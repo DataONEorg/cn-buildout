@@ -49,9 +49,11 @@ SOLR_USER=tomcat7
 SOLR_ROOT=/var/solr
 SOLR_HOME=${SOLR_ROOT}/server/solr
 SEARCH_CONFIGS_DIR=${SOLR_HOME}/configsets/dataone_search_configs/
+RELATIONSHIPS_CONFIGS_DIR=${SOLR_HOME}/configsets/dataone_relationships_configs/
 EVENT_LOG_CONFIGS_DIR=${SOLR_HOME}/configsets/dataone_event_log_configs/
 
 SEARCH_CORE_NAME=search_core
+RELATIONSHIPS_CORE_NAME=relationships_core
 EVENT_LOG_CORE_NAME=event_core
 
 log "start"
@@ -93,6 +95,23 @@ if (cp /usr/share/dataone-cn-solr/debian/queryFieldDescriptions.properties /etc/
     log "cp /usr/share/dataone-cn-solr/debian/queryFieldDescriptions.properties succeeded"
 fi
 
+
+# Copy relationships core configuration
+if [ ! -d "$RELATIONSHIPS_CONFIGS_DIR" ]; then
+	FRESH_RELATIONSHIPS_CORE_INSTALL="true"
+	mkdir ${RELATIONSHIPS_CONFIGS_DIR}
+fi
+
+cp -rf /usr/share/dataone-cn-solr/debian/dataone_relationships_configs/* ${RELATIONSHIPS_CONFIGS_DIR}
+chown -R ${SOLR_USER}:${SOLR_USER} ${RELATIONSHIPS_CONFIGS_DIR}
+
+# probably not needed
+#cp /usr/share/dataone-cn-solr/debian/dataone_relationships_configs/conf/schema.xml /etc/dataone/index/relationships_schema.xml
+#chown ${SOLR_USER}:${SOLR_USER} /etc/dataone/index/relationships_schema.xml
+
+
+
+
 ##### Configure log output directory if not there
 if [ ! -d /var/log/dataone/cn ]
 then
@@ -111,6 +130,12 @@ if ( cp /usr/share/dataone-cn-solr/debian/server_configs/event_log_proxy.conf /e
     a2enconf event_log_proxy
     log "cp /usr/share/dataone-cn-solr/debian/server_configs/event_log_proxy.conf succeeded"
 fi
+
+if ( cp /usr/share/dataone-cn-solr/debian/server_configs/relationships_proxy.conf /etc/apache2/conf-available >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
+    a2enconf relationships_proxy
+    log "cp /usr/share/dataone-cn-solr/debian/server_configs/relationships_proxy.conf succeeded"
+fi
+
 
 if ( cp /usr/share/dataone-cn-solr/debian/server_configs/search_proxy.conf /etc/apache2/conf-available >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1 ); then
     a2enconf search_proxy
@@ -142,6 +167,11 @@ fi
 if [ -e /etc/apache2/conf-enabled/rewrite_cnsearch.conf ]; then
   a2disconf rewrite_cnsearch
 	rm /etc/apache2/conf-available/rewrite_cnsearch.conf
+fi
+
+if [ -e /etc/apache2/conf-enabled/rewrite_cnrelationships.conf ]; then
+  a2disconf rewrite_cnsearch
+	rm /etc/apache2/conf-available/rewrite_cnrelationships.conf
 fi
 
 /etc/init.d/apache2 restart
@@ -181,6 +211,21 @@ else
 			log "ERROR creating solr core $SEARCH_CORE_NAME failed"
 	fi
 fi
+
+
+if [ -z "$FRESH_RELATIONSHIPS_CORE_INSTALL" ]; then
+    if ! (${SOLR_ROOT}/server/scripts/cloud-scripts/zkcli.sh -cmd upconfig -z localhost:2181 -confname ${RELATIONSHIPS_CORE_NAME} -confdir ${RELATIONSHIPS_CONFIGS_DIR}conf/ >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+		log "UPDATE of $RELATIONSHIPS_CORE_NAME config failed"
+	fi
+	if ! (curl "http://localhost:8983/solr/admin/collections?action=RELOAD&name=$RELATIONSHIPS_CORE_NAME" >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+		log "RELOAD of $RELATIONSHIPS_CORE_NAME failed"
+	fi
+else
+	if ! (${SOLR_ROOT}/bin/solr create -c ${RELATIONSHIPS_CORE_NAME} -d ${RELATIONSHIPS_CONFIGS_DIR} -rf 3 >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
+		log "ERROR creating solr core $RELATIONSHIPS_CORE_NAME failed"
+	fi
+fi
+
 
 if [ -z "$FRESH_EVENT_LOG_CORE_INSTALL" ]; then
     if ! (${SOLR_ROOT}/server/scripts/cloud-scripts/zkcli.sh -cmd upconfig -z localhost:2181 -confname ${EVENT_LOG_CORE_NAME} -confdir ${EVENT_LOG_CONFIGS_DIR}conf/ >> ${D1_LOG_DIR}/${D1_LOG_FILE} 2>&1); then
