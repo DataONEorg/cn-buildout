@@ -15,6 +15,8 @@ declare -a CONFIG_INFO
 CONFIG_INFO[0]="synchronization.properties;Synchronization.active"
 CONFIG_INFO[1]="replication.properties;Replication.active"
 CONFIG_INFO[2]="logAggregation.properties;LogAggregator.active"
+CONFIG_INFO[3]="replication.properties;Replication.audit.cn.active"
+CONFIG_INFO[4]="replication.properties;Replication.audit.mn.active"
 
 function report_services_state() {
   for CF in ${CONFIG_INFO[@]}; do
