@@ -24,7 +24,7 @@
 # Short-Description:	Apache ZooKeeper server
 ### END INIT INFO
 
-ZK_USER=tomcat7
+ZK_USER=tomcat8
 
 set -e
 
