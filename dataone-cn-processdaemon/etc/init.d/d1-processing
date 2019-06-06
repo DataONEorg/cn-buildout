@@ -35,7 +35,7 @@ DAEMON="/usr/bin/jsvc"
 DAEMON_HOME="/usr/share/java"
 LOG_DIR="/var/log/dataone/daemon"
 CLASSPATH="$DAEMON_HOME/commons-daemon.jar:$DAEMON_HOME/d1_process_daemon.jar"
-USER_NAME="tomcat7"
+USER_NAME="tomcat8"
 JVM_TMP="/tmp/$NAME-temp"
 BOOTSTRAP_CLASS="org.dataone.cn.batch.daemon.SchedulerDaemon"
 OUTPUT_FILE="$LOG_DIR/d1-processing-jsvc.log"
@@ -75,15 +75,15 @@ if [ -r /etc/default/locale ]; then
 fi
 
 . /lib/lsb/init-functions
-. /etc/default/rcS
+#. /etc/default/rcS
 RUN_PID="/var/run/$NAME.pid"
 
 case  $1  in 
 	  "start")
-		if (( $(ulimit -n) < 16384 )); then
-		  ulimit -Hn 16384
-  		ulimit -Sn 16384
-		fi
+		#if (( $(ulimit -n) < 16384 )); then
+		  #ulimit -Hn 16384
+  		#ulimit -Sn 16384
+		#fi
 		if [ -z "$JAVA_HOME" ]; then
 			log_failure_msg "no JDK found - please set JAVA_HOME"
 			exit 1
@@ -163,8 +163,8 @@ case  $1  in
 		fi
 		;;
   "restart"|"force-reload")
-  	  ulimit -Hn 16384
-  	  ulimit -Sn 16384
+  	  #ulimit -Hn 16384
+  	  #ulimit -Sn 16384
       if start-stop-daemon --test --stop --pidfile "$RUN_PID" \
 		--user $USER_NAME --startas "$JAVA_HOME/bin/java" \
 		>/dev/null; then
