@@ -223,12 +223,12 @@
        
 	<bean id="d1IndexerSolrClient" class="org.dataone.cn.indexer.solrhttp.SolrJClient">
 		<constructor-arg ref="solrClient" />
-	<!--<bean id="httpService" class="org.dataone.cn.indexer.solrhttp.HTTPService">
-		<constructor-arg ref="httpClientFactory" /> -->
 		<property name="solrSchemaPath" value="${solr.schema.path}" />
 		<property name="solrIndexUri" value="${solr.index.uri}" />
 	</bean>
 	
+	<!--<bean id="httpService" class="org.dataone.cn.indexer.solrhttp.HTTPService">
+        <constructor-arg ref="httpClientFactory" /> -->
     
 <!--     <bean id="solrClientBuilder" class="org.apache.solr.client.solrj.impl.HttpSolrClient.Builder"> -->
 <!--         <constructor-arg type = "java.lang.String" value = "${solr.index.uri}"/> -->
