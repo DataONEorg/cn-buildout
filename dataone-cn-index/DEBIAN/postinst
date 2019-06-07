@@ -1,6 +1,13 @@
 #!/bin/bash
-
-LONG_DATE=`date +%Y%m%d%H%M%S`
+#
+# 1. setup /etc/dataone/index
+# 2. Install d1_index_task_generator, d1_index_task_processor and 
+#    d1_index_build_tool jars
+# 3. Setup postgres d1-index-queue database
+#
+LONG_DATE=$(date +%Y%m%d%H%M%S)
+VAR_DATAONE=/var/dataone
+TOMCAT_USER=tomcat8
 VAR_DATAONE=/var/dataone
 TOMCAT_USER=tomcat7
 
@@ -24,6 +31,7 @@ cp /usr/share/dataone-cn-index/debian/jdbc.properties /etc/dataone/index/jdbc.pr
 cp /usr/share/dataone-cn-index/debian/solr.properties /etc/dataone/index/solr.properties
 cp /usr/share/dataone-cn-index/debian/cn-index-processor.properties /etc/dataone/index/cn-index-processor.properties
 cp /usr/share/dataone-cn-index/debian/messaging.properties /etc/dataone/index/messaging.properties
+cp /usr/share/dataone-cn-index/debian/cn-index-generator.properties /etc/dataone/index/cn-index-generator.properties
 cp -rf /usr/share/dataone-cn-index/debian/index-generation-context /etc/dataone/index/
 
 
@@ -67,13 +75,12 @@ fi
 
 if [ ! -d ${VAR_DATAONE}/index ]; then
   mkdir ${VAR_DATAONE}/index
-  chown ${TOMCAT_USER}:${TOMCAT_USER} ${VAR_DATAONE}/index
 fi 
 
 if [ ! -d ${VAR_DATAONE}/index/tdb ]; then
   mkdir ${VAR_DATAONE}/index/tdb
-  chown ${TOMCAT_USER}:${TOMCAT_USER} ${VAR_DATAONE}/index/tdb
 fi
+chown -R ${TOMCAT_USER}:${TOMCAT_USER} ${VAR_DATAONE}/index
 
 
 ###############################################################################
@@ -81,10 +88,10 @@ fi
 ###############################################################################
 PG=postgresql
 PG_USER=postgres
-if [ -e "/etc/postgresql/9.3/main" ]; then
-    PG_CONF=/etc/postgresql/9.3/main
+if [ -e "/etc/postgresql/10/main" ]; then
+    PG_CONF=/etc/postgresql/10/main
 else
-    PG_CONF=/etc/postgresql/9.1/main
+    PG_CONF=/etc/postgresql/9.3/main
 fi
 
 INDEX_DB=d1-index-queue
@@ -122,12 +129,12 @@ if su - $PG_USER -c "psql -t -c '\du'| cut -d \| -f 1 | grep -qw $INDEX_DB_USER"
   echo "User $INDEX_DB_USER exists and we will not create it"
 else
   echo "User $INDEX_DB_USER does not exist and we will create it"
-  if ! (su ${PG_USER} -c "psql -c \"CREATE USER ${INDEX_DB_USER} WITH UNENCRYPTED PASSWORD '${INDEX_DB_PASS}'\""); then
+  if ! (su ${PG_USER} -c "psql -c \"CREATE USER ${INDEX_DB_USER} WITH PASSWORD '${INDEX_DB_PASS}'\""); then
       echo "Unable to CREATE USER ${INDEX_DB_USER}"
       exit 1
   fi
 fi
-#su ${PG_USER} -c "psql -c \"CREATE USER ${INDEX_DB_USER} WITH UNENCRYPTED PASSWORD '${INDEX_DB_PASS}'\""
+#su ${PG_USER} -c "psql -c \"CREATE USER ${INDEX_DB_USER} WITH PASSWORD '${INDEX_DB_PASS}'\""
 
 
 ## Restart the postgres db
