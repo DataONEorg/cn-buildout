@@ -127,6 +127,7 @@ This schema is copied into the dataone-cn-index buildout for deployment on cn no
    -->   
    
         <field name="id"              	type="string"   indexed="true" stored="true" multiValued="false"/>
+        <field name="identifier"        type="text_general" indexed="true" stored="true"/>
         <field name="seriesId"				type="string"	indexed="true" stored="true" multiValued="false" />
         <field name="fileName"			type="string"	indexed="true"	stored="true"	multiValued="false" />
         <field name="mediaType"			type="string"	indexed="true"	stored="true"	multiValued="false" />
@@ -193,7 +194,7 @@ This schema is copied into the dataone-cn-index buildout for deployment on cn no
 		<field name="investigatorText" 	type="text_general" 	indexed="true" stored="false" multiValued="true"/>
         <field name="ogcUrl" 			type="text_general" 	indexed="false" stored="true"/>
 
-        <field name="identifier" 		type="text_general" indexed="true" stored="true"/>
+
         <field name="LTERSite"	 		type="string" 	indexed="true" stored="true"/>
         <field name="origin" 			type="string" 	indexed="true" stored="true" multiValued="true"/>
         <field name="originText" 		type="text_general" 	indexed="true" stored="false" multiValued="true"/>
@@ -404,8 +405,10 @@ This schema is copied into the dataone-cn-index buildout for deployment on cn no
         is added to the index.  It's used either to index the same field differently,
         or to add multiple fields to the same field for easier/faster searching.  -->
 
+<!-- because of stub records for relationships, we can't populate identifier field from id,
+     (some will be seriesId)
     <copyField source="id" dest="identifier"/>
-
+-->
     <copyField source="title" dest="titlestr"/>
 
     <copyField source="origin" dest="originText"/>

@@ -50,7 +50,7 @@ This schema is copied into the dataone-cn-index buildout for deployment on cn no
     that avoids logging every request
 -->
 
-<schema name="dataone" version="1.6">
+<schema name="search-rels" version="1.5">
   <!-- attribute "name" is the name of this schema and is only used for display purposes.
        version="x.y" is Solr's version number for the schema syntax and 
        semantics.  It should not normally be changed by applications.
@@ -66,7 +66,6 @@ This schema is copied into the dataone-cn-index buildout for deployment on cn no
             to off for version >= 1.4
        1.5: omitNorms defaults to true for primitive field types 
             (int, float, boolean, string...)
-       1.6: adding relationships core     
      -->
 
 
