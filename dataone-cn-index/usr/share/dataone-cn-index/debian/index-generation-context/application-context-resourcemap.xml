@@ -32,6 +32,4 @@
      	</property>
 	</bean>
 
-	<bean id="resourceMapSubprocessorV2" class="org.dataone.cn.indexer.parser.ResourceMapSubprocessorV2">
-
 </beans>
