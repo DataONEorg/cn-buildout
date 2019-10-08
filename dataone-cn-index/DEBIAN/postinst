@@ -32,6 +32,7 @@ cp /usr/share/dataone-cn-index/debian/solr.properties /etc/dataone/index/solr.pr
 cp /usr/share/dataone-cn-index/debian/cn-index-processor.properties /etc/dataone/index/cn-index-processor.properties
 cp /usr/share/dataone-cn-index/debian/messaging.properties /etc/dataone/index/messaging.properties
 cp /usr/share/dataone-cn-index/debian/cn-index-generator.properties /etc/dataone/index/cn-index-generator.properties
+cp /usr/share/dataone-cn-index/debian/cn-index-tool.properties /etc/dataone/index/cn-index-tool.properties
 cp -rf /usr/share/dataone-cn-index/debian/index-generation-context /etc/dataone/index/
 
 
