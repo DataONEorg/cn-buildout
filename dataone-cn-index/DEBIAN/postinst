@@ -8,8 +8,6 @@
 LONG_DATE=$(date +%Y%m%d%H%M%S)
 VAR_DATAONE=/var/dataone
 TOMCAT_USER=tomcat8
-VAR_DATAONE=/var/dataone
-TOMCAT_USER=tomcat7
 
 chmod +x /etc/init.d/d1-index-task-generator
 chmod +x /etc/init.d/d1-index-task-processor
@@ -23,16 +21,36 @@ if [ ! -d "/etc/dataone/index/solr" ]; then
   mkdir  /etc/dataone/index/solr
 fi
 
+
 #provide context properties files for postgres, log4j, solr location
+mv /etc/dataone/index/d1client.properties /etc/dataone/index/d1client.properties.bak
 cp /usr/share/dataone-cn-index/debian/d1client.properties /etc/dataone/index/d1client.properties
+
+mv /etc/dataone/index/log4j-generator.properties /etc/dataone/index/log4j-generator.properties.bak
 cp /usr/share/dataone-cn-index/debian/log4j-generator.properties /etc/dataone/index/log4j-generator.properties
+
+mv /etc/dataone/index/log4j-processor.properties /etc/dataone/index/log4j-processor.properties.bak
 cp /usr/share/dataone-cn-index/debian/log4j-processor.properties /etc/dataone/index/log4j-processor.properties
+
+mv /etc/dataone/index/jdbc.properties /etc/dataone/index/jdbc.properties.bak
 cp /usr/share/dataone-cn-index/debian/jdbc.properties /etc/dataone/index/jdbc.properties
+
+mv /etc/dataone/index/solr.properties /etc/dataone/index/solr.properties.bak
 cp /usr/share/dataone-cn-index/debian/solr.properties /etc/dataone/index/solr.properties
+
+mv /etc/dataone/index/cn-index-processor.properties /etc/dataone/index/cn-index-processor.properties.bak
 cp /usr/share/dataone-cn-index/debian/cn-index-processor.properties /etc/dataone/index/cn-index-processor.properties
+
+mv /etc/dataone/index/messaging.properties /etc/dataone/index/messaging.properties.bak
 cp /usr/share/dataone-cn-index/debian/messaging.properties /etc/dataone/index/messaging.properties
+
+mv /etc/dataone/index/cn-index-generator.properties /etc/dataone/index/cn-index-generator.properties.bak
 cp /usr/share/dataone-cn-index/debian/cn-index-generator.properties /etc/dataone/index/cn-index-generator.properties
+
+mv /etc/dataone/index/cn-index-tool.properties /etc/dataone/index/cn-index-tool.properties.bak
 cp /usr/share/dataone-cn-index/debian/cn-index-tool.properties /etc/dataone/index/cn-index-tool.properties
+
+mv /etc/dataone/index/index-generation-context /etc/dataone/index/index-generation-context.bak
 cp -rf /usr/share/dataone-cn-index/debian/index-generation-context /etc/dataone/index/
 
 
