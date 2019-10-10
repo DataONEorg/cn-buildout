@@ -50,6 +50,7 @@ cp /usr/share/dataone-cn-index/debian/cn-index-generator.properties /etc/dataone
 mv /etc/dataone/index/cn-index-tool.properties /etc/dataone/index/cn-index-tool.properties.bak
 cp /usr/share/dataone-cn-index/debian/cn-index-tool.properties /etc/dataone/index/cn-index-tool.properties
 
+rm -rf /etc/dataone/index/index-generation-context.bak
 mv /etc/dataone/index/index-generation-context /etc/dataone/index/index-generation-context.bak
 cp -rf /usr/share/dataone-cn-index/debian/index-generation-context /etc/dataone/index/
 
