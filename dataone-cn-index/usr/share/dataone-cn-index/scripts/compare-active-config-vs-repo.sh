@@ -14,3 +14,4 @@ for i in $( ls ${activeConfigs}); do
     curl ${repoUrl}/$i | diff -w - ${activeConfigs}/$i
 done
 
+echo "NOTE: this comparison does not catch missing deployed configuration files (configs only in the repo)"
